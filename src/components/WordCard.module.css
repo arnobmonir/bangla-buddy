@@ -85,6 +85,31 @@
   animation: textIn 0.5s var(--ease) 0.28s both;
 }
 
+.sentence .en {
+  text-transform: none;
+  font-size: clamp(1.55rem, 6.2vw, 2.6rem);
+  line-height: 1.25;
+  max-width: 18ch;
+  text-wrap: balance;
+}
+
+.sentence .bn {
+  font-size: clamp(1.35rem, 5.2vw, 2.15rem);
+  line-height: 1.35;
+  max-width: 16ch;
+  text-wrap: balance;
+}
+
+.sentence .roman {
+  font-size: 0.92rem;
+  max-width: 28ch;
+  line-height: 1.35;
+}
+
+.sentence .emoji {
+  font-size: clamp(3.2rem, 12vw, 5rem);
+}
+
 @keyframes popIn {
   from {
     opacity: 0;

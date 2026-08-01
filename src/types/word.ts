@@ -4,6 +4,7 @@ export type Word = {
   bn: string
   emoji?: string
   roman?: string
+  kind?: 'word' | 'sentence'
 }
 
 export type Category = {

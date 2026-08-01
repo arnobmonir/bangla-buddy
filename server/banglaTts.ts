@@ -183,7 +183,7 @@ export function parseTtsParams(searchParams: URLSearchParams):
   const rate = Number(searchParams.get('rate') ?? '0.85')
 
   if (!text) return { ok: false, status: 400, error: 'Missing text' }
-  if (text.length > 120) return { ok: false, status: 400, error: 'Text too long' }
+  if (text.length > 200) return { ok: false, status: 400, error: 'Text too long' }
   if (!ALLOWED_VOICES.has(voice)) {
     return { ok: false, status: 400, error: 'Unsupported voice' }
   }

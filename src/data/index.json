@@ -1,5 +1,14 @@
 [
   {
+    "id": "sentences",
+    "nameEn": "Sentences",
+    "nameBn": "বাক্য",
+    "color": "#5b8def",
+    "icon": "💬",
+    "wordCount": 114,
+    "file": "sentences.json"
+  },
+  {
     "id": "animals",
     "nameEn": "Animals",
     "nameBn": "প্রাণী",

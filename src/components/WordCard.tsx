@@ -11,10 +11,12 @@ type Props = {
 }
 
 export function WordCard({ word, categoryIcon, color, animateKey, showRoman }: Props) {
+  const isSentence = word.kind === 'sentence'
+
   return (
     <article
       key={animateKey}
-      className={styles.card}
+      className={`${styles.card}${isSentence ? ` ${styles.sentence}` : ''}`}
       style={{ '--cat-color': color } as CSSProperties}
       aria-live="polite"
     >
