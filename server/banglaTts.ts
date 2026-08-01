@@ -1,7 +1,5 @@
-import fs from 'node:fs'
-import os from 'node:os'
-import path from 'node:path'
-import { EdgeTTS } from 'node-edge-tts'
+import { createHash, randomBytes } from 'node:crypto'
+import WebSocket from 'ws'
 
 export const ALLOWED_VOICES = new Set([
   'bn-IN-TanishaaNeural',
@@ -10,36 +8,165 @@ export const ALLOWED_VOICES = new Set([
   'bn-BD-PradeepNeural',
 ])
 
+const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4'
+const CHROMIUM_FULL_VERSION = '143.0.3650.75'
+const WINDOWS_FILE_TIME_EPOCH = 11644473600n
+
+function generateSecMsGecToken() {
+  const ticks =
+    BigInt(Math.floor(Date.now() / 1000 + Number(WINDOWS_FILE_TIME_EPOCH))) *
+    10000000n
+  const roundedTicks = ticks - (ticks % 3000000000n)
+  const strToHash = `${roundedTicks}${TRUSTED_CLIENT_TOKEN}`
+  return createHash('sha256').update(strToHash, 'ascii').digest('hex').toUpperCase()
+}
+
 export function rateToEdge(rate: number): string {
-  // Map UI 0.6–1.2 → Edge rate percent around -25% … +10%
   const pct = Math.round((rate - 1) * 100)
   const clamped = Math.max(-40, Math.min(20, pct))
   return clamped >= 0 ? `+${clamped}%` : `${clamped}%`
 }
 
+function escapeXml(unsafe: string) {
+  return unsafe.replace(/[<>&"']/g, (c) => {
+    switch (c) {
+      case '<':
+        return '&lt;'
+      case '>':
+        return '&gt;'
+      case '&':
+        return '&amp;'
+      case '"':
+        return '&quot;'
+      case "'":
+        return '&apos;'
+      default:
+        return c
+    }
+  })
+}
+
+/**
+ * Synthesize Bangla speech via Microsoft Edge read-aloud WebSocket.
+ * Returns MP3 bytes in memory (Vercel-friendly, no temp files).
+ */
 export async function synthesizeBangla(
   text: string,
   voice: string,
   rate: number,
 ): Promise<Buffer> {
-  const tmp = path.join(
-    os.tmpdir(),
-    `bangla-buddy-${Date.now()}-${Math.random().toString(36).slice(2)}.mp3`,
-  )
-  const tts = new EdgeTTS({
-    voice,
-    lang: voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN',
-    outputFormat: 'audio-24khz-48kbitrate-mono-mp3',
-    rate: rateToEdge(rate),
-    timeout: 20000,
+  const lang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
+  const edgeRate = rateToEdge(rate)
+  const chromeMajor = CHROMIUM_FULL_VERSION.split('.')[0]
+  const wsUrl =
+    `wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1` +
+    `?TrustedClientToken=${TRUSTED_CLIENT_TOKEN}` +
+    `&Sec-MS-GEC=${generateSecMsGecToken()}` +
+    `&Sec-MS-GEC-Version=1-${CHROMIUM_FULL_VERSION}`
+
+  const chunks: Buffer[] = []
+
+  await new Promise<void>((resolve, reject) => {
+    const ws = new WebSocket(wsUrl, {
+      host: 'speech.platform.bing.com',
+      origin: 'chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold',
+      headers: {
+        Pragma: 'no-cache',
+        'Cache-Control': 'no-cache',
+        'User-Agent': `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${chromeMajor}.0.0.0 Safari/537.36 Edg/${chromeMajor}.0.0.0`,
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    })
+
+    const timeout = setTimeout(() => {
+      try {
+        ws.close()
+      } catch {
+        // ignore
+      }
+      reject(new Error('TTS timed out'))
+    }, 15000)
+
+    const fail = (err: Error) => {
+      clearTimeout(timeout)
+      try {
+        ws.close()
+      } catch {
+        // ignore
+      }
+      reject(err)
+    }
+
+    ws.on('open', () => {
+      ws.send(
+        `Content-Type:application/json; charset=utf-8\r\nPath:speech.config\r\n\r\n` +
+          JSON.stringify({
+            context: {
+              synthesis: {
+                audio: {
+                  metadataoptions: {
+                    sentenceBoundaryEnabled: 'false',
+                    wordBoundaryEnabled: 'false',
+                  },
+                  outputFormat: 'audio-24khz-48kbitrate-mono-mp3',
+                },
+              },
+            },
+          }),
+      )
+
+      const requestId = randomBytes(16).toString('hex')
+      ws.send(
+        `X-RequestId:${requestId}\r\nContent-Type:application/ssml+xml\r\nPath:ssml\r\n\r\n` +
+          `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="${lang}">` +
+          `<voice name="${voice}">` +
+          `<prosody rate="${edgeRate}" pitch="default" volume="default">` +
+          `${escapeXml(text)}` +
+          `</prosody></voice></speak>`,
+      )
+    })
+
+    ws.on('message', (data, isBinary) => {
+      if (isBinary) {
+        const buf = Buffer.isBuffer(data) ? data : Buffer.from(data as ArrayBuffer)
+        const separator = 'Path:audio\r\n'
+        const index = buf.indexOf(separator)
+        if (index >= 0) {
+          chunks.push(buf.subarray(index + separator.length))
+        }
+        return
+      }
+
+      const message = data.toString()
+      if (message.includes('Path:turn.end')) {
+        clearTimeout(timeout)
+        try {
+          ws.close()
+        } catch {
+          // ignore
+        }
+        resolve()
+      }
+    })
+
+    ws.on('error', (err) => {
+      fail(err instanceof Error ? err : new Error(String(err)))
+    })
+
+    ws.on('close', () => {
+      // If closed before turn.end with some audio, still resolve
+      if (chunks.length > 0) {
+        clearTimeout(timeout)
+        resolve()
+      }
+    })
   })
 
-  try {
-    await tts.ttsPromise(text, tmp)
-    return fs.readFileSync(tmp)
-  } finally {
-    fs.promises.unlink(tmp).catch(() => undefined)
+  if (chunks.length === 0) {
+    throw new Error('TTS returned no audio')
   }
+  return Buffer.concat(chunks)
 }
 
 export type TtsRequestParams = {
@@ -48,14 +175,9 @@ export type TtsRequestParams = {
   rate: number
 }
 
-export function parseTtsParams(searchParams: URLSearchParams): {
-  ok: true
-  value: TtsRequestParams
-} | {
-  ok: false
-  status: number
-  error: string
-} {
+export function parseTtsParams(searchParams: URLSearchParams):
+  | { ok: true; value: TtsRequestParams }
+  | { ok: false; status: number; error: string } {
   const text = (searchParams.get('text') ?? '').trim()
   const voice = searchParams.get('voice') ?? 'bn-IN-TanishaaNeural'
   const rate = Number(searchParams.get('rate') ?? '0.85')

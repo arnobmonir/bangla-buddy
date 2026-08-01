@@ -3,25 +3,26 @@ import { parseTtsParams, synthesizeBangla } from '../server/banglaTts'
 
 export const config = {
   maxDuration: 20,
+  runtime: 'nodejs',
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  res.setHeader('Access-Control-Allow-Origin', '*')
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
-
-  if (req.method === 'OPTIONS') {
-    res.status(204).end()
-    return
-  }
-
-  if (req.method !== 'GET') {
-    res.status(405).json({ error: 'Method not allowed' })
-    return
-  }
-
   try {
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
+
+    if (req.method === 'OPTIONS') {
+      res.status(204).end()
+      return
+    }
+
+    if (req.method !== 'GET') {
+      res.status(405).json({ error: 'Method not allowed' })
+      return
+    }
+
     const params = new URLSearchParams()
-    for (const [key, value] of Object.entries(req.query)) {
+    for (const [key, value] of Object.entries(req.query ?? {})) {
       if (typeof value === 'string') params.set(key, value)
       else if (Array.isArray(value) && typeof value[0] === 'string') {
         params.set(key, value[0])
@@ -43,9 +44,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     res.statusCode = 200
     res.setHeader('Content-Type', 'audio/mpeg')
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
-    res.send(audio)
+    res.end(audio)
   } catch (err) {
     const message = err instanceof Error ? err.message : 'TTS failed'
-    res.status(502).json({ error: message })
+    console.error('[api/tts]', message, err)
+    if (!res.headersSent) {
+      res.status(502).json({ error: message })
+    }
   }
 }
