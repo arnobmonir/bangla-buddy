@@ -1,5 +1,5 @@
 {
-  "name": "baby-bangla-learner",
+  "name": "bangla-buddy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,11 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "import-words": "node scripts/csv-to-json.mjs",
+    "expand-words": "node scripts/expand-to-2k.mjs",
     "generate-audio": "node scripts/generate-bangla-audio.mjs"
   },
   "dependencies": {
+    "node-edge-tts": "^1.2.10",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
@@ -19,8 +21,8 @@
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "@vercel/node": "^5.3.24",
     "@vitejs/plugin-react": "^6.0.4",
-    "node-edge-tts": "^1.2.10",
     "oxlint": "^1.75.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
