@@ -40,6 +40,11 @@ After deploy, Bangla audio should load from:
 
 `https://<your-app>.vercel.app/api/tts?text=...&voice=bn-BD-NabanitaNeural&rate=0.85`
 
+### Share preview + PWA
+
+- Open Graph / Twitter cards use `/og.jpg` for link previews when sharing.
+- The app is a Progressive Web App: install from the browser (“Add to Home Screen” / Install), and the UI + word data work offline after the first visit. Neural Bangla TTS still needs network (cached clips in IndexedDB replay offline once heard).
+
 ## Optional: pre-generate offline clips
 
 ```bash
