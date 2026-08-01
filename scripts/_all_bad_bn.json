@@ -1,6 +1,72 @@
 [
   {
     "cat": "animals",
+    "en": "macaw",
+    "bn": "ম্যাকaw",
+    "roman": "makaw"
+  },
+  {
+    "cat": "animals",
+    "en": "squid",
+    "bn": "স্কuid",
+    "roman": "skuid"
+  },
+  {
+    "cat": "animals",
+    "en": "starfish",
+    "bn": "তaramachh",
+    "roman": "taramachh"
+  },
+  {
+    "cat": "animals",
+    "en": "stingray",
+    "bn": "শঙkuch",
+    "roman": "shonkuch"
+  },
+  {
+    "cat": "animals",
+    "en": "catfish",
+    "bn": "মagur",
+    "roman": "magur"
+  },
+  {
+    "cat": "animals",
+    "en": "hilsa fish",
+    "bn": "ইlish",
+    "roman": "ilish"
+  },
+  {
+    "cat": "animals",
+    "en": "rohu fish",
+    "bn": "রui",
+    "roman": "rui"
+  },
+  {
+    "cat": "animals",
+    "en": "katla fish",
+    "bn": "কatla",
+    "roman": "katla"
+  },
+  {
+    "cat": "animals",
+    "en": "salmon",
+    "bn": "সalmon",
+    "roman": "salmon"
+  },
+  {
+    "cat": "animals",
+    "en": "lizard",
+    "bn": "টিকটiki",
+    "roman": "tiktiki"
+  },
+  {
+    "cat": "animals",
+    "en": "gecko",
+    "bn": "টিকটiki",
+    "roman": "tiktiki"
+  },
+  {
+    "cat": "animals",
     "en": "python snake",
     "bn": "ajgar",
     "roman": "ajogor"
@@ -13,9 +79,27 @@
   },
   {
     "cat": "animals",
+    "en": "toad",
+    "bn": "বeng",
+    "roman": "byang"
+  },
+  {
+    "cat": "animals",
     "en": "dragonfly",
     "bn": "dragonfly",
     "roman": "dragonfly"
+  },
+  {
+    "cat": "animals",
+    "en": "grasshopper",
+    "bn": "ঘাসফড়ing",
+    "roman": "ghasforing"
+  },
+  {
+    "cat": "animals",
+    "en": "cockroach",
+    "bn": "তelapoka",
+    "roman": "telapoka"
   },
   {
     "cat": "animals",
@@ -28,6 +112,12 @@
     "en": "caterpillar",
     "bn": "caterpillar",
     "roman": "caterpillar"
+  },
+  {
+    "cat": "animals",
+    "en": "worm",
+    "bn": "কrmo",
+    "roman": "kencho"
   },
   {
     "cat": "animals",
@@ -64,6 +154,18 @@
     "en": "hornet",
     "bn": "hornet",
     "roman": "bhoral"
+  },
+  {
+    "cat": "animals",
+    "en": "fawn",
+    "bn": "হরin chhana",
+    "roman": "horin chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "kitten",
+    "bn": "বিড়al chhana",
+    "roman": "biṛal chhana"
   },
   {
     "cat": "animals",
@@ -142,6 +244,12 @@
     "en": "pangolin",
     "bn": "bonrui",
     "roman": "bonrui"
+  },
+  {
+    "cat": "animals",
+    "en": "robin bird",
+    "bn": "রবin",
+    "roman": "robin"
   },
   {
     "cat": "animals",
@@ -504,6 +612,402 @@
     "roman": "moumachir jhund"
   },
   {
+    "cat": "colors",
+    "en": "mint green",
+    "bn": "পudina sobuj",
+    "roman": "pudina sobuj"
+  },
+  {
+    "cat": "colors",
+    "en": "charcoal",
+    "bn": "কoyla",
+    "roman": "koyla"
+  },
+  {
+    "cat": "colors",
+    "en": "neon",
+    "bn": "নeon",
+    "roman": "neon"
+  },
+  {
+    "cat": "family",
+    "en": "grandson",
+    "bn": "নati",
+    "roman": "nati"
+  },
+  {
+    "cat": "family",
+    "en": "granddaughter",
+    "bn": "নati",
+    "roman": "nati"
+  },
+  {
+    "cat": "family",
+    "en": "carpenter",
+    "bn": "ঠেকua",
+    "roman": "thekua"
+  },
+  {
+    "cat": "family",
+    "en": "guard",
+    "bn": "পahara",
+    "roman": "pahara"
+  },
+  {
+    "cat": "family",
+    "en": "cobbler",
+    "bn": "মোচi",
+    "roman": "mochi"
+  },
+  {
+    "cat": "family",
+    "en": "shepherd",
+    "bn": "গopaal",
+    "roman": "gopal"
+  },
+  {
+    "cat": "family",
+    "en": "grandchild",
+    "bn": "নati",
+    "roman": "nati"
+  },
+  {
+    "cat": "family",
+    "en": "cowherd",
+    "bn": "গopaal",
+    "roman": "gopal"
+  },
+  {
+    "cat": "family",
+    "en": "photographer",
+    "bn": "ফotog",
+    "roman": "photog"
+  },
+  {
+    "cat": "family",
+    "en": "journalist",
+    "bn": "সা�journalist",
+    "roman": "journalist"
+  },
+  {
+    "cat": "food",
+    "en": "samosa",
+    "bn": "সমosa",
+    "roman": "samosa"
+  },
+  {
+    "cat": "food",
+    "en": "fuchka",
+    "bn": "ফuchka",
+    "roman": "fuchka"
+  },
+  {
+    "cat": "food",
+    "en": "halim",
+    "bn": "হaleem",
+    "roman": "haleem"
+  },
+  {
+    "cat": "food",
+    "en": "borhani",
+    "bn": "বorhani",
+    "roman": "borhani"
+  },
+  {
+    "cat": "food",
+    "en": "lassi",
+    "bn": "লassi",
+    "roman": "lassi"
+  },
+  {
+    "cat": "food",
+    "en": "dragon fruit",
+    "bn": "ড্রagon fruit",
+    "roman": "dragon fruit"
+  },
+  {
+    "cat": "food",
+    "en": "strawberry",
+    "bn": "স্টrawberry",
+    "roman": "strawberry"
+  },
+  {
+    "cat": "food",
+    "en": "pear",
+    "bn": "নashpati",
+    "roman": "nashpati"
+  },
+  {
+    "cat": "food",
+    "en": "ghee",
+    "bn": "ঘee",
+    "roman": "ghee"
+  },
+  {
+    "cat": "food",
+    "en": "noodles",
+    "bn": "নoodles",
+    "roman": "noodles"
+  },
+  {
+    "cat": "food",
+    "en": "pizza",
+    "bn": "পizza",
+    "roman": "pizza"
+  },
+  {
+    "cat": "food",
+    "en": "burger",
+    "bn": "বurger",
+    "roman": "burger"
+  },
+  {
+    "cat": "food",
+    "en": "french fries",
+    "bn": "ফrench fries",
+    "roman": "french fries"
+  },
+  {
+    "cat": "food",
+    "en": "popcorn",
+    "bn": "পopcorn",
+    "roman": "popcorn"
+  },
+  {
+    "cat": "food",
+    "en": "peanut",
+    "bn": "বadam",
+    "roman": "badam"
+  },
+  {
+    "cat": "food",
+    "en": "pickle",
+    "bn": "আchar",
+    "roman": "achar"
+  },
+  {
+    "cat": "food",
+    "en": "chutney",
+    "bn": "চatni",
+    "roman": "chatni"
+  },
+  {
+    "cat": "food",
+    "en": "turmeric",
+    "bn": "হolud",
+    "roman": "holud"
+  },
+  {
+    "cat": "food",
+    "en": "ginger",
+    "bn": "আda",
+    "roman": "ada"
+  },
+  {
+    "cat": "food",
+    "en": "cauliflower",
+    "bn": "ফulkopi",
+    "roman": "phulkopi"
+  },
+  {
+    "cat": "food",
+    "en": "cabbage",
+    "bn": "বandhakopi",
+    "roman": "bandhakopi"
+  },
+  {
+    "cat": "food",
+    "en": "peas",
+    "bn": "মotor",
+    "roman": "motor"
+  },
+  {
+    "cat": "food",
+    "en": "mushroom",
+    "bn": "মushroom",
+    "roman": "mushroom"
+  },
+  {
+    "cat": "food",
+    "en": "pumpkin",
+    "bn": "কumro",
+    "roman": "kumro"
+  },
+  {
+    "cat": "food",
+    "en": "corn",
+    "bn": "ভutta",
+    "roman": "bhutta"
+  },
+  {
+    "cat": "food",
+    "en": "chira",
+    "bn": "চira",
+    "roman": "chira"
+  },
+  {
+    "cat": "food",
+    "en": "muri",
+    "bn": "মuri",
+    "roman": "muri"
+  },
+  {
+    "cat": "food",
+    "en": "kebab",
+    "bn": "কebab",
+    "roman": "kebab"
+  },
+  {
+    "cat": "food",
+    "en": "fried rice",
+    "bn": "ভaja bhat",
+    "roman": "bhaja bhat"
+  },
+  {
+    "cat": "food",
+    "en": "fish curry",
+    "bn": "মachher torkari",
+    "roman": "machher torkari"
+  },
+  {
+    "cat": "food",
+    "en": "mutton",
+    "bn": "খashi mangsho",
+    "roman": "khashi mangsho"
+  },
+  {
+    "cat": "food",
+    "en": "omelet",
+    "bn": "ডim poch",
+    "roman": "dim poch"
+  },
+  {
+    "cat": "food",
+    "en": "chocolate",
+    "bn": "চocolate",
+    "roman": "chocolate"
+  },
+  {
+    "cat": "food",
+    "en": "lollipop",
+    "bn": "লollipop",
+    "roman": "lollipop"
+  },
+  {
+    "cat": "food",
+    "en": "breakfast",
+    "bn": "নashta",
+    "roman": "nashta"
+  },
+  {
+    "cat": "food",
+    "en": "lunch",
+    "bn": "দupur khabar",
+    "roman": "dupur khabar"
+  },
+  {
+    "cat": "food",
+    "en": "dinner",
+    "bn": "রatri khabar",
+    "roman": "ratri khabar"
+  },
+  {
+    "cat": "food",
+    "en": "iftar",
+    "bn": "ইftar",
+    "roman": "iftar"
+  },
+  {
+    "cat": "food",
+    "en": "naan",
+    "bn": "নan",
+    "roman": "nan"
+  },
+  {
+    "cat": "food",
+    "en": "semolina",
+    "bn": "সuji",
+    "roman": "suji"
+  },
+  {
+    "cat": "food",
+    "en": "flour",
+    "bn": "আta",
+    "roman": "ata"
+  },
+  {
+    "cat": "food",
+    "en": "mustard oil",
+    "bn": "সarisha tel",
+    "roman": "sarisha tel"
+  },
+  {
+    "cat": "food",
+    "en": "jaggery",
+    "bn": "গur",
+    "roman": "gur"
+  },
+  {
+    "cat": "food",
+    "en": "radish",
+    "bn": "মula",
+    "roman": "mula"
+  },
+  {
+    "cat": "food",
+    "en": "fish fry",
+    "bn": "মach bhaja",
+    "roman": "mach bhaja"
+  },
+  {
+    "cat": "food",
+    "en": "dal puri",
+    "bn": "ডal puri",
+    "roman": "dal puri"
+  },
+  {
+    "cat": "food",
+    "en": "luchi",
+    "bn": "লuchi",
+    "roman": "luchi"
+  },
+  {
+    "cat": "food",
+    "en": "beef curry",
+    "bn": "গorur mangsho torkari",
+    "roman": "gorur mangsho torkari"
+  },
+  {
+    "cat": "food",
+    "en": "duck curry",
+    "bn": "হasher torkari",
+    "roman": "hasher torkari"
+  },
+  {
+    "cat": "food",
+    "en": "prawn fry",
+    "bn": "চingri bhaja",
+    "roman": "chingri bhaja"
+  },
+  {
+    "cat": "food",
+    "en": "star fruit",
+    "bn": "কamranga",
+    "roman": "kamranga"
+  },
+  {
+    "cat": "food",
+    "en": "bel fruit",
+    "bn": "বel",
+    "roman": "bel"
+  },
+  {
+    "cat": "food",
+    "en": "wood apple",
+    "bn": "কathbel",
+    "roman": "kathbel"
+  },
+  {
     "cat": "food",
     "en": "mango juice",
     "bn": "am er rosh",
@@ -688,6 +1192,12 @@
     "en": "healthy food",
     "bn": "shustho khabar",
     "roman": "shustho khabar"
+  },
+  {
+    "cat": "food",
+    "en": "korma",
+    "bn": "কorma",
+    "roman": "korma"
   },
   {
     "cat": "food",
@@ -2023,9 +2533,57 @@
   },
   {
     "cat": "nature",
+    "en": "well",
+    "bn": "কua",
+    "roman": "kua"
+  },
+  {
+    "cat": "nature",
+    "en": "meadow",
+    "bn": "চারাগah",
+    "roman": "charagah"
+  },
+  {
+    "cat": "nature",
+    "en": "mangrove",
+    "bn": "সundorbon",
+    "roman": "sundorbon"
+  },
+  {
+    "cat": "nature",
+    "en": "jasmine",
+    "bn": "জui",
+    "roman": "jui"
+  },
+  {
+    "cat": "nature",
+    "en": "vine",
+    "bn": "লata",
+    "roman": "lata"
+  },
+  {
+    "cat": "nature",
+    "en": "fern",
+    "bn": "ফarn",
+    "roman": "fern"
+  },
+  {
+    "cat": "nature",
     "en": "coral",
     "bn": "prabal",
     "roman": "prabal"
+  },
+  {
+    "cat": "nature",
+    "en": "shell",
+    "bn": "শaṅkho",
+    "roman": "shãnkho"
+  },
+  {
+    "cat": "nature",
+    "en": "pebble",
+    "bn": "কuro",
+    "roman": "kuro"
   },
   {
     "cat": "nature",
@@ -2035,9 +2593,39 @@
   },
   {
     "cat": "nature",
+    "en": "valley",
+    "bn": "উpottoka",
+    "roman": "upottoka"
+  },
+  {
+    "cat": "nature",
+    "en": "desert",
+    "bn": "মরubhumi",
+    "roman": "morubhumi"
+  },
+  {
+    "cat": "nature",
     "en": "glacier",
     "bn": "himobah",
     "roman": "himobah"
+  },
+  {
+    "cat": "nature",
+    "en": "tide",
+    "bn": "জowar bhata",
+    "roman": "jowar bhata"
+  },
+  {
+    "cat": "nature",
+    "en": "wave",
+    "bn": "ঢeve",
+    "roman": "dheu"
+  },
+  {
+    "cat": "nature",
+    "en": "mist",
+    "bn": "কuya",
+    "roman": "kuya"
   },
   {
     "cat": "nature",
@@ -2050,6 +2638,60 @@
     "en": "breeze",
     "bn": "hawa",
     "roman": "hawa"
+  },
+  {
+    "cat": "nature",
+    "en": "tornado",
+    "bn": "টornado",
+    "roman": "tornado"
+  },
+  {
+    "cat": "nature",
+    "en": "park",
+    "bn": "পark",
+    "roman": "park"
+  },
+  {
+    "cat": "nature",
+    "en": "comet",
+    "bn": "ধূমকetu",
+    "roman": "dhumketu"
+  },
+  {
+    "cat": "nature",
+    "en": "meteor",
+    "bn": "উlkā",
+    "roman": "ulka"
+  },
+  {
+    "cat": "nature",
+    "en": "full moon",
+    "bn": "পurnima",
+    "roman": "purnima"
+  },
+  {
+    "cat": "nature",
+    "en": "cloudy sky",
+    "bn": "মেঘla akash",
+    "roman": "meghla akash"
+  },
+  {
+    "cat": "nature",
+    "en": "starry night",
+    "bn": "তara bhara rat",
+    "roman": "tara bhara rat"
+  },
+  {
+    "cat": "nature",
+    "en": "coast",
+    "bn": "উpokul",
+    "roman": "upokul"
+  },
+  {
+    "cat": "nature",
+    "en": "coal",
+    "bn": "কoyla",
+    "roman": "koyla"
   },
   {
     "cat": "nature",
@@ -2596,6 +3238,12 @@
     "en": "nature trail",
     "bn": "nature trail",
     "roman": "nature trail"
+  },
+  {
+    "cat": "home",
+    "en": "comb",
+    "bn": " downstreamা",
+    "roman": "chona"
   },
   {
     "cat": "home",
@@ -6013,15 +6661,57 @@
   },
   {
     "cat": "actions",
+    "en": "pray",
+    "bn": "পrayer করা",
+    "roman": "prarthona kora"
+  },
+  {
+    "cat": "actions",
+    "en": "promise",
+    "bn": "পromise করা",
+    "roman": "promise kora"
+  },
+  {
+    "cat": "actions",
+    "en": "punch",
+    "bn": "মukkha",
+    "roman": "mukkha"
+  },
+  {
+    "cat": "actions",
+    "en": "tickle",
+    "bn": "কutukuti",
+    "roman": "kutukuti"
+  },
+  {
+    "cat": "actions",
     "en": "tickle feet",
     "bn": "pay kutukuti",
     "roman": "pay kutukuti"
   },
   {
     "cat": "actions",
+    "en": "massage",
+    "bn": "মalish",
+    "roman": "malish"
+  },
+  {
+    "cat": "actions",
     "en": "stretch arms",
     "bn": "hat prosharito",
     "roman": "hat prosharito"
+  },
+  {
+    "cat": "actions",
+    "en": "march",
+    "bn": "মarche",
+    "roman": "march"
+  },
+  {
+    "cat": "actions",
+    "en": "jog",
+    "bn": "জogging",
+    "roman": "jogging"
   },
   {
     "cat": "actions",
@@ -6037,6 +6727,18 @@
   },
   {
     "cat": "actions",
+    "en": "fail",
+    "bn": "ফel",
+    "roman": "fail"
+  },
+  {
+    "cat": "actions",
+    "en": "copy",
+    "bn": "কopi",
+    "roman": "copy"
+  },
+  {
+    "cat": "actions",
     "en": "color in",
     "bn": "rong bhra",
     "roman": "rong bhra"
@@ -6046,6 +6748,24 @@
     "en": "paint picture",
     "bn": "chitra aka",
     "roman": "chitra aka"
+  },
+  {
+    "cat": "actions",
+    "en": "knit",
+    "bn": "বre",
+    "roman": "bre"
+  },
+  {
+    "cat": "actions",
+    "en": "sew",
+    "bn": "সew",
+    "roman": "sew"
+  },
+  {
+    "cat": "actions",
+    "en": "stitch",
+    "bn": "সew",
+    "roman": "sew"
   },
   {
     "cat": "actions",

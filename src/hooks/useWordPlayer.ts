@@ -144,11 +144,16 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
     setPlaylist(next)
   }, [])
 
-  const start = useCallback(() => {
+  const start = useCallback((fromWordId?: string | null) => {
     reshuffleIfNeeded()
     cancel()
-    setIndex(0)
-    void playFrom(0)
+    let startIndex = 0
+    if (fromWordId) {
+      const found = playlistRef.current.findIndex((w) => w.id === fromWordId)
+      if (found >= 0) startIndex = found
+    }
+    setIndex(startIndex)
+    void playFrom(startIndex)
   }, [cancel, playFrom, reshuffleIfNeeded])
 
   const pause = useCallback(() => {

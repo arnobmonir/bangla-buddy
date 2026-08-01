@@ -1,53 +1,1720 @@
 {
   "categoryId": "actions",
   "words": [
-    { "id": "actions-eat", "en": "eat", "bn": "খাওয়া", "emoji": "🍽️", "roman": "khawa" },
-    { "id": "actions-drink", "en": "drink", "bn": "পান করা", "emoji": "🥤", "roman": "pan kora" },
-    { "id": "actions-sleep", "en": "sleep", "bn": "ঘুমানো", "emoji": "😴", "roman": "ghumano" },
-    { "id": "actions-walk", "en": "walk", "bn": "হাঁটা", "emoji": "🚶", "roman": "hãta" },
-    { "id": "actions-run", "en": "run", "bn": "দৌড়ানো", "emoji": "🏃", "roman": "dourano" },
-    { "id": "actions-jump", "en": "jump", "bn": "লাফানো", "emoji": "🤸", "roman": "lafano" },
-    { "id": "actions-sit", "en": "sit", "bn": "বসা", "emoji": "🪑", "roman": "bosha" },
-    { "id": "actions-stand", "en": "stand", "bn": "দাঁড়ানো", "emoji": "🧍", "roman": "dãrano" },
-    { "id": "actions-play", "en": "play", "bn": "খেলা", "emoji": "🎮", "roman": "khela" },
-    { "id": "actions-read", "en": "read", "bn": "পড়া", "emoji": "📖", "roman": "pora" },
-    { "id": "actions-write", "en": "write", "bn": "লেখা", "emoji": "✍️", "roman": "lekha" },
-    { "id": "actions-sing", "en": "sing", "bn": "গান করা", "emoji": "🎤", "roman": "gan kora" },
-    { "id": "actions-dance", "en": "dance", "bn": "নাচ", "emoji": "💃", "roman": "nach" },
-    { "id": "actions-wash", "en": "wash", "bn": "ধোয়া", "emoji": "🧼", "roman": "dhowa" },
-    { "id": "actions-look", "en": "look", "bn": "দেখা", "emoji": "👀", "roman": "dekha" },
-    { "id": "actions-listen", "en": "listen", "bn": "শোনা", "emoji": "👂", "roman": "shona" },
-    { "id": "actions-speak", "en": "speak", "bn": "কথা বলা", "emoji": "🗣️", "roman": "kotha bola" },
-    { "id": "actions-say", "en": "say", "bn": "বলা", "emoji": "💬", "roman": "bola" },
-    { "id": "actions-come", "en": "come", "bn": "আসা", "emoji": "👋", "roman": "asha" },
-    { "id": "actions-go", "en": "go", "bn": "যাওয়া", "emoji": "🚶", "roman": "jawa" },
-    { "id": "actions-give", "en": "give", "bn": "দেওয়া", "emoji": "🤲", "roman": "dewa" },
-    { "id": "actions-take", "en": "take", "bn": "নেওয়া", "emoji": "✋", "roman": "newa" },
-    { "id": "actions-open", "en": "open", "bn": "খোলা", "emoji": "📂", "roman": "khola" },
-    { "id": "actions-close", "en": "close", "bn": "বন্ধ করা", "emoji": "🚪", "roman": "bondho kora" },
-    { "id": "actions-push", "en": "push", "bn": "ধাক্কা দেওয়া", "emoji": "👉", "roman": "dhakka dewa" },
-    { "id": "actions-pull", "en": "pull", "bn": "টানা", "emoji": "👈", "roman": "tana" },
-    { "id": "actions-throw", "en": "throw", "bn": "ছোড়া", "emoji": "⚾", "roman": "chhora" },
-    { "id": "actions-catch", "en": "catch", "bn": "ধরা", "emoji": "🥎", "roman": "dhora" },
-    { "id": "actions-climb", "en": "climb", "bn": "চড়া", "emoji": "🧗", "roman": "chora" },
-    { "id": "actions-fall", "en": "fall", "bn": "পড়া", "emoji": "🤕", "roman": "pora" },
-    { "id": "actions-cry", "en": "cry", "bn": "কাঁদা", "emoji": "😭", "roman": "kãda" },
-    { "id": "actions-laugh", "en": "laugh", "bn": "হাসা", "emoji": "😂", "roman": "hasha" },
-    { "id": "actions-smile", "en": "smile", "bn": "হাসি", "emoji": "😄", "roman": "hashi" },
-    { "id": "actions-hug", "en": "hug", "bn": "জড়িয়ে ধরা", "emoji": "🤗", "roman": "joriye dhora" },
-    { "id": "actions-kiss", "en": "kiss", "bn": "চুমু", "emoji": "😘", "roman": "chumu" },
-    { "id": "actions-help", "en": "help", "bn": "সাহায্য করা", "emoji": "🆘", "roman": "shahajjo kora" },
-    { "id": "actions-cook", "en": "cook", "bn": "রান্না করা", "emoji": "👨‍🍳", "roman": "ranna kora" },
-    { "id": "actions-clean", "en": "clean", "bn": "পরিষ্কার করা", "emoji": "🧹", "roman": "porishkar kora" },
-    { "id": "actions-draw", "en": "draw", "bn": "আঁকা", "emoji": "🎨", "roman": "ãka" },
-    { "id": "actions-count", "en": "count", "bn": "গণনা করা", "emoji": "🔢", "roman": "gonona kora" },
-    { "id": "actions-wait", "en": "wait", "bn": "অপেক্ষা করা", "emoji": "⏳", "roman": "opekkha kora" },
-    { "id": "actions-stop", "en": "stop", "bn": "থামানো", "emoji": "🛑", "roman": "thamano" },
-    { "id": "actions-start", "en": "start", "bn": "শুরু করা", "emoji": "▶️", "roman": "shuru kora" },
-    { "id": "actions-find", "en": "find", "bn": "খুঁজে পাওয়া", "emoji": "🔍", "roman": "khũje pawa" },
-    { "id": "actions-hide", "en": "hide", "bn": "লুকানো", "emoji": "🙈", "roman": "lukano" },
-    { "id": "actions-show", "en": "show", "bn": "দেখানো", "emoji": "👉", "roman": "dekhano" },
-    { "id": "actions-buy", "en": "buy", "bn": "কেনা", "emoji": "🛒", "roman": "kena" },
-    { "id": "actions-learn", "en": "learn", "bn": "শেখা", "emoji": "📚", "roman": "shekha" }
+    {
+      "id": "actions-eat",
+      "en": "eat",
+      "bn": "খাওয়া",
+      "emoji": "🍽️",
+      "roman": "khawa"
+    },
+    {
+      "id": "actions-drink",
+      "en": "drink",
+      "bn": "পান করা",
+      "emoji": "🥤",
+      "roman": "pan kora"
+    },
+    {
+      "id": "actions-sleep",
+      "en": "sleep",
+      "bn": "ঘুমানো",
+      "emoji": "😴",
+      "roman": "ghumano"
+    },
+    {
+      "id": "actions-walk",
+      "en": "walk",
+      "bn": "হাঁটা",
+      "emoji": "🚶",
+      "roman": "hãta"
+    },
+    {
+      "id": "actions-run",
+      "en": "run",
+      "bn": "দৌড়ানো",
+      "emoji": "🏃",
+      "roman": "dourano"
+    },
+    {
+      "id": "actions-jump",
+      "en": "jump",
+      "bn": "লাফানো",
+      "emoji": "🤸",
+      "roman": "lafano"
+    },
+    {
+      "id": "actions-sit",
+      "en": "sit",
+      "bn": "বসা",
+      "emoji": "🪑",
+      "roman": "bosha"
+    },
+    {
+      "id": "actions-stand",
+      "en": "stand",
+      "bn": "দাঁড়ানো",
+      "emoji": "🧍",
+      "roman": "dãrano"
+    },
+    {
+      "id": "actions-play",
+      "en": "play",
+      "bn": "খেলা",
+      "emoji": "🎮",
+      "roman": "khela"
+    },
+    {
+      "id": "actions-read",
+      "en": "read",
+      "bn": "পড়া",
+      "emoji": "📖",
+      "roman": "pora"
+    },
+    {
+      "id": "actions-write",
+      "en": "write",
+      "bn": "লেখা",
+      "emoji": "✍️",
+      "roman": "lekha"
+    },
+    {
+      "id": "actions-sing",
+      "en": "sing",
+      "bn": "গান করা",
+      "emoji": "🎤",
+      "roman": "gan kora"
+    },
+    {
+      "id": "actions-dance",
+      "en": "dance",
+      "bn": "নাচ",
+      "emoji": "💃",
+      "roman": "nach"
+    },
+    {
+      "id": "actions-wash",
+      "en": "wash",
+      "bn": "ধোয়া",
+      "emoji": "🧼",
+      "roman": "dhowa"
+    },
+    {
+      "id": "actions-look",
+      "en": "look",
+      "bn": "দেখা",
+      "emoji": "👀",
+      "roman": "dekha"
+    },
+    {
+      "id": "actions-listen",
+      "en": "listen",
+      "bn": "শোনা",
+      "emoji": "👂",
+      "roman": "shona"
+    },
+    {
+      "id": "actions-speak",
+      "en": "speak",
+      "bn": "কথা বলা",
+      "emoji": "🗣️",
+      "roman": "kotha bola"
+    },
+    {
+      "id": "actions-say",
+      "en": "say",
+      "bn": "বলা",
+      "emoji": "💬",
+      "roman": "bola"
+    },
+    {
+      "id": "actions-come",
+      "en": "come",
+      "bn": "আসা",
+      "emoji": "👋",
+      "roman": "asha"
+    },
+    {
+      "id": "actions-go",
+      "en": "go",
+      "bn": "যাওয়া",
+      "emoji": "🚶",
+      "roman": "jawa"
+    },
+    {
+      "id": "actions-give",
+      "en": "give",
+      "bn": "দেওয়া",
+      "emoji": "🤲",
+      "roman": "dewa"
+    },
+    {
+      "id": "actions-take",
+      "en": "take",
+      "bn": "নেওয়া",
+      "emoji": "✋",
+      "roman": "newa"
+    },
+    {
+      "id": "actions-open",
+      "en": "open",
+      "bn": "খোলা",
+      "emoji": "📂",
+      "roman": "khola"
+    },
+    {
+      "id": "actions-close",
+      "en": "close",
+      "bn": "বন্ধ করা",
+      "emoji": "🚪",
+      "roman": "bondho kora"
+    },
+    {
+      "id": "actions-push",
+      "en": "push",
+      "bn": "ধাক্কা দেওয়া",
+      "emoji": "👉",
+      "roman": "dhakka dewa"
+    },
+    {
+      "id": "actions-pull",
+      "en": "pull",
+      "bn": "টানা",
+      "emoji": "👈",
+      "roman": "tana"
+    },
+    {
+      "id": "actions-throw",
+      "en": "throw",
+      "bn": "ছোড়া",
+      "emoji": "⚾",
+      "roman": "chhora"
+    },
+    {
+      "id": "actions-catch",
+      "en": "catch",
+      "bn": "ধরা",
+      "emoji": "🥎",
+      "roman": "dhora"
+    },
+    {
+      "id": "actions-climb",
+      "en": "climb",
+      "bn": "চড়া",
+      "emoji": "🧗",
+      "roman": "chora"
+    },
+    {
+      "id": "actions-fall",
+      "en": "fall",
+      "bn": "পড়া",
+      "emoji": "🤕",
+      "roman": "pora"
+    },
+    {
+      "id": "actions-cry",
+      "en": "cry",
+      "bn": "কাঁদা",
+      "emoji": "😭",
+      "roman": "kãda"
+    },
+    {
+      "id": "actions-laugh",
+      "en": "laugh",
+      "bn": "হাসা",
+      "emoji": "😂",
+      "roman": "hasha"
+    },
+    {
+      "id": "actions-smile",
+      "en": "smile",
+      "bn": "হাসি",
+      "emoji": "😄",
+      "roman": "hashi"
+    },
+    {
+      "id": "actions-hug",
+      "en": "hug",
+      "bn": "জড়িয়ে ধরা",
+      "emoji": "🤗",
+      "roman": "joriye dhora"
+    },
+    {
+      "id": "actions-kiss",
+      "en": "kiss",
+      "bn": "চুমু",
+      "emoji": "😘",
+      "roman": "chumu"
+    },
+    {
+      "id": "actions-help",
+      "en": "help",
+      "bn": "সাহায্য করা",
+      "emoji": "🆘",
+      "roman": "shahajjo kora"
+    },
+    {
+      "id": "actions-cook",
+      "en": "cook",
+      "bn": "রান্না করা",
+      "emoji": "👨‍🍳",
+      "roman": "ranna kora"
+    },
+    {
+      "id": "actions-clean",
+      "en": "clean",
+      "bn": "পরিষ্কার করা",
+      "emoji": "🧹",
+      "roman": "porishkar kora"
+    },
+    {
+      "id": "actions-draw",
+      "en": "draw",
+      "bn": "আঁকা",
+      "emoji": "🎨",
+      "roman": "ãka"
+    },
+    {
+      "id": "actions-count",
+      "en": "count",
+      "bn": "গণনা করা",
+      "emoji": "🔢",
+      "roman": "gonona kora"
+    },
+    {
+      "id": "actions-wait",
+      "en": "wait",
+      "bn": "অপেক্ষা করা",
+      "emoji": "⏳",
+      "roman": "opekkha kora"
+    },
+    {
+      "id": "actions-stop",
+      "en": "stop",
+      "bn": "থামানো",
+      "emoji": "🛑",
+      "roman": "thamano"
+    },
+    {
+      "id": "actions-start",
+      "en": "start",
+      "bn": "শুরু করা",
+      "emoji": "▶️",
+      "roman": "shuru kora"
+    },
+    {
+      "id": "actions-find",
+      "en": "find",
+      "bn": "খুঁজে পাওয়া",
+      "emoji": "🔍",
+      "roman": "khũje pawa"
+    },
+    {
+      "id": "actions-hide",
+      "en": "hide",
+      "bn": "লুকানো",
+      "emoji": "🙈",
+      "roman": "lukano"
+    },
+    {
+      "id": "actions-show",
+      "en": "show",
+      "bn": "দেখানো",
+      "emoji": "👉",
+      "roman": "dekhano"
+    },
+    {
+      "id": "actions-buy",
+      "en": "buy",
+      "bn": "কেনা",
+      "emoji": "🛒",
+      "roman": "kena"
+    },
+    {
+      "id": "actions-learn",
+      "en": "learn",
+      "bn": "শেখা",
+      "emoji": "📚",
+      "roman": "shekha"
+    },
+    {
+      "id": "actions-swim",
+      "en": "swim",
+      "bn": "সাঁতার কাটা",
+      "emoji": "🏊",
+      "roman": "satär kata"
+    },
+    {
+      "id": "actions-fly",
+      "en": "fly",
+      "bn": "ওড়া",
+      "emoji": "🕊️",
+      "roman": "ora"
+    },
+    {
+      "id": "actions-crawl",
+      "en": "crawl",
+      "bn": "হামাগুড়ি দেওয়া",
+      "emoji": "🐛",
+      "roman": "hamaguri dewa"
+    },
+    {
+      "id": "actions-creep",
+      "en": "creep",
+      "bn": "হামাগুড়ি দেওয়া",
+      "emoji": "🐛",
+      "roman": "hamaguri dewa"
+    },
+    {
+      "id": "actions-hop",
+      "en": "hop",
+      "bn": "লাফ দেওয়া",
+      "emoji": "🐰",
+      "roman": "laf dewa"
+    },
+    {
+      "id": "actions-skip",
+      "en": "skip",
+      "bn": "লাফিয়ে যাওয়া",
+      "emoji": "⏭️",
+      "roman": "lafiye jawa"
+    },
+    {
+      "id": "actions-hopscotch",
+      "en": "hopscotch",
+      "bn": "এক পা এক পা",
+      "emoji": "🦶",
+      "roman": "ek pa ek pa"
+    },
+    {
+      "id": "actions-swing",
+      "en": "swing",
+      "bn": "দোলনা",
+      "emoji": "🎠",
+      "roman": "dolna"
+    },
+    {
+      "id": "actions-slide",
+      "en": "slide",
+      "bn": "স্লাইড",
+      "emoji": "🛝",
+      "roman": "slide"
+    },
+    {
+      "id": "actions-spin",
+      "en": "spin",
+      "bn": "ঘুরানো",
+      "emoji": "🌀",
+      "roman": "ghurano"
+    },
+    {
+      "id": "actions-turn",
+      "en": "turn",
+      "bn": "ঘোরা",
+      "emoji": "🔄",
+      "roman": "ghora"
+    },
+    {
+      "id": "actions-roll",
+      "en": "roll",
+      "bn": "গড়ানো",
+      "emoji": "🎲",
+      "roman": "gorano"
+    },
+    {
+      "id": "actions-bend",
+      "en": "bend",
+      "bn": "বাঁকা",
+      "emoji": "🤸",
+      "roman": "bãka"
+    },
+    {
+      "id": "actions-stretch",
+      "en": "stretch",
+      "bn": "প্রসারিত করা",
+      "emoji": "🤸",
+      "roman": "prosarito kora"
+    },
+    {
+      "id": "actions-yawn",
+      "en": "yawn",
+      "bn": "হাই তোলা",
+      "emoji": "🥱",
+      "roman": "hai tola"
+    },
+    {
+      "id": "actions-sneeze",
+      "en": "sneeze",
+      "bn": "হাঁচি",
+      "emoji": "🤧",
+      "roman": "hãchi"
+    },
+    {
+      "id": "actions-cough",
+      "en": "cough",
+      "bn": "কাশি",
+      "emoji": "😷",
+      "roman": "kashi"
+    },
+    {
+      "id": "actions-breathe",
+      "en": "breathe",
+      "bn": "শ্বাস নেওয়া",
+      "emoji": "💨",
+      "roman": "shwash newa"
+    },
+    {
+      "id": "actions-whisper",
+      "en": "whisper",
+      "bn": "ফিসফিস",
+      "emoji": "🤫",
+      "roman": "fisfis"
+    },
+    {
+      "id": "actions-shout",
+      "en": "shout",
+      "bn": "চিৎকার",
+      "emoji": "📢",
+      "roman": "chitkar"
+    },
+    {
+      "id": "actions-ask",
+      "en": "ask",
+      "bn": "জিজ্ঞাসা করা",
+      "emoji": "❓",
+      "roman": "jiggasha kora"
+    },
+    {
+      "id": "actions-answer",
+      "en": "answer",
+      "bn": "উত্তর দেওয়া",
+      "emoji": "💬",
+      "roman": "uttar dewa"
+    },
+    {
+      "id": "actions-tell",
+      "en": "tell",
+      "bn": "বলানো",
+      "emoji": "🗣️",
+      "roman": "bolano"
+    },
+    {
+      "id": "actions-explain",
+      "en": "explain",
+      "bn": "ব্যাখ্যা করা",
+      "emoji": "💡",
+      "roman": "byakhya kora"
+    },
+    {
+      "id": "actions-remember",
+      "en": "remember",
+      "bn": "মনে রাখা",
+      "emoji": "🧠",
+      "roman": "mone rakha"
+    },
+    {
+      "id": "actions-forget",
+      "en": "forget",
+      "bn": "ভুলে যাওয়া",
+      "emoji": "🤔",
+      "roman": "bhule jawa"
+    },
+    {
+      "id": "actions-think",
+      "en": "think",
+      "bn": "ভাবা",
+      "emoji": "🤔",
+      "roman": "bhaba"
+    },
+    {
+      "id": "actions-dream",
+      "en": "dream",
+      "bn": "স্বপ্ন দেখা",
+      "emoji": "💭",
+      "roman": "swopno dekha"
+    },
+    {
+      "id": "actions-imagine",
+      "en": "imagine",
+      "bn": "কল্পনা করা",
+      "emoji": "💭",
+      "roman": "kolpona kora"
+    },
+    {
+      "id": "actions-choose",
+      "en": "choose",
+      "bn": "বেছে নেওয়া",
+      "emoji": "👆",
+      "roman": "beche newa"
+    },
+    {
+      "id": "actions-decide",
+      "en": "decide",
+      "bn": "সিদ্ধান্ত নেওয়া",
+      "emoji": "✅",
+      "roman": "siddhanto newa"
+    },
+    {
+      "id": "actions-try",
+      "en": "try",
+      "bn": "চেষ্টা করা",
+      "emoji": "💪",
+      "roman": "chesta kora"
+    },
+    {
+      "id": "actions-practice",
+      "en": "practice",
+      "bn": "অভ্যাস করা",
+      "emoji": "🏋️",
+      "roman": "obhyash kora"
+    },
+    {
+      "id": "actions-win",
+      "en": "win",
+      "bn": "জেতা",
+      "emoji": "🏆",
+      "roman": "jeta"
+    },
+    {
+      "id": "actions-lose",
+      "en": "lose",
+      "bn": "হারা",
+      "emoji": "😢",
+      "roman": "hara"
+    },
+    {
+      "id": "actions-share",
+      "en": "share",
+      "bn": "ভাগ করা",
+      "emoji": "🤝",
+      "roman": "bhag kora"
+    },
+    {
+      "id": "actions-borrow",
+      "en": "borrow",
+      "bn": "ধার নেওয়া",
+      "emoji": "🤲",
+      "roman": "dhar newa"
+    },
+    {
+      "id": "actions-lend",
+      "en": "lend",
+      "bn": "ধার দেওয়া",
+      "emoji": "🤲",
+      "roman": "dhar dewa"
+    },
+    {
+      "id": "actions-pay",
+      "en": "pay",
+      "bn": "টাকা দেওয়া",
+      "emoji": "💵",
+      "roman": "taka dewa"
+    },
+    {
+      "id": "actions-sell",
+      "en": "sell",
+      "bn": "বিক্রি করা",
+      "emoji": "💰",
+      "roman": "bikri kora"
+    },
+    {
+      "id": "actions-pack",
+      "en": "pack",
+      "bn": "প্যাক করা",
+      "emoji": "📦",
+      "roman": "pack kora"
+    },
+    {
+      "id": "actions-unpack",
+      "en": "unpack",
+      "bn": "আনপ্যাক করা",
+      "emoji": "📦",
+      "roman": "unpack kora"
+    },
+    {
+      "id": "actions-wrap",
+      "en": "wrap",
+      "bn": "মোড়ানো",
+      "emoji": "🎁",
+      "roman": "morano"
+    },
+    {
+      "id": "actions-unwrap",
+      "en": "unwrap",
+      "bn": "খোলা",
+      "emoji": "🎁",
+      "roman": "khola"
+    },
+    {
+      "id": "actions-tie",
+      "en": "tie",
+      "bn": "বাঁধা",
+      "emoji": "🎀",
+      "roman": "bãdha"
+    },
+    {
+      "id": "actions-untie",
+      "en": "untie",
+      "bn": "খোলা",
+      "emoji": "🎀",
+      "roman": "khola"
+    },
+    {
+      "id": "actions-cut",
+      "en": "cut",
+      "bn": "কাটা",
+      "emoji": "✂️",
+      "roman": "kata"
+    },
+    {
+      "id": "actions-paste",
+      "en": "paste",
+      "bn": "আটকানো",
+      "emoji": "📎",
+      "roman": "atkano"
+    },
+    {
+      "id": "actions-fold",
+      "en": "fold",
+      "bn": "ভাঁজ করা",
+      "emoji": "👕",
+      "roman": "bhãj kora"
+    },
+    {
+      "id": "actions-unfold",
+      "en": "unfold",
+      "bn": "খোলা",
+      "emoji": "👕",
+      "roman": "khola"
+    },
+    {
+      "id": "actions-hang",
+      "en": "hang",
+      "bn": "ঝোলানো",
+      "emoji": "👕",
+      "roman": "jholano"
+    },
+    {
+      "id": "actions-dry",
+      "en": "dry",
+      "bn": "শুকানো",
+      "emoji": "☀️",
+      "roman": "shukano"
+    },
+    {
+      "id": "actions-wet",
+      "en": "wet",
+      "bn": "ভিজানো",
+      "emoji": "💧",
+      "roman": "bijano"
+    },
+    {
+      "id": "actions-soak",
+      "en": "soak",
+      "bn": "ভিজিয়ে রাখা",
+      "emoji": "💧",
+      "roman": "bijiye rakha"
+    },
+    {
+      "id": "actions-squeeze",
+      "en": "squeeze",
+      "bn": "চাপ দেওয়া",
+      "emoji": "🤏",
+      "roman": "chap dewa"
+    },
+    {
+      "id": "actions-mix",
+      "en": "mix",
+      "bn": "মেশানো",
+      "emoji": "🥣",
+      "roman": "meshano"
+    },
+    {
+      "id": "actions-stir",
+      "en": "stir",
+      "bn": "নাড়া",
+      "emoji": "🥄",
+      "roman": "nara"
+    },
+    {
+      "id": "actions-pour",
+      "en": "pour",
+      "bn": "ঢালা",
+      "emoji": "🫗",
+      "roman": "dhala"
+    },
+    {
+      "id": "actions-spill",
+      "en": "spill",
+      "bn": "ঝরে পড়া",
+      "emoji": "💧",
+      "roman": "jhore pora"
+    },
+    {
+      "id": "actions-break",
+      "en": "break",
+      "bn": "ভাঙা",
+      "emoji": "💔",
+      "roman": "bhanga"
+    },
+    {
+      "id": "actions-fix",
+      "en": "fix",
+      "bn": "ঠিক করা",
+      "emoji": "🔧",
+      "roman": "thik kora"
+    },
+    {
+      "id": "actions-build",
+      "en": "build",
+      "bn": "তৈরি করা",
+      "emoji": "🏗️",
+      "roman": "tori kora"
+    },
+    {
+      "id": "actions-make",
+      "en": "make",
+      "bn": "তৈরি করা",
+      "emoji": "🔨",
+      "roman": "tori kora"
+    },
+    {
+      "id": "actions-create",
+      "en": "create",
+      "bn": "সৃষ্টি করা",
+      "emoji": "✨",
+      "roman": "srishti kora"
+    },
+    {
+      "id": "actions-destroy",
+      "en": "destroy",
+      "bn": "ধ্বংস করা",
+      "emoji": "💥",
+      "roman": "dhongsho kora"
+    },
+    {
+      "id": "actions-plant",
+      "en": "plant",
+      "bn": "রোপণ করা",
+      "emoji": "🌱",
+      "roman": "ropon kora"
+    },
+    {
+      "id": "actions-water-plants",
+      "en": "water plants",
+      "bn": "গাছে পানি দেওয়া",
+      "emoji": "🪴",
+      "roman": "gache pani dewa"
+    },
+    {
+      "id": "actions-dig",
+      "en": "dig",
+      "bn": "খনন করা",
+      "emoji": "⛏️",
+      "roman": "khonon kora"
+    },
+    {
+      "id": "actions-pick",
+      "en": "pick",
+      "bn": "তোলা",
+      "emoji": "🤏",
+      "roman": "tola"
+    },
+    {
+      "id": "actions-drop",
+      "en": "drop",
+      "bn": "ফেলে দেওয়া",
+      "emoji": "⬇️",
+      "roman": "phele dewa"
+    },
+    {
+      "id": "actions-carry",
+      "en": "carry",
+      "bn": "বহন করা",
+      "emoji": "🎒",
+      "roman": "bohon kora"
+    },
+    {
+      "id": "actions-lift",
+      "en": "lift",
+      "bn": "তোলা",
+      "emoji": "🏋️",
+      "roman": "tola"
+    },
+    {
+      "id": "actions-hold",
+      "en": "hold",
+      "bn": "ধরা",
+      "emoji": "🤲",
+      "roman": "dhora"
+    },
+    {
+      "id": "actions-release",
+      "en": "release",
+      "bn": "ছেড়ে দেওয়া",
+      "emoji": "🕊️",
+      "roman": "chhere dewa"
+    },
+    {
+      "id": "actions-touch",
+      "en": "touch",
+      "bn": "স্পর্শ করা",
+      "emoji": "👆",
+      "roman": "sporsho kora"
+    },
+    {
+      "id": "actions-feel",
+      "en": "feel",
+      "bn": "অনুভব করা",
+      "emoji": "🤚",
+      "roman": "onubhob kora"
+    },
+    {
+      "id": "actions-smell",
+      "en": "smell",
+      "bn": "ঘ্রাণ নেওয়া",
+      "emoji": "👃",
+      "roman": "ghran newa"
+    },
+    {
+      "id": "actions-taste",
+      "en": "taste",
+      "bn": "স্বাদ নেওয়া",
+      "emoji": "👅",
+      "roman": "swad newa"
+    },
+    {
+      "id": "actions-watch",
+      "en": "watch",
+      "bn": "দেখা",
+      "emoji": "👀",
+      "roman": "dekha"
+    },
+    {
+      "id": "actions-follow",
+      "en": "follow",
+      "bn": "অনুসরণ করা",
+      "emoji": "👣",
+      "roman": "onushoron kora"
+    },
+    {
+      "id": "actions-lead",
+      "en": "lead",
+      "bn": "নেতৃত্ব দেওয়া",
+      "emoji": "👑",
+      "roman": "netritwo dewa"
+    },
+    {
+      "id": "actions-guide",
+      "en": "guide",
+      "bn": "পথ দেখানো",
+      "emoji": "🧭",
+      "roman": "poth dekhano"
+    },
+    {
+      "id": "actions-visit",
+      "en": "visit",
+      "bn": "দেখা করা",
+      "emoji": "🏠",
+      "roman": "dekha kora"
+    },
+    {
+      "id": "actions-leave",
+      "en": "leave",
+      "bn": "চলে যাওয়া",
+      "emoji": "👋",
+      "roman": "chale jawa"
+    },
+    {
+      "id": "actions-arrive",
+      "en": "arrive",
+      "bn": "পৌঁছানো",
+      "emoji": "📍",
+      "roman": "pouchano"
+    },
+    {
+      "id": "actions-enter",
+      "en": "enter",
+      "bn": "প্রবেশ করা",
+      "emoji": "🚪",
+      "roman": "probesh kora"
+    },
+    {
+      "id": "actions-exit",
+      "en": "exit",
+      "bn": "বের হওয়া",
+      "emoji": "🚪",
+      "roman": "ber howa"
+    },
+    {
+      "id": "actions-knock",
+      "en": "knock",
+      "bn": "কড়া নাড়া",
+      "emoji": "🚪",
+      "roman": "kora nara"
+    },
+    {
+      "id": "actions-ring-bell",
+      "en": "ring bell",
+      "bn": "ঘণ্টা বাজানো",
+      "emoji": "🔔",
+      "roman": "ghonta bajano"
+    },
+    {
+      "id": "actions-call",
+      "en": "call",
+      "bn": "ডাকা",
+      "emoji": "📞",
+      "roman": "daka"
+    },
+    {
+      "id": "actions-phone",
+      "en": "phone",
+      "bn": "ফোন করা",
+      "emoji": "📱",
+      "roman": "phon kora"
+    },
+    {
+      "id": "actions-text",
+      "en": "text",
+      "bn": "মেসেজ করা",
+      "emoji": "💬",
+      "roman": "message kora"
+    },
+    {
+      "id": "actions-mail",
+      "en": "mail",
+      "bn": "চিঠি পাঠানো",
+      "emoji": "✉️",
+      "roman": "chithi pathano"
+    },
+    {
+      "id": "actions-invite",
+      "en": "invite",
+      "bn": "আমন্ত্রণ করা",
+      "emoji": "💌",
+      "roman": "amontroon kora"
+    },
+    {
+      "id": "actions-welcome",
+      "en": "welcome",
+      "bn": "স্বাগত জানানো",
+      "emoji": "👋",
+      "roman": "swagat janano"
+    },
+    {
+      "id": "actions-greet",
+      "en": "greet",
+      "bn": "শুভেচ্ছা জানানো",
+      "emoji": "👋",
+      "roman": "shubhechcha janano"
+    },
+    {
+      "id": "actions-introduce",
+      "en": "introduce",
+      "bn": "পরিচয় করানো",
+      "emoji": "🤝",
+      "roman": "porichoy karano"
+    },
+    {
+      "id": "actions-meet",
+      "en": "meet",
+      "bn": "দেখা হওয়া",
+      "emoji": "🤝",
+      "roman": "dekha howa"
+    },
+    {
+      "id": "actions-miss",
+      "en": "miss",
+      "bn": "মিস করা",
+      "emoji": "😢",
+      "roman": "miss kora"
+    },
+    {
+      "id": "actions-celebrate",
+      "en": "celebrate",
+      "bn": "উদযাপন করা",
+      "emoji": "🎉",
+      "roman": "udjapon kora"
+    },
+    {
+      "id": "actions-party",
+      "en": "party",
+      "bn": "পার্টি করা",
+      "emoji": "🎉",
+      "roman": "party kora"
+    },
+    {
+      "id": "actions-clap",
+      "en": "clap",
+      "bn": "তালি দেওয়া",
+      "emoji": "👏",
+      "roman": "tali dewa"
+    },
+    {
+      "id": "actions-wave-hand",
+      "en": "wave hand",
+      "bn": "হাত নাড়ানো",
+      "emoji": "👋",
+      "roman": "hat narano"
+    },
+    {
+      "id": "actions-point",
+      "en": "point",
+      "bn": "আঙুল দেখানো",
+      "emoji": "👉",
+      "roman": "angul dekhano"
+    },
+    {
+      "id": "actions-nod",
+      "en": "nod",
+      "bn": "মাথা নাড়ানো",
+      "emoji": "👍",
+      "roman": "matha narano"
+    },
+    {
+      "id": "actions-shake-head",
+      "en": "shake head",
+      "bn": "মাথা নাড়ানো",
+      "emoji": "👎",
+      "roman": "matha narano"
+    },
+    {
+      "id": "actions-wink",
+      "en": "wink",
+      "bn": "চোখ পিটপিট",
+      "emoji": "😉",
+      "roman": "chokh pitpit"
+    },
+    {
+      "id": "actions-blink",
+      "en": "blink",
+      "bn": "চোখ পিটপিট",
+      "emoji": "😉",
+      "roman": "chokh pitpit"
+    },
+    {
+      "id": "actions-pray",
+      "en": "pray",
+      "bn": "পররথোন করা",
+      "emoji": "🙏",
+      "roman": "prarthona kora"
+    },
+    {
+      "id": "actions-bless",
+      "en": "bless",
+      "bn": "আশীর্বাদ করা",
+      "emoji": "🙏",
+      "roman": "ashirbad kora"
+    },
+    {
+      "id": "actions-forgive",
+      "en": "forgive",
+      "bn": "ক্ষমা করা",
+      "emoji": "🤝",
+      "roman": "khoma kora"
+    },
+    {
+      "id": "actions-promise",
+      "en": "promise",
+      "bn": "পরোমিসে করা",
+      "emoji": "🤞",
+      "roman": "promise kora"
+    },
+    {
+      "id": "actions-obey",
+      "en": "obey",
+      "bn": "মান্য করা",
+      "emoji": "✅",
+      "roman": "manyo kora"
+    },
+    {
+      "id": "actions-disobey",
+      "en": "disobey",
+      "bn": "অমান্য করা",
+      "emoji": "❌",
+      "roman": "omanyo kora"
+    },
+    {
+      "id": "actions-behave",
+      "en": "behave",
+      "bn": "আচরণ করা",
+      "emoji": "🙂",
+      "roman": "achoron kora"
+    },
+    {
+      "id": "actions-discipline",
+      "en": "discipline",
+      "bn": "শৃঙ্খলা",
+      "emoji": "📏",
+      "roman": "shringkhola"
+    },
+    {
+      "id": "actions-reward",
+      "en": "reward",
+      "bn": "পুরস্কার",
+      "emoji": "🏅",
+      "roman": "puruskar"
+    },
+    {
+      "id": "actions-punish",
+      "en": "punish",
+      "bn": "শাস্তি",
+      "emoji": "⚠️",
+      "roman": "shasti"
+    },
+    {
+      "id": "actions-compete",
+      "en": "compete",
+      "bn": "প্রতিযোগিতা",
+      "emoji": "🏆",
+      "roman": "protijogita"
+    },
+    {
+      "id": "actions-cooperate",
+      "en": "cooperate",
+      "bn": "সহযোগিতা",
+      "emoji": "🤝",
+      "roman": "shohojogita"
+    },
+    {
+      "id": "actions-argue",
+      "en": "argue",
+      "bn": "তর্ক করা",
+      "emoji": "💬",
+      "roman": "torko kora"
+    },
+    {
+      "id": "actions-agree",
+      "en": "agree",
+      "bn": "একমত হওয়া",
+      "emoji": "👍",
+      "roman": "ekmot howa"
+    },
+    {
+      "id": "actions-disagree",
+      "en": "disagree",
+      "bn": "অসম্মত হওয়া",
+      "emoji": "👎",
+      "roman": "osommot howa"
+    },
+    {
+      "id": "actions-discuss",
+      "en": "discuss",
+      "bn": "আলোচনা",
+      "emoji": "💬",
+      "roman": "alochona"
+    },
+    {
+      "id": "actions-plan",
+      "en": "plan",
+      "bn": "পরিকল্পনা",
+      "emoji": "📋",
+      "roman": "porikolpona"
+    },
+    {
+      "id": "actions-prepare",
+      "en": "prepare",
+      "bn": "প্রস্তুতি",
+      "emoji": "📝",
+      "roman": "prostuti"
+    },
+    {
+      "id": "actions-organize",
+      "en": "organize",
+      "bn": "গোছানো",
+      "emoji": "📂",
+      "roman": "goshano"
+    },
+    {
+      "id": "actions-sort",
+      "en": "sort",
+      "bn": "সাজানো",
+      "emoji": "📊",
+      "roman": "sajano"
+    },
+    {
+      "id": "actions-arrange",
+      "en": "arrange",
+      "bn": "সাজানো",
+      "emoji": "📋",
+      "roman": "sajano"
+    },
+    {
+      "id": "actions-collect",
+      "en": "collect",
+      "bn": "সংগ্রহ",
+      "emoji": "📦",
+      "roman": "songroho"
+    },
+    {
+      "id": "actions-gather",
+      "en": "gather",
+      "bn": "একত্র করা",
+      "emoji": "👥",
+      "roman": "ekotro kora"
+    },
+    {
+      "id": "actions-scatter",
+      "en": "scatter",
+      "bn": "ছড়িয়ে দেওয়া",
+      "emoji": "💨",
+      "roman": "chhoriye dewa"
+    },
+    {
+      "id": "actions-save",
+      "en": "save",
+      "bn": "জমা রাখা",
+      "emoji": "💰",
+      "roman": "joma rakha"
+    },
+    {
+      "id": "actions-spend",
+      "en": "spend",
+      "bn": "খরচ করা",
+      "emoji": "💸",
+      "roman": "khoroch kora"
+    },
+    {
+      "id": "actions-waste",
+      "en": "waste",
+      "bn": "নষ্ট করা",
+      "emoji": "🗑️",
+      "roman": "noshto kora"
+    },
+    {
+      "id": "actions-recycle",
+      "en": "recycle",
+      "bn": "পুনর্ব্যবহার",
+      "emoji": "♻️",
+      "roman": "punorbbyash"
+    },
+    {
+      "id": "actions-protect",
+      "en": "protect",
+      "bn": "রক্ষা করা",
+      "emoji": "🛡️",
+      "roman": "rokkha kora"
+    },
+    {
+      "id": "actions-attack",
+      "en": "attack",
+      "bn": "আক্রমণ",
+      "emoji": "⚔️",
+      "roman": "akromon"
+    },
+    {
+      "id": "actions-defend",
+      "en": "defend",
+      "bn": "রক্ষা",
+      "emoji": "🛡️",
+      "roman": "rokkha"
+    },
+    {
+      "id": "actions-escape",
+      "en": "escape",
+      "bn": "পালানো",
+      "emoji": "🏃",
+      "roman": "palano"
+    },
+    {
+      "id": "actions-chase",
+      "en": "chase",
+      "bn": "অনুসরণ",
+      "emoji": "🏃",
+      "roman": "onushoron"
+    },
+    {
+      "id": "actions-race",
+      "en": "race",
+      "bn": "দৌড়",
+      "emoji": "🏁",
+      "roman": "dour"
+    },
+    {
+      "id": "actions-kick",
+      "en": "kick",
+      "bn": "লাথি",
+      "emoji": "🦵",
+      "roman": "lathi"
+    },
+    {
+      "id": "actions-punch",
+      "en": "punch",
+      "bn": "মুকখ",
+      "emoji": "👊",
+      "roman": "mukkha"
+    },
+    {
+      "id": "actions-tickle",
+      "en": "tickle",
+      "bn": "কুতুকুতি",
+      "emoji": "🤭",
+      "roman": "kutukuti"
+    },
+    {
+      "id": "actions-tickle-feet",
+      "en": "tickle feet",
+      "bn": "পা কুতুকুতি",
+      "emoji": "🦶",
+      "roman": "pay kutukuti"
+    },
+    {
+      "id": "actions-massage",
+      "en": "massage",
+      "bn": "মলিশ",
+      "emoji": "💆",
+      "roman": "malish"
+    },
+    {
+      "id": "actions-exercise",
+      "en": "exercise",
+      "bn": "ব্যায়াম",
+      "emoji": "🏋️",
+      "roman": "byayam"
+    },
+    {
+      "id": "actions-stretch-arms",
+      "en": "stretch arms",
+      "bn": "হাত পরোশরিতো",
+      "emoji": "🤸",
+      "roman": "hat prosharito"
+    },
+    {
+      "id": "actions-balance",
+      "en": "balance",
+      "bn": "ভারসাম্য",
+      "emoji": "⚖️",
+      "roman": "bharsamyo"
+    },
+    {
+      "id": "actions-tip-toe",
+      "en": "tip toe",
+      "bn": "পায়ের আঙুলে",
+      "emoji": "🦶",
+      "roman": "payer angule"
+    },
+    {
+      "id": "actions-march",
+      "en": "march",
+      "bn": "মরচ",
+      "emoji": "🚶",
+      "roman": "march"
+    },
+    {
+      "id": "actions-stomp",
+      "en": "stomp",
+      "bn": "পা ফেলা",
+      "emoji": "🦶",
+      "roman": "pa fela"
+    },
+    {
+      "id": "actions-tiptoe",
+      "en": "tiptoe",
+      "bn": "চুপি চুপি",
+      "emoji": "🤫",
+      "roman": "chupi chupi"
+    },
+    {
+      "id": "actions-sprint",
+      "en": "sprint",
+      "bn": "দ্রুত দৌড়",
+      "emoji": "🏃",
+      "roman": "druto dour"
+    },
+    {
+      "id": "actions-jog",
+      "en": "jog",
+      "bn": "জোগগিঙ",
+      "emoji": "🏃",
+      "roman": "jogging"
+    },
+    {
+      "id": "actions-hike",
+      "en": "hike",
+      "bn": "হিকিঙ",
+      "emoji": "🥾",
+      "roman": "hiking"
+    },
+    {
+      "id": "actions-camp",
+      "en": "camp",
+      "bn": "চমপ",
+      "emoji": "⛺",
+      "roman": "camp"
+    },
+    {
+      "id": "actions-explore",
+      "en": "explore",
+      "bn": "অন্বেষণ",
+      "emoji": "🔍",
+      "roman": "onweshon"
+    },
+    {
+      "id": "actions-discover",
+      "en": "discover",
+      "bn": "আবিষ্কার",
+      "emoji": "💡",
+      "roman": "abishkar"
+    },
+    {
+      "id": "actions-invent",
+      "en": "invent",
+      "bn": "উদ্ভাবন",
+      "emoji": "💡",
+      "roman": "udbhavon"
+    },
+    {
+      "id": "actions-measure",
+      "en": "measure",
+      "bn": "মাপা",
+      "emoji": "📏",
+      "roman": "mapa"
+    },
+    {
+      "id": "actions-weigh",
+      "en": "weigh",
+      "bn": "ওজন করা",
+      "emoji": "⚖️",
+      "roman": "ojon kora"
+    },
+    {
+      "id": "actions-compare",
+      "en": "compare",
+      "bn": "তুলনা",
+      "emoji": "⚖️",
+      "roman": "tulona"
+    },
+    {
+      "id": "actions-match",
+      "en": "match",
+      "bn": "মিলানো",
+      "emoji": "🧩",
+      "roman": "milano"
+    },
+    {
+      "id": "actions-guess",
+      "en": "guess",
+      "bn": "অনুমান",
+      "emoji": "🤔",
+      "roman": "onuman"
+    },
+    {
+      "id": "actions-check",
+      "en": "check",
+      "bn": "পরীক্ষা",
+      "emoji": "✅",
+      "roman": "poriksha"
+    },
+    {
+      "id": "actions-test",
+      "en": "test",
+      "bn": "পরীক্ষা",
+      "emoji": "📝",
+      "roman": "poriksha"
+    },
+    {
+      "id": "actions-pass",
+      "en": "pass",
+      "bn": "পাস",
+      "emoji": "✅",
+      "roman": "pass"
+    },
+    {
+      "id": "actions-fail",
+      "en": "fail",
+      "bn": "ফিল",
+      "emoji": "❌",
+      "roman": "fail"
+    },
+    {
+      "id": "actions-repeat",
+      "en": "repeat",
+      "bn": "পুনরাবৃত্তি",
+      "emoji": "🔁",
+      "roman": "punorabritti"
+    },
+    {
+      "id": "actions-copy",
+      "en": "copy",
+      "bn": "চোপয",
+      "emoji": "📋",
+      "roman": "copy"
+    },
+    {
+      "id": "actions-trace",
+      "en": "trace",
+      "bn": "অনুসরণ",
+      "emoji": "✏️",
+      "roman": "onushoron"
+    },
+    {
+      "id": "actions-color-in",
+      "en": "color in",
+      "bn": "রং ভর",
+      "emoji": "🎨",
+      "roman": "rong bhra"
+    },
+    {
+      "id": "actions-paint-picture",
+      "en": "paint picture",
+      "bn": "চিতর অক",
+      "emoji": "🎨",
+      "roman": "chitra aka"
+    },
+    {
+      "id": "actions-sculpt",
+      "en": "sculpt",
+      "bn": "ভাস্কর্য",
+      "emoji": "🗿",
+      "roman": "bhaskarjo"
+    },
+    {
+      "id": "actions-knit",
+      "en": "knit",
+      "bn": "বরে",
+      "emoji": "🧶",
+      "roman": "bre"
+    },
+    {
+      "id": "actions-sew",
+      "en": "sew",
+      "bn": "সেব",
+      "emoji": "🧵",
+      "roman": "sew"
+    },
+    {
+      "id": "actions-stitch",
+      "en": "stitch",
+      "bn": "সেব",
+      "emoji": "🧵",
+      "roman": "sew"
+    },
+    {
+      "id": "actions-button-up",
+      "en": "button up",
+      "bn": "বোতাম লগনো",
+      "emoji": "🔘",
+      "roman": "botam lagano"
+    },
+    {
+      "id": "actions-zip-up",
+      "en": "zip up",
+      "bn": "জিপ লগনো",
+      "emoji": "🤐",
+      "roman": "jip lagano"
+    },
+    {
+      "id": "actions-brush-teeth",
+      "en": "brush teeth",
+      "bn": "দাৎয় পরিষ্কার",
+      "emoji": "🪥",
+      "roman": "dat porishkar"
+    },
+    {
+      "id": "actions-comb-hair",
+      "en": "comb hair",
+      "bn": "চুল আঁচড়ানো",
+      "emoji": "💇",
+      "roman": "chul achrano"
+    },
+    {
+      "id": "actions-bathe",
+      "en": "bathe",
+      "bn": "গোশোল",
+      "emoji": "🛁",
+      "roman": "goshol"
+    },
+    {
+      "id": "actions-shower",
+      "en": "shower",
+      "bn": "শোবের",
+      "emoji": "🚿",
+      "roman": "shower"
+    },
+    {
+      "id": "actions-dress-up",
+      "en": "dress up",
+      "bn": "পোশাক পোরনো",
+      "emoji": "👗",
+      "roman": "poshak porano"
+    },
+    {
+      "id": "actions-undress",
+      "en": "undress",
+      "bn": "পোশাক খোলা",
+      "emoji": "👕",
+      "roman": "poshak khola"
+    },
+    {
+      "id": "actions-put-on",
+      "en": "put on",
+      "bn": "পোরনো",
+      "emoji": "👕",
+      "roman": "porano"
+    },
+    {
+      "id": "actions-take-off",
+      "en": "take off",
+      "bn": "খোলা",
+      "emoji": "👕",
+      "roman": "khola"
+    },
+    {
+      "id": "actions-wake-up",
+      "en": "wake up",
+      "bn": "জগনো",
+      "emoji": "⏰",
+      "roman": "jagano"
+    },
+    {
+      "id": "actions-get-up",
+      "en": "get up",
+      "bn": "উথ",
+      "emoji": "🛏️",
+      "roman": "utha"
+    },
+    {
+      "id": "actions-lie-down",
+      "en": "lie down",
+      "bn": "শুিয থক",
+      "emoji": "🛏️",
+      "roman": "shuiya thaka"
+    },
+    {
+      "id": "actions-rest",
+      "en": "rest",
+      "bn": "বিসরম",
+      "emoji": "😌",
+      "roman": "bisram"
+    },
+    {
+      "id": "actions-relax",
+      "en": "relax",
+      "bn": "আরাম",
+      "emoji": "🛋️",
+      "roman": "aram"
+    },
+    {
+      "id": "actions-nap",
+      "en": "nap",
+      "bn": "ছস্ট ঘুম",
+      "emoji": "😴",
+      "roman": "chhoto ghum"
+    },
+    {
+      "id": "actions-snore",
+      "en": "snore",
+      "bn": "ঘুম ঘুম",
+      "emoji": "😴",
+      "roman": "ghum ghum"
+    },
+    {
+      "id": "actions-yawn-sleepily",
+      "en": "yawn sleepily",
+      "bn": "ঘুম ঘুম হাই",
+      "emoji": "🥱",
+      "roman": "ghum ghum hai"
+    }
   ]
 }

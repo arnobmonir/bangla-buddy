@@ -47,6 +47,7 @@ export default function App() {
     trackSessionStart,
     trackWordHeard,
     trackCategoryComplete,
+    clearResume,
     clearProgress,
     refresh,
   } = useProgress()
@@ -105,14 +106,18 @@ export default function App() {
   }
 
   if (screen.name === 'player') {
+    const catProgress = progress.categories[screen.category.id]
     return (
       <Player
         category={screen.category}
         settings={settings}
+        resumeWordId={catProgress?.resumeWordId ?? null}
+        resumeIndex={catProgress?.resumeIndex ?? 0}
         onBack={() => setScreen({ name: 'home' })}
         onSessionStart={trackSessionStart}
         onWordHeard={trackWordHeard}
         onCategoryComplete={trackCategoryComplete}
+        onClearResume={clearResume}
       />
     )
   }

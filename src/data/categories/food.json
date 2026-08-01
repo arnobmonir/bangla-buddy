@@ -1,53 +1,1104 @@
 {
   "categoryId": "food",
   "words": [
-    { "id": "food-rice", "en": "rice", "bn": "ভাত", "emoji": "🍚", "roman": "bhat" },
-    { "id": "food-bread", "en": "bread", "bn": "রুটি", "emoji": "🍞", "roman": "ruti" },
-    { "id": "food-milk", "en": "milk", "bn": "দুধ", "emoji": "🥛", "roman": "dudh" },
-    { "id": "food-water", "en": "water", "bn": "পানি", "emoji": "💧", "roman": "pani" },
-    { "id": "food-apple", "en": "apple", "bn": "আপেল", "emoji": "🍎", "roman": "apel" },
-    { "id": "food-banana", "en": "banana", "bn": "কলা", "emoji": "🍌", "roman": "kola" },
-    { "id": "food-mango", "en": "mango", "bn": "আম", "emoji": "🥭", "roman": "am" },
-    { "id": "food-orange", "en": "orange", "bn": "কমলা", "emoji": "🍊", "roman": "komola" },
-    { "id": "food-egg", "en": "egg", "bn": "ডিম", "emoji": "🥚", "roman": "dim" },
-    { "id": "food-fish", "en": "fish", "bn": "মাছ", "emoji": "🐟", "roman": "mach" },
-    { "id": "food-chicken", "en": "chicken", "bn": "মুরগি", "emoji": "🍗", "roman": "murgi" },
-    { "id": "food-dal", "en": "lentils", "bn": "ডাল", "emoji": "🥣", "roman": "dal" },
-    { "id": "food-vegetable", "en": "vegetable", "bn": "সবজি", "emoji": "🥬", "roman": "shobji" },
-    { "id": "food-potato", "en": "potato", "bn": "আলু", "emoji": "🥔", "roman": "alu" },
-    { "id": "food-tomato", "en": "tomato", "bn": "টমেটো", "emoji": "🍅", "roman": "tomato" },
-    { "id": "food-carrot", "en": "carrot", "bn": "গাজর", "emoji": "🥕", "roman": "gajor" },
-    { "id": "food-sweet", "en": "sweet", "bn": "মিষ্টি", "emoji": "🍬", "roman": "mishti" },
-    { "id": "food-cake", "en": "cake", "bn": "কেক", "emoji": "🎂", "roman": "kek" },
-    { "id": "food-tea", "en": "tea", "bn": "চা", "emoji": "🍵", "roman": "cha" },
-    { "id": "food-juice", "en": "juice", "bn": "রস", "emoji": "🧃", "roman": "rosh" },
-    { "id": "food-salt", "en": "salt", "bn": "লবণ", "emoji": "🧂", "roman": "lobon" },
-    { "id": "food-sugar", "en": "sugar", "bn": "চিনি", "emoji": "🍬", "roman": "chini" },
-    { "id": "food-soup", "en": "soup", "bn": "স্যুপ", "emoji": "🍲", "roman": "soup" },
-    { "id": "food-fruit", "en": "fruit", "bn": "ফল", "emoji": "🍇", "roman": "phol" },
-    { "id": "food-guava", "en": "guava", "bn": "পেয়ারা", "emoji": "🟢", "roman": "peyara" },
-    { "id": "food-papaya", "en": "papaya", "bn": "পেঁপে", "emoji": "🧡", "roman": "pẽpe" },
-    { "id": "food-jackfruit", "en": "jackfruit", "bn": "কাঁঠাল", "emoji": "🍈", "roman": "kãthal" },
-    { "id": "food-coconut", "en": "coconut", "bn": "নারকেল", "emoji": "🥥", "roman": "narkel" },
-    { "id": "food-grape", "en": "grape", "bn": "আঙ্গুর", "emoji": "🍇", "roman": "angur" },
-    { "id": "food-watermelon", "en": "watermelon", "bn": "তরমুজ", "emoji": "🍉", "roman": "tormuj" },
-    { "id": "food-pineapple", "en": "pineapple", "bn": "আনারস", "emoji": "🍍", "roman": "anarosh" },
-    { "id": "food-lemon", "en": "lemon", "bn": "লেবু", "emoji": "🍋", "roman": "lebu" },
-    { "id": "food-onion", "en": "onion", "bn": "পেঁয়াজ", "emoji": "🧅", "roman": "pẽyaj" },
-    { "id": "food-garlic", "en": "garlic", "bn": "রসুন", "emoji": "🧄", "roman": "roshun" },
-    { "id": "food-chili", "en": "chili", "bn": "মরিচ", "emoji": "🌶️", "roman": "morich" },
-    { "id": "food-cucumber", "en": "cucumber", "bn": "শসা", "emoji": "🥒", "roman": "shosha" },
-    { "id": "food-eggplant", "en": "eggplant", "bn": "বেগুন", "emoji": "🍆", "roman": "begun" },
-    { "id": "food-spinach", "en": "spinach", "bn": "পালং শাক", "emoji": "🥬", "roman": "palong shak" },
-    { "id": "food-meat", "en": "meat", "bn": "মাংস", "emoji": "🥩", "roman": "mangsho" },
-    { "id": "food-beef", "en": "beef", "bn": "গরুর মাংস", "emoji": "🥩", "roman": "gorur mangsho" },
-    { "id": "food-biryani", "en": "biryani", "bn": "বিরিয়ানি", "emoji": "🍛", "roman": "biriyani" },
-    { "id": "food-khichuri", "en": "khichuri", "bn": "খিচুড়ি", "emoji": "🍲", "roman": "khichuri" },
-    { "id": "food-pitha", "en": "pitha", "bn": "পিঠা", "emoji": "🥞", "roman": "pitha" },
-    { "id": "food-rosogolla", "en": "rosogolla", "bn": "রসগোল্লা", "emoji": "⚪", "roman": "roshogolla" },
-    { "id": "food-ice-cream", "en": "ice cream", "bn": "আইসক্রিম", "emoji": "🍦", "roman": "aiskrim" },
-    { "id": "food-biscuit", "en": "biscuit", "bn": "বিস্কুট", "emoji": "🍪", "roman": "biskut" },
-    { "id": "food-honey", "en": "honey", "bn": "মধু", "emoji": "🍯", "roman": "modhu" },
-    { "id": "food-butter", "en": "butter", "bn": "মাখন", "emoji": "🧈", "roman": "makhon" }
+    {
+      "id": "food-rice",
+      "en": "rice",
+      "bn": "ভাত",
+      "emoji": "🍚",
+      "roman": "bhat"
+    },
+    {
+      "id": "food-bread",
+      "en": "bread",
+      "bn": "রুটি",
+      "emoji": "🍞",
+      "roman": "ruti"
+    },
+    {
+      "id": "food-milk",
+      "en": "milk",
+      "bn": "দুধ",
+      "emoji": "🥛",
+      "roman": "dudh"
+    },
+    {
+      "id": "food-water",
+      "en": "water",
+      "bn": "পানি",
+      "emoji": "💧",
+      "roman": "pani"
+    },
+    {
+      "id": "food-apple",
+      "en": "apple",
+      "bn": "আপেল",
+      "emoji": "🍎",
+      "roman": "apel"
+    },
+    {
+      "id": "food-banana",
+      "en": "banana",
+      "bn": "কলা",
+      "emoji": "🍌",
+      "roman": "kola"
+    },
+    {
+      "id": "food-mango",
+      "en": "mango",
+      "bn": "আম",
+      "emoji": "🥭",
+      "roman": "am"
+    },
+    {
+      "id": "food-orange",
+      "en": "orange",
+      "bn": "কমলা",
+      "emoji": "🍊",
+      "roman": "komola"
+    },
+    {
+      "id": "food-egg",
+      "en": "egg",
+      "bn": "ডিম",
+      "emoji": "🥚",
+      "roman": "dim"
+    },
+    {
+      "id": "food-fish",
+      "en": "fish",
+      "bn": "মাছ",
+      "emoji": "🐟",
+      "roman": "mach"
+    },
+    {
+      "id": "food-chicken",
+      "en": "chicken",
+      "bn": "মুরগি",
+      "emoji": "🍗",
+      "roman": "murgi"
+    },
+    {
+      "id": "food-dal",
+      "en": "lentils",
+      "bn": "ডাল",
+      "emoji": "🥣",
+      "roman": "dal"
+    },
+    {
+      "id": "food-vegetable",
+      "en": "vegetable",
+      "bn": "সবজি",
+      "emoji": "🥬",
+      "roman": "shobji"
+    },
+    {
+      "id": "food-potato",
+      "en": "potato",
+      "bn": "আলু",
+      "emoji": "🥔",
+      "roman": "alu"
+    },
+    {
+      "id": "food-tomato",
+      "en": "tomato",
+      "bn": "টমেটো",
+      "emoji": "🍅",
+      "roman": "tomato"
+    },
+    {
+      "id": "food-carrot",
+      "en": "carrot",
+      "bn": "গাজর",
+      "emoji": "🥕",
+      "roman": "gajor"
+    },
+    {
+      "id": "food-sweet",
+      "en": "sweet",
+      "bn": "মিষ্টি",
+      "emoji": "🍬",
+      "roman": "mishti"
+    },
+    {
+      "id": "food-cake",
+      "en": "cake",
+      "bn": "কেক",
+      "emoji": "🎂",
+      "roman": "kek"
+    },
+    {
+      "id": "food-tea",
+      "en": "tea",
+      "bn": "চা",
+      "emoji": "🍵",
+      "roman": "cha"
+    },
+    {
+      "id": "food-juice",
+      "en": "juice",
+      "bn": "রস",
+      "emoji": "🧃",
+      "roman": "rosh"
+    },
+    {
+      "id": "food-salt",
+      "en": "salt",
+      "bn": "লবণ",
+      "emoji": "🧂",
+      "roman": "lobon"
+    },
+    {
+      "id": "food-sugar",
+      "en": "sugar",
+      "bn": "চিনি",
+      "emoji": "🍬",
+      "roman": "chini"
+    },
+    {
+      "id": "food-soup",
+      "en": "soup",
+      "bn": "স্যুপ",
+      "emoji": "🍲",
+      "roman": "soup"
+    },
+    {
+      "id": "food-fruit",
+      "en": "fruit",
+      "bn": "ফল",
+      "emoji": "🍇",
+      "roman": "phol"
+    },
+    {
+      "id": "food-guava",
+      "en": "guava",
+      "bn": "পেয়ারা",
+      "emoji": "🟢",
+      "roman": "peyara"
+    },
+    {
+      "id": "food-papaya",
+      "en": "papaya",
+      "bn": "পেঁপে",
+      "emoji": "🧡",
+      "roman": "pẽpe"
+    },
+    {
+      "id": "food-jackfruit",
+      "en": "jackfruit",
+      "bn": "কাঁঠাল",
+      "emoji": "🍈",
+      "roman": "kãthal"
+    },
+    {
+      "id": "food-coconut",
+      "en": "coconut",
+      "bn": "নারকেল",
+      "emoji": "🥥",
+      "roman": "narkel"
+    },
+    {
+      "id": "food-grape",
+      "en": "grape",
+      "bn": "আঙ্গুর",
+      "emoji": "🍇",
+      "roman": "angur"
+    },
+    {
+      "id": "food-watermelon",
+      "en": "watermelon",
+      "bn": "তরমুজ",
+      "emoji": "🍉",
+      "roman": "tormuj"
+    },
+    {
+      "id": "food-pineapple",
+      "en": "pineapple",
+      "bn": "আনারস",
+      "emoji": "🍍",
+      "roman": "anarosh"
+    },
+    {
+      "id": "food-lemon",
+      "en": "lemon",
+      "bn": "লেবু",
+      "emoji": "🍋",
+      "roman": "lebu"
+    },
+    {
+      "id": "food-onion",
+      "en": "onion",
+      "bn": "পেঁয়াজ",
+      "emoji": "🧅",
+      "roman": "pẽyaj"
+    },
+    {
+      "id": "food-garlic",
+      "en": "garlic",
+      "bn": "রসুন",
+      "emoji": "🧄",
+      "roman": "roshun"
+    },
+    {
+      "id": "food-chili",
+      "en": "chili",
+      "bn": "মরিচ",
+      "emoji": "🌶️",
+      "roman": "morich"
+    },
+    {
+      "id": "food-cucumber",
+      "en": "cucumber",
+      "bn": "শসা",
+      "emoji": "🥒",
+      "roman": "shosha"
+    },
+    {
+      "id": "food-eggplant",
+      "en": "eggplant",
+      "bn": "বেগুন",
+      "emoji": "🍆",
+      "roman": "begun"
+    },
+    {
+      "id": "food-spinach",
+      "en": "spinach",
+      "bn": "পালং শাক",
+      "emoji": "🥬",
+      "roman": "palong shak"
+    },
+    {
+      "id": "food-meat",
+      "en": "meat",
+      "bn": "মাংস",
+      "emoji": "🥩",
+      "roman": "mangsho"
+    },
+    {
+      "id": "food-beef",
+      "en": "beef",
+      "bn": "গরুর মাংস",
+      "emoji": "🥩",
+      "roman": "gorur mangsho"
+    },
+    {
+      "id": "food-biryani",
+      "en": "biryani",
+      "bn": "বিরিয়ানি",
+      "emoji": "🍛",
+      "roman": "biriyani"
+    },
+    {
+      "id": "food-khichuri",
+      "en": "khichuri",
+      "bn": "খিচুড়ি",
+      "emoji": "🍲",
+      "roman": "khichuri"
+    },
+    {
+      "id": "food-pitha",
+      "en": "pitha",
+      "bn": "পিঠা",
+      "emoji": "🥞",
+      "roman": "pitha"
+    },
+    {
+      "id": "food-rosogolla",
+      "en": "rosogolla",
+      "bn": "রসগোল্লা",
+      "emoji": "⚪",
+      "roman": "roshogolla"
+    },
+    {
+      "id": "food-ice-cream",
+      "en": "ice cream",
+      "bn": "আইসক্রিম",
+      "emoji": "🍦",
+      "roman": "aiskrim"
+    },
+    {
+      "id": "food-biscuit",
+      "en": "biscuit",
+      "bn": "বিস্কুট",
+      "emoji": "🍪",
+      "roman": "biskut"
+    },
+    {
+      "id": "food-honey",
+      "en": "honey",
+      "bn": "মধু",
+      "emoji": "🍯",
+      "roman": "modhu"
+    },
+    {
+      "id": "food-butter",
+      "en": "butter",
+      "bn": "মাখন",
+      "emoji": "🧈",
+      "roman": "makhon"
+    },
+    {
+      "id": "food-paratha",
+      "en": "paratha",
+      "bn": "পরোটা",
+      "emoji": "🫓",
+      "roman": "porota"
+    },
+    {
+      "id": "food-samosa",
+      "en": "samosa",
+      "bn": "সমোস",
+      "emoji": "🥟",
+      "roman": "samosa"
+    },
+    {
+      "id": "food-singara",
+      "en": "singara",
+      "bn": "সিঙ্গারা",
+      "emoji": "🥟",
+      "roman": "singara"
+    },
+    {
+      "id": "food-fuchka",
+      "en": "fuchka",
+      "bn": "ফুচকা",
+      "emoji": "🥟",
+      "roman": "fuchka"
+    },
+    {
+      "id": "food-jhal-muri",
+      "en": "jhal muri",
+      "bn": "ঝাল মুড়ি",
+      "emoji": "🍿",
+      "roman": "jhal muri"
+    },
+    {
+      "id": "food-chanachur",
+      "en": "chanachur",
+      "bn": "চানাচুর",
+      "emoji": "🍿",
+      "roman": "chanachur"
+    },
+    {
+      "id": "food-mishti-doi",
+      "en": "mishti doi",
+      "bn": "মিষ্টি দই",
+      "emoji": "🥛",
+      "roman": "mishti doi"
+    },
+    {
+      "id": "food-ras-malai",
+      "en": "ras malai",
+      "bn": "রস মালাই",
+      "emoji": "🍮",
+      "roman": "rosh malai"
+    },
+    {
+      "id": "food-sandesh",
+      "en": "sandesh",
+      "bn": "সন্দেশ",
+      "emoji": "🍬",
+      "roman": "sandesh"
+    },
+    {
+      "id": "food-payesh",
+      "en": "payesh",
+      "bn": "পায়েস",
+      "emoji": "🍮",
+      "roman": "payesh"
+    },
+    {
+      "id": "food-polao",
+      "en": "polao",
+      "bn": "পোলাও",
+      "emoji": "🍚",
+      "roman": "polao"
+    },
+    {
+      "id": "food-tehari",
+      "en": "tehari",
+      "bn": "তেহারি",
+      "emoji": "🍚",
+      "roman": "tehari"
+    },
+    {
+      "id": "food-kacchi-biryani",
+      "en": "kacchi biryani",
+      "bn": "কাচ্চি বিরিয়ানি",
+      "emoji": "🍛",
+      "roman": "kacchi biriyani"
+    },
+    {
+      "id": "food-shorshe-ilish",
+      "en": "shorshe ilish",
+      "bn": "সরষে ইলিশ",
+      "emoji": "🐟",
+      "roman": "shorshe ilish"
+    },
+    {
+      "id": "food-shutki",
+      "en": "shutki",
+      "bn": "শুঁটকি",
+      "emoji": "🐟",
+      "roman": "shutki"
+    },
+    {
+      "id": "food-beguni",
+      "en": "beguni",
+      "bn": "বেগুনি",
+      "emoji": "🍆",
+      "roman": "beguni"
+    },
+    {
+      "id": "food-piyaju",
+      "en": "piyaju",
+      "bn": "পিয়াজু",
+      "emoji": "🧅",
+      "roman": "piyaju"
+    },
+    {
+      "id": "food-halim",
+      "en": "halim",
+      "bn": "হালিম",
+      "emoji": "🍲",
+      "roman": "haleem"
+    },
+    {
+      "id": "food-borhani",
+      "en": "borhani",
+      "bn": "বোরহানি",
+      "emoji": "🥤",
+      "roman": "borhani"
+    },
+    {
+      "id": "food-lassi",
+      "en": "lassi",
+      "bn": "লাসি",
+      "emoji": "🥤",
+      "roman": "lassi"
+    },
+    {
+      "id": "food-sugarcane-juice",
+      "en": "sugarcane juice",
+      "bn": "আখের রস",
+      "emoji": "🥤",
+      "roman": "akher rosh"
+    },
+    {
+      "id": "food-coconut-water",
+      "en": "coconut water",
+      "bn": "ডাবের পানি",
+      "emoji": "🥥",
+      "roman": "daber pani"
+    },
+    {
+      "id": "food-litchi",
+      "en": "litchi",
+      "bn": "লিচু",
+      "emoji": "🍒",
+      "roman": "lichu"
+    },
+    {
+      "id": "food-jamun",
+      "en": "jamun",
+      "bn": "জাম",
+      "emoji": "🫐",
+      "roman": "jam"
+    },
+    {
+      "id": "food-dragon-fruit",
+      "en": "dragon fruit",
+      "bn": "ড্রাগন ফল",
+      "emoji": "🐉",
+      "roman": "dragon fruit"
+    },
+    {
+      "id": "food-strawberry",
+      "en": "strawberry",
+      "bn": "স্ট্রবেরি",
+      "emoji": "🍓",
+      "roman": "strawberry"
+    },
+    {
+      "id": "food-pear",
+      "en": "pear",
+      "bn": "নাশপাতি",
+      "emoji": "🍐",
+      "roman": "nashpati"
+    },
+    {
+      "id": "food-ghee",
+      "en": "ghee",
+      "bn": "ঘী",
+      "emoji": "🧈",
+      "roman": "ghee"
+    },
+    {
+      "id": "food-yogurt",
+      "en": "yogurt",
+      "bn": "দই",
+      "emoji": "🥛",
+      "roman": "doi"
+    },
+    {
+      "id": "food-cheese",
+      "en": "cheese",
+      "bn": "পনির",
+      "emoji": "🧀",
+      "roman": "ponir"
+    },
+    {
+      "id": "food-noodles",
+      "en": "noodles",
+      "bn": "নুডলস",
+      "emoji": "🍜",
+      "roman": "noodles"
+    },
+    {
+      "id": "food-pizza",
+      "en": "pizza",
+      "bn": "পিজ্জা",
+      "emoji": "🍕",
+      "roman": "pizza"
+    },
+    {
+      "id": "food-burger",
+      "en": "burger",
+      "bn": "বার্গার",
+      "emoji": "🍔",
+      "roman": "burger"
+    },
+    {
+      "id": "food-french-fries",
+      "en": "french fries",
+      "bn": "ফ্রেঞ্চ ফ্রাই",
+      "emoji": "🍟",
+      "roman": "french fries"
+    },
+    {
+      "id": "food-popcorn",
+      "en": "popcorn",
+      "bn": "পপকর্ন",
+      "emoji": "🍿",
+      "roman": "popcorn"
+    },
+    {
+      "id": "food-peanut",
+      "en": "peanut",
+      "bn": "বাদাম",
+      "emoji": "🥜",
+      "roman": "badam"
+    },
+    {
+      "id": "food-pickle",
+      "en": "pickle",
+      "bn": "আচার",
+      "emoji": "🥒",
+      "roman": "achar"
+    },
+    {
+      "id": "food-chutney",
+      "en": "chutney",
+      "bn": "চতনি",
+      "emoji": "🥣",
+      "roman": "chatni"
+    },
+    {
+      "id": "food-turmeric",
+      "en": "turmeric",
+      "bn": "হলুদ",
+      "emoji": "🟡",
+      "roman": "holud"
+    },
+    {
+      "id": "food-ginger",
+      "en": "ginger",
+      "bn": "আদা",
+      "emoji": "🫚",
+      "roman": "ada"
+    },
+    {
+      "id": "food-cauliflower",
+      "en": "cauliflower",
+      "bn": "ফুলকোপি",
+      "emoji": "🥦",
+      "roman": "phulkopi"
+    },
+    {
+      "id": "food-cabbage",
+      "en": "cabbage",
+      "bn": "বনধকোপি",
+      "emoji": "🥬",
+      "roman": "bandhakopi"
+    },
+    {
+      "id": "food-peas",
+      "en": "peas",
+      "bn": "মটর",
+      "emoji": "🫛",
+      "roman": "motor"
+    },
+    {
+      "id": "food-mushroom",
+      "en": "mushroom",
+      "bn": "মাশরুম",
+      "emoji": "🍄",
+      "roman": "mushroom"
+    },
+    {
+      "id": "food-pumpkin",
+      "en": "pumpkin",
+      "bn": "কুমরো",
+      "emoji": "🎃",
+      "roman": "kumro"
+    },
+    {
+      "id": "food-corn",
+      "en": "corn",
+      "bn": "ভুট্টা",
+      "emoji": "🌽",
+      "roman": "bhutta"
+    },
+    {
+      "id": "food-chira",
+      "en": "chira",
+      "bn": "চির",
+      "emoji": "🍚",
+      "roman": "chira"
+    },
+    {
+      "id": "food-muri",
+      "en": "muri",
+      "bn": "মুড়ি",
+      "emoji": "🍚",
+      "roman": "muri"
+    },
+    {
+      "id": "food-kebab",
+      "en": "kebab",
+      "bn": "কাবাব",
+      "emoji": "🍢",
+      "roman": "kebab"
+    },
+    {
+      "id": "food-fried-rice",
+      "en": "fried rice",
+      "bn": "ভাজা ভাত",
+      "emoji": "🍚",
+      "roman": "bhaja bhat"
+    },
+    {
+      "id": "food-fish-curry",
+      "en": "fish curry",
+      "bn": "মাছের তরকারি",
+      "emoji": "🐟",
+      "roman": "macher torkari"
+    },
+    {
+      "id": "food-mutton",
+      "en": "mutton",
+      "bn": "খশি মাংস",
+      "emoji": "🥩",
+      "roman": "khashi mangsho"
+    },
+    {
+      "id": "food-omelet",
+      "en": "omelet",
+      "bn": "ডিম ভাজি",
+      "emoji": "🍳",
+      "roman": "dim poch"
+    },
+    {
+      "id": "food-chocolate",
+      "en": "chocolate",
+      "bn": "চকোলেট",
+      "emoji": "🍫",
+      "roman": "chocolate"
+    },
+    {
+      "id": "food-lollipop",
+      "en": "lollipop",
+      "bn": "ললিপপ",
+      "emoji": "🍭",
+      "roman": "lollipop"
+    },
+    {
+      "id": "food-breakfast",
+      "en": "breakfast",
+      "bn": "নাশতা",
+      "emoji": "🍳",
+      "roman": "nashta"
+    },
+    {
+      "id": "food-lunch",
+      "en": "lunch",
+      "bn": "দুপুরের খাবার",
+      "emoji": "🍱",
+      "roman": "dupur khabar"
+    },
+    {
+      "id": "food-dinner",
+      "en": "dinner",
+      "bn": "রাতের খাবার",
+      "emoji": "🍽️",
+      "roman": "ratri khabar"
+    },
+    {
+      "id": "food-iftar",
+      "en": "iftar",
+      "bn": "ইফতর",
+      "emoji": "🌙",
+      "roman": "iftar"
+    },
+    {
+      "id": "food-naan",
+      "en": "naan",
+      "bn": "নান",
+      "emoji": "🫓",
+      "roman": "nan"
+    },
+    {
+      "id": "food-semolina",
+      "en": "semolina",
+      "bn": "সুজি",
+      "emoji": "🌾",
+      "roman": "suji"
+    },
+    {
+      "id": "food-flour",
+      "en": "flour",
+      "bn": "আটা",
+      "emoji": "🌾",
+      "roman": "ata"
+    },
+    {
+      "id": "food-mustard-oil",
+      "en": "mustard oil",
+      "bn": "সরিষার তেল",
+      "emoji": "🫙",
+      "roman": "sarisha tel"
+    },
+    {
+      "id": "food-jaggery",
+      "en": "jaggery",
+      "bn": "গুড়",
+      "emoji": "🟤",
+      "roman": "gur"
+    },
+    {
+      "id": "food-radish",
+      "en": "radish",
+      "bn": "মূলা",
+      "emoji": "🥕",
+      "roman": "mula"
+    },
+    {
+      "id": "food-fish-fry",
+      "en": "fish fry",
+      "bn": "মাছ ভাজা",
+      "emoji": "🐟",
+      "roman": "mach bhaja"
+    },
+    {
+      "id": "food-dal-puri",
+      "en": "dal puri",
+      "bn": "দল পুরি",
+      "emoji": "🫓",
+      "roman": "dal puri"
+    },
+    {
+      "id": "food-luchi",
+      "en": "luchi",
+      "bn": "লুচি",
+      "emoji": "🫓",
+      "roman": "luchi"
+    },
+    {
+      "id": "food-beef-curry",
+      "en": "beef curry",
+      "bn": "গরুর মাংসের তরকারি",
+      "emoji": "🥩",
+      "roman": "gorur mangsher torkari"
+    },
+    {
+      "id": "food-duck-curry",
+      "en": "duck curry",
+      "bn": "হাঁসের তরকারি",
+      "emoji": "🦆",
+      "roman": "hasher torkari"
+    },
+    {
+      "id": "food-prawn-fry",
+      "en": "prawn fry",
+      "bn": "চিঙরি ভাজা",
+      "emoji": "🦐",
+      "roman": "chingri bhaja"
+    },
+    {
+      "id": "food-star-fruit",
+      "en": "star fruit",
+      "bn": "কমরঙ",
+      "emoji": "⭐",
+      "roman": "kamranga"
+    },
+    {
+      "id": "food-bel-fruit",
+      "en": "bel fruit",
+      "bn": "বেল",
+      "emoji": "🟤",
+      "roman": "bel"
+    },
+    {
+      "id": "food-wood-apple",
+      "en": "wood apple",
+      "bn": "কথবেল",
+      "emoji": "🟤",
+      "roman": "kathbel"
+    },
+    {
+      "id": "food-mango-juice",
+      "en": "mango juice",
+      "bn": "আমের রস",
+      "emoji": "🧃",
+      "roman": "am er rosh"
+    },
+    {
+      "id": "food-lemonade",
+      "en": "lemonade",
+      "bn": "লেবুর শরবত",
+      "emoji": "🍋",
+      "roman": "lebur shorbot"
+    },
+    {
+      "id": "food-coffee",
+      "en": "coffee",
+      "bn": "কফি",
+      "emoji": "☕",
+      "roman": "coffee"
+    },
+    {
+      "id": "food-cake-slice",
+      "en": "cake slice",
+      "bn": "কেক",
+      "emoji": "🍰",
+      "roman": "cake"
+    },
+    {
+      "id": "food-donut",
+      "en": "donut",
+      "bn": "ডোনাট",
+      "emoji": "🍩",
+      "roman": "donut"
+    },
+    {
+      "id": "food-toast",
+      "en": "toast",
+      "bn": "টোস্ট",
+      "emoji": "🍞",
+      "roman": "toast"
+    },
+    {
+      "id": "food-chicken-soup",
+      "en": "chicken soup",
+      "bn": "মুরগির সুপ",
+      "emoji": "🍲",
+      "roman": "murgir soup"
+    },
+    {
+      "id": "food-fried-chicken",
+      "en": "fried chicken",
+      "bn": "ভাজা মুরগি",
+      "emoji": "🍗",
+      "roman": "bhaja murgi"
+    },
+    {
+      "id": "food-steamed-rice",
+      "en": "steamed rice",
+      "bn": "ভাপা ভাত",
+      "emoji": "🍚",
+      "roman": "bhapa bhat"
+    },
+    {
+      "id": "food-mashed-potato",
+      "en": "mashed potato",
+      "bn": "আলু ভর্তা",
+      "emoji": "🥔",
+      "roman": "alu bhorta"
+    },
+    {
+      "id": "food-mashed-fish",
+      "en": "mashed fish",
+      "bn": "মাছ ভর্তা",
+      "emoji": "🐟",
+      "roman": "mach bhorta"
+    },
+    {
+      "id": "food-dried-fish",
+      "en": "dried fish",
+      "bn": "শুঁটকি মাছ",
+      "emoji": "🐟",
+      "roman": "shutki mach"
+    },
+    {
+      "id": "food-sweet-yogurt",
+      "en": "sweet yogurt",
+      "bn": "মিষ্টি দই",
+      "emoji": "🥛",
+      "roman": "mishti doi"
+    },
+    {
+      "id": "food-paneer",
+      "en": "paneer",
+      "bn": "পনির",
+      "emoji": "🧀",
+      "roman": "paneer"
+    },
+    {
+      "id": "food-jalebi",
+      "en": "jalebi",
+      "bn": "জিলাপি",
+      "emoji": "🍩",
+      "roman": "jilapi"
+    },
+    {
+      "id": "food-firni",
+      "en": "firni",
+      "bn": "ফিরনি",
+      "emoji": "🍮",
+      "roman": "firni"
+    },
+    {
+      "id": "food-rice-cake",
+      "en": "rice cake",
+      "bn": "পিঠা",
+      "emoji": "🥞",
+      "roman": "pitha"
+    },
+    {
+      "id": "food-patishapta",
+      "en": "patishapta",
+      "bn": "পাটিশাপ্টা",
+      "emoji": "🥞",
+      "roman": "patishapta"
+    },
+    {
+      "id": "food-bora",
+      "en": "bora",
+      "bn": "বড়া",
+      "emoji": "🍘",
+      "roman": "bora"
+    },
+    {
+      "id": "food-chop",
+      "en": "chop",
+      "bn": "চপ",
+      "emoji": "🍢",
+      "roman": "chop"
+    },
+    {
+      "id": "food-kathi-roll",
+      "en": "kathi roll",
+      "bn": "কাঠি রোল",
+      "emoji": "🌯",
+      "roman": "kathi roll"
+    },
+    {
+      "id": "food-dim-chop",
+      "en": "dim chop",
+      "bn": "ডিম চপ",
+      "emoji": "🍢",
+      "roman": "dim chop"
+    },
+    {
+      "id": "food-shami-kebab",
+      "en": "shami kebab",
+      "bn": "শামি কাবাব",
+      "emoji": "🍢",
+      "roman": "shami kebab"
+    },
+    {
+      "id": "food-hot-dog",
+      "en": "hot dog",
+      "bn": "হটডগ",
+      "emoji": "🌭",
+      "roman": "hot dog"
+    },
+    {
+      "id": "food-sandwich",
+      "en": "sandwich",
+      "bn": "স্যান্ডউইচ",
+      "emoji": "🥪",
+      "roman": "sandwich"
+    },
+    {
+      "id": "food-tiffin",
+      "en": "tiffin",
+      "bn": "টিফিন",
+      "emoji": "🍱",
+      "roman": "tiffin"
+    },
+    {
+      "id": "food-street-food",
+      "en": "street food",
+      "bn": "রাস্তার খাবার",
+      "emoji": "🍢",
+      "roman": "rasta khabar"
+    },
+    {
+      "id": "food-spicy-food",
+      "en": "spicy food",
+      "bn": "ঝাল খাবার",
+      "emoji": "🌶️",
+      "roman": "jhal khabar"
+    },
+    {
+      "id": "food-sweet-taste",
+      "en": "sweet taste",
+      "bn": "মিষ্টি স্বাদ",
+      "emoji": "🍬",
+      "roman": "mishti swad"
+    },
+    {
+      "id": "food-fast-food",
+      "en": "fast food",
+      "bn": "ফাস্ট ফুড",
+      "emoji": "🍔",
+      "roman": "fast food"
+    },
+    {
+      "id": "food-healthy-food",
+      "en": "healthy food",
+      "bn": "সুস্থ খাবার",
+      "emoji": "🥗",
+      "roman": "shustho khabar"
+    },
+    {
+      "id": "food-morog-polao",
+      "en": "morog polao",
+      "bn": "মোরগ পোলাও",
+      "emoji": "🍚",
+      "roman": "morog polao"
+    },
+    {
+      "id": "food-rezaela",
+      "en": "rezaela",
+      "bn": "রেজালা",
+      "emoji": "🍲",
+      "roman": "rezala"
+    },
+    {
+      "id": "food-korma",
+      "en": "korma",
+      "bn": "কোরম",
+      "emoji": "🍲",
+      "roman": "korma"
+    },
+    {
+      "id": "food-boot",
+      "en": "boot",
+      "bn": "বূট",
+      "emoji": "🥾",
+      "roman": "but"
+    }
   ]
 }

@@ -1,45 +1,1216 @@
 {
   "categoryId": "clothes",
   "words": [
-    { "id": "clothes-shirt", "en": "shirt", "bn": "শার্ট", "emoji": "👕", "roman": "shirt" },
-    { "id": "clothes-pants", "en": "pants", "bn": "প্যান্ট", "emoji": "👖", "roman": "pant" },
-    { "id": "clothes-dress", "en": "dress", "bn": "গাউন", "emoji": "👗", "roman": "gaun" },
-    { "id": "clothes-shoe", "en": "shoe", "bn": "জুতো", "emoji": "👟", "roman": "juto" },
-    { "id": "clothes-sock", "en": "sock", "bn": "মোজা", "emoji": "🧦", "roman": "moja" },
-    { "id": "clothes-hat", "en": "hat", "bn": "টুপি", "emoji": "🧢", "roman": "tupi" },
-    { "id": "clothes-coat", "en": "coat", "bn": "কোট", "emoji": "🧥", "roman": "kot" },
-    { "id": "clothes-scarf", "en": "scarf", "bn": "স্কার্ফ", "emoji": "🧣", "roman": "scarf" },
-    { "id": "clothes-glove", "en": "glove", "bn": "দস্তানা", "emoji": "🧤", "roman": "dostana" },
-    { "id": "clothes-bag", "en": "bag", "bn": "ব্যাগ", "emoji": "👜", "roman": "bag" },
-    { "id": "clothes-sari", "en": "sari", "bn": "শাড়ি", "emoji": "🥻", "roman": "shari" },
-    { "id": "clothes-punjabi", "en": "punjabi", "bn": "পাঞ্জাবি", "emoji": "👔", "roman": "panjabi" },
-    { "id": "clothes-button", "en": "button", "bn": "বোতাম", "emoji": "🔘", "roman": "botam" },
-    { "id": "clothes-umbrella", "en": "umbrella", "bn": "ছাতা", "emoji": "☂️", "roman": "chata" },
-    { "id": "clothes-tshirt", "en": "t-shirt", "bn": "টি-শার্ট", "emoji": "👕", "roman": "t-shirt" },
-    { "id": "clothes-skirt", "en": "skirt", "bn": "স্কার্ট", "emoji": "👗", "roman": "skirt" },
-    { "id": "clothes-shorts", "en": "shorts", "bn": "শর্টস", "emoji": "🩳", "roman": "shorts" },
-    { "id": "clothes-jeans", "en": "jeans", "bn": "জিনস", "emoji": "👖", "roman": "jins" },
-    { "id": "clothes-sweater", "en": "sweater", "bn": "সোয়েটার", "emoji": "🧶", "roman": "sweater" },
-    { "id": "clothes-jacket", "en": "jacket", "bn": "জ্যাকেট", "emoji": "🧥", "roman": "jacket" },
-    { "id": "clothes-hoodie", "en": "hoodie", "bn": "হুডি", "emoji": "🧥", "roman": "hudi" },
-    { "id": "clothes-pajamas", "en": "pajamas", "bn": "পাজামা", "emoji": "🛌", "roman": "pajama" },
-    { "id": "clothes-underwear", "en": "underwear", "bn": "অন্তর্বাস", "emoji": "🩲", "roman": "ontorbas" },
-    { "id": "clothes-sandal", "en": "sandal", "bn": "স্যান্ডেল", "emoji": "🩴", "roman": "sandal" },
-    { "id": "clothes-boot", "en": "boot", "bn": "বুট", "emoji": "🥾", "roman": "but" },
-    { "id": "clothes-slipper", "en": "slipper", "bn": "স্লিপার", "emoji": "🩴", "roman": "slipar" },
-    { "id": "clothes-belt", "en": "belt", "bn": "বেল্ট", "emoji": "➰", "roman": "belt" },
-    { "id": "clothes-tie", "en": "tie", "bn": "নেকটাই", "emoji": "👔", "roman": "nektai" },
-    { "id": "clothes-glasses", "en": "glasses", "bn": "চশমা", "emoji": "👓", "roman": "choshma" },
-    { "id": "clothes-watch", "en": "watch", "bn": "ঘড়ি", "emoji": "⌚", "roman": "ghori" },
-    { "id": "clothes-ring", "en": "ring", "bn": "আংটি", "emoji": "💍", "roman": "angti" },
-    { "id": "clothes-necklace", "en": "necklace", "bn": "হার", "emoji": "📿", "roman": "har" },
-    { "id": "clothes-earring", "en": "earring", "bn": "কানের দুল", "emoji": "👂", "roman": "kaner dul" },
-    { "id": "clothes-salwar", "en": "salwar", "bn": "সালোয়ার", "emoji": "👗", "roman": "saloyar" },
-    { "id": "clothes-kamiz", "en": "kameez", "bn": "কামিজ", "emoji": "👚", "roman": "kamij" },
-    { "id": "clothes-lungi", "en": "lungi", "bn": "লুঙ্গি", "emoji": "🩳", "roman": "lungi" },
-    { "id": "clothes-gamcha", "en": "towel cloth", "bn": "গামছা", "emoji": "🧣", "roman": "gamcha" },
-    { "id": "clothes-pocket", "en": "pocket", "bn": "পকেট", "emoji": "👖", "roman": "poket" },
-    { "id": "clothes-zipper", "en": "zipper", "bn": "জিপার", "emoji": "🤐", "roman": "jipar" },
-    { "id": "clothes-clothes", "en": "clothes", "bn": "পোশাক", "emoji": "👚", "roman": "poshak" }
+    {
+      "id": "clothes-shirt",
+      "en": "shirt",
+      "bn": "শার্ট",
+      "emoji": "👕",
+      "roman": "shirt"
+    },
+    {
+      "id": "clothes-pants",
+      "en": "pants",
+      "bn": "প্যান্ট",
+      "emoji": "👖",
+      "roman": "pant"
+    },
+    {
+      "id": "clothes-dress",
+      "en": "dress",
+      "bn": "গাউন",
+      "emoji": "👗",
+      "roman": "gaun"
+    },
+    {
+      "id": "clothes-shoe",
+      "en": "shoe",
+      "bn": "জুতো",
+      "emoji": "👟",
+      "roman": "juto"
+    },
+    {
+      "id": "clothes-sock",
+      "en": "sock",
+      "bn": "মোজা",
+      "emoji": "🧦",
+      "roman": "moja"
+    },
+    {
+      "id": "clothes-hat",
+      "en": "hat",
+      "bn": "টুপি",
+      "emoji": "🧢",
+      "roman": "tupi"
+    },
+    {
+      "id": "clothes-coat",
+      "en": "coat",
+      "bn": "কোট",
+      "emoji": "🧥",
+      "roman": "kot"
+    },
+    {
+      "id": "clothes-scarf",
+      "en": "scarf",
+      "bn": "স্কার্ফ",
+      "emoji": "🧣",
+      "roman": "scarf"
+    },
+    {
+      "id": "clothes-glove",
+      "en": "glove",
+      "bn": "দস্তানা",
+      "emoji": "🧤",
+      "roman": "dostana"
+    },
+    {
+      "id": "clothes-bag",
+      "en": "bag",
+      "bn": "ব্যাগ",
+      "emoji": "👜",
+      "roman": "bag"
+    },
+    {
+      "id": "clothes-sari",
+      "en": "sari",
+      "bn": "শাড়ি",
+      "emoji": "🥻",
+      "roman": "shari"
+    },
+    {
+      "id": "clothes-punjabi",
+      "en": "punjabi",
+      "bn": "পাঞ্জাবি",
+      "emoji": "👔",
+      "roman": "panjabi"
+    },
+    {
+      "id": "clothes-button",
+      "en": "button",
+      "bn": "বোতাম",
+      "emoji": "🔘",
+      "roman": "botam"
+    },
+    {
+      "id": "clothes-umbrella",
+      "en": "umbrella",
+      "bn": "ছাতা",
+      "emoji": "☂️",
+      "roman": "chata"
+    },
+    {
+      "id": "clothes-tshirt",
+      "en": "t-shirt",
+      "bn": "টি-শার্ট",
+      "emoji": "👕",
+      "roman": "t-shirt"
+    },
+    {
+      "id": "clothes-skirt",
+      "en": "skirt",
+      "bn": "স্কার্ট",
+      "emoji": "👗",
+      "roman": "skirt"
+    },
+    {
+      "id": "clothes-shorts",
+      "en": "shorts",
+      "bn": "শর্টস",
+      "emoji": "🩳",
+      "roman": "shorts"
+    },
+    {
+      "id": "clothes-jeans",
+      "en": "jeans",
+      "bn": "জিনস",
+      "emoji": "👖",
+      "roman": "jins"
+    },
+    {
+      "id": "clothes-sweater",
+      "en": "sweater",
+      "bn": "সোয়েটার",
+      "emoji": "🧶",
+      "roman": "sweater"
+    },
+    {
+      "id": "clothes-jacket",
+      "en": "jacket",
+      "bn": "জ্যাকেট",
+      "emoji": "🧥",
+      "roman": "jacket"
+    },
+    {
+      "id": "clothes-hoodie",
+      "en": "hoodie",
+      "bn": "হুডি",
+      "emoji": "🧥",
+      "roman": "hudi"
+    },
+    {
+      "id": "clothes-pajamas",
+      "en": "pajamas",
+      "bn": "পাজামা",
+      "emoji": "🛌",
+      "roman": "pajama"
+    },
+    {
+      "id": "clothes-underwear",
+      "en": "underwear",
+      "bn": "অন্তর্বাস",
+      "emoji": "🩲",
+      "roman": "ontorbas"
+    },
+    {
+      "id": "clothes-sandal",
+      "en": "sandal",
+      "bn": "স্যান্ডেল",
+      "emoji": "🩴",
+      "roman": "sandal"
+    },
+    {
+      "id": "clothes-boot",
+      "en": "boot",
+      "bn": "বুট",
+      "emoji": "🥾",
+      "roman": "but"
+    },
+    {
+      "id": "clothes-slipper",
+      "en": "slipper",
+      "bn": "স্লিপার",
+      "emoji": "🩴",
+      "roman": "slipar"
+    },
+    {
+      "id": "clothes-belt",
+      "en": "belt",
+      "bn": "বেল্ট",
+      "emoji": "➰",
+      "roman": "belt"
+    },
+    {
+      "id": "clothes-tie",
+      "en": "tie",
+      "bn": "নেকটাই",
+      "emoji": "👔",
+      "roman": "nektai"
+    },
+    {
+      "id": "clothes-glasses",
+      "en": "glasses",
+      "bn": "চশমা",
+      "emoji": "👓",
+      "roman": "choshma"
+    },
+    {
+      "id": "clothes-watch",
+      "en": "watch",
+      "bn": "ঘড়ি",
+      "emoji": "⌚",
+      "roman": "ghori"
+    },
+    {
+      "id": "clothes-ring",
+      "en": "ring",
+      "bn": "আংটি",
+      "emoji": "💍",
+      "roman": "angti"
+    },
+    {
+      "id": "clothes-necklace",
+      "en": "necklace",
+      "bn": "হার",
+      "emoji": "📿",
+      "roman": "har"
+    },
+    {
+      "id": "clothes-earring",
+      "en": "earring",
+      "bn": "কানের দুল",
+      "emoji": "👂",
+      "roman": "kaner dul"
+    },
+    {
+      "id": "clothes-salwar",
+      "en": "salwar",
+      "bn": "সালোয়ার",
+      "emoji": "👗",
+      "roman": "saloyar"
+    },
+    {
+      "id": "clothes-kamiz",
+      "en": "kameez",
+      "bn": "কামিজ",
+      "emoji": "👚",
+      "roman": "kamij"
+    },
+    {
+      "id": "clothes-lungi",
+      "en": "lungi",
+      "bn": "লুঙ্গি",
+      "emoji": "🩳",
+      "roman": "lungi"
+    },
+    {
+      "id": "clothes-gamcha",
+      "en": "towel cloth",
+      "bn": "গামছা",
+      "emoji": "🧣",
+      "roman": "gamcha"
+    },
+    {
+      "id": "clothes-pocket",
+      "en": "pocket",
+      "bn": "পকেট",
+      "emoji": "👖",
+      "roman": "poket"
+    },
+    {
+      "id": "clothes-zipper",
+      "en": "zipper",
+      "bn": "জিপার",
+      "emoji": "🤐",
+      "roman": "jipar"
+    },
+    {
+      "id": "clothes-clothes",
+      "en": "clothes",
+      "bn": "পোশাক",
+      "emoji": "👚",
+      "roman": "poshak"
+    },
+    {
+      "id": "clothes-vest",
+      "en": "vest",
+      "bn": "বনিযনি",
+      "emoji": "🦺",
+      "roman": "baniyani"
+    },
+    {
+      "id": "clothes-blouse",
+      "en": "blouse",
+      "bn": "বলৌসে",
+      "emoji": "👚",
+      "roman": "blouse"
+    },
+    {
+      "id": "clothes-dupatta",
+      "en": "dupatta",
+      "bn": "ওরন",
+      "emoji": "🧣",
+      "roman": "orna"
+    },
+    {
+      "id": "clothes-shawl",
+      "en": "shawl",
+      "bn": "শবল",
+      "emoji": "🧣",
+      "roman": "shawl"
+    },
+    {
+      "id": "clothes-muffler",
+      "en": "muffler",
+      "bn": "মুফফলের",
+      "emoji": "🧣",
+      "roman": "muffler"
+    },
+    {
+      "id": "clothes-cap",
+      "en": "cap",
+      "bn": "টুপি",
+      "emoji": "🧢",
+      "roman": "tupi"
+    },
+    {
+      "id": "clothes-helmet",
+      "en": "helmet",
+      "bn": "হেলমেত",
+      "emoji": "⛑️",
+      "roman": "helmet"
+    },
+    {
+      "id": "clothes-crown",
+      "en": "crown",
+      "bn": "মুকুত",
+      "emoji": "👑",
+      "roman": "mukut"
+    },
+    {
+      "id": "clothes-turban",
+      "en": "turban",
+      "bn": "পগরি",
+      "emoji": "👳",
+      "roman": "pagri"
+    },
+    {
+      "id": "clothes-hijab",
+      "en": "hijab",
+      "bn": "হিজব",
+      "emoji": "🧕",
+      "roman": "hijab"
+    },
+    {
+      "id": "clothes-burqa",
+      "en": "burqa",
+      "bn": "বুরক",
+      "emoji": "🧕",
+      "roman": "burqa"
+    },
+    {
+      "id": "clothes-abaya",
+      "en": "abaya",
+      "bn": "অবয",
+      "emoji": "🧕",
+      "roman": "abaya"
+    },
+    {
+      "id": "clothes-panjabi-top",
+      "en": "panjabi top",
+      "bn": "পাঞ্জাবি",
+      "emoji": "👔",
+      "roman": "panjabi"
+    },
+    {
+      "id": "clothes-fatua",
+      "en": "fatua",
+      "bn": "ফতু",
+      "emoji": "👕",
+      "roman": "fatua"
+    },
+    {
+      "id": "clothes-kurta",
+      "en": "kurta",
+      "bn": "কুরত",
+      "emoji": "👕",
+      "roman": "kurta"
+    },
+    {
+      "id": "clothes-sherwani",
+      "en": "sherwani",
+      "bn": "শেরবনি",
+      "emoji": "🤵",
+      "roman": "sherwani"
+    },
+    {
+      "id": "clothes-lehenga",
+      "en": "lehenga",
+      "bn": "লেহেঙ",
+      "emoji": "👗",
+      "roman": "lehenga"
+    },
+    {
+      "id": "clothes-sharee-blouse",
+      "en": "sharee blouse",
+      "bn": "সরি বলুজ",
+      "emoji": "👚",
+      "roman": "sari blauj"
+    },
+    {
+      "id": "clothes-petticoat",
+      "en": "petticoat",
+      "bn": "পেটিচোত",
+      "emoji": "👗",
+      "roman": "petticoat"
+    },
+    {
+      "id": "clothes-dhoti",
+      "en": "dhoti",
+      "bn": "ধোতি",
+      "emoji": "👖",
+      "roman": "dhoti"
+    },
+    {
+      "id": "clothes-pajama-pants",
+      "en": "pajama pants",
+      "bn": "পাজামা",
+      "emoji": "🩳",
+      "roman": "pajama"
+    },
+    {
+      "id": "clothes-track-pants",
+      "en": "track pants",
+      "bn": "তরচক প্যান্ট",
+      "emoji": "👖",
+      "roman": "track pant"
+    },
+    {
+      "id": "clothes-leggings",
+      "en": "leggings",
+      "bn": "লেগগিঙস",
+      "emoji": "👖",
+      "roman": "leggings"
+    },
+    {
+      "id": "clothes-tights",
+      "en": "tights",
+      "bn": "তিঘতস",
+      "emoji": "🩱",
+      "roman": "tights"
+    },
+    {
+      "id": "clothes-swimsuit",
+      "en": "swimsuit",
+      "bn": "সাঁতারের পোশাক",
+      "emoji": "🩱",
+      "roman": "swimsuit"
+    },
+    {
+      "id": "clothes-bikini",
+      "en": "bikini",
+      "bn": "বিকিনি",
+      "emoji": "👙",
+      "roman": "bikini"
+    },
+    {
+      "id": "clothes-raincoat",
+      "en": "raincoat",
+      "bn": "রিনচোত",
+      "emoji": "🧥",
+      "roman": "raincoat"
+    },
+    {
+      "id": "clothes-windbreaker",
+      "en": "windbreaker",
+      "bn": "বিনদবরেকের",
+      "emoji": "🧥",
+      "roman": "windbreaker"
+    },
+    {
+      "id": "clothes-blazer",
+      "en": "blazer",
+      "bn": "বলজের",
+      "emoji": "🧥",
+      "roman": "blazer"
+    },
+    {
+      "id": "clothes-cardigan",
+      "en": "cardigan",
+      "bn": "চরদিগন",
+      "emoji": "🧶",
+      "roman": "cardigan"
+    },
+    {
+      "id": "clothes-poncho",
+      "en": "poncho",
+      "bn": "পোনচো",
+      "emoji": "🧥",
+      "roman": "poncho"
+    },
+    {
+      "id": "clothes-flip-flops",
+      "en": "flip flops",
+      "bn": "ফলিপ ফলোপ",
+      "emoji": "🩴",
+      "roman": "flip flop"
+    },
+    {
+      "id": "clothes-clogs",
+      "en": "clogs",
+      "bn": "চলোগস",
+      "emoji": "🥿",
+      "roman": "clogs"
+    },
+    {
+      "id": "clothes-heels",
+      "en": "heels",
+      "bn": "হীল জুতো",
+      "emoji": "👠",
+      "roman": "heel juto"
+    },
+    {
+      "id": "clothes-loafers",
+      "en": "loafers",
+      "bn": "লোফেরস",
+      "emoji": "👞",
+      "roman": "loafers"
+    },
+    {
+      "id": "clothes-sneakers",
+      "en": "sneakers",
+      "bn": "সনেকেরস",
+      "emoji": "👟",
+      "roman": "sneakers"
+    },
+    {
+      "id": "clothes-canvas-shoes",
+      "en": "canvas shoes",
+      "bn": "চনভস জুতো",
+      "emoji": "👟",
+      "roman": "canvas juto"
+    },
+    {
+      "id": "clothes-rain-boots",
+      "en": "rain boots",
+      "bn": "রিন বূট",
+      "emoji": "🥾",
+      "roman": "rain boot"
+    },
+    {
+      "id": "clothes-snow-boots",
+      "en": "snow boots",
+      "bn": "সনোব বূট",
+      "emoji": "🥾",
+      "roman": "snow boot"
+    },
+    {
+      "id": "clothes-ankle-socks",
+      "en": "ankle socks",
+      "bn": "মজা",
+      "emoji": "🧦",
+      "roman": "moja"
+    },
+    {
+      "id": "clothes-knee-socks",
+      "en": "knee socks",
+      "bn": "লমব মজা",
+      "emoji": "🧦",
+      "roman": "lamba moja"
+    },
+    {
+      "id": "clothes-stockings",
+      "en": "stockings",
+      "bn": "সতোচকিঙস",
+      "emoji": "🧦",
+      "roman": "stockings"
+    },
+    {
+      "id": "clothes-garter",
+      "en": "garter",
+      "bn": "গরতের",
+      "emoji": "🧦",
+      "roman": "garter"
+    },
+    {
+      "id": "clothes-suspenders",
+      "en": "suspenders",
+      "bn": "সুসপেনদেরস",
+      "emoji": "👖",
+      "roman": "suspenders"
+    },
+    {
+      "id": "clothes-bow-tie",
+      "en": "bow tie",
+      "bn": "বোব তিে",
+      "emoji": "🎀",
+      "roman": "bow tie"
+    },
+    {
+      "id": "clothes-cufflinks",
+      "en": "cufflinks",
+      "bn": "চুফফলিনকস",
+      "emoji": "👔",
+      "roman": "cufflinks"
+    },
+    {
+      "id": "clothes-brooch",
+      "en": "brooch",
+      "bn": "বরুচ",
+      "emoji": "📿",
+      "roman": "brooch"
+    },
+    {
+      "id": "clothes-anklet",
+      "en": "anklet",
+      "bn": "পযেল",
+      "emoji": "📿",
+      "roman": "payel"
+    },
+    {
+      "id": "clothes-toe-ring",
+      "en": "toe ring",
+      "bn": "পা এর আংটি",
+      "emoji": "💍",
+      "roman": "pay er angti"
+    },
+    {
+      "id": "clothes-bangle",
+      "en": "bangle",
+      "bn": "ছুরি",
+      "emoji": "📿",
+      "roman": "churi"
+    },
+    {
+      "id": "clothes-bracelet",
+      "en": "bracelet",
+      "bn": "বরচেলেত",
+      "emoji": "📿",
+      "roman": "bracelet"
+    },
+    {
+      "id": "clothes-hair-clip",
+      "en": "hair clip",
+      "bn": "চুল এর চলিপ",
+      "emoji": "💇",
+      "roman": "chul er clip"
+    },
+    {
+      "id": "clothes-hair-band",
+      "en": "hair band",
+      "bn": "চুল এর বনদ",
+      "emoji": "💇",
+      "roman": "chul er band"
+    },
+    {
+      "id": "clothes-hair-pin",
+      "en": "hair pin",
+      "bn": "চুল এর পিন",
+      "emoji": "💇",
+      "roman": "chul er pin"
+    },
+    {
+      "id": "clothes-ribbon-hair",
+      "en": "ribbon hair",
+      "bn": "চুল এর রিববোন",
+      "emoji": "🎀",
+      "roman": "chul er ribbon"
+    },
+    {
+      "id": "clothes-veil",
+      "en": "veil",
+      "bn": "ঘোমত",
+      "emoji": "👰",
+      "roman": "ghomta"
+    },
+    {
+      "id": "clothes-mask",
+      "en": "mask",
+      "bn": "মসক",
+      "emoji": "😷",
+      "roman": "mask"
+    },
+    {
+      "id": "clothes-gloves-winter",
+      "en": "gloves winter",
+      "bn": "দস্তানা",
+      "emoji": "🧤",
+      "roman": "dostana"
+    },
+    {
+      "id": "clothes-mittens",
+      "en": "mittens",
+      "bn": "মিটেনস",
+      "emoji": "🧤",
+      "roman": "mittens"
+    },
+    {
+      "id": "clothes-apron",
+      "en": "apron",
+      "bn": "অপরোন",
+      "emoji": "👨‍🍳",
+      "roman": "apron"
+    },
+    {
+      "id": "clothes-uniform",
+      "en": "uniform",
+      "bn": "উনিফোরম",
+      "emoji": "👔",
+      "roman": "uniform"
+    },
+    {
+      "id": "clothes-school-uniform",
+      "en": "school uniform",
+      "bn": "স্কুল উনিফোরম",
+      "emoji": "🎓",
+      "roman": "school uniform"
+    },
+    {
+      "id": "clothes-sports-uniform",
+      "en": "sports uniform",
+      "bn": "খেলর পোশাক",
+      "emoji": "⚽",
+      "roman": "khelar poshak"
+    },
+    {
+      "id": "clothes-lab-coat",
+      "en": "lab coat",
+      "bn": "লব চোত",
+      "emoji": "🥼",
+      "roman": "lab coat"
+    },
+    {
+      "id": "clothes-overalls",
+      "en": "overalls",
+      "bn": "ওভেরললস",
+      "emoji": "👖",
+      "roman": "overalls"
+    },
+    {
+      "id": "clothes-romper",
+      "en": "romper",
+      "bn": "রোমপের",
+      "emoji": "👶",
+      "roman": "romper"
+    },
+    {
+      "id": "clothes-onesie",
+      "en": "onesie",
+      "bn": "ওনেসিে",
+      "emoji": "👶",
+      "roman": "onesie"
+    },
+    {
+      "id": "clothes-bib",
+      "en": "bib",
+      "bn": "বিব",
+      "emoji": "👶",
+      "roman": "bib"
+    },
+    {
+      "id": "clothes-diaper",
+      "en": "diaper",
+      "bn": "দিপের",
+      "emoji": "👶",
+      "roman": "diaper"
+    },
+    {
+      "id": "clothes-swaddle",
+      "en": "swaddle",
+      "bn": "সবড়লে",
+      "emoji": "👶",
+      "roman": "swaddle"
+    },
+    {
+      "id": "clothes-blanket-wrap",
+      "en": "blanket wrap",
+      "bn": "কম্বল",
+      "emoji": "🛏️",
+      "roman": "kombol"
+    },
+    {
+      "id": "clothes-handkerchief",
+      "en": "handkerchief",
+      "bn": "রুমল",
+      "emoji": "🤧",
+      "roman": "rumal"
+    },
+    {
+      "id": "clothes-pocket-square",
+      "en": "pocket square",
+      "bn": "পোচকেত সকুরে",
+      "emoji": "👔",
+      "roman": "pocket square"
+    },
+    {
+      "id": "clothes-belt-buckle",
+      "en": "belt buckle",
+      "bn": "বেল্ট বুচকলে",
+      "emoji": "➰",
+      "roman": "belt buckle"
+    },
+    {
+      "id": "clothes-safety-pin",
+      "en": "safety pin",
+      "bn": "সফেতয পিন",
+      "emoji": "📎",
+      "roman": "safety pin"
+    },
+    {
+      "id": "clothes-sewing-kit",
+      "en": "sewing kit",
+      "bn": "সেবিঙ ছানা",
+      "emoji": "🧵",
+      "roman": "sewing kit"
+    },
+    {
+      "id": "clothes-thread",
+      "en": "thread",
+      "bn": "সুত",
+      "emoji": "🧵",
+      "roman": "sut"
+    },
+    {
+      "id": "clothes-needle",
+      "en": "needle",
+      "bn": "সু",
+      "emoji": "🪡",
+      "roman": "su"
+    },
+    {
+      "id": "clothes-thimble",
+      "en": "thimble",
+      "bn": "থিমবলে",
+      "emoji": "🪡",
+      "roman": "thimble"
+    },
+    {
+      "id": "clothes-fabric",
+      "en": "fabric",
+      "bn": "কপর",
+      "emoji": "🧵",
+      "roman": "kapra"
+    },
+    {
+      "id": "clothes-cotton-cloth",
+      "en": "cotton cloth",
+      "bn": "তুতি",
+      "emoji": "🧵",
+      "roman": "tuti"
+    },
+    {
+      "id": "clothes-silk-cloth",
+      "en": "silk cloth",
+      "bn": "রেশম",
+      "emoji": "🧵",
+      "roman": "resham"
+    },
+    {
+      "id": "clothes-wool-cloth",
+      "en": "wool cloth",
+      "bn": "উন",
+      "emoji": "🧶",
+      "roman": "un"
+    },
+    {
+      "id": "clothes-denim",
+      "en": "denim",
+      "bn": "দেনিম",
+      "emoji": "👖",
+      "roman": "denim"
+    },
+    {
+      "id": "clothes-leather",
+      "en": "leather",
+      "bn": "চমর",
+      "emoji": "🧥",
+      "roman": "chamra"
+    },
+    {
+      "id": "clothes-fur-coat",
+      "en": "fur coat",
+      "bn": "ফুর চোত",
+      "emoji": "🧥",
+      "roman": "fur coat"
+    },
+    {
+      "id": "clothes-patterned-shirt",
+      "en": "patterned shirt",
+      "bn": "দেসিগন শার্ট",
+      "emoji": "👕",
+      "roman": "design shirt"
+    },
+    {
+      "id": "clothes-striped-shirt",
+      "en": "striped shirt",
+      "bn": "দোরি শার্ট",
+      "emoji": "👕",
+      "roman": "dori shirt"
+    },
+    {
+      "id": "clothes-checked-shirt",
+      "en": "checked shirt",
+      "bn": "কাটা শার্ট",
+      "emoji": "👕",
+      "roman": "kata shirt"
+    },
+    {
+      "id": "clothes-plain-shirt",
+      "en": "plain shirt",
+      "bn": "সদ শার্ট",
+      "emoji": "👕",
+      "roman": "sada shirt"
+    },
+    {
+      "id": "clothes-fancy-dress",
+      "en": "fancy dress",
+      "bn": "ফনচয পোশাক",
+      "emoji": "👗",
+      "roman": "fancy poshak"
+    },
+    {
+      "id": "clothes-costume",
+      "en": "costume",
+      "bn": "চোসতুমে",
+      "emoji": "🎭",
+      "roman": "costume"
+    },
+    {
+      "id": "clothes-traditional-dress",
+      "en": "traditional dress",
+      "bn": "তরদিতিোনল পোশাক",
+      "emoji": "👘",
+      "roman": "traditional poshak"
+    },
+    {
+      "id": "clothes-wedding-dress",
+      "en": "wedding dress",
+      "bn": "বিয়ে পোশাক",
+      "emoji": "👰",
+      "roman": "biye poshak"
+    },
+    {
+      "id": "clothes-party-dress",
+      "en": "party dress",
+      "bn": "পার্টি পোশাক",
+      "emoji": "👗",
+      "roman": "party poshak"
+    },
+    {
+      "id": "clothes-nightdress",
+      "en": "nightdress",
+      "bn": "রাত পোশাক",
+      "emoji": "🛌",
+      "roman": "rat poshak"
+    },
+    {
+      "id": "clothes-housecoat",
+      "en": "housecoat",
+      "bn": "ঘর পোশাক",
+      "emoji": "🛌",
+      "roman": "ghor poshak"
+    },
+    {
+      "id": "clothes-bathrobe",
+      "en": "bathrobe",
+      "bn": "গোসলের গাউন",
+      "emoji": "🛁",
+      "roman": "bathrobe"
+    },
+    {
+      "id": "clothes-slippers-home",
+      "en": "slippers home",
+      "bn": "ঘর স্লিপার",
+      "emoji": "🩴",
+      "roman": "ghor slipar"
+    },
+    {
+      "id": "clothes-monsoon-gear",
+      "en": "monsoon gear",
+      "bn": "বর্ষা পোশাক",
+      "emoji": "🌧️",
+      "roman": "borsha poshak"
+    },
+    {
+      "id": "clothes-winter-coat",
+      "en": "winter coat",
+      "bn": "শীত পোশাক",
+      "emoji": "🧥",
+      "roman": "sheet poshak"
+    },
+    {
+      "id": "clothes-monsoon-umbrella",
+      "en": "monsoon umbrella",
+      "bn": "বর্ষা ছাতা",
+      "emoji": "☂️",
+      "roman": "borsha chata"
+    },
+    {
+      "id": "clothes-sun-hat",
+      "en": "sun hat",
+      "bn": "সুরজো টুপি",
+      "emoji": "👒",
+      "roman": "surjo tupi"
+    },
+    {
+      "id": "clothes-winter-hat",
+      "en": "winter hat",
+      "bn": "শীত টুপি",
+      "emoji": "🧢",
+      "roman": "sheet tupi"
+    },
+    {
+      "id": "clothes-earmuffs",
+      "en": "earmuffs",
+      "bn": "কানের কভার",
+      "emoji": "👂",
+      "roman": "kan cover"
+    },
+    {
+      "id": "clothes-neck-warmer",
+      "en": "neck warmer",
+      "bn": "গলা চোভের",
+      "emoji": "🧣",
+      "roman": "gola cover"
+    },
+    {
+      "id": "clothes-thermal-wear",
+      "en": "thermal wear",
+      "bn": "থেরমল",
+      "emoji": "👕",
+      "roman": "thermal"
+    },
+    {
+      "id": "clothes-rain-pants",
+      "en": "rain pants",
+      "bn": "বর্ষা প্যান্ট",
+      "emoji": "👖",
+      "roman": "borsha pant"
+    },
+    {
+      "id": "clothes-fishing-vest",
+      "en": "fishing vest",
+      "bn": "মাছ ধর ভেসত",
+      "emoji": "🦺",
+      "roman": "mach dhara vest"
+    },
+    {
+      "id": "clothes-tool-belt",
+      "en": "tool belt",
+      "bn": "তুল বেল্ট",
+      "emoji": "🔧",
+      "roman": "tool belt"
+    },
+    {
+      "id": "clothes-money-belt",
+      "en": "money belt",
+      "bn": "মোনেয বেল্ট",
+      "emoji": "💰",
+      "roman": "money belt"
+    },
+    {
+      "id": "clothes-fanny-pack",
+      "en": "fanny pack",
+      "bn": "ফণয দল",
+      "emoji": "👝",
+      "roman": "fanny pack"
+    },
+    {
+      "id": "clothes-crossbody-bag",
+      "en": "crossbody bag",
+      "bn": "কাঁধের ব্যাগ",
+      "emoji": "👜",
+      "roman": "crossbody bag"
+    },
+    {
+      "id": "clothes-handbag",
+      "en": "handbag",
+      "bn": "হ্যান্ডব্যাগ",
+      "emoji": "👜",
+      "roman": "handbag"
+    },
+    {
+      "id": "clothes-wallet",
+      "en": "wallet",
+      "bn": "ওয়ালেট",
+      "emoji": "👛",
+      "roman": "wallet"
+    },
+    {
+      "id": "clothes-coin-purse",
+      "en": "coin purse",
+      "bn": "কয়েন ব্যাগ",
+      "emoji": "👛",
+      "roman": "coin purse"
+    },
+    {
+      "id": "clothes-keychain",
+      "en": "keychain",
+      "bn": "চাবির রিং",
+      "emoji": "🔑",
+      "roman": "keychain"
+    },
+    {
+      "id": "clothes-lanyard",
+      "en": "lanyard",
+      "bn": "লনযরদ",
+      "emoji": "🎫",
+      "roman": "lanyard"
+    },
+    {
+      "id": "clothes-name-tag",
+      "en": "name tag",
+      "bn": "নমে তগ",
+      "emoji": "🏷️",
+      "roman": "name tag"
+    },
+    {
+      "id": "clothes-badge",
+      "en": "badge",
+      "bn": "বদগে",
+      "emoji": "🏅",
+      "roman": "badge"
+    },
+    {
+      "id": "clothes-sash",
+      "en": "sash",
+      "bn": "সশ",
+      "emoji": "🎀",
+      "roman": "sash"
+    },
+    {
+      "id": "clothes-medal-ribbon",
+      "en": "medal ribbon",
+      "bn": "মেদল রিববোন",
+      "emoji": "🏅",
+      "roman": "medal ribbon"
+    },
+    {
+      "id": "clothes-sequin-dress",
+      "en": "sequin dress",
+      "bn": "সেকুিন পোশাক",
+      "emoji": "✨",
+      "roman": "sequin poshak"
+    },
+    {
+      "id": "clothes-embroidered-cloth",
+      "en": "embroidered cloth",
+      "bn": "কাটা কপর",
+      "emoji": "🧵",
+      "roman": "kata kapra"
+    },
+    {
+      "id": "clothes-block-print",
+      "en": "block print",
+      "bn": "বলোচক পরিনত",
+      "emoji": "🧵",
+      "roman": "block print"
+    },
+    {
+      "id": "clothes-tie-dye",
+      "en": "tie dye",
+      "bn": "তিে দযে",
+      "emoji": "🎨",
+      "roman": "tie dye"
+    },
+    {
+      "id": "clothes-batik",
+      "en": "batik",
+      "bn": "বতিক",
+      "emoji": "🎨",
+      "roman": "batik"
+    },
+    {
+      "id": "clothes-muslin",
+      "en": "muslin",
+      "bn": "মুসলিন",
+      "emoji": "🧵",
+      "roman": "muslin"
+    },
+    {
+      "id": "clothes-jamdani",
+      "en": "jamdani",
+      "bn": "জমদনি",
+      "emoji": "🥻",
+      "roman": "jamdani"
+    },
+    {
+      "id": "clothes-nakshi-kantha",
+      "en": "nakshi kantha",
+      "bn": "নকশি কনথ",
+      "emoji": "🛏️",
+      "roman": "nakshi kantha"
+    },
+    {
+      "id": "clothes-gamcha-towel",
+      "en": "gamcha towel",
+      "bn": "গামছা",
+      "emoji": "🧣",
+      "roman": "gamcha"
+    },
+    {
+      "id": "clothes-tupi-cap",
+      "en": "tupi cap",
+      "bn": "টুপি",
+      "emoji": "🧢",
+      "roman": "tupi"
+    },
+    {
+      "id": "clothes-topi",
+      "en": "topi",
+      "bn": "তোপি",
+      "emoji": "🎩",
+      "roman": "topi"
+    }
   ]
 }

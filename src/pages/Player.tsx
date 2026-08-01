@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties } from 'react'
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import type { AppSettings, Category, Word } from '../types/word'
 import { loadCategoryWords } from '../data/loader'
 import { WordCard } from '../components/WordCard'
@@ -8,19 +8,25 @@ import styles from './Player.module.css'
 type Props = {
   category: Category
   settings: AppSettings
+  resumeWordId: string | null
+  resumeIndex: number
   onBack: () => void
   onSessionStart: (categoryId: string) => void
-  onWordHeard: (categoryId: string, wordId: string) => void
+  onWordHeard: (categoryId: string, wordId: string, resumeIndex: number) => void
   onCategoryComplete: (categoryId: string) => void
+  onClearResume: (categoryId: string) => void
 }
 
 export function Player({
   category,
   settings,
+  resumeWordId,
+  resumeIndex,
   onBack,
   onSessionStart,
   onWordHeard,
   onCategoryComplete,
+  onClearResume,
 }: Props) {
   const [words, setWords] = useState<Word[]>([])
   const [loading, setLoading] = useState(true)
@@ -55,10 +61,26 @@ export function Player({
   const player = useWordPlayer({ words, settings })
   const prevPhase = useRef(player.phase)
 
+  const savedResume = useMemo(() => {
+    if (!resumeWordId || words.length === 0) return null
+    const byId = words.findIndex((w) => w.id === resumeWordId)
+    if (byId >= 0) {
+      return { wordId: resumeWordId, index: byId, labelIndex: byId + 1 }
+    }
+    // Fallback: saved index if word id was removed from catalog
+    if (resumeIndex > 0 && resumeIndex < words.length) {
+      return {
+        wordId: words[resumeIndex]?.id ?? null,
+        index: resumeIndex,
+        labelIndex: resumeIndex + 1,
+      }
+    }
+    return null
+  }, [resumeWordId, resumeIndex, words])
+
   useEffect(() => {
     if (prevPhase.current !== 'playing' && player.phase === 'playing') {
-      // Fresh start from idle/restart
-      if (player.index === 0 && trackedWordsRef.current.size === 0) {
+      if (trackedWordsRef.current.size === 0) {
         onSessionStart(category.id)
       }
     }
@@ -82,10 +104,23 @@ export function Player({
     ) {
       if (!trackedWordsRef.current.has(currentWordId)) {
         trackedWordsRef.current.add(currentWordId)
-        onWordHeard(category.id, currentWordId)
+        onWordHeard(category.id, currentWordId, player.index)
       }
     }
-  }, [currentWordId, player.phase, category.id, onWordHeard])
+  }, [currentWordId, player.phase, player.index, category.id, onWordHeard])
+
+  const startFromBeginning = () => {
+    onClearResume(category.id)
+    trackedWordsRef.current = new Set()
+    completedRef.current = false
+    player.start(null)
+  }
+
+  const continueFromSaved = () => {
+    trackedWordsRef.current = new Set()
+    completedRef.current = false
+    player.start(savedResume?.wordId ?? null)
+  }
 
   return (
     <div
@@ -123,12 +158,42 @@ export function Player({
             </p>
             <h1 className={styles.startTitle}>{category.nameEn}</h1>
             <p className={styles.startBn}>{category.nameBn}</p>
-            <p className={styles.startHint}>
-              Tap Start to hear each word — English, then Bangla.
-            </p>
-            <button type="button" className={styles.primary} onClick={player.start}>
-              Start
-            </button>
+            {savedResume ? (
+              <>
+                <p className={styles.startHint}>
+                  Continue from word {savedResume.labelIndex} of {words.length}.
+                </p>
+                <div className={styles.doneActions}>
+                  <button
+                    type="button"
+                    className={styles.primary}
+                    onClick={continueFromSaved}
+                  >
+                    Continue
+                  </button>
+                  <button
+                    type="button"
+                    className={styles.secondary}
+                    onClick={startFromBeginning}
+                  >
+                    Start over
+                  </button>
+                </div>
+              </>
+            ) : (
+              <>
+                <p className={styles.startHint}>
+                  Tap Start to hear each word — English, then Bangla.
+                </p>
+                <button
+                  type="button"
+                  className={styles.primary}
+                  onClick={startFromBeginning}
+                >
+                  Start
+                </button>
+              </>
+            )}
           </div>
         ) : null}
 
@@ -148,6 +213,7 @@ export function Player({
                 onClick={() => {
                   trackedWordsRef.current = new Set()
                   completedRef.current = false
+                  onClearResume(category.id)
                   player.restart()
                 }}
               >

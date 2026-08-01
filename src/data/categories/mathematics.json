@@ -1,108 +1,1926 @@
 {
   "categoryId": "mathematics",
   "words": [
-    { "id": "math-zero", "en": "zero", "bn": "শূন্য", "emoji": "0️⃣", "roman": "shunno" },
-    { "id": "math-one", "en": "one", "bn": "এক", "emoji": "1️⃣", "roman": "ek" },
-    { "id": "math-two", "en": "two", "bn": "দুই", "emoji": "2️⃣", "roman": "dui" },
-    { "id": "math-three", "en": "three", "bn": "তিন", "emoji": "3️⃣", "roman": "tin" },
-    { "id": "math-four", "en": "four", "bn": "চার", "emoji": "4️⃣", "roman": "char" },
-    { "id": "math-five", "en": "five", "bn": "পাঁচ", "emoji": "5️⃣", "roman": "pãch" },
-    { "id": "math-six", "en": "six", "bn": "ছয়", "emoji": "6️⃣", "roman": "chhoy" },
-    { "id": "math-seven", "en": "seven", "bn": "সাত", "emoji": "7️⃣", "roman": "shat" },
-    { "id": "math-eight", "en": "eight", "bn": "আট", "emoji": "8️⃣", "roman": "at" },
-    { "id": "math-nine", "en": "nine", "bn": "নয়", "emoji": "9️⃣", "roman": "noy" },
-    { "id": "math-ten", "en": "ten", "bn": "দশ", "emoji": "🔟", "roman": "dosh" },
-    { "id": "math-eleven", "en": "eleven", "bn": "এগারো", "emoji": "1️⃣1️⃣", "roman": "egaro" },
-    { "id": "math-twelve", "en": "twelve", "bn": "বারো", "emoji": "1️⃣2️⃣", "roman": "baro" },
-    { "id": "math-thirteen", "en": "thirteen", "bn": "তেরো", "emoji": "1️⃣3️⃣", "roman": "tero" },
-    { "id": "math-fourteen", "en": "fourteen", "bn": "চৌদ্দ", "emoji": "1️⃣4️⃣", "roman": "chouddo" },
-    { "id": "math-fifteen", "en": "fifteen", "bn": "পনেরো", "emoji": "1️⃣5️⃣", "roman": "ponero" },
-    { "id": "math-sixteen", "en": "sixteen", "bn": "ষোলো", "emoji": "1️⃣6️⃣", "roman": "sholo" },
-    { "id": "math-seventeen", "en": "seventeen", "bn": "সতেরো", "emoji": "1️⃣7️⃣", "roman": "shotero" },
-    { "id": "math-eighteen", "en": "eighteen", "bn": "আঠারো", "emoji": "1️⃣8️⃣", "roman": "atharo" },
-    { "id": "math-nineteen", "en": "nineteen", "bn": "উনিশ", "emoji": "1️⃣9️⃣", "roman": "unish" },
-    { "id": "math-twenty", "en": "twenty", "bn": "বিশ", "emoji": "2️⃣0️⃣", "roman": "bish" },
-    { "id": "math-twenty-one", "en": "twenty-one", "bn": "একুশ", "emoji": "2️⃣1️⃣", "roman": "ekush" },
-    { "id": "math-twenty-two", "en": "twenty-two", "bn": "বাইশ", "emoji": "2️⃣2️⃣", "roman": "baish" },
-    { "id": "math-twenty-three", "en": "twenty-three", "bn": "তেইশ", "emoji": "2️⃣3️⃣", "roman": "teish" },
-    { "id": "math-twenty-four", "en": "twenty-four", "bn": "চব্বিশ", "emoji": "2️⃣4️⃣", "roman": "chobbish" },
-    { "id": "math-twenty-five", "en": "twenty-five", "bn": "পঁচিশ", "emoji": "2️⃣5️⃣", "roman": "põchish" },
-    { "id": "math-twenty-six", "en": "twenty-six", "bn": "ছাব্বিশ", "emoji": "2️⃣6️⃣", "roman": "chabbish" },
-    { "id": "math-twenty-seven", "en": "twenty-seven", "bn": "সাতাশ", "emoji": "2️⃣7️⃣", "roman": "shatash" },
-    { "id": "math-twenty-eight", "en": "twenty-eight", "bn": "আঠাশ", "emoji": "2️⃣8️⃣", "roman": "athash" },
-    { "id": "math-twenty-nine", "en": "twenty-nine", "bn": "ঊনত্রিশ", "emoji": "2️⃣9️⃣", "roman": "unotrish" },
-    { "id": "math-thirty", "en": "thirty", "bn": "ত্রিশ", "emoji": "3️⃣0️⃣", "roman": "trish" },
-    { "id": "math-thirty-one", "en": "thirty-one", "bn": "একত্রিশ", "emoji": "3️⃣1️⃣", "roman": "ektrish" },
-    { "id": "math-thirty-two", "en": "thirty-two", "bn": "বত্রিশ", "emoji": "3️⃣2️⃣", "roman": "botrish" },
-    { "id": "math-thirty-five", "en": "thirty-five", "bn": "পঁয়ত্রিশ", "emoji": "3️⃣5️⃣", "roman": "poyotrish" },
-    { "id": "math-forty", "en": "forty", "bn": "চল্লিশ", "emoji": "4️⃣0️⃣", "roman": "chollish" },
-    { "id": "math-forty-five", "en": "forty-five", "bn": "পঁয়তাল্লিশ", "emoji": "4️⃣5️⃣", "roman": "poyotallish" },
-    { "id": "math-fifty", "en": "fifty", "bn": "পঞ্চাশ", "emoji": "5️⃣0️⃣", "roman": "ponchash" },
-    { "id": "math-sixty", "en": "sixty", "bn": "ষাট", "emoji": "6️⃣0️⃣", "roman": "shat" },
-    { "id": "math-seventy", "en": "seventy", "bn": "সত্তর", "emoji": "7️⃣0️⃣", "roman": "shottor" },
-    { "id": "math-eighty", "en": "eighty", "bn": "আশি", "emoji": "8️⃣0️⃣", "roman": "ashi" },
-    { "id": "math-ninety", "en": "ninety", "bn": "নব্বই", "emoji": "9️⃣0️⃣", "roman": "nobboi" },
-    { "id": "math-hundred", "en": "hundred", "bn": "একশো", "emoji": "💯", "roman": "eksho" },
-    { "id": "math-two-hundred", "en": "two hundred", "bn": "দুইশো", "emoji": "2️⃣0️⃣0️⃣", "roman": "duisho" },
-    { "id": "math-five-hundred", "en": "five hundred", "bn": "পাঁচশো", "emoji": "5️⃣0️⃣0️⃣", "roman": "pãchsho" },
-    { "id": "math-thousand", "en": "thousand", "bn": "হাজার", "emoji": "🔢", "roman": "hajar" },
-    { "id": "math-lakh", "en": "lakh", "bn": "লাখ", "emoji": "💰", "roman": "lakh" },
-    { "id": "math-first", "en": "first", "bn": "প্রথম", "emoji": "1️⃣", "roman": "prothom" },
-    { "id": "math-second", "en": "second", "bn": "দ্বিতীয়", "emoji": "2️⃣", "roman": "ditiyo" },
-    { "id": "math-third", "en": "third", "bn": "তৃতীয়", "emoji": "3️⃣", "roman": "tritiyo" },
-    { "id": "math-fourth", "en": "fourth", "bn": "চতুর্থ", "emoji": "4️⃣", "roman": "choturtho" },
-    { "id": "math-fifth", "en": "fifth", "bn": "পঞ্চম", "emoji": "5️⃣", "roman": "ponchom" },
-    { "id": "math-last", "en": "last", "bn": "শেষ", "emoji": "🏁", "roman": "shesh" },
-    { "id": "math-plus", "en": "plus", "bn": "যোগ", "emoji": "➕", "roman": "jog" },
-    { "id": "math-minus", "en": "minus", "bn": "বিয়োগ", "emoji": "➖", "roman": "biyog" },
-    { "id": "math-times", "en": "times", "bn": "গুণ", "emoji": "✖️", "roman": "gun" },
-    { "id": "math-divide", "en": "divide", "bn": "ভাগ", "emoji": "➗", "roman": "bhag" },
-    { "id": "math-equal", "en": "equal", "bn": "সমান", "emoji": "=", "roman": "shoman" },
-    { "id": "math-add", "en": "add", "bn": "যোগ করা", "emoji": "➕", "roman": "jog kora" },
-    { "id": "math-subtract", "en": "subtract", "bn": "বিয়োগ করা", "emoji": "➖", "roman": "biyog kora" },
-    { "id": "math-multiply", "en": "multiply", "bn": "গুণ করা", "emoji": "✖️", "roman": "gun kora" },
-    { "id": "math-count", "en": "count", "bn": "গণনা", "emoji": "🔢", "roman": "gonona" },
-    { "id": "math-number", "en": "number", "bn": "সংখ্যা", "emoji": "#️⃣", "roman": "songkha" },
-    { "id": "math-sum", "en": "sum", "bn": "যোগফল", "emoji": "Σ", "roman": "jogfol" },
-    { "id": "math-difference", "en": "difference", "bn": "বিয়োগফল", "emoji": "➖", "roman": "biyogfol" },
-    { "id": "math-half", "en": "half", "bn": "অর্ধেক", "emoji": "½", "roman": "ordhek" },
-    { "id": "math-quarter", "en": "quarter", "bn": "এক চতুর্থাংশ", "emoji": "¼", "roman": "ek choturthangsho" },
-    { "id": "math-whole", "en": "whole", "bn": "সম্পূর্ণ", "emoji": "⭕", "roman": "shompurno" },
-    { "id": "math-more", "en": "more", "bn": "বেশি", "emoji": "📈", "roman": "beshi" },
-    { "id": "math-less", "en": "less", "bn": "কম", "emoji": "📉", "roman": "kom" },
-    { "id": "math-greater", "en": "greater", "bn": "বড়", "emoji": ">", "roman": "boro" },
-    { "id": "math-smaller", "en": "smaller", "bn": "ছোট", "emoji": "<", "roman": "choto" },
-    { "id": "math-same", "en": "same", "bn": "একই", "emoji": "🟰", "roman": "ekoi" },
-    { "id": "math-different", "en": "different", "bn": "আলাদা", "emoji": "≠", "roman": "alada" },
-    { "id": "math-many", "en": "many", "bn": "অনেক", "emoji": "➕", "roman": "onek" },
-    { "id": "math-few", "en": "few", "bn": "কয়েক", "emoji": "🤏", "roman": "koyek" },
-    { "id": "math-all", "en": "all", "bn": "সব", "emoji": "♾️", "roman": "shob" },
-    { "id": "math-none", "en": "none", "bn": "কোনোটি নয়", "emoji": "🚫", "roman": "konoti noy" },
-    { "id": "math-pair", "en": "pair", "bn": "জোড়া", "emoji": "👯", "roman": "jora" },
-    { "id": "math-odd", "en": "odd", "bn": "বিজোড়", "emoji": "1️⃣", "roman": "bijor" },
-    { "id": "math-even", "en": "even", "bn": "জোড়", "emoji": "2️⃣", "roman": "jor" },
-    { "id": "math-circle", "en": "circle", "bn": "বৃত্ত", "emoji": "⭕", "roman": "britto" },
-    { "id": "math-square", "en": "square", "bn": "বর্গক্ষেত্র", "emoji": "⬜", "roman": "borgokhettro" },
-    { "id": "math-triangle", "en": "triangle", "bn": "ত্রিভুজ", "emoji": "🔺", "roman": "tribhuj" },
-    { "id": "math-rectangle", "en": "rectangle", "bn": "আয়তক্ষেত্র", "emoji": "▭", "roman": "ayotokhettro" },
-    { "id": "math-oval", "en": "oval", "bn": "ডিম্বাকৃতি", "emoji": "⬭", "roman": "dimbakriti" },
-    { "id": "math-star-shape", "en": "star shape", "bn": "তারকা আকৃতি", "emoji": "⭐", "roman": "taroka akriti" },
-    { "id": "math-line", "en": "line", "bn": "রেখা", "emoji": "➖", "roman": "rekha" },
-    { "id": "math-point", "en": "point", "bn": "বিন্দু", "emoji": "•", "roman": "bindu" },
-    { "id": "math-angle", "en": "angle", "bn": "কোণ", "emoji": "∠", "roman": "kon" },
-    { "id": "math-length", "en": "length", "bn": "দৈর্ঘ্য", "emoji": "📏", "roman": "doirgho" },
-    { "id": "math-width", "en": "width", "bn": "প্রস্থ", "emoji": "↔️", "roman": "prostho" },
-    { "id": "math-height", "en": "height", "bn": "উচ্চতা", "emoji": "↕️", "roman": "uchchota" },
-    { "id": "math-size", "en": "size", "bn": "আকার", "emoji": "📐", "roman": "akar" },
-    { "id": "math-measure", "en": "measure", "bn": "মাপা", "emoji": "📏", "roman": "mapa" },
-    { "id": "math-ruler", "en": "ruler", "bn": "স্কেল", "emoji": "📏", "roman": "skel" },
-    { "id": "math-pattern", "en": "pattern", "bn": "প্যাটার্ন", "emoji": "🔷", "roman": "pattern" },
-    { "id": "math-group", "en": "group", "bn": "দল", "emoji": "👥", "roman": "dol" },
-    { "id": "math-total", "en": "total", "bn": "মোট", "emoji": "🧮", "roman": "mot" },
-    { "id": "math-answer", "en": "answer", "bn": "উত্তর", "emoji": "✅", "roman": "uttar" },
-    { "id": "math-question", "en": "question", "bn": "প্রশ্ন", "emoji": "❓", "roman": "proshno" },
-    { "id": "math-problem", "en": "problem", "bn": "সমস্যা", "emoji": "🧮", "roman": "shomossa" },
-    { "id": "math-solve", "en": "solve", "bn": "সমাধান", "emoji": "💡", "roman": "shomadhan" },
-    { "id": "math-math", "en": "mathematics", "bn": "গণিত", "emoji": "🧮", "roman": "gonit" }
+    {
+      "id": "math-zero",
+      "en": "zero",
+      "bn": "শূন্য",
+      "emoji": "0️⃣",
+      "roman": "shunno"
+    },
+    {
+      "id": "math-one",
+      "en": "one",
+      "bn": "এক",
+      "emoji": "1️⃣",
+      "roman": "ek"
+    },
+    {
+      "id": "math-two",
+      "en": "two",
+      "bn": "দুই",
+      "emoji": "2️⃣",
+      "roman": "dui"
+    },
+    {
+      "id": "math-three",
+      "en": "three",
+      "bn": "তিন",
+      "emoji": "3️⃣",
+      "roman": "tin"
+    },
+    {
+      "id": "math-four",
+      "en": "four",
+      "bn": "চার",
+      "emoji": "4️⃣",
+      "roman": "char"
+    },
+    {
+      "id": "math-five",
+      "en": "five",
+      "bn": "পাঁচ",
+      "emoji": "5️⃣",
+      "roman": "panch"
+    },
+    {
+      "id": "math-six",
+      "en": "six",
+      "bn": "ছয়",
+      "emoji": "6️⃣",
+      "roman": "chhoy"
+    },
+    {
+      "id": "math-seven",
+      "en": "seven",
+      "bn": "সাত",
+      "emoji": "7️⃣",
+      "roman": "shat"
+    },
+    {
+      "id": "math-eight",
+      "en": "eight",
+      "bn": "আট",
+      "emoji": "8️⃣",
+      "roman": "at"
+    },
+    {
+      "id": "math-nine",
+      "en": "nine",
+      "bn": "নয়",
+      "emoji": "9️⃣",
+      "roman": "noy"
+    },
+    {
+      "id": "math-ten",
+      "en": "ten",
+      "bn": "দশ",
+      "emoji": "🔟",
+      "roman": "dosh"
+    },
+    {
+      "id": "math-eleven",
+      "en": "eleven",
+      "bn": "এগারো",
+      "emoji": "1️⃣1️⃣",
+      "roman": "egaro"
+    },
+    {
+      "id": "math-twelve",
+      "en": "twelve",
+      "bn": "বারো",
+      "emoji": "1️⃣2️⃣",
+      "roman": "baro"
+    },
+    {
+      "id": "math-thirteen",
+      "en": "thirteen",
+      "bn": "তেরো",
+      "emoji": "1️⃣3️⃣",
+      "roman": "tero"
+    },
+    {
+      "id": "math-fourteen",
+      "en": "fourteen",
+      "bn": "চৌদ্দ",
+      "emoji": "1️⃣4️⃣",
+      "roman": "chouddo"
+    },
+    {
+      "id": "math-fifteen",
+      "en": "fifteen",
+      "bn": "পনেরো",
+      "emoji": "1️⃣5️⃣",
+      "roman": "ponero"
+    },
+    {
+      "id": "math-sixteen",
+      "en": "sixteen",
+      "bn": "ষোলো",
+      "emoji": "1️⃣6️⃣",
+      "roman": "sholo"
+    },
+    {
+      "id": "math-seventeen",
+      "en": "seventeen",
+      "bn": "সতেরো",
+      "emoji": "1️⃣7️⃣",
+      "roman": "shotero"
+    },
+    {
+      "id": "math-eighteen",
+      "en": "eighteen",
+      "bn": "আঠারো",
+      "emoji": "1️⃣8️⃣",
+      "roman": "atharo"
+    },
+    {
+      "id": "math-nineteen",
+      "en": "nineteen",
+      "bn": "উনিশ",
+      "emoji": "1️⃣9️⃣",
+      "roman": "unish"
+    },
+    {
+      "id": "math-twenty",
+      "en": "twenty",
+      "bn": "বিশ",
+      "emoji": "2️⃣0️⃣",
+      "roman": "bish"
+    },
+    {
+      "id": "math-twenty-one",
+      "en": "twenty-one",
+      "bn": "একুশ",
+      "emoji": "2️⃣1️⃣",
+      "roman": "ekush"
+    },
+    {
+      "id": "math-twenty-two",
+      "en": "twenty-two",
+      "bn": "বাইশ",
+      "emoji": "2️⃣2️⃣",
+      "roman": "baish"
+    },
+    {
+      "id": "math-twenty-three",
+      "en": "twenty-three",
+      "bn": "তেইশ",
+      "emoji": "2️⃣3️⃣",
+      "roman": "teish"
+    },
+    {
+      "id": "math-twenty-four",
+      "en": "twenty-four",
+      "bn": "চব্বিশ",
+      "emoji": "2️⃣4️⃣",
+      "roman": "chobbish"
+    },
+    {
+      "id": "math-twenty-five",
+      "en": "twenty-five",
+      "bn": "পঁচিশ",
+      "emoji": "2️⃣5️⃣",
+      "roman": "pochish"
+    },
+    {
+      "id": "math-twenty-six",
+      "en": "twenty-six",
+      "bn": "ছাব্বিশ",
+      "emoji": "2️⃣6️⃣",
+      "roman": "chabbish"
+    },
+    {
+      "id": "math-twenty-seven",
+      "en": "twenty-seven",
+      "bn": "সাতাশ",
+      "emoji": "2️⃣7️⃣",
+      "roman": "shatash"
+    },
+    {
+      "id": "math-twenty-eight",
+      "en": "twenty-eight",
+      "bn": "আটাশ",
+      "emoji": "2️⃣8️⃣",
+      "roman": "athash"
+    },
+    {
+      "id": "math-twenty-nine",
+      "en": "twenty-nine",
+      "bn": "ঊনত্রিশ",
+      "emoji": "2️⃣9️⃣",
+      "roman": "unotrish"
+    },
+    {
+      "id": "math-thirty",
+      "en": "thirty",
+      "bn": "ত্রিশ",
+      "emoji": "3️⃣0️⃣",
+      "roman": "trish"
+    },
+    {
+      "id": "math-thirty-one",
+      "en": "thirty-one",
+      "bn": "একত্রিশ",
+      "emoji": "3️⃣1️⃣",
+      "roman": "ektrish"
+    },
+    {
+      "id": "math-thirty-two",
+      "en": "thirty-two",
+      "bn": "বত্রিশ",
+      "emoji": "3️⃣2️⃣",
+      "roman": "botrish"
+    },
+    {
+      "id": "math-thirty-five",
+      "en": "thirty-five",
+      "bn": "পঁয়ত্রিশ",
+      "emoji": "3️⃣5️⃣",
+      "roman": "poyotrish"
+    },
+    {
+      "id": "math-forty",
+      "en": "forty",
+      "bn": "চল্লিশ",
+      "emoji": "4️⃣0️⃣",
+      "roman": "chollish"
+    },
+    {
+      "id": "math-forty-five",
+      "en": "forty-five",
+      "bn": "পঁয়তাল্লিশ",
+      "emoji": "4️⃣5️⃣",
+      "roman": "poyotallish"
+    },
+    {
+      "id": "math-fifty",
+      "en": "fifty",
+      "bn": "পঞ্চাশ",
+      "emoji": "5️⃣0️⃣",
+      "roman": "ponchash"
+    },
+    {
+      "id": "math-sixty",
+      "en": "sixty",
+      "bn": "ষাট",
+      "emoji": "6️⃣0️⃣",
+      "roman": "shat"
+    },
+    {
+      "id": "math-seventy",
+      "en": "seventy",
+      "bn": "সত্তর",
+      "emoji": "7️⃣0️⃣",
+      "roman": "shottor"
+    },
+    {
+      "id": "math-eighty",
+      "en": "eighty",
+      "bn": "আশি",
+      "emoji": "8️⃣0️⃣",
+      "roman": "ashi"
+    },
+    {
+      "id": "math-ninety",
+      "en": "ninety",
+      "bn": "নব্বই",
+      "emoji": "9️⃣0️⃣",
+      "roman": "nobboi"
+    },
+    {
+      "id": "math-hundred",
+      "en": "hundred",
+      "bn": "একশো",
+      "emoji": "💯",
+      "roman": "eksho"
+    },
+    {
+      "id": "math-two-hundred",
+      "en": "two hundred",
+      "bn": "দুইশো",
+      "emoji": "2️⃣0️⃣0️⃣",
+      "roman": "duisho"
+    },
+    {
+      "id": "math-five-hundred",
+      "en": "five hundred",
+      "bn": "পাঁচশো",
+      "emoji": "5️⃣0️⃣0️⃣",
+      "roman": "pãchsho"
+    },
+    {
+      "id": "math-thousand",
+      "en": "thousand",
+      "bn": "হাজার",
+      "emoji": "🔢",
+      "roman": "hajar"
+    },
+    {
+      "id": "math-lakh",
+      "en": "lakh",
+      "bn": "লাখ",
+      "emoji": "💰",
+      "roman": "lakh"
+    },
+    {
+      "id": "math-first",
+      "en": "first",
+      "bn": "প্রথম",
+      "emoji": "1️⃣",
+      "roman": "prothom"
+    },
+    {
+      "id": "math-second",
+      "en": "second",
+      "bn": "দ্বিতীয়",
+      "emoji": "2️⃣",
+      "roman": "ditiyo"
+    },
+    {
+      "id": "math-third",
+      "en": "third",
+      "bn": "তৃতীয়",
+      "emoji": "3️⃣",
+      "roman": "tritiyo"
+    },
+    {
+      "id": "math-fourth",
+      "en": "fourth",
+      "bn": "চতুর্থ",
+      "emoji": "4️⃣",
+      "roman": "choturtho"
+    },
+    {
+      "id": "math-fifth",
+      "en": "fifth",
+      "bn": "পঞ্চম",
+      "emoji": "5️⃣",
+      "roman": "ponchom"
+    },
+    {
+      "id": "math-last",
+      "en": "last",
+      "bn": "শেষ",
+      "emoji": "🏁",
+      "roman": "shesh"
+    },
+    {
+      "id": "math-plus",
+      "en": "plus",
+      "bn": "যোগ",
+      "emoji": "➕",
+      "roman": "jog"
+    },
+    {
+      "id": "math-minus",
+      "en": "minus",
+      "bn": "বিয়োগ",
+      "emoji": "➖",
+      "roman": "biyog"
+    },
+    {
+      "id": "math-times",
+      "en": "times",
+      "bn": "গুণ",
+      "emoji": "✖️",
+      "roman": "gun"
+    },
+    {
+      "id": "math-divide",
+      "en": "divide",
+      "bn": "ভাগ",
+      "emoji": "➗",
+      "roman": "bhag"
+    },
+    {
+      "id": "math-equal",
+      "en": "equal",
+      "bn": "সমান",
+      "emoji": "=",
+      "roman": "shoman"
+    },
+    {
+      "id": "math-add",
+      "en": "add",
+      "bn": "যোগ করা",
+      "emoji": "➕",
+      "roman": "jog kora"
+    },
+    {
+      "id": "math-subtract",
+      "en": "subtract",
+      "bn": "বিয়োগ করা",
+      "emoji": "➖",
+      "roman": "biyog kora"
+    },
+    {
+      "id": "math-multiply",
+      "en": "multiply",
+      "bn": "গুণ করা",
+      "emoji": "✖️",
+      "roman": "gun kora"
+    },
+    {
+      "id": "math-count",
+      "en": "count",
+      "bn": "গণনা",
+      "emoji": "🔢",
+      "roman": "gonona"
+    },
+    {
+      "id": "math-number",
+      "en": "number",
+      "bn": "সংখ্যা",
+      "emoji": "#️⃣",
+      "roman": "songkha"
+    },
+    {
+      "id": "math-sum",
+      "en": "sum",
+      "bn": "যোগফল",
+      "emoji": "Σ",
+      "roman": "jogfol"
+    },
+    {
+      "id": "math-difference",
+      "en": "difference",
+      "bn": "বিয়োগফল",
+      "emoji": "➖",
+      "roman": "biyogfol"
+    },
+    {
+      "id": "math-half",
+      "en": "half",
+      "bn": "অর্ধেক",
+      "emoji": "½",
+      "roman": "ordhek"
+    },
+    {
+      "id": "math-quarter",
+      "en": "quarter",
+      "bn": "এক চতুর্থাংশ",
+      "emoji": "¼",
+      "roman": "ek choturthangsho"
+    },
+    {
+      "id": "math-whole",
+      "en": "whole",
+      "bn": "সম্পূর্ণ",
+      "emoji": "⭕",
+      "roman": "shompurno"
+    },
+    {
+      "id": "math-more",
+      "en": "more",
+      "bn": "বেশি",
+      "emoji": "📈",
+      "roman": "beshi"
+    },
+    {
+      "id": "math-less",
+      "en": "less",
+      "bn": "কম",
+      "emoji": "📉",
+      "roman": "kom"
+    },
+    {
+      "id": "math-greater",
+      "en": "greater",
+      "bn": "বড়",
+      "emoji": ">",
+      "roman": "boro"
+    },
+    {
+      "id": "math-smaller",
+      "en": "smaller",
+      "bn": "ছোট",
+      "emoji": "<",
+      "roman": "choto"
+    },
+    {
+      "id": "math-same",
+      "en": "same",
+      "bn": "একই",
+      "emoji": "🟰",
+      "roman": "ekoi"
+    },
+    {
+      "id": "math-different",
+      "en": "different",
+      "bn": "আলাদা",
+      "emoji": "≠",
+      "roman": "alada"
+    },
+    {
+      "id": "math-many",
+      "en": "many",
+      "bn": "অনেক",
+      "emoji": "➕",
+      "roman": "onek"
+    },
+    {
+      "id": "math-few",
+      "en": "few",
+      "bn": "কয়েক",
+      "emoji": "🤏",
+      "roman": "koyek"
+    },
+    {
+      "id": "math-all",
+      "en": "all",
+      "bn": "সব",
+      "emoji": "♾️",
+      "roman": "shob"
+    },
+    {
+      "id": "math-none",
+      "en": "none",
+      "bn": "কোনোটি নয়",
+      "emoji": "🚫",
+      "roman": "konoti noy"
+    },
+    {
+      "id": "math-pair",
+      "en": "pair",
+      "bn": "জোড়া",
+      "emoji": "👯",
+      "roman": "jora"
+    },
+    {
+      "id": "math-odd",
+      "en": "odd",
+      "bn": "বিজোড়",
+      "emoji": "1️⃣",
+      "roman": "bijor"
+    },
+    {
+      "id": "math-even",
+      "en": "even",
+      "bn": "জোড়",
+      "emoji": "2️⃣",
+      "roman": "jor"
+    },
+    {
+      "id": "math-circle",
+      "en": "circle",
+      "bn": "বৃত্ত",
+      "emoji": "⭕",
+      "roman": "britto"
+    },
+    {
+      "id": "math-square",
+      "en": "square",
+      "bn": "বর্গক্ষেত্র",
+      "emoji": "⬜",
+      "roman": "borgokhettro"
+    },
+    {
+      "id": "math-triangle",
+      "en": "triangle",
+      "bn": "ত্রিভুজ",
+      "emoji": "🔺",
+      "roman": "tribhuj"
+    },
+    {
+      "id": "math-rectangle",
+      "en": "rectangle",
+      "bn": "আয়তক্ষেত্র",
+      "emoji": "▭",
+      "roman": "ayotokhettro"
+    },
+    {
+      "id": "math-oval",
+      "en": "oval",
+      "bn": "ডিম্বাকৃতি",
+      "emoji": "⬭",
+      "roman": "dimbakriti"
+    },
+    {
+      "id": "math-star-shape",
+      "en": "star shape",
+      "bn": "তারকা আকৃতি",
+      "emoji": "⭐",
+      "roman": "taroka akriti"
+    },
+    {
+      "id": "math-line",
+      "en": "line",
+      "bn": "রেখা",
+      "emoji": "➖",
+      "roman": "rekha"
+    },
+    {
+      "id": "math-point",
+      "en": "point",
+      "bn": "বিন্দু",
+      "emoji": "•",
+      "roman": "bindu"
+    },
+    {
+      "id": "math-angle",
+      "en": "angle",
+      "bn": "কোণ",
+      "emoji": "∠",
+      "roman": "kon"
+    },
+    {
+      "id": "math-length",
+      "en": "length",
+      "bn": "দৈর্ঘ্য",
+      "emoji": "📏",
+      "roman": "doirgho"
+    },
+    {
+      "id": "math-width",
+      "en": "width",
+      "bn": "প্রস্থ",
+      "emoji": "↔️",
+      "roman": "prostho"
+    },
+    {
+      "id": "math-height",
+      "en": "height",
+      "bn": "উচ্চতা",
+      "emoji": "↕️",
+      "roman": "uchchota"
+    },
+    {
+      "id": "math-size",
+      "en": "size",
+      "bn": "আকার",
+      "emoji": "📐",
+      "roman": "akar"
+    },
+    {
+      "id": "math-measure",
+      "en": "measure",
+      "bn": "মাপা",
+      "emoji": "📏",
+      "roman": "mapa"
+    },
+    {
+      "id": "math-ruler",
+      "en": "ruler",
+      "bn": "রুলার",
+      "emoji": "📏",
+      "roman": "skel"
+    },
+    {
+      "id": "math-pattern",
+      "en": "pattern",
+      "bn": "প্যাটার্ন",
+      "emoji": "🔷",
+      "roman": "pattern"
+    },
+    {
+      "id": "math-group",
+      "en": "group",
+      "bn": "দল",
+      "emoji": "👥",
+      "roman": "dol"
+    },
+    {
+      "id": "math-total",
+      "en": "total",
+      "bn": "মোট",
+      "emoji": "🧮",
+      "roman": "mot"
+    },
+    {
+      "id": "math-answer",
+      "en": "answer",
+      "bn": "উত্তর",
+      "emoji": "✅",
+      "roman": "uttar"
+    },
+    {
+      "id": "math-question",
+      "en": "question",
+      "bn": "প্রশ্ন",
+      "emoji": "❓",
+      "roman": "proshno"
+    },
+    {
+      "id": "math-problem",
+      "en": "problem",
+      "bn": "সমস্যা",
+      "emoji": "🧮",
+      "roman": "shomossa"
+    },
+    {
+      "id": "math-solve",
+      "en": "solve",
+      "bn": "সমাধান",
+      "emoji": "💡",
+      "roman": "shomadhan"
+    },
+    {
+      "id": "math-math",
+      "en": "mathematics",
+      "bn": "গণিত",
+      "emoji": "🧮",
+      "roman": "gonit"
+    },
+    {
+      "id": "mathematics-hexagon",
+      "en": "hexagon",
+      "bn": "ষড়ভুজ",
+      "emoji": "⬡",
+      "roman": "shohobhuj"
+    },
+    {
+      "id": "mathematics-pentagon",
+      "en": "pentagon",
+      "bn": "পঞ্চভুজ",
+      "emoji": "⬠",
+      "roman": "ponchobhuj"
+    },
+    {
+      "id": "mathematics-octagon",
+      "en": "octagon",
+      "bn": "অষ্টভুজ",
+      "emoji": "⛔",
+      "roman": "ashtobhuj"
+    },
+    {
+      "id": "mathematics-diamond-shape",
+      "en": "diamond shape",
+      "bn": "হীরক আকৃতি",
+      "emoji": "💎",
+      "roman": "hira"
+    },
+    {
+      "id": "mathematics-heart-shape",
+      "en": "heart shape",
+      "bn": "হৃদ আকৃতি",
+      "emoji": "❤️",
+      "roman": "hiya akriti"
+    },
+    {
+      "id": "mathematics-cross-shape",
+      "en": "cross shape",
+      "bn": "ক্রস আকৃতি",
+      "emoji": "✝️",
+      "roman": "cross akriti"
+    },
+    {
+      "id": "mathematics-cube",
+      "en": "cube",
+      "bn": "ঘনক",
+      "emoji": "🧊",
+      "roman": "ghon"
+    },
+    {
+      "id": "mathematics-sphere",
+      "en": "sphere",
+      "bn": "গোলোক",
+      "emoji": "⚽",
+      "roman": "golok"
+    },
+    {
+      "id": "mathematics-cylinder",
+      "en": "cylinder",
+      "bn": "বেলন",
+      "emoji": "🛢️",
+      "roman": "belan"
+    },
+    {
+      "id": "mathematics-cone",
+      "en": "cone",
+      "bn": "শনকু",
+      "emoji": "🔺",
+      "roman": "shanku"
+    },
+    {
+      "id": "mathematics-pyramid",
+      "en": "pyramid",
+      "bn": "পিরমিদ",
+      "emoji": "🔺",
+      "roman": "piramid"
+    },
+    {
+      "id": "mathematics-prism",
+      "en": "prism",
+      "bn": "পরিসম",
+      "emoji": "🔷",
+      "roman": "prism"
+    },
+    {
+      "id": "mathematics-parallel",
+      "en": "parallel",
+      "bn": "সমনতোরল",
+      "emoji": "∥",
+      "roman": "samantoral"
+    },
+    {
+      "id": "mathematics-perpendicular",
+      "en": "perpendicular",
+      "bn": "লোমব",
+      "emoji": "⊥",
+      "roman": "lomb"
+    },
+    {
+      "id": "mathematics-straight-line",
+      "en": "straight line",
+      "bn": "শোজ রেখা",
+      "emoji": "📏",
+      "roman": "shoja rekha"
+    },
+    {
+      "id": "mathematics-curved-line",
+      "en": "curved line",
+      "bn": "বন রেখা",
+      "emoji": "〰️",
+      "roman": "ban rekha"
+    },
+    {
+      "id": "mathematics-corner",
+      "en": "corner",
+      "bn": "কোণ",
+      "emoji": "📐",
+      "roman": "kon"
+    },
+    {
+      "id": "mathematics-edge",
+      "en": "edge",
+      "bn": "পরনত",
+      "emoji": "📐",
+      "roman": "prant"
+    },
+    {
+      "id": "mathematics-side",
+      "en": "side",
+      "bn": "পাশ",
+      "emoji": "📐",
+      "roman": "pash"
+    },
+    {
+      "id": "mathematics-face-shape",
+      "en": "face shape",
+      "bn": "মুখ আকৃতি",
+      "emoji": "⬜",
+      "roman": "mukh akriti"
+    },
+    {
+      "id": "mathematics-surface",
+      "en": "surface",
+      "bn": "পরিসথো",
+      "emoji": "⬜",
+      "roman": "pristho"
+    },
+    {
+      "id": "mathematics-inside",
+      "en": "inside",
+      "bn": "ভিতোরে",
+      "emoji": "📦",
+      "roman": "bhitore"
+    },
+    {
+      "id": "mathematics-outside",
+      "en": "outside",
+      "bn": "ভিরে",
+      "emoji": "📦",
+      "roman": "bhaire"
+    },
+    {
+      "id": "mathematics-between",
+      "en": "between",
+      "bn": "মাঝে",
+      "emoji": "↔️",
+      "roman": "majhe"
+    },
+    {
+      "id": "mathematics-middle",
+      "en": "middle",
+      "bn": "মোড়হে",
+      "emoji": "🎯",
+      "roman": "moddhe"
+    },
+    {
+      "id": "mathematics-next-to",
+      "en": "next to",
+      "bn": "পাশে",
+      "emoji": "↔️",
+      "roman": "pashe"
+    },
+    {
+      "id": "mathematics-above",
+      "en": "above",
+      "bn": "উপোরে",
+      "emoji": "⬆️",
+      "roman": "upore"
+    },
+    {
+      "id": "mathematics-below",
+      "en": "below",
+      "bn": "নিচে",
+      "emoji": "⬇️",
+      "roman": "niche"
+    },
+    {
+      "id": "mathematics-left-side",
+      "en": "left side",
+      "bn": "বাম",
+      "emoji": "⬅️",
+      "roman": "bam"
+    },
+    {
+      "id": "mathematics-right-side",
+      "en": "right side",
+      "bn": "ডান",
+      "emoji": "➡️",
+      "roman": "dan"
+    },
+    {
+      "id": "mathematics-forward",
+      "en": "forward",
+      "bn": "অগিযে",
+      "emoji": "➡️",
+      "roman": "agiye"
+    },
+    {
+      "id": "mathematics-backward",
+      "en": "backward",
+      "bn": "পিচোনে",
+      "emoji": "⬅️",
+      "roman": "pichone"
+    },
+    {
+      "id": "mathematics-upward",
+      "en": "upward",
+      "bn": "উপবরদ",
+      "emoji": "⬆️",
+      "roman": "upward"
+    },
+    {
+      "id": "mathematics-downward",
+      "en": "downward",
+      "bn": "দোবনবরদ",
+      "emoji": "⬇️",
+      "roman": "downward"
+    },
+    {
+      "id": "mathematics-clockwise",
+      "en": "clockwise",
+      "bn": "ঘোরিের দিক",
+      "emoji": "🔄",
+      "roman": "ghorier dik"
+    },
+    {
+      "id": "mathematics-counterclockwise",
+      "en": "counterclockwise",
+      "bn": "উলতো দিক",
+      "emoji": "🔃",
+      "roman": "ulto dik"
+    },
+    {
+      "id": "mathematics-heavy",
+      "en": "heavy",
+      "bn": "ভারী",
+      "emoji": "🏋️",
+      "roman": "bhari"
+    },
+    {
+      "id": "mathematics-light-weight",
+      "en": "light weight",
+      "bn": "হালকা",
+      "emoji": "🪶",
+      "roman": "halka"
+    },
+    {
+      "id": "mathematics-empty",
+      "en": "empty",
+      "bn": "খালি",
+      "emoji": "⬜",
+      "roman": "khali"
+    },
+    {
+      "id": "mathematics-full-amount",
+      "en": "full amount",
+      "bn": "পূর্ণ",
+      "emoji": "⬛",
+      "roman": "purno"
+    },
+    {
+      "id": "mathematics-double-amount",
+      "en": "double amount",
+      "bn": "দুগুন",
+      "emoji": "✖️2",
+      "roman": "dugun"
+    },
+    {
+      "id": "mathematics-triple-amount",
+      "en": "triple amount",
+      "bn": "তিগুন",
+      "emoji": "✖️3",
+      "roman": "tigun"
+    },
+    {
+      "id": "mathematics-sort-items",
+      "en": "sort items",
+      "bn": "সাজানো",
+      "emoji": "📊",
+      "roman": "sajano"
+    },
+    {
+      "id": "mathematics-order-items",
+      "en": "order items",
+      "bn": "ক্রম",
+      "emoji": "📊",
+      "roman": "krom"
+    },
+    {
+      "id": "mathematics-match-pairs",
+      "en": "match pairs",
+      "bn": "জোড়া",
+      "emoji": "👯",
+      "roman": "jora"
+    },
+    {
+      "id": "mathematics-compare-sizes",
+      "en": "compare sizes",
+      "bn": "তুলনা",
+      "emoji": "⚖️",
+      "roman": "tulona"
+    },
+    {
+      "id": "mathematics-estimate",
+      "en": "estimate",
+      "bn": "অনুমান",
+      "emoji": "🤔",
+      "roman": "anuman"
+    },
+    {
+      "id": "mathematics-exactly",
+      "en": "exactly",
+      "bn": "ঠিক",
+      "emoji": "🎯",
+      "roman": "thik"
+    },
+    {
+      "id": "mathematics-approximately",
+      "en": "approximately",
+      "bn": "প্রায়",
+      "emoji": "≈",
+      "roman": "praye"
+    },
+    {
+      "id": "mathematics-abacus",
+      "en": "abacus",
+      "bn": "গণনা ফ্রেম",
+      "emoji": "🧮",
+      "roman": "abacus"
+    },
+    {
+      "id": "mathematics-calculator",
+      "en": "calculator",
+      "bn": "ক্যালকুলেটার",
+      "emoji": "🧮",
+      "roman": "calculator"
+    },
+    {
+      "id": "mathematics-digit-symbol",
+      "en": "digit symbol",
+      "bn": "সংখ্যা চিনহো",
+      "emoji": "#️⃣",
+      "roman": "songkha chinho"
+    },
+    {
+      "id": "mathematics-fraction-part",
+      "en": "fraction part",
+      "bn": "ভগ্নাংশ",
+      "emoji": "½",
+      "roman": "bhag"
+    },
+    {
+      "id": "mathematics-decimal-point",
+      "en": "decimal point",
+      "bn": "দশমিক",
+      "emoji": ".",
+      "roman": "doshomik"
+    },
+    {
+      "id": "mathematics-percent",
+      "en": "percent",
+      "bn": "শতাংশ",
+      "emoji": "%",
+      "roman": "shatangsho"
+    },
+    {
+      "id": "mathematics-ratio",
+      "en": "ratio",
+      "bn": "অনুপাত",
+      "emoji": "∶",
+      "roman": "anupat"
+    },
+    {
+      "id": "mathematics-proportion",
+      "en": "proportion",
+      "bn": "সমপাত",
+      "emoji": "⚖️",
+      "roman": "samopat"
+    },
+    {
+      "id": "mathematics-symmetry",
+      "en": "symmetry",
+      "bn": "সমমিতি",
+      "emoji": "🪞",
+      "roman": "sammmito"
+    },
+    {
+      "id": "mathematics-grid",
+      "en": "grid",
+      "bn": "গ্রিড",
+      "emoji": "▦",
+      "roman": "grid"
+    },
+    {
+      "id": "mathematics-row",
+      "en": "row",
+      "bn": "সারি",
+      "emoji": "➡️",
+      "roman": "sor"
+    },
+    {
+      "id": "mathematics-column",
+      "en": "column",
+      "bn": "স্তম্ভ",
+      "emoji": "⬇️",
+      "roman": "stambho"
+    },
+    {
+      "id": "mathematics-block-tower",
+      "en": "block tower",
+      "bn": "বলোচক",
+      "emoji": "🧱",
+      "roman": "block"
+    },
+    {
+      "id": "mathematics-building-blocks",
+      "en": "building blocks",
+      "bn": "বলোচক",
+      "emoji": "🧱",
+      "roman": "block"
+    },
+    {
+      "id": "mathematics-set-of-items",
+      "en": "set of items",
+      "bn": "সেত",
+      "emoji": "📦",
+      "roman": "set"
+    },
+    {
+      "id": "mathematics-collection",
+      "en": "collection",
+      "bn": "সংগ্রহ",
+      "emoji": "📦",
+      "roman": "collection"
+    },
+    {
+      "id": "mathematics-graph-chart",
+      "en": "graph chart",
+      "bn": "গরফ",
+      "emoji": "📊",
+      "roman": "graph"
+    },
+    {
+      "id": "mathematics-bar-chart",
+      "en": "bar chart",
+      "bn": "বর চরত",
+      "emoji": "📊",
+      "roman": "bar chart"
+    },
+    {
+      "id": "mathematics-pie-chart",
+      "en": "pie chart",
+      "bn": "পিে চরত",
+      "emoji": "🥧",
+      "roman": "pie chart"
+    },
+    {
+      "id": "mathematics-data",
+      "en": "data",
+      "bn": "তথ্য",
+      "emoji": "📊",
+      "roman": "data"
+    },
+    {
+      "id": "mathematics-calendar-math",
+      "en": "calendar math",
+      "bn": "চলেনদর",
+      "emoji": "📅",
+      "roman": "calendar"
+    },
+    {
+      "id": "mathematics-clock-time",
+      "en": "clock time",
+      "bn": "সময়",
+      "emoji": "🕐",
+      "roman": "somoy"
+    },
+    {
+      "id": "mathematics-hour-hand",
+      "en": "hour hand",
+      "bn": "ঘণ্টা",
+      "emoji": "🕐",
+      "roman": "ghonta"
+    },
+    {
+      "id": "mathematics-minute-hand",
+      "en": "minute hand",
+      "bn": "মিনিট",
+      "emoji": "🕐",
+      "roman": "mini"
+    },
+    {
+      "id": "mathematics-second-hand",
+      "en": "second hand",
+      "bn": "সেকেন্ড",
+      "emoji": "🕐",
+      "roman": "sec"
+    },
+    {
+      "id": "mathematics-timer",
+      "en": "timer",
+      "bn": "টাইমার",
+      "emoji": "⏱️",
+      "roman": "timer"
+    },
+    {
+      "id": "mathematics-stopwatch",
+      "en": "stopwatch",
+      "bn": "স্টপওয়াচ",
+      "emoji": "⏱️",
+      "roman": "stopwatch"
+    },
+    {
+      "id": "mathematics-centimeter",
+      "en": "centimeter",
+      "bn": "সেন্টিমিটার",
+      "emoji": "📏",
+      "roman": "sentimitar"
+    },
+    {
+      "id": "mathematics-meter-unit",
+      "en": "meter unit",
+      "bn": "মিটার",
+      "emoji": "📏",
+      "roman": "mitar"
+    },
+    {
+      "id": "mathematics-kilometer",
+      "en": "kilometer",
+      "bn": "কিলোমিটার",
+      "emoji": "📏",
+      "roman": "kilomitar"
+    },
+    {
+      "id": "mathematics-gram",
+      "en": "gram",
+      "bn": "গ্রাম",
+      "emoji": "⚖️",
+      "roman": "gram"
+    },
+    {
+      "id": "mathematics-kilogram",
+      "en": "kilogram",
+      "bn": "কিলোগ্রাম",
+      "emoji": "⚖️",
+      "roman": "kilogram"
+    },
+    {
+      "id": "mathematics-liter",
+      "en": "liter",
+      "bn": "লিটার",
+      "emoji": "🫗",
+      "roman": "liter"
+    },
+    {
+      "id": "mathematics-cup-measure",
+      "en": "cup measure",
+      "bn": "কাপ মাপ",
+      "emoji": "☕",
+      "roman": "kap map"
+    },
+    {
+      "id": "mathematics-spoon-measure",
+      "en": "spoon measure",
+      "bn": "চামচ মাপ",
+      "emoji": "🥄",
+      "roman": "chamoch map"
+    },
+    {
+      "id": "mathematics-big-number-idea",
+      "en": "big number idea",
+      "bn": "বড় সংখ্যা",
+      "emoji": "📈",
+      "roman": "boro songkha"
+    },
+    {
+      "id": "mathematics-small-number-idea",
+      "en": "small number idea",
+      "bn": "ছস্ট সংখ্যা",
+      "emoji": "📉",
+      "roman": "chhoto songkha"
+    },
+    {
+      "id": "mathematics-long-object",
+      "en": "long object",
+      "bn": "লম্বা",
+      "emoji": "📏",
+      "roman": "lamba"
+    },
+    {
+      "id": "mathematics-short-object",
+      "en": "short object",
+      "bn": "ছোট",
+      "emoji": "📏",
+      "roman": "chhoto"
+    },
+    {
+      "id": "mathematics-tall-object",
+      "en": "tall object",
+      "bn": "লম্বা",
+      "emoji": "📏",
+      "roman": "lomba"
+    },
+    {
+      "id": "mathematics-wide-object",
+      "en": "wide object",
+      "bn": "প্রশস্ত",
+      "emoji": "↔️",
+      "roman": "proshosto"
+    },
+    {
+      "id": "mathematics-narrow-object",
+      "en": "narrow object",
+      "bn": "সংকীর্ণ",
+      "emoji": "↔️",
+      "roman": "sankuchito"
+    },
+    {
+      "id": "mathematics-thick-object",
+      "en": "thick object",
+      "bn": "মোটা",
+      "emoji": "📏",
+      "roman": "mot"
+    },
+    {
+      "id": "mathematics-thin-object",
+      "en": "thin object",
+      "bn": "পাতলা",
+      "emoji": "📏",
+      "roman": "patla"
+    },
+    {
+      "id": "mathematics-deep",
+      "en": "deep",
+      "bn": "গভীর",
+      "emoji": "🕳️",
+      "roman": "gobhir"
+    },
+    {
+      "id": "mathematics-shallow",
+      "en": "shallow",
+      "bn": "অগভীর",
+      "emoji": "🕳️",
+      "roman": "ohalpo"
+    },
+    {
+      "id": "mathematics-near",
+      "en": "near",
+      "bn": "কাছে",
+      "emoji": "📍",
+      "roman": "kache"
+    },
+    {
+      "id": "mathematics-far",
+      "en": "far",
+      "bn": "দুরে",
+      "emoji": "📍",
+      "roman": "dure"
+    },
+    {
+      "id": "mathematics-close-together",
+      "en": "close together",
+      "bn": "কাছাকাছি",
+      "emoji": "🤏",
+      "roman": "kache kache"
+    },
+    {
+      "id": "mathematics-far-apart",
+      "en": "far apart",
+      "bn": "দূর দূর",
+      "emoji": "↔️",
+      "roman": "dure dure"
+    },
+    {
+      "id": "mathematics-overlap",
+      "en": "overlap",
+      "bn": "ওভেরলপ",
+      "emoji": "🔲",
+      "roman": "overlap"
+    },
+    {
+      "id": "mathematics-connect-dots",
+      "en": "connect dots",
+      "bn": "বিন্দু যোগ",
+      "emoji": "⚫",
+      "roman": "bindu jog"
+    },
+    {
+      "id": "mathematics-trace-shape",
+      "en": "trace shape",
+      "bn": "আকৃতি অনুকোরোন",
+      "emoji": "✏️",
+      "roman": "akriti anukoron"
+    },
+    {
+      "id": "mathematics-draw-shape",
+      "en": "draw shape",
+      "bn": "আকৃতি অক",
+      "emoji": "✏️",
+      "roman": "akriti aka"
+    },
+    {
+      "id": "mathematics-cut-shape",
+      "en": "cut shape",
+      "bn": "আকৃতি কাটা",
+      "emoji": "✂️",
+      "roman": "akriti kata"
+    },
+    {
+      "id": "mathematics-fold-shape",
+      "en": "fold shape",
+      "bn": "আকৃতি ভজ",
+      "emoji": "📄",
+      "roman": "akriti bhaj"
+    },
+    {
+      "id": "mathematics-flip-shape",
+      "en": "flip shape",
+      "bn": "উলতনো",
+      "emoji": "🔄",
+      "roman": "ultano"
+    },
+    {
+      "id": "mathematics-rotate-shape",
+      "en": "rotate shape",
+      "bn": "ঘুরানো",
+      "emoji": "🔄",
+      "roman": "ghurano"
+    },
+    {
+      "id": "mathematics-slide-shape",
+      "en": "slide shape",
+      "bn": "স্লাইড",
+      "emoji": "➡️",
+      "roman": "slide"
+    },
+    {
+      "id": "mathematics-stack-blocks",
+      "en": "stack blocks",
+      "bn": "স্তূপ",
+      "emoji": "📚",
+      "roman": "stack"
+    },
+    {
+      "id": "mathematics-balance-scale",
+      "en": "balance scale",
+      "bn": "তরাজু",
+      "emoji": "⚖️",
+      "roman": "tarajui"
+    },
+    {
+      "id": "mathematics-weigh-objects",
+      "en": "weigh objects",
+      "bn": "ওজন",
+      "emoji": "⚖️",
+      "roman": "ojon"
+    },
+    {
+      "id": "mathematics-count-objects",
+      "en": "count objects",
+      "bn": "গণনা",
+      "emoji": "🔢",
+      "roman": "gonona"
+    },
+    {
+      "id": "mathematics-math-puzzle",
+      "en": "math puzzle",
+      "bn": "গণিত ধাঁধা",
+      "emoji": "🧩",
+      "roman": "math puzzle"
+    },
+    {
+      "id": "mathematics-math-game",
+      "en": "math game",
+      "bn": "গণিত খেলা",
+      "emoji": "🎲",
+      "roman": "math khela"
+    },
+    {
+      "id": "mathematics-math-book",
+      "en": "math book",
+      "bn": "গণিত বই",
+      "emoji": "📘",
+      "roman": "gonit boi"
+    },
+    {
+      "id": "mathematics-math-class",
+      "en": "math class",
+      "bn": "গণিত ক্লাস",
+      "emoji": "🏫",
+      "roman": "gonit class"
+    },
+    {
+      "id": "mathematics-math-teacher",
+      "en": "math teacher",
+      "bn": "গণিত শিক্ষক",
+      "emoji": "👩‍🏫",
+      "roman": "gonit shikkhok"
+    },
+    {
+      "id": "mathematics-math-homework",
+      "en": "math homework",
+      "bn": "গণিত বাড়ির কাজ",
+      "emoji": "📝",
+      "roman": "gonit homework"
+    },
+    {
+      "id": "mathematics-math-test",
+      "en": "math test",
+      "bn": "গণিত পরীক্ষা",
+      "emoji": "📝",
+      "roman": "gonit poriksha"
+    },
+    {
+      "id": "mathematics-math-star",
+      "en": "math star",
+      "bn": "গণিত তারকা",
+      "emoji": "⭐",
+      "roman": "gonit star"
+    },
+    {
+      "id": "mathematics-thirty-three",
+      "en": "thirty-three",
+      "bn": "তেত্রিশ",
+      "roman": "tetrish"
+    },
+    {
+      "id": "mathematics-thirty-four",
+      "en": "thirty-four",
+      "bn": "চৌত্রিশ",
+      "roman": "choutrish"
+    },
+    {
+      "id": "mathematics-thirty-six",
+      "en": "thirty-six",
+      "bn": "ছত্রিশ",
+      "roman": "chhotrish"
+    },
+    {
+      "id": "mathematics-thirty-seven",
+      "en": "thirty-seven",
+      "bn": "সাঁইত্রিশ",
+      "roman": "shaitrish"
+    },
+    {
+      "id": "mathematics-thirty-eight",
+      "en": "thirty-eight",
+      "bn": "আটত্রিশ",
+      "roman": "attrish"
+    },
+    {
+      "id": "mathematics-thirty-nine",
+      "en": "thirty-nine",
+      "bn": "ঊনচল্লিশ",
+      "roman": "unochollish"
+    },
+    {
+      "id": "mathematics-forty-one",
+      "en": "forty-one",
+      "bn": "একচল্লিশ",
+      "roman": "ekchollish"
+    },
+    {
+      "id": "mathematics-forty-two",
+      "en": "forty-two",
+      "bn": "বিয়াল্লিশ",
+      "roman": "biyallish"
+    },
+    {
+      "id": "mathematics-forty-three",
+      "en": "forty-three",
+      "bn": "তেতাল্লিশ",
+      "roman": "tetallish"
+    },
+    {
+      "id": "mathematics-forty-four",
+      "en": "forty-four",
+      "bn": "চুয়াল্লিশ",
+      "roman": "chuyallish"
+    },
+    {
+      "id": "mathematics-forty-six",
+      "en": "forty-six",
+      "bn": "ছেচল্লিশ",
+      "roman": "chechollish"
+    },
+    {
+      "id": "mathematics-forty-seven",
+      "en": "forty-seven",
+      "bn": "সাতচল্লিশ",
+      "roman": "shatchollish"
+    },
+    {
+      "id": "mathematics-forty-eight",
+      "en": "forty-eight",
+      "bn": "আটচল্লিশ",
+      "roman": "atchollish"
+    },
+    {
+      "id": "mathematics-forty-nine",
+      "en": "forty-nine",
+      "bn": "ঊনপঞ্চাশ",
+      "roman": "unoponchash"
+    },
+    {
+      "id": "mathematics-fifty-one",
+      "en": "fifty-one",
+      "bn": "একান্ন",
+      "roman": "ekanno"
+    },
+    {
+      "id": "mathematics-fifty-two",
+      "en": "fifty-two",
+      "bn": "বায়ান্ন",
+      "roman": "bayanno"
+    },
+    {
+      "id": "mathematics-fifty-three",
+      "en": "fifty-three",
+      "bn": "তিপ্পান্ন",
+      "roman": "tippanno"
+    },
+    {
+      "id": "mathematics-fifty-four",
+      "en": "fifty-four",
+      "bn": "চুয়ান্ন",
+      "roman": "chuyanno"
+    },
+    {
+      "id": "mathematics-fifty-five",
+      "en": "fifty-five",
+      "bn": "পঞ্চান্ন",
+      "roman": "ponchanno"
+    },
+    {
+      "id": "mathematics-fifty-six",
+      "en": "fifty-six",
+      "bn": "ছাপ্পান্ন",
+      "roman": "chhappanno"
+    },
+    {
+      "id": "mathematics-fifty-seven",
+      "en": "fifty-seven",
+      "bn": "সাতান্ন",
+      "roman": "shatanno"
+    },
+    {
+      "id": "mathematics-fifty-eight",
+      "en": "fifty-eight",
+      "bn": "আটান্ন",
+      "roman": "atanno"
+    },
+    {
+      "id": "mathematics-fifty-nine",
+      "en": "fifty-nine",
+      "bn": "ঊনষাট",
+      "roman": "unoshat"
+    },
+    {
+      "id": "mathematics-sixty-one",
+      "en": "sixty-one",
+      "bn": "একষট্টি",
+      "roman": "ekshotti"
+    },
+    {
+      "id": "mathematics-sixty-two",
+      "en": "sixty-two",
+      "bn": "বাষট্টি",
+      "roman": "bashotti"
+    },
+    {
+      "id": "mathematics-sixty-three",
+      "en": "sixty-three",
+      "bn": "তেষট্টি",
+      "roman": "teshotti"
+    },
+    {
+      "id": "mathematics-sixty-four",
+      "en": "sixty-four",
+      "bn": "চৌষট্টি",
+      "roman": "choushotti"
+    },
+    {
+      "id": "mathematics-sixty-five",
+      "en": "sixty-five",
+      "bn": "পঁয়ষট্টি",
+      "roman": "poyoshotti"
+    },
+    {
+      "id": "mathematics-sixty-six",
+      "en": "sixty-six",
+      "bn": "ছেষট্টি",
+      "roman": "cheshotti"
+    },
+    {
+      "id": "mathematics-sixty-seven",
+      "en": "sixty-seven",
+      "bn": "সাতষট্টি",
+      "roman": "shatshotti"
+    },
+    {
+      "id": "mathematics-sixty-eight",
+      "en": "sixty-eight",
+      "bn": "আটষট্টি",
+      "roman": "atshotti"
+    },
+    {
+      "id": "mathematics-sixty-nine",
+      "en": "sixty-nine",
+      "bn": "ঊনসত্তর",
+      "roman": "unoshottor"
+    },
+    {
+      "id": "mathematics-seventy-one",
+      "en": "seventy-one",
+      "bn": "একাত্তর",
+      "roman": "ekattor"
+    },
+    {
+      "id": "mathematics-seventy-two",
+      "en": "seventy-two",
+      "bn": "বাহাত্তর",
+      "roman": "bahattor"
+    },
+    {
+      "id": "mathematics-seventy-three",
+      "en": "seventy-three",
+      "bn": "তিয়াত্তর",
+      "roman": "tiyattor"
+    },
+    {
+      "id": "mathematics-seventy-four",
+      "en": "seventy-four",
+      "bn": "চুয়াত্তর",
+      "roman": "chuyattor"
+    },
+    {
+      "id": "mathematics-seventy-five",
+      "en": "seventy-five",
+      "bn": "পঁচাত্তর",
+      "roman": "pochattor"
+    },
+    {
+      "id": "mathematics-seventy-six",
+      "en": "seventy-six",
+      "bn": "ছিয়াত্তর",
+      "roman": "chiyattor"
+    },
+    {
+      "id": "mathematics-seventy-seven",
+      "en": "seventy-seven",
+      "bn": "সাতাত্তর",
+      "roman": "shatattor"
+    },
+    {
+      "id": "mathematics-seventy-eight",
+      "en": "seventy-eight",
+      "bn": "আটাত্তর",
+      "roman": "atattor"
+    },
+    {
+      "id": "mathematics-seventy-nine",
+      "en": "seventy-nine",
+      "bn": "ঊনআশি",
+      "roman": "unoashi"
+    },
+    {
+      "id": "mathematics-eighty-one",
+      "en": "eighty-one",
+      "bn": "একাশি",
+      "roman": "ekashi"
+    },
+    {
+      "id": "mathematics-eighty-two",
+      "en": "eighty-two",
+      "bn": "বিরাশি",
+      "roman": "birashi"
+    },
+    {
+      "id": "mathematics-eighty-three",
+      "en": "eighty-three",
+      "bn": "তিরাশি",
+      "roman": "tirashi"
+    },
+    {
+      "id": "mathematics-eighty-four",
+      "en": "eighty-four",
+      "bn": "চুরাশি",
+      "roman": "curashi"
+    },
+    {
+      "id": "mathematics-eighty-five",
+      "en": "eighty-five",
+      "bn": "পঁচাশি",
+      "roman": "pochashi"
+    },
+    {
+      "id": "mathematics-eighty-six",
+      "en": "eighty-six",
+      "bn": "ছিয়াশি",
+      "roman": "chiyashi"
+    },
+    {
+      "id": "mathematics-eighty-seven",
+      "en": "eighty-seven",
+      "bn": "সাতাশি",
+      "roman": "shatashi"
+    },
+    {
+      "id": "mathematics-eighty-eight",
+      "en": "eighty-eight",
+      "bn": "আটাশি",
+      "roman": "atashi"
+    },
+    {
+      "id": "mathematics-eighty-nine",
+      "en": "eighty-nine",
+      "bn": "ঊননব্বই",
+      "roman": "unonobboi"
+    },
+    {
+      "id": "mathematics-ninety-one",
+      "en": "ninety-one",
+      "bn": "একানব্বই",
+      "roman": "ekanobboi"
+    },
+    {
+      "id": "mathematics-ninety-two",
+      "en": "ninety-two",
+      "bn": "বিরানব্বই",
+      "roman": "biranobboi"
+    },
+    {
+      "id": "mathematics-ninety-three",
+      "en": "ninety-three",
+      "bn": "তিরানব্বই",
+      "roman": "tiranobboi"
+    },
+    {
+      "id": "mathematics-ninety-four",
+      "en": "ninety-four",
+      "bn": "চুরানব্বই",
+      "roman": "curanobboi"
+    },
+    {
+      "id": "mathematics-ninety-five",
+      "en": "ninety-five",
+      "bn": "পঁচানব্বই",
+      "roman": "pochanobboi"
+    },
+    {
+      "id": "mathematics-ninety-six",
+      "en": "ninety-six",
+      "bn": "ছিয়ানব্বই",
+      "roman": "chiyanobboi"
+    },
+    {
+      "id": "mathematics-ninety-seven",
+      "en": "ninety-seven",
+      "bn": "সাতানব্বই",
+      "roman": "shatanobboi"
+    },
+    {
+      "id": "mathematics-ninety-eight",
+      "en": "ninety-eight",
+      "bn": "আটানব্বই",
+      "roman": "atanobboi"
+    },
+    {
+      "id": "mathematics-ninety-nine",
+      "en": "ninety-nine",
+      "bn": "নিরানব্বই",
+      "roman": "niranobboi"
+    },
+    {
+      "id": "mathematics-one-hundred",
+      "en": "one hundred",
+      "bn": "একশো",
+      "roman": "eksho"
+    }
   ]
 }

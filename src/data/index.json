@@ -5,7 +5,7 @@
     "nameBn": "প্রাণী",
     "color": "#3db88a",
     "icon": "🐾",
-    "wordCount": 48,
+    "wordCount": 249,
     "file": "animals.json"
   },
   {
@@ -14,7 +14,7 @@
     "nameBn": "রং",
     "color": "#e85d4c",
     "icon": "🎨",
-    "wordCount": 24,
+    "wordCount": 64,
     "file": "colors.json"
   },
   {
@@ -23,7 +23,7 @@
     "nameBn": "পরিবার",
     "color": "#f0a202",
     "icon": "👨‍👩‍👧",
-    "wordCount": 36,
+    "wordCount": 140,
     "file": "family.json"
   },
   {
@@ -32,7 +32,7 @@
     "nameBn": "খাবার",
     "color": "#e07a2f",
     "icon": "🍎",
-    "wordCount": 48,
+    "wordCount": 157,
     "file": "food.json"
   },
   {
@@ -41,7 +41,7 @@
     "nameBn": "শরীর",
     "color": "#5b8def",
     "icon": "🧍",
-    "wordCount": 40,
+    "wordCount": 141,
     "file": "body.json"
   },
   {
@@ -50,7 +50,7 @@
     "nameBn": "গণিত",
     "color": "#7c6cf0",
     "icon": "🧮",
-    "wordCount": 103,
+    "wordCount": 283,
     "file": "mathematics.json"
   },
   {
@@ -59,7 +59,7 @@
     "nameBn": "প্রকৃতি",
     "color": "#2f9e6b",
     "icon": "🌿",
-    "wordCount": 48,
+    "wordCount": 222,
     "file": "nature.json"
   },
   {
@@ -68,7 +68,7 @@
     "nameBn": "বাড়ি",
     "color": "#d46b9c",
     "icon": "🏠",
-    "wordCount": 48,
+    "wordCount": 219,
     "file": "home.json"
   },
   {
@@ -77,7 +77,7 @@
     "nameBn": "পোশাক",
     "color": "#2a9d8f",
     "icon": "👕",
-    "wordCount": 40,
+    "wordCount": 173,
     "file": "clothes.json"
   },
   {
@@ -86,7 +86,7 @@
     "nameBn": "যানবাহন",
     "color": "#457b9d",
     "icon": "🚗",
-    "wordCount": 40,
+    "wordCount": 182,
     "file": "transport.json"
   },
   {
@@ -95,7 +95,7 @@
     "nameBn": "অনুভূতি",
     "color": "#e63946",
     "icon": "😊",
-    "wordCount": 36,
+    "wordCount": 158,
     "file": "feelings.json"
   },
   {
@@ -104,7 +104,7 @@
     "nameBn": "ক্রিয়া",
     "color": "#118ab2",
     "icon": "🏃",
-    "wordCount": 48,
+    "wordCount": 245,
     "file": "actions.json"
   }
 ]

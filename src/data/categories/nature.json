@@ -1,53 +1,1559 @@
 {
   "categoryId": "nature",
   "words": [
-    { "id": "nature-sun", "en": "sun", "bn": "সূর্য", "emoji": "☀️", "roman": "shurjo" },
-    { "id": "nature-moon", "en": "moon", "bn": "চাঁদ", "emoji": "🌙", "roman": "chad" },
-    { "id": "nature-star", "en": "star", "bn": "তারা", "emoji": "⭐", "roman": "tara" },
-    { "id": "nature-sky", "en": "sky", "bn": "আকাশ", "emoji": "🌌", "roman": "akash" },
-    { "id": "nature-cloud", "en": "cloud", "bn": "মেঘ", "emoji": "☁️", "roman": "megh" },
-    { "id": "nature-rain", "en": "rain", "bn": "বৃষ্টি", "emoji": "🌧️", "roman": "brishti" },
-    { "id": "nature-tree", "en": "tree", "bn": "গাছ", "emoji": "🌳", "roman": "gach" },
-    { "id": "nature-flower", "en": "flower", "bn": "ফুল", "emoji": "🌸", "roman": "phul" },
-    { "id": "nature-leaf", "en": "leaf", "bn": "পাতা", "emoji": "🍃", "roman": "pata" },
-    { "id": "nature-grass", "en": "grass", "bn": "ঘাস", "emoji": "🌱", "roman": "ghash" },
-    { "id": "nature-river", "en": "river", "bn": "নদী", "emoji": "🏞️", "roman": "nodi" },
-    { "id": "nature-sea", "en": "sea", "bn": "সমুদ্র", "emoji": "🌊", "roman": "shomudro" },
-    { "id": "nature-mountain", "en": "mountain", "bn": "পাহাড়", "emoji": "⛰️", "roman": "pahar" },
-    { "id": "nature-stone", "en": "stone", "bn": "পাথর", "emoji": "🪨", "roman": "pathor" },
-    { "id": "nature-fire", "en": "fire", "bn": "আগুন", "emoji": "🔥", "roman": "agun" },
-    { "id": "nature-wind", "en": "wind", "bn": "বাতাস", "emoji": "💨", "roman": "batash" },
-    { "id": "nature-earth", "en": "earth", "bn": "পৃথিবী", "emoji": "🌍", "roman": "prithibi" },
-    { "id": "nature-soil", "en": "soil", "bn": "মাটি", "emoji": "🪴", "roman": "mati" },
-    { "id": "nature-thunder", "en": "thunder", "bn": "বজ্র", "emoji": "⛈️", "roman": "bojro" },
-    { "id": "nature-lightning", "en": "lightning", "bn": "বিদ্যুৎ", "emoji": "⚡", "roman": "bidyut" },
-    { "id": "nature-rainbow", "en": "rainbow", "bn": "রামধনু", "emoji": "🌈", "roman": "ramdhonu" },
-    { "id": "nature-snow", "en": "snow", "bn": "তুষার", "emoji": "❄️", "roman": "tushar" },
-    { "id": "nature-ice", "en": "ice", "bn": "বরফ", "emoji": "🧊", "roman": "borof" },
-    { "id": "nature-fog", "en": "fog", "bn": "কুয়াশা", "emoji": "🌫️", "roman": "kuyasha" },
-    { "id": "nature-dew", "en": "dew", "bn": "শিশির", "emoji": "💧", "roman": "shishir" },
-    { "id": "nature-forest", "en": "forest", "bn": "বন", "emoji": "🌲", "roman": "bon" },
-    { "id": "nature-garden", "en": "garden", "bn": "বাগান", "emoji": "🏡", "roman": "bagan" },
-    { "id": "nature-field", "en": "field", "bn": "মাঠ", "emoji": "🌾", "roman": "math" },
-    { "id": "nature-pond", "en": "pond", "bn": "পুকুর", "emoji": "💧", "roman": "pukur" },
-    { "id": "nature-lake", "en": "lake", "bn": "হ্রদ", "emoji": "🏞️", "roman": "hrodo" },
-    { "id": "nature-beach", "en": "beach", "bn": "সৈকত", "emoji": "🏖️", "roman": "soikot" },
-    { "id": "nature-sand", "en": "sand", "bn": "বালু", "emoji": "🏜️", "roman": "balu" },
-    { "id": "nature-island", "en": "island", "bn": "দ্বীপ", "emoji": "🏝️", "roman": "dwip" },
-    { "id": "nature-hill", "en": "hill", "bn": "টিলা", "emoji": "🏔️", "roman": "tila" },
-    { "id": "nature-cave", "en": "cave", "bn": "গুহা", "emoji": "🕳️", "roman": "guha" },
-    { "id": "nature-seed", "en": "seed", "bn": "বীজ", "emoji": "🌱", "roman": "bij" },
-    { "id": "nature-root", "en": "root", "bn": "শিকড়", "emoji": "🪴", "roman": "shikor" },
-    { "id": "nature-branch", "en": "branch", "bn": "ডাল", "emoji": "🌿", "roman": "dal" },
-    { "id": "nature-rose", "en": "rose", "bn": "গোলাপ", "emoji": "🌹", "roman": "golap" },
-    { "id": "nature-lotus", "en": "lotus", "bn": "পদ্ম", "emoji": "🪷", "roman": "poddo" },
-    { "id": "nature-mango-tree", "en": "mango tree", "bn": "আম গাছ", "emoji": "🌳", "roman": "am gach" },
-    { "id": "nature-shadow", "en": "shadow", "bn": "ছায়া", "emoji": "🌑", "roman": "chaya" },
-    { "id": "nature-day", "en": "day", "bn": "দিন", "emoji": "☀️", "roman": "din" },
-    { "id": "nature-night", "en": "night", "bn": "রাত", "emoji": "🌙", "roman": "rat" },
-    { "id": "nature-morning", "en": "morning", "bn": "সকাল", "emoji": "🌅", "roman": "shokal" },
-    { "id": "nature-evening", "en": "evening", "bn": "সন্ধ্যা", "emoji": "🌆", "roman": "shondha" },
-    { "id": "nature-season", "en": "season", "bn": "ঋতু", "emoji": "🍂", "roman": "ritu" },
-    { "id": "nature-weather", "en": "weather", "bn": "আবহাওয়া", "emoji": "🌤️", "roman": "abohawa" }
+    {
+      "id": "nature-sun",
+      "en": "sun",
+      "bn": "সূর্য",
+      "emoji": "☀️",
+      "roman": "shurjo"
+    },
+    {
+      "id": "nature-moon",
+      "en": "moon",
+      "bn": "চাঁদ",
+      "emoji": "🌙",
+      "roman": "chad"
+    },
+    {
+      "id": "nature-star",
+      "en": "star",
+      "bn": "তারা",
+      "emoji": "⭐",
+      "roman": "tara"
+    },
+    {
+      "id": "nature-sky",
+      "en": "sky",
+      "bn": "আকাশ",
+      "emoji": "🌌",
+      "roman": "akash"
+    },
+    {
+      "id": "nature-cloud",
+      "en": "cloud",
+      "bn": "মেঘ",
+      "emoji": "☁️",
+      "roman": "megh"
+    },
+    {
+      "id": "nature-rain",
+      "en": "rain",
+      "bn": "বৃষ্টি",
+      "emoji": "🌧️",
+      "roman": "brishti"
+    },
+    {
+      "id": "nature-tree",
+      "en": "tree",
+      "bn": "গাছ",
+      "emoji": "🌳",
+      "roman": "gach"
+    },
+    {
+      "id": "nature-flower",
+      "en": "flower",
+      "bn": "ফুল",
+      "emoji": "🌸",
+      "roman": "phul"
+    },
+    {
+      "id": "nature-leaf",
+      "en": "leaf",
+      "bn": "পাতা",
+      "emoji": "🍃",
+      "roman": "pata"
+    },
+    {
+      "id": "nature-grass",
+      "en": "grass",
+      "bn": "ঘাস",
+      "emoji": "🌱",
+      "roman": "ghash"
+    },
+    {
+      "id": "nature-river",
+      "en": "river",
+      "bn": "নদী",
+      "emoji": "🏞️",
+      "roman": "nodi"
+    },
+    {
+      "id": "nature-sea",
+      "en": "sea",
+      "bn": "সমুদ্র",
+      "emoji": "🌊",
+      "roman": "shomudro"
+    },
+    {
+      "id": "nature-mountain",
+      "en": "mountain",
+      "bn": "পাহাড়",
+      "emoji": "⛰️",
+      "roman": "pahar"
+    },
+    {
+      "id": "nature-stone",
+      "en": "stone",
+      "bn": "পাথর",
+      "emoji": "🪨",
+      "roman": "pathor"
+    },
+    {
+      "id": "nature-fire",
+      "en": "fire",
+      "bn": "আগুন",
+      "emoji": "🔥",
+      "roman": "agun"
+    },
+    {
+      "id": "nature-wind",
+      "en": "wind",
+      "bn": "বাতাস",
+      "emoji": "💨",
+      "roman": "batash"
+    },
+    {
+      "id": "nature-earth",
+      "en": "earth",
+      "bn": "পৃথিবী",
+      "emoji": "🌍",
+      "roman": "prithibi"
+    },
+    {
+      "id": "nature-soil",
+      "en": "soil",
+      "bn": "মাটি",
+      "emoji": "🪴",
+      "roman": "mati"
+    },
+    {
+      "id": "nature-thunder",
+      "en": "thunder",
+      "bn": "বজ্র",
+      "emoji": "⛈️",
+      "roman": "bojro"
+    },
+    {
+      "id": "nature-lightning",
+      "en": "lightning",
+      "bn": "বিদ্যুৎ",
+      "emoji": "⚡",
+      "roman": "bidyut"
+    },
+    {
+      "id": "nature-rainbow",
+      "en": "rainbow",
+      "bn": "রামধনু",
+      "emoji": "🌈",
+      "roman": "ramdhonu"
+    },
+    {
+      "id": "nature-snow",
+      "en": "snow",
+      "bn": "তুষার",
+      "emoji": "❄️",
+      "roman": "tushar"
+    },
+    {
+      "id": "nature-ice",
+      "en": "ice",
+      "bn": "বরফ",
+      "emoji": "🧊",
+      "roman": "borof"
+    },
+    {
+      "id": "nature-fog",
+      "en": "fog",
+      "bn": "কুয়াশা",
+      "emoji": "🌫️",
+      "roman": "kuyasha"
+    },
+    {
+      "id": "nature-dew",
+      "en": "dew",
+      "bn": "শিশির",
+      "emoji": "💧",
+      "roman": "shishir"
+    },
+    {
+      "id": "nature-forest",
+      "en": "forest",
+      "bn": "বন",
+      "emoji": "🌲",
+      "roman": "bon"
+    },
+    {
+      "id": "nature-garden",
+      "en": "garden",
+      "bn": "বাগান",
+      "emoji": "🏡",
+      "roman": "bagan"
+    },
+    {
+      "id": "nature-field",
+      "en": "field",
+      "bn": "মাঠ",
+      "emoji": "🌾",
+      "roman": "math"
+    },
+    {
+      "id": "nature-pond",
+      "en": "pond",
+      "bn": "পুকুর",
+      "emoji": "💧",
+      "roman": "pukur"
+    },
+    {
+      "id": "nature-lake",
+      "en": "lake",
+      "bn": "হ্রদ",
+      "emoji": "🏞️",
+      "roman": "hrodo"
+    },
+    {
+      "id": "nature-beach",
+      "en": "beach",
+      "bn": "সৈকত",
+      "emoji": "🏖️",
+      "roman": "soikot"
+    },
+    {
+      "id": "nature-sand",
+      "en": "sand",
+      "bn": "বালু",
+      "emoji": "🏜️",
+      "roman": "balu"
+    },
+    {
+      "id": "nature-island",
+      "en": "island",
+      "bn": "দ্বীপ",
+      "emoji": "🏝️",
+      "roman": "dwip"
+    },
+    {
+      "id": "nature-hill",
+      "en": "hill",
+      "bn": "টিলা",
+      "emoji": "🏔️",
+      "roman": "tila"
+    },
+    {
+      "id": "nature-cave",
+      "en": "cave",
+      "bn": "গুহা",
+      "emoji": "🕳️",
+      "roman": "guha"
+    },
+    {
+      "id": "nature-seed",
+      "en": "seed",
+      "bn": "বীজ",
+      "emoji": "🌱",
+      "roman": "bij"
+    },
+    {
+      "id": "nature-root",
+      "en": "root",
+      "bn": "শিকড়",
+      "emoji": "🪴",
+      "roman": "shikor"
+    },
+    {
+      "id": "nature-branch",
+      "en": "branch",
+      "bn": "ডাল",
+      "emoji": "🌿",
+      "roman": "dal"
+    },
+    {
+      "id": "nature-rose",
+      "en": "rose",
+      "bn": "গোলাপ",
+      "emoji": "🌹",
+      "roman": "golap"
+    },
+    {
+      "id": "nature-lotus",
+      "en": "lotus",
+      "bn": "পদ্ম",
+      "emoji": "🪷",
+      "roman": "poddo"
+    },
+    {
+      "id": "nature-mango-tree",
+      "en": "mango tree",
+      "bn": "আম গাছ",
+      "emoji": "🌳",
+      "roman": "am gach"
+    },
+    {
+      "id": "nature-shadow",
+      "en": "shadow",
+      "bn": "ছায়া",
+      "emoji": "🌑",
+      "roman": "chaya"
+    },
+    {
+      "id": "nature-day",
+      "en": "day",
+      "bn": "দিন",
+      "emoji": "☀️",
+      "roman": "din"
+    },
+    {
+      "id": "nature-night",
+      "en": "night",
+      "bn": "রাত",
+      "emoji": "🌙",
+      "roman": "rat"
+    },
+    {
+      "id": "nature-morning",
+      "en": "morning",
+      "bn": "সকাল",
+      "emoji": "🌅",
+      "roman": "shokal"
+    },
+    {
+      "id": "nature-evening",
+      "en": "evening",
+      "bn": "সন্ধ্যা",
+      "emoji": "🌆",
+      "roman": "shondha"
+    },
+    {
+      "id": "nature-season",
+      "en": "season",
+      "bn": "ঋতু",
+      "emoji": "🍂",
+      "roman": "ritu"
+    },
+    {
+      "id": "nature-weather",
+      "en": "weather",
+      "bn": "আবহাওয়া",
+      "emoji": "🌤️",
+      "roman": "abohawa"
+    },
+    {
+      "id": "nature-sunrise",
+      "en": "sunrise",
+      "bn": "সূর্যোদয়",
+      "emoji": "🌅",
+      "roman": "surjodyo"
+    },
+    {
+      "id": "nature-sunset",
+      "en": "sunset",
+      "bn": "সূর্যাস্ত",
+      "emoji": "🌇",
+      "roman": "surjasto"
+    },
+    {
+      "id": "nature-noon",
+      "en": "noon",
+      "bn": "দুপুর",
+      "emoji": "☀️",
+      "roman": "dupur"
+    },
+    {
+      "id": "nature-afternoon",
+      "en": "afternoon",
+      "bn": "বিকেল",
+      "emoji": "🌤️",
+      "roman": "bikel"
+    },
+    {
+      "id": "nature-midnight",
+      "en": "midnight",
+      "bn": "মধ্যরাত",
+      "emoji": "🌃",
+      "roman": "modhyorat"
+    },
+    {
+      "id": "nature-dawn",
+      "en": "dawn",
+      "bn": "প্রভাত",
+      "emoji": "🌄",
+      "roman": "prabhat"
+    },
+    {
+      "id": "nature-dusk",
+      "en": "dusk",
+      "bn": "গোধূলি",
+      "emoji": "🌆",
+      "roman": "godhuli"
+    },
+    {
+      "id": "nature-spring",
+      "en": "spring",
+      "bn": "বসন্ত",
+      "emoji": "🌸",
+      "roman": "boshonto"
+    },
+    {
+      "id": "nature-summer",
+      "en": "summer",
+      "bn": "গ্রীষ্ম",
+      "emoji": "☀️",
+      "roman": "grishmo"
+    },
+    {
+      "id": "nature-monsoon",
+      "en": "monsoon",
+      "bn": "বর্ষা",
+      "emoji": "🌧️",
+      "roman": "borsha"
+    },
+    {
+      "id": "nature-autumn",
+      "en": "autumn",
+      "bn": "শরৎ",
+      "emoji": "🍂",
+      "roman": "shorot"
+    },
+    {
+      "id": "nature-winter",
+      "en": "winter",
+      "bn": "শীত",
+      "emoji": "❄️",
+      "roman": "sheet"
+    },
+    {
+      "id": "nature-storm",
+      "en": "storm",
+      "bn": "ঝড়",
+      "emoji": "⛈️",
+      "roman": "jhor"
+    },
+    {
+      "id": "nature-cyclone",
+      "en": "cyclone",
+      "bn": "ঘূর্ণিঝড়",
+      "emoji": "🌀",
+      "roman": "ghurnijhor"
+    },
+    {
+      "id": "nature-flood",
+      "en": "flood",
+      "bn": "বন্যা",
+      "emoji": "🌊",
+      "roman": "bonna"
+    },
+    {
+      "id": "nature-waterfall",
+      "en": "waterfall",
+      "bn": "ঝর্ণা",
+      "emoji": "💦",
+      "roman": "jhorna"
+    },
+    {
+      "id": "nature-stream",
+      "en": "stream",
+      "bn": "ঝরনা",
+      "emoji": "💧",
+      "roman": "jhorna"
+    },
+    {
+      "id": "nature-canal",
+      "en": "canal",
+      "bn": "নালা",
+      "emoji": "💧",
+      "roman": "nala"
+    },
+    {
+      "id": "nature-well",
+      "en": "well",
+      "bn": "কু",
+      "emoji": "🪣",
+      "roman": "kua"
+    },
+    {
+      "id": "nature-marsh",
+      "en": "marsh",
+      "bn": "চাল",
+      "emoji": "🌿",
+      "roman": "chal"
+    },
+    {
+      "id": "nature-meadow",
+      "en": "meadow",
+      "bn": "চরগহ",
+      "emoji": "🌾",
+      "roman": "charagah"
+    },
+    {
+      "id": "nature-jungle",
+      "en": "jungle",
+      "bn": "জঙ্গল",
+      "emoji": "🌴",
+      "roman": "jongol"
+    },
+    {
+      "id": "nature-mangrove",
+      "en": "mangrove",
+      "bn": "সুনদোরবোন",
+      "emoji": "🌿",
+      "roman": "sundorbon"
+    },
+    {
+      "id": "nature-bamboo",
+      "en": "bamboo",
+      "bn": "বাঁশ",
+      "emoji": "🎋",
+      "roman": "bansh"
+    },
+    {
+      "id": "nature-palm-tree",
+      "en": "palm tree",
+      "bn": "তাল গাছ",
+      "emoji": "🌴",
+      "roman": "tal gach"
+    },
+    {
+      "id": "nature-coconut-tree",
+      "en": "coconut tree",
+      "bn": "নারকেল গাছ",
+      "emoji": "🌴",
+      "roman": "narkel gach"
+    },
+    {
+      "id": "nature-banana-tree",
+      "en": "banana tree",
+      "bn": "কলা গাছ",
+      "emoji": "🍌",
+      "roman": "kola gach"
+    },
+    {
+      "id": "nature-jackfruit-tree",
+      "en": "jackfruit tree",
+      "bn": "কাঁঠাল গাছ",
+      "emoji": "🍈",
+      "roman": "kãthal gach"
+    },
+    {
+      "id": "nature-banyan-tree",
+      "en": "banyan tree",
+      "bn": "বট গাছ",
+      "emoji": "🌳",
+      "roman": "bot gach"
+    },
+    {
+      "id": "nature-neem-tree",
+      "en": "neem tree",
+      "bn": "নিম গাছ",
+      "emoji": "🌳",
+      "roman": "neem gach"
+    },
+    {
+      "id": "nature-sunflower",
+      "en": "sunflower",
+      "bn": "সূর্যমুখী",
+      "emoji": "🌻",
+      "roman": "surjomukhi"
+    },
+    {
+      "id": "nature-marigold",
+      "en": "marigold",
+      "bn": "গাঁদা",
+      "emoji": "🌼",
+      "roman": "gãda"
+    },
+    {
+      "id": "nature-jasmine",
+      "en": "jasmine",
+      "bn": "জুি",
+      "emoji": "🌼",
+      "roman": "jui"
+    },
+    {
+      "id": "nature-hibiscus",
+      "en": "hibiscus",
+      "bn": "জবা",
+      "emoji": "🌺",
+      "roman": "joba"
+    },
+    {
+      "id": "nature-vine",
+      "en": "vine",
+      "bn": "লতা",
+      "emoji": "🌿",
+      "roman": "lata"
+    },
+    {
+      "id": "nature-fern",
+      "en": "fern",
+      "bn": "ফেরন",
+      "emoji": "🌿",
+      "roman": "fern"
+    },
+    {
+      "id": "nature-coral",
+      "en": "coral",
+      "bn": "পরবল",
+      "emoji": "🪸",
+      "roman": "prabal"
+    },
+    {
+      "id": "nature-shell",
+      "en": "shell",
+      "bn": "শেলল",
+      "emoji": "🐚",
+      "roman": "shãnkho"
+    },
+    {
+      "id": "nature-pebble",
+      "en": "pebble",
+      "bn": "কুরো",
+      "emoji": "🪨",
+      "roman": "kuro"
+    },
+    {
+      "id": "nature-cliff",
+      "en": "cliff",
+      "bn": "পরনতোর",
+      "emoji": "🏔️",
+      "roman": "prantor"
+    },
+    {
+      "id": "nature-valley",
+      "en": "valley",
+      "bn": "উপোটোক",
+      "emoji": "🏞️",
+      "roman": "upottoka"
+    },
+    {
+      "id": "nature-desert",
+      "en": "desert",
+      "bn": "মোরুভুমি",
+      "emoji": "🏜️",
+      "roman": "morubhumi"
+    },
+    {
+      "id": "nature-glacier",
+      "en": "glacier",
+      "bn": "হিমোবহ",
+      "emoji": "🧊",
+      "roman": "himobah"
+    },
+    {
+      "id": "nature-tide",
+      "en": "tide",
+      "bn": "জোবর ভত",
+      "emoji": "🌊",
+      "roman": "jowar bhata"
+    },
+    {
+      "id": "nature-wave",
+      "en": "wave",
+      "bn": "ধেু",
+      "emoji": "🌊",
+      "roman": "dheu"
+    },
+    {
+      "id": "nature-mist",
+      "en": "mist",
+      "bn": "কুয",
+      "emoji": "🌫️",
+      "roman": "kuya"
+    },
+    {
+      "id": "nature-hail",
+      "en": "hail",
+      "bn": "কোল",
+      "emoji": "🌨️",
+      "roman": "kol"
+    },
+    {
+      "id": "nature-breeze",
+      "en": "breeze",
+      "bn": "হব",
+      "emoji": "💨",
+      "roman": "hawa"
+    },
+    {
+      "id": "nature-hurricane",
+      "en": "hurricane",
+      "bn": "ঘূর্ণিঝড়",
+      "emoji": "🌀",
+      "roman": "ghurnijhor"
+    },
+    {
+      "id": "nature-tornado",
+      "en": "tornado",
+      "bn": "তোরনদো",
+      "emoji": "🌪️",
+      "roman": "tornado"
+    },
+    {
+      "id": "nature-humidity",
+      "en": "humidity",
+      "bn": "আর্দ্রতা",
+      "emoji": "💧",
+      "roman": "ardrota"
+    },
+    {
+      "id": "nature-climate",
+      "en": "climate",
+      "bn": "জলবায়ু",
+      "emoji": "🌡️",
+      "roman": "jolobayu"
+    },
+    {
+      "id": "nature-temperature",
+      "en": "temperature",
+      "bn": "তাপমাত্রা",
+      "emoji": "🌡️",
+      "roman": "tapmatra"
+    },
+    {
+      "id": "nature-atmosphere",
+      "en": "atmosphere",
+      "bn": "বায়ুমণ্ডল",
+      "emoji": "🌍",
+      "roman": "bayumondol"
+    },
+    {
+      "id": "nature-pollution",
+      "en": "pollution",
+      "bn": "দূষণ",
+      "emoji": "🏭",
+      "roman": "dushon"
+    },
+    {
+      "id": "nature-wildlife",
+      "en": "wildlife",
+      "bn": "বন্য প্রাণী",
+      "emoji": "🐾",
+      "roman": "bonno prani"
+    },
+    {
+      "id": "nature-ecosystem",
+      "en": "ecosystem",
+      "bn": "বাস্তুতন্ত্র",
+      "emoji": "🌍",
+      "roman": "bostutontro"
+    },
+    {
+      "id": "nature-germination",
+      "en": "germination",
+      "bn": "অঙ্কুর",
+      "emoji": "🌱",
+      "roman": "onkur"
+    },
+    {
+      "id": "nature-bloom",
+      "en": "bloom",
+      "bn": "ফুল ফোটা",
+      "emoji": "🌸",
+      "roman": "phul phota"
+    },
+    {
+      "id": "nature-harvest",
+      "en": "harvest",
+      "bn": "ফসল",
+      "emoji": "🌾",
+      "roman": "foshol"
+    },
+    {
+      "id": "nature-crop",
+      "en": "crop",
+      "bn": "ফসল",
+      "emoji": "🌾",
+      "roman": "foshol"
+    },
+    {
+      "id": "nature-paddy-field",
+      "en": "paddy field",
+      "bn": "ধান ক্ষেত",
+      "emoji": "🌾",
+      "roman": "dhan khet"
+    },
+    {
+      "id": "nature-tea-garden",
+      "en": "tea garden",
+      "bn": "চা বাগান",
+      "emoji": "🍵",
+      "roman": "cha bagan"
+    },
+    {
+      "id": "nature-flower-garden",
+      "en": "flower garden",
+      "bn": "ফুল বাগান",
+      "emoji": "🌸",
+      "roman": "phul bagan"
+    },
+    {
+      "id": "nature-park",
+      "en": "park",
+      "bn": "পরক",
+      "emoji": "🏞️",
+      "roman": "park"
+    },
+    {
+      "id": "nature-starlight",
+      "en": "starlight",
+      "bn": "তারার আলো",
+      "emoji": "✨",
+      "roman": "tarar alo"
+    },
+    {
+      "id": "nature-moonlight",
+      "en": "moonlight",
+      "bn": "চাঁদের আলো",
+      "emoji": "🌙",
+      "roman": "chander alo"
+    },
+    {
+      "id": "nature-sunlight",
+      "en": "sunlight",
+      "bn": "সূর্যের আলো",
+      "emoji": "☀️",
+      "roman": "surjer alo"
+    },
+    {
+      "id": "nature-darkness",
+      "en": "darkness",
+      "bn": "অন্ধকার",
+      "emoji": "🌑",
+      "roman": "andhokar"
+    },
+    {
+      "id": "nature-horizon",
+      "en": "horizon",
+      "bn": "দিগন্ত",
+      "emoji": "🌅",
+      "roman": "digonto"
+    },
+    {
+      "id": "nature-universe",
+      "en": "universe",
+      "bn": "বিশ্ব",
+      "emoji": "🌌",
+      "roman": "bishwo"
+    },
+    {
+      "id": "nature-planet",
+      "en": "planet",
+      "bn": "গ্রহ",
+      "emoji": "🪐",
+      "roman": "grho"
+    },
+    {
+      "id": "nature-comet",
+      "en": "comet",
+      "bn": "ধুমকেতু",
+      "emoji": "☄️",
+      "roman": "dhumketu"
+    },
+    {
+      "id": "nature-meteor",
+      "en": "meteor",
+      "bn": "উলক",
+      "emoji": "☄️",
+      "roman": "ulka"
+    },
+    {
+      "id": "nature-eclipse",
+      "en": "eclipse",
+      "bn": "গ্রহণ",
+      "emoji": "🌑",
+      "roman": "grahon"
+    },
+    {
+      "id": "nature-full-moon",
+      "en": "full moon",
+      "bn": "পুরনিম",
+      "emoji": "🌕",
+      "roman": "purnima"
+    },
+    {
+      "id": "nature-new-moon",
+      "en": "new moon",
+      "bn": "অমাবস্যা",
+      "emoji": "🌑",
+      "roman": "amabossa"
+    },
+    {
+      "id": "nature-cloudy-sky",
+      "en": "cloudy sky",
+      "bn": "মেঘল আকাশ",
+      "emoji": "☁️",
+      "roman": "meghla akash"
+    },
+    {
+      "id": "nature-clear-sky",
+      "en": "clear sky",
+      "bn": "পরিষ্কার আকাশ",
+      "emoji": "🌤️",
+      "roman": "porishkar akash"
+    },
+    {
+      "id": "nature-starry-night",
+      "en": "starry night",
+      "bn": "তারা ভর রাত",
+      "emoji": "🌌",
+      "roman": "tara bhara rat"
+    },
+    {
+      "id": "nature-river-bank",
+      "en": "river bank",
+      "bn": "নদীর তীর",
+      "emoji": "🏞️",
+      "roman": "nodir tir"
+    },
+    {
+      "id": "nature-coast",
+      "en": "coast",
+      "bn": "উপোকুল",
+      "emoji": "🏖️",
+      "roman": "upokul"
+    },
+    {
+      "id": "nature-coal",
+      "en": "coal",
+      "bn": "কোযল",
+      "emoji": "🪨",
+      "roman": "koyla"
+    },
+    {
+      "id": "nature-natural-beauty",
+      "en": "natural beauty",
+      "bn": "পরকরিতির শুনদোরজযো",
+      "emoji": "🌿",
+      "roman": "prakritir shundorjyo"
+    },
+    {
+      "id": "nature-fresh-air",
+      "en": "fresh air",
+      "bn": "তজ হব",
+      "emoji": "💨",
+      "roman": "taja hawa"
+    },
+    {
+      "id": "nature-clean-water",
+      "en": "clean water",
+      "bn": "পরিষ্কার পানি",
+      "emoji": "💧",
+      "roman": "porishkar pani"
+    },
+    {
+      "id": "nature-rainy-season",
+      "en": "rainy season",
+      "bn": "বর্ষা কল",
+      "emoji": "🌧️",
+      "roman": "borsha kal"
+    },
+    {
+      "id": "nature-dry-season",
+      "en": "dry season",
+      "bn": "শুকনো কল",
+      "emoji": "☀️",
+      "roman": "shukno kal"
+    },
+    {
+      "id": "nature-thunder-sound",
+      "en": "thunder sound",
+      "bn": "বিজের অবজ",
+      "emoji": "⛈️",
+      "roman": "bijer awaj"
+    },
+    {
+      "id": "nature-rain-sound",
+      "en": "rain sound",
+      "bn": "বরিশতির অবজ",
+      "emoji": "🌧️",
+      "roman": "brishtir awaj"
+    },
+    {
+      "id": "nature-bird-song",
+      "en": "bird song",
+      "bn": "পখির গান",
+      "emoji": "🐦",
+      "roman": "pakhir gaan"
+    },
+    {
+      "id": "nature-frog-sound",
+      "en": "frog sound",
+      "bn": "ব্যাদ্যারের অবজ",
+      "emoji": "🐸",
+      "roman": "byanger awaj"
+    },
+    {
+      "id": "nature-delta",
+      "en": "delta",
+      "bn": "দেলত",
+      "emoji": "🌊",
+      "roman": "delta"
+    },
+    {
+      "id": "nature-estuary",
+      "en": "estuary",
+      "bn": "মোহোন",
+      "emoji": "🌊",
+      "roman": "mohona"
+    },
+    {
+      "id": "nature-shore",
+      "en": "shore",
+      "bn": "তীর",
+      "emoji": "🏖️",
+      "roman": "tir"
+    },
+    {
+      "id": "nature-geyser",
+      "en": "geyser",
+      "bn": "গেযসের",
+      "emoji": "💦",
+      "roman": "geyser"
+    },
+    {
+      "id": "nature-hot-spring",
+      "en": "hot spring",
+      "bn": "গরম জোল",
+      "emoji": "♨️",
+      "roman": "gorom jol"
+    },
+    {
+      "id": "nature-crystal",
+      "en": "crystal",
+      "bn": "করিসতল",
+      "emoji": "💎",
+      "roman": "kristal"
+    },
+    {
+      "id": "nature-gem",
+      "en": "gem",
+      "bn": "রতন",
+      "emoji": "💎",
+      "roman": "ratan"
+    },
+    {
+      "id": "nature-spring-season",
+      "en": "spring season",
+      "bn": "বসন্ত কল",
+      "emoji": "🌸",
+      "roman": "boshonto kal"
+    },
+    {
+      "id": "nature-heatwave",
+      "en": "heatwave",
+      "bn": "তপোন",
+      "emoji": "🥵",
+      "roman": "tapon"
+    },
+    {
+      "id": "nature-cold-wave",
+      "en": "cold wave",
+      "bn": "শীত লহর",
+      "emoji": "🥶",
+      "roman": "sheet lahar"
+    },
+    {
+      "id": "nature-blizzard",
+      "en": "blizzard",
+      "bn": "তুষার ঝড়",
+      "emoji": "❄️",
+      "roman": "tushar jhor"
+    },
+    {
+      "id": "nature-dust-storm",
+      "en": "dust storm",
+      "bn": "ধুল ঝড়",
+      "emoji": "🌪️",
+      "roman": "dhul jhor"
+    },
+    {
+      "id": "nature-rainforest",
+      "en": "rainforest",
+      "bn": "বন",
+      "emoji": "🌴",
+      "roman": "bon"
+    },
+    {
+      "id": "nature-prairie",
+      "en": "prairie",
+      "bn": "পরেরি",
+      "emoji": "🌾",
+      "roman": "preri"
+    },
+    {
+      "id": "nature-wetland",
+      "en": "wetland",
+      "bn": "পনকুরি",
+      "emoji": "🌿",
+      "roman": "pankuri"
+    },
+    {
+      "id": "nature-oak-tree",
+      "en": "oak tree",
+      "bn": "ওক গাছ",
+      "emoji": "🌳",
+      "roman": "oak gach"
+    },
+    {
+      "id": "nature-pine-tree",
+      "en": "pine tree",
+      "bn": "পিনে গাছ",
+      "emoji": "🌲",
+      "roman": "pine gach"
+    },
+    {
+      "id": "nature-cherry-blossom",
+      "en": "cherry blossom",
+      "bn": "চেড়য ফুল",
+      "emoji": "🌸",
+      "roman": "cherry phul"
+    },
+    {
+      "id": "nature-tulip",
+      "en": "tulip",
+      "bn": "তুলিপ",
+      "emoji": "🌷",
+      "roman": "tulip"
+    },
+    {
+      "id": "nature-orchid",
+      "en": "orchid",
+      "bn": "ওরচিদ",
+      "emoji": "🌸",
+      "roman": "orchid"
+    },
+    {
+      "id": "nature-lily",
+      "en": "lily",
+      "bn": "লিলয",
+      "emoji": "🪷",
+      "roman": "lily"
+    },
+    {
+      "id": "nature-moss",
+      "en": "moss",
+      "bn": "মোসস",
+      "emoji": "🌿",
+      "roman": "moss"
+    },
+    {
+      "id": "nature-algae",
+      "en": "algae",
+      "bn": "অলগে",
+      "emoji": "🌿",
+      "roman": "algae"
+    },
+    {
+      "id": "nature-boulder",
+      "en": "boulder",
+      "bn": "বড় পাথর",
+      "emoji": "🪨",
+      "roman": "baro pathor"
+    },
+    {
+      "id": "nature-plateau",
+      "en": "plateau",
+      "bn": "মোহিশুর",
+      "emoji": "🏔️",
+      "roman": "mohishur"
+    },
+    {
+      "id": "nature-oasis",
+      "en": "oasis",
+      "bn": "ওসিস",
+      "emoji": "🏝️",
+      "roman": "oasis"
+    },
+    {
+      "id": "nature-iceberg",
+      "en": "iceberg",
+      "bn": "বরফ পাহাড়",
+      "emoji": "🧊",
+      "roman": "borof pahar"
+    },
+    {
+      "id": "nature-whirlpool",
+      "en": "whirlpool",
+      "bn": "বোরত",
+      "emoji": "🌀",
+      "roman": "bort"
+    },
+    {
+      "id": "nature-current",
+      "en": "current",
+      "bn": "সরোতো",
+      "emoji": "🌊",
+      "roman": "sroto"
+    },
+    {
+      "id": "nature-haze",
+      "en": "haze",
+      "bn": "ধুনধ",
+      "emoji": "🌫️",
+      "roman": "dhundh"
+    },
+    {
+      "id": "nature-sleet",
+      "en": "sleet",
+      "bn": "বরফ বৃষ্টি",
+      "emoji": "🌨️",
+      "roman": "borof brishti"
+    },
+    {
+      "id": "nature-gust",
+      "en": "gust",
+      "bn": "ঝড় হব",
+      "emoji": "💨",
+      "roman": "jhor hawa"
+    },
+    {
+      "id": "nature-dryness",
+      "en": "dryness",
+      "bn": "শুকনোত",
+      "emoji": "🏜️",
+      "roman": "shuknota"
+    },
+    {
+      "id": "nature-oxygen",
+      "en": "oxygen",
+      "bn": "ওক্সযগেন",
+      "emoji": "💨",
+      "roman": "oxygen"
+    },
+    {
+      "id": "nature-recycling",
+      "en": "recycling",
+      "bn": "পুনোরববযস",
+      "emoji": "♻️",
+      "roman": "punorbbyas"
+    },
+    {
+      "id": "nature-conservation",
+      "en": "conservation",
+      "bn": "সোনরোকখোন",
+      "emoji": "🌿",
+      "roman": "sonrokkhon"
+    },
+    {
+      "id": "nature-habitat",
+      "en": "habitat",
+      "bn": "বসোসথন",
+      "emoji": "🏠",
+      "roman": "basosthan"
+    },
+    {
+      "id": "nature-photosynthesis",
+      "en": "photosynthesis",
+      "bn": "ফোতোসযনথেসিস",
+      "emoji": "🌱",
+      "roman": "photosynthesis"
+    },
+    {
+      "id": "nature-pollination",
+      "en": "pollination",
+      "bn": "পোললিনতিোন",
+      "emoji": "🐝",
+      "roman": "pollination"
+    },
+    {
+      "id": "nature-sprout",
+      "en": "sprout",
+      "bn": "অঙ্কুর",
+      "emoji": "🌱",
+      "roman": "onkur"
+    },
+    {
+      "id": "nature-rice-plant",
+      "en": "rice plant",
+      "bn": "ধান গাছ",
+      "emoji": "🌾",
+      "roman": "dhan gach"
+    },
+    {
+      "id": "nature-jute-plant",
+      "en": "jute plant",
+      "bn": "পত গাছ",
+      "emoji": "🌿",
+      "roman": "pat gach"
+    },
+    {
+      "id": "nature-vegetable-garden",
+      "en": "vegetable garden",
+      "bn": "সবজি বাগান",
+      "emoji": "🥬",
+      "roman": "shobji bagan"
+    },
+    {
+      "id": "nature-playground",
+      "en": "playground",
+      "bn": "খেলর মত",
+      "emoji": "🏃",
+      "roman": "khelar mat"
+    },
+    {
+      "id": "nature-camping",
+      "en": "camping",
+      "bn": "চমপিঙ",
+      "emoji": "⛺",
+      "roman": "camping"
+    },
+    {
+      "id": "nature-picnic-spot",
+      "en": "picnic spot",
+      "bn": "পিচনিচ সপোত",
+      "emoji": "🧺",
+      "roman": "picnic spot"
+    },
+    {
+      "id": "nature-brightness",
+      "en": "brightness",
+      "bn": "উজজলোত",
+      "emoji": "✨",
+      "roman": "ujjalota"
+    },
+    {
+      "id": "nature-galaxy",
+      "en": "galaxy",
+      "bn": "গলক্সয",
+      "emoji": "🌌",
+      "roman": "galaxy"
+    },
+    {
+      "id": "nature-constellation",
+      "en": "constellation",
+      "bn": "নোখোতরো",
+      "emoji": "⭐",
+      "roman": "nokhotro"
+    },
+    {
+      "id": "nature-north-star",
+      "en": "north star",
+      "bn": "ধরুভো তারা",
+      "emoji": "⭐",
+      "roman": "dhruvo tara"
+    },
+    {
+      "id": "nature-milky-way",
+      "en": "milky way",
+      "bn": "অকশতলিক",
+      "emoji": "🌌",
+      "roman": "akashtalika"
+    },
+    {
+      "id": "nature-solar-eclipse",
+      "en": "solar eclipse",
+      "bn": "সুরজো গরহন",
+      "emoji": "🌑",
+      "roman": "surjo grahan"
+    },
+    {
+      "id": "nature-lunar-eclipse",
+      "en": "lunar eclipse",
+      "bn": "ছাদ গরহন",
+      "emoji": "🌑",
+      "roman": "chad grahan"
+    },
+    {
+      "id": "nature-crescent-moon",
+      "en": "crescent moon",
+      "bn": "হালকা ছাদ",
+      "emoji": "🌙",
+      "roman": "halka chad"
+    },
+    {
+      "id": "nature-half-moon",
+      "en": "half moon",
+      "bn": "অর্ধেক ছাদ",
+      "emoji": "🌓",
+      "roman": "ordhek chad"
+    },
+    {
+      "id": "nature-wind-sound",
+      "en": "wind sound",
+      "bn": "বতের অবজ",
+      "emoji": "💨",
+      "roman": "bater awaj"
+    },
+    {
+      "id": "nature-cricket-sound",
+      "en": "cricket sound",
+      "bn": "ঝিনঝির অবজ",
+      "emoji": "🦗",
+      "roman": "jhinjhir awaj"
+    },
+    {
+      "id": "nature-river-bend",
+      "en": "river bend",
+      "bn": "নদীর মোধ",
+      "emoji": "🏞️",
+      "roman": "nodir modh"
+    },
+    {
+      "id": "nature-river-mouth",
+      "en": "river mouth",
+      "bn": "নদীর মুখ",
+      "emoji": "🏞️",
+      "roman": "nodir mukh"
+    },
+    {
+      "id": "nature-tide-pool",
+      "en": "tide pool",
+      "bn": "জোবর এর জোল",
+      "emoji": "🌊",
+      "roman": "jowar er jol"
+    },
+    {
+      "id": "nature-rock-pool",
+      "en": "rock pool",
+      "bn": "পাথর এর জোল",
+      "emoji": "🪨",
+      "roman": "pathor er jol"
+    },
+    {
+      "id": "nature-mineral",
+      "en": "mineral",
+      "bn": "খনিজ",
+      "emoji": "💎",
+      "roman": "khanij"
+    },
+    {
+      "id": "nature-gold-ore",
+      "en": "gold ore",
+      "bn": "সোনর খনিজ",
+      "emoji": "🥇",
+      "roman": "sonar khanij"
+    },
+    {
+      "id": "nature-iron-ore",
+      "en": "iron ore",
+      "bn": "লোহের খনিজ",
+      "emoji": "⛏️",
+      "roman": "loher khanij"
+    },
+    {
+      "id": "nature-petroleum",
+      "en": "petroleum",
+      "bn": "পেতরোলেুম",
+      "emoji": "🛢️",
+      "roman": "petroleum"
+    },
+    {
+      "id": "nature-natural-gas",
+      "en": "natural gas",
+      "bn": "পরকরিতিক গস",
+      "emoji": "💨",
+      "roman": "prakritik gas"
+    },
+    {
+      "id": "nature-food-chain",
+      "en": "food chain",
+      "bn": "শব্যাব শরিনখোল",
+      "emoji": "🔗",
+      "roman": "khabar shrinkhola"
+    },
+    {
+      "id": "nature-harvest-moon",
+      "en": "harvest moon",
+      "bn": "ফসল ছাদ",
+      "emoji": "🌕",
+      "roman": "foshol chad"
+    },
+    {
+      "id": "nature-aurora",
+      "en": "aurora",
+      "bn": "অুরোর",
+      "emoji": "🌌",
+      "roman": "aurora"
+    },
+    {
+      "id": "nature-drought",
+      "en": "drought",
+      "bn": "খর",
+      "emoji": "🏜️",
+      "roman": "khara"
+    },
+    {
+      "id": "nature-earthquake",
+      "en": "earthquake",
+      "bn": "ভুমিকোমপো",
+      "emoji": "🌍",
+      "roman": "bhumikompo"
+    },
+    {
+      "id": "nature-volcano",
+      "en": "volcano",
+      "bn": "ভোলচনো",
+      "emoji": "🌋",
+      "roman": "volcano"
+    },
+    {
+      "id": "nature-spring-water",
+      "en": "spring water",
+      "bn": "ঝরন",
+      "emoji": "💧",
+      "roman": "jharna"
+    },
+    {
+      "id": "nature-tamarind-tree",
+      "en": "tamarind tree",
+      "bn": "তেতুল গাছ",
+      "emoji": "🌳",
+      "roman": "tetul gach"
+    },
+    {
+      "id": "nature-eucalyptus",
+      "en": "eucalyptus",
+      "bn": "এুচলযপতুস",
+      "emoji": "🌳",
+      "roman": "eucalyptus"
+    },
+    {
+      "id": "nature-maple-tree",
+      "en": "maple tree",
+      "bn": "মপলে গাছ",
+      "emoji": "🍁",
+      "roman": "maple gach"
+    },
+    {
+      "id": "nature-willow-tree",
+      "en": "willow tree",
+      "bn": "বিললোব গাছ",
+      "emoji": "🌳",
+      "roman": "willow gach"
+    },
+    {
+      "id": "nature-daisy",
+      "en": "daisy",
+      "bn": "দিসয",
+      "emoji": "🌼",
+      "roman": "daisy"
+    },
+    {
+      "id": "nature-poppy",
+      "en": "poppy",
+      "bn": "কশ",
+      "emoji": "🌺",
+      "roman": "kash"
+    },
+    {
+      "id": "nature-seaweed",
+      "en": "seaweed",
+      "bn": "শামুক",
+      "emoji": "🌿",
+      "roman": "shamuk"
+    },
+    {
+      "id": "nature-carbon-dioxide",
+      "en": "carbon dioxide",
+      "bn": "চরবোন দিোক্সিদে",
+      "emoji": "💨",
+      "roman": "carbon dioxide"
+    },
+    {
+      "id": "nature-nature-trail",
+      "en": "nature trail",
+      "bn": "নতুরে তরিল",
+      "emoji": "🥾",
+      "roman": "nature trail"
+    }
   ]
 }

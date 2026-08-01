@@ -1,45 +1,992 @@
 {
   "categoryId": "body",
   "words": [
-    { "id": "body-head", "en": "head", "bn": "মাথা", "emoji": "🗣️", "roman": "matha" },
-    { "id": "body-eye", "en": "eye", "bn": "চোখ", "emoji": "👁️", "roman": "chokh" },
-    { "id": "body-ear", "en": "ear", "bn": "কান", "emoji": "👂", "roman": "kan" },
-    { "id": "body-nose", "en": "nose", "bn": "নাক", "emoji": "👃", "roman": "nak" },
-    { "id": "body-mouth", "en": "mouth", "bn": "মুখ", "emoji": "👄", "roman": "mukh" },
-    { "id": "body-hand", "en": "hand", "bn": "হাত", "emoji": "✋", "roman": "hat" },
-    { "id": "body-foot", "en": "foot", "bn": "পা", "emoji": "🦶", "roman": "pa" },
-    { "id": "body-finger", "en": "finger", "bn": "আঙুল", "emoji": "👆", "roman": "angul" },
-    { "id": "body-hair", "en": "hair", "bn": "চুল", "emoji": "💇", "roman": "chul" },
-    { "id": "body-tooth", "en": "tooth", "bn": "দাঁত", "emoji": "🦷", "roman": "dãt" },
-    { "id": "body-tongue", "en": "tongue", "bn": "জিভ", "emoji": "👅", "roman": "jibh" },
-    { "id": "body-arm", "en": "arm", "bn": "বাহু", "emoji": "💪", "roman": "bahu" },
-    { "id": "body-leg", "en": "leg", "bn": "পা", "emoji": "🦵", "roman": "pa" },
-    { "id": "body-knee", "en": "knee", "bn": "হাঁটু", "emoji": "🦵", "roman": "hãtu" },
-    { "id": "body-belly", "en": "belly", "bn": "পেট", "emoji": "🤰", "roman": "pet" },
-    { "id": "body-back", "en": "back", "bn": "পিঠ", "emoji": "🧍", "roman": "pith" },
-    { "id": "body-face", "en": "face", "bn": "চেহারা", "emoji": "😊", "roman": "chehara" },
-    { "id": "body-neck", "en": "neck", "bn": "গলা", "emoji": "🦒", "roman": "gola" },
-    { "id": "body-shoulder", "en": "shoulder", "bn": "কাঁধ", "emoji": "💪", "roman": "kãdh" },
-    { "id": "body-chest", "en": "chest", "bn": "বুক", "emoji": "🫁", "roman": "buk" },
-    { "id": "body-elbow", "en": "elbow", "bn": "কনুই", "emoji": "💪", "roman": "konui" },
-    { "id": "body-wrist", "en": "wrist", "bn": "কব্জি", "emoji": "⌚", "roman": "kobji" },
-    { "id": "body-nail", "en": "nail", "bn": "নখ", "emoji": "💅", "roman": "nokh" },
-    { "id": "body-thumb", "en": "thumb", "bn": "বুড়ো আঙুল", "emoji": "👍", "roman": "buro angul" },
-    { "id": "body-toe", "en": "toe", "bn": "পায়ের আঙুল", "emoji": "🦶", "roman": "payer angul" },
-    { "id": "body-heel", "en": "heel", "bn": "গোড়ালি", "emoji": "👠", "roman": "gorali" },
-    { "id": "body-lip", "en": "lip", "bn": "ঠোঁট", "emoji": "👄", "roman": "thõt" },
-    { "id": "body-cheek", "en": "cheek", "bn": "গাল", "emoji": "😊", "roman": "gal" },
-    { "id": "body-chin", "en": "chin", "bn": "চিবুক", "emoji": "🙂", "roman": "chibuk" },
-    { "id": "body-forehead", "en": "forehead", "bn": "কপাল", "emoji": "🧠", "roman": "kopal" },
-    { "id": "body-eyebrow", "en": "eyebrow", "bn": "ভ্রূ", "emoji": "🤨", "roman": "bhru" },
-    { "id": "body-eyelash", "en": "eyelash", "bn": "পক্ষ্ম", "emoji": "👁️", "roman": "pokkho" },
-    { "id": "body-skin", "en": "skin", "bn": "ত্বক", "emoji": "🧴", "roman": "twok" },
-    { "id": "body-bone", "en": "bone", "bn": "হাড়", "emoji": "🦴", "roman": "har" },
-    { "id": "body-blood", "en": "blood", "bn": "রক্ত", "emoji": "🩸", "roman": "rokto" },
-    { "id": "body-heart", "en": "heart", "bn": "হৃদয়", "emoji": "❤️", "roman": "hridoy" },
-    { "id": "body-brain", "en": "brain", "bn": "মস্তিষ্ক", "emoji": "🧠", "roman": "mostishko" },
-    { "id": "body-stomach", "en": "stomach", "bn": "পাকস্থলী", "emoji": "🫄", "roman": "pakostholi" },
-    { "id": "body-body", "en": "body", "bn": "শরীর", "emoji": "🧍", "roman": "shorir" },
-    { "id": "body-voice", "en": "voice", "bn": "কণ্ঠস্বর", "emoji": "🗣️", "roman": "konthoshor" }
+    {
+      "id": "body-head",
+      "en": "head",
+      "bn": "মাথা",
+      "emoji": "🗣️",
+      "roman": "matha"
+    },
+    {
+      "id": "body-eye",
+      "en": "eye",
+      "bn": "চোখ",
+      "emoji": "👁️",
+      "roman": "chokh"
+    },
+    {
+      "id": "body-ear",
+      "en": "ear",
+      "bn": "কান",
+      "emoji": "👂",
+      "roman": "kan"
+    },
+    {
+      "id": "body-nose",
+      "en": "nose",
+      "bn": "নাক",
+      "emoji": "👃",
+      "roman": "nak"
+    },
+    {
+      "id": "body-mouth",
+      "en": "mouth",
+      "bn": "মুখ",
+      "emoji": "👄",
+      "roman": "mukh"
+    },
+    {
+      "id": "body-hand",
+      "en": "hand",
+      "bn": "হাত",
+      "emoji": "✋",
+      "roman": "hat"
+    },
+    {
+      "id": "body-foot",
+      "en": "foot",
+      "bn": "পা",
+      "emoji": "🦶",
+      "roman": "pa"
+    },
+    {
+      "id": "body-finger",
+      "en": "finger",
+      "bn": "আঙুল",
+      "emoji": "👆",
+      "roman": "angul"
+    },
+    {
+      "id": "body-hair",
+      "en": "hair",
+      "bn": "চুল",
+      "emoji": "💇",
+      "roman": "chul"
+    },
+    {
+      "id": "body-tooth",
+      "en": "tooth",
+      "bn": "দাঁত",
+      "emoji": "🦷",
+      "roman": "dãt"
+    },
+    {
+      "id": "body-tongue",
+      "en": "tongue",
+      "bn": "জিভ",
+      "emoji": "👅",
+      "roman": "jibh"
+    },
+    {
+      "id": "body-arm",
+      "en": "arm",
+      "bn": "বাহু",
+      "emoji": "💪",
+      "roman": "bahu"
+    },
+    {
+      "id": "body-leg",
+      "en": "leg",
+      "bn": "পা",
+      "emoji": "🦵",
+      "roman": "pa"
+    },
+    {
+      "id": "body-knee",
+      "en": "knee",
+      "bn": "হাঁটু",
+      "emoji": "🦵",
+      "roman": "hãtu"
+    },
+    {
+      "id": "body-belly",
+      "en": "belly",
+      "bn": "পেট",
+      "emoji": "🤰",
+      "roman": "pet"
+    },
+    {
+      "id": "body-back",
+      "en": "back",
+      "bn": "পিঠ",
+      "emoji": "🧍",
+      "roman": "pith"
+    },
+    {
+      "id": "body-face",
+      "en": "face",
+      "bn": "চেহারা",
+      "emoji": "😊",
+      "roman": "chehara"
+    },
+    {
+      "id": "body-neck",
+      "en": "neck",
+      "bn": "গলা",
+      "emoji": "🦒",
+      "roman": "gola"
+    },
+    {
+      "id": "body-shoulder",
+      "en": "shoulder",
+      "bn": "কাঁধ",
+      "emoji": "💪",
+      "roman": "kãdh"
+    },
+    {
+      "id": "body-chest",
+      "en": "chest",
+      "bn": "বুক",
+      "emoji": "🫁",
+      "roman": "buk"
+    },
+    {
+      "id": "body-elbow",
+      "en": "elbow",
+      "bn": "কনুই",
+      "emoji": "💪",
+      "roman": "konui"
+    },
+    {
+      "id": "body-wrist",
+      "en": "wrist",
+      "bn": "কব্জি",
+      "emoji": "⌚",
+      "roman": "kobji"
+    },
+    {
+      "id": "body-nail",
+      "en": "nail",
+      "bn": "পেরেক",
+      "emoji": "💅",
+      "roman": "nokh"
+    },
+    {
+      "id": "body-thumb",
+      "en": "thumb",
+      "bn": "বুড়ো আঙুল",
+      "emoji": "👍",
+      "roman": "buro angul"
+    },
+    {
+      "id": "body-toe",
+      "en": "toe",
+      "bn": "পায়ের আঙুল",
+      "emoji": "🦶",
+      "roman": "payer angul"
+    },
+    {
+      "id": "body-heel",
+      "en": "heel",
+      "bn": "গোড়ালি",
+      "emoji": "👠",
+      "roman": "gorali"
+    },
+    {
+      "id": "body-lip",
+      "en": "lip",
+      "bn": "ঠোঁট",
+      "emoji": "👄",
+      "roman": "thõt"
+    },
+    {
+      "id": "body-cheek",
+      "en": "cheek",
+      "bn": "গাল",
+      "emoji": "😊",
+      "roman": "gal"
+    },
+    {
+      "id": "body-chin",
+      "en": "chin",
+      "bn": "চিবুক",
+      "emoji": "🙂",
+      "roman": "chibuk"
+    },
+    {
+      "id": "body-forehead",
+      "en": "forehead",
+      "bn": "কপাল",
+      "emoji": "🧠",
+      "roman": "kopal"
+    },
+    {
+      "id": "body-eyebrow",
+      "en": "eyebrow",
+      "bn": "ভ্রূ",
+      "emoji": "🤨",
+      "roman": "bhru"
+    },
+    {
+      "id": "body-eyelash",
+      "en": "eyelash",
+      "bn": "পক্ষ্ম",
+      "emoji": "👁️",
+      "roman": "pokkho"
+    },
+    {
+      "id": "body-skin",
+      "en": "skin",
+      "bn": "ত্বক",
+      "emoji": "🧴",
+      "roman": "twok"
+    },
+    {
+      "id": "body-bone",
+      "en": "bone",
+      "bn": "হাড়",
+      "emoji": "🦴",
+      "roman": "har"
+    },
+    {
+      "id": "body-blood",
+      "en": "blood",
+      "bn": "রক্ত",
+      "emoji": "🩸",
+      "roman": "rokto"
+    },
+    {
+      "id": "body-heart",
+      "en": "heart",
+      "bn": "হৃদয়",
+      "emoji": "❤️",
+      "roman": "hridoy"
+    },
+    {
+      "id": "body-brain",
+      "en": "brain",
+      "bn": "মস্তিষ্ক",
+      "emoji": "🧠",
+      "roman": "mostishko"
+    },
+    {
+      "id": "body-stomach",
+      "en": "stomach",
+      "bn": "পাকস্থলী",
+      "emoji": "🫄",
+      "roman": "pakostholi"
+    },
+    {
+      "id": "body-body",
+      "en": "body",
+      "bn": "শরীর",
+      "emoji": "🧍",
+      "roman": "shorir"
+    },
+    {
+      "id": "body-voice",
+      "en": "voice",
+      "bn": "কণ্ঠস্বর",
+      "emoji": "🗣️",
+      "roman": "konthoshor"
+    },
+    {
+      "id": "body-palm",
+      "en": "palm",
+      "bn": "হাতের তালু",
+      "emoji": "🤚",
+      "roman": "hater talu"
+    },
+    {
+      "id": "body-fist",
+      "en": "fist",
+      "bn": "মুঠি",
+      "emoji": "✊",
+      "roman": "muthi"
+    },
+    {
+      "id": "body-knuckle",
+      "en": "knuckle",
+      "bn": "াস্ক্রী",
+      "emoji": "👊",
+      "roman": "knuckle"
+    },
+    {
+      "id": "body-joint",
+      "en": "joint",
+      "bn": "সস্থাস্থাস",
+      "emoji": "🦴",
+      "roman": "joint"
+    },
+    {
+      "id": "body-muscle",
+      "en": "muscle",
+      "bn": "পেশী",
+      "emoji": "💪",
+      "roman": "peshi"
+    },
+    {
+      "id": "body-vein",
+      "en": "vein",
+      "bn": "শিরা",
+      "emoji": "🩸",
+      "roman": "shira"
+    },
+    {
+      "id": "body-artery",
+      "en": "artery",
+      "bn": "প্রধাররী",
+      "emoji": "🩸",
+      "roman": "artery"
+    },
+    {
+      "id": "body-pulse",
+      "en": "pulse",
+      "bn": "নাড়ি",
+      "emoji": "💓",
+      "roman": "pulse"
+    },
+    {
+      "id": "body-skeleton",
+      "en": "skeleton",
+      "bn": "কন্কাল",
+      "emoji": "🦴",
+      "roman": "kankal"
+    },
+    {
+      "id": "body-rib",
+      "en": "rib",
+      "bn": "পাের",
+      "emoji": "🦴",
+      "roman": "par"
+    },
+    {
+      "id": "body-spine",
+      "en": "spine",
+      "bn": "মেরুদণ্ড",
+      "emoji": "🦴",
+      "roman": "merudand"
+    },
+    {
+      "id": "body-hip",
+      "en": "hip",
+      "bn": "কোমর",
+      "emoji": "🦴",
+      "roman": "komor"
+    },
+    {
+      "id": "body-thigh",
+      "en": "thigh",
+      "bn": "উরু",
+      "emoji": "🦵",
+      "roman": "ur"
+    },
+    {
+      "id": "body-shin",
+      "en": "shin",
+      "bn": "পিপূড়লী",
+      "emoji": "🦵",
+      "roman": "pindili"
+    },
+    {
+      "id": "body-ankle",
+      "en": "ankle",
+      "bn": "নেলা",
+      "emoji": "🦶",
+      "roman": "golay"
+    },
+    {
+      "id": "body-arch",
+      "en": "arch",
+      "bn": "পা এর ভাষ",
+      "emoji": "🦶",
+      "roman": "pay er bhag"
+    },
+    {
+      "id": "body-sole",
+      "en": "sole",
+      "bn": "পা এর তালু",
+      "emoji": "🦶",
+      "roman": "pay er talu"
+    },
+    {
+      "id": "body-instep",
+      "en": "instep",
+      "bn": "পা এর উপর",
+      "emoji": "🦶",
+      "roman": "pay er upor"
+    },
+    {
+      "id": "body-knuckle-hand",
+      "en": "knuckle hand",
+      "bn": "হাতের সস্থাস্থাস",
+      "emoji": "✊",
+      "roman": "hater joint"
+    },
+    {
+      "id": "body-cuticle",
+      "en": "cuticle",
+      "bn": "নখের ভিত্তি",
+      "emoji": "💅",
+      "roman": "nokher base"
+    },
+    {
+      "id": "body-freckle",
+      "en": "freckle",
+      "bn": "ছিস্তি",
+      "emoji": "😊",
+      "roman": "freckle"
+    },
+    {
+      "id": "body-dimple",
+      "en": "dimple",
+      "bn": "কড়",
+      "emoji": "😊",
+      "roman": "dimple"
+    },
+    {
+      "id": "body-wrinkle",
+      "en": "wrinkle",
+      "bn": "জতি",
+      "emoji": "👴",
+      "roman": "wrinkle"
+    },
+    {
+      "id": "body-scar",
+      "en": "scar",
+      "bn": "খাত",
+      "emoji": "🩹",
+      "roman": "scar"
+    },
+    {
+      "id": "body-bruise",
+      "en": "bruise",
+      "bn": "দার",
+      "emoji": "🩹",
+      "roman": "bruise"
+    },
+    {
+      "id": "body-cut-skin",
+      "en": "cut skin",
+      "bn": "কাটা",
+      "emoji": "🩹",
+      "roman": "kata"
+    },
+    {
+      "id": "body-burn",
+      "en": "burn",
+      "bn": "দাহ",
+      "emoji": "🔥",
+      "roman": "burn"
+    },
+    {
+      "id": "body-rash",
+      "en": "rash",
+      "bn": "দাস",
+      "emoji": "🔴",
+      "roman": "rash"
+    },
+    {
+      "id": "body-itch",
+      "en": "itch",
+      "bn": "চুলনা",
+      "emoji": "🤚",
+      "roman": "khujli"
+    },
+    {
+      "id": "body-sweat",
+      "en": "sweat",
+      "bn": "স্ধধ",
+      "emoji": "💦",
+      "roman": "gham"
+    },
+    {
+      "id": "body-tear",
+      "en": "tear",
+      "bn": "অশ্রু",
+      "emoji": "😢",
+      "roman": "ashru"
+    },
+    {
+      "id": "body-saliva",
+      "en": "saliva",
+      "bn": "লাল",
+      "emoji": "💧",
+      "roman": "lal"
+    },
+    {
+      "id": "body-mucus",
+      "en": "mucus",
+      "bn": "শ্লেষ্ম",
+      "emoji": "🤧",
+      "roman": "shleshm"
+    },
+    {
+      "id": "body-phlegm",
+      "en": "phlegm",
+      "bn": "বেলগাম",
+      "emoji": "🤧",
+      "roman": "balgam"
+    },
+    {
+      "id": "body-urine",
+      "en": "urine",
+      "bn": "মূত্র",
+      "emoji": "💧",
+      "roman": "mutra"
+    },
+    {
+      "id": "body-stool",
+      "en": "stool",
+      "bn": "পায়খানা",
+      "emoji": "💩",
+      "roman": "potty"
+    },
+    {
+      "id": "body-belly-button",
+      "en": "belly button",
+      "bn": "নাভি",
+      "emoji": "👶",
+      "roman": "nabhi"
+    },
+    {
+      "id": "body-waist",
+      "en": "waist",
+      "bn": "কোমর",
+      "emoji": "👖",
+      "roman": "komor"
+    },
+    {
+      "id": "body-torso",
+      "en": "torso",
+      "bn": "দেহ",
+      "emoji": "🧍",
+      "roman": "deho"
+    },
+    {
+      "id": "body-upper-body",
+      "en": "upper body",
+      "bn": "উপর দেহ",
+      "emoji": "🧍",
+      "roman": "upor deho"
+    },
+    {
+      "id": "body-lower-body",
+      "en": "lower body",
+      "bn": "নিচে দেহ",
+      "emoji": "🧍",
+      "roman": "niche deho"
+    },
+    {
+      "id": "body-left-hand",
+      "en": "left hand",
+      "bn": "বাম হাত",
+      "emoji": "🤚",
+      "roman": "bam hat"
+    },
+    {
+      "id": "body-right-hand",
+      "en": "right hand",
+      "bn": "ডান হাত",
+      "emoji": "🤚",
+      "roman": "dan hat"
+    },
+    {
+      "id": "body-left-foot",
+      "en": "left foot",
+      "bn": "বাম পা",
+      "emoji": "🦶",
+      "roman": "bam pa"
+    },
+    {
+      "id": "body-right-foot",
+      "en": "right foot",
+      "bn": "ডান পা",
+      "emoji": "🦶",
+      "roman": "dan pa"
+    },
+    {
+      "id": "body-index-finger",
+      "en": "index finger",
+      "bn": "তারজানী",
+      "emoji": "☝️",
+      "roman": "tarjani"
+    },
+    {
+      "id": "body-middle-finger",
+      "en": "middle finger",
+      "bn": "মধ্যমা",
+      "emoji": "🖕",
+      "roman": "madhyama"
+    },
+    {
+      "id": "body-ring-finger",
+      "en": "ring finger",
+      "bn": "আনামিলা",
+      "emoji": "💍",
+      "roman": "anamika"
+    },
+    {
+      "id": "body-pinky-finger",
+      "en": "pinky finger",
+      "bn": "ছোট আঙুল",
+      "emoji": "🤙",
+      "roman": "kanistha"
+    },
+    {
+      "id": "body-big-toe",
+      "en": "big toe",
+      "bn": "বড় আঙুল",
+      "emoji": "🦶",
+      "roman": "baro angul"
+    },
+    {
+      "id": "body-little-toe",
+      "en": "little toe",
+      "bn": "ছোট আঙুল",
+      "emoji": "🦶",
+      "roman": "chhoto angul"
+    },
+    {
+      "id": "body-eyelid",
+      "en": "eyelid",
+      "bn": "চোখের পাত",
+      "emoji": "👁️",
+      "roman": "chokher palok"
+    },
+    {
+      "id": "body-pupil",
+      "en": "pupil",
+      "bn": "চোখের মণি",
+      "emoji": "👁️",
+      "roman": "chokher putul"
+    },
+    {
+      "id": "body-iris",
+      "en": "iris",
+      "bn": "আইরিস",
+      "emoji": "👁️",
+      "roman": "iris"
+    },
+    {
+      "id": "body-retina",
+      "en": "retina",
+      "bn": "রেটিনা",
+      "emoji": "👁️",
+      "roman": "retina"
+    },
+    {
+      "id": "body-cornea",
+      "en": "cornea",
+      "bn": "কর্নিয়া",
+      "emoji": "👁️",
+      "roman": "cornea"
+    },
+    {
+      "id": "body-tear-duct",
+      "en": "tear duct",
+      "bn": "অশ্রু নালি",
+      "emoji": "😢",
+      "roman": "ashru nali"
+    },
+    {
+      "id": "body-earlobe",
+      "en": "earlobe",
+      "bn": "কানের লত",
+      "emoji": "👂",
+      "roman": "kaner lata"
+    },
+    {
+      "id": "body-eardrum",
+      "en": "eardrum",
+      "bn": "কানের পর্দা",
+      "emoji": "👂",
+      "roman": "kaner pata"
+    },
+    {
+      "id": "body-nostril",
+      "en": "nostril",
+      "bn": "নাকের ফুটো",
+      "emoji": "👃",
+      "roman": "nak er ched"
+    },
+    {
+      "id": "body-sinus",
+      "en": "sinus",
+      "bn": "নাকছিশ",
+      "emoji": "👃",
+      "roman": "sinus"
+    },
+    {
+      "id": "body-palate",
+      "en": "palate",
+      "bn": "তালু",
+      "emoji": "👄",
+      "roman": "talu"
+    },
+    {
+      "id": "body-gum",
+      "en": "gum",
+      "bn": "মাড়ি",
+      "emoji": "🦷",
+      "roman": "masuda"
+    },
+    {
+      "id": "body-wisdom-tooth",
+      "en": "wisdom tooth",
+      "bn": "পাড় দাঁত",
+      "emoji": "🦷",
+      "roman": "girja dat"
+    },
+    {
+      "id": "body-baby-tooth",
+      "en": "baby tooth",
+      "bn": "দুধ দাঁত",
+      "emoji": "🦷",
+      "roman": "shishu dat"
+    },
+    {
+      "id": "body-uvula",
+      "en": "uvula",
+      "bn": "গলবিল",
+      "emoji": "👅",
+      "roman": "uvula"
+    },
+    {
+      "id": "body-tonsil",
+      "en": "tonsil",
+      "bn": "টনসিল",
+      "emoji": "😷",
+      "roman": "tonsil"
+    },
+    {
+      "id": "body-adam-apple",
+      "en": "adam apple",
+      "bn": "কণ্ঠনাল",
+      "emoji": "🗣️",
+      "roman": "kanthas"
+    },
+    {
+      "id": "body-larynx",
+      "en": "larynx",
+      "bn": "স্বরশলি",
+      "emoji": "🗣️",
+      "roman": "sworashuli"
+    },
+    {
+      "id": "body-trachea",
+      "en": "trachea",
+      "bn": "শ্বাসনালী",
+      "emoji": "💨",
+      "roman": "shwasnali"
+    },
+    {
+      "id": "body-lung",
+      "en": "lung",
+      "bn": "ফুসফুস",
+      "emoji": "🫁",
+      "roman": "phusphus"
+    },
+    {
+      "id": "body-kidney",
+      "en": "kidney",
+      "bn": "কিডনি",
+      "emoji": "🫘",
+      "roman": "kukshi"
+    },
+    {
+      "id": "body-liver",
+      "en": "liver",
+      "bn": "যকৃত",
+      "emoji": "🫀",
+      "roman": "jigar"
+    },
+    {
+      "id": "body-intestine",
+      "en": "intestine",
+      "bn": "অন্ত্র",
+      "emoji": "🫃",
+      "roman": "antro"
+    },
+    {
+      "id": "body-bladder",
+      "en": "bladder",
+      "bn": "মূত্রাশয়",
+      "emoji": "💧",
+      "roman": "mutrashay"
+    },
+    {
+      "id": "body-pancreas",
+      "en": "pancreas",
+      "bn": "অগ্ন্যাশয়",
+      "emoji": "🫃",
+      "roman": "pancreas"
+    },
+    {
+      "id": "body-spleen",
+      "en": "spleen",
+      "bn": "প্লীহ",
+      "emoji": "🫃",
+      "roman": "pleeha"
+    },
+    {
+      "id": "body-immune-system",
+      "en": "immune system",
+      "bn": "রোগ প্রতিরোধ ক্ষমতা",
+      "emoji": "🛡️",
+      "roman": "rogg pratirodk"
+    },
+    {
+      "id": "body-nerve",
+      "en": "nerve",
+      "bn": "শিরা",
+      "emoji": "⚡",
+      "roman": "shira"
+    },
+    {
+      "id": "body-reflex",
+      "en": "reflex",
+      "bn": "স্বাভাবিক প্রতিক্রিয়া",
+      "emoji": "⚡",
+      "roman": "reflex"
+    },
+    {
+      "id": "body-instinct",
+      "en": "instinct",
+      "bn": "সহজাত প্রবৃত্তি",
+      "emoji": "🧠",
+      "roman": "instinct"
+    },
+    {
+      "id": "body-memory",
+      "en": "memory",
+      "bn": "স্মৃতি",
+      "emoji": "🧠",
+      "roman": "smriti"
+    },
+    {
+      "id": "body-thought",
+      "en": "thought",
+      "bn": "চিন্তা",
+      "emoji": "💭",
+      "roman": "chinta"
+    },
+    {
+      "id": "body-sense",
+      "en": "sense",
+      "bn": "ইন্দ্রিয়",
+      "emoji": "👃",
+      "roman": "indriyo"
+    },
+    {
+      "id": "body-sight",
+      "en": "sight",
+      "bn": "দৃষ্টি",
+      "emoji": "👁️",
+      "roman": "drishti"
+    },
+    {
+      "id": "body-hearing",
+      "en": "hearing",
+      "bn": "শ্রবণ",
+      "emoji": "👂",
+      "roman": "shroban"
+    },
+    {
+      "id": "body-smell-sense",
+      "en": "smell sense",
+      "bn": "গন্ধ",
+      "emoji": "👃",
+      "roman": "ghran"
+    },
+    {
+      "id": "body-taste-sense",
+      "en": "taste sense",
+      "bn": "স্বাদ",
+      "emoji": "👅",
+      "roman": "swad"
+    },
+    {
+      "id": "body-touch-sense",
+      "en": "touch sense",
+      "bn": "স্পর্শ",
+      "emoji": "🤚",
+      "roman": "sporsho"
+    },
+    {
+      "id": "body-balance-sense",
+      "en": "balance sense",
+      "bn": "ভারসাম্য",
+      "emoji": "⚖️",
+      "roman": "bharsamyo"
+    },
+    {
+      "id": "body-posture",
+      "en": "posture",
+      "bn": "অবস্থান",
+      "emoji": "🧍",
+      "roman": "abosthan"
+    },
+    {
+      "id": "body-gesture",
+      "en": "gesture",
+      "bn": "ইশারা",
+      "emoji": "👋",
+      "roman": "ishara"
+    },
+    {
+      "id": "body-expression",
+      "en": "expression",
+      "bn": "অভিব্যক্তি",
+      "emoji": "😊",
+      "roman": "abhibyakti"
+    },
+    {
+      "id": "body-body-language",
+      "en": "body language",
+      "bn": "দেহের ভাষা",
+      "emoji": "🧍",
+      "roman": "dehor bhasha"
+    },
+    {
+      "id": "body-health",
+      "en": "health",
+      "bn": "সুস্থ",
+      "emoji": "💪",
+      "roman": "shustho"
+    },
+    {
+      "id": "body-fitness",
+      "en": "fitness",
+      "bn": "শারীরিক সুস্থতা",
+      "emoji": "🏋️",
+      "roman": "fitness"
+    },
+    {
+      "id": "body-strength",
+      "en": "strength",
+      "bn": "শক্তি",
+      "emoji": "💪",
+      "roman": "shakti"
+    },
+    {
+      "id": "body-energy",
+      "en": "energy",
+      "bn": "শক্তি",
+      "emoji": "⚡",
+      "roman": "shakti"
+    },
+    {
+      "id": "body-growth",
+      "en": "growth",
+      "bn": "বৃদ্ধি",
+      "emoji": "📈",
+      "roman": "brihhi"
+    },
+    {
+      "id": "body-height-growth",
+      "en": "height growth",
+      "bn": "উচ্চতা",
+      "emoji": "📏",
+      "roman": "uchai"
+    },
+    {
+      "id": "body-weight",
+      "en": "weight",
+      "bn": "ওজন",
+      "emoji": "⚖️",
+      "roman": "vajan"
+    }
   ]
 }

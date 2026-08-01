@@ -1,45 +1,1279 @@
 {
   "categoryId": "transport",
   "words": [
-    { "id": "transport-car", "en": "car", "bn": "গাড়ি", "emoji": "🚗", "roman": "gari" },
-    { "id": "transport-bus", "en": "bus", "bn": "বাস", "emoji": "🚌", "roman": "bas" },
-    { "id": "transport-train", "en": "train", "bn": "ট্রেন", "emoji": "🚆", "roman": "tren" },
-    { "id": "transport-plane", "en": "plane", "bn": "বিমান", "emoji": "✈️", "roman": "biman" },
-    { "id": "transport-boat", "en": "boat", "bn": "নৌকা", "emoji": "⛵", "roman": "nouka" },
-    { "id": "transport-bike", "en": "bicycle", "bn": "সাইকেল", "emoji": "🚲", "roman": "saikel" },
-    { "id": "transport-rickshaw", "en": "rickshaw", "bn": "রিকশা", "emoji": "🛺", "roman": "riksha" },
-    { "id": "transport-truck", "en": "truck", "bn": "ট্রাক", "emoji": "🚚", "roman": "trak" },
-    { "id": "transport-ship", "en": "ship", "bn": "জাহাজ", "emoji": "🚢", "roman": "jahaj" },
-    { "id": "transport-taxi", "en": "taxi", "bn": "ট্যাক্সি", "emoji": "🚕", "roman": "taxi" },
-    { "id": "transport-motorcycle", "en": "motorcycle", "bn": "মোটরসাইকেল", "emoji": "🏍️", "roman": "motorsaikel" },
-    { "id": "transport-scooter", "en": "scooter", "bn": "স্কুটার", "emoji": "🛵", "roman": "skutar" },
-    { "id": "transport-helicopter", "en": "helicopter", "bn": "হেলিকপ্টার", "emoji": "🚁", "roman": "helicopter" },
-    { "id": "transport-road", "en": "road", "bn": "রাস্তা", "emoji": "🛣️", "roman": "rasta" },
-    { "id": "transport-van", "en": "van", "bn": "ভ্যান", "emoji": "🚐", "roman": "van" },
-    { "id": "transport-ambulance", "en": "ambulance", "bn": "অ্যাম্বুলেন্স", "emoji": "🚑", "roman": "ambulance" },
-    { "id": "transport-fire-truck", "en": "fire truck", "bn": "ফায়ার ব্রিগেড", "emoji": "🚒", "roman": "fire brigade" },
-    { "id": "transport-police-car", "en": "police car", "bn": "পুলিশ গাড়ি", "emoji": "🚓", "roman": "pulish gari" },
-    { "id": "transport-tractor", "en": "tractor", "bn": "ট্র্যাক্টর", "emoji": "🚜", "roman": "tractor" },
-    { "id": "transport-subway", "en": "subway", "bn": "মেট্রো", "emoji": "🚇", "roman": "metro" },
-    { "id": "transport-tram", "en": "tram", "bn": "ট্রাম", "emoji": "🚊", "roman": "tram" },
-    { "id": "transport-ferry", "en": "ferry", "bn": "ফেরি", "emoji": "⛴️", "roman": "feri" },
-    { "id": "transport-rocket", "en": "rocket", "bn": "রকেট", "emoji": "🚀", "roman": "rocket" },
-    { "id": "transport-cart", "en": "cart", "bn": "গাড়া", "emoji": "🛒", "roman": "gara" },
-    { "id": "transport-cng", "en": "CNG", "bn": "সিএনজি", "emoji": "🛺", "roman": "cng" },
-    { "id": "transport-wheel", "en": "wheel", "bn": "চাকা", "emoji": "⚙️", "roman": "chaka" },
-    { "id": "transport-steering", "en": "steering", "bn": "স্টিয়ারিং", "emoji": "🛞", "roman": "steering" },
-    { "id": "transport-horn", "en": "horn", "bn": "হর্ন", "emoji": "📢", "roman": "horn" },
-    { "id": "transport-brake", "en": "brake", "bn": "ব্রেক", "emoji": "🛑", "roman": "brek" },
-    { "id": "transport-fuel", "en": "fuel", "bn": "জ্বালানি", "emoji": "⛽", "roman": "jalani" },
-    { "id": "transport-station", "en": "station", "bn": "স্টেশন", "emoji": "🚉", "roman": "steshon" },
-    { "id": "transport-airport", "en": "airport", "bn": "বিমানবন্দর", "emoji": "🛫", "roman": "bimanbondor" },
-    { "id": "transport-bridge", "en": "bridge", "bn": "সেতু", "emoji": "🌉", "roman": "setu" },
-    { "id": "transport-traffic", "en": "traffic", "bn": "ট্রাফিক", "emoji": "🚦", "roman": "traffic" },
-    { "id": "transport-signal", "en": "signal", "bn": "সিগন্যাল", "emoji": "🚦", "roman": "signal" },
-    { "id": "transport-driver", "en": "driver", "bn": "চালক", "emoji": "🧑‍✈️", "roman": "chalok" },
-    { "id": "transport-passenger", "en": "passenger", "bn": "যাত্রী", "emoji": "🧍", "roman": "jatri" },
-    { "id": "transport-ticket", "en": "ticket", "bn": "টিকিট", "emoji": "🎫", "roman": "tikit" },
-    { "id": "transport-map", "en": "map", "bn": "মানচিত্র", "emoji": "🗺️", "roman": "manochitro" },
-    { "id": "transport-journey", "en": "journey", "bn": "যাত্রা", "emoji": "🧳", "roman": "jatra" }
+    {
+      "id": "transport-car",
+      "en": "car",
+      "bn": "গাড়ি",
+      "emoji": "🚗",
+      "roman": "gari"
+    },
+    {
+      "id": "transport-bus",
+      "en": "bus",
+      "bn": "বাস",
+      "emoji": "🚌",
+      "roman": "bas"
+    },
+    {
+      "id": "transport-train",
+      "en": "train",
+      "bn": "ট্রেন",
+      "emoji": "🚆",
+      "roman": "tren"
+    },
+    {
+      "id": "transport-plane",
+      "en": "plane",
+      "bn": "বিমান",
+      "emoji": "✈️",
+      "roman": "biman"
+    },
+    {
+      "id": "transport-boat",
+      "en": "boat",
+      "bn": "নৌকা",
+      "emoji": "⛵",
+      "roman": "nouka"
+    },
+    {
+      "id": "transport-bike",
+      "en": "bicycle",
+      "bn": "সাইকেল",
+      "emoji": "🚲",
+      "roman": "saikel"
+    },
+    {
+      "id": "transport-rickshaw",
+      "en": "rickshaw",
+      "bn": "রিকশা",
+      "emoji": "🛺",
+      "roman": "riksha"
+    },
+    {
+      "id": "transport-truck",
+      "en": "truck",
+      "bn": "ট্রাক",
+      "emoji": "🚚",
+      "roman": "trak"
+    },
+    {
+      "id": "transport-ship",
+      "en": "ship",
+      "bn": "জাহাজ",
+      "emoji": "🚢",
+      "roman": "jahaj"
+    },
+    {
+      "id": "transport-taxi",
+      "en": "taxi",
+      "bn": "ট্যাক্সি",
+      "emoji": "🚕",
+      "roman": "taxi"
+    },
+    {
+      "id": "transport-motorcycle",
+      "en": "motorcycle",
+      "bn": "মোটরসাইকেল",
+      "emoji": "🏍️",
+      "roman": "motorsaikel"
+    },
+    {
+      "id": "transport-scooter",
+      "en": "scooter",
+      "bn": "স্কুটার",
+      "emoji": "🛵",
+      "roman": "skutar"
+    },
+    {
+      "id": "transport-helicopter",
+      "en": "helicopter",
+      "bn": "হেলিকপ্টার",
+      "emoji": "🚁",
+      "roman": "helicopter"
+    },
+    {
+      "id": "transport-road",
+      "en": "road",
+      "bn": "রাস্তা",
+      "emoji": "🛣️",
+      "roman": "rasta"
+    },
+    {
+      "id": "transport-van",
+      "en": "van",
+      "bn": "ভ্যান",
+      "emoji": "🚐",
+      "roman": "van"
+    },
+    {
+      "id": "transport-ambulance",
+      "en": "ambulance",
+      "bn": "অ্যাম্বুলেন্স",
+      "emoji": "🚑",
+      "roman": "ambulance"
+    },
+    {
+      "id": "transport-fire-truck",
+      "en": "fire truck",
+      "bn": "ফায়ার ব্রিগেড",
+      "emoji": "🚒",
+      "roman": "fire brigade"
+    },
+    {
+      "id": "transport-police-car",
+      "en": "police car",
+      "bn": "পুলিশ গাড়ি",
+      "emoji": "🚓",
+      "roman": "pulish gari"
+    },
+    {
+      "id": "transport-tractor",
+      "en": "tractor",
+      "bn": "ট্র্যাক্টর",
+      "emoji": "🚜",
+      "roman": "tractor"
+    },
+    {
+      "id": "transport-subway",
+      "en": "subway",
+      "bn": "মেট্রো",
+      "emoji": "🚇",
+      "roman": "metro"
+    },
+    {
+      "id": "transport-tram",
+      "en": "tram",
+      "bn": "ট্রাম",
+      "emoji": "🚊",
+      "roman": "tram"
+    },
+    {
+      "id": "transport-ferry",
+      "en": "ferry",
+      "bn": "ফেরি",
+      "emoji": "⛴️",
+      "roman": "feri"
+    },
+    {
+      "id": "transport-rocket",
+      "en": "rocket",
+      "bn": "রকেট",
+      "emoji": "🚀",
+      "roman": "rocket"
+    },
+    {
+      "id": "transport-cart",
+      "en": "cart",
+      "bn": "গাড়া",
+      "emoji": "🛒",
+      "roman": "gara"
+    },
+    {
+      "id": "transport-cng",
+      "en": "CNG",
+      "bn": "সিএনজি",
+      "emoji": "🛺",
+      "roman": "cng"
+    },
+    {
+      "id": "transport-wheel",
+      "en": "wheel",
+      "bn": "চাকা",
+      "emoji": "⚙️",
+      "roman": "chaka"
+    },
+    {
+      "id": "transport-steering",
+      "en": "steering",
+      "bn": "স্টিয়ারিং",
+      "emoji": "🛞",
+      "roman": "steering"
+    },
+    {
+      "id": "transport-horn",
+      "en": "horn",
+      "bn": "হর্ন",
+      "emoji": "📢",
+      "roman": "horn"
+    },
+    {
+      "id": "transport-brake",
+      "en": "brake",
+      "bn": "ব্রেক",
+      "emoji": "🛑",
+      "roman": "brek"
+    },
+    {
+      "id": "transport-fuel",
+      "en": "fuel",
+      "bn": "জ্বালানি",
+      "emoji": "⛽",
+      "roman": "jalani"
+    },
+    {
+      "id": "transport-station",
+      "en": "station",
+      "bn": "স্টেশন",
+      "emoji": "🚉",
+      "roman": "steshon"
+    },
+    {
+      "id": "transport-airport",
+      "en": "airport",
+      "bn": "বিমানবন্দর",
+      "emoji": "🛫",
+      "roman": "bimanbondor"
+    },
+    {
+      "id": "transport-bridge",
+      "en": "bridge",
+      "bn": "সেতু",
+      "emoji": "🌉",
+      "roman": "setu"
+    },
+    {
+      "id": "transport-traffic",
+      "en": "traffic",
+      "bn": "ট্রাফিক",
+      "emoji": "🚦",
+      "roman": "traffic"
+    },
+    {
+      "id": "transport-signal",
+      "en": "signal",
+      "bn": "সিগন্যাল",
+      "emoji": "🚦",
+      "roman": "signal"
+    },
+    {
+      "id": "transport-driver",
+      "en": "driver",
+      "bn": "চালক",
+      "emoji": "🧑‍✈️",
+      "roman": "chalok"
+    },
+    {
+      "id": "transport-passenger",
+      "en": "passenger",
+      "bn": "যাত্রী",
+      "emoji": "🧍",
+      "roman": "jatri"
+    },
+    {
+      "id": "transport-ticket",
+      "en": "ticket",
+      "bn": "টিকিট",
+      "emoji": "🎫",
+      "roman": "tikit"
+    },
+    {
+      "id": "transport-map",
+      "en": "map",
+      "bn": "মানচিত্র",
+      "emoji": "🗺️",
+      "roman": "manochitro"
+    },
+    {
+      "id": "transport-journey",
+      "en": "journey",
+      "bn": "যাত্রা",
+      "emoji": "🧳",
+      "roman": "jatra"
+    },
+    {
+      "id": "transport-auto-rickshaw",
+      "en": "auto rickshaw",
+      "bn": "অটো রিকশা",
+      "emoji": "🛺",
+      "roman": "auto rickshaw"
+    },
+    {
+      "id": "transport-cycle-rickshaw",
+      "en": "cycle rickshaw",
+      "bn": "সাইকেল রিকশা",
+      "emoji": "🚲",
+      "roman": "cycle rickshaw"
+    },
+    {
+      "id": "transport-tempo",
+      "en": "tempo",
+      "bn": "টেম্পো",
+      "emoji": "🛺",
+      "roman": "tempo"
+    },
+    {
+      "id": "transport-microbus",
+      "en": "microbus",
+      "bn": "মাইক্রোবাস",
+      "emoji": "🚐",
+      "roman": "microbus"
+    },
+    {
+      "id": "transport-minibus",
+      "en": "minibus",
+      "bn": "মিনিবাস",
+      "emoji": "🚌",
+      "roman": "minibus"
+    },
+    {
+      "id": "transport-double-decker",
+      "en": "double decker",
+      "bn": "দোতলা বাস",
+      "emoji": "🚌",
+      "roman": "double decker"
+    },
+    {
+      "id": "transport-school-bus",
+      "en": "school bus",
+      "bn": "স্কুল বাস",
+      "emoji": "🚌",
+      "roman": "school bus"
+    },
+    {
+      "id": "transport-express-train",
+      "en": "express train",
+      "bn": "এক্সপ্রেস ট্রেন",
+      "emoji": "🚆",
+      "roman": "express train"
+    },
+    {
+      "id": "transport-local-train",
+      "en": "local train",
+      "bn": "লোকাল ট্রেন",
+      "emoji": "🚆",
+      "roman": "local train"
+    },
+    {
+      "id": "transport-metro-rail",
+      "en": "metro rail",
+      "bn": "মেট্রো রেল",
+      "emoji": "🚇",
+      "roman": "metro rail"
+    },
+    {
+      "id": "transport-monorail",
+      "en": "monorail",
+      "bn": "মোনোরেল",
+      "emoji": "🚝",
+      "roman": "monorail"
+    },
+    {
+      "id": "transport-cargo-ship",
+      "en": "cargo ship",
+      "bn": "মালবাহী জাহাজ",
+      "emoji": "🚢",
+      "roman": "cargo ship"
+    },
+    {
+      "id": "transport-fishing-boat",
+      "en": "fishing boat",
+      "bn": "মাছ ধরার নৌকা",
+      "emoji": "⛵",
+      "roman": "mach dharar nouka"
+    },
+    {
+      "id": "transport-speedboat",
+      "en": "speedboat",
+      "bn": "স্পিডবোট",
+      "emoji": "🚤",
+      "roman": "speedboat"
+    },
+    {
+      "id": "transport-yacht",
+      "en": "yacht",
+      "bn": "ইয়ট",
+      "emoji": "⛵",
+      "roman": "yacht"
+    },
+    {
+      "id": "transport-canoe",
+      "en": "canoe",
+      "bn": "ডিঙি",
+      "emoji": "🛶",
+      "roman": "canoe"
+    },
+    {
+      "id": "transport-kayak",
+      "en": "kayak",
+      "bn": "কায়াক",
+      "emoji": "🛶",
+      "roman": "kayak"
+    },
+    {
+      "id": "transport-raft",
+      "en": "raft",
+      "bn": "ভেলা",
+      "emoji": "🛶",
+      "roman": "raft"
+    },
+    {
+      "id": "transport-paddle-boat",
+      "en": "paddle boat",
+      "bn": "প্যাডেল নৌকা",
+      "emoji": "🛶",
+      "roman": "paddle boat"
+    },
+    {
+      "id": "transport-water-taxi",
+      "en": "water taxi",
+      "bn": "জল ট্যাক্সি",
+      "emoji": "🚤",
+      "roman": "water taxi"
+    },
+    {
+      "id": "transport-launch",
+      "en": "launch",
+      "bn": "লঞ্চ",
+      "emoji": "🚢",
+      "roman": "launch"
+    },
+    {
+      "id": "transport-hovercraft",
+      "en": "hovercraft",
+      "bn": "হোভারক্রাফট",
+      "emoji": "🚤",
+      "roman": "hovercraft"
+    },
+    {
+      "id": "transport-glider",
+      "en": "glider",
+      "bn": "গ্লাইডার",
+      "emoji": "🛩️",
+      "roman": "glider"
+    },
+    {
+      "id": "transport-hot-air-balloon",
+      "en": "hot air balloon",
+      "bn": "গরম বাতাসের বেলুন",
+      "emoji": "🎈",
+      "roman": "gorom bataser belun"
+    },
+    {
+      "id": "transport-parachute",
+      "en": "parachute",
+      "bn": "প্যারাসুট",
+      "emoji": "🪂",
+      "roman": "parachute"
+    },
+    {
+      "id": "transport-skateboard",
+      "en": "skateboard",
+      "bn": "স্কেটবোর্ড",
+      "emoji": "🛹",
+      "roman": "skateboard"
+    },
+    {
+      "id": "transport-roller-skates",
+      "en": "roller skates",
+      "bn": "রোলার স্কেট",
+      "emoji": "🛼",
+      "roman": "roller skates"
+    },
+    {
+      "id": "transport-segway",
+      "en": "segway",
+      "bn": "সেগওয়ে",
+      "emoji": "🛴",
+      "roman": "segway"
+    },
+    {
+      "id": "transport-unicycle",
+      "en": "unicycle",
+      "bn": "একচাকা সাইকেল",
+      "emoji": "🚲",
+      "roman": "ekchaka cycle"
+    },
+    {
+      "id": "transport-tricycle",
+      "en": "tricycle",
+      "bn": "তিনচাকা সাইকেল",
+      "emoji": "🚲",
+      "roman": "tinchaka cycle"
+    },
+    {
+      "id": "transport-handcart",
+      "en": "handcart",
+      "bn": "হাতঠেলা গাড়ি",
+      "emoji": "🛒",
+      "roman": "hath thela gari"
+    },
+    {
+      "id": "transport-bullock-cart",
+      "en": "bullock cart",
+      "bn": "গরু গাড়ি",
+      "emoji": "🐂",
+      "roman": "goru gari"
+    },
+    {
+      "id": "transport-horse-carriage",
+      "en": "horse carriage",
+      "bn": "ঘোড়া গাড়ি",
+      "emoji": "🐴",
+      "roman": "ghora gari"
+    },
+    {
+      "id": "transport-palanquin",
+      "en": "palanquin",
+      "bn": "পালকি",
+      "emoji": "🛏️",
+      "roman": "palki"
+    },
+    {
+      "id": "transport-sedan",
+      "en": "sedan",
+      "bn": "সেডান",
+      "emoji": "🚗",
+      "roman": "sedan"
+    },
+    {
+      "id": "transport-hatchback",
+      "en": "hatchback",
+      "bn": "হ্যাচব্যাক",
+      "emoji": "🚗",
+      "roman": "hatchback"
+    },
+    {
+      "id": "transport-suv",
+      "en": "suv",
+      "bn": "এসইউভি",
+      "emoji": "🚙",
+      "roman": "suv"
+    },
+    {
+      "id": "transport-pickup-truck",
+      "en": "pickup truck",
+      "bn": "পিকআপ ট্রাক",
+      "emoji": "🛻",
+      "roman": "pickup truck"
+    },
+    {
+      "id": "transport-dump-truck",
+      "en": "dump truck",
+      "bn": "ডাম্প ট্রাক",
+      "emoji": "🚚",
+      "roman": "dump truck"
+    },
+    {
+      "id": "transport-tow-truck",
+      "en": "tow truck",
+      "bn": "টো ট্রাক",
+      "emoji": "🚛",
+      "roman": "tow truck"
+    },
+    {
+      "id": "transport-garbage-truck",
+      "en": "garbage truck",
+      "bn": "আবর্জনা ট্রাক",
+      "emoji": "🚛",
+      "roman": "garbage truck"
+    },
+    {
+      "id": "transport-cement-mixer",
+      "en": "cement mixer",
+      "bn": "সিমেন্ট মিক্সার",
+      "emoji": "🚛",
+      "roman": "cement mixer"
+    },
+    {
+      "id": "transport-crane-truck",
+      "en": "crane truck",
+      "bn": "ক্রেন",
+      "emoji": "🏗️",
+      "roman": "crane"
+    },
+    {
+      "id": "transport-bulldozer",
+      "en": "bulldozer",
+      "bn": "বুলডোজার",
+      "emoji": "🚜",
+      "roman": "bulldozer"
+    },
+    {
+      "id": "transport-excavator",
+      "en": "excavator",
+      "bn": "এক্সকাভেটর",
+      "emoji": "🚜",
+      "roman": "excavator"
+    },
+    {
+      "id": "transport-forklift",
+      "en": "forklift",
+      "bn": "ফর্কলিফট",
+      "emoji": "🏗️",
+      "roman": "forklift"
+    },
+    {
+      "id": "transport-golf-cart",
+      "en": "golf cart",
+      "bn": "গলফ কার্ট",
+      "emoji": "⛳",
+      "roman": "golf cart"
+    },
+    {
+      "id": "transport-snowmobile",
+      "en": "snowmobile",
+      "bn": "স্নোমোবাইল",
+      "emoji": "🛷",
+      "roman": "snowmobile"
+    },
+    {
+      "id": "transport-sled",
+      "en": "sled",
+      "bn": "স্লেজ",
+      "emoji": "🛷",
+      "roman": "sled"
+    },
+    {
+      "id": "transport-wheelchair",
+      "en": "wheelchair",
+      "bn": "হুইলচেয়ার",
+      "emoji": "♿",
+      "roman": "wheelchair"
+    },
+    {
+      "id": "transport-stroller",
+      "en": "stroller",
+      "bn": "শিশু গাড়ি",
+      "emoji": "👶",
+      "roman": "shishu gari"
+    },
+    {
+      "id": "transport-shopping-cart",
+      "en": "shopping cart",
+      "bn": "কেনাকাটার ঠেলা গাড়ি",
+      "emoji": "🛒",
+      "roman": "kenakatar thela gari"
+    },
+    {
+      "id": "transport-luggage-cart",
+      "en": "luggage cart",
+      "bn": "মালপত্রের ঠেলা গাড়ি",
+      "emoji": "🧳",
+      "roman": "luggage cart"
+    },
+    {
+      "id": "transport-trolley",
+      "en": "trolley",
+      "bn": "ট্রলি",
+      "emoji": "🛒",
+      "roman": "trolley"
+    },
+    {
+      "id": "transport-dolly",
+      "en": "dolly",
+      "bn": "ঠেলা গাড়ি",
+      "emoji": "📦",
+      "roman": "thela gari"
+    },
+    {
+      "id": "transport-conveyor-belt",
+      "en": "conveyor belt",
+      "bn": "কনভেয়র বেল্ট",
+      "emoji": "🏭",
+      "roman": "conveyor belt"
+    },
+    {
+      "id": "transport-escalator",
+      "en": "escalator",
+      "bn": "এসকেলেটর",
+      "emoji": "🛗",
+      "roman": "escalator"
+    },
+    {
+      "id": "transport-elevator",
+      "en": "elevator",
+      "bn": "লিফট",
+      "emoji": "🛗",
+      "roman": "lift"
+    },
+    {
+      "id": "transport-moving-walkway",
+      "en": "moving walkway",
+      "bn": "চলন্ত ফুটপাথ",
+      "emoji": "🚶",
+      "roman": "moving walkway"
+    },
+    {
+      "id": "transport-highway",
+      "en": "highway",
+      "bn": "মহাসড়ক",
+      "emoji": "🛣️",
+      "roman": "mahasarak"
+    },
+    {
+      "id": "transport-expressway",
+      "en": "expressway",
+      "bn": "এক্সপ্রেসওয়ে",
+      "emoji": "🛣️",
+      "roman": "expressway"
+    },
+    {
+      "id": "transport-alley",
+      "en": "alley",
+      "bn": "গলি",
+      "emoji": "🛣️",
+      "roman": "goli"
+    },
+    {
+      "id": "transport-path",
+      "en": "path",
+      "bn": "পথ",
+      "emoji": "🛤️",
+      "roman": "poth"
+    },
+    {
+      "id": "transport-sidewalk",
+      "en": "sidewalk",
+      "bn": "ফুটপাথ",
+      "emoji": "🚶",
+      "roman": "footpath"
+    },
+    {
+      "id": "transport-crosswalk",
+      "en": "crosswalk",
+      "bn": "জেব্রা ক্রসিং",
+      "emoji": "🚸",
+      "roman": "crosswalk"
+    },
+    {
+      "id": "transport-roundabout",
+      "en": "roundabout",
+      "bn": "গোলচক্কর",
+      "emoji": "🔄",
+      "roman": "roundabout"
+    },
+    {
+      "id": "transport-intersection",
+      "en": "intersection",
+      "bn": "চৌমাথা",
+      "emoji": "✖️",
+      "roman": "choumatha"
+    },
+    {
+      "id": "transport-tunnel",
+      "en": "tunnel",
+      "bn": "টানেল",
+      "emoji": "🚇",
+      "roman": "tunnel"
+    },
+    {
+      "id": "transport-overpass",
+      "en": "overpass",
+      "bn": "ওভারপাস",
+      "emoji": "🛣️",
+      "roman": "overpass"
+    },
+    {
+      "id": "transport-underpass",
+      "en": "underpass",
+      "bn": "আন্ডারপাস",
+      "emoji": "🛣️",
+      "roman": "underpass"
+    },
+    {
+      "id": "transport-parking-lot",
+      "en": "parking lot",
+      "bn": "পার্কিং",
+      "emoji": "🅿️",
+      "roman": "parking"
+    },
+    {
+      "id": "transport-garage-parking",
+      "en": "garage parking",
+      "bn": "গ্যারেজ",
+      "emoji": "🅿️",
+      "roman": "garage"
+    },
+    {
+      "id": "transport-gas-station",
+      "en": "gas station",
+      "bn": "পেট্রল পাম্প",
+      "emoji": "⛽",
+      "roman": "petrol pump"
+    },
+    {
+      "id": "transport-charging-station",
+      "en": "charging station",
+      "bn": "চার্জিং স্টেশন",
+      "emoji": "🔌",
+      "roman": "charging station"
+    },
+    {
+      "id": "transport-toll-booth",
+      "en": "toll booth",
+      "bn": "টোল বুথ",
+      "emoji": "💰",
+      "roman": "toll booth"
+    },
+    {
+      "id": "transport-weigh-station",
+      "en": "weigh station",
+      "bn": "ওজন কেন্দ্র",
+      "emoji": "⚖️",
+      "roman": "weigh station"
+    },
+    {
+      "id": "transport-border-crossing",
+      "en": "border crossing",
+      "bn": "সীমান্ত পার",
+      "emoji": "🛃",
+      "roman": "border crossing"
+    },
+    {
+      "id": "transport-customs",
+      "en": "customs",
+      "bn": "শুল্ক",
+      "emoji": "🛃",
+      "roman": "customs"
+    },
+    {
+      "id": "transport-port",
+      "en": "port",
+      "bn": "বন্দর",
+      "emoji": "⚓",
+      "roman": "bandar"
+    },
+    {
+      "id": "transport-harbor",
+      "en": "harbor",
+      "bn": "বন্দর",
+      "emoji": "⚓",
+      "roman": "bandar"
+    },
+    {
+      "id": "transport-dock",
+      "en": "dock",
+      "bn": "ঘাট",
+      "emoji": "⚓",
+      "roman": "ghat"
+    },
+    {
+      "id": "transport-pier",
+      "en": "pier",
+      "bn": "ঘাট",
+      "emoji": "🌊",
+      "roman": "ghat"
+    },
+    {
+      "id": "transport-runway",
+      "en": "runway",
+      "bn": "রানওয়ে",
+      "emoji": "🛫",
+      "roman": "runway"
+    },
+    {
+      "id": "transport-control-tower",
+      "en": "control tower",
+      "bn": "নিয়ন্ত্রণ টাওয়ার",
+      "emoji": "🗼",
+      "roman": "control tower"
+    },
+    {
+      "id": "transport-hangar",
+      "en": "hangar",
+      "bn": "হ্যাংগার",
+      "emoji": "🛩️",
+      "roman": "hangar"
+    },
+    {
+      "id": "transport-helipad",
+      "en": "helipad",
+      "bn": "হেলিপ্যাড",
+      "emoji": "🚁",
+      "roman": "helipad"
+    },
+    {
+      "id": "transport-train-track",
+      "en": "train track",
+      "bn": "রেল লাইন",
+      "emoji": "🛤️",
+      "roman": "rail line"
+    },
+    {
+      "id": "transport-railway-crossing",
+      "en": "railway crossing",
+      "bn": "রেলগেট",
+      "emoji": "🚧",
+      "roman": "railgate"
+    },
+    {
+      "id": "transport-platform",
+      "en": "platform",
+      "bn": "প্ল্যাটফর্ম",
+      "emoji": "🚉",
+      "roman": "platform"
+    },
+    {
+      "id": "transport-waiting-room",
+      "en": "waiting room",
+      "bn": "অপেক্ষাকক্ষ",
+      "emoji": "🪑",
+      "roman": "opekkakakkho"
+    },
+    {
+      "id": "transport-departure",
+      "en": "departure",
+      "bn": "ছাড়ার সময়",
+      "emoji": "🛫",
+      "roman": "chharar somoy"
+    },
+    {
+      "id": "transport-arrival",
+      "en": "arrival",
+      "bn": "আগমন",
+      "emoji": "🛬",
+      "roman": "agomon"
+    },
+    {
+      "id": "transport-boarding-pass",
+      "en": "boarding pass",
+      "bn": "বোর্ডিং পাস",
+      "emoji": "🎫",
+      "roman": "boarding pass"
+    },
+    {
+      "id": "transport-passport",
+      "en": "passport",
+      "bn": "পাসপোর্ট",
+      "emoji": "🛂",
+      "roman": "passport"
+    },
+    {
+      "id": "transport-visa",
+      "en": "visa",
+      "bn": "ভিসা",
+      "emoji": "🛂",
+      "roman": "visa"
+    },
+    {
+      "id": "transport-luggage",
+      "en": "luggage",
+      "bn": "ভ্রমণ ব্যাগ",
+      "emoji": "🧳",
+      "roman": "travel bag"
+    },
+    {
+      "id": "transport-suitcase",
+      "en": "suitcase",
+      "bn": "স্যুটকেস",
+      "emoji": "🧳",
+      "roman": "suitcase"
+    },
+    {
+      "id": "transport-backpack-travel",
+      "en": "backpack travel",
+      "bn": "ভ্রমণ ব্যাগ",
+      "emoji": "🎒",
+      "roman": "travel bag"
+    },
+    {
+      "id": "transport-duffel-bag",
+      "en": "duffel bag",
+      "bn": "ডাফেল ব্যাগ",
+      "emoji": "🧳",
+      "roman": "duffel bag"
+    },
+    {
+      "id": "transport-seat-belt",
+      "en": "seat belt",
+      "bn": "সিট বেল্ট",
+      "emoji": "💺",
+      "roman": "seat belt"
+    },
+    {
+      "id": "transport-car-seat",
+      "en": "car seat",
+      "bn": "গাড়ির সিট",
+      "emoji": "💺",
+      "roman": "car seat"
+    },
+    {
+      "id": "transport-dashboard",
+      "en": "dashboard",
+      "bn": "ড্যাশবোর্ড",
+      "emoji": "🚗",
+      "roman": "dashboard"
+    },
+    {
+      "id": "transport-rearview-mirror",
+      "en": "rearview mirror",
+      "bn": "পেছনের আয়না",
+      "emoji": "🪞",
+      "roman": "rearview mirror"
+    },
+    {
+      "id": "transport-windshield",
+      "en": "windshield",
+      "bn": "উইন্ডশিল্ড",
+      "emoji": "🚗",
+      "roman": "windshield"
+    },
+    {
+      "id": "transport-wiper",
+      "en": "wiper",
+      "bn": "ওয়াইপার",
+      "emoji": "🌧️",
+      "roman": "wiper"
+    },
+    {
+      "id": "transport-headlight",
+      "en": "headlight",
+      "bn": "হেডলাইট",
+      "emoji": "💡",
+      "roman": "headlight"
+    },
+    {
+      "id": "transport-taillight",
+      "en": "taillight",
+      "bn": "টেললাইট",
+      "emoji": "🔴",
+      "roman": "taillight"
+    },
+    {
+      "id": "transport-turn-signal",
+      "en": "turn signal",
+      "bn": "টার্ন সিগন্যাল",
+      "emoji": "↔️",
+      "roman": "turn signal"
+    },
+    {
+      "id": "transport-speedometer",
+      "en": "speedometer",
+      "bn": "স্পিডোমিটার",
+      "emoji": "🏎️",
+      "roman": "speedometer"
+    },
+    {
+      "id": "transport-odometer",
+      "en": "odometer",
+      "bn": "ওডোমিটার",
+      "emoji": "📊",
+      "roman": "odometer"
+    },
+    {
+      "id": "transport-gps",
+      "en": "gps",
+      "bn": "জিপিএস",
+      "emoji": "🗺️",
+      "roman": "gps"
+    },
+    {
+      "id": "transport-compass",
+      "en": "compass",
+      "bn": "কম্পাস",
+      "emoji": "🧭",
+      "roman": "compass"
+    },
+    {
+      "id": "transport-life-jacket",
+      "en": "life jacket",
+      "bn": "জীবনঝাঁকটি",
+      "emoji": "🦺",
+      "roman": "jibon jhakti"
+    },
+    {
+      "id": "transport-anchor",
+      "en": "anchor",
+      "bn": "নোঙ্গর",
+      "emoji": "⚓",
+      "roman": "nongor"
+    },
+    {
+      "id": "transport-sail",
+      "en": "sail",
+      "bn": "পাল",
+      "emoji": "⛵",
+      "roman": "pal"
+    },
+    {
+      "id": "transport-paddle",
+      "en": "paddle",
+      "bn": "দাঁড়",
+      "emoji": "🛶",
+      "roman": "dar"
+    },
+    {
+      "id": "transport-oar",
+      "en": "oar",
+      "bn": "দাঁড়",
+      "emoji": "🛶",
+      "roman": "dar"
+    },
+    {
+      "id": "transport-motor",
+      "en": "motor",
+      "bn": "মোটর",
+      "emoji": "⚙️",
+      "roman": "motor"
+    },
+    {
+      "id": "transport-engine",
+      "en": "engine",
+      "bn": "ইঞ্জিন",
+      "emoji": "⚙️",
+      "roman": "engine"
+    },
+    {
+      "id": "transport-propeller",
+      "en": "propeller",
+      "bn": "প্রোপেলার",
+      "emoji": "🌀",
+      "roman": "propeller"
+    },
+    {
+      "id": "transport-jet-engine",
+      "en": "jet engine",
+      "bn": "জেট ইঞ্জিন",
+      "emoji": "✈️",
+      "roman": "jet engine"
+    },
+    {
+      "id": "transport-rocket-engine",
+      "en": "rocket engine",
+      "bn": "রকেট ইঞ্জিন",
+      "emoji": "🚀",
+      "roman": "rocket engine"
+    },
+    {
+      "id": "transport-paraglider",
+      "en": "paraglider",
+      "bn": "প্যারাগ্লাইডার",
+      "emoji": "🪂",
+      "roman": "paraglider"
+    },
+    {
+      "id": "transport-hang-glider",
+      "en": "hang glider",
+      "bn": "হ্যাং গ্লাইডার",
+      "emoji": "🪂",
+      "roman": "hang glider"
+    },
+    {
+      "id": "transport-zip-line",
+      "en": "zip line",
+      "bn": "জিপ লাইন",
+      "emoji": "🪂",
+      "roman": "zip line"
+    },
+    {
+      "id": "transport-cable-car",
+      "en": "cable car",
+      "bn": "কেবল কার",
+      "emoji": "🚡",
+      "roman": "cable car"
+    },
+    {
+      "id": "transport-funicular",
+      "en": "funicular",
+      "bn": "ফুনিকুলার",
+      "emoji": "🚞",
+      "roman": "funicular"
+    },
+    {
+      "id": "transport-gondola-lift",
+      "en": "gondola lift",
+      "bn": "গন্ডোলা",
+      "emoji": "🚡",
+      "roman": "gondola"
+    },
+    {
+      "id": "transport-rickshaw-stand",
+      "en": "rickshaw stand",
+      "bn": "রিকশা স্ট্যান্ড",
+      "emoji": "🛺",
+      "roman": "rickshaw stand"
+    },
+    {
+      "id": "transport-bus-stop",
+      "en": "bus stop",
+      "bn": "বাস স্টপ",
+      "emoji": "🚏",
+      "roman": "bus stop"
+    },
+    {
+      "id": "transport-taxi-stand",
+      "en": "taxi stand",
+      "bn": "ট্যাক্সি স্ট্যান্ড",
+      "emoji": "🚕",
+      "roman": "taxi stand"
+    },
+    {
+      "id": "transport-bike-lane",
+      "en": "bike lane",
+      "bn": "সাইকেল লেন",
+      "emoji": "🚲",
+      "roman": "bike lane"
+    },
+    {
+      "id": "transport-traffic-jam",
+      "en": "traffic jam",
+      "bn": "জ্যাম",
+      "emoji": "🚗",
+      "roman": "jam"
+    },
+    {
+      "id": "transport-road-work",
+      "en": "road work",
+      "bn": "রাস্তার কাজ",
+      "emoji": "🚧",
+      "roman": "road work"
+    },
+    {
+      "id": "transport-detour",
+      "en": "detour",
+      "bn": "বিকল্প পথ",
+      "emoji": "↪️",
+      "roman": "detour"
+    },
+    {
+      "id": "transport-one-way",
+      "en": "one way",
+      "bn": "একমুখী রাস্তা",
+      "emoji": "➡️",
+      "roman": "one way"
+    },
+    {
+      "id": "transport-speed-limit",
+      "en": "speed limit",
+      "bn": "গতিসীমা",
+      "emoji": "🏎️",
+      "roman": "goti sima"
+    },
+    {
+      "id": "transport-stop-sign",
+      "en": "stop sign",
+      "bn": "থামার চিহ্ন",
+      "emoji": "🛑",
+      "roman": "stop sign"
+    },
+    {
+      "id": "transport-yield-sign",
+      "en": "yield sign",
+      "bn": "সাবধান চিহ্ন",
+      "emoji": "⚠️",
+      "roman": "yield sign"
+    },
+    {
+      "id": "transport-pedestrian",
+      "en": "pedestrian",
+      "bn": "পথচারী",
+      "emoji": "🚶",
+      "roman": "pathachari"
+    },
+    {
+      "id": "transport-cyclist",
+      "en": "cyclist",
+      "bn": "সাইকেল চালক",
+      "emoji": "🚴",
+      "roman": "cycle chalok"
+    },
+    {
+      "id": "transport-motorcyclist",
+      "en": "motorcyclist",
+      "bn": "মোটরসাইকেল চালক",
+      "emoji": "🏍️",
+      "roman": "motorcycle chalok"
+    }
   ]
 }

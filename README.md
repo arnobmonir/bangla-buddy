@@ -1,4 +1,4 @@
-# Baby Bangla Learner
+# Bangla Buddy
 
 A small, mobile-first website that teaches Bangla from English — one word at a time, with automated text-to-speech.
 
@@ -28,7 +28,17 @@ npm install
 npm run dev
 ```
 
-Neural Bangla needs the Vite TTS API (included in `npm run dev` / `npm run preview`).
+Neural Bangla needs the TTS API:
+- Local: Vite middleware (`npm run dev` / `npm run preview`)
+- Vercel: serverless route at `/api/tts` (`api/tts.ts`)
+
+## Deploy (Vercel)
+
+Connect the repo and deploy. No env vars required for Edge TTS.
+
+After deploy, Bangla audio should load from:
+
+`https://<your-app>.vercel.app/api/tts?text=...&voice=bn-BD-NabanitaNeural&rate=0.85`
 
 ## Optional: pre-generate offline clips
 

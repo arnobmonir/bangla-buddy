@@ -319,16 +319,41 @@ def load_word_map() -> tuple[dict[str, str], dict[str, str]]:
     return phrase, word_map
 
 
+def entries_needing_fix(data: dict[str, list[list]]) -> list[dict]:
+    out: list[dict] = []
+    for cat, rows in data.items():
+        for row in rows:
+            bn = row[1]
+            if LATIN.search(bn) or not BN_RE.search(bn):
+                out.append(
+                    {
+                        "cat": cat,
+                        "en": row[0],
+                        "bn": bn,
+                        "roman": row[3] if len(row) > 3 else "",
+                    }
+                )
+    return out
+
+
 def build_overrides() -> dict[str, str]:
     phrase, word_map = load_word_map()
-    bad = json.loads(BAD_JSON.read_text(encoding="utf-8"))
+    spec = importlib.util.spec_from_file_location("gen", GEN)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    needs = entries_needing_fix(mod.VOCAB_DATA)
     overrides: dict[str, str] = {}
     missing: list[tuple[str, str, str]] = []
 
-    for e in bad:
+    for e in needs:
         key = f"{e['cat']}|{e['en']}"
         bn = None
-        for src in (e["bn"], e.get("roman", ""), e["en"]):
+        for src in (e.get("roman", ""), e["bn"], e["en"]):
+            if not src:
+                continue
+            # Skip mixed-script bn; prefer clean roman/en sources.
+            if src == e["bn"] and BN_RE.search(src) and LATIN.search(src):
+                continue
             bn = _convert_text(src, word_map) or phrase.get(src.lower().strip())
             if bn and is_bn(bn):
                 break
@@ -358,7 +383,7 @@ def apply_and_regenerate(overrides: dict[str, str]) -> int:
             key = f"{cat}|{row[0].lower()}"
             if key in overrides:
                 row[1] = overrides[key]
-            elif not is_bn(row[1]):
+            elif LATIN.search(row[1]) or not BN_RE.search(row[1]):
                 print(f"No override: {key} = {row[1]!r}", file=sys.stderr)
                 return 1
 

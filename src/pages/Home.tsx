@@ -50,8 +50,8 @@ export function Home({
         </div>
 
         <div className={styles.heroCopy}>
-          <p className={styles.brand}>Baby Bangla</p>
-          <p className={styles.brandBn}>বেবি বাংলা</p>
+          <p className={styles.brand}>Bangla Buddy</p>
+          <p className={styles.brandBn}>বাংলা বন্ধু</p>
           <h1 className={styles.title}>Little words. Big smiles.</h1>
           <p className={styles.sub}>
             Tap a category and hear English, then Bangla — one word at a time.

@@ -1,53 +1,1748 @@
 {
   "categoryId": "animals",
   "words": [
-    { "id": "animals-cat", "en": "cat", "bn": "বিড়াল", "emoji": "🐱", "roman": "biṛal" },
-    { "id": "animals-dog", "en": "dog", "bn": "কুকুর", "emoji": "🐶", "roman": "kukur" },
-    { "id": "animals-bird", "en": "bird", "bn": "পাখি", "emoji": "🐦", "roman": "pakhi" },
-    { "id": "animals-fish", "en": "fish", "bn": "মাছ", "emoji": "🐟", "roman": "mach" },
-    { "id": "animals-cow", "en": "cow", "bn": "গরু", "emoji": "🐄", "roman": "goru" },
-    { "id": "animals-goat", "en": "goat", "bn": "ছাগল", "emoji": "🐐", "roman": "chagol" },
-    { "id": "animals-duck", "en": "duck", "bn": "হাঁস", "emoji": "🦆", "roman": "hash" },
-    { "id": "animals-hen", "en": "hen", "bn": "মুরগি", "emoji": "🐔", "roman": "murgi" },
-    { "id": "animals-rooster", "en": "rooster", "bn": "মোরগ", "emoji": "🐓", "roman": "morog" },
-    { "id": "animals-horse", "en": "horse", "bn": "ঘোড়া", "emoji": "🐴", "roman": "ghora" },
-    { "id": "animals-elephant", "en": "elephant", "bn": "হাতি", "emoji": "🐘", "roman": "hati" },
-    { "id": "animals-tiger", "en": "tiger", "bn": "বাঘ", "emoji": "🐯", "roman": "bagh" },
-    { "id": "animals-lion", "en": "lion", "bn": "সিংহ", "emoji": "🦁", "roman": "singho" },
-    { "id": "animals-monkey", "en": "monkey", "bn": "বানর", "emoji": "🐵", "roman": "banor" },
-    { "id": "animals-rabbit", "en": "rabbit", "bn": "খরগোশ", "emoji": "🐰", "roman": "khorgosh" },
-    { "id": "animals-mouse", "en": "mouse", "bn": "ইঁদুর", "emoji": "🐭", "roman": "idur" },
-    { "id": "animals-frog", "en": "frog", "bn": "ব্যাঙ", "emoji": "🐸", "roman": "byang" },
-    { "id": "animals-snake", "en": "snake", "bn": "সাপ", "emoji": "🐍", "roman": "shap" },
-    { "id": "animals-butterfly", "en": "butterfly", "bn": "প্রজাপতি", "emoji": "🦋", "roman": "projapoti" },
-    { "id": "animals-bee", "en": "bee", "bn": "মৌমাছি", "emoji": "🐝", "roman": "moumachi" },
-    { "id": "animals-sheep", "en": "sheep", "bn": "ভেড়া", "emoji": "🐑", "roman": "bhera" },
-    { "id": "animals-pig", "en": "pig", "bn": "শুয়োর", "emoji": "🐷", "roman": "shuyor" },
-    { "id": "animals-deer", "en": "deer", "bn": "হরিণ", "emoji": "🦌", "roman": "horin" },
-    { "id": "animals-bear", "en": "bear", "bn": "ভালুক", "emoji": "🐻", "roman": "bhaluk" },
-    { "id": "animals-owl", "en": "owl", "bn": "পেঁচা", "emoji": "🦉", "roman": "pecha" },
-    { "id": "animals-crow", "en": "crow", "bn": "কাক", "emoji": "🐦‍⬛", "roman": "kak" },
-    { "id": "animals-parrot", "en": "parrot", "bn": "টিয়া", "emoji": "🦜", "roman": "tiya" },
-    { "id": "animals-peacock", "en": "peacock", "bn": "ময়ূর", "emoji": "🦚", "roman": "moyur" },
-    { "id": "animals-sparrow", "en": "sparrow", "bn": "চড়ুই", "emoji": "🐦", "roman": "chorui" },
-    { "id": "animals-pigeon", "en": "pigeon", "bn": "কবুতর", "emoji": "🕊️", "roman": "kobutor" },
-    { "id": "animals-buffalo", "en": "buffalo", "bn": "মহিষ", "emoji": "🐃", "roman": "mohish" },
-    { "id": "animals-camel", "en": "camel", "bn": "উট", "emoji": "🐪", "roman": "ut" },
-    { "id": "animals-giraffe", "en": "giraffe", "bn": "জিরাফ", "emoji": "🦒", "roman": "jiraf" },
-    { "id": "animals-zebra", "en": "zebra", "bn": "জেব্রা", "emoji": "🦓", "roman": "zebra" },
-    { "id": "animals-fox", "en": "fox", "bn": "শিয়াল", "emoji": "🦊", "roman": "shiyal" },
-    { "id": "animals-wolf", "en": "wolf", "bn": "নেকড়ে", "emoji": "🐺", "roman": "nekre" },
-    { "id": "animals-crocodile", "en": "crocodile", "bn": "কুমির", "emoji": "🐊", "roman": "kumir" },
-    { "id": "animals-turtle", "en": "turtle", "bn": "কচ্ছপ", "emoji": "🐢", "roman": "kochchop" },
-    { "id": "animals-crab", "en": "crab", "bn": "কাঁকড়া", "emoji": "🦀", "roman": "kãkra" },
-    { "id": "animals-ant", "en": "ant", "bn": "পিঁপড়া", "emoji": "🐜", "roman": "pĩpra" },
-    { "id": "animals-spider", "en": "spider", "bn": "মাকড়সা", "emoji": "🕷️", "roman": "makorsa" },
-    { "id": "animals-mosquito", "en": "mosquito", "bn": "মশা", "emoji": "🦟", "roman": "mosha" },
-    { "id": "animals-fly", "en": "fly", "bn": "মাছি", "emoji": "🪰", "roman": "machi" },
-    { "id": "animals-dolphin", "en": "dolphin", "bn": "ডলফিন", "emoji": "🐬", "roman": "dolphin" },
-    { "id": "animals-whale", "en": "whale", "bn": "তিমি", "emoji": "🐋", "roman": "timi" },
-    { "id": "animals-penguin", "en": "penguin", "bn": "পেঙ্গুইন", "emoji": "🐧", "roman": "penguin" },
-    { "id": "animals-chick", "en": "chick", "bn": "মুরগির বাচ্চা", "emoji": "🐤", "roman": "murgir baccha" },
-    { "id": "animals-puppy", "en": "puppy", "bn": "কুকুরছানা", "emoji": "🐶", "roman": "kukurchana" }
+    {
+      "id": "animals-cat",
+      "en": "cat",
+      "bn": "বিড়াল",
+      "emoji": "🐱",
+      "roman": "biṛal"
+    },
+    {
+      "id": "animals-dog",
+      "en": "dog",
+      "bn": "কুকুর",
+      "emoji": "🐶",
+      "roman": "kukur"
+    },
+    {
+      "id": "animals-bird",
+      "en": "bird",
+      "bn": "পাখি",
+      "emoji": "🐦",
+      "roman": "pakhi"
+    },
+    {
+      "id": "animals-fish",
+      "en": "fish",
+      "bn": "মাছ",
+      "emoji": "🐟",
+      "roman": "mach"
+    },
+    {
+      "id": "animals-cow",
+      "en": "cow",
+      "bn": "গরু",
+      "emoji": "🐄",
+      "roman": "goru"
+    },
+    {
+      "id": "animals-goat",
+      "en": "goat",
+      "bn": "ছাগল",
+      "emoji": "🐐",
+      "roman": "chagol"
+    },
+    {
+      "id": "animals-duck",
+      "en": "duck",
+      "bn": "হাঁস",
+      "emoji": "🦆",
+      "roman": "hash"
+    },
+    {
+      "id": "animals-hen",
+      "en": "hen",
+      "bn": "মুরগি",
+      "emoji": "🐔",
+      "roman": "murgi"
+    },
+    {
+      "id": "animals-rooster",
+      "en": "rooster",
+      "bn": "মোরগ",
+      "emoji": "🐓",
+      "roman": "morog"
+    },
+    {
+      "id": "animals-horse",
+      "en": "horse",
+      "bn": "ঘোড়া",
+      "emoji": "🐴",
+      "roman": "ghora"
+    },
+    {
+      "id": "animals-elephant",
+      "en": "elephant",
+      "bn": "হাতি",
+      "emoji": "🐘",
+      "roman": "hati"
+    },
+    {
+      "id": "animals-tiger",
+      "en": "tiger",
+      "bn": "বাঘ",
+      "emoji": "🐯",
+      "roman": "bagh"
+    },
+    {
+      "id": "animals-lion",
+      "en": "lion",
+      "bn": "সিংহ",
+      "emoji": "🦁",
+      "roman": "singho"
+    },
+    {
+      "id": "animals-monkey",
+      "en": "monkey",
+      "bn": "বানর",
+      "emoji": "🐵",
+      "roman": "banor"
+    },
+    {
+      "id": "animals-rabbit",
+      "en": "rabbit",
+      "bn": "খরগোশ",
+      "emoji": "🐰",
+      "roman": "khorgosh"
+    },
+    {
+      "id": "animals-mouse",
+      "en": "mouse",
+      "bn": "ইঁদুর",
+      "emoji": "🐭",
+      "roman": "idur"
+    },
+    {
+      "id": "animals-frog",
+      "en": "frog",
+      "bn": "ব্যাঙ",
+      "emoji": "🐸",
+      "roman": "byang"
+    },
+    {
+      "id": "animals-snake",
+      "en": "snake",
+      "bn": "সাপ",
+      "emoji": "🐍",
+      "roman": "shap"
+    },
+    {
+      "id": "animals-butterfly",
+      "en": "butterfly",
+      "bn": "প্রজাপতি",
+      "emoji": "🦋",
+      "roman": "projapoti"
+    },
+    {
+      "id": "animals-bee",
+      "en": "bee",
+      "bn": "মৌমাছি",
+      "emoji": "🐝",
+      "roman": "moumachi"
+    },
+    {
+      "id": "animals-sheep",
+      "en": "sheep",
+      "bn": "ভেড়া",
+      "emoji": "🐑",
+      "roman": "bhera"
+    },
+    {
+      "id": "animals-pig",
+      "en": "pig",
+      "bn": "শুয়োর",
+      "emoji": "🐷",
+      "roman": "shuyor"
+    },
+    {
+      "id": "animals-deer",
+      "en": "deer",
+      "bn": "হরিণ",
+      "emoji": "🦌",
+      "roman": "horin"
+    },
+    {
+      "id": "animals-bear",
+      "en": "bear",
+      "bn": "ভালুক",
+      "emoji": "🐻",
+      "roman": "bhaluk"
+    },
+    {
+      "id": "animals-owl",
+      "en": "owl",
+      "bn": "পেঁচা",
+      "emoji": "🦉",
+      "roman": "pecha"
+    },
+    {
+      "id": "animals-crow",
+      "en": "crow",
+      "bn": "কাক",
+      "emoji": "🐦‍⬛",
+      "roman": "kak"
+    },
+    {
+      "id": "animals-parrot",
+      "en": "parrot",
+      "bn": "টিয়া",
+      "emoji": "🦜",
+      "roman": "tiya"
+    },
+    {
+      "id": "animals-peacock",
+      "en": "peacock",
+      "bn": "ময়ূর",
+      "emoji": "🦚",
+      "roman": "moyur"
+    },
+    {
+      "id": "animals-sparrow",
+      "en": "sparrow",
+      "bn": "চড়ুই",
+      "emoji": "🐦",
+      "roman": "chorui"
+    },
+    {
+      "id": "animals-pigeon",
+      "en": "pigeon",
+      "bn": "কবুতর",
+      "emoji": "🕊️",
+      "roman": "kobutor"
+    },
+    {
+      "id": "animals-buffalo",
+      "en": "buffalo",
+      "bn": "মহিষ",
+      "emoji": "🐃",
+      "roman": "mohish"
+    },
+    {
+      "id": "animals-camel",
+      "en": "camel",
+      "bn": "উট",
+      "emoji": "🐪",
+      "roman": "ut"
+    },
+    {
+      "id": "animals-giraffe",
+      "en": "giraffe",
+      "bn": "জিরাফ",
+      "emoji": "🦒",
+      "roman": "jiraf"
+    },
+    {
+      "id": "animals-zebra",
+      "en": "zebra",
+      "bn": "জেব্রা",
+      "emoji": "🦓",
+      "roman": "zebra"
+    },
+    {
+      "id": "animals-fox",
+      "en": "fox",
+      "bn": "শিয়াল",
+      "emoji": "🦊",
+      "roman": "shiyal"
+    },
+    {
+      "id": "animals-wolf",
+      "en": "wolf",
+      "bn": "নেকড়ে",
+      "emoji": "🐺",
+      "roman": "nekre"
+    },
+    {
+      "id": "animals-crocodile",
+      "en": "crocodile",
+      "bn": "কুমির",
+      "emoji": "🐊",
+      "roman": "kumir"
+    },
+    {
+      "id": "animals-turtle",
+      "en": "turtle",
+      "bn": "কচ্ছপ",
+      "emoji": "🐢",
+      "roman": "kochchop"
+    },
+    {
+      "id": "animals-crab",
+      "en": "crab",
+      "bn": "কাঁকড়া",
+      "emoji": "🦀",
+      "roman": "kãkra"
+    },
+    {
+      "id": "animals-ant",
+      "en": "ant",
+      "bn": "পিঁপড়া",
+      "emoji": "🐜",
+      "roman": "pĩpra"
+    },
+    {
+      "id": "animals-spider",
+      "en": "spider",
+      "bn": "মাকড়সা",
+      "emoji": "🕷️",
+      "roman": "makorsa"
+    },
+    {
+      "id": "animals-mosquito",
+      "en": "mosquito",
+      "bn": "মশা",
+      "emoji": "🦟",
+      "roman": "mosha"
+    },
+    {
+      "id": "animals-fly",
+      "en": "fly",
+      "bn": "মাছি",
+      "emoji": "🪰",
+      "roman": "machi"
+    },
+    {
+      "id": "animals-dolphin",
+      "en": "dolphin",
+      "bn": "ডলফিন",
+      "emoji": "🐬",
+      "roman": "dolphin"
+    },
+    {
+      "id": "animals-whale",
+      "en": "whale",
+      "bn": "তিমি",
+      "emoji": "🐋",
+      "roman": "timi"
+    },
+    {
+      "id": "animals-penguin",
+      "en": "penguin",
+      "bn": "পেঙ্গুইন",
+      "emoji": "🐧",
+      "roman": "penguin"
+    },
+    {
+      "id": "animals-chick",
+      "en": "chick",
+      "bn": "মুরগির বাচ্চা",
+      "emoji": "🐤",
+      "roman": "murgir baccha"
+    },
+    {
+      "id": "animals-puppy",
+      "en": "puppy",
+      "bn": "কুকুরছানা",
+      "emoji": "🐶",
+      "roman": "kukurchana"
+    },
+    {
+      "id": "animals-squirrel",
+      "en": "squirrel",
+      "bn": "কাঠবিড়াল",
+      "emoji": "🐿️",
+      "roman": "kathbiral"
+    },
+    {
+      "id": "animals-hamster",
+      "en": "hamster",
+      "bn": "হ্যামস্টার",
+      "emoji": "🐹",
+      "roman": "hamstar"
+    },
+    {
+      "id": "animals-guinea-pig",
+      "en": "guinea pig",
+      "bn": "গিনি পিগ",
+      "emoji": "🐹",
+      "roman": "guini pig"
+    },
+    {
+      "id": "animals-otter",
+      "en": "otter",
+      "bn": "উদবিলাতি",
+      "emoji": "🦦",
+      "roman": "udbilati"
+    },
+    {
+      "id": "animals-seal",
+      "en": "seal",
+      "bn": "সিল",
+      "emoji": "🦭",
+      "roman": "sil"
+    },
+    {
+      "id": "animals-walrus",
+      "en": "walrus",
+      "bn": "ওয়ালরাস",
+      "emoji": "🦭",
+      "roman": "walras"
+    },
+    {
+      "id": "animals-polar-bear",
+      "en": "polar bear",
+      "bn": "ধূসর ভালুক",
+      "emoji": "🐻‍❄️",
+      "roman": "dhusor bhaluk"
+    },
+    {
+      "id": "animals-panda",
+      "en": "panda",
+      "bn": "পান্ডা",
+      "emoji": "🐼",
+      "roman": "panda"
+    },
+    {
+      "id": "animals-koala",
+      "en": "koala",
+      "bn": "কোআলা",
+      "emoji": "🐨",
+      "roman": "koala"
+    },
+    {
+      "id": "animals-kangaroo",
+      "en": "kangaroo",
+      "bn": "ক্যাঙ্গারু",
+      "emoji": "🦘",
+      "roman": "kangaru"
+    },
+    {
+      "id": "animals-sloth",
+      "en": "sloth",
+      "bn": "আলসে প্রাণী",
+      "emoji": "🦥",
+      "roman": "alše prani"
+    },
+    {
+      "id": "animals-hedgehog",
+      "en": "hedgehog",
+      "bn": "কাঁটাহাড়",
+      "emoji": "🦔",
+      "roman": "kãtahar"
+    },
+    {
+      "id": "animals-porcupine",
+      "en": "porcupine",
+      "bn": "শজারু",
+      "emoji": "🦔",
+      "roman": "shojaru"
+    },
+    {
+      "id": "animals-skunk",
+      "en": "skunk",
+      "bn": "গন্ধগোকুল",
+      "emoji": "🦨",
+      "roman": "gondhogokul"
+    },
+    {
+      "id": "animals-raccoon",
+      "en": "raccoon",
+      "bn": "র‍্যাকুন",
+      "emoji": "🦝",
+      "roman": "rækun"
+    },
+    {
+      "id": "animals-bat",
+      "en": "bat",
+      "bn": "বাদুড়",
+      "emoji": "🦇",
+      "roman": "badur"
+    },
+    {
+      "id": "animals-mole",
+      "en": "mole",
+      "bn": "ছুচো",
+      "emoji": "🐀",
+      "roman": "chucho"
+    },
+    {
+      "id": "animals-beaver",
+      "en": "beaver",
+      "bn": "বিভার",
+      "emoji": "🦫",
+      "roman": "bivar"
+    },
+    {
+      "id": "animals-moose",
+      "en": "moose",
+      "bn": "মুস",
+      "emoji": "🫎",
+      "roman": "mus"
+    },
+    {
+      "id": "animals-reindeer",
+      "en": "reindeer",
+      "bn": "রেইনডিয়ার",
+      "emoji": "🦌",
+      "roman": "reindear"
+    },
+    {
+      "id": "animals-bison",
+      "en": "bison",
+      "bn": "বাইসন",
+      "emoji": "🦬",
+      "roman": "bison"
+    },
+    {
+      "id": "animals-yak",
+      "en": "yak",
+      "bn": "ইয়াক",
+      "emoji": "🐂",
+      "roman": "yak"
+    },
+    {
+      "id": "animals-ox",
+      "en": "ox",
+      "bn": "বলদ",
+      "emoji": "🐂",
+      "roman": "bolod"
+    },
+    {
+      "id": "animals-donkey",
+      "en": "donkey",
+      "bn": "গাধা",
+      "emoji": "🫏",
+      "roman": "gadha"
+    },
+    {
+      "id": "animals-mule",
+      "en": "mule",
+      "bn": "খচ্চর",
+      "emoji": "🫏",
+      "roman": "khachchor"
+    },
+    {
+      "id": "animals-pony",
+      "en": "pony",
+      "bn": "শিশু ঘোড়া",
+      "emoji": "🐴",
+      "roman": "shishu ghora"
+    },
+    {
+      "id": "animals-rhinoceros",
+      "en": "rhinoceros",
+      "bn": "গন্ডার",
+      "emoji": "🦏",
+      "roman": "gondar"
+    },
+    {
+      "id": "animals-hippopotamus",
+      "en": "hippopotamus",
+      "bn": "জলহস্তী",
+      "emoji": "🦛",
+      "roman": "jolhasti"
+    },
+    {
+      "id": "animals-cheetah",
+      "en": "cheetah",
+      "bn": "চিতা বাঘ",
+      "emoji": "🐆",
+      "roman": "chita bagh"
+    },
+    {
+      "id": "animals-leopard",
+      "en": "leopard",
+      "bn": "চিতা",
+      "emoji": "🐆",
+      "roman": "chita"
+    },
+    {
+      "id": "animals-jaguar",
+      "en": "jaguar",
+      "bn": "জাগুয়ার",
+      "emoji": "🐆",
+      "roman": "jaguar"
+    },
+    {
+      "id": "animals-panther",
+      "en": "panther",
+      "bn": "কালো বাঘ",
+      "emoji": "🐆",
+      "roman": "kalo bagh"
+    },
+    {
+      "id": "animals-hyena",
+      "en": "hyena",
+      "bn": "হায়না",
+      "emoji": "🐕",
+      "roman": "hayna"
+    },
+    {
+      "id": "animals-mongoose",
+      "en": "mongoose",
+      "bn": "বেঙ্গল",
+      "emoji": "🐾",
+      "roman": "bengol"
+    },
+    {
+      "id": "animals-meerkat",
+      "en": "meerkat",
+      "bn": "মিরক্যাট",
+      "emoji": "🐾",
+      "roman": "mirkat"
+    },
+    {
+      "id": "animals-armadillo",
+      "en": "armadillo",
+      "bn": "আর্মাডিলো",
+      "emoji": "🐾",
+      "roman": "armadilo"
+    },
+    {
+      "id": "animals-tapir",
+      "en": "tapir",
+      "bn": "টেপির",
+      "emoji": "🐾",
+      "roman": "tepir"
+    },
+    {
+      "id": "animals-llama",
+      "en": "llama",
+      "bn": "লামা",
+      "emoji": "🦙",
+      "roman": "lama"
+    },
+    {
+      "id": "animals-alpaca",
+      "en": "alpaca",
+      "bn": "আলপাকা",
+      "emoji": "🦙",
+      "roman": "alpaka"
+    },
+    {
+      "id": "animals-ostrich",
+      "en": "ostrich",
+      "bn": "অস্ট্রিচ",
+      "emoji": "🦃",
+      "roman": "ostrich"
+    },
+    {
+      "id": "animals-emu",
+      "en": "emu",
+      "bn": "ইমু",
+      "emoji": "🦃",
+      "roman": "imu"
+    },
+    {
+      "id": "animals-flamingo",
+      "en": "flamingo",
+      "bn": "ফ্ল্যামিঙ্গো",
+      "emoji": "🦩",
+      "roman": "flamingo"
+    },
+    {
+      "id": "animals-pelican",
+      "en": "pelican",
+      "bn": "পেলিকান",
+      "emoji": "🦢",
+      "roman": "pelikan"
+    },
+    {
+      "id": "animals-swan",
+      "en": "swan",
+      "bn": "রাজহাঁস",
+      "emoji": "🦢",
+      "roman": "rajhans"
+    },
+    {
+      "id": "animals-turkey",
+      "en": "turkey",
+      "bn": "তুরকি",
+      "emoji": "🦃",
+      "roman": "turki"
+    },
+    {
+      "id": "animals-eagle",
+      "en": "eagle",
+      "bn": "ঈগল",
+      "emoji": "🦅",
+      "roman": "ishor"
+    },
+    {
+      "id": "animals-hawk",
+      "en": "hawk",
+      "bn": "বাজ",
+      "emoji": "🦅",
+      "roman": "baj"
+    },
+    {
+      "id": "animals-woodpecker",
+      "en": "woodpecker",
+      "bn": "কাঠঠোকরা",
+      "emoji": "🪶",
+      "roman": "kaththokra"
+    },
+    {
+      "id": "animals-kingfisher",
+      "en": "kingfisher",
+      "bn": "মাছরাঙা",
+      "emoji": "🐦",
+      "roman": "machranga"
+    },
+    {
+      "id": "animals-heron",
+      "en": "heron",
+      "bn": "বক",
+      "emoji": "🦢",
+      "roman": "bok"
+    },
+    {
+      "id": "animals-stork",
+      "en": "stork",
+      "bn": "সারস",
+      "emoji": "🦩",
+      "roman": "sars"
+    },
+    {
+      "id": "animals-seagull",
+      "en": "seagull",
+      "bn": "সীগাল",
+      "emoji": "🕊️",
+      "roman": "sigal"
+    },
+    {
+      "id": "animals-hummingbird",
+      "en": "hummingbird",
+      "bn": "হামিংবার্ড",
+      "emoji": "🐦",
+      "roman": "hummingbird"
+    },
+    {
+      "id": "animals-canary",
+      "en": "canary",
+      "bn": "ক্যানারি",
+      "emoji": "🐦",
+      "roman": "kanari"
+    },
+    {
+      "id": "animals-finch",
+      "en": "finch",
+      "bn": "ফিঞ্চ",
+      "emoji": "🐦",
+      "roman": "finch"
+    },
+    {
+      "id": "animals-myna",
+      "en": "myna",
+      "bn": "শালিক",
+      "emoji": "🐦",
+      "roman": "shalik"
+    },
+    {
+      "id": "animals-cuckoo",
+      "en": "cuckoo",
+      "bn": "কোকিল",
+      "emoji": "🐦",
+      "roman": "kokil"
+    },
+    {
+      "id": "animals-magpie",
+      "en": "magpie",
+      "bn": "কোঁকড়া",
+      "emoji": "🐦",
+      "roman": "kõkra"
+    },
+    {
+      "id": "animals-raven",
+      "en": "raven",
+      "bn": "ডাকপাখি",
+      "emoji": "🐦‍⬛",
+      "roman": "dakpakhi"
+    },
+    {
+      "id": "animals-dove",
+      "en": "dove",
+      "bn": "ঘুঘু",
+      "emoji": "🕊️",
+      "roman": "ghughu"
+    },
+    {
+      "id": "animals-quail",
+      "en": "quail",
+      "bn": "তিতির",
+      "emoji": "🐦",
+      "roman": "titir"
+    },
+    {
+      "id": "animals-pheasant",
+      "en": "pheasant",
+      "bn": "মাঝপাখি",
+      "emoji": "🐦",
+      "roman": "majhpakhi"
+    },
+    {
+      "id": "animals-cockatoo",
+      "en": "cockatoo",
+      "bn": "কাকাতু",
+      "emoji": "🦜",
+      "roman": "kakatu"
+    },
+    {
+      "id": "animals-macaw",
+      "en": "macaw",
+      "bn": "ম্যাকাও",
+      "emoji": "🦜",
+      "roman": "makaw"
+    },
+    {
+      "id": "animals-toucan",
+      "en": "toucan",
+      "bn": "টুকান",
+      "emoji": "🦜",
+      "roman": "tukan"
+    },
+    {
+      "id": "animals-weaver-bird",
+      "en": "weaver bird",
+      "bn": "বাবুই",
+      "emoji": "🐦",
+      "roman": "babui"
+    },
+    {
+      "id": "animals-hornbill",
+      "en": "hornbill",
+      "bn": "ধনেশ",
+      "emoji": "🐦",
+      "roman": "dhanesh"
+    },
+    {
+      "id": "animals-drongo",
+      "en": "drongo",
+      "bn": "ফিঙ্গে",
+      "emoji": "🐦",
+      "roman": "phinge"
+    },
+    {
+      "id": "animals-kite-bird",
+      "en": "kite bird",
+      "bn": "চিল",
+      "emoji": "🦅",
+      "roman": "chil"
+    },
+    {
+      "id": "animals-duckling",
+      "en": "duckling",
+      "bn": "হাঁসের বাচ্চা",
+      "emoji": "🐤",
+      "roman": "hasher baccha"
+    },
+    {
+      "id": "animals-shark",
+      "en": "shark",
+      "bn": "হাঙ্গর",
+      "emoji": "🦈",
+      "roman": "hangor"
+    },
+    {
+      "id": "animals-octopus",
+      "en": "octopus",
+      "bn": "অক্টোপাস",
+      "emoji": "🐙",
+      "roman": "octopus"
+    },
+    {
+      "id": "animals-squid",
+      "en": "squid",
+      "bn": "স্কুইড",
+      "emoji": "🦑",
+      "roman": "skuid"
+    },
+    {
+      "id": "animals-jellyfish",
+      "en": "jellyfish",
+      "bn": "জেলিফিশ",
+      "emoji": "🪼",
+      "roman": "jelifish"
+    },
+    {
+      "id": "animals-starfish",
+      "en": "starfish",
+      "bn": "তারামাছ",
+      "emoji": "⭐",
+      "roman": "taramachh"
+    },
+    {
+      "id": "animals-seahorse",
+      "en": "seahorse",
+      "bn": "ঘোড়ামাছ",
+      "emoji": "🐴",
+      "roman": "ghoramachh"
+    },
+    {
+      "id": "animals-lobster",
+      "en": "lobster",
+      "bn": "লবস্টার",
+      "emoji": "🦞",
+      "roman": "lobstar"
+    },
+    {
+      "id": "animals-oyster",
+      "en": "oyster",
+      "bn": "ঝিনুক",
+      "emoji": "🦪",
+      "roman": "jhinuk"
+    },
+    {
+      "id": "animals-clam",
+      "en": "clam",
+      "bn": "শামুক",
+      "emoji": "🐚",
+      "roman": "shamuk"
+    },
+    {
+      "id": "animals-eel",
+      "en": "eel",
+      "bn": "কুচিয়া",
+      "emoji": "🐍",
+      "roman": "kuchia"
+    },
+    {
+      "id": "animals-stingray",
+      "en": "stingray",
+      "bn": "শঙ্কুচ",
+      "emoji": "🐟",
+      "roman": "shonkuch"
+    },
+    {
+      "id": "animals-goldfish",
+      "en": "goldfish",
+      "bn": "সোনামাছ",
+      "emoji": "🐠",
+      "roman": "sonamachh"
+    },
+    {
+      "id": "animals-catfish",
+      "en": "catfish",
+      "bn": "মাগুর",
+      "emoji": "🐟",
+      "roman": "magur"
+    },
+    {
+      "id": "animals-hilsa-fish",
+      "en": "hilsa fish",
+      "bn": "ইলিশ",
+      "emoji": "🐟",
+      "roman": "ilish"
+    },
+    {
+      "id": "animals-rohu-fish",
+      "en": "rohu fish",
+      "bn": "রুই",
+      "emoji": "🐟",
+      "roman": "rui"
+    },
+    {
+      "id": "animals-katla-fish",
+      "en": "katla fish",
+      "bn": "কাতলা",
+      "emoji": "🐟",
+      "roman": "katla"
+    },
+    {
+      "id": "animals-tuna",
+      "en": "tuna",
+      "bn": "টুনা",
+      "emoji": "🐟",
+      "roman": "tuna"
+    },
+    {
+      "id": "animals-salmon",
+      "en": "salmon",
+      "bn": "সলমোন",
+      "emoji": "🐟",
+      "roman": "salmon"
+    },
+    {
+      "id": "animals-orca",
+      "en": "orca",
+      "bn": "অর্কা",
+      "emoji": "🐋",
+      "roman": "orka"
+    },
+    {
+      "id": "animals-lizard",
+      "en": "lizard",
+      "bn": "টিকটিকি",
+      "emoji": "🦎",
+      "roman": "tiktiki"
+    },
+    {
+      "id": "animals-gecko",
+      "en": "gecko",
+      "bn": "টিকটিকি",
+      "emoji": "🦎",
+      "roman": "tiktiki"
+    },
+    {
+      "id": "animals-chameleon",
+      "en": "chameleon",
+      "bn": "বহুরূপী",
+      "emoji": "🦎",
+      "roman": "bohurupi"
+    },
+    {
+      "id": "animals-python-snake",
+      "en": "python snake",
+      "bn": "অজগর",
+      "emoji": "🐍",
+      "roman": "ajogor"
+    },
+    {
+      "id": "animals-cobra-snake",
+      "en": "cobra snake",
+      "bn": "কোব্রা",
+      "emoji": "🐍",
+      "roman": "kobra"
+    },
+    {
+      "id": "animals-toad",
+      "en": "toad",
+      "bn": "ব্যাঙ",
+      "emoji": "🐸",
+      "roman": "byang"
+    },
+    {
+      "id": "animals-beetle",
+      "en": "beetle",
+      "bn": "পোকা",
+      "emoji": "🪲",
+      "roman": "poka"
+    },
+    {
+      "id": "animals-dragonfly",
+      "en": "dragonfly",
+      "bn": "ধ্রোবলপোকা",
+      "emoji": "🪰",
+      "roman": "dragonfly"
+    },
+    {
+      "id": "animals-grasshopper",
+      "en": "grasshopper",
+      "bn": "ঘাসফড়িং",
+      "emoji": "🦗",
+      "roman": "ghasforing"
+    },
+    {
+      "id": "animals-cricket-insect",
+      "en": "cricket insect",
+      "bn": "ঝিঁঝিঁ",
+      "emoji": "🦗",
+      "roman": "jhinjhin"
+    },
+    {
+      "id": "animals-cockroach",
+      "en": "cockroach",
+      "bn": "তেলাপোকা",
+      "emoji": "🪳",
+      "roman": "telapoka"
+    },
+    {
+      "id": "animals-moth",
+      "en": "moth",
+      "bn": "পতঙ্গ",
+      "emoji": "🦋",
+      "roman": "moth"
+    },
+    {
+      "id": "animals-caterpillar",
+      "en": "caterpillar",
+      "bn": "ইল",
+      "emoji": "🐛",
+      "roman": "caterpillar"
+    },
+    {
+      "id": "animals-worm",
+      "en": "worm",
+      "bn": "কেঁচো",
+      "emoji": "🪱",
+      "roman": "kencho"
+    },
+    {
+      "id": "animals-snail",
+      "en": "snail",
+      "bn": "শামুক",
+      "emoji": "🐌",
+      "roman": "shamuk"
+    },
+    {
+      "id": "animals-scorpion",
+      "en": "scorpion",
+      "bn": "বিচ্ছি",
+      "emoji": "🦂",
+      "roman": "bichhi"
+    },
+    {
+      "id": "animals-ladybug",
+      "en": "ladybug",
+      "bn": "নেনে পোকা",
+      "emoji": "🐞",
+      "roman": "guruhipokkh"
+    },
+    {
+      "id": "animals-firefly",
+      "en": "firefly",
+      "bn": "জোনাকি",
+      "emoji": "✨",
+      "roman": "jonaki"
+    },
+    {
+      "id": "animals-wasp",
+      "en": "wasp",
+      "bn": "ভোরাল",
+      "emoji": "🐝",
+      "roman": "bhoral"
+    },
+    {
+      "id": "animals-hornet",
+      "en": "hornet",
+      "bn": "ভোরাল",
+      "emoji": "🐝",
+      "roman": "bhoral"
+    },
+    {
+      "id": "animals-calf",
+      "en": "calf",
+      "bn": "বাছুর",
+      "emoji": "🐄",
+      "roman": "bachhur"
+    },
+    {
+      "id": "animals-lamb",
+      "en": "lamb",
+      "bn": "বাছা",
+      "emoji": "🐑",
+      "roman": "bachha"
+    },
+    {
+      "id": "animals-kid-goat",
+      "en": "kid goat",
+      "bn": "ছাগলছানা",
+      "emoji": "🐐",
+      "roman": "chagolchhana"
+    },
+    {
+      "id": "animals-piglet",
+      "en": "piglet",
+      "bn": "শূকরছানা",
+      "emoji": "🐷",
+      "roman": "shukorchhana"
+    },
+    {
+      "id": "animals-foal",
+      "en": "foal",
+      "bn": "ঘোড়াছানা",
+      "emoji": "🐴",
+      "roman": "ghorachhana"
+    },
+    {
+      "id": "animals-fawn",
+      "en": "fawn",
+      "bn": "হরিণ ছানা",
+      "emoji": "🦌",
+      "roman": "horin chhana"
+    },
+    {
+      "id": "animals-bear-cub",
+      "en": "bear cub",
+      "bn": "ভালুকছানা",
+      "emoji": "🐻",
+      "roman": "bhaluk chhana"
+    },
+    {
+      "id": "animals-kitten",
+      "en": "kitten",
+      "bn": "বিড়াল ছানা",
+      "emoji": "🐱",
+      "roman": "biṛal chhana"
+    },
+    {
+      "id": "animals-tadpole",
+      "en": "tadpole",
+      "bn": "ব্যাঙের ছানা",
+      "emoji": "🐸",
+      "roman": "tadpole"
+    },
+    {
+      "id": "animals-silkworm",
+      "en": "silkworm",
+      "bn": "রেশম পোকা",
+      "emoji": "🐛",
+      "roman": "resham poka"
+    },
+    {
+      "id": "animals-earthworm",
+      "en": "earthworm",
+      "bn": "কেঁচো",
+      "emoji": "🪱",
+      "roman": "kencho"
+    },
+    {
+      "id": "animals-leech",
+      "en": "leech",
+      "bn": "জোঁক",
+      "emoji": "🪱",
+      "roman": "jok"
+    },
+    {
+      "id": "animals-sea-lion",
+      "en": "sea lion",
+      "bn": "সামুদ্রিক সিংহ",
+      "emoji": "🦭",
+      "roman": "si layon"
+    },
+    {
+      "id": "animals-platypus",
+      "en": "platypus",
+      "bn": "প্ল্যাটিপাস",
+      "emoji": "🦆",
+      "roman": "platipus"
+    },
+    {
+      "id": "animals-lemur",
+      "en": "lemur",
+      "bn": "লেমুর",
+      "emoji": "🐒",
+      "roman": "lemur"
+    },
+    {
+      "id": "animals-gibbon",
+      "en": "gibbon",
+      "bn": "জিব্বন",
+      "emoji": "🐒",
+      "roman": "gibbon"
+    },
+    {
+      "id": "animals-orangutan",
+      "en": "orangutan",
+      "bn": "অরেঞ্জুটান",
+      "emoji": "🦧",
+      "roman": "orangutan"
+    },
+    {
+      "id": "animals-chimpanzee",
+      "en": "chimpanzee",
+      "bn": "শিম্পাঞ্জি",
+      "emoji": "🐒",
+      "roman": "chimpanji"
+    },
+    {
+      "id": "animals-gorilla",
+      "en": "gorilla",
+      "bn": "গোরিলা",
+      "emoji": "🦍",
+      "roman": "gorila"
+    },
+    {
+      "id": "animals-baboon",
+      "en": "baboon",
+      "bn": "বেবুন",
+      "emoji": "🐒",
+      "roman": "babun"
+    },
+    {
+      "id": "animals-pangolin",
+      "en": "pangolin",
+      "bn": "বন্রুই",
+      "emoji": "🐾",
+      "roman": "bonrui"
+    },
+    {
+      "id": "animals-anteater",
+      "en": "anteater",
+      "bn": "পিঁপড়া ভক্ষক",
+      "emoji": "🐾",
+      "roman": "pipra bhokkhok"
+    },
+    {
+      "id": "animals-snow-leopard",
+      "en": "snow leopard",
+      "bn": "হিম বাঘ",
+      "emoji": "🐆",
+      "roman": "him bagh"
+    },
+    {
+      "id": "animals-wild-boar",
+      "en": "wild boar",
+      "bn": "বন শূকর",
+      "emoji": "🐗",
+      "roman": "bon shukor"
+    },
+    {
+      "id": "animals-boar",
+      "en": "boar",
+      "bn": "শূকর",
+      "emoji": "🐗",
+      "roman": "shukor"
+    },
+    {
+      "id": "animals-ram",
+      "en": "ram",
+      "bn": "পুরুষ ভেড়া",
+      "emoji": "🐏",
+      "roman": "purush bhera"
+    },
+    {
+      "id": "animals-ewe",
+      "en": "ewe",
+      "bn": "মাদা ভেড়া",
+      "emoji": "🐑",
+      "roman": "mada bhera"
+    },
+    {
+      "id": "animals-bull",
+      "en": "bull",
+      "bn": "ষাঁড়",
+      "emoji": "🐂",
+      "roman": "shãṛ"
+    },
+    {
+      "id": "animals-heifer",
+      "en": "heifer",
+      "bn": "বকনা",
+      "emoji": "🐄",
+      "roman": "bokna"
+    },
+    {
+      "id": "animals-stallion",
+      "en": "stallion",
+      "bn": "ঘোড়া",
+      "emoji": "🐴",
+      "roman": "ghora"
+    },
+    {
+      "id": "animals-mare",
+      "en": "mare",
+      "bn": "মাদা ঘোড়া",
+      "emoji": "🐴",
+      "roman": "mada ghora"
+    },
+    {
+      "id": "animals-robin-bird",
+      "en": "robin bird",
+      "bn": "রবিন",
+      "emoji": "🐦",
+      "roman": "robin"
+    },
+    {
+      "id": "animals-nightingale",
+      "en": "nightingale",
+      "bn": "বুলবুলি",
+      "emoji": "🐦",
+      "roman": "bulbuli"
+    },
+    {
+      "id": "animals-lovebird",
+      "en": "lovebird",
+      "bn": "প্রেম পাখি",
+      "emoji": "🐦",
+      "roman": "prem pakhi"
+    },
+    {
+      "id": "animals-parakeet",
+      "en": "parakeet",
+      "bn": "টিয়া পাখি",
+      "emoji": "🦜",
+      "roman": "tiya pakhi"
+    },
+    {
+      "id": "animals-blue-jay",
+      "en": "blue jay",
+      "bn": "নীল কাক",
+      "emoji": "🐦",
+      "roman": "nil kak"
+    },
+    {
+      "id": "animals-wren",
+      "en": "wren",
+      "bn": "টিটটি",
+      "emoji": "🐦",
+      "roman": "titti"
+    },
+    {
+      "id": "animals-thrush",
+      "en": "thrush",
+      "bn": "দোয়াল",
+      "emoji": "🐦",
+      "roman": "doel"
+    },
+    {
+      "id": "animals-barbet-bird",
+      "en": "barbet bird",
+      "bn": "বসন্তরাজ",
+      "emoji": "🐦",
+      "roman": "basantaraj"
+    },
+    {
+      "id": "animals-roller-bird",
+      "en": "roller bird",
+      "bn": "নীলকণ্ঠ",
+      "emoji": "🐦",
+      "roman": "nilkantho"
+    },
+    {
+      "id": "animals-sunbird",
+      "en": "sunbird",
+      "bn": "মৌটাতি",
+      "emoji": "🐦",
+      "roman": "moutusi"
+    },
+    {
+      "id": "animals-sandpiper",
+      "en": "sandpiper",
+      "bn": "বেলা পাখি",
+      "emoji": "🐦",
+      "roman": "bela pakhi"
+    },
+    {
+      "id": "animals-tern-bird",
+      "en": "tern bird",
+      "bn": "সামুদ্রিক পাখি",
+      "emoji": "🐦",
+      "roman": "samudrik pakhi"
+    },
+    {
+      "id": "animals-cormorant",
+      "en": "cormorant",
+      "bn": "পানকৌড়ি",
+      "emoji": "🐦",
+      "roman": "pankowri"
+    },
+    {
+      "id": "animals-sand-crab",
+      "en": "sand crab",
+      "bn": "কাঁকড়া",
+      "emoji": "🦀",
+      "roman": "kakra"
+    },
+    {
+      "id": "animals-hermit-crab",
+      "en": "hermit crab",
+      "bn": "একাকী কাঁকড়া",
+      "emoji": "🦀",
+      "roman": "hermit kakra"
+    },
+    {
+      "id": "animals-porpoise",
+      "en": "porpoise",
+      "bn": "শুশুক",
+      "emoji": "🐬",
+      "roman": "porpois"
+    },
+    {
+      "id": "animals-manatee",
+      "en": "manatee",
+      "bn": "মানাটি",
+      "emoji": "🐋",
+      "roman": "manati"
+    },
+    {
+      "id": "animals-beluga-whale",
+      "en": "beluga whale",
+      "bn": "বেলুগা তিমি",
+      "emoji": "🐋",
+      "roman": "beluga timi"
+    },
+    {
+      "id": "animals-blue-whale",
+      "en": "blue whale",
+      "bn": "নীল তিমি",
+      "emoji": "🐋",
+      "roman": "nil timi"
+    },
+    {
+      "id": "animals-swordfish",
+      "en": "swordfish",
+      "bn": "তলোয়ার মাছ",
+      "emoji": "🐟",
+      "roman": "toyar machh"
+    },
+    {
+      "id": "animals-marlin",
+      "en": "marlin",
+      "bn": "মার্লিন মাছ",
+      "emoji": "🐟",
+      "roman": "marlin machh"
+    },
+    {
+      "id": "animals-trout",
+      "en": "trout",
+      "bn": "ট্রাউট মাছ",
+      "emoji": "🐟",
+      "roman": "trout machh"
+    },
+    {
+      "id": "animals-carp",
+      "en": "carp",
+      "bn": "কার্প মাছ",
+      "emoji": "🐟",
+      "roman": "karp machh"
+    },
+    {
+      "id": "animals-pomfret",
+      "en": "pomfret",
+      "bn": "পমফ্রেট",
+      "emoji": "🐟",
+      "roman": "pomfret machh"
+    },
+    {
+      "id": "animals-sardine",
+      "en": "sardine",
+      "bn": "সারডিন",
+      "emoji": "🐟",
+      "roman": "sardine machh"
+    },
+    {
+      "id": "animals-mackerel",
+      "en": "mackerel",
+      "bn": "ম্যাকরেল",
+      "emoji": "🐟",
+      "roman": "mackerel machh"
+    },
+    {
+      "id": "animals-pufferfish",
+      "en": "pufferfish",
+      "bn": "ফুপো মাছ",
+      "emoji": "🐡",
+      "roman": "fufo machh"
+    },
+    {
+      "id": "animals-clownfish",
+      "en": "clownfish",
+      "bn": "মাধ্যম মাছ",
+      "emoji": "🐠",
+      "roman": "klown machh"
+    },
+    {
+      "id": "animals-alligator",
+      "en": "alligator",
+      "bn": "অ্যালিগেটর",
+      "emoji": "🐊",
+      "roman": "alligator"
+    },
+    {
+      "id": "animals-iguana",
+      "en": "iguana",
+      "bn": "ইগুয়ানা",
+      "emoji": "🦎",
+      "roman": "iguana"
+    },
+    {
+      "id": "animals-salamander",
+      "en": "salamander",
+      "bn": "স্যালাম্যান্ডার",
+      "emoji": "🦎",
+      "roman": "salamander"
+    },
+    {
+      "id": "animals-centipede",
+      "en": "centipede",
+      "bn": "শতপাদী",
+      "emoji": "🐛",
+      "roman": "shatopadi"
+    },
+    {
+      "id": "animals-millipede",
+      "en": "millipede",
+      "bn": "হাজার পা",
+      "emoji": "🐛",
+      "roman": "hajar padi"
+    },
+    {
+      "id": "animals-flea",
+      "en": "flea",
+      "bn": "উপাড়",
+      "emoji": "🦟",
+      "roman": "upad"
+    },
+    {
+      "id": "animals-tick-insect",
+      "en": "tick insect",
+      "bn": "টিক",
+      "emoji": "🪲",
+      "roman": "tik"
+    },
+    {
+      "id": "animals-cicada",
+      "en": "cicada",
+      "bn": "শেহরা",
+      "emoji": "🦗",
+      "roman": "sikada"
+    },
+    {
+      "id": "animals-termite",
+      "en": "termite",
+      "bn": "উইপোকা",
+      "emoji": "🐜",
+      "roman": "uistachor"
+    },
+    {
+      "id": "animals-bumblebee",
+      "en": "bumblebee",
+      "bn": "বাম্বলবি",
+      "emoji": "🐝",
+      "roman": "bambelbi"
+    },
+    {
+      "id": "animals-colt",
+      "en": "colt",
+      "bn": "ঘোড়াছানা",
+      "emoji": "🐴",
+      "roman": "ghorachhana"
+    },
+    {
+      "id": "animals-pup",
+      "en": "pup",
+      "bn": "কুকুরছানা",
+      "emoji": "🐶",
+      "roman": "kukurchhana"
+    },
+    {
+      "id": "animals-wolf-cub",
+      "en": "wolf cub",
+      "bn": "নেকড়ে ছানা",
+      "emoji": "🐺",
+      "roman": "nekre chhana"
+    },
+    {
+      "id": "animals-lion-cub",
+      "en": "lion cub",
+      "bn": "সিংহ ছানা",
+      "emoji": "🦁",
+      "roman": "singho chhana"
+    },
+    {
+      "id": "animals-tiger-cub",
+      "en": "tiger cub",
+      "bn": "বাঘ ছানা",
+      "emoji": "🐯",
+      "roman": "bagh chhana"
+    },
+    {
+      "id": "animals-elephant-calf",
+      "en": "elephant calf",
+      "bn": "হাতি ছানা",
+      "emoji": "🐘",
+      "roman": "hati chhana"
+    },
+    {
+      "id": "animals-monkey-baby",
+      "en": "monkey baby",
+      "bn": "বানর ছানা",
+      "emoji": "🐵",
+      "roman": "banor chhana"
+    },
+    {
+      "id": "animals-rabbit-kit",
+      "en": "rabbit kit",
+      "bn": "খরগোশ ছানা",
+      "emoji": "🐰",
+      "roman": "khorgosh chhana"
+    },
+    {
+      "id": "animals-seal-pup",
+      "en": "seal pup",
+      "bn": "সিল ছানা",
+      "emoji": "🦭",
+      "roman": "sil chhana"
+    },
+    {
+      "id": "animals-cygnet",
+      "en": "cygnet",
+      "bn": "রাজহাসের বাচ্চা",
+      "emoji": "🦢",
+      "roman": "rajhanser baccha"
+    },
+    {
+      "id": "animals-gosling",
+      "en": "gosling",
+      "bn": "হাঁসের ছানা",
+      "emoji": "🐤",
+      "roman": "hash chhana"
+    },
+    {
+      "id": "animals-penguin-chick",
+      "en": "penguin chick",
+      "bn": "পেঙ্গুইন ছানা",
+      "emoji": "🐧",
+      "roman": "penguin chhana"
+    },
+    {
+      "id": "animals-owl-chick",
+      "en": "owl chick",
+      "bn": "পেঁচা ছানা",
+      "emoji": "🦉",
+      "roman": "pecha chhana"
+    },
+    {
+      "id": "animals-eaglet",
+      "en": "eaglet",
+      "bn": "ঈগল ছানা",
+      "emoji": "🦅",
+      "roman": "ishor chhana"
+    },
+    {
+      "id": "animals-nestling",
+      "en": "nestling",
+      "bn": "ঘাঁটির বাচ্চা",
+      "emoji": "🐦",
+      "roman": "ghare bachcha"
+    },
+    {
+      "id": "animals-hatchling",
+      "en": "hatchling",
+      "bn": "ডিম থেকে বাচ্চা",
+      "emoji": "🐣",
+      "roman": "dim theke bachcha"
+    },
+    {
+      "id": "animals-school-of-fish",
+      "en": "school of fish",
+      "bn": "মাছের ঝাুড়",
+      "emoji": "🐟",
+      "roman": "machher jhund"
+    },
+    {
+      "id": "animals-flock-of-birds",
+      "en": "flock of birds",
+      "bn": "পখির ঝাুড়",
+      "emoji": "🐦",
+      "roman": "pakhir jhund"
+    },
+    {
+      "id": "animals-herd-of-cows",
+      "en": "herd of cows",
+      "bn": "গরুর ঝাুড়",
+      "emoji": "🐄",
+      "roman": "gorur jhund"
+    },
+    {
+      "id": "animals-pack-of-wolves",
+      "en": "pack of wolves",
+      "bn": "নেকড়ের দল",
+      "emoji": "🐺",
+      "roman": "nekrer dal"
+    },
+    {
+      "id": "animals-pride-of-lions",
+      "en": "pride of lions",
+      "bn": "সিূহের দল",
+      "emoji": "🦁",
+      "roman": "singher dal"
+    },
+    {
+      "id": "animals-colony-of-ants",
+      "en": "colony of ants",
+      "bn": "পিু়ড়ার কলোনি",
+      "emoji": "🐜",
+      "roman": "piprer koloni"
+    },
+    {
+      "id": "animals-swarm-of-bees",
+      "en": "swarm of bees",
+      "bn": "মৌমাছির ঝাুড়",
+      "emoji": "🐝",
+      "roman": "moumachir jhund"
+    }
   ]
 }

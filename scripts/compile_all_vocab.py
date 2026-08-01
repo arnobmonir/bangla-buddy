@@ -2,6 +2,7 @@
 """Compile full vocabulary and write scripts/_gen_vocab_extra.py."""
 import importlib.util
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -85,12 +86,14 @@ script = f'''#!/usr/bin/env python3
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "vocab-extra.mjs"
 MIN_TOTAL = {MIN_TOTAL}
+BN_RE = re.compile(r"[\\u0980-\\u09FF]")
 
 VOCAB_DATA = json.loads({payload!r})
 
@@ -121,6 +124,16 @@ def from_rows(rows: list[list]) -> list[dict]:
         w(r[0], r[1], r[2] if len(r) > 2 and r[2] else None, r[3] if len(r) > 3 and r[3] else None)
         for r in rows
     ]
+
+
+def validate_bn(data: dict[str, list[dict]]) -> int:
+    bad = 0
+    for cat, items in data.items():
+        for x in items:
+            if not BN_RE.search(x["bn"]):
+                print(f"ERROR: {{cat}}/{{x['en']}} bn lacks Bengali: {{x['bn']!r}}", file=sys.stderr)
+                bad += 1
+    return bad
 
 
 def fmt_entry(entry: dict, indent: str = "    ") -> str:
@@ -158,11 +171,12 @@ def main() -> int:
     data = build_vocab()
     counts = {{k: len(v) for k, v in data.items()}}
     total = sum(counts.values())
+    bad = validate_bn(data)
     for cat, n in counts.items():
         print(f"{{cat}}: {{n}}")
     print(f"total: {{total}}")
-    if total < MIN_TOTAL:
-        print(f"ERROR: total {{total}} < {{MIN_TOTAL}}", file=sys.stderr)
+    print(f"bad_bn: {{bad}}")
+    if total < MIN_TOTAL or bad > 0:
         return 1
     write_js(data, OUT)
     print(f"Wrote {{OUT}}")

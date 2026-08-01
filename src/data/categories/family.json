@@ -1,41 +1,985 @@
 {
   "categoryId": "family",
   "words": [
-    { "id": "family-mother", "en": "mother", "bn": "মা", "emoji": "👩", "roman": "ma" },
-    { "id": "family-father", "en": "father", "bn": "বাবা", "emoji": "👨", "roman": "baba" },
-    { "id": "family-baby", "en": "baby", "bn": "বাচ্চা", "emoji": "👶", "roman": "baccha" },
-    { "id": "family-brother", "en": "brother", "bn": "ভাই", "emoji": "👦", "roman": "bhai" },
-    { "id": "family-sister", "en": "sister", "bn": "বোন", "emoji": "👧", "roman": "bon" },
-    { "id": "family-grandma", "en": "grandmother", "bn": "দাদী", "emoji": "👵", "roman": "dadi" },
-    { "id": "family-grandpa", "en": "grandfather", "bn": "দাদা", "emoji": "👴", "roman": "dada" },
-    { "id": "family-nani", "en": "maternal grandma", "bn": "নানী", "emoji": "👵", "roman": "nani" },
-    { "id": "family-nana", "en": "maternal grandpa", "bn": "নানা", "emoji": "👴", "roman": "nana" },
-    { "id": "family-uncle", "en": "uncle", "bn": "কাকা", "emoji": "👨‍🦱", "roman": "kaka" },
-    { "id": "family-aunt", "en": "aunt", "bn": "কাকি", "emoji": "👩‍🦱", "roman": "kaki" },
-    { "id": "family-mama", "en": "maternal uncle", "bn": "মামা", "emoji": "👨", "roman": "mama" },
-    { "id": "family-mami", "en": "maternal aunt", "bn": "মামি", "emoji": "👩", "roman": "mami" },
-    { "id": "family-chacha", "en": "paternal uncle", "bn": "চাচা", "emoji": "👨", "roman": "chacha" },
-    { "id": "family-chachi", "en": "paternal aunt", "bn": "চাচি", "emoji": "👩", "roman": "chachi" },
-    { "id": "family-fupu", "en": "paternal aunt", "bn": "ফুপু", "emoji": "👩", "roman": "fupu" },
-    { "id": "family-cousin", "en": "cousin", "bn": "কাজিন", "emoji": "🧒", "roman": "kajin" },
-    { "id": "family-friend", "en": "friend", "bn": "বন্ধু", "emoji": "🤝", "roman": "bondhu" },
-    { "id": "family-neighbor", "en": "neighbor", "bn": "প্রতিবেশী", "emoji": "🏠", "roman": "protibeshi" },
-    { "id": "family-boy", "en": "boy", "bn": "ছেলে", "emoji": "🧒", "roman": "chele" },
-    { "id": "family-girl", "en": "girl", "bn": "মেয়ে", "emoji": "👧", "roman": "meye" },
-    { "id": "family-man", "en": "man", "bn": "পুরুষ", "emoji": "👨", "roman": "purush" },
-    { "id": "family-woman", "en": "woman", "bn": "নারী", "emoji": "👩", "roman": "nari" },
-    { "id": "family-family", "en": "family", "bn": "পরিবার", "emoji": "👨‍👩‍👧", "roman": "poribar" },
-    { "id": "family-child", "en": "child", "bn": "শিশু", "emoji": "🧒", "roman": "shishu" },
-    { "id": "family-teacher", "en": "teacher", "bn": "শিক্ষক", "emoji": "👩‍🏫", "roman": "shikkhok" },
-    { "id": "family-doctor", "en": "doctor", "bn": "ডাক্তার", "emoji": "👨‍⚕️", "roman": "daktar" },
-    { "id": "family-nurse", "en": "nurse", "bn": "নার্স", "emoji": "👩‍⚕️", "roman": "nars" },
-    { "id": "family-driver", "en": "driver", "bn": "চালক", "emoji": "🚗", "roman": "chalok" },
-    { "id": "family-farmer", "en": "farmer", "bn": "কৃষক", "emoji": "👨‍🌾", "roman": "krishok" },
-    { "id": "family-police", "en": "police", "bn": "পুলিশ", "emoji": "👮", "roman": "pulish" },
-    { "id": "family-guest", "en": "guest", "bn": "অতিথি", "emoji": "🛎️", "roman": "otithi" },
-    { "id": "family-people", "en": "people", "bn": "মানুষ", "emoji": "👥", "roman": "manush" },
-    { "id": "family-me", "en": "me", "bn": "আমাকে", "emoji": "🙋", "roman": "amake" },
-    { "id": "family-you", "en": "you", "bn": "তুমি", "emoji": "👉", "roman": "tumi" },
-    { "id": "family-we", "en": "we", "bn": "আমরা", "emoji": "👨‍👩‍👧", "roman": "amra" }
+    {
+      "id": "family-mother",
+      "en": "mother",
+      "bn": "মা",
+      "emoji": "👩",
+      "roman": "ma"
+    },
+    {
+      "id": "family-father",
+      "en": "father",
+      "bn": "বাবা",
+      "emoji": "👨",
+      "roman": "baba"
+    },
+    {
+      "id": "family-baby",
+      "en": "baby",
+      "bn": "বাচ্চা",
+      "emoji": "👶",
+      "roman": "baccha"
+    },
+    {
+      "id": "family-brother",
+      "en": "brother",
+      "bn": "ভাই",
+      "emoji": "👦",
+      "roman": "bhai"
+    },
+    {
+      "id": "family-sister",
+      "en": "sister",
+      "bn": "বোন",
+      "emoji": "👧",
+      "roman": "bon"
+    },
+    {
+      "id": "family-grandma",
+      "en": "grandmother",
+      "bn": "দাদী",
+      "emoji": "👵",
+      "roman": "dadi"
+    },
+    {
+      "id": "family-grandpa",
+      "en": "grandfather",
+      "bn": "দাদা",
+      "emoji": "👴",
+      "roman": "dada"
+    },
+    {
+      "id": "family-nani",
+      "en": "maternal grandma",
+      "bn": "নানী",
+      "emoji": "👵",
+      "roman": "nani"
+    },
+    {
+      "id": "family-nana",
+      "en": "maternal grandpa",
+      "bn": "নানা",
+      "emoji": "👴",
+      "roman": "nana"
+    },
+    {
+      "id": "family-uncle",
+      "en": "uncle",
+      "bn": "কাকা",
+      "emoji": "👨‍🦱",
+      "roman": "kaka"
+    },
+    {
+      "id": "family-aunt",
+      "en": "aunt",
+      "bn": "কাকি",
+      "emoji": "👩‍🦱",
+      "roman": "kaki"
+    },
+    {
+      "id": "family-mama",
+      "en": "maternal uncle",
+      "bn": "মামা",
+      "emoji": "👨",
+      "roman": "mama"
+    },
+    {
+      "id": "family-mami",
+      "en": "maternal aunt",
+      "bn": "মামি",
+      "emoji": "👩",
+      "roman": "mami"
+    },
+    {
+      "id": "family-chacha",
+      "en": "paternal uncle",
+      "bn": "চাচা",
+      "emoji": "👨",
+      "roman": "chacha"
+    },
+    {
+      "id": "family-fupu",
+      "en": "paternal aunt",
+      "bn": "চাচি",
+      "emoji": "👩",
+      "roman": "chachi"
+    },
+    {
+      "id": "family-cousin",
+      "en": "cousin",
+      "bn": "কাজিন",
+      "emoji": "🧒",
+      "roman": "kajin"
+    },
+    {
+      "id": "family-friend",
+      "en": "friend",
+      "bn": "বন্ধু",
+      "emoji": "🤝",
+      "roman": "bondhu"
+    },
+    {
+      "id": "family-neighbor",
+      "en": "neighbor",
+      "bn": "প্রতিবেশী",
+      "emoji": "🏠",
+      "roman": "protibeshi"
+    },
+    {
+      "id": "family-boy",
+      "en": "boy",
+      "bn": "ছেলে",
+      "emoji": "🧒",
+      "roman": "chele"
+    },
+    {
+      "id": "family-girl",
+      "en": "girl",
+      "bn": "মেয়ে",
+      "emoji": "👧",
+      "roman": "meye"
+    },
+    {
+      "id": "family-man",
+      "en": "man",
+      "bn": "পুরুষ",
+      "emoji": "👨",
+      "roman": "purush"
+    },
+    {
+      "id": "family-woman",
+      "en": "woman",
+      "bn": "নারী",
+      "emoji": "👩",
+      "roman": "nari"
+    },
+    {
+      "id": "family-family",
+      "en": "family",
+      "bn": "পরিবার",
+      "emoji": "👨‍👩‍👧",
+      "roman": "poribar"
+    },
+    {
+      "id": "family-child",
+      "en": "child",
+      "bn": "শিশু",
+      "emoji": "🧒",
+      "roman": "shishu"
+    },
+    {
+      "id": "family-teacher",
+      "en": "teacher",
+      "bn": "শিক্ষক",
+      "emoji": "👩‍🏫",
+      "roman": "shikkhok"
+    },
+    {
+      "id": "family-doctor",
+      "en": "doctor",
+      "bn": "ডাক্তার",
+      "emoji": "👨‍⚕️",
+      "roman": "daktar"
+    },
+    {
+      "id": "family-nurse",
+      "en": "nurse",
+      "bn": "নার্স",
+      "emoji": "👩‍⚕️",
+      "roman": "nars"
+    },
+    {
+      "id": "family-driver",
+      "en": "driver",
+      "bn": "চালক",
+      "emoji": "🚗",
+      "roman": "chalok"
+    },
+    {
+      "id": "family-farmer",
+      "en": "farmer",
+      "bn": "কৃষক",
+      "emoji": "👨‍🌾",
+      "roman": "krishok"
+    },
+    {
+      "id": "family-police",
+      "en": "police",
+      "bn": "পুলিশ",
+      "emoji": "👮",
+      "roman": "pulish"
+    },
+    {
+      "id": "family-guest",
+      "en": "guest",
+      "bn": "অতিথি",
+      "emoji": "🛎️",
+      "roman": "otithi"
+    },
+    {
+      "id": "family-people",
+      "en": "people",
+      "bn": "মানুষ",
+      "emoji": "👥",
+      "roman": "manush"
+    },
+    {
+      "id": "family-me",
+      "en": "me",
+      "bn": "আমাকে",
+      "emoji": "🙋",
+      "roman": "amake"
+    },
+    {
+      "id": "family-you",
+      "en": "you",
+      "bn": "তুমি",
+      "emoji": "👉",
+      "roman": "tumi"
+    },
+    {
+      "id": "family-we",
+      "en": "we",
+      "bn": "আমরা",
+      "emoji": "👨‍👩‍👧",
+      "roman": "amra"
+    },
+    {
+      "id": "family-grandson",
+      "en": "grandson",
+      "bn": "নতি",
+      "emoji": "👦",
+      "roman": "nati"
+    },
+    {
+      "id": "family-granddaughter",
+      "en": "granddaughter",
+      "bn": "নতি",
+      "emoji": "👧",
+      "roman": "nati"
+    },
+    {
+      "id": "family-son",
+      "en": "son",
+      "bn": "ছেলে",
+      "emoji": "👦",
+      "roman": "chele"
+    },
+    {
+      "id": "family-daughter",
+      "en": "daughter",
+      "bn": "মেয়ে",
+      "emoji": "👧",
+      "roman": "meye"
+    },
+    {
+      "id": "family-husband",
+      "en": "husband",
+      "bn": "স্বামী",
+      "emoji": "👨",
+      "roman": "swami"
+    },
+    {
+      "id": "family-wife",
+      "en": "wife",
+      "bn": "স্ত্রী",
+      "emoji": "👩",
+      "roman": "stri"
+    },
+    {
+      "id": "family-parents",
+      "en": "parents",
+      "bn": "বাবা মা",
+      "emoji": "👨‍👩‍👧",
+      "roman": "baba ma"
+    },
+    {
+      "id": "family-relatives",
+      "en": "relatives",
+      "bn": "আত্মীয়",
+      "emoji": "👨‍👩‍👧",
+      "roman": "atiyo"
+    },
+    {
+      "id": "family-elder-brother",
+      "en": "elder brother",
+      "bn": "দাদা",
+      "emoji": "👨",
+      "roman": "dada"
+    },
+    {
+      "id": "family-elder-sister",
+      "en": "elder sister",
+      "bn": "দিদি",
+      "emoji": "👩",
+      "roman": "didi"
+    },
+    {
+      "id": "family-younger-brother",
+      "en": "younger brother",
+      "bn": "ছোট ভাই",
+      "emoji": "👦",
+      "roman": "chhoto bhai"
+    },
+    {
+      "id": "family-younger-sister",
+      "en": "younger sister",
+      "bn": "ছোট বোন",
+      "emoji": "👧",
+      "roman": "chhoto bon"
+    },
+    {
+      "id": "family-bride",
+      "en": "bride",
+      "bn": "কন্না",
+      "emoji": "👰",
+      "roman": "konna"
+    },
+    {
+      "id": "family-groom",
+      "en": "groom",
+      "bn": "দুলহা",
+      "emoji": "🤵",
+      "roman": "dulha"
+    },
+    {
+      "id": "family-wedding",
+      "en": "wedding",
+      "bn": "বিয়ে",
+      "emoji": "💒",
+      "roman": "biye"
+    },
+    {
+      "id": "family-twins",
+      "en": "twins",
+      "bn": "যমজ",
+      "emoji": "👯",
+      "roman": "joma"
+    },
+    {
+      "id": "family-babysitter",
+      "en": "babysitter",
+      "bn": "বাচ্চা দেখাশোনাকারী",
+      "emoji": "👩",
+      "roman": "baccha dekhashonakari"
+    },
+    {
+      "id": "family-shopkeeper",
+      "en": "shopkeeper",
+      "bn": "দোকানদার",
+      "emoji": "🏪",
+      "roman": "dokandar"
+    },
+    {
+      "id": "family-rickshaw-puller",
+      "en": "rickshaw puller",
+      "bn": "রিকশাচালক",
+      "emoji": "🛺",
+      "roman": "rikshachalok"
+    },
+    {
+      "id": "family-engineer",
+      "en": "engineer",
+      "bn": "প্রকৌশলী",
+      "emoji": "👷",
+      "roman": "prokousholi"
+    },
+    {
+      "id": "family-pilot",
+      "en": "pilot",
+      "bn": "পাইলট",
+      "emoji": "✈️",
+      "roman": "pilot"
+    },
+    {
+      "id": "family-artist",
+      "en": "artist",
+      "bn": "শিল্পী",
+      "emoji": "🎨",
+      "roman": "shilpi"
+    },
+    {
+      "id": "family-singer",
+      "en": "singer",
+      "bn": "গায়ক",
+      "emoji": "🎤",
+      "roman": "gayok"
+    },
+    {
+      "id": "family-student",
+      "en": "student",
+      "bn": "ছাত্র",
+      "emoji": "🎓",
+      "roman": "chatro"
+    },
+    {
+      "id": "family-classmate",
+      "en": "classmate",
+      "bn": "সহপাঠী",
+      "emoji": "🧑‍🎓",
+      "roman": "sohopathi"
+    },
+    {
+      "id": "family-principal",
+      "en": "principal",
+      "bn": "অধ্যক্ষ",
+      "emoji": "🏫",
+      "roman": "odhyokkh"
+    },
+    {
+      "id": "family-chef",
+      "en": "chef",
+      "bn": "রাঁধুনি",
+      "emoji": "👨‍🍳",
+      "roman": "randhuni"
+    },
+    {
+      "id": "family-barber",
+      "en": "barber",
+      "bn": "নাপিত",
+      "emoji": "💇",
+      "roman": "napit"
+    },
+    {
+      "id": "family-tailor",
+      "en": "tailor",
+      "bn": "দর্জি",
+      "emoji": "🧵",
+      "roman": "darji"
+    },
+    {
+      "id": "family-mechanic",
+      "en": "mechanic",
+      "bn": "মেকানিক",
+      "emoji": "🔧",
+      "roman": "mechanic"
+    },
+    {
+      "id": "family-electrician",
+      "en": "electrician",
+      "bn": "ইলেকট্রিশিয়ান",
+      "emoji": "💡",
+      "roman": "electrician"
+    },
+    {
+      "id": "family-plumber",
+      "en": "plumber",
+      "bn": "প্লাম্বার",
+      "emoji": "🔧",
+      "roman": "plumber"
+    },
+    {
+      "id": "family-carpenter",
+      "en": "carpenter",
+      "bn": "থেকু",
+      "emoji": "🪚",
+      "roman": "thekua"
+    },
+    {
+      "id": "family-gardener",
+      "en": "gardener",
+      "bn": "মালী",
+      "emoji": "🌻",
+      "roman": "mali"
+    },
+    {
+      "id": "family-fisherman",
+      "en": "fisherman",
+      "bn": "জেলে",
+      "emoji": "🎣",
+      "roman": "jele"
+    },
+    {
+      "id": "family-milkman",
+      "en": "milkman",
+      "bn": "দুধওয়ালা",
+      "emoji": "🥛",
+      "roman": "dudhwala"
+    },
+    {
+      "id": "family-teenager",
+      "en": "teenager",
+      "bn": "কিশোর",
+      "emoji": "🧑",
+      "roman": "kishor"
+    },
+    {
+      "id": "family-adult",
+      "en": "adult",
+      "bn": "প্রাপ্তবয়স্ক",
+      "emoji": "🧑",
+      "roman": "proptoboyoshko"
+    },
+    {
+      "id": "family-elder",
+      "en": "elder",
+      "bn": "বৃদ্ধ",
+      "emoji": "👴",
+      "roman": "briddho"
+    },
+    {
+      "id": "family-newborn",
+      "en": "newborn",
+      "bn": "নবজাতক",
+      "emoji": "👶",
+      "roman": "nobojatok"
+    },
+    {
+      "id": "family-orphan",
+      "en": "orphan",
+      "bn": "অনাথ",
+      "emoji": "🧒",
+      "roman": "anath"
+    },
+    {
+      "id": "family-guardian",
+      "en": "guardian",
+      "bn": "অভিভাবক",
+      "emoji": "🧑",
+      "roman": "obhibhabok"
+    },
+    {
+      "id": "family-postman",
+      "en": "postman",
+      "bn": "ডাকপিয়ন",
+      "emoji": "📮",
+      "roman": "dakpiyon"
+    },
+    {
+      "id": "family-porter",
+      "en": "porter",
+      "bn": "হমাল",
+      "emoji": "🧳",
+      "roman": "hamal"
+    },
+    {
+      "id": "family-guard",
+      "en": "guard",
+      "bn": "পহর",
+      "emoji": "🛡️",
+      "roman": "pahara"
+    },
+    {
+      "id": "family-builder",
+      "en": "builder",
+      "bn": "নির্মাতা",
+      "emoji": "👷",
+      "roman": "nirmata"
+    },
+    {
+      "id": "family-sailor",
+      "en": "sailor",
+      "bn": "নাবিক",
+      "emoji": "⚓",
+      "roman": "nabik"
+    },
+    {
+      "id": "family-dancer",
+      "en": "dancer",
+      "bn": "নর্তক",
+      "emoji": "💃",
+      "roman": "nortok"
+    },
+    {
+      "id": "family-writer",
+      "en": "writer",
+      "bn": "লেখক",
+      "emoji": "✍️",
+      "roman": "lekhok"
+    },
+    {
+      "id": "family-scientist",
+      "en": "scientist",
+      "bn": "বিজ্ঞানী",
+      "emoji": "🔬",
+      "roman": "biggyani"
+    },
+    {
+      "id": "family-librarian",
+      "en": "librarian",
+      "bn": "গ্রন্থাগারিক",
+      "emoji": "📚",
+      "roman": "gronthagarik"
+    },
+    {
+      "id": "family-coach",
+      "en": "coach",
+      "bn": "প্রশিক্ষক",
+      "emoji": "🏃",
+      "roman": "proshikkhok"
+    },
+    {
+      "id": "family-judge",
+      "en": "judge",
+      "bn": "বিচারক",
+      "emoji": "⚖️",
+      "roman": "bicharak"
+    },
+    {
+      "id": "family-lawyer",
+      "en": "lawyer",
+      "bn": "উকিল",
+      "emoji": "⚖️",
+      "roman": "ukil"
+    },
+    {
+      "id": "family-banker",
+      "en": "banker",
+      "bn": "ব্যাংকার",
+      "emoji": "🏦",
+      "roman": "bankar"
+    },
+    {
+      "id": "family-waiter",
+      "en": "waiter",
+      "bn": "ওয়েটার",
+      "emoji": "🍽️",
+      "roman": "waiter"
+    },
+    {
+      "id": "family-baker",
+      "en": "baker",
+      "bn": "বেকার",
+      "emoji": "🥖",
+      "roman": "baker"
+    },
+    {
+      "id": "family-cobbler",
+      "en": "cobbler",
+      "bn": "মোচি",
+      "emoji": "👞",
+      "roman": "mochi"
+    },
+    {
+      "id": "family-mason",
+      "en": "mason",
+      "bn": "রাজমিস্ত্রি",
+      "emoji": "🧱",
+      "roman": "rajmistri"
+    },
+    {
+      "id": "family-shepherd",
+      "en": "shepherd",
+      "bn": "গোপল",
+      "emoji": "🐑",
+      "roman": "gopal"
+    },
+    {
+      "id": "family-stepmother",
+      "en": "stepmother",
+      "bn": "সৎ মা",
+      "emoji": "👩",
+      "roman": "shot ma"
+    },
+    {
+      "id": "family-stepfather",
+      "en": "stepfather",
+      "bn": "সৎ বাবা",
+      "emoji": "👨",
+      "roman": "shot baba"
+    },
+    {
+      "id": "family-father-in-law",
+      "en": "father in law",
+      "bn": "শ্বশুর",
+      "emoji": "👨",
+      "roman": "shoshur"
+    },
+    {
+      "id": "family-mother-in-law",
+      "en": "mother in law",
+      "bn": "শাশুড়ি",
+      "emoji": "👩",
+      "roman": "shashuri"
+    },
+    {
+      "id": "family-brother-in-law",
+      "en": "brother in law",
+      "bn": "শালা",
+      "emoji": "👨",
+      "roman": "shala"
+    },
+    {
+      "id": "family-sister-in-law",
+      "en": "sister in law",
+      "bn": "ননদ",
+      "emoji": "👩",
+      "roman": "nonod"
+    },
+    {
+      "id": "family-grandchild",
+      "en": "grandchild",
+      "bn": "নতি",
+      "emoji": "👶",
+      "roman": "nati"
+    },
+    {
+      "id": "family-ancestor",
+      "en": "ancestor",
+      "bn": "পূর্বপুরুষ",
+      "emoji": "👴",
+      "roman": "purbo purush"
+    },
+    {
+      "id": "family-midwife",
+      "en": "midwife",
+      "bn": "ধাইমা",
+      "emoji": "👩",
+      "roman": "dhaima"
+    },
+    {
+      "id": "family-fish-seller",
+      "en": "fish seller",
+      "bn": "মাছ বিক্রেতা",
+      "emoji": "🐟",
+      "roman": "mach bikreta"
+    },
+    {
+      "id": "family-vegetable-seller",
+      "en": "vegetable seller",
+      "bn": "সবজি বিক্রেতা",
+      "emoji": "🥬",
+      "roman": "shobji bikreta"
+    },
+    {
+      "id": "family-sweeper",
+      "en": "sweeper",
+      "bn": "পরিচ্ছন্নকর্মী",
+      "emoji": "🧹",
+      "roman": "porishchonnokormi"
+    },
+    {
+      "id": "family-cashier",
+      "en": "cashier",
+      "bn": "ক্যাশিয়ার",
+      "emoji": "💵",
+      "roman": "cashier"
+    },
+    {
+      "id": "family-actor",
+      "en": "actor",
+      "bn": "অভিনেতা",
+      "emoji": "🎭",
+      "roman": "obhineta"
+    },
+    {
+      "id": "family-headmaster",
+      "en": "headmaster",
+      "bn": "প্রধান শিক্ষক",
+      "emoji": "🏫",
+      "roman": "prodhan shikkhok"
+    },
+    {
+      "id": "family-cowherd",
+      "en": "cowherd",
+      "bn": "গোপল",
+      "emoji": "🐄",
+      "roman": "gopal"
+    },
+    {
+      "id": "family-hunter",
+      "en": "hunter",
+      "bn": "শিকারি",
+      "emoji": "🏹",
+      "roman": "shikari"
+    },
+    {
+      "id": "family-triplets",
+      "en": "triplets",
+      "bn": "তিন যমজ",
+      "emoji": "👶",
+      "roman": "tin joma"
+    },
+    {
+      "id": "family-stepbrother",
+      "en": "stepbrother",
+      "bn": "সৎ ভাই",
+      "emoji": "👦",
+      "roman": "shot bhai"
+    },
+    {
+      "id": "family-stepsister",
+      "en": "stepsister",
+      "bn": "সৎ বোন",
+      "emoji": "👧",
+      "roman": "shot bon"
+    },
+    {
+      "id": "family-godfather",
+      "en": "godfather",
+      "bn": "গডফাদার",
+      "emoji": "👨",
+      "roman": "godfather"
+    },
+    {
+      "id": "family-godmother",
+      "en": "godmother",
+      "bn": "গডমাদার",
+      "emoji": "👩",
+      "roman": "godmother"
+    },
+    {
+      "id": "family-neighbor-boy",
+      "en": "neighbor boy",
+      "bn": "পাশের ছেলে",
+      "emoji": "👦",
+      "roman": "pasher chele"
+    },
+    {
+      "id": "family-neighbor-girl",
+      "en": "neighbor girl",
+      "bn": "পাশের মেয়ে",
+      "emoji": "👧",
+      "roman": "pasher meye"
+    },
+    {
+      "id": "family-best-friend",
+      "en": "best friend",
+      "bn": "ঘনিষ্ঠ বন্ধু",
+      "emoji": "🤝",
+      "roman": "ghonishtho bondhu"
+    },
+    {
+      "id": "family-pen-pal",
+      "en": "pen pal",
+      "bn": "পেন পাল",
+      "emoji": "✉️",
+      "roman": "pen pal"
+    },
+    {
+      "id": "family-teammate",
+      "en": "teammate",
+      "bn": "দলের সঙ্গী",
+      "emoji": "🤝",
+      "roman": "doler songi"
+    },
+    {
+      "id": "family-leader",
+      "en": "leader",
+      "bn": "নেতা",
+      "emoji": "👑",
+      "roman": "neta"
+    },
+    {
+      "id": "family-follower",
+      "en": "follower",
+      "bn": "অনুসারী",
+      "emoji": "👥",
+      "roman": "onushari"
+    },
+    {
+      "id": "family-hero",
+      "en": "hero",
+      "bn": "নায়ক",
+      "emoji": "🦸",
+      "roman": "nayok"
+    },
+    {
+      "id": "family-villain",
+      "en": "villain",
+      "bn": "খলনায়ক",
+      "emoji": "🦹",
+      "roman": "kholnayok"
+    },
+    {
+      "id": "family-king",
+      "en": "king",
+      "bn": "রাজা",
+      "emoji": "👑",
+      "roman": "raja"
+    },
+    {
+      "id": "family-queen",
+      "en": "queen",
+      "bn": "রানী",
+      "emoji": "👑",
+      "roman": "rani"
+    },
+    {
+      "id": "family-prince",
+      "en": "prince",
+      "bn": "রাজপুত্র",
+      "emoji": "🤴",
+      "roman": "rajputro"
+    },
+    {
+      "id": "family-princess",
+      "en": "princess",
+      "bn": "রাজকন্যা",
+      "emoji": "👸",
+      "roman": "rajkonna"
+    },
+    {
+      "id": "family-soldier",
+      "en": "soldier",
+      "bn": "সৈনিক",
+      "emoji": "💂",
+      "roman": "sainik"
+    },
+    {
+      "id": "family-captain",
+      "en": "captain",
+      "bn": "ক্যাপ্টেন",
+      "emoji": "🎖️",
+      "roman": "captain"
+    },
+    {
+      "id": "family-heroine",
+      "en": "heroine",
+      "bn": "নায়িকা",
+      "emoji": "👩",
+      "roman": "nayika"
+    },
+    {
+      "id": "family-musician",
+      "en": "musician",
+      "bn": "সঙ্গীতজ্ঞ",
+      "emoji": "🎵",
+      "roman": "sangitoggo"
+    },
+    {
+      "id": "family-photographer",
+      "en": "photographer",
+      "bn": "ফোতোগ",
+      "emoji": "📷",
+      "roman": "photog"
+    },
+    {
+      "id": "family-journalist",
+      "en": "journalist",
+      "bn": "জৌরনলিসত",
+      "emoji": "📰",
+      "roman": "journalist"
+    },
+    {
+      "id": "family-astronaut",
+      "en": "astronaut",
+      "bn": "মহাকাশচারী",
+      "emoji": "👨‍🚀",
+      "roman": "mohakashchari"
+    },
+    {
+      "id": "family-firefighter",
+      "en": "firefighter",
+      "bn": "অগ্নিনির্বাপক",
+      "emoji": "🚒",
+      "roman": "ogninirvapok"
+    },
+    {
+      "id": "family-lifeguard",
+      "en": "lifeguard",
+      "bn": "জীবরক্ষক",
+      "emoji": "🛟",
+      "roman": "jibrokkhok"
+    },
+    {
+      "id": "family-volunteer",
+      "en": "volunteer",
+      "bn": "স্বেচ্ছাসেবক",
+      "emoji": "🤝",
+      "roman": "swechchasebak"
+    }
   ]
 }

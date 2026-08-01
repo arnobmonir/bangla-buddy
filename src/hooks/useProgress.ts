@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import {
   PROGRESS_STORAGE_KEY,
+  clearCategoryResume,
   loadProgress,
   recordCategoryComplete,
   recordSessionStart,
@@ -30,12 +31,19 @@ export function useProgress() {
     setProgress((prev) => recordSessionStart(prev, categoryId))
   }, [])
 
-  const trackWordHeard = useCallback((categoryId: string, wordId: string) => {
-    setProgress((prev) => recordWordHeard(prev, categoryId, wordId))
-  }, [])
+  const trackWordHeard = useCallback(
+    (categoryId: string, wordId: string, resumeIndex = 0) => {
+      setProgress((prev) => recordWordHeard(prev, categoryId, wordId, resumeIndex))
+    },
+    [],
+  )
 
   const trackCategoryComplete = useCallback((categoryId: string) => {
     setProgress((prev) => recordCategoryComplete(prev, categoryId))
+  }, [])
+
+  const clearResume = useCallback((categoryId: string) => {
+    setProgress((prev) => clearCategoryResume(prev, categoryId))
   }, [])
 
   const clearProgress = useCallback(() => {
@@ -51,6 +59,7 @@ export function useProgress() {
     trackSessionStart,
     trackWordHeard,
     trackCategoryComplete,
+    clearResume,
     clearProgress,
     refresh,
   }

@@ -1,41 +1,1111 @@
 {
   "categoryId": "feelings",
   "words": [
-    { "id": "feelings-happy", "en": "happy", "bn": "খুশি", "emoji": "😊", "roman": "khushi" },
-    { "id": "feelings-sad", "en": "sad", "bn": "দুঃখিত", "emoji": "😢", "roman": "dukkhito" },
-    { "id": "feelings-angry", "en": "angry", "bn": "রাগ", "emoji": "😠", "roman": "rag" },
-    { "id": "feelings-scared", "en": "scared", "bn": "ভয়", "emoji": "😨", "roman": "bhoy" },
-    { "id": "feelings-tired", "en": "tired", "bn": "ক্লান্ত", "emoji": "😩", "roman": "klanto" },
-    { "id": "feelings-hungry", "en": "hungry", "bn": "ক্ষুধার্ত", "emoji": "😋", "roman": "khudarto" },
-    { "id": "feelings-thirsty", "en": "thirsty", "bn": "তৃষ্ণার্ত", "emoji": "🥤", "roman": "trishnarto" },
-    { "id": "feelings-sleepy", "en": "sleepy", "bn": "ঘুমঘুম", "emoji": "😴", "roman": "ghumghum" },
-    { "id": "feelings-love", "en": "love", "bn": "ভালোবাসা", "emoji": "❤️", "roman": "bhalobasha" },
-    { "id": "feelings-excited", "en": "excited", "bn": "উত্তেজিত", "emoji": "🤩", "roman": "uttejito" },
-    { "id": "feelings-brave", "en": "brave", "bn": "সাহসী", "emoji": "💪", "roman": "sahoshi" },
-    { "id": "feelings-calm", "en": "calm", "bn": "শান্ত", "emoji": "😌", "roman": "shanto" },
-    { "id": "feelings-surprised", "en": "surprised", "bn": "অবাক", "emoji": "😲", "roman": "obak" },
-    { "id": "feelings-confused", "en": "confused", "bn": "বিভ্রান্ত", "emoji": "😕", "roman": "bibhranto" },
-    { "id": "feelings-shy", "en": "shy", "bn": "লাজুক", "emoji": "😳", "roman": "lajuk" },
-    { "id": "feelings-proud", "en": "proud", "bn": "গর্বিত", "emoji": "😌", "roman": "gorvito" },
-    { "id": "feelings-lonely", "en": "lonely", "bn": "একাকী", "emoji": "🥺", "roman": "ekaki" },
-    { "id": "feelings-bored", "en": "bored", "bn": "বিরক্ত", "emoji": "😑", "roman": "birokto" },
-    { "id": "feelings-worried", "en": "worried", "bn": "চিন্তিত", "emoji": "😟", "roman": "chintito" },
-    { "id": "feelings-silly", "en": "silly", "bn": "হাস্যকর", "emoji": "😜", "roman": "hashyokor" },
-    { "id": "feelings-kind", "en": "kind", "bn": "দয়ালু", "emoji": "🤗", "roman": "doyalu" },
-    { "id": "feelings-jealous", "en": "jealous", "bn": "ঈর্ষান্বিত", "emoji": "😒", "roman": "irshanvito" },
-    { "id": "feelings-grateful", "en": "grateful", "bn": "কৃতজ্ঞ", "emoji": "🙏", "roman": "kritoggo" },
-    { "id": "feelings-hopeful", "en": "hopeful", "bn": "আশাবাদী", "emoji": "🤞", "roman": "ashabadi" },
-    { "id": "feelings-hot", "en": "hot", "bn": "গরম", "emoji": "🥵", "roman": "gorom" },
-    { "id": "feelings-cold", "en": "cold", "bn": "ঠান্ডা", "emoji": "🥶", "roman": "thanda" },
-    { "id": "feelings-sick", "en": "sick", "bn": "অসুস্থ", "emoji": "🤒", "roman": "oshustho" },
-    { "id": "feelings-pain", "en": "pain", "bn": "ব্যথা", "emoji": "🤕", "roman": "byatha" },
-    { "id": "feelings-comfort", "en": "comfort", "bn": "আরাম", "emoji": "🛋️", "roman": "aram" },
-    { "id": "feelings-fun", "en": "fun", "bn": "মজা", "emoji": "🎉", "roman": "moja" },
-    { "id": "feelings-funny", "en": "funny", "bn": "মজার", "emoji": "😂", "roman": "mojar" },
-    { "id": "feelings-good", "en": "good", "bn": "ভালো", "emoji": "👍", "roman": "bhalo" },
-    { "id": "feelings-bad", "en": "bad", "bn": "খারাপ", "emoji": "👎", "roman": "kharap" },
-    { "id": "feelings-yes-feeling", "en": "okay", "bn": "ঠিক আছে", "emoji": "👌", "roman": "thik ache" },
-    { "id": "feelings-sorry", "en": "sorry", "bn": "দুঃখিত", "emoji": "😔", "roman": "dukkhito" },
-    { "id": "feelings-thank-you", "en": "thank you", "bn": "ধন্যবাদ", "emoji": "🙏", "roman": "dhonnobad" }
+    {
+      "id": "feelings-happy",
+      "en": "happy",
+      "bn": "খুশি",
+      "emoji": "😊",
+      "roman": "khushi"
+    },
+    {
+      "id": "feelings-sad",
+      "en": "sad",
+      "bn": "দুঃখিত",
+      "emoji": "😢",
+      "roman": "dukkhito"
+    },
+    {
+      "id": "feelings-angry",
+      "en": "angry",
+      "bn": "রাগ",
+      "emoji": "😠",
+      "roman": "rag"
+    },
+    {
+      "id": "feelings-scared",
+      "en": "scared",
+      "bn": "ভয়",
+      "emoji": "😨",
+      "roman": "bhoy"
+    },
+    {
+      "id": "feelings-tired",
+      "en": "tired",
+      "bn": "ক্লান্ত",
+      "emoji": "😩",
+      "roman": "klanto"
+    },
+    {
+      "id": "feelings-hungry",
+      "en": "hungry",
+      "bn": "ক্ষুধার্ত",
+      "emoji": "😋",
+      "roman": "khudarto"
+    },
+    {
+      "id": "feelings-thirsty",
+      "en": "thirsty",
+      "bn": "তৃষ্ণার্ত",
+      "emoji": "🥤",
+      "roman": "trishnarto"
+    },
+    {
+      "id": "feelings-sleepy",
+      "en": "sleepy",
+      "bn": "ঘুমঘুম",
+      "emoji": "😴",
+      "roman": "ghumghum"
+    },
+    {
+      "id": "feelings-love",
+      "en": "love",
+      "bn": "ভালোবাসা",
+      "emoji": "❤️",
+      "roman": "bhalobasha"
+    },
+    {
+      "id": "feelings-excited",
+      "en": "excited",
+      "bn": "উত্তেজিত",
+      "emoji": "🤩",
+      "roman": "uttejito"
+    },
+    {
+      "id": "feelings-brave",
+      "en": "brave",
+      "bn": "সাহসী",
+      "emoji": "💪",
+      "roman": "sahoshi"
+    },
+    {
+      "id": "feelings-calm",
+      "en": "calm",
+      "bn": "শান্ত",
+      "emoji": "😌",
+      "roman": "shanto"
+    },
+    {
+      "id": "feelings-surprised",
+      "en": "surprised",
+      "bn": "অবাক",
+      "emoji": "😲",
+      "roman": "obak"
+    },
+    {
+      "id": "feelings-confused",
+      "en": "confused",
+      "bn": "বিভ্রান্ত",
+      "emoji": "😕",
+      "roman": "bibhranto"
+    },
+    {
+      "id": "feelings-shy",
+      "en": "shy",
+      "bn": "লাজুক",
+      "emoji": "😳",
+      "roman": "lajuk"
+    },
+    {
+      "id": "feelings-proud",
+      "en": "proud",
+      "bn": "গর্বিত",
+      "emoji": "😌",
+      "roman": "gorvito"
+    },
+    {
+      "id": "feelings-lonely",
+      "en": "lonely",
+      "bn": "একাকী",
+      "emoji": "🥺",
+      "roman": "ekaki"
+    },
+    {
+      "id": "feelings-bored",
+      "en": "bored",
+      "bn": "বিরক্ত",
+      "emoji": "😑",
+      "roman": "birokto"
+    },
+    {
+      "id": "feelings-worried",
+      "en": "worried",
+      "bn": "চিন্তিত",
+      "emoji": "😟",
+      "roman": "chintito"
+    },
+    {
+      "id": "feelings-silly",
+      "en": "silly",
+      "bn": "হাস্যকর",
+      "emoji": "😜",
+      "roman": "hashyokor"
+    },
+    {
+      "id": "feelings-kind",
+      "en": "kind",
+      "bn": "দয়ালু",
+      "emoji": "🤗",
+      "roman": "doyalu"
+    },
+    {
+      "id": "feelings-jealous",
+      "en": "jealous",
+      "bn": "ঈর্ষান্বিত",
+      "emoji": "😒",
+      "roman": "irshanvito"
+    },
+    {
+      "id": "feelings-grateful",
+      "en": "grateful",
+      "bn": "কৃতজ্ঞ",
+      "emoji": "🙏",
+      "roman": "kritoggo"
+    },
+    {
+      "id": "feelings-hopeful",
+      "en": "hopeful",
+      "bn": "আশাবাদী",
+      "emoji": "🤞",
+      "roman": "ashabadi"
+    },
+    {
+      "id": "feelings-hot",
+      "en": "hot",
+      "bn": "গরম",
+      "emoji": "🥵",
+      "roman": "gorom"
+    },
+    {
+      "id": "feelings-cold",
+      "en": "cold",
+      "bn": "ঠান্ডা",
+      "emoji": "🥶",
+      "roman": "thanda"
+    },
+    {
+      "id": "feelings-sick",
+      "en": "sick",
+      "bn": "অসুস্থ",
+      "emoji": "🤒",
+      "roman": "oshustho"
+    },
+    {
+      "id": "feelings-pain",
+      "en": "pain",
+      "bn": "ব্যথা",
+      "emoji": "🤕",
+      "roman": "byatha"
+    },
+    {
+      "id": "feelings-comfort",
+      "en": "comfort",
+      "bn": "আরাম",
+      "emoji": "🛋️",
+      "roman": "aram"
+    },
+    {
+      "id": "feelings-fun",
+      "en": "fun",
+      "bn": "মজা",
+      "emoji": "🎉",
+      "roman": "moja"
+    },
+    {
+      "id": "feelings-funny",
+      "en": "funny",
+      "bn": "মজার",
+      "emoji": "😂",
+      "roman": "mojar"
+    },
+    {
+      "id": "feelings-good",
+      "en": "good",
+      "bn": "ভালো",
+      "emoji": "👍",
+      "roman": "bhalo"
+    },
+    {
+      "id": "feelings-bad",
+      "en": "bad",
+      "bn": "খারাপ",
+      "emoji": "👎",
+      "roman": "kharap"
+    },
+    {
+      "id": "feelings-yes-feeling",
+      "en": "okay",
+      "bn": "ঠিক আছে",
+      "emoji": "👌",
+      "roman": "thik ache"
+    },
+    {
+      "id": "feelings-sorry",
+      "en": "sorry",
+      "bn": "দুঃখিত",
+      "emoji": "😔",
+      "roman": "dukkhito"
+    },
+    {
+      "id": "feelings-thank-you",
+      "en": "thank you",
+      "bn": "ধন্যবাদ",
+      "emoji": "🙏",
+      "roman": "dhonnobad"
+    },
+    {
+      "id": "feelings-nervous",
+      "en": "nervous",
+      "bn": "উদ্বিগ্ন",
+      "emoji": "😰",
+      "roman": "nervous"
+    },
+    {
+      "id": "feelings-anxious",
+      "en": "anxious",
+      "bn": "চিন্তিত",
+      "emoji": "😰",
+      "roman": "chintito"
+    },
+    {
+      "id": "feelings-stressed",
+      "en": "stressed",
+      "bn": "চাপগ্রস্ত",
+      "emoji": "😫",
+      "roman": "stress"
+    },
+    {
+      "id": "feelings-relaxed",
+      "en": "relaxed",
+      "bn": "আরাম",
+      "emoji": "😌",
+      "roman": "aram"
+    },
+    {
+      "id": "feelings-peaceful",
+      "en": "peaceful",
+      "bn": "শান্ত",
+      "emoji": "☮️",
+      "roman": "peaceful"
+    },
+    {
+      "id": "feelings-content",
+      "en": "content",
+      "bn": "সন্তুষ্ট",
+      "emoji": "😊",
+      "roman": "santushto"
+    },
+    {
+      "id": "feelings-pleased",
+      "en": "pleased",
+      "bn": "খুশি",
+      "emoji": "😊",
+      "roman": "khushi"
+    },
+    {
+      "id": "feelings-delighted",
+      "en": "delighted",
+      "bn": "খুশি",
+      "emoji": "😄",
+      "roman": "khushi"
+    },
+    {
+      "id": "feelings-joyful",
+      "en": "joyful",
+      "bn": "অনোনদো",
+      "emoji": "😄",
+      "roman": "anondo"
+    },
+    {
+      "id": "feelings-cheerful",
+      "en": "cheerful",
+      "bn": "চীরফুল",
+      "emoji": "😊",
+      "roman": "cheerful"
+    },
+    {
+      "id": "feelings-gleeful",
+      "en": "gleeful",
+      "bn": "গলীফুল",
+      "emoji": "😆",
+      "roman": "gleeful"
+    },
+    {
+      "id": "feelings-merry",
+      "en": "merry",
+      "bn": "মেড়য",
+      "emoji": "🎄",
+      "roman": "merry"
+    },
+    {
+      "id": "feelings-optimistic",
+      "en": "optimistic",
+      "bn": "ওপতিমিসতিচ",
+      "emoji": "🌞",
+      "roman": "optimistic"
+    },
+    {
+      "id": "feelings-hopeless",
+      "en": "hopeless",
+      "bn": "নিরাশ",
+      "emoji": "😞",
+      "roman": "ashah"
+    },
+    {
+      "id": "feelings-hopeless-feeling",
+      "en": "hopeless feeling",
+      "bn": "নিরশ",
+      "emoji": "😞",
+      "roman": "nirash"
+    },
+    {
+      "id": "feelings-discouraged",
+      "en": "discouraged",
+      "bn": "হতাশ",
+      "emoji": "😞",
+      "roman": "discouraged"
+    },
+    {
+      "id": "feelings-disappointed",
+      "en": "disappointed",
+      "bn": "হতাশ",
+      "emoji": "😞",
+      "roman": "disappointed"
+    },
+    {
+      "id": "feelings-frustrated",
+      "en": "frustrated",
+      "bn": "হতাশ",
+      "emoji": "😤",
+      "roman": "frustrated"
+    },
+    {
+      "id": "feelings-annoyed",
+      "en": "annoyed",
+      "bn": "বিরক্ত",
+      "emoji": "😒",
+      "roman": "birokto"
+    },
+    {
+      "id": "feelings-irritated",
+      "en": "irritated",
+      "bn": "ইড়িততেদ",
+      "emoji": "😠",
+      "roman": "irritated"
+    },
+    {
+      "id": "feelings-furious",
+      "en": "furious",
+      "bn": "রাগান্বিত",
+      "emoji": "😡",
+      "roman": "roge"
+    },
+    {
+      "id": "feelings-rage",
+      "en": "rage",
+      "bn": "রাগ",
+      "emoji": "🤬",
+      "roman": "rage"
+    },
+    {
+      "id": "feelings-mad",
+      "en": "mad",
+      "bn": "রাগান্ন",
+      "emoji": "😡",
+      "roman": "mad"
+    },
+    {
+      "id": "feelings-upset",
+      "en": "upset",
+      "bn": "দুকখো",
+      "emoji": "😢",
+      "roman": "dukkho"
+    },
+    {
+      "id": "feelings-heartbroken",
+      "en": "heartbroken",
+      "bn": "ভঙপরন",
+      "emoji": "💔",
+      "roman": "bhangapran"
+    },
+    {
+      "id": "feelings-miserable",
+      "en": "miserable",
+      "bn": "মিসেরবলে",
+      "emoji": "😢",
+      "roman": "miserable"
+    },
+    {
+      "id": "feelings-gloomy",
+      "en": "gloomy",
+      "bn": "গলুময",
+      "emoji": "😔",
+      "roman": "gloomy"
+    },
+    {
+      "id": "feelings-depressed",
+      "en": "depressed",
+      "bn": "বিষণ্ণ",
+      "emoji": "😞",
+      "roman": "depressed"
+    },
+    {
+      "id": "feelings-melancholy",
+      "en": "melancholy",
+      "bn": "মেলনচোলয",
+      "emoji": "😔",
+      "roman": "melancholy"
+    },
+    {
+      "id": "feelings-homesick",
+      "en": "homesick",
+      "bn": "ঘর এর শদ",
+      "emoji": "🏠",
+      "roman": "ghor er shad"
+    },
+    {
+      "id": "feelings-nostalgic",
+      "en": "nostalgic",
+      "bn": "নোসতলগিচ",
+      "emoji": "🕰️",
+      "roman": "nostalgic"
+    },
+    {
+      "id": "feelings-sentimental",
+      "en": "sentimental",
+      "bn": "অনুভুতিপুরনো",
+      "emoji": "💭",
+      "roman": "anubhutipurno"
+    },
+    {
+      "id": "feelings-touched",
+      "en": "touched",
+      "bn": "অনুভুতো",
+      "emoji": "🥹",
+      "roman": "anubhuto"
+    },
+    {
+      "id": "feelings-moved",
+      "en": "moved",
+      "bn": "মোভেদ",
+      "emoji": "🥹",
+      "roman": "moved"
+    },
+    {
+      "id": "feelings-grateful-feeling",
+      "en": "grateful feeling",
+      "bn": "কৃতজ্ঞ",
+      "emoji": "🙏",
+      "roman": "kritoggo"
+    },
+    {
+      "id": "feelings-thankful",
+      "en": "thankful",
+      "bn": "থনকফুল",
+      "emoji": "🙏",
+      "roman": "thankful"
+    },
+    {
+      "id": "feelings-appreciative",
+      "en": "appreciative",
+      "bn": "অপপরেচিতিভে",
+      "emoji": "🙏",
+      "roman": "appreciative"
+    },
+    {
+      "id": "feelings-respectful",
+      "en": "respectful",
+      "bn": "শরোড়হ",
+      "emoji": "🙏",
+      "roman": "shroddha"
+    },
+    {
+      "id": "feelings-admiring",
+      "en": "admiring",
+      "bn": "পরোশোঙশ",
+      "emoji": "😍",
+      "roman": "proshongsha"
+    },
+    {
+      "id": "feelings-inspired",
+      "en": "inspired",
+      "bn": "উতশহিতো",
+      "emoji": "✨",
+      "roman": "utshahito"
+    },
+    {
+      "id": "feelings-motivated",
+      "en": "motivated",
+      "bn": "মোতিভতেদ",
+      "emoji": "💪",
+      "roman": "motivated"
+    },
+    {
+      "id": "feelings-determined",
+      "en": "determined",
+      "bn": "পরোতি",
+      "emoji": "💪",
+      "roman": "proti"
+    },
+    {
+      "id": "feelings-focused",
+      "en": "focused",
+      "bn": "মোনোজোগ",
+      "emoji": "🎯",
+      "roman": "monojog"
+    },
+    {
+      "id": "feelings-distracted",
+      "en": "distracted",
+      "bn": "বিকখিসতো",
+      "emoji": "😵",
+      "roman": "bikkhisto"
+    },
+    {
+      "id": "feelings-overwhelmed",
+      "en": "overwhelmed",
+      "bn": "ওভেরবহেলমেদ",
+      "emoji": "😵",
+      "roman": "overwhelmed"
+    },
+    {
+      "id": "feelings-exhausted",
+      "en": "exhausted",
+      "bn": "ক্লান্ত",
+      "emoji": "😩",
+      "roman": "klanto"
+    },
+    {
+      "id": "feelings-drained",
+      "en": "drained",
+      "bn": "দরিনেদ",
+      "emoji": "🪫",
+      "roman": "drained"
+    },
+    {
+      "id": "feelings-refreshed",
+      "en": "refreshed",
+      "bn": "সতেজ",
+      "emoji": "😊",
+      "roman": "taja"
+    },
+    {
+      "id": "feelings-energetic",
+      "en": "energetic",
+      "bn": "উরজোশিল",
+      "emoji": "⚡",
+      "roman": "urjoshil"
+    },
+    {
+      "id": "feelings-lazy",
+      "en": "lazy",
+      "bn": "অলশে",
+      "emoji": "😴",
+      "roman": "alshe"
+    },
+    {
+      "id": "feelings-motivated-lazy",
+      "en": "motivated lazy",
+      "bn": "অলশে",
+      "emoji": "🦥",
+      "roman": "alshe"
+    },
+    {
+      "id": "feelings-active",
+      "en": "active",
+      "bn": "কোরমোশিল",
+      "emoji": "🏃",
+      "roman": "kormoshil"
+    },
+    {
+      "id": "feelings-restless",
+      "en": "restless",
+      "bn": "চনচল",
+      "emoji": "😬",
+      "roman": "chanchal"
+    },
+    {
+      "id": "feelings-patient",
+      "en": "patient",
+      "bn": "ধিরযো",
+      "emoji": "🧘",
+      "roman": "dhairyo"
+    },
+    {
+      "id": "feelings-impatient",
+      "en": "impatient",
+      "bn": "ওশনতো",
+      "emoji": "😤",
+      "roman": "oshanto"
+    },
+    {
+      "id": "feelings-curious",
+      "en": "curious",
+      "bn": "কৌতুহোল",
+      "emoji": "🤔",
+      "roman": "koutuhol"
+    },
+    {
+      "id": "feelings-interested",
+      "en": "interested",
+      "bn": "অগরোহি",
+      "emoji": "👀",
+      "roman": "agrohi"
+    },
+    {
+      "id": "feelings-bored-feeling",
+      "en": "bored feeling",
+      "bn": "বোরেদ",
+      "emoji": "😑",
+      "roman": "bored"
+    },
+    {
+      "id": "feelings-amused",
+      "en": "amused",
+      "bn": "অমুসেদ",
+      "emoji": "😄",
+      "roman": "amused"
+    },
+    {
+      "id": "feelings-entertained",
+      "en": "entertained",
+      "bn": "এনতেরতিনেদ",
+      "emoji": "🎭",
+      "roman": "entertained"
+    },
+    {
+      "id": "feelings-playful",
+      "en": "playful",
+      "bn": "খেলর মোতো",
+      "emoji": "😜",
+      "roman": "khelar moto"
+    },
+    {
+      "id": "feelings-mischievous",
+      "en": "mischievous",
+      "bn": "দুশতু",
+      "emoji": "😈",
+      "roman": "dushtu"
+    },
+    {
+      "id": "feelings-naughty",
+      "en": "naughty",
+      "bn": "নুঘতয",
+      "emoji": "😈",
+      "roman": "naughty"
+    },
+    {
+      "id": "feelings-guilty",
+      "en": "guilty",
+      "bn": "দোশি",
+      "emoji": "😔",
+      "roman": "doshi"
+    },
+    {
+      "id": "feelings-ashamed",
+      "en": "ashamed",
+      "bn": "লোজজ",
+      "emoji": "😳",
+      "roman": "lojja"
+    },
+    {
+      "id": "feelings-embarrassed",
+      "en": "embarrassed",
+      "bn": "এমবড়সসেদ",
+      "emoji": "😳",
+      "roman": "embarrassed"
+    },
+    {
+      "id": "feelings-regretful",
+      "en": "regretful",
+      "bn": "রেগরেতফুল",
+      "emoji": "😔",
+      "roman": "regretful"
+    },
+    {
+      "id": "feelings-remorseful",
+      "en": "remorseful",
+      "bn": "রেমোরসেফুল",
+      "emoji": "😔",
+      "roman": "remorseful"
+    },
+    {
+      "id": "feelings-forgiving",
+      "en": "forgiving",
+      "bn": "ক্ষমা",
+      "emoji": "🤝",
+      "roman": "khoma"
+    },
+    {
+      "id": "feelings-trusting",
+      "en": "trusting",
+      "bn": "তরুসতিঙ",
+      "emoji": "🤝",
+      "roman": "trusting"
+    },
+    {
+      "id": "feelings-suspicious",
+      "en": "suspicious",
+      "bn": "শোনদেহ",
+      "emoji": "🤨",
+      "roman": "shondeh"
+    },
+    {
+      "id": "feelings-doubtful",
+      "en": "doubtful",
+      "bn": "দৌবতফুল",
+      "emoji": "🤔",
+      "roman": "doubtful"
+    },
+    {
+      "id": "feelings-certain",
+      "en": "certain",
+      "bn": "নিশচিত",
+      "emoji": "✅",
+      "roman": "nishchit"
+    },
+    {
+      "id": "feelings-uncertain",
+      "en": "uncertain",
+      "bn": "ওনিশচিত",
+      "emoji": "❓",
+      "roman": "onishchit"
+    },
+    {
+      "id": "feelings-confident",
+      "en": "confident",
+      "bn": "আত্মবিশ্বাসী",
+      "emoji": "💪",
+      "roman": "bishwasi"
+    },
+    {
+      "id": "feelings-insecure",
+      "en": "insecure",
+      "bn": "অসুরক্ষিত",
+      "emoji": "😟",
+      "roman": "insecure"
+    },
+    {
+      "id": "feelings-proud-feeling",
+      "en": "proud feeling",
+      "bn": "গোরবিতো",
+      "emoji": "😌",
+      "roman": "gorbito"
+    },
+    {
+      "id": "feelings-humble",
+      "en": "humble",
+      "bn": "বিনয়ী",
+      "emoji": "🙏",
+      "roman": "onmodro"
+    },
+    {
+      "id": "feelings-generous",
+      "en": "generous",
+      "bn": "উদার",
+      "emoji": "🎁",
+      "roman": "udar"
+    },
+    {
+      "id": "feelings-selfish",
+      "en": "selfish",
+      "bn": "স্বার্থপর",
+      "emoji": "😒",
+      "roman": "swarthi"
+    },
+    {
+      "id": "feelings-caring",
+      "en": "caring",
+      "bn": "যত্নশীল",
+      "emoji": "🤗",
+      "roman": "dayalu"
+    },
+    {
+      "id": "feelings-loving-feeling",
+      "en": "loving feeling",
+      "bn": "ভালোবাসা",
+      "emoji": "❤️",
+      "roman": "bhalobasha"
+    },
+    {
+      "id": "feelings-affectionate",
+      "en": "affectionate",
+      "bn": "স্নেহময়",
+      "emoji": "🥰",
+      "roman": "snehomoy"
+    },
+    {
+      "id": "feelings-romantic",
+      "en": "romantic",
+      "bn": "রোমান্টিক",
+      "emoji": "💕",
+      "roman": "premik"
+    },
+    {
+      "id": "feelings-friendly",
+      "en": "friendly",
+      "bn": "বন্ধু",
+      "emoji": "🤝",
+      "roman": "bondhu"
+    },
+    {
+      "id": "feelings-hostile",
+      "en": "hostile",
+      "bn": "শত্রুতাপূর্ণ",
+      "emoji": "😠",
+      "roman": "hostile"
+    },
+    {
+      "id": "feelings-peaceful-mind",
+      "en": "peaceful mind",
+      "bn": "শনতি",
+      "emoji": "☮️",
+      "roman": "shanti"
+    },
+    {
+      "id": "feelings-mindful",
+      "en": "mindful",
+      "bn": "মোনোজোগ",
+      "emoji": "🧘",
+      "roman": "monojog"
+    },
+    {
+      "id": "feelings-carefree",
+      "en": "carefree",
+      "bn": "হাশা মুকত",
+      "emoji": "😊",
+      "roman": "chinta mukt"
+    },
+    {
+      "id": "feelings-careful",
+      "en": "careful",
+      "bn": "সভধন",
+      "emoji": "⚠️",
+      "roman": "savdhan"
+    },
+    {
+      "id": "feelings-cautious",
+      "en": "cautious",
+      "bn": "চুতিৌস",
+      "emoji": "⚠️",
+      "roman": "cautious"
+    },
+    {
+      "id": "feelings-alert",
+      "en": "alert",
+      "bn": "সচেতন",
+      "emoji": "👀",
+      "roman": "sachetan"
+    },
+    {
+      "id": "feelings-sleepy-feeling",
+      "en": "sleepy feeling",
+      "bn": "ঘুম ঘুম",
+      "emoji": "😴",
+      "roman": "ghum ghum"
+    },
+    {
+      "id": "feelings-awake",
+      "en": "awake",
+      "bn": "জগরোতো",
+      "emoji": "👀",
+      "roman": "jagroto"
+    },
+    {
+      "id": "feelings-dizzy",
+      "en": "dizzy",
+      "bn": "মাথা ঘোরা",
+      "emoji": "😵",
+      "roman": "ghum ghum"
+    },
+    {
+      "id": "feelings-faint",
+      "en": "faint",
+      "bn": "অজ্ঞান",
+      "emoji": "😵",
+      "roman": "faint"
+    },
+    {
+      "id": "feelings-strong-feeling",
+      "en": "strong feeling",
+      "bn": "শস্তি",
+      "emoji": "💪",
+      "roman": "shakti"
+    },
+    {
+      "id": "feelings-weak-feeling",
+      "en": "weak feeling",
+      "bn": "দুরবোল",
+      "emoji": "😓",
+      "roman": "durbol"
+    },
+    {
+      "id": "feelings-healthy-feeling",
+      "en": "healthy feeling",
+      "bn": "সুস্থ",
+      "emoji": "💪",
+      "roman": "healthy"
+    },
+    {
+      "id": "feelings-unwell",
+      "en": "unwell",
+      "bn": "অসুস্থ",
+      "emoji": "🤒",
+      "roman": "unwell"
+    },
+    {
+      "id": "feelings-feverish",
+      "en": "feverish",
+      "bn": "জ্বরযুক্ত",
+      "emoji": "🤒",
+      "roman": "feverish"
+    },
+    {
+      "id": "feelings-chilly",
+      "en": "chilly",
+      "bn": "ঠান্ডা লাগা",
+      "emoji": "🥶",
+      "roman": "chilly"
+    },
+    {
+      "id": "feelings-warm-feeling",
+      "en": "warm feeling",
+      "bn": "উষ্ণ অনুভূতি",
+      "emoji": "🥵",
+      "roman": "warm"
+    },
+    {
+      "id": "feelings-cozy",
+      "en": "cozy",
+      "bn": "আরামদায়ক",
+      "emoji": "🛋️",
+      "roman": "cozy"
+    },
+    {
+      "id": "feelings-uncomfortable",
+      "en": "uncomfortable",
+      "bn": "অস্বস্তিকর",
+      "emoji": "😣",
+      "roman": "uncomfortable"
+    },
+    {
+      "id": "feelings-comfortable",
+      "en": "comfortable",
+      "bn": "আরামদায়ক",
+      "emoji": "😌",
+      "roman": "comfortable"
+    },
+    {
+      "id": "feelings-safe-feeling",
+      "en": "safe feeling",
+      "bn": "নিরাপদ",
+      "emoji": "🛡️",
+      "roman": "safe"
+    },
+    {
+      "id": "feelings-unsafe",
+      "en": "unsafe",
+      "bn": "উনসফে",
+      "emoji": "⚠️",
+      "roman": "unsafe"
+    },
+    {
+      "id": "feelings-free-feeling",
+      "en": "free feeling",
+      "bn": "মুকত",
+      "emoji": "🕊️",
+      "roman": "mukt"
+    },
+    {
+      "id": "feelings-trapped",
+      "en": "trapped",
+      "bn": "আটক",
+      "emoji": "🔒",
+      "roman": "bondi"
+    },
+    {
+      "id": "feelings-lucky",
+      "en": "lucky",
+      "bn": "ভাগ্যবান",
+      "emoji": "🍀",
+      "roman": "bhagyoban"
+    },
+    {
+      "id": "feelings-unlucky",
+      "en": "unlucky",
+      "bn": "দুর্ভাগ্য",
+      "emoji": "😞",
+      "roman": "unlucky"
+    },
+    {
+      "id": "feelings-surprised-feeling",
+      "en": "surprised feeling",
+      "bn": "অবাক",
+      "emoji": "😲",
+      "roman": "obak"
+    },
+    {
+      "id": "feelings-shocked",
+      "en": "shocked",
+      "bn": "হতবাক",
+      "emoji": "😱",
+      "roman": "shocked"
+    },
+    {
+      "id": "feelings-amazed",
+      "en": "amazed",
+      "bn": "বিস্মিত",
+      "emoji": "🤩",
+      "roman": "amazed"
+    },
+    {
+      "id": "feelings-astonished",
+      "en": "astonished",
+      "bn": "অসতোনিশেদ",
+      "emoji": "😲",
+      "roman": "astonished"
+    },
+    {
+      "id": "feelings-confused-feeling",
+      "en": "confused feeling",
+      "bn": "বিভ্রান্ত",
+      "emoji": "😕",
+      "roman": "bibhranto"
+    },
+    {
+      "id": "feelings-clear-minded",
+      "en": "clear minded",
+      "bn": "চলের মিনদেদ",
+      "emoji": "💡",
+      "roman": "clear minded"
+    },
+    {
+      "id": "feelings-foggy-mind",
+      "en": "foggy mind",
+      "bn": "মন ঘোলাটে",
+      "emoji": "🌫️",
+      "roman": "foggy"
+    },
+    {
+      "id": "feelings-creative",
+      "en": "creative",
+      "bn": "সৃজনশীল",
+      "emoji": "🎨",
+      "roman": "srijonshil"
+    },
+    {
+      "id": "feelings-artistic",
+      "en": "artistic",
+      "bn": "শিল্পপ্রেমী",
+      "emoji": "🎨",
+      "roman": "artistic"
+    },
+    {
+      "id": "feelings-musical",
+      "en": "musical",
+      "bn": "সঙ্গীতপ্রেমী",
+      "emoji": "🎵",
+      "roman": "musical"
+    }
   ]
 }

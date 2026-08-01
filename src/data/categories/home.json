@@ -1,53 +1,1538 @@
 {
   "categoryId": "home",
   "words": [
-    { "id": "home-house", "en": "house", "bn": "বাড়ি", "emoji": "🏠", "roman": "bari" },
-    { "id": "home-door", "en": "door", "bn": "দরজা", "emoji": "🚪", "roman": "dorja" },
-    { "id": "home-window", "en": "window", "bn": "জানালা", "emoji": "🪟", "roman": "janala" },
-    { "id": "home-room", "en": "room", "bn": "ঘর", "emoji": "🛏️", "roman": "ghor" },
-    { "id": "home-bed", "en": "bed", "bn": "বিছানা", "emoji": "🛏️", "roman": "bichana" },
-    { "id": "home-chair", "en": "chair", "bn": "চেয়ার", "emoji": "🪑", "roman": "cheyar" },
-    { "id": "home-table", "en": "table", "bn": "টেবিল", "emoji": "🪵", "roman": "tebil" },
-    { "id": "home-lamp", "en": "lamp", "bn": "বাতি", "emoji": "💡", "roman": "bati" },
-    { "id": "home-book", "en": "book", "bn": "বই", "emoji": "📖", "roman": "boi" },
-    { "id": "home-ball", "en": "ball", "bn": "বল", "emoji": "⚽", "roman": "bol" },
-    { "id": "home-toy", "en": "toy", "bn": "খেলনা", "emoji": "🧸", "roman": "khelna" },
-    { "id": "home-cup", "en": "cup", "bn": "কাপ", "emoji": "☕", "roman": "kap" },
-    { "id": "home-plate", "en": "plate", "bn": "থালা", "emoji": "🍽️", "roman": "thala" },
-    { "id": "home-spoon", "en": "spoon", "bn": "চামচ", "emoji": "🥄", "roman": "chamoch" },
-    { "id": "home-knife", "en": "knife", "bn": "ছুরি", "emoji": "🔪", "roman": "churi" },
-    { "id": "home-clock", "en": "clock", "bn": "ঘড়ি", "emoji": "🕐", "roman": "ghori" },
-    { "id": "home-phone", "en": "phone", "bn": "ফোন", "emoji": "📱", "roman": "phon" },
-    { "id": "home-key", "en": "key", "bn": "চাবি", "emoji": "🔑", "roman": "chabi" },
-    { "id": "home-kitchen", "en": "kitchen", "bn": "রান্নাঘর", "emoji": "🍳", "roman": "rannaghor" },
-    { "id": "home-bathroom", "en": "bathroom", "bn": "বাথরুম", "emoji": "🚿", "roman": "bathroom" },
-    { "id": "home-toilet", "en": "toilet", "bn": "টয়লেট", "emoji": "🚽", "roman": "toilet" },
-    { "id": "home-bedroom", "en": "bedroom", "bn": "শোবার ঘর", "emoji": "🛌", "roman": "shobar ghor" },
-    { "id": "home-living-room", "en": "living room", "bn": "বসার ঘর", "emoji": "🛋️", "roman": "boshar ghor" },
-    { "id": "home-roof", "en": "roof", "bn": "ছাদ", "emoji": "🏠", "roman": "chad" },
-    { "id": "home-floor", "en": "floor", "bn": "মেঝে", "emoji": "🟫", "roman": "mejhe" },
-    { "id": "home-wall", "en": "wall", "bn": "দেয়াল", "emoji": "🧱", "roman": "deyal" },
-    { "id": "home-stairs", "en": "stairs", "bn": "সিঁড়ি", "emoji": "🪜", "roman": "shĩri" },
-    { "id": "home-fan", "en": "fan", "bn": "পাখা", "emoji": "🌀", "roman": "pakha" },
-    { "id": "home-tv", "en": "television", "bn": "টিভি", "emoji": "📺", "roman": "tivi" },
-    { "id": "home-fridge", "en": "fridge", "bn": "ফ্রিজ", "emoji": "🧊", "roman": "frij" },
-    { "id": "home-stove", "en": "stove", "bn": "চুলা", "emoji": "🔥", "roman": "chula" },
-    { "id": "home-mirror", "en": "mirror", "bn": "আয়না", "emoji": "🪞", "roman": "ayna" },
-    { "id": "home-soap", "en": "soap", "bn": "সাবান", "emoji": "🧼", "roman": "shaban" },
-    { "id": "home-towel", "en": "towel", "bn": "তোয়ালে", "emoji": "🧺", "roman": "towale" },
-    { "id": "home-brush", "en": "brush", "bn": "ব্রাশ", "emoji": "🪥", "roman": "brush" },
-    { "id": "home-comb", "en": "comb", "bn": " downstreamা", "emoji": "💇", "roman": "chona" },
-    { "id": "home-pillow", "en": "pillow", "bn": "বালিশ", "emoji": "🛏️", "roman": "balish" },
-    { "id": "home-blanket", "en": "blanket", "bn": "কম্বল", "emoji": "🛏️", "roman": "kombol" },
-    { "id": "home-curtain", "en": "curtain", "bn": "পর্দা", "emoji": "🪟", "roman": "porda" },
-    { "id": "home-bucket", "en": "bucket", "bn": "বালতি", "emoji": "🪣", "roman": "balti" },
-    { "id": "home-glass", "en": "glass", "bn": "গ্লাস", "emoji": "🥛", "roman": "glas" },
-    { "id": "home-fork", "en": "fork", "bn": "কাঁটাচামচ", "emoji": "🍴", "roman": "kãtachamoch" },
-    { "id": "home-bowl", "en": "bowl", "bn": "বাটি", "emoji": "🥣", "roman": "bati" },
-    { "id": "home-pencil", "en": "pencil", "bn": "পেন্সিল", "emoji": "✏️", "roman": "pensil" },
-    { "id": "home-paper", "en": "paper", "bn": "কাগজ", "emoji": "📄", "roman": "kagoj" },
-    { "id": "home-scissors", "en": "scissors", "bn": "কাঁচি", "emoji": "✂️", "roman": "kãchi" },
-    { "id": "home-box", "en": "box", "bn": "বাক্স", "emoji": "📦", "roman": "baksho" },
-    { "id": "home-light", "en": "light", "bn": "আলো", "emoji": "💡", "roman": "alo" }
+    {
+      "id": "home-house",
+      "en": "house",
+      "bn": "বাড়ি",
+      "emoji": "🏠",
+      "roman": "bari"
+    },
+    {
+      "id": "home-door",
+      "en": "door",
+      "bn": "দরজা",
+      "emoji": "🚪",
+      "roman": "dorja"
+    },
+    {
+      "id": "home-window",
+      "en": "window",
+      "bn": "জানালা",
+      "emoji": "🪟",
+      "roman": "janala"
+    },
+    {
+      "id": "home-room",
+      "en": "room",
+      "bn": "ঘর",
+      "emoji": "🛏️",
+      "roman": "ghor"
+    },
+    {
+      "id": "home-bed",
+      "en": "bed",
+      "bn": "বিছানা",
+      "emoji": "🛏️",
+      "roman": "bichana"
+    },
+    {
+      "id": "home-chair",
+      "en": "chair",
+      "bn": "চেয়ার",
+      "emoji": "🪑",
+      "roman": "cheyar"
+    },
+    {
+      "id": "home-table",
+      "en": "table",
+      "bn": "টেবিল",
+      "emoji": "🪵",
+      "roman": "tebil"
+    },
+    {
+      "id": "home-lamp",
+      "en": "lamp",
+      "bn": "বাতি",
+      "emoji": "💡",
+      "roman": "bati"
+    },
+    {
+      "id": "home-book",
+      "en": "book",
+      "bn": "বই",
+      "emoji": "📖",
+      "roman": "boi"
+    },
+    {
+      "id": "home-ball",
+      "en": "ball",
+      "bn": "বল",
+      "emoji": "⚽",
+      "roman": "bol"
+    },
+    {
+      "id": "home-toy",
+      "en": "toy",
+      "bn": "খেলনা",
+      "emoji": "🧸",
+      "roman": "khelna"
+    },
+    {
+      "id": "home-cup",
+      "en": "cup",
+      "bn": "কাপ",
+      "emoji": "☕",
+      "roman": "kap"
+    },
+    {
+      "id": "home-plate",
+      "en": "plate",
+      "bn": "থালা",
+      "emoji": "🍽️",
+      "roman": "thala"
+    },
+    {
+      "id": "home-spoon",
+      "en": "spoon",
+      "bn": "চামচ",
+      "emoji": "🥄",
+      "roman": "chamoch"
+    },
+    {
+      "id": "home-knife",
+      "en": "knife",
+      "bn": "ছুরি",
+      "emoji": "🔪",
+      "roman": "churi"
+    },
+    {
+      "id": "home-clock",
+      "en": "clock",
+      "bn": "ঘড়ি",
+      "emoji": "🕐",
+      "roman": "ghori"
+    },
+    {
+      "id": "home-phone",
+      "en": "phone",
+      "bn": "ফোন",
+      "emoji": "📱",
+      "roman": "phon"
+    },
+    {
+      "id": "home-key",
+      "en": "key",
+      "bn": "চাবি",
+      "emoji": "🔑",
+      "roman": "chabi"
+    },
+    {
+      "id": "home-kitchen",
+      "en": "kitchen",
+      "bn": "রান্নাঘর",
+      "emoji": "🍳",
+      "roman": "rannaghor"
+    },
+    {
+      "id": "home-bathroom",
+      "en": "bathroom",
+      "bn": "বাথরুম",
+      "emoji": "🚿",
+      "roman": "bathroom"
+    },
+    {
+      "id": "home-toilet",
+      "en": "toilet",
+      "bn": "টয়লেট",
+      "emoji": "🚽",
+      "roman": "toilet"
+    },
+    {
+      "id": "home-bedroom",
+      "en": "bedroom",
+      "bn": "শোবার ঘর",
+      "emoji": "🛌",
+      "roman": "shobar ghor"
+    },
+    {
+      "id": "home-living-room",
+      "en": "living room",
+      "bn": "বসার ঘর",
+      "emoji": "🛋️",
+      "roman": "boshar ghor"
+    },
+    {
+      "id": "home-roof",
+      "en": "roof",
+      "bn": "ছাদ",
+      "emoji": "🏠",
+      "roman": "chad"
+    },
+    {
+      "id": "home-floor",
+      "en": "floor",
+      "bn": "মেঝে",
+      "emoji": "🟫",
+      "roman": "mejhe"
+    },
+    {
+      "id": "home-wall",
+      "en": "wall",
+      "bn": "দেয়াল",
+      "emoji": "🧱",
+      "roman": "deyal"
+    },
+    {
+      "id": "home-stairs",
+      "en": "stairs",
+      "bn": "সিঁড়ি",
+      "emoji": "🪜",
+      "roman": "shĩri"
+    },
+    {
+      "id": "home-fan",
+      "en": "fan",
+      "bn": "পাখা",
+      "emoji": "🌀",
+      "roman": "pakha"
+    },
+    {
+      "id": "home-tv",
+      "en": "television",
+      "bn": "টিভি",
+      "emoji": "📺",
+      "roman": "tivi"
+    },
+    {
+      "id": "home-fridge",
+      "en": "fridge",
+      "bn": "ফ্রিজ",
+      "emoji": "🧊",
+      "roman": "frij"
+    },
+    {
+      "id": "home-stove",
+      "en": "stove",
+      "bn": "চুলা",
+      "emoji": "🔥",
+      "roman": "chula"
+    },
+    {
+      "id": "home-mirror",
+      "en": "mirror",
+      "bn": "আয়না",
+      "emoji": "🪞",
+      "roman": "ayna"
+    },
+    {
+      "id": "home-soap",
+      "en": "soap",
+      "bn": "সাবান",
+      "emoji": "🧼",
+      "roman": "shaban"
+    },
+    {
+      "id": "home-towel",
+      "en": "towel",
+      "bn": "তোয়ালে",
+      "emoji": "🧺",
+      "roman": "towale"
+    },
+    {
+      "id": "home-brush",
+      "en": "brush",
+      "bn": "ব্রাশ",
+      "emoji": "🪥",
+      "roman": "brush"
+    },
+    {
+      "id": "home-comb",
+      "en": "comb",
+      "bn": "চিরুনি",
+      "emoji": "💇",
+      "roman": "chiruni"
+    },
+    {
+      "id": "home-pillow",
+      "en": "pillow",
+      "bn": "বালিশ",
+      "emoji": "🛏️",
+      "roman": "balish"
+    },
+    {
+      "id": "home-blanket",
+      "en": "blanket",
+      "bn": "কম্বল",
+      "emoji": "🛏️",
+      "roman": "kombol"
+    },
+    {
+      "id": "home-curtain",
+      "en": "curtain",
+      "bn": "পর্দা",
+      "emoji": "🪟",
+      "roman": "porda"
+    },
+    {
+      "id": "home-bucket",
+      "en": "bucket",
+      "bn": "বালতি",
+      "emoji": "🪣",
+      "roman": "balti"
+    },
+    {
+      "id": "home-glass",
+      "en": "glass",
+      "bn": "গ্লাস",
+      "emoji": "🥛",
+      "roman": "glas"
+    },
+    {
+      "id": "home-fork",
+      "en": "fork",
+      "bn": "কাঁটাচামচ",
+      "emoji": "🍴",
+      "roman": "kãtachamoch"
+    },
+    {
+      "id": "home-bowl",
+      "en": "bowl",
+      "bn": "বাটি",
+      "emoji": "🥣",
+      "roman": "bati"
+    },
+    {
+      "id": "home-pencil",
+      "en": "pencil",
+      "bn": "পেন্সিল",
+      "emoji": "✏️",
+      "roman": "pensil"
+    },
+    {
+      "id": "home-paper",
+      "en": "paper",
+      "bn": "কাগজ",
+      "emoji": "📄",
+      "roman": "kagoj"
+    },
+    {
+      "id": "home-scissors",
+      "en": "scissors",
+      "bn": "কাঁচি",
+      "emoji": "✂️",
+      "roman": "kãchi"
+    },
+    {
+      "id": "home-box",
+      "en": "box",
+      "bn": "বাক্স",
+      "emoji": "📦",
+      "roman": "baksho"
+    },
+    {
+      "id": "home-light",
+      "en": "light",
+      "bn": "আলো",
+      "emoji": "💡",
+      "roman": "alo"
+    },
+    {
+      "id": "home-sofa",
+      "en": "sofa",
+      "bn": "সোফা",
+      "emoji": "🛋️",
+      "roman": "sofa"
+    },
+    {
+      "id": "home-armchair",
+      "en": "armchair",
+      "bn": "আর্মচেয়ার",
+      "emoji": "🪑",
+      "roman": "armchair"
+    },
+    {
+      "id": "home-bookshelf",
+      "en": "bookshelf",
+      "bn": "বই অলমরি",
+      "emoji": "📚",
+      "roman": "boi almari"
+    },
+    {
+      "id": "home-wardrobe",
+      "en": "wardrobe",
+      "bn": "অলমরি",
+      "emoji": "🚪",
+      "roman": "almari"
+    },
+    {
+      "id": "home-dresser",
+      "en": "dresser",
+      "bn": "ড্রেসার",
+      "emoji": "🪞",
+      "roman": "dresser"
+    },
+    {
+      "id": "home-nightstand",
+      "en": "nightstand",
+      "bn": "বেডসাইড টেবিল",
+      "emoji": "🛏️",
+      "roman": "nightstand"
+    },
+    {
+      "id": "home-mattress",
+      "en": "mattress",
+      "bn": "তোশক",
+      "emoji": "🛏️",
+      "roman": "toshok"
+    },
+    {
+      "id": "home-sheet",
+      "en": "sheet",
+      "bn": "চাদর",
+      "emoji": "🛏️",
+      "roman": "chador"
+    },
+    {
+      "id": "home-quilt",
+      "en": "quilt",
+      "bn": "কাঁথা",
+      "emoji": "🛏️",
+      "roman": "katha"
+    },
+    {
+      "id": "home-cushion",
+      "en": "cushion",
+      "bn": "কুশন",
+      "emoji": "🛋️",
+      "roman": "kushion"
+    },
+    {
+      "id": "home-rug",
+      "en": "rug",
+      "bn": "কার্পেট",
+      "emoji": "🟫",
+      "roman": "carpet"
+    },
+    {
+      "id": "home-doormat",
+      "en": "doormat",
+      "bn": "দরজার চটাই",
+      "emoji": "🟫",
+      "roman": "dormat"
+    },
+    {
+      "id": "home-hanger",
+      "en": "hanger",
+      "bn": "কাপড় ঝুলানোর হ্যাঙার",
+      "emoji": "🪝",
+      "roman": "hanger"
+    },
+    {
+      "id": "home-clothesline",
+      "en": "clothesline",
+      "bn": "টানা",
+      "emoji": "👕",
+      "roman": "tana"
+    },
+    {
+      "id": "home-washing-machine",
+      "en": "washing machine",
+      "bn": "ওয়াশিং মেশিন",
+      "emoji": "🧺",
+      "roman": "washing machine"
+    },
+    {
+      "id": "home-dryer",
+      "en": "dryer",
+      "bn": "ড্রায়ার",
+      "emoji": "👕",
+      "roman": "dryer"
+    },
+    {
+      "id": "home-iron",
+      "en": "iron",
+      "bn": "ইসতরি",
+      "emoji": "👔",
+      "roman": "istri"
+    },
+    {
+      "id": "home-ironing-board",
+      "en": "ironing board",
+      "bn": "ইসতরি বোরদ",
+      "emoji": "👔",
+      "roman": "istri board"
+    },
+    {
+      "id": "home-vacuum-cleaner",
+      "en": "vacuum cleaner",
+      "bn": "ভ্যাকুয়াম ক্লিনার",
+      "emoji": "🧹",
+      "roman": "vacuum"
+    },
+    {
+      "id": "home-broom",
+      "en": "broom",
+      "bn": "ঝাড়ু",
+      "emoji": "🧹",
+      "roman": "jharu"
+    },
+    {
+      "id": "home-mop",
+      "en": "mop",
+      "bn": "মোপ",
+      "emoji": "🧹",
+      "roman": "mop"
+    },
+    {
+      "id": "home-dustbin",
+      "en": "dustbin",
+      "bn": "আবর্জনার ঝুড়ি",
+      "emoji": "🗑️",
+      "roman": "dustbin"
+    },
+    {
+      "id": "home-trash-bag",
+      "en": "trash bag",
+      "bn": "আবর্জনার ব্যাগ",
+      "emoji": "🗑️",
+      "roman": "trash bag"
+    },
+    {
+      "id": "home-recycle-bin",
+      "en": "recycle bin",
+      "bn": "পুনর্ব্যবহারের বাক্স",
+      "emoji": "♻️",
+      "roman": "recycle bin"
+    },
+    {
+      "id": "home-detergent",
+      "en": "detergent",
+      "bn": "ডিটারজেন্ট",
+      "emoji": "🧴",
+      "roman": "detergent"
+    },
+    {
+      "id": "home-bleach",
+      "en": "bleach",
+      "bn": "ব্লিচ",
+      "emoji": "🧴",
+      "roman": "bleach"
+    },
+    {
+      "id": "home-sponge",
+      "en": "sponge",
+      "bn": "স্পঞ্জ",
+      "emoji": "🧽",
+      "roman": "sponge"
+    },
+    {
+      "id": "home-dish-soap",
+      "en": "dish soap",
+      "bn": "বাসন ধোয়ার সাবান",
+      "emoji": "🧼",
+      "roman": "bartan dhonar saban"
+    },
+    {
+      "id": "home-dish-rack",
+      "en": "dish rack",
+      "bn": "বাসনের র্যাক",
+      "emoji": "🍽️",
+      "roman": "bartan rack"
+    },
+    {
+      "id": "home-cutting-board",
+      "en": "cutting board",
+      "bn": "কাটার বোর্ড",
+      "emoji": "🔪",
+      "roman": "kata board"
+    },
+    {
+      "id": "home-colander",
+      "en": "colander",
+      "bn": "ছাকা",
+      "emoji": "🥣",
+      "roman": "colander"
+    },
+    {
+      "id": "home-whisk",
+      "en": "whisk",
+      "bn": "ফুড়া",
+      "emoji": "🥄",
+      "roman": "whisk"
+    },
+    {
+      "id": "home-ladle",
+      "en": "ladle",
+      "bn": "খুনতি",
+      "emoji": "🥄",
+      "roman": "khunti"
+    },
+    {
+      "id": "home-tongs",
+      "en": "tongs",
+      "bn": "তোঙস",
+      "emoji": "🥢",
+      "roman": "tongs"
+    },
+    {
+      "id": "home-rolling-pin",
+      "en": "rolling pin",
+      "bn": "বেলুন",
+      "emoji": "🥖",
+      "roman": "belun"
+    },
+    {
+      "id": "home-grater",
+      "en": "grater",
+      "bn": "গরতের",
+      "emoji": "🧀",
+      "roman": "grater"
+    },
+    {
+      "id": "home-peeler",
+      "en": "peeler",
+      "bn": "পিলার",
+      "emoji": "🥔",
+      "roman": "peeler"
+    },
+    {
+      "id": "home-can-opener",
+      "en": "can opener",
+      "bn": "চন ওপেনের",
+      "emoji": "🥫",
+      "roman": "can opener"
+    },
+    {
+      "id": "home-bottle-opener",
+      "en": "bottle opener",
+      "bn": "বোটলে ওপেনের",
+      "emoji": "🍾",
+      "roman": "bottle opener"
+    },
+    {
+      "id": "home-corkscrew",
+      "en": "corkscrew",
+      "bn": "চোরকসচরেব",
+      "emoji": "🍾",
+      "roman": "corkscrew"
+    },
+    {
+      "id": "home-measuring-cup",
+      "en": "measuring cup",
+      "bn": "মাপের কাপ",
+      "emoji": "🥛",
+      "roman": "mapar kap"
+    },
+    {
+      "id": "home-mixing-bowl",
+      "en": "mixing bowl",
+      "bn": "মিশ্রণের বাটি",
+      "emoji": "🥣",
+      "roman": "mishran bati"
+    },
+    {
+      "id": "home-baking-tray",
+      "en": "baking tray",
+      "bn": "বেকিং ট্রে",
+      "emoji": "🍪",
+      "roman": "baking tray"
+    },
+    {
+      "id": "home-oven",
+      "en": "oven",
+      "bn": "ওভেন",
+      "emoji": "🔥",
+      "roman": "oven"
+    },
+    {
+      "id": "home-microwave",
+      "en": "microwave",
+      "bn": "মাইক্রোওয়েভ",
+      "emoji": "📻",
+      "roman": "microwave"
+    },
+    {
+      "id": "home-toaster",
+      "en": "toaster",
+      "bn": "টোস্টার",
+      "emoji": "🍞",
+      "roman": "toaster"
+    },
+    {
+      "id": "home-blender",
+      "en": "blender",
+      "bn": "ব্লেন্ডার",
+      "emoji": "🥤",
+      "roman": "blender"
+    },
+    {
+      "id": "home-kettle",
+      "en": "kettle",
+      "bn": "কেটল",
+      "emoji": "🫖",
+      "roman": "kettle"
+    },
+    {
+      "id": "home-rice-cooker",
+      "en": "rice cooker",
+      "bn": "রাইস কুকার",
+      "emoji": "🍚",
+      "roman": "rice cooker"
+    },
+    {
+      "id": "home-pressure-cooker",
+      "en": "pressure cooker",
+      "bn": "প্রেশার কুকার",
+      "emoji": "🍲",
+      "roman": "pressure cooker"
+    },
+    {
+      "id": "home-pan",
+      "en": "pan",
+      "bn": "প্যান",
+      "emoji": "🍳",
+      "roman": "pan"
+    },
+    {
+      "id": "home-pot",
+      "en": "pot",
+      "bn": "হাঁড়ি",
+      "emoji": "🍲",
+      "roman": "hari"
+    },
+    {
+      "id": "home-wok",
+      "en": "wok",
+      "bn": "কড়াই",
+      "emoji": "🍳",
+      "roman": "karai"
+    },
+    {
+      "id": "home-lid",
+      "en": "lid",
+      "bn": "ঢাকনা",
+      "emoji": "🫕",
+      "roman": "dhakna"
+    },
+    {
+      "id": "home-trivet",
+      "en": "trivet",
+      "bn": "তরিভেত",
+      "emoji": "🔥",
+      "roman": "trivet"
+    },
+    {
+      "id": "home-teapot",
+      "en": "teapot",
+      "bn": "তেপোত",
+      "emoji": "🫖",
+      "roman": "teapot"
+    },
+    {
+      "id": "home-coffee-maker",
+      "en": "coffee maker",
+      "bn": "কাফি মকের",
+      "emoji": "☕",
+      "roman": "coffee maker"
+    },
+    {
+      "id": "home-water-filter",
+      "en": "water filter",
+      "bn": "পানি ফিলতের",
+      "emoji": "💧",
+      "roman": "pani filter"
+    },
+    {
+      "id": "home-water-bottle",
+      "en": "water bottle",
+      "bn": "পানি বোটলে",
+      "emoji": "💧",
+      "roman": "pani bottle"
+    },
+    {
+      "id": "home-thermos",
+      "en": "thermos",
+      "bn": "থেরমোস",
+      "emoji": "🫖",
+      "roman": "thermos"
+    },
+    {
+      "id": "home-lunch-container",
+      "en": "lunch container",
+      "bn": "লুনচ বোক্স",
+      "emoji": "🍱",
+      "roman": "lunch box"
+    },
+    {
+      "id": "home-food-wrap",
+      "en": "food wrap",
+      "bn": "শব্যাব বরপ",
+      "emoji": "🥡",
+      "roman": "food wrap"
+    },
+    {
+      "id": "home-aluminum-foil",
+      "en": "aluminum foil",
+      "bn": "ফৈল",
+      "emoji": "📄",
+      "roman": "foil"
+    },
+    {
+      "id": "home-plastic-wrap",
+      "en": "plastic wrap",
+      "bn": "পলসতিচ বরপ",
+      "emoji": "📄",
+      "roman": "plastic wrap"
+    },
+    {
+      "id": "home-ziplock-bag",
+      "en": "ziplock bag",
+      "bn": "জিপলোচক ব্যাগ",
+      "emoji": "🥡",
+      "roman": "ziplock bag"
+    },
+    {
+      "id": "home-pantry",
+      "en": "pantry",
+      "bn": "পনতরয",
+      "emoji": "🥫",
+      "roman": "pantry"
+    },
+    {
+      "id": "home-cupboard",
+      "en": "cupboard",
+      "bn": "অলমরি",
+      "emoji": "🚪",
+      "roman": "almari"
+    },
+    {
+      "id": "home-drawer",
+      "en": "drawer",
+      "bn": "দরবের",
+      "emoji": "🗄️",
+      "roman": "drawer"
+    },
+    {
+      "id": "home-shelf",
+      "en": "shelf",
+      "bn": "টানা",
+      "emoji": "📚",
+      "roman": "tana"
+    },
+    {
+      "id": "home-attic",
+      "en": "attic",
+      "bn": "ছাদ ঘর",
+      "emoji": "🏠",
+      "roman": "chad ghor"
+    },
+    {
+      "id": "home-basement",
+      "en": "basement",
+      "bn": "নোবিন ঘর",
+      "emoji": "🏠",
+      "roman": "nobin ghor"
+    },
+    {
+      "id": "home-garage",
+      "en": "garage",
+      "bn": "গরগে",
+      "emoji": "🚗",
+      "roman": "garage"
+    },
+    {
+      "id": "home-balcony",
+      "en": "balcony",
+      "bn": "বারান্দা",
+      "emoji": "🏠",
+      "roman": "baranda"
+    },
+    {
+      "id": "home-porch",
+      "en": "porch",
+      "bn": "বারান্দা",
+      "emoji": "🏠",
+      "roman": "porch"
+    },
+    {
+      "id": "home-yard",
+      "en": "yard",
+      "bn": "উঠান",
+      "emoji": "🏡",
+      "roman": "yard"
+    },
+    {
+      "id": "home-gate",
+      "en": "gate",
+      "bn": "গেট",
+      "emoji": "🚪",
+      "roman": "gate"
+    },
+    {
+      "id": "home-fence",
+      "en": "fence",
+      "bn": "বেড়া",
+      "emoji": "🚧",
+      "roman": "fence"
+    },
+    {
+      "id": "home-mailbox",
+      "en": "mailbox",
+      "bn": "মেইলবক্স",
+      "emoji": "📬",
+      "roman": "mailbox"
+    },
+    {
+      "id": "home-doorbell",
+      "en": "doorbell",
+      "bn": "দরজার ঘণ্টা",
+      "emoji": "🔔",
+      "roman": "doorbell"
+    },
+    {
+      "id": "home-door-handle",
+      "en": "door handle",
+      "bn": "দরজার হাতল",
+      "emoji": "🚪",
+      "roman": "dhanla"
+    },
+    {
+      "id": "home-lock",
+      "en": "lock",
+      "bn": "তালা",
+      "emoji": "🔒",
+      "roman": "tala"
+    },
+    {
+      "id": "home-doorknob",
+      "en": "doorknob",
+      "bn": "দরজার হাতল",
+      "emoji": "🚪",
+      "roman": "dhanla"
+    },
+    {
+      "id": "home-hinge",
+      "en": "hinge",
+      "bn": "হিঙে",
+      "emoji": "🚪",
+      "roman": "hinge"
+    },
+    {
+      "id": "home-door-mat",
+      "en": "door mat",
+      "bn": "দোরমত",
+      "emoji": "🟫",
+      "roman": "dormat"
+    },
+    {
+      "id": "home-welcome-mat",
+      "en": "welcome mat",
+      "bn": "বেলচোমে মত",
+      "emoji": "🟫",
+      "roman": "welcome mat"
+    },
+    {
+      "id": "home-smoke-detector",
+      "en": "smoke detector",
+      "bn": "ধোঁয়া সেন্সর",
+      "emoji": "🚨",
+      "roman": "smoke detector"
+    },
+    {
+      "id": "home-fire-extinguisher",
+      "en": "fire extinguisher",
+      "bn": "অগ্নিনির্বাপক",
+      "emoji": "🧯",
+      "roman": "fire extinguisher"
+    },
+    {
+      "id": "home-first-aid-kit",
+      "en": "first aid kit",
+      "bn": "প্রাথমিক চিকিৎসা",
+      "emoji": "🩹",
+      "roman": "first aid kit"
+    },
+    {
+      "id": "home-bandage",
+      "en": "bandage",
+      "bn": "ব্যান্ডেজ",
+      "emoji": "🩹",
+      "roman": "bandage"
+    },
+    {
+      "id": "home-medicine",
+      "en": "medicine",
+      "bn": "ঔষধ",
+      "emoji": "💊",
+      "roman": "oshudh"
+    },
+    {
+      "id": "home-thermometer",
+      "en": "thermometer",
+      "bn": "থার্মোমিটার",
+      "emoji": "🌡️",
+      "roman": "thermometer"
+    },
+    {
+      "id": "home-flashlight",
+      "en": "flashlight",
+      "bn": "ফ্ল্যাশলাইট",
+      "emoji": "🔦",
+      "roman": "flashlight"
+    },
+    {
+      "id": "home-candle",
+      "en": "candle",
+      "bn": "মোমবতি",
+      "emoji": "🕯️",
+      "roman": "mombati"
+    },
+    {
+      "id": "home-matchbox",
+      "en": "matchbox",
+      "bn": "দিয়াসলাই",
+      "emoji": "🔥",
+      "roman": "diba"
+    },
+    {
+      "id": "home-lighter",
+      "en": "lighter",
+      "bn": "লাইটার",
+      "emoji": "🔥",
+      "roman": "lighter"
+    },
+    {
+      "id": "home-extension-cord",
+      "en": "extension cord",
+      "bn": "এক্সটেনশন কোর্ড",
+      "emoji": "🔌",
+      "roman": "extension cord"
+    },
+    {
+      "id": "home-plug",
+      "en": "plug",
+      "bn": "প্লাগ",
+      "emoji": "🔌",
+      "roman": "plug"
+    },
+    {
+      "id": "home-socket",
+      "en": "socket",
+      "bn": "সকেট",
+      "emoji": "🔌",
+      "roman": "socket"
+    },
+    {
+      "id": "home-switch",
+      "en": "switch",
+      "bn": "সুইচ",
+      "emoji": "💡",
+      "roman": "switch"
+    },
+    {
+      "id": "home-bulb",
+      "en": "bulb",
+      "bn": "বাল্ব",
+      "emoji": "💡",
+      "roman": "bulb"
+    },
+    {
+      "id": "home-chandelier",
+      "en": "chandelier",
+      "bn": "ঝাড়বাতি",
+      "emoji": "💡",
+      "roman": "chandelier"
+    },
+    {
+      "id": "home-night-light",
+      "en": "night light",
+      "bn": "রাতের আলো",
+      "emoji": "🌙",
+      "roman": "night light"
+    },
+    {
+      "id": "home-air-conditioner",
+      "en": "air conditioner",
+      "bn": "এসি",
+      "emoji": "❄️",
+      "roman": "ac"
+    },
+    {
+      "id": "home-heater",
+      "en": "heater",
+      "bn": "হিটার",
+      "emoji": "🔥",
+      "roman": "heater"
+    },
+    {
+      "id": "home-humidifier",
+      "en": "humidifier",
+      "bn": "আর্দ্রতা বৃদ্ধিকারী",
+      "emoji": "💧",
+      "roman": "humidifier"
+    },
+    {
+      "id": "home-dehumidifier",
+      "en": "dehumidifier",
+      "bn": "আর্দ্রতা কমানো যন্ত্র",
+      "emoji": "💨",
+      "roman": "dehumidifier"
+    },
+    {
+      "id": "home-air-purifier",
+      "en": "air purifier",
+      "bn": "বায়ু পরিশোধক",
+      "emoji": "💨",
+      "roman": "air purifier"
+    },
+    {
+      "id": "home-remote-control",
+      "en": "remote control",
+      "bn": "রিমোট",
+      "emoji": "📱",
+      "roman": "remote"
+    },
+    {
+      "id": "home-speaker",
+      "en": "speaker",
+      "bn": "স্পিকার",
+      "emoji": "🔊",
+      "roman": "speaker"
+    },
+    {
+      "id": "home-radio",
+      "en": "radio",
+      "bn": "রেডিও",
+      "emoji": "📻",
+      "roman": "radio"
+    },
+    {
+      "id": "home-computer",
+      "en": "computer",
+      "bn": "কম্পিউটার",
+      "emoji": "💻",
+      "roman": "computer"
+    },
+    {
+      "id": "home-laptop",
+      "en": "laptop",
+      "bn": "ল্যাপটপ",
+      "emoji": "💻",
+      "roman": "laptop"
+    },
+    {
+      "id": "home-tablet",
+      "en": "tablet",
+      "bn": "ট্যাবলেট",
+      "emoji": "📱",
+      "roman": "tablet"
+    },
+    {
+      "id": "home-keyboard",
+      "en": "keyboard",
+      "bn": "কীবোর্ড",
+      "emoji": "⌨️",
+      "roman": "keyboard"
+    },
+    {
+      "id": "home-mouse-pad",
+      "en": "mouse pad",
+      "bn": "মাউস প্যাড",
+      "emoji": "🖱️",
+      "roman": "mouse pad"
+    },
+    {
+      "id": "home-printer",
+      "en": "printer",
+      "bn": "প্রিন্টার",
+      "emoji": "🖨️",
+      "roman": "printer"
+    },
+    {
+      "id": "home-camera",
+      "en": "camera",
+      "bn": "ক্যামেরা",
+      "emoji": "📷",
+      "roman": "camera"
+    },
+    {
+      "id": "home-tripod",
+      "en": "tripod",
+      "bn": "ট্রাইপড",
+      "emoji": "📷",
+      "roman": "tripod"
+    },
+    {
+      "id": "home-backpack",
+      "en": "backpack",
+      "bn": "ব্যাকপ্যাক",
+      "emoji": "🎒",
+      "roman": "backpack"
+    },
+    {
+      "id": "home-school-bag",
+      "en": "school bag",
+      "bn": "স্কুল ব্যাগ",
+      "emoji": "🎒",
+      "roman": "school bag"
+    },
+    {
+      "id": "home-pencil-case",
+      "en": "pencil case",
+      "bn": "পেন্সিল বক্স",
+      "emoji": "✏️",
+      "roman": "pencil case"
+    },
+    {
+      "id": "home-eraser",
+      "en": "eraser",
+      "bn": "রবার",
+      "emoji": "🧽",
+      "roman": "eraser"
+    },
+    {
+      "id": "home-sharpener",
+      "en": "sharpener",
+      "bn": "শার্পনার",
+      "emoji": "✏️",
+      "roman": "sharpener"
+    },
+    {
+      "id": "home-ruler",
+      "en": "ruler",
+      "bn": "রুলার",
+      "emoji": "📏",
+      "roman": "ruler"
+    },
+    {
+      "id": "home-glue",
+      "en": "glue",
+      "bn": "আঠা",
+      "emoji": "🧴",
+      "roman": "glue"
+    },
+    {
+      "id": "home-tape",
+      "en": "tape",
+      "bn": "টেপ",
+      "emoji": "📼",
+      "roman": "tape"
+    },
+    {
+      "id": "home-stapler",
+      "en": "stapler",
+      "bn": "স্ট্যাপলার",
+      "emoji": "📎",
+      "roman": "stapler"
+    },
+    {
+      "id": "home-paper-clip",
+      "en": "paper clip",
+      "bn": "পেপার ক্লিপ",
+      "emoji": "📎",
+      "roman": "paper clip"
+    },
+    {
+      "id": "home-notebook",
+      "en": "notebook",
+      "bn": "নোটবুক",
+      "emoji": "📓",
+      "roman": "notebook"
+    },
+    {
+      "id": "home-diary",
+      "en": "diary",
+      "bn": "ডায়েরি",
+      "emoji": "📔",
+      "roman": "diary"
+    },
+    {
+      "id": "home-calendar",
+      "en": "calendar",
+      "bn": "ক্যালেন্ডার",
+      "emoji": "📅",
+      "roman": "calendar"
+    },
+    {
+      "id": "home-whiteboard",
+      "en": "whiteboard",
+      "bn": "হোয়াইটবোর্ড",
+      "emoji": "📋",
+      "roman": "whiteboard"
+    },
+    {
+      "id": "home-blackboard",
+      "en": "blackboard",
+      "bn": "ব্ল্যাকবোর্ড",
+      "emoji": "📋",
+      "roman": "blackboard"
+    },
+    {
+      "id": "home-chalk",
+      "en": "chalk",
+      "bn": "চাল্খ",
+      "emoji": "✏️",
+      "roman": "chalk"
+    },
+    {
+      "id": "home-marker",
+      "en": "marker",
+      "bn": "মার্কার",
+      "emoji": "🖊️",
+      "roman": "marker"
+    },
+    {
+      "id": "home-crayon",
+      "en": "crayon",
+      "bn": "ক্রেয়ন",
+      "emoji": "🖍️",
+      "roman": "crayon"
+    },
+    {
+      "id": "home-paintbrush",
+      "en": "paintbrush",
+      "bn": "পেন্টব্রাশ",
+      "emoji": "🖌️",
+      "roman": "paintbrush"
+    },
+    {
+      "id": "home-paint",
+      "en": "paint",
+      "bn": "রং",
+      "emoji": "🎨",
+      "roman": "rong"
+    },
+    {
+      "id": "home-easel",
+      "en": "easel",
+      "bn": "ইজল",
+      "emoji": "🎨",
+      "roman": "easel"
+    },
+    {
+      "id": "home-puzzle",
+      "en": "puzzle",
+      "bn": "ধাঁধা",
+      "emoji": "🧩",
+      "roman": "puzzle"
+    },
+    {
+      "id": "home-board-game",
+      "en": "board game",
+      "bn": "বোর্ড গেম",
+      "emoji": "🎲",
+      "roman": "board game"
+    },
+    {
+      "id": "home-doll",
+      "en": "doll",
+      "bn": "পুতুল",
+      "emoji": "🪆",
+      "roman": "doll"
+    },
+    {
+      "id": "home-teddy-bear",
+      "en": "teddy bear",
+      "bn": "টেডি ভালুক",
+      "emoji": "🧸",
+      "roman": "teddy bear"
+    },
+    {
+      "id": "home-blocks",
+      "en": "blocks",
+      "bn": "ব্লক",
+      "emoji": "🧱",
+      "roman": "blocks"
+    },
+    {
+      "id": "home-yo-yo",
+      "en": "yo yo",
+      "bn": "যো যো",
+      "emoji": "🪀",
+      "roman": "yo yo"
+    },
+    {
+      "id": "home-kite",
+      "en": "kite",
+      "bn": "ঘুরি",
+      "emoji": "🪁",
+      "roman": "ghuri"
+    },
+    {
+      "id": "home-balloon",
+      "en": "balloon",
+      "bn": "বেলুন",
+      "emoji": "🎈",
+      "roman": "balloon"
+    },
+    {
+      "id": "home-party-hat",
+      "en": "party hat",
+      "bn": "পার্টি টুপি",
+      "emoji": "🎉",
+      "roman": "party hat"
+    },
+    {
+      "id": "home-gift",
+      "en": "gift",
+      "bn": "উপহার",
+      "emoji": "🎁",
+      "roman": "gift"
+    },
+    {
+      "id": "home-wrapping-paper",
+      "en": "wrapping paper",
+      "bn": "বরপপিঙ পপের",
+      "emoji": "🎁",
+      "roman": "wrapping paper"
+    },
+    {
+      "id": "home-ribbon",
+      "en": "ribbon",
+      "bn": "রিববোন",
+      "emoji": "🎀",
+      "roman": "ribbon"
+    },
+    {
+      "id": "home-card",
+      "en": "card",
+      "bn": "কার্ড",
+      "emoji": "💌",
+      "roman": "card"
+    },
+    {
+      "id": "home-envelope",
+      "en": "envelope",
+      "bn": "খাম",
+      "emoji": "✉️",
+      "roman": "envelope"
+    },
+    {
+      "id": "home-stamp",
+      "en": "stamp",
+      "bn": "ডাকটিকিট",
+      "emoji": "📮",
+      "roman": "stamp"
+    },
+    {
+      "id": "home-photo-frame",
+      "en": "photo frame",
+      "bn": "ছবির ফ্রেম",
+      "emoji": "🖼️",
+      "roman": "photo frame"
+    },
+    {
+      "id": "home-vase",
+      "en": "vase",
+      "bn": "ফুলদানি",
+      "emoji": "🏺",
+      "roman": "vase"
+    },
+    {
+      "id": "home-plant-pot",
+      "en": "plant pot",
+      "bn": "গাছের টব",
+      "emoji": "🪴",
+      "roman": "gach er tub"
+    },
+    {
+      "id": "home-watering-can",
+      "en": "watering can",
+      "bn": "পানি ধরার বালতি",
+      "emoji": "🪴",
+      "roman": "pani dharar balti"
+    },
+    {
+      "id": "home-garden-hose",
+      "en": "garden hose",
+      "bn": "বাগানের পাইপ",
+      "emoji": "🌿",
+      "roman": "garden hose"
+    },
+    {
+      "id": "home-toolbox",
+      "en": "toolbox",
+      "bn": "টুলবক্স",
+      "emoji": "🧰",
+      "roman": "toolbox"
+    },
+    {
+      "id": "home-hammer",
+      "en": "hammer",
+      "bn": "হাতুড়ি",
+      "emoji": "🔨",
+      "roman": "hammer"
+    },
+    {
+      "id": "home-screwdriver",
+      "en": "screwdriver",
+      "bn": "স্ক্রুড্রাইভার",
+      "emoji": "🪛",
+      "roman": "screwdriver"
+    },
+    {
+      "id": "home-wrench",
+      "en": "wrench",
+      "bn": "রেনচ",
+      "emoji": "🔧",
+      "roman": "wrench"
+    },
+    {
+      "id": "home-nail",
+      "en": "nail",
+      "bn": "পেরেক",
+      "emoji": "🔨",
+      "roman": "nail"
+    },
+    {
+      "id": "home-screw",
+      "en": "screw",
+      "bn": "স্ক্রু",
+      "emoji": "🔩",
+      "roman": "screw"
+    },
+    {
+      "id": "home-drill",
+      "en": "drill",
+      "bn": "ড্রিল",
+      "emoji": "🔩",
+      "roman": "drill"
+    },
+    {
+      "id": "home-ladder",
+      "en": "ladder",
+      "bn": "মই",
+      "emoji": "🪜",
+      "roman": "ladder"
+    },
+    {
+      "id": "home-paint-roller",
+      "en": "paint roller",
+      "bn": "পিনত নীলকন্ঠ",
+      "emoji": "🖌️",
+      "roman": "paint roller"
+    },
+    {
+      "id": "home-shovel",
+      "en": "shovel",
+      "bn": "বেলচা",
+      "emoji": "⛏️",
+      "roman": "shovel"
+    },
+    {
+      "id": "home-rake",
+      "en": "rake",
+      "bn": "ঝাুড়ু",
+      "emoji": "🍂",
+      "roman": "rake"
+    },
+    {
+      "id": "home-wheelbarrow",
+      "en": "wheelbarrow",
+      "bn": "ঠেলাগাড়ি",
+      "emoji": "🛒",
+      "roman": "wheelbarrow"
+    }
   ]
 }
