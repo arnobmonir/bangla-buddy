@@ -5,8 +5,7 @@
   "functions": {
     "api/tts.js": {
       "maxDuration": 20,
-      "memory": 1024,
-      "includeFiles": "node_modules/ws/**"
+      "memory": 1024
     }
   },
   "rewrites": [

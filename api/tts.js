@@ -1,5 +1,5 @@
-const { createHash, randomBytes } = require('node:crypto')
-const WebSocket = require('ws')
+import { createHash, randomBytes } from 'node:crypto'
+import WebSocket from 'ws'
 
 const ALLOWED_VOICES = new Set([
   'bn-IN-TanishaaNeural',
@@ -170,7 +170,7 @@ function synthesizeBangla(text, voice, rate) {
   })
 }
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   try {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
@@ -215,6 +215,6 @@ module.exports = async function handler(req, res) {
   }
 }
 
-module.exports.config = {
+export const config = {
   maxDuration: 20,
 }
