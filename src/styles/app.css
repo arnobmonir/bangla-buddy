@@ -1,0 +1,4 @@
+/* App-level layout helpers */
+.appShell {
+  min-height: 100dvh;
+}

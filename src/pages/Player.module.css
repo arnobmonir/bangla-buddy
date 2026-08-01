@@ -1,0 +1,338 @@
+.page {
+  --cat-color: #3db88a;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(
+      ellipse 90% 60% at 50% -10%,
+      color-mix(in srgb, var(--cat-color) 35%, white),
+      transparent 60%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--cat-color) 12%, #e8f4fc),
+      #fff8e7 70%
+    );
+  animation: pageWash 0.6s var(--ease) both;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: var(--space-3);
+  animation: fadeDown 0.4s var(--ease) both;
+}
+
+.back {
+  justify-self: start;
+  min-height: 44px;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: var(--surface-strong);
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(26, 43, 60, 0.08);
+  transition:
+    transform 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+
+.back:hover {
+  transform: translateX(-2px);
+  box-shadow: 0 6px 16px rgba(26, 43, 60, 0.12);
+}
+
+.catMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.catMeta > span {
+  display: inline-block;
+  animation: softBounce 3.6s var(--ease-loop) infinite;
+  will-change: transform;
+}
+
+.catEn {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.catBn {
+  margin: 0;
+  font-family: var(--font-bangla);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.progress,
+.progressSpacer {
+  justify-self: end;
+  min-width: 4.5rem;
+  text-align: right;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in srgb, var(--cat-color) 50%, var(--ink));
+}
+
+.progress {
+  animation: progressPop 0.35s var(--ease);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3);
+}
+
+.status,
+.error {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.error {
+  color: #c0392b;
+}
+
+.startPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.55rem;
+  width: min(100%, 420px);
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: var(--shadow);
+  animation: panelIn 0.55s var(--ease) both;
+}
+
+.startIcon {
+  margin: 0;
+  font-size: 4rem;
+  line-height: 1;
+  animation: softBounce 3.4s var(--ease-loop) infinite;
+  will-change: transform;
+}
+
+.startTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 6vw, 2.4rem);
+}
+
+.startBn {
+  margin: 0;
+  font-family: var(--font-bangla);
+  font-size: 1.35rem;
+  color: var(--ink-soft);
+}
+
+.startHint {
+  margin: 0.4rem 0 0.8rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  max-width: 18rem;
+}
+
+.primary,
+.secondary {
+  min-height: var(--tap);
+  min-width: 160px;
+  padding: 0 1.6rem;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 650;
+  transition:
+    transform 0.22s var(--ease),
+    box-shadow 0.22s var(--ease);
+}
+
+.primary {
+  background: color-mix(in srgb, var(--cat-color) 85%, #123);
+  color: white;
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--cat-color) 40%, transparent);
+  animation: pulseCta 3.2s var(--ease-loop) infinite;
+  will-change: transform, box-shadow;
+}
+
+.primary:hover,
+.secondary:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.primary:active,
+.secondary:active {
+  transform: scale(0.97);
+  animation: none;
+}
+
+.secondary {
+  background: var(--surface-strong);
+  color: var(--ink);
+  border: 2px solid color-mix(in srgb, var(--cat-color) 35%, transparent);
+}
+
+.doneActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.55rem;
+  padding: var(--space-3) var(--space-3) calc(var(--space-4) + env(safe-area-inset-bottom));
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  animation: controlsUp 0.45s var(--ease) both;
+}
+
+.ctrl,
+.ctrlMain {
+  min-height: var(--tap);
+  border-radius: var(--radius-md);
+  font-weight: 750;
+  font-size: 0.95rem;
+  background: var(--surface-strong);
+  box-shadow: 0 4px 14px rgba(26, 43, 60, 0.08);
+  transition:
+    transform 0.18s var(--ease),
+    box-shadow 0.18s var(--ease);
+}
+
+.ctrl:hover,
+.ctrlMain:hover {
+  transform: translateY(-2px);
+}
+
+.ctrl:active,
+.ctrlMain:active {
+  transform: scale(0.96);
+}
+
+.ctrlMain {
+  background: color-mix(in srgb, var(--cat-color) 85%, #123);
+  color: white;
+}
+
+@keyframes pageWash {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes controlsUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes softBounce {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+
+@keyframes pulseCta {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    box-shadow: 0 8px 24px color-mix(in srgb, var(--cat-color) 40%, transparent);
+  }
+  50% {
+    transform: translate3d(0, 0, 0) scale(1.03);
+    box-shadow: 0 12px 30px color-mix(in srgb, var(--cat-color) 52%, transparent);
+  }
+}
+
+@keyframes progressPop {
+  from {
+    opacity: 0.3;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 420px) {
+  .controls {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .top {
+    grid-template-columns: auto 1fr auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page,
+  .top,
+  .startPanel,
+  .startIcon,
+  .catMeta > span,
+  .primary,
+  .controls,
+  .progress {
+    animation: none;
+  }
+
+  .back:hover,
+  .primary:hover,
+  .secondary:hover,
+  .ctrl:hover,
+  .ctrlMain:hover {
+    transform: none;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "categoryId": "colors",
+  "words": [
+    { "id": "colors-red", "en": "red", "bn": "লাল", "emoji": "🔴", "roman": "lal" },
+    { "id": "colors-blue", "en": "blue", "bn": "নীল", "emoji": "🔵", "roman": "nil" },
+    { "id": "colors-green", "en": "green", "bn": "সবুজ", "emoji": "🟢", "roman": "sobuj" },
+    { "id": "colors-yellow", "en": "yellow", "bn": "হলুদ", "emoji": "🟡", "roman": "holud" },
+    { "id": "colors-orange", "en": "orange", "bn": "কমলা", "emoji": "🟠", "roman": "komola" },
+    { "id": "colors-purple", "en": "purple", "bn": "বেগুনি", "emoji": "🟣", "roman": "beguni" },
+    { "id": "colors-pink", "en": "pink", "bn": "গোলাপি", "emoji": "🩷", "roman": "golapi" },
+    { "id": "colors-white", "en": "white", "bn": "সাদা", "emoji": "⚪", "roman": "shada" },
+    { "id": "colors-black", "en": "black", "bn": "কালো", "emoji": "⚫", "roman": "kalo" },
+    { "id": "colors-brown", "en": "brown", "bn": "বাদামি", "emoji": "🟤", "roman": "badami" },
+    { "id": "colors-gray", "en": "gray", "bn": "ধূসর", "emoji": "🩶", "roman": "dhusor" },
+    { "id": "colors-gold", "en": "gold", "bn": "সোনা", "emoji": "🥇", "roman": "shona" },
+    { "id": "colors-silver", "en": "silver", "bn": "রূপা", "emoji": "🥈", "roman": "rupa" },
+    { "id": "colors-sky-blue", "en": "sky blue", "bn": "আকাশি", "emoji": "🩵", "roman": "akashi" },
+    { "id": "colors-light-green", "en": "light green", "bn": "হালকা সবুজ", "emoji": "🟩", "roman": "halka sobuj" },
+    { "id": "colors-dark-blue", "en": "dark blue", "bn": "গাঢ় নীল", "emoji": "🔵", "roman": "garho nil" },
+    { "id": "colors-maroon", "en": "maroon", "bn": "মেরুন", "emoji": "🟥", "roman": "merun" },
+    { "id": "colors-cream", "en": "cream", "bn": "ক্রিম", "emoji": "🍦", "roman": "krim" },
+    { "id": "colors-beige", "en": "beige", "bn": "বেইজ", "emoji": "🟤", "roman": "beige" },
+    { "id": "colors-multicolor", "en": "multicolor", "bn": "রঙিন", "emoji": "🌈", "roman": "rongin" },
+    { "id": "colors-color", "en": "color", "bn": "রং", "emoji": "🎨", "roman": "rong" },
+    { "id": "colors-bright", "en": "bright", "bn": "উজ্জ্বল", "emoji": "✨", "roman": "ujjol" },
+    { "id": "colors-dark", "en": "dark", "bn": "অন্ধকার", "emoji": "🌑", "roman": "ondhokar" },
+    { "id": "colors-light", "en": "light", "bn": "আলো", "emoji": "💡", "roman": "alo" }
+  ]
+}

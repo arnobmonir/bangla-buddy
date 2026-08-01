@@ -1,0 +1,110 @@
+[
+  {
+    "id": "animals",
+    "nameEn": "Animals",
+    "nameBn": "প্রাণী",
+    "color": "#3db88a",
+    "icon": "🐾",
+    "wordCount": 48,
+    "file": "animals.json"
+  },
+  {
+    "id": "colors",
+    "nameEn": "Colors",
+    "nameBn": "রং",
+    "color": "#e85d4c",
+    "icon": "🎨",
+    "wordCount": 24,
+    "file": "colors.json"
+  },
+  {
+    "id": "family",
+    "nameEn": "Family",
+    "nameBn": "পরিবার",
+    "color": "#f0a202",
+    "icon": "👨‍👩‍👧",
+    "wordCount": 36,
+    "file": "family.json"
+  },
+  {
+    "id": "food",
+    "nameEn": "Food",
+    "nameBn": "খাবার",
+    "color": "#e07a2f",
+    "icon": "🍎",
+    "wordCount": 48,
+    "file": "food.json"
+  },
+  {
+    "id": "body",
+    "nameEn": "Body",
+    "nameBn": "শরীর",
+    "color": "#5b8def",
+    "icon": "🧍",
+    "wordCount": 40,
+    "file": "body.json"
+  },
+  {
+    "id": "mathematics",
+    "nameEn": "Mathematics",
+    "nameBn": "গণিত",
+    "color": "#7c6cf0",
+    "icon": "🧮",
+    "wordCount": 103,
+    "file": "mathematics.json"
+  },
+  {
+    "id": "nature",
+    "nameEn": "Nature",
+    "nameBn": "প্রকৃতি",
+    "color": "#2f9e6b",
+    "icon": "🌿",
+    "wordCount": 48,
+    "file": "nature.json"
+  },
+  {
+    "id": "home",
+    "nameEn": "Home",
+    "nameBn": "বাড়ি",
+    "color": "#d46b9c",
+    "icon": "🏠",
+    "wordCount": 48,
+    "file": "home.json"
+  },
+  {
+    "id": "clothes",
+    "nameEn": "Clothes",
+    "nameBn": "পোশাক",
+    "color": "#2a9d8f",
+    "icon": "👕",
+    "wordCount": 40,
+    "file": "clothes.json"
+  },
+  {
+    "id": "transport",
+    "nameEn": "Transport",
+    "nameBn": "যানবাহন",
+    "color": "#457b9d",
+    "icon": "🚗",
+    "wordCount": 40,
+    "file": "transport.json"
+  },
+  {
+    "id": "feelings",
+    "nameEn": "Feelings",
+    "nameBn": "অনুভূতি",
+    "color": "#e63946",
+    "icon": "😊",
+    "wordCount": 36,
+    "file": "feelings.json"
+  },
+  {
+    "id": "actions",
+    "nameEn": "Actions",
+    "nameBn": "ক্রিয়া",
+    "color": "#118ab2",
+    "icon": "🏃",
+    "wordCount": 48,
+    "file": "actions.json"
+  }
+]

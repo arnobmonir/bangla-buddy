@@ -1,0 +1,8520 @@
+{
+  "colors": [
+    [
+      "violet",
+      "বেগুনি",
+      "🟣",
+      "beguni"
+    ],
+    [
+      "indigo",
+      "নীল",
+      "🔵",
+      "nil"
+    ],
+    [
+      "turquoise",
+      "ফিরোজা",
+      "🩵",
+      "firoza"
+    ],
+    [
+      "teal",
+      "সবুজাভ নীল",
+      "🩵",
+      "sabujabh nil"
+    ],
+    [
+      "lime",
+      "লেবু সবুজ",
+      "🟢",
+      "lebu sobuj"
+    ],
+    [
+      "olive",
+      "জলপাই",
+      "🫒",
+      "jolpai"
+    ],
+    [
+      "navy",
+      "গাঢ় নীল",
+      "🔵",
+      "garho nil"
+    ],
+    [
+      "crimson",
+      "লালচে",
+      "🔴",
+      "lalche"
+    ],
+    [
+      "azure",
+      "আকাশি",
+      "🩵",
+      "akashi"
+    ],
+    [
+      "amber",
+      "অ্যাম্বার",
+      "🟠",
+      "amber"
+    ],
+    [
+      "peach",
+      "পীচ",
+      "🍑",
+      "peach"
+    ],
+    [
+      "mint green",
+      "পudina sobuj",
+      "🟢",
+      "pudina sobuj"
+    ],
+    [
+      "charcoal",
+      "কoyla",
+      "⚫",
+      "koyla"
+    ],
+    [
+      "silver gray",
+      "রূপালি",
+      "🩶",
+      "rupal"
+    ],
+    [
+      "golden yellow",
+      "সোনালি",
+      "🟡",
+      "sonali"
+    ],
+    [
+      "transparent",
+      "স্বচ্ছ",
+      "⬜",
+      "shwochho"
+    ],
+    [
+      "shiny",
+      "চকচকে",
+      "✨",
+      "chokchoke"
+    ],
+    [
+      "warm color",
+      "উষ্ণ রং",
+      "🟠",
+      "ushno rong"
+    ],
+    [
+      "cool color",
+      "শীতল রং",
+      "🔵",
+      "shitol rong"
+    ],
+    [
+      "primary color",
+      "মূল রং",
+      "🎨",
+      "mul rong"
+    ],
+    [
+      "pastel",
+      "প্যাস্টেল",
+      "🎨",
+      "pastel"
+    ],
+    [
+      "earthy",
+      "মাটির",
+      "🟤",
+      "matir"
+    ],
+    [
+      "sky color",
+      "আকাশের রং",
+      "🩵",
+      "akasher rong"
+    ],
+    [
+      "leaf green",
+      "পাতার সবুজ",
+      "🍃",
+      "patar sobuj"
+    ],
+    [
+      "sunset orange",
+      "সূর্যাস্ত কমলা",
+      "🌅",
+      "surjasto komola"
+    ],
+    [
+      "midnight blue",
+      "মধ্যরাত নীল",
+      "🌌",
+      "madhyorat nil"
+    ],
+    [
+      "snow white",
+      "তুষার সাদা",
+      "❄️",
+      "tushar shada"
+    ],
+    [
+      "ink black",
+      "কালি কালো",
+      "🖤",
+      "kali kalo"
+    ],
+    [
+      "rust",
+      "মরিচা",
+      "🟤",
+      "moricha"
+    ],
+    [
+      "copper",
+      "তামা",
+      "🟠",
+      "tama"
+    ],
+    [
+      "rainbow color",
+      "রামধনু রং",
+      "🌈",
+      "ramdhonu rong"
+    ],
+    [
+      "neon",
+      "নeon",
+      "💡",
+      "neon"
+    ],
+    [
+      "metallic",
+      "ধাতব",
+      "🔩",
+      "dhatob"
+    ],
+    [
+      "floral pink",
+      "ফুলের গোলাপি",
+      "🌸",
+      "phuler golapi"
+    ],
+    [
+      "dull color",
+      "নিস্তেজ",
+      "🩶",
+      "nistej"
+    ],
+    [
+      "secondary color",
+      "গৌণ রং",
+      "🎨",
+      "goun rong"
+    ],
+    [
+      "opaque",
+      "অস্বচ্ছ",
+      "⬛",
+      "oshwochho"
+    ],
+    [
+      "scarlet",
+      "লাল",
+      "🔴",
+      "lal"
+    ],
+    [
+      "tan",
+      "ট্যান",
+      "🟤",
+      "tan"
+    ],
+    [
+      "rose color",
+      "গোলাপি",
+      "🩷",
+      "golapi"
+    ]
+  ],
+  "family": [
+    [
+      "grandson",
+      "নati",
+      "👦",
+      "nati"
+    ],
+    [
+      "granddaughter",
+      "নati",
+      "👧",
+      "nati"
+    ],
+    [
+      "son",
+      "ছেলে",
+      "👦",
+      "chele"
+    ],
+    [
+      "daughter",
+      "মেয়ে",
+      "👧",
+      "meye"
+    ],
+    [
+      "husband",
+      "স্বামী",
+      "👨",
+      "swami"
+    ],
+    [
+      "wife",
+      "স্ত্রী",
+      "👩",
+      "stri"
+    ],
+    [
+      "parents",
+      "বাবা মা",
+      "👨‍👩‍👧",
+      "baba ma"
+    ],
+    [
+      "relatives",
+      "আত্মীয়",
+      "👨‍👩‍👧",
+      "atiyo"
+    ],
+    [
+      "elder brother",
+      "দাদা",
+      "👨",
+      "dada"
+    ],
+    [
+      "elder sister",
+      "দিদি",
+      "👩",
+      "didi"
+    ],
+    [
+      "younger brother",
+      "ছোট ভাই",
+      "👦",
+      "chhoto bhai"
+    ],
+    [
+      "younger sister",
+      "ছোট বোন",
+      "👧",
+      "chhoto bon"
+    ],
+    [
+      "bride",
+      "কন্না",
+      "👰",
+      "konna"
+    ],
+    [
+      "groom",
+      "দুলহা",
+      "🤵",
+      "dulha"
+    ],
+    [
+      "wedding",
+      "বিয়ে",
+      "💒",
+      "biye"
+    ],
+    [
+      "twins",
+      "যমজ",
+      "👯",
+      "joma"
+    ],
+    [
+      "babysitter",
+      "বাচ্চা দেখাশোনাকারী",
+      "👩",
+      "baccha dekhashonakari"
+    ],
+    [
+      "shopkeeper",
+      "দোকানদার",
+      "🏪",
+      "dokandar"
+    ],
+    [
+      "rickshaw puller",
+      "রিকশাচালক",
+      "🛺",
+      "rikshachalok"
+    ],
+    [
+      "engineer",
+      "প্রকৌশলী",
+      "👷",
+      "prokousholi"
+    ],
+    [
+      "pilot",
+      "পাইলট",
+      "✈️",
+      "pilot"
+    ],
+    [
+      "artist",
+      "শিল্পী",
+      "🎨",
+      "shilpi"
+    ],
+    [
+      "singer",
+      "গায়ক",
+      "🎤",
+      "gayok"
+    ],
+    [
+      "student",
+      "ছাত্র",
+      "🎓",
+      "chatro"
+    ],
+    [
+      "classmate",
+      "সহপাঠী",
+      "🧑‍🎓",
+      "sohopathi"
+    ],
+    [
+      "principal",
+      "অধ্যক্ষ",
+      "🏫",
+      "odhyokkh"
+    ],
+    [
+      "chef",
+      "রাঁধুনি",
+      "👨‍🍳",
+      "randhuni"
+    ],
+    [
+      "barber",
+      "নাপিত",
+      "💇",
+      "napit"
+    ],
+    [
+      "tailor",
+      "দর্জি",
+      "🧵",
+      "darji"
+    ],
+    [
+      "mechanic",
+      "মেকানিক",
+      "🔧",
+      "mechanic"
+    ],
+    [
+      "electrician",
+      "ইলেকট্রিশিয়ান",
+      "💡",
+      "electrician"
+    ],
+    [
+      "plumber",
+      "প্লাম্বার",
+      "🔧",
+      "plumber"
+    ],
+    [
+      "carpenter",
+      "ঠেকua",
+      "🪚",
+      "thekua"
+    ],
+    [
+      "gardener",
+      "মালী",
+      "🌻",
+      "mali"
+    ],
+    [
+      "fisherman",
+      "জেলে",
+      "🎣",
+      "jele"
+    ],
+    [
+      "milkman",
+      "দুধওয়ালা",
+      "🥛",
+      "dudhwala"
+    ],
+    [
+      "teenager",
+      "কিশোর",
+      "🧑",
+      "kishor"
+    ],
+    [
+      "adult",
+      "প্রাপ্তবয়স্ক",
+      "🧑",
+      "proptoboyoshko"
+    ],
+    [
+      "elder",
+      "বৃদ্ধ",
+      "👴",
+      "briddho"
+    ],
+    [
+      "newborn",
+      "নবজাতক",
+      "👶",
+      "nobojatok"
+    ],
+    [
+      "orphan",
+      "অনাথ",
+      "🧒",
+      "anath"
+    ],
+    [
+      "guardian",
+      "অভিভাবক",
+      "🧑",
+      "obhibhabok"
+    ],
+    [
+      "postman",
+      "ডাকপিয়ন",
+      "📮",
+      "dakpiyon"
+    ],
+    [
+      "porter",
+      "হমাল",
+      "🧳",
+      "hamal"
+    ],
+    [
+      "guard",
+      "পahara",
+      "🛡️",
+      "pahara"
+    ],
+    [
+      "builder",
+      "নির্মাতা",
+      "👷",
+      "nirmata"
+    ],
+    [
+      "sailor",
+      "নাবিক",
+      "⚓",
+      "nabik"
+    ],
+    [
+      "dancer",
+      "নর্তক",
+      "💃",
+      "nortok"
+    ],
+    [
+      "writer",
+      "লেখক",
+      "✍️",
+      "lekhok"
+    ],
+    [
+      "scientist",
+      "বিজ্ঞানী",
+      "🔬",
+      "biggyani"
+    ],
+    [
+      "librarian",
+      "গ্রন্থাগারিক",
+      "📚",
+      "gronthagarik"
+    ],
+    [
+      "coach",
+      "প্রশিক্ষক",
+      "🏃",
+      "proshikkhok"
+    ],
+    [
+      "judge",
+      "বিচারক",
+      "⚖️",
+      "bicharak"
+    ],
+    [
+      "lawyer",
+      "উকিল",
+      "⚖️",
+      "ukil"
+    ],
+    [
+      "banker",
+      "ব্যাংকার",
+      "🏦",
+      "bankar"
+    ],
+    [
+      "waiter",
+      "ওয়েটার",
+      "🍽️",
+      "waiter"
+    ],
+    [
+      "baker",
+      "বেকার",
+      "🥖",
+      "baker"
+    ],
+    [
+      "cobbler",
+      "মোচi",
+      "👞",
+      "mochi"
+    ],
+    [
+      "mason",
+      "রাজমিস্ত্রি",
+      "🧱",
+      "rajmistri"
+    ],
+    [
+      "shepherd",
+      "গopaal",
+      "🐑",
+      "gopal"
+    ],
+    [
+      "stepmother",
+      "সৎ মা",
+      "👩",
+      "shot ma"
+    ],
+    [
+      "stepfather",
+      "সৎ বাবা",
+      "👨",
+      "shot baba"
+    ],
+    [
+      "father in law",
+      "শ্বশুর",
+      "👨",
+      "shoshur"
+    ],
+    [
+      "mother in law",
+      "শাশুড়ি",
+      "👩",
+      "shashuri"
+    ],
+    [
+      "brother in law",
+      "শালা",
+      "👨",
+      "shala"
+    ],
+    [
+      "sister in law",
+      "ননদ",
+      "👩",
+      "nonod"
+    ],
+    [
+      "grandchild",
+      "নati",
+      "👶",
+      "nati"
+    ],
+    [
+      "ancestor",
+      "পূর্বপুরুষ",
+      "👴",
+      "purbo purush"
+    ],
+    [
+      "midwife",
+      "ধাইমা",
+      "👩",
+      "dhaima"
+    ],
+    [
+      "fish seller",
+      "মাছ বিক্রেতা",
+      "🐟",
+      "mach bikreta"
+    ],
+    [
+      "vegetable seller",
+      "সবজি বিক্রেতা",
+      "🥬",
+      "shobji bikreta"
+    ],
+    [
+      "sweeper",
+      "পরিচ্ছন্নকর্মী",
+      "🧹",
+      "porishchonnokormi"
+    ],
+    [
+      "cashier",
+      "ক্যাশিয়ার",
+      "💵",
+      "cashier"
+    ],
+    [
+      "actor",
+      "অভিনেতা",
+      "🎭",
+      "obhineta"
+    ],
+    [
+      "headmaster",
+      "প্রধান শিক্ষক",
+      "🏫",
+      "prodhan shikkhok"
+    ],
+    [
+      "cowherd",
+      "গopaal",
+      "🐄",
+      "gopal"
+    ],
+    [
+      "hunter",
+      "শিকারি",
+      "🏹",
+      "shikari"
+    ],
+    [
+      "triplets",
+      "তিন যমজ",
+      "👶",
+      "tin joma"
+    ],
+    [
+      "stepbrother",
+      "সৎ ভাই",
+      "👦",
+      "shot bhai"
+    ],
+    [
+      "stepsister",
+      "সৎ বোন",
+      "👧",
+      "shot bon"
+    ],
+    [
+      "godfather",
+      "গডফাদার",
+      "👨",
+      "godfather"
+    ],
+    [
+      "godmother",
+      "গডমাদার",
+      "👩",
+      "godmother"
+    ],
+    [
+      "neighbor boy",
+      "পাশের ছেলে",
+      "👦",
+      "pasher chele"
+    ],
+    [
+      "neighbor girl",
+      "পাশের মেয়ে",
+      "👧",
+      "pasher meye"
+    ],
+    [
+      "best friend",
+      "ঘনিষ্ঠ বন্ধু",
+      "🤝",
+      "ghonishtho bondhu"
+    ],
+    [
+      "pen pal",
+      "পেন পাল",
+      "✉️",
+      "pen pal"
+    ],
+    [
+      "teammate",
+      "দলের সঙ্গী",
+      "🤝",
+      "doler songi"
+    ],
+    [
+      "leader",
+      "নেতা",
+      "👑",
+      "neta"
+    ],
+    [
+      "follower",
+      "অনুসারী",
+      "👥",
+      "onushari"
+    ],
+    [
+      "hero",
+      "নায়ক",
+      "🦸",
+      "nayok"
+    ],
+    [
+      "villain",
+      "খলনায়ক",
+      "🦹",
+      "kholnayok"
+    ],
+    [
+      "king",
+      "রাজা",
+      "👑",
+      "raja"
+    ],
+    [
+      "queen",
+      "রানী",
+      "👑",
+      "rani"
+    ],
+    [
+      "prince",
+      "রাজপুত্র",
+      "🤴",
+      "rajputro"
+    ],
+    [
+      "princess",
+      "রাজকন্যা",
+      "👸",
+      "rajkonna"
+    ],
+    [
+      "soldier",
+      "সৈনিক",
+      "💂",
+      "sainik"
+    ],
+    [
+      "captain",
+      "ক্যাপ্টেন",
+      "🎖️",
+      "captain"
+    ],
+    [
+      "heroine",
+      "নায়িকা",
+      "👩",
+      "nayika"
+    ],
+    [
+      "musician",
+      "সঙ্গীতজ্ঞ",
+      "🎵",
+      "sangitoggo"
+    ],
+    [
+      "photographer",
+      "ফotog",
+      "📷",
+      "photog"
+    ],
+    [
+      "journalist",
+      "সা�journalist",
+      "📰",
+      "journalist"
+    ],
+    [
+      "astronaut",
+      "মহাকাশচারী",
+      "👨‍🚀",
+      "mohakashchari"
+    ],
+    [
+      "firefighter",
+      "অগ্নিনির্বাপক",
+      "🚒",
+      "ogninirvapok"
+    ],
+    [
+      "lifeguard",
+      "জীবরক্ষক",
+      "🛟",
+      "jibrokkhok"
+    ],
+    [
+      "volunteer",
+      "স্বেচ্ছাসেবক",
+      "🤝",
+      "swechchasebak"
+    ]
+  ],
+  "food": [
+    [
+      "paratha",
+      "পরোটা",
+      "🫓",
+      "porota"
+    ],
+    [
+      "samosa",
+      "সমosa",
+      "🥟",
+      "samosa"
+    ],
+    [
+      "singara",
+      "সিঙ্গারা",
+      "🥟",
+      "singara"
+    ],
+    [
+      "fuchka",
+      "ফuchka",
+      "🥟",
+      "fuchka"
+    ],
+    [
+      "jhal muri",
+      "ঝাল মুড়ি",
+      "🍿",
+      "jhal muri"
+    ],
+    [
+      "chanachur",
+      "চানাচুর",
+      "🍿",
+      "chanachur"
+    ],
+    [
+      "mishti doi",
+      "মিষ্টি দই",
+      "🥛",
+      "mishti doi"
+    ],
+    [
+      "ras malai",
+      "রস মালাই",
+      "🍮",
+      "rosh malai"
+    ],
+    [
+      "sandesh",
+      "সন্দেশ",
+      "🍬",
+      "sandesh"
+    ],
+    [
+      "payesh",
+      "পায়েস",
+      "🍮",
+      "payesh"
+    ],
+    [
+      "polao",
+      "পোলাও",
+      "🍚",
+      "polao"
+    ],
+    [
+      "tehari",
+      "তেহারি",
+      "🍚",
+      "tehari"
+    ],
+    [
+      "kacchi biryani",
+      "কাচ্চি বিরিয়ানি",
+      "🍛",
+      "kacchi biriyani"
+    ],
+    [
+      "shorshe ilish",
+      "সরষে ইলিশ",
+      "🐟",
+      "shorshe ilish"
+    ],
+    [
+      "shutki",
+      "শুঁটকি",
+      "🐟",
+      "shutki"
+    ],
+    [
+      "beguni",
+      "বেগুনি",
+      "🍆",
+      "beguni"
+    ],
+    [
+      "piyaju",
+      "পিয়াজু",
+      "🧅",
+      "piyaju"
+    ],
+    [
+      "halim",
+      "হaleem",
+      "🍲",
+      "haleem"
+    ],
+    [
+      "borhani",
+      "বorhani",
+      "🥤",
+      "borhani"
+    ],
+    [
+      "lassi",
+      "লassi",
+      "🥤",
+      "lassi"
+    ],
+    [
+      "sugarcane juice",
+      "আখের রস",
+      "🥤",
+      "akher rosh"
+    ],
+    [
+      "coconut water",
+      "ডাবের পানি",
+      "🥥",
+      "daber pani"
+    ],
+    [
+      "litchi",
+      "লিচু",
+      "🍒",
+      "lichu"
+    ],
+    [
+      "jamun",
+      "জাম",
+      "🫐",
+      "jam"
+    ],
+    [
+      "dragon fruit",
+      "ড্রagon fruit",
+      "🐉",
+      "dragon fruit"
+    ],
+    [
+      "strawberry",
+      "স্টrawberry",
+      "🍓",
+      "strawberry"
+    ],
+    [
+      "pear",
+      "নashpati",
+      "🍐",
+      "nashpati"
+    ],
+    [
+      "ghee",
+      "ঘee",
+      "🧈",
+      "ghee"
+    ],
+    [
+      "yogurt",
+      "দই",
+      "🥛",
+      "doi"
+    ],
+    [
+      "cheese",
+      "পনির",
+      "🧀",
+      "ponir"
+    ],
+    [
+      "noodles",
+      "নoodles",
+      "🍜",
+      "noodles"
+    ],
+    [
+      "pizza",
+      "পizza",
+      "🍕",
+      "pizza"
+    ],
+    [
+      "burger",
+      "বurger",
+      "🍔",
+      "burger"
+    ],
+    [
+      "french fries",
+      "ফrench fries",
+      "🍟",
+      "french fries"
+    ],
+    [
+      "popcorn",
+      "পopcorn",
+      "🍿",
+      "popcorn"
+    ],
+    [
+      "peanut",
+      "বadam",
+      "🥜",
+      "badam"
+    ],
+    [
+      "pickle",
+      "আchar",
+      "🥒",
+      "achar"
+    ],
+    [
+      "chutney",
+      "চatni",
+      "🥣",
+      "chatni"
+    ],
+    [
+      "turmeric",
+      "হolud",
+      "🟡",
+      "holud"
+    ],
+    [
+      "ginger",
+      "আda",
+      "🫚",
+      "ada"
+    ],
+    [
+      "cauliflower",
+      "ফulkopi",
+      "🥦",
+      "phulkopi"
+    ],
+    [
+      "cabbage",
+      "বandhakopi",
+      "🥬",
+      "bandhakopi"
+    ],
+    [
+      "peas",
+      "মotor",
+      "🫛",
+      "motor"
+    ],
+    [
+      "mushroom",
+      "মushroom",
+      "🍄",
+      "mushroom"
+    ],
+    [
+      "pumpkin",
+      "কumro",
+      "🎃",
+      "kumro"
+    ],
+    [
+      "corn",
+      "ভutta",
+      "🌽",
+      "bhutta"
+    ],
+    [
+      "chira",
+      "চira",
+      "🍚",
+      "chira"
+    ],
+    [
+      "muri",
+      "মuri",
+      "🍚",
+      "muri"
+    ],
+    [
+      "kebab",
+      "কebab",
+      "🍢",
+      "kebab"
+    ],
+    [
+      "fried rice",
+      "ভaja bhat",
+      "🍚",
+      "bhaja bhat"
+    ],
+    [
+      "fish curry",
+      "মachher torkari",
+      "🐟",
+      "machher torkari"
+    ],
+    [
+      "mutton",
+      "খashi mangsho",
+      "🥩",
+      "khashi mangsho"
+    ],
+    [
+      "omelet",
+      "ডim poch",
+      "🍳",
+      "dim poch"
+    ],
+    [
+      "chocolate",
+      "চocolate",
+      "🍫",
+      "chocolate"
+    ],
+    [
+      "lollipop",
+      "লollipop",
+      "🍭",
+      "lollipop"
+    ],
+    [
+      "breakfast",
+      "নashta",
+      "🍳",
+      "nashta"
+    ],
+    [
+      "lunch",
+      "দupur khabar",
+      "🍱",
+      "dupur khabar"
+    ],
+    [
+      "dinner",
+      "রatri khabar",
+      "🍽️",
+      "ratri khabar"
+    ],
+    [
+      "iftar",
+      "ইftar",
+      "🌙",
+      "iftar"
+    ],
+    [
+      "naan",
+      "নan",
+      "🫓",
+      "nan"
+    ],
+    [
+      "semolina",
+      "সuji",
+      "🌾",
+      "suji"
+    ],
+    [
+      "flour",
+      "আta",
+      "🌾",
+      "ata"
+    ],
+    [
+      "mustard oil",
+      "সarisha tel",
+      "🫙",
+      "sarisha tel"
+    ],
+    [
+      "jaggery",
+      "গur",
+      "🟤",
+      "gur"
+    ],
+    [
+      "radish",
+      "মula",
+      "🥕",
+      "mula"
+    ],
+    [
+      "fish fry",
+      "মach bhaja",
+      "🐟",
+      "mach bhaja"
+    ],
+    [
+      "dal puri",
+      "ডal puri",
+      "🫓",
+      "dal puri"
+    ],
+    [
+      "luchi",
+      "লuchi",
+      "🫓",
+      "luchi"
+    ],
+    [
+      "beef curry",
+      "গorur mangsho torkari",
+      "🥩",
+      "gorur mangsho torkari"
+    ],
+    [
+      "duck curry",
+      "হasher torkari",
+      "🦆",
+      "hasher torkari"
+    ],
+    [
+      "prawn fry",
+      "চingri bhaja",
+      "🦐",
+      "chingri bhaja"
+    ],
+    [
+      "star fruit",
+      "কamranga",
+      "⭐",
+      "kamranga"
+    ],
+    [
+      "bel fruit",
+      "বel",
+      "🟤",
+      "bel"
+    ],
+    [
+      "wood apple",
+      "কathbel",
+      "🟤",
+      "kathbel"
+    ],
+    [
+      "mango juice",
+      "am er rosh",
+      "🧃",
+      "am er rosh"
+    ],
+    [
+      "lemonade",
+      "lebur shorbot",
+      "🍋",
+      "lebur shorbot"
+    ],
+    [
+      "coffee",
+      "coffee",
+      "☕",
+      "coffee"
+    ],
+    [
+      "cake slice",
+      "cake",
+      "🍰",
+      "cake"
+    ],
+    [
+      "donut",
+      "donut",
+      "🍩",
+      "donut"
+    ],
+    [
+      "toast",
+      "toast",
+      "🍞",
+      "toast"
+    ],
+    [
+      "chicken soup",
+      "murgir soup",
+      "🍲",
+      "murgir soup"
+    ],
+    [
+      "fried chicken",
+      "bhaja murgi",
+      "🍗",
+      "bhaja murgi"
+    ],
+    [
+      "steamed rice",
+      "bhapa bhat",
+      "🍚",
+      "bhapa bhat"
+    ],
+    [
+      "mashed potato",
+      "alu bhorta",
+      "🥔",
+      "alu bhorta"
+    ],
+    [
+      "mashed fish",
+      "mach bhorta",
+      "🐟",
+      "mach bhorta"
+    ],
+    [
+      "dried fish",
+      "shutki mach",
+      "🐟",
+      "shutki mach"
+    ],
+    [
+      "sweet yogurt",
+      "mishti doi",
+      "🥛",
+      "mishti doi"
+    ],
+    [
+      "paneer",
+      "paneer",
+      "🧀",
+      "paneer"
+    ],
+    [
+      "jalebi",
+      "jilapi",
+      "🍩",
+      "jilapi"
+    ],
+    [
+      "firni",
+      "firni",
+      "🍮",
+      "firni"
+    ],
+    [
+      "rice cake",
+      "pitha",
+      "🥞",
+      "pitha"
+    ],
+    [
+      "patishapta",
+      "patishapta",
+      "🥞",
+      "patishapta"
+    ],
+    [
+      "bora",
+      "bora",
+      "🍘",
+      "bora"
+    ],
+    [
+      "chop",
+      "chop",
+      "🍢",
+      "chop"
+    ],
+    [
+      "kathi roll",
+      "kathi roll",
+      "🌯",
+      "kathi roll"
+    ],
+    [
+      "dim chop",
+      "dim chop",
+      "🍢",
+      "dim chop"
+    ],
+    [
+      "shami kebab",
+      "shami kebab",
+      "🍢",
+      "shami kebab"
+    ],
+    [
+      "hot dog",
+      "hot dog",
+      "🌭",
+      "hot dog"
+    ],
+    [
+      "sandwich",
+      "sandwich",
+      "🥪",
+      "sandwich"
+    ],
+    [
+      "tiffin",
+      "tiffin",
+      "🍱",
+      "tiffin"
+    ],
+    [
+      "street food",
+      "rasta khabar",
+      "🍢",
+      "rasta khabar"
+    ],
+    [
+      "spicy food",
+      "jhal khabar",
+      "🌶️",
+      "jhal khabar"
+    ],
+    [
+      "sweet taste",
+      "mishti swad",
+      "🍬",
+      "mishti swad"
+    ],
+    [
+      "fast food",
+      "fast food",
+      "🍔",
+      "fast food"
+    ],
+    [
+      "healthy food",
+      "shustho khabar",
+      "🥗",
+      "shustho khabar"
+    ],
+    [
+      "morog polao",
+      "মোরগ পোলাও",
+      "🍚",
+      "morog polao"
+    ],
+    [
+      "khichuri",
+      "খিচুড়ি",
+      "🍲",
+      "khichuri"
+    ],
+    [
+      "rezaela",
+      "রেজালা",
+      "🍲",
+      "rezala"
+    ],
+    [
+      "korma",
+      "কorma",
+      "🍲",
+      "korma"
+    ],
+    [
+      "boot",
+      "boot",
+      "🥾",
+      "but"
+    ],
+    [
+      "boot",
+      "boot",
+      "🥾",
+      "but"
+    ]
+  ],
+  "nature": [
+    [
+      "sunrise",
+      "সূর্যোদয়",
+      "🌅",
+      "surjodyo"
+    ],
+    [
+      "sunset",
+      "সূর্যাস্ত",
+      "🌇",
+      "surjasto"
+    ],
+    [
+      "noon",
+      "দুপুর",
+      "☀️",
+      "dupur"
+    ],
+    [
+      "afternoon",
+      "বিকেল",
+      "🌤️",
+      "bikel"
+    ],
+    [
+      "midnight",
+      "মধ্যরাত",
+      "🌃",
+      "modhyorat"
+    ],
+    [
+      "dawn",
+      "প্রভাত",
+      "🌄",
+      "prabhat"
+    ],
+    [
+      "dusk",
+      "গোধূলি",
+      "🌆",
+      "godhuli"
+    ],
+    [
+      "spring",
+      "বসন্ত",
+      "🌸",
+      "boshonto"
+    ],
+    [
+      "summer",
+      "গ্রীষ্ম",
+      "☀️",
+      "grishmo"
+    ],
+    [
+      "monsoon",
+      "বর্ষা",
+      "🌧️",
+      "borsha"
+    ],
+    [
+      "autumn",
+      "শরৎ",
+      "🍂",
+      "shorot"
+    ],
+    [
+      "winter",
+      "শীত",
+      "❄️",
+      "sheet"
+    ],
+    [
+      "storm",
+      "ঝড়",
+      "⛈️",
+      "jhor"
+    ],
+    [
+      "cyclone",
+      "ঘূর্ণিঝড়",
+      "🌀",
+      "ghurnijhor"
+    ],
+    [
+      "flood",
+      "বন্যা",
+      "🌊",
+      "bonna"
+    ],
+    [
+      "waterfall",
+      "ঝর্ণা",
+      "💦",
+      "jhorna"
+    ],
+    [
+      "stream",
+      "ঝরনা",
+      "💧",
+      "jhorna"
+    ],
+    [
+      "canal",
+      "নালা",
+      "💧",
+      "nala"
+    ],
+    [
+      "well",
+      "কua",
+      "🪣",
+      "kua"
+    ],
+    [
+      "marsh",
+      "চাল",
+      "🌿",
+      "chal"
+    ],
+    [
+      "meadow",
+      "চারাগah",
+      "🌾",
+      "charagah"
+    ],
+    [
+      "jungle",
+      "জঙ্গল",
+      "🌴",
+      "jongol"
+    ],
+    [
+      "mangrove",
+      "সundorbon",
+      "🌿",
+      "sundorbon"
+    ],
+    [
+      "bamboo",
+      "বাঁশ",
+      "🎋",
+      "bansh"
+    ],
+    [
+      "palm tree",
+      "তাল গাছ",
+      "🌴",
+      "tal gach"
+    ],
+    [
+      "coconut tree",
+      "নারকেল গাছ",
+      "🌴",
+      "narkel gach"
+    ],
+    [
+      "banana tree",
+      "কলা গাছ",
+      "🍌",
+      "kola gach"
+    ],
+    [
+      "jackfruit tree",
+      "কাঁঠাল গাছ",
+      "🍈",
+      "kãthal gach"
+    ],
+    [
+      "banyan tree",
+      "বট গাছ",
+      "🌳",
+      "bot gach"
+    ],
+    [
+      "neem tree",
+      "নিম গাছ",
+      "🌳",
+      "neem gach"
+    ],
+    [
+      "sunflower",
+      "সূর্যমুখী",
+      "🌻",
+      "surjomukhi"
+    ],
+    [
+      "marigold",
+      "গাঁদা",
+      "🌼",
+      "gãda"
+    ],
+    [
+      "jasmine",
+      "জui",
+      "🌼",
+      "jui"
+    ],
+    [
+      "hibiscus",
+      "জবা",
+      "🌺",
+      "joba"
+    ],
+    [
+      "vine",
+      "লata",
+      "🌿",
+      "lata"
+    ],
+    [
+      "fern",
+      "ফarn",
+      "🌿",
+      "fern"
+    ],
+    [
+      "coral",
+      "prabal",
+      "🪸",
+      "prabal"
+    ],
+    [
+      "shell",
+      "শaṅkho",
+      "🐚",
+      "shãnkho"
+    ],
+    [
+      "pebble",
+      "কuro",
+      "🪨",
+      "kuro"
+    ],
+    [
+      "cliff",
+      "prantor",
+      "🏔️",
+      "prantor"
+    ],
+    [
+      "valley",
+      "উpottoka",
+      "🏞️",
+      "upottoka"
+    ],
+    [
+      "desert",
+      "মরubhumi",
+      "🏜️",
+      "morubhumi"
+    ],
+    [
+      "glacier",
+      "himobah",
+      "🧊",
+      "himobah"
+    ],
+    [
+      "tide",
+      "জowar bhata",
+      "🌊",
+      "jowar bhata"
+    ],
+    [
+      "wave",
+      "ঢeve",
+      "🌊",
+      "dheu"
+    ],
+    [
+      "mist",
+      "কuya",
+      "🌫️",
+      "kuya"
+    ],
+    [
+      "hail",
+      "kol",
+      "🌨️",
+      "kol"
+    ],
+    [
+      "breeze",
+      "hawa",
+      "💨",
+      "hawa"
+    ],
+    [
+      "hurricane",
+      "ঘূর্ণিঝড়",
+      "🌀",
+      "ghurnijhor"
+    ],
+    [
+      "tornado",
+      "টornado",
+      "🌪️",
+      "tornado"
+    ],
+    [
+      "humidity",
+      "আর্দ্রতা",
+      "💧",
+      "ardrota"
+    ],
+    [
+      "climate",
+      "জলবায়ু",
+      "🌡️",
+      "jolobayu"
+    ],
+    [
+      "temperature",
+      "তাপমাত্রা",
+      "🌡️",
+      "tapmatra"
+    ],
+    [
+      "atmosphere",
+      "বায়ুমণ্ডল",
+      "🌍",
+      "bayumondol"
+    ],
+    [
+      "pollution",
+      "দূষণ",
+      "🏭",
+      "dushon"
+    ],
+    [
+      "wildlife",
+      "বন্য প্রাণী",
+      "🐾",
+      "bonno prani"
+    ],
+    [
+      "ecosystem",
+      "বাস্তুতন্ত্র",
+      "🌍",
+      "bostutontro"
+    ],
+    [
+      "germination",
+      "অঙ্কুর",
+      "🌱",
+      "onkur"
+    ],
+    [
+      "bloom",
+      "ফুল ফোটা",
+      "🌸",
+      "phul phota"
+    ],
+    [
+      "harvest",
+      "ফসল",
+      "🌾",
+      "foshol"
+    ],
+    [
+      "crop",
+      "ফসল",
+      "🌾",
+      "foshol"
+    ],
+    [
+      "paddy field",
+      "ধান ক্ষেত",
+      "🌾",
+      "dhan khet"
+    ],
+    [
+      "tea garden",
+      "চা বাগান",
+      "🍵",
+      "cha bagan"
+    ],
+    [
+      "flower garden",
+      "ফুল বাগান",
+      "🌸",
+      "phul bagan"
+    ],
+    [
+      "park",
+      "পark",
+      "🏞️",
+      "park"
+    ],
+    [
+      "starlight",
+      "তারার আলো",
+      "✨",
+      "tarar alo"
+    ],
+    [
+      "moonlight",
+      "চাঁদের আলো",
+      "🌙",
+      "chander alo"
+    ],
+    [
+      "sunlight",
+      "সূর্যের আলো",
+      "☀️",
+      "surjer alo"
+    ],
+    [
+      "darkness",
+      "অন্ধকার",
+      "🌑",
+      "andhokar"
+    ],
+    [
+      "horizon",
+      "দিগন্ত",
+      "🌅",
+      "digonto"
+    ],
+    [
+      "universe",
+      "বিশ্ব",
+      "🌌",
+      "bishwo"
+    ],
+    [
+      "planet",
+      "গ্রহ",
+      "🪐",
+      "grho"
+    ],
+    [
+      "comet",
+      "ধূমকetu",
+      "☄️",
+      "dhumketu"
+    ],
+    [
+      "meteor",
+      "উlkā",
+      "☄️",
+      "ulka"
+    ],
+    [
+      "eclipse",
+      "গ্রহণ",
+      "🌑",
+      "grahon"
+    ],
+    [
+      "full moon",
+      "পurnima",
+      "🌕",
+      "purnima"
+    ],
+    [
+      "new moon",
+      "অমাবস্যা",
+      "🌑",
+      "amabossa"
+    ],
+    [
+      "cloudy sky",
+      "মেঘla akash",
+      "☁️",
+      "meghla akash"
+    ],
+    [
+      "clear sky",
+      "পরিষ্কার আকাশ",
+      "🌤️",
+      "porishkar akash"
+    ],
+    [
+      "starry night",
+      "তara bhara rat",
+      "🌌",
+      "tara bhara rat"
+    ],
+    [
+      "river bank",
+      "নদীর তীর",
+      "🏞️",
+      "nodir tir"
+    ],
+    [
+      "coast",
+      "উpokul",
+      "🏖️",
+      "upokul"
+    ],
+    [
+      "coal",
+      "কoyla",
+      "🪨",
+      "koyla"
+    ],
+    [
+      "natural beauty",
+      "prakritir shundorjyo",
+      "🌿",
+      "prakritir shundorjyo"
+    ],
+    [
+      "fresh air",
+      "taja hawa",
+      "💨",
+      "taja hawa"
+    ],
+    [
+      "clean water",
+      "porishkar pani",
+      "💧",
+      "porishkar pani"
+    ],
+    [
+      "rainy season",
+      "borsha kal",
+      "🌧️",
+      "borsha kal"
+    ],
+    [
+      "dry season",
+      "shukno kal",
+      "☀️",
+      "shukno kal"
+    ],
+    [
+      "thunder sound",
+      "bijer awaj",
+      "⛈️",
+      "bijer awaj"
+    ],
+    [
+      "rain sound",
+      "brishtir awaj",
+      "🌧️",
+      "brishtir awaj"
+    ],
+    [
+      "bird song",
+      "pakhir gaan",
+      "🐦",
+      "pakhir gaan"
+    ],
+    [
+      "frog sound",
+      "byanger awaj",
+      "🐸",
+      "byanger awaj"
+    ],
+    [
+      "delta",
+      "delta",
+      "🌊",
+      "delta"
+    ],
+    [
+      "estuary",
+      "mohona",
+      "🌊",
+      "mohona"
+    ],
+    [
+      "shore",
+      "tir",
+      "🏖️",
+      "tir"
+    ],
+    [
+      "geyser",
+      "geyser",
+      "💦",
+      "geyser"
+    ],
+    [
+      "hot spring",
+      "gorom jol",
+      "♨️",
+      "gorom jol"
+    ],
+    [
+      "crystal",
+      "kristal",
+      "💎",
+      "kristal"
+    ],
+    [
+      "gem",
+      "ratan",
+      "💎",
+      "ratan"
+    ],
+    [
+      "spring season",
+      "boshonto kal",
+      "🌸",
+      "boshonto kal"
+    ],
+    [
+      "heatwave",
+      "tapon",
+      "🥵",
+      "tapon"
+    ],
+    [
+      "cold wave",
+      "sheet lahar",
+      "🥶",
+      "sheet lahar"
+    ],
+    [
+      "blizzard",
+      "tushar jhor",
+      "❄️",
+      "tushar jhor"
+    ],
+    [
+      "dust storm",
+      "dhul jhor",
+      "🌪️",
+      "dhul jhor"
+    ],
+    [
+      "rainforest",
+      "bon",
+      "🌴",
+      "bon"
+    ],
+    [
+      "prairie",
+      "preri",
+      "🌾",
+      "preri"
+    ],
+    [
+      "wetland",
+      "pankuri",
+      "🌿",
+      "pankuri"
+    ],
+    [
+      "oak tree",
+      "oak gach",
+      "🌳",
+      "oak gach"
+    ],
+    [
+      "pine tree",
+      "pine gach",
+      "🌲",
+      "pine gach"
+    ],
+    [
+      "cherry blossom",
+      "cherry phul",
+      "🌸",
+      "cherry phul"
+    ],
+    [
+      "tulip",
+      "tulip",
+      "🌷",
+      "tulip"
+    ],
+    [
+      "orchid",
+      "orchid",
+      "🌸",
+      "orchid"
+    ],
+    [
+      "lily",
+      "lily",
+      "🪷",
+      "lily"
+    ],
+    [
+      "moss",
+      "moss",
+      "🌿",
+      "moss"
+    ],
+    [
+      "algae",
+      "algae",
+      "🌿",
+      "algae"
+    ],
+    [
+      "boulder",
+      "baro pathor",
+      "🪨",
+      "baro pathor"
+    ],
+    [
+      "plateau",
+      "mohishur",
+      "🏔️",
+      "mohishur"
+    ],
+    [
+      "oasis",
+      "oasis",
+      "🏝️",
+      "oasis"
+    ],
+    [
+      "iceberg",
+      "borof pahar",
+      "🧊",
+      "borof pahar"
+    ],
+    [
+      "whirlpool",
+      "bort",
+      "🌀",
+      "bort"
+    ],
+    [
+      "current",
+      "sroto",
+      "🌊",
+      "sroto"
+    ],
+    [
+      "haze",
+      "dhundh",
+      "🌫️",
+      "dhundh"
+    ],
+    [
+      "sleet",
+      "borof brishti",
+      "🌨️",
+      "borof brishti"
+    ],
+    [
+      "gust",
+      "jhor hawa",
+      "💨",
+      "jhor hawa"
+    ],
+    [
+      "dryness",
+      "shuknota",
+      "🏜️",
+      "shuknota"
+    ],
+    [
+      "oxygen",
+      "oxygen",
+      "💨",
+      "oxygen"
+    ],
+    [
+      "recycling",
+      "punorbbyas",
+      "♻️",
+      "punorbbyas"
+    ],
+    [
+      "conservation",
+      "sonrokkhon",
+      "🌿",
+      "sonrokkhon"
+    ],
+    [
+      "habitat",
+      "basosthan",
+      "🏠",
+      "basosthan"
+    ],
+    [
+      "photosynthesis",
+      "photosynthesis",
+      "🌱",
+      "photosynthesis"
+    ],
+    [
+      "pollination",
+      "pollination",
+      "🐝",
+      "pollination"
+    ],
+    [
+      "sprout",
+      "onkur",
+      "🌱",
+      "onkur"
+    ],
+    [
+      "rice plant",
+      "dhan gach",
+      "🌾",
+      "dhan gach"
+    ],
+    [
+      "jute plant",
+      "pat gach",
+      "🌿",
+      "pat gach"
+    ],
+    [
+      "vegetable garden",
+      "shobji bagan",
+      "🥬",
+      "shobji bagan"
+    ],
+    [
+      "playground",
+      "khelar mat",
+      "🏃",
+      "khelar mat"
+    ],
+    [
+      "camping",
+      "camping",
+      "⛺",
+      "camping"
+    ],
+    [
+      "picnic spot",
+      "picnic spot",
+      "🧺",
+      "picnic spot"
+    ],
+    [
+      "brightness",
+      "ujjalota",
+      "✨",
+      "ujjalota"
+    ],
+    [
+      "galaxy",
+      "galaxy",
+      "🌌",
+      "galaxy"
+    ],
+    [
+      "constellation",
+      "nokhotro",
+      "⭐",
+      "nokhotro"
+    ],
+    [
+      "north star",
+      "dhruvo tara",
+      "⭐",
+      "dhruvo tara"
+    ],
+    [
+      "milky way",
+      "akashtalika",
+      "🌌",
+      "akashtalika"
+    ],
+    [
+      "solar eclipse",
+      "surjo grahan",
+      "🌑",
+      "surjo grahan"
+    ],
+    [
+      "lunar eclipse",
+      "chad grahan",
+      "🌑",
+      "chad grahan"
+    ],
+    [
+      "crescent moon",
+      "halka chad",
+      "🌙",
+      "halka chad"
+    ],
+    [
+      "half moon",
+      "ordhek chad",
+      "🌓",
+      "ordhek chad"
+    ],
+    [
+      "wind sound",
+      "bater awaj",
+      "💨",
+      "bater awaj"
+    ],
+    [
+      "cricket sound",
+      "jhinjhir awaj",
+      "🦗",
+      "jhinjhir awaj"
+    ],
+    [
+      "river bend",
+      "nodir modh",
+      "🏞️",
+      "nodir modh"
+    ],
+    [
+      "river mouth",
+      "nodir mukh",
+      "🏞️",
+      "nodir mukh"
+    ],
+    [
+      "tide pool",
+      "jowar er jol",
+      "🌊",
+      "jowar er jol"
+    ],
+    [
+      "rock pool",
+      "pathor er jol",
+      "🪨",
+      "pathor er jol"
+    ],
+    [
+      "mineral",
+      "khanij",
+      "💎",
+      "khanij"
+    ],
+    [
+      "gold ore",
+      "sonar khanij",
+      "🥇",
+      "sonar khanij"
+    ],
+    [
+      "iron ore",
+      "loher khanij",
+      "⛏️",
+      "loher khanij"
+    ],
+    [
+      "petroleum",
+      "petroleum",
+      "🛢️",
+      "petroleum"
+    ],
+    [
+      "natural gas",
+      "prakritik gas",
+      "💨",
+      "prakritik gas"
+    ],
+    [
+      "food chain",
+      "khabar shrinkhola",
+      "🔗",
+      "khabar shrinkhola"
+    ],
+    [
+      "harvest moon",
+      "foshol chad",
+      "🌕",
+      "foshol chad"
+    ],
+    [
+      "aurora",
+      "aurora",
+      "🌌",
+      "aurora"
+    ],
+    [
+      "drought",
+      "khara",
+      "🏜️",
+      "khara"
+    ],
+    [
+      "earthquake",
+      "bhumikompo",
+      "🌍",
+      "bhumikompo"
+    ],
+    [
+      "volcano",
+      "volcano",
+      "🌋",
+      "volcano"
+    ],
+    [
+      "spring water",
+      "jharna",
+      "💧",
+      "jharna"
+    ],
+    [
+      "tamarind tree",
+      "tetul gach",
+      "🌳",
+      "tetul gach"
+    ],
+    [
+      "eucalyptus",
+      "eucalyptus",
+      "🌳",
+      "eucalyptus"
+    ],
+    [
+      "maple tree",
+      "maple gach",
+      "🍁",
+      "maple gach"
+    ],
+    [
+      "willow tree",
+      "willow gach",
+      "🌳",
+      "willow gach"
+    ],
+    [
+      "daisy",
+      "daisy",
+      "🌼",
+      "daisy"
+    ],
+    [
+      "poppy",
+      "kash",
+      "🌺",
+      "kash"
+    ],
+    [
+      "seaweed",
+      "shamuk",
+      "🌿",
+      "shamuk"
+    ],
+    [
+      "carbon dioxide",
+      "carbon dioxide",
+      "💨",
+      "carbon dioxide"
+    ],
+    [
+      "nature trail",
+      "nature trail",
+      "🥾",
+      "nature trail"
+    ]
+  ],
+  "home": [
+    [
+      "sofa",
+      "sofa",
+      "🛋️",
+      "sofa"
+    ],
+    [
+      "armchair",
+      "armchair",
+      "🪑",
+      "armchair"
+    ],
+    [
+      "bookshelf",
+      "boi almari",
+      "📚",
+      "boi almari"
+    ],
+    [
+      "wardrobe",
+      "almari",
+      "🚪",
+      "almari"
+    ],
+    [
+      "dresser",
+      "dresser",
+      "🪞",
+      "dresser"
+    ],
+    [
+      "nightstand",
+      "nightstand",
+      "🛏️",
+      "nightstand"
+    ],
+    [
+      "mattress",
+      "toshok",
+      "🛏️",
+      "toshok"
+    ],
+    [
+      "sheet",
+      "chador",
+      "🛏️",
+      "chador"
+    ],
+    [
+      "quilt",
+      "katha",
+      "🛏️",
+      "katha"
+    ],
+    [
+      "cushion",
+      "kushion",
+      "🛋️",
+      "kushion"
+    ],
+    [
+      "rug",
+      "carpet",
+      "🟫",
+      "carpet"
+    ],
+    [
+      "doormat",
+      "dormat",
+      "🟫",
+      "dormat"
+    ],
+    [
+      "hanger",
+      "hanger",
+      "🪝",
+      "hanger"
+    ],
+    [
+      "clothesline",
+      "tana",
+      "👕",
+      "tana"
+    ],
+    [
+      "washing machine",
+      "washing machine",
+      "🧺",
+      "washing machine"
+    ],
+    [
+      "dryer",
+      "dryer",
+      "👕",
+      "dryer"
+    ],
+    [
+      "iron",
+      "istri",
+      "👔",
+      "istri"
+    ],
+    [
+      "ironing board",
+      "istri board",
+      "👔",
+      "istri board"
+    ],
+    [
+      "vacuum cleaner",
+      "vacuum",
+      "🧹",
+      "vacuum"
+    ],
+    [
+      "broom",
+      "jharu",
+      "🧹",
+      "jharu"
+    ],
+    [
+      "mop",
+      "mop",
+      "🧹",
+      "mop"
+    ],
+    [
+      "dustbin",
+      "dustbin",
+      "🗑️",
+      "dustbin"
+    ],
+    [
+      "trash bag",
+      "trash bag",
+      "🗑️",
+      "trash bag"
+    ],
+    [
+      "recycle bin",
+      "recycle bin",
+      "♻️",
+      "recycle bin"
+    ],
+    [
+      "detergent",
+      "detergent",
+      "🧴",
+      "detergent"
+    ],
+    [
+      "bleach",
+      "bleach",
+      "🧴",
+      "bleach"
+    ],
+    [
+      "sponge",
+      "sponge",
+      "🧽",
+      "sponge"
+    ],
+    [
+      "dish soap",
+      "bartan dhonar saban",
+      "🧼",
+      "bartan dhonar saban"
+    ],
+    [
+      "dish rack",
+      "bartan rack",
+      "🍽️",
+      "bartan rack"
+    ],
+    [
+      "cutting board",
+      "kata board",
+      "🔪",
+      "kata board"
+    ],
+    [
+      "colander",
+      "colander",
+      "🥣",
+      "colander"
+    ],
+    [
+      "whisk",
+      "whisk",
+      "🥄",
+      "whisk"
+    ],
+    [
+      "ladle",
+      "khunti",
+      "🥄",
+      "khunti"
+    ],
+    [
+      "tongs",
+      "tongs",
+      "🥢",
+      "tongs"
+    ],
+    [
+      "rolling pin",
+      "belun",
+      "🥖",
+      "belun"
+    ],
+    [
+      "grater",
+      "grater",
+      "🧀",
+      "grater"
+    ],
+    [
+      "peeler",
+      "peeler",
+      "🥔",
+      "peeler"
+    ],
+    [
+      "can opener",
+      "can opener",
+      "🥫",
+      "can opener"
+    ],
+    [
+      "bottle opener",
+      "bottle opener",
+      "🍾",
+      "bottle opener"
+    ],
+    [
+      "corkscrew",
+      "corkscrew",
+      "🍾",
+      "corkscrew"
+    ],
+    [
+      "measuring cup",
+      "mapar kap",
+      "🥛",
+      "mapar kap"
+    ],
+    [
+      "mixing bowl",
+      "mishran bati",
+      "🥣",
+      "mishran bati"
+    ],
+    [
+      "baking tray",
+      "baking tray",
+      "🍪",
+      "baking tray"
+    ],
+    [
+      "oven",
+      "oven",
+      "🔥",
+      "oven"
+    ],
+    [
+      "microwave",
+      "microwave",
+      "📻",
+      "microwave"
+    ],
+    [
+      "toaster",
+      "toaster",
+      "🍞",
+      "toaster"
+    ],
+    [
+      "blender",
+      "blender",
+      "🥤",
+      "blender"
+    ],
+    [
+      "kettle",
+      "kettle",
+      "🫖",
+      "kettle"
+    ],
+    [
+      "rice cooker",
+      "rice cooker",
+      "🍚",
+      "rice cooker"
+    ],
+    [
+      "pressure cooker",
+      "pressure cooker",
+      "🍲",
+      "pressure cooker"
+    ],
+    [
+      "pan",
+      "pan",
+      "🍳",
+      "pan"
+    ],
+    [
+      "pot",
+      "hari",
+      "🍲",
+      "hari"
+    ],
+    [
+      "wok",
+      "karai",
+      "🍳",
+      "karai"
+    ],
+    [
+      "lid",
+      "dhakna",
+      "🫕",
+      "dhakna"
+    ],
+    [
+      "trivet",
+      "trivet",
+      "🔥",
+      "trivet"
+    ],
+    [
+      "teapot",
+      "teapot",
+      "🫖",
+      "teapot"
+    ],
+    [
+      "coffee maker",
+      "coffee maker",
+      "☕",
+      "coffee maker"
+    ],
+    [
+      "water filter",
+      "pani filter",
+      "💧",
+      "pani filter"
+    ],
+    [
+      "water bottle",
+      "pani bottle",
+      "💧",
+      "pani bottle"
+    ],
+    [
+      "thermos",
+      "thermos",
+      "🫖",
+      "thermos"
+    ],
+    [
+      "lunch container",
+      "lunch box",
+      "🍱",
+      "lunch box"
+    ],
+    [
+      "food wrap",
+      "food wrap",
+      "🥡",
+      "food wrap"
+    ],
+    [
+      "aluminum foil",
+      "foil",
+      "📄",
+      "foil"
+    ],
+    [
+      "plastic wrap",
+      "plastic wrap",
+      "📄",
+      "plastic wrap"
+    ],
+    [
+      "ziplock bag",
+      "ziplock bag",
+      "🥡",
+      "ziplock bag"
+    ],
+    [
+      "pantry",
+      "pantry",
+      "🥫",
+      "pantry"
+    ],
+    [
+      "cupboard",
+      "almari",
+      "🚪",
+      "almari"
+    ],
+    [
+      "drawer",
+      "drawer",
+      "🗄️",
+      "drawer"
+    ],
+    [
+      "shelf",
+      "tana",
+      "📚",
+      "tana"
+    ],
+    [
+      "attic",
+      "chad ghor",
+      "🏠",
+      "chad ghor"
+    ],
+    [
+      "basement",
+      "nobin ghor",
+      "🏠",
+      "nobin ghor"
+    ],
+    [
+      "garage",
+      "garage",
+      "🚗",
+      "garage"
+    ],
+    [
+      "balcony",
+      "baranda",
+      "🏠",
+      "baranda"
+    ],
+    [
+      "porch",
+      "porch",
+      "🏠",
+      "porch"
+    ],
+    [
+      "yard",
+      "yard",
+      "🏡",
+      "yard"
+    ],
+    [
+      "gate",
+      "gate",
+      "🚪",
+      "gate"
+    ],
+    [
+      "fence",
+      "fence",
+      "🚧",
+      "fence"
+    ],
+    [
+      "mailbox",
+      "mailbox",
+      "📬",
+      "mailbox"
+    ],
+    [
+      "doorbell",
+      "doorbell",
+      "🔔",
+      "doorbell"
+    ],
+    [
+      "door handle",
+      "dhanla",
+      "🚪",
+      "dhanla"
+    ],
+    [
+      "lock",
+      "tala",
+      "🔒",
+      "tala"
+    ],
+    [
+      "doorknob",
+      "dhanla",
+      "🚪",
+      "dhanla"
+    ],
+    [
+      "hinge",
+      "hinge",
+      "🚪",
+      "hinge"
+    ],
+    [
+      "door mat",
+      "dormat",
+      "🟫",
+      "dormat"
+    ],
+    [
+      "welcome mat",
+      "welcome mat",
+      "🟫",
+      "welcome mat"
+    ],
+    [
+      "smoke detector",
+      "smoke detector",
+      "🚨",
+      "smoke detector"
+    ],
+    [
+      "fire extinguisher",
+      "fire extinguisher",
+      "🧯",
+      "fire extinguisher"
+    ],
+    [
+      "first aid kit",
+      "first aid kit",
+      "🩹",
+      "first aid kit"
+    ],
+    [
+      "bandage",
+      "bandage",
+      "🩹",
+      "bandage"
+    ],
+    [
+      "medicine",
+      "oshudh",
+      "💊",
+      "oshudh"
+    ],
+    [
+      "thermometer",
+      "thermometer",
+      "🌡️",
+      "thermometer"
+    ],
+    [
+      "flashlight",
+      "flashlight",
+      "🔦",
+      "flashlight"
+    ],
+    [
+      "candle",
+      "mombati",
+      "🕯️",
+      "mombati"
+    ],
+    [
+      "matchbox",
+      "diba",
+      "🔥",
+      "diba"
+    ],
+    [
+      "lighter",
+      "lighter",
+      "🔥",
+      "lighter"
+    ],
+    [
+      "extension cord",
+      "extension cord",
+      "🔌",
+      "extension cord"
+    ],
+    [
+      "plug",
+      "plug",
+      "🔌",
+      "plug"
+    ],
+    [
+      "socket",
+      "socket",
+      "🔌",
+      "socket"
+    ],
+    [
+      "switch",
+      "switch",
+      "💡",
+      "switch"
+    ],
+    [
+      "bulb",
+      "bulb",
+      "💡",
+      "bulb"
+    ],
+    [
+      "chandelier",
+      "chandelier",
+      "💡",
+      "chandelier"
+    ],
+    [
+      "night light",
+      "night light",
+      "🌙",
+      "night light"
+    ],
+    [
+      "air conditioner",
+      "AC",
+      "❄️",
+      "ac"
+    ],
+    [
+      "heater",
+      "heater",
+      "🔥",
+      "heater"
+    ],
+    [
+      "humidifier",
+      "humidifier",
+      "💧",
+      "humidifier"
+    ],
+    [
+      "dehumidifier",
+      "dehumidifier",
+      "💨",
+      "dehumidifier"
+    ],
+    [
+      "air purifier",
+      "air purifier",
+      "💨",
+      "air purifier"
+    ],
+    [
+      "remote control",
+      "remote",
+      "📱",
+      "remote"
+    ],
+    [
+      "speaker",
+      "speaker",
+      "🔊",
+      "speaker"
+    ],
+    [
+      "radio",
+      "radio",
+      "📻",
+      "radio"
+    ],
+    [
+      "computer",
+      "computer",
+      "💻",
+      "computer"
+    ],
+    [
+      "laptop",
+      "laptop",
+      "💻",
+      "laptop"
+    ],
+    [
+      "tablet",
+      "tablet",
+      "📱",
+      "tablet"
+    ],
+    [
+      "keyboard",
+      "keyboard",
+      "⌨️",
+      "keyboard"
+    ],
+    [
+      "mouse pad",
+      "mouse pad",
+      "🖱️",
+      "mouse pad"
+    ],
+    [
+      "printer",
+      "printer",
+      "🖨️",
+      "printer"
+    ],
+    [
+      "camera",
+      "camera",
+      "📷",
+      "camera"
+    ],
+    [
+      "tripod",
+      "tripod",
+      "📷",
+      "tripod"
+    ],
+    [
+      "backpack",
+      "backpack",
+      "🎒",
+      "backpack"
+    ],
+    [
+      "school bag",
+      "school bag",
+      "🎒",
+      "school bag"
+    ],
+    [
+      "pencil case",
+      "pencil case",
+      "✏️",
+      "pencil case"
+    ],
+    [
+      "eraser",
+      "eraser",
+      "🧽",
+      "eraser"
+    ],
+    [
+      "sharpener",
+      "sharpener",
+      "✏️",
+      "sharpener"
+    ],
+    [
+      "ruler",
+      "ruler",
+      "📏",
+      "ruler"
+    ],
+    [
+      "glue",
+      "glue",
+      "🧴",
+      "glue"
+    ],
+    [
+      "tape",
+      "tape",
+      "📼",
+      "tape"
+    ],
+    [
+      "stapler",
+      "stapler",
+      "📎",
+      "stapler"
+    ],
+    [
+      "paper clip",
+      "paper clip",
+      "📎",
+      "paper clip"
+    ],
+    [
+      "notebook",
+      "notebook",
+      "📓",
+      "notebook"
+    ],
+    [
+      "diary",
+      "diary",
+      "📔",
+      "diary"
+    ],
+    [
+      "calendar",
+      "calendar",
+      "📅",
+      "calendar"
+    ],
+    [
+      "whiteboard",
+      "whiteboard",
+      "📋",
+      "whiteboard"
+    ],
+    [
+      "blackboard",
+      "blackboard",
+      "📋",
+      "blackboard"
+    ],
+    [
+      "chalk",
+      "chalk",
+      "✏️",
+      "chalk"
+    ],
+    [
+      "marker",
+      "marker",
+      "🖊️",
+      "marker"
+    ],
+    [
+      "crayon",
+      "crayon",
+      "🖍️",
+      "crayon"
+    ],
+    [
+      "paintbrush",
+      "paintbrush",
+      "🖌️",
+      "paintbrush"
+    ],
+    [
+      "paint",
+      "rong",
+      "🎨",
+      "rong"
+    ],
+    [
+      "easel",
+      "easel",
+      "🎨",
+      "easel"
+    ],
+    [
+      "puzzle",
+      "puzzle",
+      "🧩",
+      "puzzle"
+    ],
+    [
+      "board game",
+      "board game",
+      "🎲",
+      "board game"
+    ],
+    [
+      "doll",
+      "doll",
+      "🪆",
+      "doll"
+    ],
+    [
+      "teddy bear",
+      "teddy bear",
+      "🧸",
+      "teddy bear"
+    ],
+    [
+      "blocks",
+      "blocks",
+      "🧱",
+      "blocks"
+    ],
+    [
+      "yo yo",
+      "yo yo",
+      "🪀",
+      "yo yo"
+    ],
+    [
+      "kite",
+      "ghuri",
+      "🪁",
+      "ghuri"
+    ],
+    [
+      "balloon",
+      "balloon",
+      "🎈",
+      "balloon"
+    ],
+    [
+      "party hat",
+      "party hat",
+      "🎉",
+      "party hat"
+    ],
+    [
+      "gift",
+      "gift",
+      "🎁",
+      "gift"
+    ],
+    [
+      "wrapping paper",
+      "wrapping paper",
+      "🎁",
+      "wrapping paper"
+    ],
+    [
+      "ribbon",
+      "ribbon",
+      "🎀",
+      "ribbon"
+    ],
+    [
+      "card",
+      "card",
+      "💌",
+      "card"
+    ],
+    [
+      "envelope",
+      "envelope",
+      "✉️",
+      "envelope"
+    ],
+    [
+      "stamp",
+      "stamp",
+      "📮",
+      "stamp"
+    ],
+    [
+      "photo frame",
+      "photo frame",
+      "🖼️",
+      "photo frame"
+    ],
+    [
+      "vase",
+      "vase",
+      "🏺",
+      "vase"
+    ],
+    [
+      "plant pot",
+      "gach er tub",
+      "🪴",
+      "gach er tub"
+    ],
+    [
+      "watering can",
+      "pani dharar balti",
+      "🪴",
+      "pani dharar balti"
+    ],
+    [
+      "garden hose",
+      "garden hose",
+      "🌿",
+      "garden hose"
+    ],
+    [
+      "toolbox",
+      "toolbox",
+      "🧰",
+      "toolbox"
+    ],
+    [
+      "hammer",
+      "hammer",
+      "🔨",
+      "hammer"
+    ],
+    [
+      "screwdriver",
+      "screwdriver",
+      "🪛",
+      "screwdriver"
+    ],
+    [
+      "wrench",
+      "wrench",
+      "🔧",
+      "wrench"
+    ],
+    [
+      "nail",
+      "nail",
+      "🔨",
+      "nail"
+    ],
+    [
+      "screw",
+      "screw",
+      "🔩",
+      "screw"
+    ],
+    [
+      "drill",
+      "drill",
+      "🔩",
+      "drill"
+    ],
+    [
+      "ladder",
+      "ladder",
+      "🪜",
+      "ladder"
+    ],
+    [
+      "paint roller",
+      "paint roller",
+      "🖌️",
+      "paint roller"
+    ],
+    [
+      "shovel",
+      "shovel",
+      "⛏️",
+      "shovel"
+    ],
+    [
+      "rake",
+      "rake",
+      "🍂",
+      "rake"
+    ],
+    [
+      "wheelbarrow",
+      "wheelbarrow",
+      "🛒",
+      "wheelbarrow"
+    ]
+  ],
+  "actions": [
+    [
+      "swim",
+      "সাঁতার কাটা",
+      "🏊",
+      "satär kata"
+    ],
+    [
+      "fly",
+      "ওড়া",
+      "🕊️",
+      "ora"
+    ],
+    [
+      "crawl",
+      "হামাগুড়ি দেওয়া",
+      "🐛",
+      "hamaguri dewa"
+    ],
+    [
+      "creep",
+      "হামাগুড়ি দেওয়া",
+      "🐛",
+      "hamaguri dewa"
+    ],
+    [
+      "hop",
+      "লাফ দেওয়া",
+      "🐰",
+      "laf dewa"
+    ],
+    [
+      "skip",
+      "লাফিয়ে যাওয়া",
+      "⏭️",
+      "lafiye jawa"
+    ],
+    [
+      "hopscotch",
+      "ek pa ek pa",
+      "🦶",
+      "ek pa ek pa"
+    ],
+    [
+      "swing",
+      "দোলনা",
+      "🎠",
+      "dolna"
+    ],
+    [
+      "slide",
+      "স্লাইড",
+      "🛝",
+      "slide"
+    ],
+    [
+      "spin",
+      "ঘুরানো",
+      "🌀",
+      "ghurano"
+    ],
+    [
+      "turn",
+      "ঘোরা",
+      "🔄",
+      "ghora"
+    ],
+    [
+      "roll",
+      "গড়ানো",
+      "🎲",
+      "gorano"
+    ],
+    [
+      "bend",
+      "বাঁকা",
+      "🤸",
+      "bãka"
+    ],
+    [
+      "stretch",
+      "প্রসারিত করা",
+      "🤸",
+      "prosarito kora"
+    ],
+    [
+      "yawn",
+      "হাই তোলা",
+      "🥱",
+      "hai tola"
+    ],
+    [
+      "sneeze",
+      "হাঁচি",
+      "🤧",
+      "hãchi"
+    ],
+    [
+      "cough",
+      "কাশি",
+      "😷",
+      "kashi"
+    ],
+    [
+      "breathe",
+      "শ্বাস নেওয়া",
+      "💨",
+      "shwash newa"
+    ],
+    [
+      "whisper",
+      "ফিসফিস",
+      "🤫",
+      "fisfis"
+    ],
+    [
+      "shout",
+      "চিৎকার",
+      "📢",
+      "chitkar"
+    ],
+    [
+      "ask",
+      "জিজ্ঞাসা করা",
+      "❓",
+      "jiggasha kora"
+    ],
+    [
+      "answer",
+      "উত্তর দেওয়া",
+      "💬",
+      "uttar dewa"
+    ],
+    [
+      "tell",
+      "বলানো",
+      "🗣️",
+      "bolano"
+    ],
+    [
+      "explain",
+      "ব্যাখ্যা করা",
+      "💡",
+      "byakhya kora"
+    ],
+    [
+      "remember",
+      "মনে রাখা",
+      "🧠",
+      "mone rakha"
+    ],
+    [
+      "forget",
+      "ভুলে যাওয়া",
+      "🤔",
+      "bhule jawa"
+    ],
+    [
+      "think",
+      "ভাবা",
+      "🤔",
+      "bhaba"
+    ],
+    [
+      "dream",
+      "স্বপ্ন দেখা",
+      "💭",
+      "swopno dekha"
+    ],
+    [
+      "imagine",
+      "কল্পনা করা",
+      "💭",
+      "kolpona kora"
+    ],
+    [
+      "choose",
+      "বেছে নেওয়া",
+      "👆",
+      "beche newa"
+    ],
+    [
+      "decide",
+      "সিদ্ধান্ত নেওয়া",
+      "✅",
+      "siddhanto newa"
+    ],
+    [
+      "try",
+      "চেষ্টা করা",
+      "💪",
+      "chesta kora"
+    ],
+    [
+      "practice",
+      "অভ্যাস করা",
+      "🏋️",
+      "obhyash kora"
+    ],
+    [
+      "win",
+      "জেতা",
+      "🏆",
+      "jeta"
+    ],
+    [
+      "lose",
+      "হারা",
+      "😢",
+      "hara"
+    ],
+    [
+      "share",
+      "ভাগ করা",
+      "🤝",
+      "bhag kora"
+    ],
+    [
+      "borrow",
+      "ধার নেওয়া",
+      "🤲",
+      "dhar newa"
+    ],
+    [
+      "lend",
+      "ধার দেওয়া",
+      "🤲",
+      "dhar dewa"
+    ],
+    [
+      "pay",
+      "টাকা দেওয়া",
+      "💵",
+      "taka dewa"
+    ],
+    [
+      "sell",
+      "বিক্রি করা",
+      "💰",
+      "bikri kora"
+    ],
+    [
+      "pack",
+      "প্যাক করা",
+      "📦",
+      "pack kora"
+    ],
+    [
+      "unpack",
+      "আনপ্যাক করা",
+      "📦",
+      "unpack kora"
+    ],
+    [
+      "wrap",
+      "মোড়ানো",
+      "🎁",
+      "morano"
+    ],
+    [
+      "unwrap",
+      "খোলা",
+      "🎁",
+      "khola"
+    ],
+    [
+      "tie",
+      "বাঁধা",
+      "🎀",
+      "bãdha"
+    ],
+    [
+      "untie",
+      "খোলা",
+      "🎀",
+      "khola"
+    ],
+    [
+      "cut",
+      "কাটা",
+      "✂️",
+      "kata"
+    ],
+    [
+      "paste",
+      "আটকানো",
+      "📎",
+      "atkano"
+    ],
+    [
+      "fold",
+      "ভাঁজ করা",
+      "👕",
+      "bhãj kora"
+    ],
+    [
+      "unfold",
+      "খোলা",
+      "👕",
+      "khola"
+    ],
+    [
+      "hang",
+      "ঝোলানো",
+      "👕",
+      "jholano"
+    ],
+    [
+      "dry",
+      "শুকানো",
+      "☀️",
+      "shukano"
+    ],
+    [
+      "wet",
+      "ভিজানো",
+      "💧",
+      "bijano"
+    ],
+    [
+      "soak",
+      "ভিজিয়ে রাখা",
+      "💧",
+      "bijiye rakha"
+    ],
+    [
+      "squeeze",
+      "চাপ দেওয়া",
+      "🤏",
+      "chap dewa"
+    ],
+    [
+      "mix",
+      "মেশানো",
+      "🥣",
+      "meshano"
+    ],
+    [
+      "stir",
+      "নাড়া",
+      "🥄",
+      "nara"
+    ],
+    [
+      "pour",
+      "ঢালা",
+      "🫗",
+      "dhala"
+    ],
+    [
+      "spill",
+      "ঝরে পড়া",
+      "💧",
+      "jhore pora"
+    ],
+    [
+      "break",
+      "ভাঙা",
+      "💔",
+      "bhanga"
+    ],
+    [
+      "fix",
+      "ঠিক করা",
+      "🔧",
+      "thik kora"
+    ],
+    [
+      "build",
+      "তৈরি করা",
+      "🏗️",
+      "tori kora"
+    ],
+    [
+      "make",
+      "তৈরি করা",
+      "🔨",
+      "tori kora"
+    ],
+    [
+      "create",
+      "সৃষ্টি করা",
+      "✨",
+      "srishti kora"
+    ],
+    [
+      "destroy",
+      "ধ্বংস করা",
+      "💥",
+      "dhongsho kora"
+    ],
+    [
+      "plant",
+      "রোপণ করা",
+      "🌱",
+      "ropon kora"
+    ],
+    [
+      "water plants",
+      "গাছে পানি দেওয়া",
+      "🪴",
+      "gache pani dewa"
+    ],
+    [
+      "dig",
+      "খনন করা",
+      "⛏️",
+      "khonon kora"
+    ],
+    [
+      "pick",
+      "তোলা",
+      "🤏",
+      "tola"
+    ],
+    [
+      "drop",
+      "ফেলে দেওয়া",
+      "⬇️",
+      "phele dewa"
+    ],
+    [
+      "carry",
+      "বহন করা",
+      "🎒",
+      "bohon kora"
+    ],
+    [
+      "lift",
+      "তোলা",
+      "🏋️",
+      "tola"
+    ],
+    [
+      "hold",
+      "ধরা",
+      "🤲",
+      "dhora"
+    ],
+    [
+      "release",
+      "ছেড়ে দেওয়া",
+      "🕊️",
+      "chhere dewa"
+    ],
+    [
+      "touch",
+      "স্পর্শ করা",
+      "👆",
+      "sporsho kora"
+    ],
+    [
+      "feel",
+      "অনুভব করা",
+      "🤚",
+      "onubhob kora"
+    ],
+    [
+      "smell",
+      "ঘ্রাণ নেওয়া",
+      "👃",
+      "ghran newa"
+    ],
+    [
+      "taste",
+      "স্বাদ নেওয়া",
+      "👅",
+      "swad newa"
+    ],
+    [
+      "watch",
+      "দেখা",
+      "👀",
+      "dekha"
+    ],
+    [
+      "follow",
+      "অনুসরণ করা",
+      "👣",
+      "onushoron kora"
+    ],
+    [
+      "lead",
+      "নেতৃত্ব দেওয়া",
+      "👑",
+      "netritwo dewa"
+    ],
+    [
+      "guide",
+      "পথ দেখানো",
+      "🧭",
+      "poth dekhano"
+    ],
+    [
+      "visit",
+      "দেখা করা",
+      "🏠",
+      "dekha kora"
+    ],
+    [
+      "leave",
+      "চলে যাওয়া",
+      "👋",
+      "chale jawa"
+    ],
+    [
+      "arrive",
+      "পৌঁছানো",
+      "📍",
+      "pouchano"
+    ],
+    [
+      "enter",
+      "প্রবেশ করা",
+      "🚪",
+      "probesh kora"
+    ],
+    [
+      "exit",
+      "বের হওয়া",
+      "🚪",
+      "ber howa"
+    ],
+    [
+      "knock",
+      "কড়া নাড়া",
+      "🚪",
+      "kora nara"
+    ],
+    [
+      "ring bell",
+      "ঘণ্টা বাজানো",
+      "🔔",
+      "ghonta bajano"
+    ],
+    [
+      "call",
+      "ডাকা",
+      "📞",
+      "daka"
+    ],
+    [
+      "phone",
+      "ফোন করা",
+      "📱",
+      "phon kora"
+    ],
+    [
+      "text",
+      "মেসেজ করা",
+      "💬",
+      "message kora"
+    ],
+    [
+      "mail",
+      "চিঠি পাঠানো",
+      "✉️",
+      "chithi pathano"
+    ],
+    [
+      "invite",
+      "আমন্ত্রণ করা",
+      "💌",
+      "amontroon kora"
+    ],
+    [
+      "welcome",
+      "স্বাগত জানানো",
+      "👋",
+      "swagat janano"
+    ],
+    [
+      "greet",
+      "শুভেচ্ছা জানানো",
+      "👋",
+      "shubhechcha janano"
+    ],
+    [
+      "introduce",
+      "পরিচয় করানো",
+      "🤝",
+      "porichoy karano"
+    ],
+    [
+      "meet",
+      "দেখা হওয়া",
+      "🤝",
+      "dekha howa"
+    ],
+    [
+      "miss",
+      "মিস করা",
+      "😢",
+      "miss kora"
+    ],
+    [
+      "celebrate",
+      "উদযাপন করা",
+      "🎉",
+      "udjapon kora"
+    ],
+    [
+      "party",
+      "পার্টি করা",
+      "🎉",
+      "party kora"
+    ],
+    [
+      "clap",
+      "তালি দেওয়া",
+      "👏",
+      "tali dewa"
+    ],
+    [
+      "wave hand",
+      "হাত নাড়ানো",
+      "👋",
+      "hat narano"
+    ],
+    [
+      "point",
+      "আঙুল দেখানো",
+      "👉",
+      "angul dekhano"
+    ],
+    [
+      "nod",
+      "মাথা নাড়ানো",
+      "👍",
+      "matha narano"
+    ],
+    [
+      "shake head",
+      "মাথা নাড়ানো",
+      "👎",
+      "matha narano"
+    ],
+    [
+      "wink",
+      "চোখ পিটপিট",
+      "😉",
+      "chokh pitpit"
+    ],
+    [
+      "blink",
+      "চোখ পিটপিট",
+      "😉",
+      "chokh pitpit"
+    ],
+    [
+      "pray",
+      "পrayer করা",
+      "🙏",
+      "prarthona kora"
+    ],
+    [
+      "bless",
+      "আশীর্বাদ করা",
+      "🙏",
+      "ashirbad kora"
+    ],
+    [
+      "forgive",
+      "ক্ষমা করা",
+      "🤝",
+      "khoma kora"
+    ],
+    [
+      "promise",
+      "পromise করা",
+      "🤞",
+      "promise kora"
+    ],
+    [
+      "obey",
+      "মান্য করা",
+      "✅",
+      "manyo kora"
+    ],
+    [
+      "disobey",
+      "অমান্য করা",
+      "❌",
+      "omanyo kora"
+    ],
+    [
+      "behave",
+      "আচরণ করা",
+      "🙂",
+      "achoron kora"
+    ],
+    [
+      "discipline",
+      "শৃঙ্খলা",
+      "📏",
+      "shringkhola"
+    ],
+    [
+      "reward",
+      "পুরস্কার",
+      "🏅",
+      "puruskar"
+    ],
+    [
+      "punish",
+      "শাস্তি",
+      "⚠️",
+      "shasti"
+    ],
+    [
+      "compete",
+      "প্রতিযোগিতা",
+      "🏆",
+      "protijogita"
+    ],
+    [
+      "cooperate",
+      "সহযোগিতা",
+      "🤝",
+      "shohojogita"
+    ],
+    [
+      "argue",
+      "তর্ক করা",
+      "💬",
+      "torko kora"
+    ],
+    [
+      "agree",
+      "একমত হওয়া",
+      "👍",
+      "ekmot howa"
+    ],
+    [
+      "disagree",
+      "অসম্মত হওয়া",
+      "👎",
+      "osommot howa"
+    ],
+    [
+      "discuss",
+      "আলোচনা",
+      "💬",
+      "alochona"
+    ],
+    [
+      "plan",
+      "পরিকল্পনা",
+      "📋",
+      "porikolpona"
+    ],
+    [
+      "prepare",
+      "প্রস্তুতি",
+      "📝",
+      "prostuti"
+    ],
+    [
+      "organize",
+      "গোছানো",
+      "📂",
+      "goshano"
+    ],
+    [
+      "sort",
+      "সাজানো",
+      "📊",
+      "sajano"
+    ],
+    [
+      "arrange",
+      "সাজানো",
+      "📋",
+      "sajano"
+    ],
+    [
+      "collect",
+      "সংগ্রহ",
+      "📦",
+      "songroho"
+    ],
+    [
+      "gather",
+      "একত্র করা",
+      "👥",
+      "ekotro kora"
+    ],
+    [
+      "scatter",
+      "ছড়িয়ে দেওয়া",
+      "💨",
+      "chhoriye dewa"
+    ],
+    [
+      "save",
+      "জমা রাখা",
+      "💰",
+      "joma rakha"
+    ],
+    [
+      "spend",
+      "খরচ করা",
+      "💸",
+      "khoroch kora"
+    ],
+    [
+      "waste",
+      "নষ্ট করা",
+      "🗑️",
+      "noshto kora"
+    ],
+    [
+      "recycle",
+      "পুনর্ব্যবহার",
+      "♻️",
+      "punorbbyash"
+    ],
+    [
+      "protect",
+      "রক্ষা করা",
+      "🛡️",
+      "rokkha kora"
+    ],
+    [
+      "attack",
+      "আক্রমণ",
+      "⚔️",
+      "akromon"
+    ],
+    [
+      "defend",
+      "রক্ষা",
+      "🛡️",
+      "rokkha"
+    ],
+    [
+      "escape",
+      "পালানো",
+      "🏃",
+      "palano"
+    ],
+    [
+      "chase",
+      "অনুসরণ",
+      "🏃",
+      "onushoron"
+    ],
+    [
+      "race",
+      "দৌড়",
+      "🏁",
+      "dour"
+    ],
+    [
+      "kick",
+      "লাথি",
+      "🦵",
+      "lathi"
+    ],
+    [
+      "punch",
+      "মukkha",
+      "👊",
+      "mukkha"
+    ],
+    [
+      "tickle",
+      "কutukuti",
+      "🤭",
+      "kutukuti"
+    ],
+    [
+      "tickle feet",
+      "pay kutukuti",
+      "🦶",
+      "pay kutukuti"
+    ],
+    [
+      "massage",
+      "মalish",
+      "💆",
+      "malish"
+    ],
+    [
+      "exercise",
+      "ব্যায়াম",
+      "🏋️",
+      "byayam"
+    ],
+    [
+      "stretch arms",
+      "hat prosharito",
+      "🤸",
+      "hat prosharito"
+    ],
+    [
+      "balance",
+      "ভারসাম্য",
+      "⚖️",
+      "bharsamyo"
+    ],
+    [
+      "tip toe",
+      "পায়ের আঙুলে",
+      "🦶",
+      "payer angule"
+    ],
+    [
+      "march",
+      "মarche",
+      "🚶",
+      "march"
+    ],
+    [
+      "stomp",
+      "পা ফেলা",
+      "🦶",
+      "pa fela"
+    ],
+    [
+      "tiptoe",
+      "চুপি চুপি",
+      "🤫",
+      "chupi chupi"
+    ],
+    [
+      "sprint",
+      "দ্রুত দৌড়",
+      "🏃",
+      "druto dour"
+    ],
+    [
+      "jog",
+      "জogging",
+      "🏃",
+      "jogging"
+    ],
+    [
+      "hike",
+      "hiking",
+      "🥾",
+      "hiking"
+    ],
+    [
+      "camp",
+      "camp",
+      "⛺",
+      "camp"
+    ],
+    [
+      "explore",
+      "অন্বেষণ",
+      "🔍",
+      "onweshon"
+    ],
+    [
+      "discover",
+      "আবিষ্কার",
+      "💡",
+      "abishkar"
+    ],
+    [
+      "invent",
+      "উদ্ভাবন",
+      "💡",
+      "udbhavon"
+    ],
+    [
+      "measure",
+      "মাপা",
+      "📏",
+      "mapa"
+    ],
+    [
+      "weigh",
+      "ওজন করা",
+      "⚖️",
+      "ojon kora"
+    ],
+    [
+      "compare",
+      "তুলনা",
+      "⚖️",
+      "tulona"
+    ],
+    [
+      "match",
+      "মিলানো",
+      "🧩",
+      "milano"
+    ],
+    [
+      "guess",
+      "অনুমান",
+      "🤔",
+      "onuman"
+    ],
+    [
+      "check",
+      "পরীক্ষা",
+      "✅",
+      "poriksha"
+    ],
+    [
+      "test",
+      "পরীক্ষা",
+      "📝",
+      "poriksha"
+    ],
+    [
+      "pass",
+      "পাস",
+      "✅",
+      "pass"
+    ],
+    [
+      "fail",
+      "ফel",
+      "❌",
+      "fail"
+    ],
+    [
+      "repeat",
+      "পুনরাবৃত্তি",
+      "🔁",
+      "punorabritti"
+    ],
+    [
+      "copy",
+      "কopi",
+      "📋",
+      "copy"
+    ],
+    [
+      "trace",
+      "অনুসরণ",
+      "✏️",
+      "onushoron"
+    ],
+    [
+      "color in",
+      "rong bhra",
+      "🎨",
+      "rong bhra"
+    ],
+    [
+      "paint picture",
+      "chitra aka",
+      "🎨",
+      "chitra aka"
+    ],
+    [
+      "sculpt",
+      "ভাস্কর্য",
+      "🗿",
+      "bhaskarjo"
+    ],
+    [
+      "knit",
+      "বre",
+      "🧶",
+      "bre"
+    ],
+    [
+      "sew",
+      "সew",
+      "🧵",
+      "sew"
+    ],
+    [
+      "stitch",
+      "সew",
+      "🧵",
+      "sew"
+    ],
+    [
+      "button up",
+      "botam lagano",
+      "🔘",
+      "botam lagano"
+    ],
+    [
+      "zip up",
+      "jip lagano",
+      "🤐",
+      "jip lagano"
+    ],
+    [
+      "brush teeth",
+      "dat porishkar",
+      "🪥",
+      "dat porishkar"
+    ],
+    [
+      "comb hair",
+      "chul parash",
+      "💇",
+      "chul parash"
+    ],
+    [
+      "bathe",
+      "goshol",
+      "🛁",
+      "goshol"
+    ],
+    [
+      "shower",
+      "shower",
+      "🚿",
+      "shower"
+    ],
+    [
+      "dress up",
+      "poshak porano",
+      "👗",
+      "poshak porano"
+    ],
+    [
+      "undress",
+      "poshak khola",
+      "👕",
+      "poshak khola"
+    ],
+    [
+      "put on",
+      "porano",
+      "👕",
+      "porano"
+    ],
+    [
+      "take off",
+      "khola",
+      "👕",
+      "khola"
+    ],
+    [
+      "wake up",
+      "jagano",
+      "⏰",
+      "jagano"
+    ],
+    [
+      "get up",
+      "utha",
+      "🛏️",
+      "utha"
+    ],
+    [
+      "lie down",
+      "shuiya thaka",
+      "🛏️",
+      "shuiya thaka"
+    ],
+    [
+      "rest",
+      "bisram",
+      "😌",
+      "bisram"
+    ],
+    [
+      "relax",
+      "aram",
+      "🛋️",
+      "aram"
+    ],
+    [
+      "nap",
+      "chhoto ghum",
+      "😴",
+      "chhoto ghum"
+    ],
+    [
+      "snore",
+      "ghum ghum",
+      "😴",
+      "ghum ghum"
+    ],
+    [
+      "yawn sleepily",
+      "ghum ghum hai",
+      "🥱",
+      "ghum ghum hai"
+    ]
+  ],
+  "clothes": [
+    [
+      "vest",
+      "baniyani",
+      "🦺",
+      "baniyani"
+    ],
+    [
+      "blouse",
+      "blouse",
+      "👚",
+      "blouse"
+    ],
+    [
+      "dupatta",
+      "orna",
+      "🧣",
+      "orna"
+    ],
+    [
+      "shawl",
+      "shawl",
+      "🧣",
+      "shawl"
+    ],
+    [
+      "muffler",
+      "muffler",
+      "🧣",
+      "muffler"
+    ],
+    [
+      "cap",
+      "tupi",
+      "🧢",
+      "tupi"
+    ],
+    [
+      "helmet",
+      "helmet",
+      "⛑️",
+      "helmet"
+    ],
+    [
+      "crown",
+      "mukut",
+      "👑",
+      "mukut"
+    ],
+    [
+      "turban",
+      "pagri",
+      "👳",
+      "pagri"
+    ],
+    [
+      "hijab",
+      "hijab",
+      "🧕",
+      "hijab"
+    ],
+    [
+      "burqa",
+      "burqa",
+      "🧕",
+      "burqa"
+    ],
+    [
+      "abaya",
+      "abaya",
+      "🧕",
+      "abaya"
+    ],
+    [
+      "panjabi top",
+      "panjabi",
+      "👔",
+      "panjabi"
+    ],
+    [
+      "fatua",
+      "fatua",
+      "👕",
+      "fatua"
+    ],
+    [
+      "kurta",
+      "kurta",
+      "👕",
+      "kurta"
+    ],
+    [
+      "sherwani",
+      "sherwani",
+      "🤵",
+      "sherwani"
+    ],
+    [
+      "lehenga",
+      "lehenga",
+      "👗",
+      "lehenga"
+    ],
+    [
+      "sharee blouse",
+      "sari blauj",
+      "👚",
+      "sari blauj"
+    ],
+    [
+      "petticoat",
+      "petticoat",
+      "👗",
+      "petticoat"
+    ],
+    [
+      "dhoti",
+      "dhoti",
+      "👖",
+      "dhoti"
+    ],
+    [
+      "pajama pants",
+      "pajama",
+      "🩳",
+      "pajama"
+    ],
+    [
+      "track pants",
+      "track pant",
+      "👖",
+      "track pant"
+    ],
+    [
+      "leggings",
+      "leggings",
+      "👖",
+      "leggings"
+    ],
+    [
+      "tights",
+      "tights",
+      "🩱",
+      "tights"
+    ],
+    [
+      "swimsuit",
+      "swimsuit",
+      "🩱",
+      "swimsuit"
+    ],
+    [
+      "bikini",
+      "bikini",
+      "👙",
+      "bikini"
+    ],
+    [
+      "raincoat",
+      "raincoat",
+      "🧥",
+      "raincoat"
+    ],
+    [
+      "windbreaker",
+      "windbreaker",
+      "🧥",
+      "windbreaker"
+    ],
+    [
+      "blazer",
+      "blazer",
+      "🧥",
+      "blazer"
+    ],
+    [
+      "cardigan",
+      "cardigan",
+      "🧶",
+      "cardigan"
+    ],
+    [
+      "poncho",
+      "poncho",
+      "🧥",
+      "poncho"
+    ],
+    [
+      "flip flops",
+      "flip flop",
+      "🩴",
+      "flip flop"
+    ],
+    [
+      "clogs",
+      "clogs",
+      "🥿",
+      "clogs"
+    ],
+    [
+      "heels",
+      "heel juto",
+      "👠",
+      "heel juto"
+    ],
+    [
+      "loafers",
+      "loafers",
+      "👞",
+      "loafers"
+    ],
+    [
+      "sneakers",
+      "sneakers",
+      "👟",
+      "sneakers"
+    ],
+    [
+      "canvas shoes",
+      "canvas juto",
+      "👟",
+      "canvas juto"
+    ],
+    [
+      "rain boots",
+      "rain boot",
+      "🥾",
+      "rain boot"
+    ],
+    [
+      "snow boots",
+      "snow boot",
+      "🥾",
+      "snow boot"
+    ],
+    [
+      "ankle socks",
+      "moja",
+      "🧦",
+      "moja"
+    ],
+    [
+      "knee socks",
+      "lamba moja",
+      "🧦",
+      "lamba moja"
+    ],
+    [
+      "stockings",
+      "stockings",
+      "🧦",
+      "stockings"
+    ],
+    [
+      "garter",
+      "garter",
+      "🧦",
+      "garter"
+    ],
+    [
+      "suspenders",
+      "suspenders",
+      "👖",
+      "suspenders"
+    ],
+    [
+      "bow tie",
+      "bow tie",
+      "🎀",
+      "bow tie"
+    ],
+    [
+      "cufflinks",
+      "cufflinks",
+      "👔",
+      "cufflinks"
+    ],
+    [
+      "brooch",
+      "brooch",
+      "📿",
+      "brooch"
+    ],
+    [
+      "anklet",
+      "payel",
+      "📿",
+      "payel"
+    ],
+    [
+      "toe ring",
+      "pay er angti",
+      "💍",
+      "pay er angti"
+    ],
+    [
+      "bangle",
+      "churi",
+      "📿",
+      "churi"
+    ],
+    [
+      "bracelet",
+      "bracelet",
+      "📿",
+      "bracelet"
+    ],
+    [
+      "hair clip",
+      "chul er clip",
+      "💇",
+      "chul er clip"
+    ],
+    [
+      "hair band",
+      "chul er band",
+      "💇",
+      "chul er band"
+    ],
+    [
+      "hair pin",
+      "chul er pin",
+      "💇",
+      "chul er pin"
+    ],
+    [
+      "ribbon hair",
+      "chul er ribbon",
+      "🎀",
+      "chul er ribbon"
+    ],
+    [
+      "veil",
+      "ghomta",
+      "👰",
+      "ghomta"
+    ],
+    [
+      "mask",
+      "mask",
+      "😷",
+      "mask"
+    ],
+    [
+      "gloves winter",
+      "dostana",
+      "🧤",
+      "dostana"
+    ],
+    [
+      "mittens",
+      "mittens",
+      "🧤",
+      "mittens"
+    ],
+    [
+      "apron",
+      "apron",
+      "👨‍🍳",
+      "apron"
+    ],
+    [
+      "uniform",
+      "uniform",
+      "👔",
+      "uniform"
+    ],
+    [
+      "school uniform",
+      "school uniform",
+      "🎓",
+      "school uniform"
+    ],
+    [
+      "sports uniform",
+      "khelar poshak",
+      "⚽",
+      "khelar poshak"
+    ],
+    [
+      "lab coat",
+      "lab coat",
+      "🥼",
+      "lab coat"
+    ],
+    [
+      "overalls",
+      "overalls",
+      "👖",
+      "overalls"
+    ],
+    [
+      "romper",
+      "romper",
+      "👶",
+      "romper"
+    ],
+    [
+      "onesie",
+      "onesie",
+      "👶",
+      "onesie"
+    ],
+    [
+      "bib",
+      "bib",
+      "👶",
+      "bib"
+    ],
+    [
+      "diaper",
+      "diaper",
+      "👶",
+      "diaper"
+    ],
+    [
+      "swaddle",
+      "swaddle",
+      "👶",
+      "swaddle"
+    ],
+    [
+      "blanket wrap",
+      "kombol",
+      "🛏️",
+      "kombol"
+    ],
+    [
+      "handkerchief",
+      "rumal",
+      "🤧",
+      "rumal"
+    ],
+    [
+      "pocket square",
+      "pocket square",
+      "👔",
+      "pocket square"
+    ],
+    [
+      "belt buckle",
+      "belt buckle",
+      "➰",
+      "belt buckle"
+    ],
+    [
+      "safety pin",
+      "safety pin",
+      "📎",
+      "safety pin"
+    ],
+    [
+      "sewing kit",
+      "sewing kit",
+      "🧵",
+      "sewing kit"
+    ],
+    [
+      "thread",
+      "sut",
+      "🧵",
+      "sut"
+    ],
+    [
+      "needle",
+      "su",
+      "🪡",
+      "su"
+    ],
+    [
+      "thimble",
+      "thimble",
+      "🪡",
+      "thimble"
+    ],
+    [
+      "fabric",
+      "kapra",
+      "🧵",
+      "kapra"
+    ],
+    [
+      "cotton cloth",
+      "tuti",
+      "🧵",
+      "tuti"
+    ],
+    [
+      "silk cloth",
+      "resham",
+      "🧵",
+      "resham"
+    ],
+    [
+      "wool cloth",
+      "un",
+      "🧶",
+      "un"
+    ],
+    [
+      "denim",
+      "denim",
+      "👖",
+      "denim"
+    ],
+    [
+      "leather",
+      "chamra",
+      "🧥",
+      "chamra"
+    ],
+    [
+      "fur coat",
+      "fur coat",
+      "🧥",
+      "fur coat"
+    ],
+    [
+      "patterned shirt",
+      "design shirt",
+      "👕",
+      "design shirt"
+    ],
+    [
+      "striped shirt",
+      "dori shirt",
+      "👕",
+      "dori shirt"
+    ],
+    [
+      "checked shirt",
+      "kata shirt",
+      "👕",
+      "kata shirt"
+    ],
+    [
+      "plain shirt",
+      "sada shirt",
+      "👕",
+      "sada shirt"
+    ],
+    [
+      "fancy dress",
+      "fancy poshak",
+      "👗",
+      "fancy poshak"
+    ],
+    [
+      "costume",
+      "costume",
+      "🎭",
+      "costume"
+    ],
+    [
+      "traditional dress",
+      "traditional poshak",
+      "👘",
+      "traditional poshak"
+    ],
+    [
+      "wedding dress",
+      "biye poshak",
+      "👰",
+      "biye poshak"
+    ],
+    [
+      "party dress",
+      "party poshak",
+      "👗",
+      "party poshak"
+    ],
+    [
+      "nightdress",
+      "rat poshak",
+      "🛌",
+      "rat poshak"
+    ],
+    [
+      "housecoat",
+      "ghor poshak",
+      "🛌",
+      "ghor poshak"
+    ],
+    [
+      "bathrobe",
+      "bathrobe",
+      "🛁",
+      "bathrobe"
+    ],
+    [
+      "slippers home",
+      "ghor slipar",
+      "🩴",
+      "ghor slipar"
+    ],
+    [
+      "monsoon gear",
+      "borsha poshak",
+      "🌧️",
+      "borsha poshak"
+    ],
+    [
+      "winter coat",
+      "sheet poshak",
+      "🧥",
+      "sheet poshak"
+    ],
+    [
+      "monsoon umbrella",
+      "borsha chata",
+      "☂️",
+      "borsha chata"
+    ],
+    [
+      "sun hat",
+      "surjo tupi",
+      "👒",
+      "surjo tupi"
+    ],
+    [
+      "winter hat",
+      "sheet tupi",
+      "🧢",
+      "sheet tupi"
+    ],
+    [
+      "earmuffs",
+      "kan cover",
+      "👂",
+      "kan cover"
+    ],
+    [
+      "neck warmer",
+      "gola cover",
+      "🧣",
+      "gola cover"
+    ],
+    [
+      "thermal wear",
+      "thermal",
+      "👕",
+      "thermal"
+    ],
+    [
+      "rain pants",
+      "borsha pant",
+      "👖",
+      "borsha pant"
+    ],
+    [
+      "fishing vest",
+      "mach dhara vest",
+      "🦺",
+      "mach dhara vest"
+    ],
+    [
+      "tool belt",
+      "tool belt",
+      "🔧",
+      "tool belt"
+    ],
+    [
+      "money belt",
+      "money belt",
+      "💰",
+      "money belt"
+    ],
+    [
+      "fanny pack",
+      "fanny pack",
+      "👝",
+      "fanny pack"
+    ],
+    [
+      "crossbody bag",
+      "crossbody bag",
+      "👜",
+      "crossbody bag"
+    ],
+    [
+      "handbag",
+      "handbag",
+      "👜",
+      "handbag"
+    ],
+    [
+      "wallet",
+      "wallet",
+      "👛",
+      "wallet"
+    ],
+    [
+      "coin purse",
+      "coin purse",
+      "👛",
+      "coin purse"
+    ],
+    [
+      "keychain",
+      "keychain",
+      "🔑",
+      "keychain"
+    ],
+    [
+      "lanyard",
+      "lanyard",
+      "🎫",
+      "lanyard"
+    ],
+    [
+      "name tag",
+      "name tag",
+      "🏷️",
+      "name tag"
+    ],
+    [
+      "badge",
+      "badge",
+      "🏅",
+      "badge"
+    ],
+    [
+      "sash",
+      "sash",
+      "🎀",
+      "sash"
+    ],
+    [
+      "medal ribbon",
+      "medal ribbon",
+      "🏅",
+      "medal ribbon"
+    ],
+    [
+      "sequin dress",
+      "sequin poshak",
+      "✨",
+      "sequin poshak"
+    ],
+    [
+      "embroidered cloth",
+      "kata kapra",
+      "🧵",
+      "kata kapra"
+    ],
+    [
+      "block print",
+      "block print",
+      "🧵",
+      "block print"
+    ],
+    [
+      "tie dye",
+      "tie dye",
+      "🎨",
+      "tie dye"
+    ],
+    [
+      "batik",
+      "batik",
+      "🎨",
+      "batik"
+    ],
+    [
+      "muslin",
+      "muslin",
+      "🧵",
+      "muslin"
+    ],
+    [
+      "jamdani",
+      "jamdani",
+      "🥻",
+      "jamdani"
+    ],
+    [
+      "nakshi kantha",
+      "nakshi kantha",
+      "🛏️",
+      "nakshi kantha"
+    ],
+    [
+      "gamcha towel",
+      "gamcha",
+      "🧣",
+      "gamcha"
+    ],
+    [
+      "tupi cap",
+      "tupi",
+      "🧢",
+      "tupi"
+    ],
+    [
+      "topi",
+      "topi",
+      "🎩",
+      "topi"
+    ]
+  ],
+  "transport": [
+    [
+      "auto rickshaw",
+      "auto rickshaw",
+      "🛺",
+      "auto rickshaw"
+    ],
+    [
+      "cycle rickshaw",
+      "cycle rickshaw",
+      "🚲",
+      "cycle rickshaw"
+    ],
+    [
+      "tempo",
+      "tempo",
+      "🛺",
+      "tempo"
+    ],
+    [
+      "microbus",
+      "microbus",
+      "🚐",
+      "microbus"
+    ],
+    [
+      "minibus",
+      "minibus",
+      "🚌",
+      "minibus"
+    ],
+    [
+      "double decker",
+      "double decker",
+      "🚌",
+      "double decker"
+    ],
+    [
+      "school bus",
+      "school bus",
+      "🚌",
+      "school bus"
+    ],
+    [
+      "express train",
+      "express train",
+      "🚆",
+      "express train"
+    ],
+    [
+      "local train",
+      "local train",
+      "🚆",
+      "local train"
+    ],
+    [
+      "metro rail",
+      "metro rail",
+      "🚇",
+      "metro rail"
+    ],
+    [
+      "monorail",
+      "monorail",
+      "🚝",
+      "monorail"
+    ],
+    [
+      "cargo ship",
+      "cargo ship",
+      "🚢",
+      "cargo ship"
+    ],
+    [
+      "fishing boat",
+      "mach dhara nouka",
+      "⛵",
+      "mach dhara nouka"
+    ],
+    [
+      "speedboat",
+      "speedboat",
+      "🚤",
+      "speedboat"
+    ],
+    [
+      "yacht",
+      "yacht",
+      "⛵",
+      "yacht"
+    ],
+    [
+      "canoe",
+      "canoe",
+      "🛶",
+      "canoe"
+    ],
+    [
+      "kayak",
+      "kayak",
+      "🛶",
+      "kayak"
+    ],
+    [
+      "raft",
+      "raft",
+      "🛶",
+      "raft"
+    ],
+    [
+      "paddle boat",
+      "paddle boat",
+      "🛶",
+      "paddle boat"
+    ],
+    [
+      "water taxi",
+      "water taxi",
+      "🚤",
+      "water taxi"
+    ],
+    [
+      "launch",
+      "launch",
+      "🚢",
+      "launch"
+    ],
+    [
+      "hovercraft",
+      "hovercraft",
+      "🚤",
+      "hovercraft"
+    ],
+    [
+      "glider",
+      "glider",
+      "🛩️",
+      "glider"
+    ],
+    [
+      "hot air balloon",
+      "hot air balloon",
+      "🎈",
+      "hot air balloon"
+    ],
+    [
+      "parachute",
+      "parachute",
+      "🪂",
+      "parachute"
+    ],
+    [
+      "skateboard",
+      "skateboard",
+      "🛹",
+      "skateboard"
+    ],
+    [
+      "roller skates",
+      "roller skates",
+      "🛼",
+      "roller skates"
+    ],
+    [
+      "segway",
+      "segway",
+      "🛴",
+      "segway"
+    ],
+    [
+      "unicycle",
+      "unicycle",
+      "🚲",
+      "unicycle"
+    ],
+    [
+      "tricycle",
+      "tricycle",
+      "🚲",
+      "tricycle"
+    ],
+    [
+      "handcart",
+      "hath gari",
+      "🛒",
+      "hath gari"
+    ],
+    [
+      "bullock cart",
+      "goru gari",
+      "🐂",
+      "goru gari"
+    ],
+    [
+      "horse carriage",
+      "ghora gari",
+      "🐴",
+      "ghora gari"
+    ],
+    [
+      "palanquin",
+      "palki",
+      "🛏️",
+      "palki"
+    ],
+    [
+      "sedan",
+      "sedan",
+      "🚗",
+      "sedan"
+    ],
+    [
+      "hatchback",
+      "hatchback",
+      "🚗",
+      "hatchback"
+    ],
+    [
+      "suv",
+      "SUV",
+      "🚙",
+      "suv"
+    ],
+    [
+      "pickup truck",
+      "pickup",
+      "🛻",
+      "pickup"
+    ],
+    [
+      "dump truck",
+      "dump truck",
+      "🚚",
+      "dump truck"
+    ],
+    [
+      "tow truck",
+      "tow truck",
+      "🚛",
+      "tow truck"
+    ],
+    [
+      "garbage truck",
+      "garbage truck",
+      "🚛",
+      "garbage truck"
+    ],
+    [
+      "cement mixer",
+      "cement mixer",
+      "🚛",
+      "cement mixer"
+    ],
+    [
+      "crane truck",
+      "crane",
+      "🏗️",
+      "crane"
+    ],
+    [
+      "bulldozer",
+      "bulldozer",
+      "🚜",
+      "bulldozer"
+    ],
+    [
+      "excavator",
+      "excavator",
+      "🚜",
+      "excavator"
+    ],
+    [
+      "forklift",
+      "forklift",
+      "🏗️",
+      "forklift"
+    ],
+    [
+      "golf cart",
+      "golf cart",
+      "⛳",
+      "golf cart"
+    ],
+    [
+      "snowmobile",
+      "snowmobile",
+      "🛷",
+      "snowmobile"
+    ],
+    [
+      "sled",
+      "sled",
+      "🛷",
+      "sled"
+    ],
+    [
+      "wheelchair",
+      "wheelchair",
+      "♿",
+      "wheelchair"
+    ],
+    [
+      "stroller",
+      "stroller",
+      "👶",
+      "stroller"
+    ],
+    [
+      "shopping cart",
+      "shopping cart",
+      "🛒",
+      "shopping cart"
+    ],
+    [
+      "luggage cart",
+      "luggage cart",
+      "🧳",
+      "luggage cart"
+    ],
+    [
+      "trolley",
+      "trolley",
+      "🛒",
+      "trolley"
+    ],
+    [
+      "dolly",
+      "dolly",
+      "📦",
+      "dolly"
+    ],
+    [
+      "conveyor belt",
+      "conveyor",
+      "🏭",
+      "conveyor"
+    ],
+    [
+      "escalator",
+      "escalator",
+      "🛗",
+      "escalator"
+    ],
+    [
+      "elevator",
+      "elevator",
+      "🛗",
+      "elevator"
+    ],
+    [
+      "moving walkway",
+      "moving walkway",
+      "🚶",
+      "moving walkway"
+    ],
+    [
+      "highway",
+      "highway",
+      "🛣️",
+      "highway"
+    ],
+    [
+      "expressway",
+      "expressway",
+      "🛣️",
+      "expressway"
+    ],
+    [
+      "alley",
+      "goli",
+      "🛣️",
+      "goli"
+    ],
+    [
+      "path",
+      "poth",
+      "🛤️",
+      "poth"
+    ],
+    [
+      "sidewalk",
+      "footpath",
+      "🚶",
+      "footpath"
+    ],
+    [
+      "crosswalk",
+      "crosswalk",
+      "🚸",
+      "crosswalk"
+    ],
+    [
+      "roundabout",
+      "roundabout",
+      "🔄",
+      "roundabout"
+    ],
+    [
+      "intersection",
+      "crossing",
+      "✖️",
+      "crossing"
+    ],
+    [
+      "tunnel",
+      "tunnel",
+      "🚇",
+      "tunnel"
+    ],
+    [
+      "overpass",
+      "overpass",
+      "🛣️",
+      "overpass"
+    ],
+    [
+      "underpass",
+      "underpass",
+      "🛣️",
+      "underpass"
+    ],
+    [
+      "parking lot",
+      "parking",
+      "🅿️",
+      "parking"
+    ],
+    [
+      "garage parking",
+      "garage",
+      "🅿️",
+      "garage"
+    ],
+    [
+      "gas station",
+      "gas station",
+      "⛽",
+      "gas station"
+    ],
+    [
+      "charging station",
+      "charging station",
+      "🔌",
+      "charging station"
+    ],
+    [
+      "toll booth",
+      "toll booth",
+      "💰",
+      "toll booth"
+    ],
+    [
+      "weigh station",
+      "weigh station",
+      "⚖️",
+      "weigh station"
+    ],
+    [
+      "border crossing",
+      "border",
+      "🛃",
+      "border"
+    ],
+    [
+      "customs",
+      "customs",
+      "🛃",
+      "customs"
+    ],
+    [
+      "port",
+      "port",
+      "⚓",
+      "port"
+    ],
+    [
+      "harbor",
+      "harbor",
+      "⚓",
+      "harbor"
+    ],
+    [
+      "dock",
+      "dock",
+      "⚓",
+      "dock"
+    ],
+    [
+      "pier",
+      "pier",
+      "🌊",
+      "pier"
+    ],
+    [
+      "runway",
+      "runway",
+      "🛫",
+      "runway"
+    ],
+    [
+      "control tower",
+      "control tower",
+      "🗼",
+      "control tower"
+    ],
+    [
+      "hangar",
+      "hangar",
+      "🛩️",
+      "hangar"
+    ],
+    [
+      "helipad",
+      "helipad",
+      "🚁",
+      "helipad"
+    ],
+    [
+      "train track",
+      "rail line",
+      "🛤️",
+      "rail line"
+    ],
+    [
+      "railway crossing",
+      "rail crossing",
+      "🚧",
+      "rail crossing"
+    ],
+    [
+      "platform",
+      "platform",
+      "🚉",
+      "platform"
+    ],
+    [
+      "waiting room",
+      "waiting room",
+      "🪑",
+      "waiting room"
+    ],
+    [
+      "departure",
+      "departure",
+      "🛫",
+      "departure"
+    ],
+    [
+      "arrival",
+      "arrival",
+      "🛬",
+      "arrival"
+    ],
+    [
+      "boarding pass",
+      "boarding pass",
+      "🎫",
+      "boarding pass"
+    ],
+    [
+      "passport",
+      "passport",
+      "🛂",
+      "passport"
+    ],
+    [
+      "visa",
+      "visa",
+      "🛂",
+      "visa"
+    ],
+    [
+      "luggage",
+      "luggage",
+      "🧳",
+      "luggage"
+    ],
+    [
+      "suitcase",
+      "suitcase",
+      "🧳",
+      "suitcase"
+    ],
+    [
+      "backpack travel",
+      "travel bag",
+      "🎒",
+      "travel bag"
+    ],
+    [
+      "duffel bag",
+      "duffel bag",
+      "🧳",
+      "duffel bag"
+    ],
+    [
+      "seat belt",
+      "seat belt",
+      "💺",
+      "seat belt"
+    ],
+    [
+      "car seat",
+      "car seat",
+      "💺",
+      "car seat"
+    ],
+    [
+      "dashboard",
+      "dashboard",
+      "🚗",
+      "dashboard"
+    ],
+    [
+      "rearview mirror",
+      "rearview mirror",
+      "🪞",
+      "rearview mirror"
+    ],
+    [
+      "windshield",
+      "windshield",
+      "🚗",
+      "windshield"
+    ],
+    [
+      "wiper",
+      "wiper",
+      "🌧️",
+      "wiper"
+    ],
+    [
+      "headlight",
+      "headlight",
+      "💡",
+      "headlight"
+    ],
+    [
+      "taillight",
+      "taillight",
+      "🔴",
+      "taillight"
+    ],
+    [
+      "turn signal",
+      "turn signal",
+      "↔️",
+      "turn signal"
+    ],
+    [
+      "speedometer",
+      "speedometer",
+      "🏎️",
+      "speedometer"
+    ],
+    [
+      "odometer",
+      "odometer",
+      "📊",
+      "odometer"
+    ],
+    [
+      "gps",
+      "GPS",
+      "🗺️",
+      "gps"
+    ],
+    [
+      "compass",
+      "compass",
+      "🧭",
+      "compass"
+    ],
+    [
+      "life jacket",
+      "life jacket",
+      "🦺",
+      "life jacket"
+    ],
+    [
+      "anchor",
+      "anchor",
+      "⚓",
+      "anchor"
+    ],
+    [
+      "sail",
+      "sail",
+      "⛵",
+      "sail"
+    ],
+    [
+      "paddle",
+      "paddle",
+      "🛶",
+      "paddle"
+    ],
+    [
+      "oar",
+      "oar",
+      "🛶",
+      "oar"
+    ],
+    [
+      "motor",
+      "motor",
+      "⚙️",
+      "motor"
+    ],
+    [
+      "engine",
+      "engine",
+      "⚙️",
+      "engine"
+    ],
+    [
+      "propeller",
+      "propeller",
+      "🌀",
+      "propeller"
+    ],
+    [
+      "jet engine",
+      "jet engine",
+      "✈️",
+      "jet engine"
+    ],
+    [
+      "rocket engine",
+      "rocket engine",
+      "🚀",
+      "rocket engine"
+    ],
+    [
+      "paraglider",
+      "paraglider",
+      "🪂",
+      "paraglider"
+    ],
+    [
+      "hang glider",
+      "hang glider",
+      "🪂",
+      "hang glider"
+    ],
+    [
+      "zip line",
+      "zip line",
+      "🪂",
+      "zip line"
+    ],
+    [
+      "cable car",
+      "cable car",
+      "🚡",
+      "cable car"
+    ],
+    [
+      "funicular",
+      "funicular",
+      "🚞",
+      "funicular"
+    ],
+    [
+      "gondola lift",
+      "gondola",
+      "🚡",
+      "gondola"
+    ],
+    [
+      "rickshaw stand",
+      "rickshaw stand",
+      "🛺",
+      "rickshaw stand"
+    ],
+    [
+      "bus stop",
+      "bus stop",
+      "🚏",
+      "bus stop"
+    ],
+    [
+      "taxi stand",
+      "taxi stand",
+      "🚕",
+      "taxi stand"
+    ],
+    [
+      "bike lane",
+      "bike lane",
+      "🚲",
+      "bike lane"
+    ],
+    [
+      "traffic jam",
+      "jam",
+      "🚗",
+      "jam"
+    ],
+    [
+      "road work",
+      "road work",
+      "🚧",
+      "road work"
+    ],
+    [
+      "detour",
+      "detour",
+      "↪️",
+      "detour"
+    ],
+    [
+      "one way",
+      "one way",
+      "➡️",
+      "one way"
+    ],
+    [
+      "speed limit",
+      "speed limit",
+      "🏎️",
+      "speed limit"
+    ],
+    [
+      "stop sign",
+      "stop sign",
+      "🛑",
+      "stop sign"
+    ],
+    [
+      "yield sign",
+      "yield sign",
+      "⚠️",
+      "yield sign"
+    ],
+    [
+      "pedestrian",
+      "peyde",
+      "🚶",
+      "peyde"
+    ],
+    [
+      "cyclist",
+      "saikelist",
+      "🚴",
+      "saikelist"
+    ],
+    [
+      "motorcyclist",
+      "motorcyclist",
+      "🏍️",
+      "motorcyclist"
+    ]
+  ],
+  "body": [
+    [
+      "palm",
+      "hater talu",
+      "🤚",
+      "hater talu"
+    ],
+    [
+      "fist",
+      "muthi",
+      "✊",
+      "muthi"
+    ],
+    [
+      "knuckle",
+      "knuckle",
+      "👊",
+      "knuckle"
+    ],
+    [
+      "joint",
+      "joint",
+      "🦴",
+      "joint"
+    ],
+    [
+      "muscle",
+      "peshi",
+      "💪",
+      "peshi"
+    ],
+    [
+      "vein",
+      "shira",
+      "🩸",
+      "shira"
+    ],
+    [
+      "artery",
+      "artery",
+      "🩸",
+      "artery"
+    ],
+    [
+      "pulse",
+      "pulse",
+      "💓",
+      "pulse"
+    ],
+    [
+      "skeleton",
+      "kankal",
+      "🦴",
+      "kankal"
+    ],
+    [
+      "rib",
+      "par",
+      "🦴",
+      "par"
+    ],
+    [
+      "spine",
+      "merudand",
+      "🦴",
+      "merudand"
+    ],
+    [
+      "hip",
+      "komor",
+      "🦴",
+      "komor"
+    ],
+    [
+      "thigh",
+      "ur",
+      "🦵",
+      "ur"
+    ],
+    [
+      "shin",
+      "pindili",
+      "🦵",
+      "pindili"
+    ],
+    [
+      "ankle",
+      "golay",
+      "🦶",
+      "golay"
+    ],
+    [
+      "arch",
+      "pay er bhag",
+      "🦶",
+      "pay er bhag"
+    ],
+    [
+      "sole",
+      "pay er talu",
+      "🦶",
+      "pay er talu"
+    ],
+    [
+      "instep",
+      "pay er upor",
+      "🦶",
+      "pay er upor"
+    ],
+    [
+      "knuckle hand",
+      "hater joint",
+      "✊",
+      "hater joint"
+    ],
+    [
+      "cuticle",
+      "nokher base",
+      "💅",
+      "nokher base"
+    ],
+    [
+      "freckle",
+      "freckle",
+      "😊",
+      "freckle"
+    ],
+    [
+      "dimple",
+      "dimple",
+      "😊",
+      "dimple"
+    ],
+    [
+      "wrinkle",
+      "wrinkle",
+      "👴",
+      "wrinkle"
+    ],
+    [
+      "scar",
+      "scar",
+      "🩹",
+      "scar"
+    ],
+    [
+      "bruise",
+      "bruise",
+      "🩹",
+      "bruise"
+    ],
+    [
+      "cut skin",
+      "kata",
+      "🩹",
+      "kata"
+    ],
+    [
+      "burn",
+      "burn",
+      "🔥",
+      "burn"
+    ],
+    [
+      "rash",
+      "rash",
+      "🔴",
+      "rash"
+    ],
+    [
+      "itch",
+      "khujli",
+      "🤚",
+      "khujli"
+    ],
+    [
+      "sweat",
+      "gham",
+      "💦",
+      "gham"
+    ],
+    [
+      "tear",
+      "ashru",
+      "😢",
+      "ashru"
+    ],
+    [
+      "saliva",
+      "lal",
+      "💧",
+      "lal"
+    ],
+    [
+      "mucus",
+      "shleshm",
+      "🤧",
+      "shleshm"
+    ],
+    [
+      "phlegm",
+      "balgam",
+      "🤧",
+      "balgam"
+    ],
+    [
+      "urine",
+      "mutra",
+      "💧",
+      "mutra"
+    ],
+    [
+      "stool",
+      "potty",
+      "💩",
+      "potty"
+    ],
+    [
+      "belly button",
+      "nabhi",
+      "👶",
+      "nabhi"
+    ],
+    [
+      "waist",
+      "komor",
+      "👖",
+      "komor"
+    ],
+    [
+      "torso",
+      "deho",
+      "🧍",
+      "deho"
+    ],
+    [
+      "upper body",
+      "upor deho",
+      "🧍",
+      "upor deho"
+    ],
+    [
+      "lower body",
+      "niche deho",
+      "🧍",
+      "niche deho"
+    ],
+    [
+      "left hand",
+      "bam hat",
+      "🤚",
+      "bam hat"
+    ],
+    [
+      "right hand",
+      "dan hat",
+      "🤚",
+      "dan hat"
+    ],
+    [
+      "left foot",
+      "bam pa",
+      "🦶",
+      "bam pa"
+    ],
+    [
+      "right foot",
+      "dan pa",
+      "🦶",
+      "dan pa"
+    ],
+    [
+      "index finger",
+      "tarjani",
+      "☝️",
+      "tarjani"
+    ],
+    [
+      "middle finger",
+      "madhyama",
+      "🖕",
+      "madhyama"
+    ],
+    [
+      "ring finger",
+      "anamika",
+      "💍",
+      "anamika"
+    ],
+    [
+      "pinky finger",
+      "kanistha",
+      "🤙",
+      "kanistha"
+    ],
+    [
+      "big toe",
+      "baro angul",
+      "🦶",
+      "baro angul"
+    ],
+    [
+      "little toe",
+      "chhoto angul",
+      "🦶",
+      "chhoto angul"
+    ],
+    [
+      "eyelid",
+      "chokher palok",
+      "👁️",
+      "chokher palok"
+    ],
+    [
+      "pupil",
+      "chokher putul",
+      "👁️",
+      "chokher putul"
+    ],
+    [
+      "iris",
+      "iris",
+      "👁️",
+      "iris"
+    ],
+    [
+      "retina",
+      "retina",
+      "👁️",
+      "retina"
+    ],
+    [
+      "cornea",
+      "cornea",
+      "👁️",
+      "cornea"
+    ],
+    [
+      "tear duct",
+      "ashru nali",
+      "😢",
+      "ashru nali"
+    ],
+    [
+      "earlobe",
+      "kaner lata",
+      "👂",
+      "kaner lata"
+    ],
+    [
+      "eardrum",
+      "kaner pata",
+      "👂",
+      "kaner pata"
+    ],
+    [
+      "nostril",
+      "nak er ched",
+      "👃",
+      "nak er ched"
+    ],
+    [
+      "sinus",
+      "sinus",
+      "👃",
+      "sinus"
+    ],
+    [
+      "palate",
+      "talu",
+      "👄",
+      "talu"
+    ],
+    [
+      "gum",
+      "masuda",
+      "🦷",
+      "masuda"
+    ],
+    [
+      "wisdom tooth",
+      "girja dat",
+      "🦷",
+      "girja dat"
+    ],
+    [
+      "baby tooth",
+      "shishu dat",
+      "🦷",
+      "shishu dat"
+    ],
+    [
+      "uvula",
+      "uvula",
+      "👅",
+      "uvula"
+    ],
+    [
+      "tonsil",
+      "tonsil",
+      "😷",
+      "tonsil"
+    ],
+    [
+      "adam apple",
+      "kanthas",
+      "🗣️",
+      "kanthas"
+    ],
+    [
+      "larynx",
+      "sworashuli",
+      "🗣️",
+      "sworashuli"
+    ],
+    [
+      "trachea",
+      "shwasnali",
+      "💨",
+      "shwasnali"
+    ],
+    [
+      "lung",
+      "phusphus",
+      "🫁",
+      "phusphus"
+    ],
+    [
+      "kidney",
+      "kukshi",
+      "🫘",
+      "kukshi"
+    ],
+    [
+      "liver",
+      "jigar",
+      "🫀",
+      "jigar"
+    ],
+    [
+      "intestine",
+      "antro",
+      "🫃",
+      "antro"
+    ],
+    [
+      "bladder",
+      "mutrashay",
+      "💧",
+      "mutrashay"
+    ],
+    [
+      "pancreas",
+      "pancreas",
+      "🫃",
+      "pancreas"
+    ],
+    [
+      "spleen",
+      "pleeha",
+      "🫃",
+      "pleeha"
+    ],
+    [
+      "immune system",
+      "rogg pratirodk",
+      "🛡️",
+      "rogg pratirodk"
+    ],
+    [
+      "nerve",
+      "shira",
+      "⚡",
+      "shira"
+    ],
+    [
+      "reflex",
+      "reflex",
+      "⚡",
+      "reflex"
+    ],
+    [
+      "instinct",
+      "shahoj instinct",
+      "🧠",
+      "instinct"
+    ],
+    [
+      "memory",
+      "smriti",
+      "🧠",
+      "smriti"
+    ],
+    [
+      "thought",
+      "chinta",
+      "💭",
+      "chinta"
+    ],
+    [
+      "sense",
+      "indriyo",
+      "👃",
+      "indriyo"
+    ],
+    [
+      "sight",
+      "drishti",
+      "👁️",
+      "drishti"
+    ],
+    [
+      "hearing",
+      "shroban",
+      "👂",
+      "shroban"
+    ],
+    [
+      "smell sense",
+      "ghran",
+      "👃",
+      "ghran"
+    ],
+    [
+      "taste sense",
+      "swad",
+      "👅",
+      "swad"
+    ],
+    [
+      "touch sense",
+      "sporsho",
+      "🤚",
+      "sporsho"
+    ],
+    [
+      "balance sense",
+      "bharsamyo",
+      "⚖️",
+      "bharsamyo"
+    ],
+    [
+      "posture",
+      "abosthan",
+      "🧍",
+      "abosthan"
+    ],
+    [
+      "gesture",
+      "ishara",
+      "👋",
+      "ishara"
+    ],
+    [
+      "expression",
+      "abhibyakti",
+      "😊",
+      "abhibyakti"
+    ],
+    [
+      "body language",
+      "dehor bhasha",
+      "🧍",
+      "dehor bhasha"
+    ],
+    [
+      "health",
+      "shustho",
+      "💪",
+      "shustho"
+    ],
+    [
+      "fitness",
+      "fitness",
+      "🏋️",
+      "fitness"
+    ],
+    [
+      "strength",
+      "shakti",
+      "💪",
+      "shakti"
+    ],
+    [
+      "energy",
+      "shakti",
+      "⚡",
+      "shakti"
+    ],
+    [
+      "growth",
+      "brihhi",
+      "📈",
+      "brihhi"
+    ],
+    [
+      "height growth",
+      "uchai",
+      "📏",
+      "uchai"
+    ],
+    [
+      "weight",
+      "vajan",
+      "⚖️",
+      "vajan"
+    ]
+  ],
+  "feelings": [
+    [
+      "nervous",
+      "nervous",
+      "😰",
+      "nervous"
+    ],
+    [
+      "anxious",
+      "chintito",
+      "😰",
+      "chintito"
+    ],
+    [
+      "stressed",
+      "stress",
+      "😫",
+      "stress"
+    ],
+    [
+      "relaxed",
+      "aram",
+      "😌",
+      "aram"
+    ],
+    [
+      "peaceful",
+      "shanti",
+      "☮️",
+      "peaceful"
+    ],
+    [
+      "content",
+      "santushto",
+      "😊",
+      "santushto"
+    ],
+    [
+      "pleased",
+      "khushi",
+      "😊",
+      "khushi"
+    ],
+    [
+      "delighted",
+      "khushi",
+      "😄",
+      "khushi"
+    ],
+    [
+      "joyful",
+      "anondo",
+      "😄",
+      "anondo"
+    ],
+    [
+      "cheerful",
+      "khushi",
+      "😊",
+      "cheerful"
+    ],
+    [
+      "gleeful",
+      "khushi",
+      "😆",
+      "gleeful"
+    ],
+    [
+      "merry",
+      "khushi",
+      "🎄",
+      "merry"
+    ],
+    [
+      "optimistic",
+      "optimistic",
+      "🌞",
+      "optimistic"
+    ],
+    [
+      "hopeless",
+      "ashah",
+      "😞",
+      "ashah"
+    ],
+    [
+      "hopeless feeling",
+      "nirash",
+      "😞",
+      "nirash"
+    ],
+    [
+      "discouraged",
+      "hataash",
+      "😞",
+      "discouraged"
+    ],
+    [
+      "disappointed",
+      "hataash",
+      "😞",
+      "disappointed"
+    ],
+    [
+      "frustrated",
+      "hataash",
+      "😤",
+      "frustrated"
+    ],
+    [
+      "annoyed",
+      "birokto",
+      "😒",
+      "birokto"
+    ],
+    [
+      "irritated",
+      "birokto",
+      "😠",
+      "irritated"
+    ],
+    [
+      "furious",
+      "roge",
+      "😡",
+      "roge"
+    ],
+    [
+      "rage",
+      "roge",
+      "🤬",
+      "rage"
+    ],
+    [
+      "mad",
+      "pagol",
+      "😡",
+      "mad"
+    ],
+    [
+      "upset",
+      "dukkho",
+      "😢",
+      "dukkho"
+    ],
+    [
+      "heartbroken",
+      "bhangapran",
+      "💔",
+      "bhangapran"
+    ],
+    [
+      "miserable",
+      "dukkho",
+      "😢",
+      "miserable"
+    ],
+    [
+      "gloomy",
+      "dukkho",
+      "😔",
+      "gloomy"
+    ],
+    [
+      "depressed",
+      "dukkho",
+      "😞",
+      "depressed"
+    ],
+    [
+      "melancholy",
+      "dukkho",
+      "😔",
+      "melancholy"
+    ],
+    [
+      "homesick",
+      "ghor er shad",
+      "🏠",
+      "ghor er shad"
+    ],
+    [
+      "nostalgic",
+      "nostalgic",
+      "🕰️",
+      "nostalgic"
+    ],
+    [
+      "sentimental",
+      "anubhutipurno",
+      "💭",
+      "anubhutipurno"
+    ],
+    [
+      "touched",
+      "anubhuto",
+      "🥹",
+      "anubhuto"
+    ],
+    [
+      "moved",
+      "anubhuto",
+      "🥹",
+      "moved"
+    ],
+    [
+      "grateful feeling",
+      "kritoggo",
+      "🙏",
+      "kritoggo"
+    ],
+    [
+      "thankful",
+      "dhonnobad",
+      "🙏",
+      "thankful"
+    ],
+    [
+      "appreciative",
+      "kritoggo",
+      "🙏",
+      "appreciative"
+    ],
+    [
+      "respectful",
+      "shroddha",
+      "🙏",
+      "shroddha"
+    ],
+    [
+      "admiring",
+      "proshongsha",
+      "😍",
+      "proshongsha"
+    ],
+    [
+      "inspired",
+      "utshahito",
+      "✨",
+      "utshahito"
+    ],
+    [
+      "motivated",
+      "utshahito",
+      "💪",
+      "motivated"
+    ],
+    [
+      "determined",
+      "proti",
+      "💪",
+      "proti"
+    ],
+    [
+      "focused",
+      "monojog",
+      "🎯",
+      "monojog"
+    ],
+    [
+      "distracted",
+      "bikkhisto",
+      "😵",
+      "bikkhisto"
+    ],
+    [
+      "overwhelmed",
+      "bikkhisto",
+      "😵",
+      "overwhelmed"
+    ],
+    [
+      "exhausted",
+      "klanto",
+      "😩",
+      "klanto"
+    ],
+    [
+      "drained",
+      "klanto",
+      "🪫",
+      "drained"
+    ],
+    [
+      "refreshed",
+      "taja",
+      "😊",
+      "taja"
+    ],
+    [
+      "energetic",
+      "urjoshil",
+      "⚡",
+      "urjoshil"
+    ],
+    [
+      "lazy",
+      "alshe",
+      "😴",
+      "alshe"
+    ],
+    [
+      "motivated lazy",
+      "alshe",
+      "🦥",
+      "alshe"
+    ],
+    [
+      "active",
+      "kormoshil",
+      "🏃",
+      "kormoshil"
+    ],
+    [
+      "restless",
+      "chanchal",
+      "😬",
+      "chanchal"
+    ],
+    [
+      "patient",
+      "dhairyo",
+      "🧘",
+      "dhairyo"
+    ],
+    [
+      "impatient",
+      "oshanto",
+      "😤",
+      "oshanto"
+    ],
+    [
+      "curious",
+      "koutuhol",
+      "🤔",
+      "koutuhol"
+    ],
+    [
+      "interested",
+      "agrohi",
+      "👀",
+      "agrohi"
+    ],
+    [
+      "bored feeling",
+      "bored",
+      "😑",
+      "bored"
+    ],
+    [
+      "amused",
+      "moja",
+      "😄",
+      "amused"
+    ],
+    [
+      "entertained",
+      "moja",
+      "🎭",
+      "entertained"
+    ],
+    [
+      "playful",
+      "khelar moto",
+      "😜",
+      "khelar moto"
+    ],
+    [
+      "mischievous",
+      "dushtu",
+      "😈",
+      "dushtu"
+    ],
+    [
+      "naughty",
+      "dushtu",
+      "😈",
+      "naughty"
+    ],
+    [
+      "guilty",
+      "doshi",
+      "😔",
+      "doshi"
+    ],
+    [
+      "ashamed",
+      "lojja",
+      "😳",
+      "lojja"
+    ],
+    [
+      "embarrassed",
+      "lojja",
+      "😳",
+      "embarrassed"
+    ],
+    [
+      "regretful",
+      "doshi",
+      "😔",
+      "regretful"
+    ],
+    [
+      "remorseful",
+      "doshi",
+      "😔",
+      "remorseful"
+    ],
+    [
+      "forgiving",
+      "khoma",
+      "🤝",
+      "khoma"
+    ],
+    [
+      "trusting",
+      "bishwash",
+      "🤝",
+      "trusting"
+    ],
+    [
+      "suspicious",
+      "shondeh",
+      "🤨",
+      "shondeh"
+    ],
+    [
+      "doubtful",
+      "shondeh",
+      "🤔",
+      "doubtful"
+    ],
+    [
+      "certain",
+      "nishchit",
+      "✅",
+      "nishchit"
+    ],
+    [
+      "uncertain",
+      "onishchit",
+      "❓",
+      "onishchit"
+    ],
+    [
+      "confident",
+      "bishwasi",
+      "💪",
+      "bishwasi"
+    ],
+    [
+      "insecure",
+      "onishchit",
+      "😟",
+      "insecure"
+    ],
+    [
+      "proud feeling",
+      "gorbito",
+      "😌",
+      "gorbito"
+    ],
+    [
+      "humble",
+      "onmodro",
+      "🙏",
+      "onmodro"
+    ],
+    [
+      "generous",
+      "udar",
+      "🎁",
+      "udar"
+    ],
+    [
+      "selfish",
+      "swarthi",
+      "😒",
+      "swarthi"
+    ],
+    [
+      "caring",
+      "dayalu",
+      "🤗",
+      "dayalu"
+    ],
+    [
+      "loving feeling",
+      "bhalobasha",
+      "❤️",
+      "bhalobasha"
+    ],
+    [
+      "affectionate",
+      "snehomoy",
+      "🥰",
+      "snehomoy"
+    ],
+    [
+      "romantic",
+      "premik",
+      "💕",
+      "premik"
+    ],
+    [
+      "friendly",
+      "bondhu",
+      "🤝",
+      "bondhu"
+    ],
+    [
+      "hostile",
+      "shotru",
+      "😠",
+      "hostile"
+    ],
+    [
+      "peaceful mind",
+      "shanti",
+      "☮️",
+      "shanti"
+    ],
+    [
+      "mindful",
+      "monojog",
+      "🧘",
+      "monojog"
+    ],
+    [
+      "carefree",
+      "chinta mukt",
+      "😊",
+      "chinta mukt"
+    ],
+    [
+      "careful",
+      "savdhan",
+      "⚠️",
+      "savdhan"
+    ],
+    [
+      "cautious",
+      "savdhan",
+      "⚠️",
+      "cautious"
+    ],
+    [
+      "alert",
+      "sachetan",
+      "👀",
+      "sachetan"
+    ],
+    [
+      "sleepy feeling",
+      "ghum ghum",
+      "😴",
+      "ghum ghum"
+    ],
+    [
+      "awake",
+      "jagroto",
+      "👀",
+      "jagroto"
+    ],
+    [
+      "dizzy",
+      "ghum ghum",
+      "😵",
+      "ghum ghum"
+    ],
+    [
+      "faint",
+      "murtyu prox",
+      "😵",
+      "faint"
+    ],
+    [
+      "strong feeling",
+      "shakti",
+      "💪",
+      "shakti"
+    ],
+    [
+      "weak feeling",
+      "durbol",
+      "😓",
+      "durbol"
+    ],
+    [
+      "healthy feeling",
+      "shustho",
+      "💪",
+      "healthy"
+    ],
+    [
+      "unwell",
+      "oshustho",
+      "🤒",
+      "unwell"
+    ],
+    [
+      "feverish",
+      "jor",
+      "🤒",
+      "feverish"
+    ],
+    [
+      "chilly",
+      "thanda",
+      "🥶",
+      "chilly"
+    ],
+    [
+      "warm feeling",
+      "gorom",
+      "🥵",
+      "warm"
+    ],
+    [
+      "cozy",
+      "aramdayok",
+      "🛋️",
+      "cozy"
+    ],
+    [
+      "uncomfortable",
+      "oshohoj",
+      "😣",
+      "uncomfortable"
+    ],
+    [
+      "comfortable",
+      "aramdayok",
+      "😌",
+      "comfortable"
+    ],
+    [
+      "safe feeling",
+      "nirapod",
+      "🛡️",
+      "safe"
+    ],
+    [
+      "unsafe",
+      "bipod",
+      "⚠️",
+      "unsafe"
+    ],
+    [
+      "free feeling",
+      "mukt",
+      "🕊️",
+      "mukt"
+    ],
+    [
+      "trapped",
+      "bondi",
+      "🔒",
+      "bondi"
+    ],
+    [
+      "lucky",
+      "bhagyoban",
+      "🍀",
+      "bhagyoban"
+    ],
+    [
+      "unlucky",
+      "bhagyohin",
+      "😞",
+      "unlucky"
+    ],
+    [
+      "surprised feeling",
+      "obak",
+      "😲",
+      "obak"
+    ],
+    [
+      "shocked",
+      "obak",
+      "😱",
+      "shocked"
+    ],
+    [
+      "amazed",
+      "obak",
+      "🤩",
+      "amazed"
+    ],
+    [
+      "astonished",
+      "obak",
+      "😲",
+      "astonished"
+    ],
+    [
+      "confused feeling",
+      "bibhranto",
+      "😕",
+      "bibhranto"
+    ],
+    [
+      "clear minded",
+      "porishkar",
+      "💡",
+      "clear minded"
+    ],
+    [
+      "foggy mind",
+      "dhundhla",
+      "🌫️",
+      "foggy"
+    ],
+    [
+      "creative",
+      "srijonshil",
+      "🎨",
+      "srijonshil"
+    ],
+    [
+      "artistic",
+      "shilpi",
+      "🎨",
+      "artistic"
+    ],
+    [
+      "musical",
+      "sangitik",
+      "🎵",
+      "musical"
+    ]
+  ],
+  "mathematics": [
+    [
+      "hexagon",
+      "shohobhuj",
+      "⬡",
+      "shohobhuj"
+    ],
+    [
+      "pentagon",
+      "ponchobhuj",
+      "⬠",
+      "ponchobhuj"
+    ],
+    [
+      "octagon",
+      "ashtobhuj",
+      "⛔",
+      "ashtobhuj"
+    ],
+    [
+      "diamond shape",
+      "hira",
+      "💎",
+      "hira"
+    ],
+    [
+      "heart shape",
+      "hiya akriti",
+      "❤️",
+      "hiya akriti"
+    ],
+    [
+      "cross shape",
+      "cross akriti",
+      "✝️",
+      "cross akriti"
+    ],
+    [
+      "cube",
+      "ghon",
+      "🧊",
+      "ghon"
+    ],
+    [
+      "sphere",
+      "golok",
+      "⚽",
+      "golok"
+    ],
+    [
+      "cylinder",
+      "belan",
+      "🛢️",
+      "belan"
+    ],
+    [
+      "cone",
+      "shanku",
+      "🔺",
+      "shanku"
+    ],
+    [
+      "pyramid",
+      "piramid",
+      "🔺",
+      "piramid"
+    ],
+    [
+      "prism",
+      "prism",
+      "🔷",
+      "prism"
+    ],
+    [
+      "parallel",
+      "samantoral",
+      "∥",
+      "samantoral"
+    ],
+    [
+      "perpendicular",
+      "lomb",
+      "⊥",
+      "lomb"
+    ],
+    [
+      "straight line",
+      "shoja rekha",
+      "📏",
+      "shoja rekha"
+    ],
+    [
+      "curved line",
+      "ban rekha",
+      "〰️",
+      "ban rekha"
+    ],
+    [
+      "corner",
+      "kon",
+      "📐",
+      "kon"
+    ],
+    [
+      "edge",
+      "prant",
+      "📐",
+      "prant"
+    ],
+    [
+      "side",
+      "pash",
+      "📐",
+      "pash"
+    ],
+    [
+      "face shape",
+      "mukh akriti",
+      "⬜",
+      "mukh akriti"
+    ],
+    [
+      "surface",
+      "pristho",
+      "⬜",
+      "pristho"
+    ],
+    [
+      "inside",
+      "bhitore",
+      "📦",
+      "bhitore"
+    ],
+    [
+      "outside",
+      "bhaire",
+      "📦",
+      "bhaire"
+    ],
+    [
+      "between",
+      "majhe",
+      "↔️",
+      "majhe"
+    ],
+    [
+      "middle",
+      "moddhe",
+      "🎯",
+      "moddhe"
+    ],
+    [
+      "next to",
+      "pashe",
+      "↔️",
+      "pashe"
+    ],
+    [
+      "above",
+      "upore",
+      "⬆️",
+      "upore"
+    ],
+    [
+      "below",
+      "niche",
+      "⬇️",
+      "niche"
+    ],
+    [
+      "left side",
+      "bam",
+      "⬅️",
+      "bam"
+    ],
+    [
+      "right side",
+      "dan",
+      "➡️",
+      "dan"
+    ],
+    [
+      "forward",
+      "agiye",
+      "➡️",
+      "agiye"
+    ],
+    [
+      "backward",
+      "pichone",
+      "⬅️",
+      "pichone"
+    ],
+    [
+      "upward",
+      "upore",
+      "⬆️",
+      "upward"
+    ],
+    [
+      "downward",
+      "niche",
+      "⬇️",
+      "downward"
+    ],
+    [
+      "clockwise",
+      "ghorier dik",
+      "🔄",
+      "ghorier dik"
+    ],
+    [
+      "counterclockwise",
+      "ulto dik",
+      "🔃",
+      "ulto dik"
+    ],
+    [
+      "heavy",
+      "bhari",
+      "🏋️",
+      "bhari"
+    ],
+    [
+      "light weight",
+      "halka",
+      "🪶",
+      "halka"
+    ],
+    [
+      "empty",
+      "khali",
+      "⬜",
+      "khali"
+    ],
+    [
+      "full amount",
+      "purno",
+      "⬛",
+      "purno"
+    ],
+    [
+      "double amount",
+      "dugun",
+      "✖️2",
+      "dugun"
+    ],
+    [
+      "triple amount",
+      "tigun",
+      "✖️3",
+      "tigun"
+    ],
+    [
+      "sort items",
+      "sajano",
+      "📊",
+      "sajano"
+    ],
+    [
+      "order items",
+      "krom",
+      "📊",
+      "krom"
+    ],
+    [
+      "match pairs",
+      "jora",
+      "👯",
+      "jora"
+    ],
+    [
+      "compare sizes",
+      "tulona",
+      "⚖️",
+      "tulona"
+    ],
+    [
+      "estimate",
+      "anuman",
+      "🤔",
+      "anuman"
+    ],
+    [
+      "exactly",
+      "thik",
+      "🎯",
+      "thik"
+    ],
+    [
+      "approximately",
+      "praye",
+      "≈",
+      "praye"
+    ],
+    [
+      "abacus",
+      "abacus",
+      "🧮",
+      "abacus"
+    ],
+    [
+      "calculator",
+      "calculator",
+      "🧮",
+      "calculator"
+    ],
+    [
+      "digit symbol",
+      "songkha chinho",
+      "#️⃣",
+      "songkha chinho"
+    ],
+    [
+      "fraction part",
+      "bhag",
+      "½",
+      "bhag"
+    ],
+    [
+      "decimal point",
+      "doshomik",
+      ".",
+      "doshomik"
+    ],
+    [
+      "percent",
+      "shatangsho",
+      "%",
+      "shatangsho"
+    ],
+    [
+      "ratio",
+      "anupat",
+      "∶",
+      "anupat"
+    ],
+    [
+      "proportion",
+      "samopat",
+      "⚖️",
+      "samopat"
+    ],
+    [
+      "symmetry",
+      "sammmito",
+      "🪞",
+      "sammmito"
+    ],
+    [
+      "grid",
+      "grid",
+      "▦",
+      "grid"
+    ],
+    [
+      "row",
+      "sor",
+      "➡️",
+      "sor"
+    ],
+    [
+      "column",
+      "stambho",
+      "⬇️",
+      "stambho"
+    ],
+    [
+      "block tower",
+      "block",
+      "🧱",
+      "block"
+    ],
+    [
+      "building blocks",
+      "block",
+      "🧱",
+      "block"
+    ],
+    [
+      "set of items",
+      "set",
+      "📦",
+      "set"
+    ],
+    [
+      "collection",
+      "songroho",
+      "📦",
+      "collection"
+    ],
+    [
+      "graph chart",
+      "graph",
+      "📊",
+      "graph"
+    ],
+    [
+      "bar chart",
+      "bar chart",
+      "📊",
+      "bar chart"
+    ],
+    [
+      "pie chart",
+      "pie chart",
+      "🥧",
+      "pie chart"
+    ],
+    [
+      "data",
+      "data",
+      "📊",
+      "data"
+    ],
+    [
+      "calendar math",
+      "calendar",
+      "📅",
+      "calendar"
+    ],
+    [
+      "clock time",
+      "somoy",
+      "🕐",
+      "somoy"
+    ],
+    [
+      "hour hand",
+      "ghonta",
+      "🕐",
+      "ghonta"
+    ],
+    [
+      "minute hand",
+      "mini",
+      "🕐",
+      "mini"
+    ],
+    [
+      "second hand",
+      "sec",
+      "🕐",
+      "sec"
+    ],
+    [
+      "timer",
+      "timer",
+      "⏱️",
+      "timer"
+    ],
+    [
+      "stopwatch",
+      "stopwatch",
+      "⏱️",
+      "stopwatch"
+    ],
+    [
+      "centimeter",
+      "sentimitar",
+      "📏",
+      "sentimitar"
+    ],
+    [
+      "meter unit",
+      "mitar",
+      "📏",
+      "mitar"
+    ],
+    [
+      "kilometer",
+      "kilomitarmitar",
+      "📏",
+      "kilomitar"
+    ],
+    [
+      "gram",
+      "gram",
+      "⚖️",
+      "gram"
+    ],
+    [
+      "kilogram",
+      "kilogram",
+      "⚖️",
+      "kilogram"
+    ],
+    [
+      "liter",
+      "liter",
+      "🫗",
+      "liter"
+    ],
+    [
+      "cup measure",
+      "kap map",
+      "☕",
+      "kap map"
+    ],
+    [
+      "spoon measure",
+      "chamoch map",
+      "🥄",
+      "chamoch map"
+    ],
+    [
+      "big number idea",
+      "boro songkha",
+      "📈",
+      "boro songkha"
+    ],
+    [
+      "small number idea",
+      "chhoto songkha",
+      "📉",
+      "chhoto songkha"
+    ],
+    [
+      "long object",
+      "lamba",
+      "📏",
+      "lamba"
+    ],
+    [
+      "short object",
+      "chhoto",
+      "📏",
+      "chhoto"
+    ],
+    [
+      "tall object",
+      "lomba",
+      "📏",
+      "lomba"
+    ],
+    [
+      "wide object",
+      "proshosto",
+      "↔️",
+      "proshosto"
+    ],
+    [
+      "narrow object",
+      "sankuchito",
+      "↔️",
+      "sankuchito"
+    ],
+    [
+      "thick object",
+      "mot",
+      "📏",
+      "mot"
+    ],
+    [
+      "thin object",
+      "patla",
+      "📏",
+      "patla"
+    ],
+    [
+      "deep",
+      "gobhir",
+      "🕳️",
+      "gobhir"
+    ],
+    [
+      "shallow",
+      "ohalpo",
+      "🕳️",
+      "ohalpo"
+    ],
+    [
+      "near",
+      "kache",
+      "📍",
+      "kache"
+    ],
+    [
+      "far",
+      "dure",
+      "📍",
+      "dure"
+    ],
+    [
+      "close together",
+      "kache kache",
+      "🤏",
+      "kache kache"
+    ],
+    [
+      "far apart",
+      "dure dure",
+      "↔️",
+      "dure dure"
+    ],
+    [
+      "overlap",
+      "overlap",
+      "🔲",
+      "overlap"
+    ],
+    [
+      "connect dots",
+      "bindu jog",
+      "⚫",
+      "bindu jog"
+    ],
+    [
+      "trace shape",
+      "akriti anukoron",
+      "✏️",
+      "akriti anukoron"
+    ],
+    [
+      "draw shape",
+      "akriti aka",
+      "✏️",
+      "akriti aka"
+    ],
+    [
+      "cut shape",
+      "akriti kata",
+      "✂️",
+      "akriti kata"
+    ],
+    [
+      "fold shape",
+      "akriti bhaj",
+      "📄",
+      "akriti bhaj"
+    ],
+    [
+      "flip shape",
+      "ultano",
+      "🔄",
+      "ultano"
+    ],
+    [
+      "rotate shape",
+      "ghurano",
+      "🔄",
+      "ghurano"
+    ],
+    [
+      "slide shape",
+      "slide",
+      "➡️",
+      "slide"
+    ],
+    [
+      "stack blocks",
+      "stack",
+      "📚",
+      "stack"
+    ],
+    [
+      "balance scale",
+      "tarajui",
+      "⚖️",
+      "tarajui"
+    ],
+    [
+      "weigh objects",
+      "ojon",
+      "⚖️",
+      "ojon"
+    ],
+    [
+      "count objects",
+      "gonona",
+      "🔢",
+      "gonona"
+    ],
+    [
+      "math puzzle",
+      "math puzzle",
+      "🧩",
+      "math puzzle"
+    ],
+    [
+      "math game",
+      "math khela",
+      "🎲",
+      "math khela"
+    ],
+    [
+      "math book",
+      "gonit boi",
+      "📘",
+      "gonit boi"
+    ],
+    [
+      "math class",
+      "gonit class",
+      "🏫",
+      "gonit class"
+    ],
+    [
+      "math teacher",
+      "gonit shikkhok",
+      "👩‍🏫",
+      "gonit shikkhok"
+    ],
+    [
+      "math homework",
+      "gonit homework",
+      "📝",
+      "gonit homework"
+    ],
+    [
+      "math test",
+      "gonit poriksha",
+      "📝",
+      "gonit poriksha"
+    ],
+    [
+      "math star",
+      "gonit star",
+      "⭐",
+      "gonit star"
+    ]
+  ]
+}

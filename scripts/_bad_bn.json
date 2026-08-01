@@ -1,0 +1,6158 @@
+[
+  {
+    "cat": "animals",
+    "en": "python snake",
+    "bn": "ajgar",
+    "roman": "ajogor"
+  },
+  {
+    "cat": "animals",
+    "en": "cobra snake",
+    "bn": "cobra",
+    "roman": "kobra"
+  },
+  {
+    "cat": "animals",
+    "en": "dragonfly",
+    "bn": "dragonfly",
+    "roman": "dragonfly"
+  },
+  {
+    "cat": "animals",
+    "en": "moth",
+    "bn": "moth",
+    "roman": "moth"
+  },
+  {
+    "cat": "animals",
+    "en": "caterpillar",
+    "bn": "caterpillar",
+    "roman": "caterpillar"
+  },
+  {
+    "cat": "animals",
+    "en": "snail",
+    "bn": "snail",
+    "roman": "shamuk"
+  },
+  {
+    "cat": "animals",
+    "en": "scorpion",
+    "bn": "scorpion",
+    "roman": "bichhi"
+  },
+  {
+    "cat": "animals",
+    "en": "ladybug",
+    "bn": "ladybug",
+    "roman": "guruhipokkh"
+  },
+  {
+    "cat": "animals",
+    "en": "firefly",
+    "bn": "firefly",
+    "roman": "jonaki"
+  },
+  {
+    "cat": "animals",
+    "en": "wasp",
+    "bn": "wasp",
+    "roman": "bhoral"
+  },
+  {
+    "cat": "animals",
+    "en": "hornet",
+    "bn": "hornet",
+    "roman": "bhoral"
+  },
+  {
+    "cat": "animals",
+    "en": "tadpole",
+    "bn": "tadpole",
+    "roman": "tadpole"
+  },
+  {
+    "cat": "animals",
+    "en": "silkworm",
+    "bn": "resham poka",
+    "roman": "resham poka"
+  },
+  {
+    "cat": "animals",
+    "en": "earthworm",
+    "bn": "krmo",
+    "roman": "kencho"
+  },
+  {
+    "cat": "animals",
+    "en": "leech",
+    "bn": "jok",
+    "roman": "jok"
+  },
+  {
+    "cat": "animals",
+    "en": "sea lion",
+    "bn": "sea lion",
+    "roman": "si layon"
+  },
+  {
+    "cat": "animals",
+    "en": "platypus",
+    "bn": "platypus",
+    "roman": "platipus"
+  },
+  {
+    "cat": "animals",
+    "en": "lemur",
+    "bn": "lemur",
+    "roman": "lemur"
+  },
+  {
+    "cat": "animals",
+    "en": "gibbon",
+    "bn": "gibbon",
+    "roman": "gibbon"
+  },
+  {
+    "cat": "animals",
+    "en": "orangutan",
+    "bn": "orangutan",
+    "roman": "orangutan"
+  },
+  {
+    "cat": "animals",
+    "en": "chimpanzee",
+    "bn": "chimpanzee",
+    "roman": "chimpanji"
+  },
+  {
+    "cat": "animals",
+    "en": "gorilla",
+    "bn": "gorilla",
+    "roman": "gorila"
+  },
+  {
+    "cat": "animals",
+    "en": "baboon",
+    "bn": "baboon",
+    "roman": "babun"
+  },
+  {
+    "cat": "animals",
+    "en": "pangolin",
+    "bn": "bonrui",
+    "roman": "bonrui"
+  },
+  {
+    "cat": "animals",
+    "en": "nightingale",
+    "bn": "bulbuli",
+    "roman": "bulbuli"
+  },
+  {
+    "cat": "animals",
+    "en": "lovebird",
+    "bn": "prem pakhi",
+    "roman": "prem pakhi"
+  },
+  {
+    "cat": "animals",
+    "en": "parakeet",
+    "bn": "tiya pakhi",
+    "roman": "tiya pakhi"
+  },
+  {
+    "cat": "animals",
+    "en": "blue jay",
+    "bn": "nil kak",
+    "roman": "nil kak"
+  },
+  {
+    "cat": "animals",
+    "en": "wren",
+    "bn": "titti",
+    "roman": "titti"
+  },
+  {
+    "cat": "animals",
+    "en": "thrush",
+    "bn": "doel",
+    "roman": "doel"
+  },
+  {
+    "cat": "animals",
+    "en": "barbet bird",
+    "bn": "basantaraj",
+    "roman": "basantaraj"
+  },
+  {
+    "cat": "animals",
+    "en": "roller bird",
+    "bn": "nilkantho",
+    "roman": "nilkantho"
+  },
+  {
+    "cat": "animals",
+    "en": "sunbird",
+    "bn": "moutusi",
+    "roman": "moutusi"
+  },
+  {
+    "cat": "animals",
+    "en": "sandpiper",
+    "bn": "bela pakhi",
+    "roman": "bela pakhi"
+  },
+  {
+    "cat": "animals",
+    "en": "tern bird",
+    "bn": "samudrik pakhi",
+    "roman": "samudrik pakhi"
+  },
+  {
+    "cat": "animals",
+    "en": "cormorant",
+    "bn": "pankowri",
+    "roman": "pankowri"
+  },
+  {
+    "cat": "animals",
+    "en": "sand crab",
+    "bn": "kakra",
+    "roman": "kakra"
+  },
+  {
+    "cat": "animals",
+    "en": "hermit crab",
+    "bn": "hermit kakra",
+    "roman": "hermit kakra"
+  },
+  {
+    "cat": "animals",
+    "en": "porpoise",
+    "bn": "porpoise",
+    "roman": "porpois"
+  },
+  {
+    "cat": "animals",
+    "en": "manatee",
+    "bn": "manatee",
+    "roman": "manati"
+  },
+  {
+    "cat": "animals",
+    "en": "beluga whale",
+    "bn": "beluga timi",
+    "roman": "beluga timi"
+  },
+  {
+    "cat": "animals",
+    "en": "blue whale",
+    "bn": "nil timi",
+    "roman": "nil timi"
+  },
+  {
+    "cat": "animals",
+    "en": "swordfish",
+    "bn": "toyar machh",
+    "roman": "toyar machh"
+  },
+  {
+    "cat": "animals",
+    "en": "marlin",
+    "bn": "marlin machh",
+    "roman": "marlin machh"
+  },
+  {
+    "cat": "animals",
+    "en": "trout",
+    "bn": "trout machh",
+    "roman": "trout machh"
+  },
+  {
+    "cat": "animals",
+    "en": "carp",
+    "bn": "karp machh",
+    "roman": "karp machh"
+  },
+  {
+    "cat": "animals",
+    "en": "pomfret",
+    "bn": "pomfret machh",
+    "roman": "pomfret machh"
+  },
+  {
+    "cat": "animals",
+    "en": "sardine",
+    "bn": "sardine machh",
+    "roman": "sardine machh"
+  },
+  {
+    "cat": "animals",
+    "en": "mackerel",
+    "bn": "mackerel machh",
+    "roman": "mackerel machh"
+  },
+  {
+    "cat": "animals",
+    "en": "pufferfish",
+    "bn": "fufo machh",
+    "roman": "fufo machh"
+  },
+  {
+    "cat": "animals",
+    "en": "clownfish",
+    "bn": "klown machh",
+    "roman": "klown machh"
+  },
+  {
+    "cat": "animals",
+    "en": "alligator",
+    "bn": "alligator",
+    "roman": "alligator"
+  },
+  {
+    "cat": "animals",
+    "en": "iguana",
+    "bn": "iguana",
+    "roman": "iguana"
+  },
+  {
+    "cat": "animals",
+    "en": "salamander",
+    "bn": "salamander",
+    "roman": "salamander"
+  },
+  {
+    "cat": "animals",
+    "en": "centipede",
+    "bn": "shatopadi",
+    "roman": "shatopadi"
+  },
+  {
+    "cat": "animals",
+    "en": "millipede",
+    "bn": "hajar padi",
+    "roman": "hajar padi"
+  },
+  {
+    "cat": "animals",
+    "en": "flea",
+    "bn": "upad",
+    "roman": "upad"
+  },
+  {
+    "cat": "animals",
+    "en": "tick insect",
+    "bn": "tik",
+    "roman": "tik"
+  },
+  {
+    "cat": "animals",
+    "en": "cicada",
+    "bn": "sikada",
+    "roman": "sikada"
+  },
+  {
+    "cat": "animals",
+    "en": "termite",
+    "bn": "uistachor",
+    "roman": "uistachor"
+  },
+  {
+    "cat": "animals",
+    "en": "bumblebee",
+    "bn": "bambelbi",
+    "roman": "bambelbi"
+  },
+  {
+    "cat": "animals",
+    "en": "colt",
+    "bn": "ghorachhana",
+    "roman": "ghorachhana"
+  },
+  {
+    "cat": "animals",
+    "en": "pup",
+    "bn": "kukurchhana",
+    "roman": "kukurchhana"
+  },
+  {
+    "cat": "animals",
+    "en": "wolf cub",
+    "bn": "nekre chhana",
+    "roman": "nekre chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "lion cub",
+    "bn": "singho chhana",
+    "roman": "singho chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "tiger cub",
+    "bn": "bagh chhana",
+    "roman": "bagh chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "elephant calf",
+    "bn": "hati chhana",
+    "roman": "hati chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "monkey baby",
+    "bn": "banor chhana",
+    "roman": "banor chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "rabbit kit",
+    "bn": "khorgosh chhana",
+    "roman": "khorgosh chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "seal pup",
+    "bn": "sil chhana",
+    "roman": "sil chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "cygnet",
+    "bn": "rajhanser baccha",
+    "roman": "rajhanser baccha"
+  },
+  {
+    "cat": "animals",
+    "en": "gosling",
+    "bn": "hash chhana",
+    "roman": "hash chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "penguin chick",
+    "bn": "penguin chhana",
+    "roman": "penguin chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "owl chick",
+    "bn": "pecha chhana",
+    "roman": "pecha chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "eaglet",
+    "bn": "ishor chhana",
+    "roman": "ishor chhana"
+  },
+  {
+    "cat": "animals",
+    "en": "nestling",
+    "bn": "ghare bachcha",
+    "roman": "ghare bachcha"
+  },
+  {
+    "cat": "animals",
+    "en": "hatchling",
+    "bn": "dim theke bachcha",
+    "roman": "dim theke bachcha"
+  },
+  {
+    "cat": "animals",
+    "en": "school of fish",
+    "bn": "machher jhund",
+    "roman": "machher jhund"
+  },
+  {
+    "cat": "animals",
+    "en": "flock of birds",
+    "bn": "pakhir jhund",
+    "roman": "pakhir jhund"
+  },
+  {
+    "cat": "animals",
+    "en": "herd of cows",
+    "bn": "gorur jhund",
+    "roman": "gorur jhund"
+  },
+  {
+    "cat": "animals",
+    "en": "pack of wolves",
+    "bn": "nekrer dal",
+    "roman": "nekrer dal"
+  },
+  {
+    "cat": "animals",
+    "en": "pride of lions",
+    "bn": "singher dal",
+    "roman": "singher dal"
+  },
+  {
+    "cat": "animals",
+    "en": "colony of ants",
+    "bn": "piprer koloni",
+    "roman": "piprer koloni"
+  },
+  {
+    "cat": "animals",
+    "en": "swarm of bees",
+    "bn": "moumachir jhund",
+    "roman": "moumachir jhund"
+  },
+  {
+    "cat": "food",
+    "en": "mango juice",
+    "bn": "am er rosh",
+    "roman": "am er rosh"
+  },
+  {
+    "cat": "food",
+    "en": "lemonade",
+    "bn": "lebur shorbot",
+    "roman": "lebur shorbot"
+  },
+  {
+    "cat": "food",
+    "en": "coffee",
+    "bn": "coffee",
+    "roman": "coffee"
+  },
+  {
+    "cat": "food",
+    "en": "cake slice",
+    "bn": "cake",
+    "roman": "cake"
+  },
+  {
+    "cat": "food",
+    "en": "donut",
+    "bn": "donut",
+    "roman": "donut"
+  },
+  {
+    "cat": "food",
+    "en": "toast",
+    "bn": "toast",
+    "roman": "toast"
+  },
+  {
+    "cat": "food",
+    "en": "chicken soup",
+    "bn": "murgir soup",
+    "roman": "murgir soup"
+  },
+  {
+    "cat": "food",
+    "en": "fried chicken",
+    "bn": "bhaja murgi",
+    "roman": "bhaja murgi"
+  },
+  {
+    "cat": "food",
+    "en": "steamed rice",
+    "bn": "bhapa bhat",
+    "roman": "bhapa bhat"
+  },
+  {
+    "cat": "food",
+    "en": "mashed potato",
+    "bn": "alu bhorta",
+    "roman": "alu bhorta"
+  },
+  {
+    "cat": "food",
+    "en": "mashed fish",
+    "bn": "mach bhorta",
+    "roman": "mach bhorta"
+  },
+  {
+    "cat": "food",
+    "en": "dried fish",
+    "bn": "shutki mach",
+    "roman": "shutki mach"
+  },
+  {
+    "cat": "food",
+    "en": "sweet yogurt",
+    "bn": "mishti doi",
+    "roman": "mishti doi"
+  },
+  {
+    "cat": "food",
+    "en": "paneer",
+    "bn": "paneer",
+    "roman": "paneer"
+  },
+  {
+    "cat": "food",
+    "en": "jalebi",
+    "bn": "jilapi",
+    "roman": "jilapi"
+  },
+  {
+    "cat": "food",
+    "en": "firni",
+    "bn": "firni",
+    "roman": "firni"
+  },
+  {
+    "cat": "food",
+    "en": "rice cake",
+    "bn": "pitha",
+    "roman": "pitha"
+  },
+  {
+    "cat": "food",
+    "en": "patishapta",
+    "bn": "patishapta",
+    "roman": "patishapta"
+  },
+  {
+    "cat": "food",
+    "en": "bora",
+    "bn": "bora",
+    "roman": "bora"
+  },
+  {
+    "cat": "food",
+    "en": "chop",
+    "bn": "chop",
+    "roman": "chop"
+  },
+  {
+    "cat": "food",
+    "en": "kathi roll",
+    "bn": "kathi roll",
+    "roman": "kathi roll"
+  },
+  {
+    "cat": "food",
+    "en": "dim chop",
+    "bn": "dim chop",
+    "roman": "dim chop"
+  },
+  {
+    "cat": "food",
+    "en": "shami kebab",
+    "bn": "shami kebab",
+    "roman": "shami kebab"
+  },
+  {
+    "cat": "food",
+    "en": "hot dog",
+    "bn": "hot dog",
+    "roman": "hot dog"
+  },
+  {
+    "cat": "food",
+    "en": "sandwich",
+    "bn": "sandwich",
+    "roman": "sandwich"
+  },
+  {
+    "cat": "food",
+    "en": "tiffin",
+    "bn": "tiffin",
+    "roman": "tiffin"
+  },
+  {
+    "cat": "food",
+    "en": "street food",
+    "bn": "rasta khabar",
+    "roman": "rasta khabar"
+  },
+  {
+    "cat": "food",
+    "en": "spicy food",
+    "bn": "jhal khabar",
+    "roman": "jhal khabar"
+  },
+  {
+    "cat": "food",
+    "en": "sweet taste",
+    "bn": "mishti swad",
+    "roman": "mishti swad"
+  },
+  {
+    "cat": "food",
+    "en": "fast food",
+    "bn": "fast food",
+    "roman": "fast food"
+  },
+  {
+    "cat": "food",
+    "en": "healthy food",
+    "bn": "shustho khabar",
+    "roman": "shustho khabar"
+  },
+  {
+    "cat": "food",
+    "en": "boot",
+    "bn": "boot",
+    "roman": "but"
+  },
+  {
+    "cat": "body",
+    "en": "palm",
+    "bn": "hater talu",
+    "roman": "hater talu"
+  },
+  {
+    "cat": "body",
+    "en": "fist",
+    "bn": "muthi",
+    "roman": "muthi"
+  },
+  {
+    "cat": "body",
+    "en": "knuckle",
+    "bn": "knuckle",
+    "roman": "knuckle"
+  },
+  {
+    "cat": "body",
+    "en": "joint",
+    "bn": "joint",
+    "roman": "joint"
+  },
+  {
+    "cat": "body",
+    "en": "muscle",
+    "bn": "peshi",
+    "roman": "peshi"
+  },
+  {
+    "cat": "body",
+    "en": "vein",
+    "bn": "shira",
+    "roman": "shira"
+  },
+  {
+    "cat": "body",
+    "en": "artery",
+    "bn": "artery",
+    "roman": "artery"
+  },
+  {
+    "cat": "body",
+    "en": "pulse",
+    "bn": "pulse",
+    "roman": "pulse"
+  },
+  {
+    "cat": "body",
+    "en": "skeleton",
+    "bn": "kankal",
+    "roman": "kankal"
+  },
+  {
+    "cat": "body",
+    "en": "rib",
+    "bn": "par",
+    "roman": "par"
+  },
+  {
+    "cat": "body",
+    "en": "spine",
+    "bn": "merudand",
+    "roman": "merudand"
+  },
+  {
+    "cat": "body",
+    "en": "hip",
+    "bn": "komor",
+    "roman": "komor"
+  },
+  {
+    "cat": "body",
+    "en": "thigh",
+    "bn": "ur",
+    "roman": "ur"
+  },
+  {
+    "cat": "body",
+    "en": "shin",
+    "bn": "pindili",
+    "roman": "pindili"
+  },
+  {
+    "cat": "body",
+    "en": "ankle",
+    "bn": "golay",
+    "roman": "golay"
+  },
+  {
+    "cat": "body",
+    "en": "arch",
+    "bn": "pay er bhag",
+    "roman": "pay er bhag"
+  },
+  {
+    "cat": "body",
+    "en": "sole",
+    "bn": "pay er talu",
+    "roman": "pay er talu"
+  },
+  {
+    "cat": "body",
+    "en": "instep",
+    "bn": "pay er upor",
+    "roman": "pay er upor"
+  },
+  {
+    "cat": "body",
+    "en": "knuckle hand",
+    "bn": "hater joint",
+    "roman": "hater joint"
+  },
+  {
+    "cat": "body",
+    "en": "cuticle",
+    "bn": "nokher base",
+    "roman": "nokher base"
+  },
+  {
+    "cat": "body",
+    "en": "freckle",
+    "bn": "freckle",
+    "roman": "freckle"
+  },
+  {
+    "cat": "body",
+    "en": "dimple",
+    "bn": "dimple",
+    "roman": "dimple"
+  },
+  {
+    "cat": "body",
+    "en": "wrinkle",
+    "bn": "wrinkle",
+    "roman": "wrinkle"
+  },
+  {
+    "cat": "body",
+    "en": "scar",
+    "bn": "scar",
+    "roman": "scar"
+  },
+  {
+    "cat": "body",
+    "en": "bruise",
+    "bn": "bruise",
+    "roman": "bruise"
+  },
+  {
+    "cat": "body",
+    "en": "cut skin",
+    "bn": "kata",
+    "roman": "kata"
+  },
+  {
+    "cat": "body",
+    "en": "burn",
+    "bn": "burn",
+    "roman": "burn"
+  },
+  {
+    "cat": "body",
+    "en": "rash",
+    "bn": "rash",
+    "roman": "rash"
+  },
+  {
+    "cat": "body",
+    "en": "itch",
+    "bn": "khujli",
+    "roman": "khujli"
+  },
+  {
+    "cat": "body",
+    "en": "sweat",
+    "bn": "gham",
+    "roman": "gham"
+  },
+  {
+    "cat": "body",
+    "en": "tear",
+    "bn": "ashru",
+    "roman": "ashru"
+  },
+  {
+    "cat": "body",
+    "en": "saliva",
+    "bn": "lal",
+    "roman": "lal"
+  },
+  {
+    "cat": "body",
+    "en": "mucus",
+    "bn": "shleshm",
+    "roman": "shleshm"
+  },
+  {
+    "cat": "body",
+    "en": "phlegm",
+    "bn": "balgam",
+    "roman": "balgam"
+  },
+  {
+    "cat": "body",
+    "en": "urine",
+    "bn": "mutra",
+    "roman": "mutra"
+  },
+  {
+    "cat": "body",
+    "en": "stool",
+    "bn": "potty",
+    "roman": "potty"
+  },
+  {
+    "cat": "body",
+    "en": "belly button",
+    "bn": "nabhi",
+    "roman": "nabhi"
+  },
+  {
+    "cat": "body",
+    "en": "waist",
+    "bn": "komor",
+    "roman": "komor"
+  },
+  {
+    "cat": "body",
+    "en": "torso",
+    "bn": "deho",
+    "roman": "deho"
+  },
+  {
+    "cat": "body",
+    "en": "upper body",
+    "bn": "upor deho",
+    "roman": "upor deho"
+  },
+  {
+    "cat": "body",
+    "en": "lower body",
+    "bn": "niche deho",
+    "roman": "niche deho"
+  },
+  {
+    "cat": "body",
+    "en": "left hand",
+    "bn": "bam hat",
+    "roman": "bam hat"
+  },
+  {
+    "cat": "body",
+    "en": "right hand",
+    "bn": "dan hat",
+    "roman": "dan hat"
+  },
+  {
+    "cat": "body",
+    "en": "left foot",
+    "bn": "bam pa",
+    "roman": "bam pa"
+  },
+  {
+    "cat": "body",
+    "en": "right foot",
+    "bn": "dan pa",
+    "roman": "dan pa"
+  },
+  {
+    "cat": "body",
+    "en": "index finger",
+    "bn": "tarjani",
+    "roman": "tarjani"
+  },
+  {
+    "cat": "body",
+    "en": "middle finger",
+    "bn": "madhyama",
+    "roman": "madhyama"
+  },
+  {
+    "cat": "body",
+    "en": "ring finger",
+    "bn": "anamika",
+    "roman": "anamika"
+  },
+  {
+    "cat": "body",
+    "en": "pinky finger",
+    "bn": "kanistha",
+    "roman": "kanistha"
+  },
+  {
+    "cat": "body",
+    "en": "big toe",
+    "bn": "baro angul",
+    "roman": "baro angul"
+  },
+  {
+    "cat": "body",
+    "en": "little toe",
+    "bn": "chhoto angul",
+    "roman": "chhoto angul"
+  },
+  {
+    "cat": "body",
+    "en": "eyelid",
+    "bn": "chokher palok",
+    "roman": "chokher palok"
+  },
+  {
+    "cat": "body",
+    "en": "pupil",
+    "bn": "chokher putul",
+    "roman": "chokher putul"
+  },
+  {
+    "cat": "body",
+    "en": "iris",
+    "bn": "iris",
+    "roman": "iris"
+  },
+  {
+    "cat": "body",
+    "en": "retina",
+    "bn": "retina",
+    "roman": "retina"
+  },
+  {
+    "cat": "body",
+    "en": "cornea",
+    "bn": "cornea",
+    "roman": "cornea"
+  },
+  {
+    "cat": "body",
+    "en": "tear duct",
+    "bn": "ashru nali",
+    "roman": "ashru nali"
+  },
+  {
+    "cat": "body",
+    "en": "earlobe",
+    "bn": "kaner lata",
+    "roman": "kaner lata"
+  },
+  {
+    "cat": "body",
+    "en": "eardrum",
+    "bn": "kaner pata",
+    "roman": "kaner pata"
+  },
+  {
+    "cat": "body",
+    "en": "nostril",
+    "bn": "nak er ched",
+    "roman": "nak er ched"
+  },
+  {
+    "cat": "body",
+    "en": "sinus",
+    "bn": "sinus",
+    "roman": "sinus"
+  },
+  {
+    "cat": "body",
+    "en": "palate",
+    "bn": "talu",
+    "roman": "talu"
+  },
+  {
+    "cat": "body",
+    "en": "gum",
+    "bn": "masuda",
+    "roman": "masuda"
+  },
+  {
+    "cat": "body",
+    "en": "wisdom tooth",
+    "bn": "girja dat",
+    "roman": "girja dat"
+  },
+  {
+    "cat": "body",
+    "en": "baby tooth",
+    "bn": "shishu dat",
+    "roman": "shishu dat"
+  },
+  {
+    "cat": "body",
+    "en": "uvula",
+    "bn": "uvula",
+    "roman": "uvula"
+  },
+  {
+    "cat": "body",
+    "en": "tonsil",
+    "bn": "tonsil",
+    "roman": "tonsil"
+  },
+  {
+    "cat": "body",
+    "en": "adam apple",
+    "bn": "kanthas",
+    "roman": "kanthas"
+  },
+  {
+    "cat": "body",
+    "en": "larynx",
+    "bn": "sworashuli",
+    "roman": "sworashuli"
+  },
+  {
+    "cat": "body",
+    "en": "trachea",
+    "bn": "shwasnali",
+    "roman": "shwasnali"
+  },
+  {
+    "cat": "body",
+    "en": "lung",
+    "bn": "phusphus",
+    "roman": "phusphus"
+  },
+  {
+    "cat": "body",
+    "en": "kidney",
+    "bn": "kukshi",
+    "roman": "kukshi"
+  },
+  {
+    "cat": "body",
+    "en": "liver",
+    "bn": "jigar",
+    "roman": "jigar"
+  },
+  {
+    "cat": "body",
+    "en": "intestine",
+    "bn": "antro",
+    "roman": "antro"
+  },
+  {
+    "cat": "body",
+    "en": "bladder",
+    "bn": "mutrashay",
+    "roman": "mutrashay"
+  },
+  {
+    "cat": "body",
+    "en": "pancreas",
+    "bn": "pancreas",
+    "roman": "pancreas"
+  },
+  {
+    "cat": "body",
+    "en": "spleen",
+    "bn": "pleeha",
+    "roman": "pleeha"
+  },
+  {
+    "cat": "body",
+    "en": "immune system",
+    "bn": "rogg pratirodk",
+    "roman": "rogg pratirodk"
+  },
+  {
+    "cat": "body",
+    "en": "nerve",
+    "bn": "shira",
+    "roman": "shira"
+  },
+  {
+    "cat": "body",
+    "en": "reflex",
+    "bn": "reflex",
+    "roman": "reflex"
+  },
+  {
+    "cat": "body",
+    "en": "instinct",
+    "bn": "shahoj instinct",
+    "roman": "instinct"
+  },
+  {
+    "cat": "body",
+    "en": "memory",
+    "bn": "smriti",
+    "roman": "smriti"
+  },
+  {
+    "cat": "body",
+    "en": "thought",
+    "bn": "chinta",
+    "roman": "chinta"
+  },
+  {
+    "cat": "body",
+    "en": "sense",
+    "bn": "indriyo",
+    "roman": "indriyo"
+  },
+  {
+    "cat": "body",
+    "en": "sight",
+    "bn": "drishti",
+    "roman": "drishti"
+  },
+  {
+    "cat": "body",
+    "en": "hearing",
+    "bn": "shroban",
+    "roman": "shroban"
+  },
+  {
+    "cat": "body",
+    "en": "smell sense",
+    "bn": "ghran",
+    "roman": "ghran"
+  },
+  {
+    "cat": "body",
+    "en": "taste sense",
+    "bn": "swad",
+    "roman": "swad"
+  },
+  {
+    "cat": "body",
+    "en": "touch sense",
+    "bn": "sporsho",
+    "roman": "sporsho"
+  },
+  {
+    "cat": "body",
+    "en": "balance sense",
+    "bn": "bharsamyo",
+    "roman": "bharsamyo"
+  },
+  {
+    "cat": "body",
+    "en": "posture",
+    "bn": "abosthan",
+    "roman": "abosthan"
+  },
+  {
+    "cat": "body",
+    "en": "gesture",
+    "bn": "ishara",
+    "roman": "ishara"
+  },
+  {
+    "cat": "body",
+    "en": "expression",
+    "bn": "abhibyakti",
+    "roman": "abhibyakti"
+  },
+  {
+    "cat": "body",
+    "en": "body language",
+    "bn": "dehor bhasha",
+    "roman": "dehor bhasha"
+  },
+  {
+    "cat": "body",
+    "en": "health",
+    "bn": "shustho",
+    "roman": "shustho"
+  },
+  {
+    "cat": "body",
+    "en": "fitness",
+    "bn": "fitness",
+    "roman": "fitness"
+  },
+  {
+    "cat": "body",
+    "en": "strength",
+    "bn": "shakti",
+    "roman": "shakti"
+  },
+  {
+    "cat": "body",
+    "en": "energy",
+    "bn": "shakti",
+    "roman": "shakti"
+  },
+  {
+    "cat": "body",
+    "en": "growth",
+    "bn": "brihhi",
+    "roman": "brihhi"
+  },
+  {
+    "cat": "body",
+    "en": "height growth",
+    "bn": "uchai",
+    "roman": "uchai"
+  },
+  {
+    "cat": "body",
+    "en": "weight",
+    "bn": "vajan",
+    "roman": "vajan"
+  },
+  {
+    "cat": "mathematics",
+    "en": "hexagon",
+    "bn": "shohobhuj",
+    "roman": "shohobhuj"
+  },
+  {
+    "cat": "mathematics",
+    "en": "pentagon",
+    "bn": "ponchobhuj",
+    "roman": "ponchobhuj"
+  },
+  {
+    "cat": "mathematics",
+    "en": "octagon",
+    "bn": "ashtobhuj",
+    "roman": "ashtobhuj"
+  },
+  {
+    "cat": "mathematics",
+    "en": "diamond shape",
+    "bn": "hira",
+    "roman": "hira"
+  },
+  {
+    "cat": "mathematics",
+    "en": "heart shape",
+    "bn": "hiya akriti",
+    "roman": "hiya akriti"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cross shape",
+    "bn": "cross akriti",
+    "roman": "cross akriti"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cube",
+    "bn": "ghon",
+    "roman": "ghon"
+  },
+  {
+    "cat": "mathematics",
+    "en": "sphere",
+    "bn": "golok",
+    "roman": "golok"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cylinder",
+    "bn": "belan",
+    "roman": "belan"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cone",
+    "bn": "shanku",
+    "roman": "shanku"
+  },
+  {
+    "cat": "mathematics",
+    "en": "pyramid",
+    "bn": "piramid",
+    "roman": "piramid"
+  },
+  {
+    "cat": "mathematics",
+    "en": "prism",
+    "bn": "prism",
+    "roman": "prism"
+  },
+  {
+    "cat": "mathematics",
+    "en": "parallel",
+    "bn": "samantoral",
+    "roman": "samantoral"
+  },
+  {
+    "cat": "mathematics",
+    "en": "perpendicular",
+    "bn": "lomb",
+    "roman": "lomb"
+  },
+  {
+    "cat": "mathematics",
+    "en": "straight line",
+    "bn": "shoja rekha",
+    "roman": "shoja rekha"
+  },
+  {
+    "cat": "mathematics",
+    "en": "curved line",
+    "bn": "ban rekha",
+    "roman": "ban rekha"
+  },
+  {
+    "cat": "mathematics",
+    "en": "corner",
+    "bn": "kon",
+    "roman": "kon"
+  },
+  {
+    "cat": "mathematics",
+    "en": "edge",
+    "bn": "prant",
+    "roman": "prant"
+  },
+  {
+    "cat": "mathematics",
+    "en": "side",
+    "bn": "pash",
+    "roman": "pash"
+  },
+  {
+    "cat": "mathematics",
+    "en": "face shape",
+    "bn": "mukh akriti",
+    "roman": "mukh akriti"
+  },
+  {
+    "cat": "mathematics",
+    "en": "surface",
+    "bn": "pristho",
+    "roman": "pristho"
+  },
+  {
+    "cat": "mathematics",
+    "en": "inside",
+    "bn": "bhitore",
+    "roman": "bhitore"
+  },
+  {
+    "cat": "mathematics",
+    "en": "outside",
+    "bn": "bhaire",
+    "roman": "bhaire"
+  },
+  {
+    "cat": "mathematics",
+    "en": "between",
+    "bn": "majhe",
+    "roman": "majhe"
+  },
+  {
+    "cat": "mathematics",
+    "en": "middle",
+    "bn": "moddhe",
+    "roman": "moddhe"
+  },
+  {
+    "cat": "mathematics",
+    "en": "next to",
+    "bn": "pashe",
+    "roman": "pashe"
+  },
+  {
+    "cat": "mathematics",
+    "en": "above",
+    "bn": "upore",
+    "roman": "upore"
+  },
+  {
+    "cat": "mathematics",
+    "en": "below",
+    "bn": "niche",
+    "roman": "niche"
+  },
+  {
+    "cat": "mathematics",
+    "en": "left side",
+    "bn": "bam",
+    "roman": "bam"
+  },
+  {
+    "cat": "mathematics",
+    "en": "right side",
+    "bn": "dan",
+    "roman": "dan"
+  },
+  {
+    "cat": "mathematics",
+    "en": "forward",
+    "bn": "agiye",
+    "roman": "agiye"
+  },
+  {
+    "cat": "mathematics",
+    "en": "backward",
+    "bn": "pichone",
+    "roman": "pichone"
+  },
+  {
+    "cat": "mathematics",
+    "en": "upward",
+    "bn": "upore",
+    "roman": "upward"
+  },
+  {
+    "cat": "mathematics",
+    "en": "downward",
+    "bn": "niche",
+    "roman": "downward"
+  },
+  {
+    "cat": "mathematics",
+    "en": "clockwise",
+    "bn": "ghorier dik",
+    "roman": "ghorier dik"
+  },
+  {
+    "cat": "mathematics",
+    "en": "counterclockwise",
+    "bn": "ulto dik",
+    "roman": "ulto dik"
+  },
+  {
+    "cat": "mathematics",
+    "en": "heavy",
+    "bn": "bhari",
+    "roman": "bhari"
+  },
+  {
+    "cat": "mathematics",
+    "en": "light weight",
+    "bn": "halka",
+    "roman": "halka"
+  },
+  {
+    "cat": "mathematics",
+    "en": "empty",
+    "bn": "khali",
+    "roman": "khali"
+  },
+  {
+    "cat": "mathematics",
+    "en": "full amount",
+    "bn": "purno",
+    "roman": "purno"
+  },
+  {
+    "cat": "mathematics",
+    "en": "double amount",
+    "bn": "dugun",
+    "roman": "dugun"
+  },
+  {
+    "cat": "mathematics",
+    "en": "triple amount",
+    "bn": "tigun",
+    "roman": "tigun"
+  },
+  {
+    "cat": "mathematics",
+    "en": "sort items",
+    "bn": "sajano",
+    "roman": "sajano"
+  },
+  {
+    "cat": "mathematics",
+    "en": "order items",
+    "bn": "krom",
+    "roman": "krom"
+  },
+  {
+    "cat": "mathematics",
+    "en": "match pairs",
+    "bn": "jora",
+    "roman": "jora"
+  },
+  {
+    "cat": "mathematics",
+    "en": "compare sizes",
+    "bn": "tulona",
+    "roman": "tulona"
+  },
+  {
+    "cat": "mathematics",
+    "en": "estimate",
+    "bn": "anuman",
+    "roman": "anuman"
+  },
+  {
+    "cat": "mathematics",
+    "en": "exactly",
+    "bn": "thik",
+    "roman": "thik"
+  },
+  {
+    "cat": "mathematics",
+    "en": "approximately",
+    "bn": "praye",
+    "roman": "praye"
+  },
+  {
+    "cat": "mathematics",
+    "en": "abacus",
+    "bn": "abacus",
+    "roman": "abacus"
+  },
+  {
+    "cat": "mathematics",
+    "en": "calculator",
+    "bn": "calculator",
+    "roman": "calculator"
+  },
+  {
+    "cat": "mathematics",
+    "en": "digit symbol",
+    "bn": "songkha chinho",
+    "roman": "songkha chinho"
+  },
+  {
+    "cat": "mathematics",
+    "en": "fraction part",
+    "bn": "bhag",
+    "roman": "bhag"
+  },
+  {
+    "cat": "mathematics",
+    "en": "decimal point",
+    "bn": "doshomik",
+    "roman": "doshomik"
+  },
+  {
+    "cat": "mathematics",
+    "en": "percent",
+    "bn": "shatangsho",
+    "roman": "shatangsho"
+  },
+  {
+    "cat": "mathematics",
+    "en": "ratio",
+    "bn": "anupat",
+    "roman": "anupat"
+  },
+  {
+    "cat": "mathematics",
+    "en": "proportion",
+    "bn": "samopat",
+    "roman": "samopat"
+  },
+  {
+    "cat": "mathematics",
+    "en": "symmetry",
+    "bn": "sammmito",
+    "roman": "sammmito"
+  },
+  {
+    "cat": "mathematics",
+    "en": "grid",
+    "bn": "grid",
+    "roman": "grid"
+  },
+  {
+    "cat": "mathematics",
+    "en": "row",
+    "bn": "sor",
+    "roman": "sor"
+  },
+  {
+    "cat": "mathematics",
+    "en": "column",
+    "bn": "stambho",
+    "roman": "stambho"
+  },
+  {
+    "cat": "mathematics",
+    "en": "block tower",
+    "bn": "block",
+    "roman": "block"
+  },
+  {
+    "cat": "mathematics",
+    "en": "building blocks",
+    "bn": "block",
+    "roman": "block"
+  },
+  {
+    "cat": "mathematics",
+    "en": "set of items",
+    "bn": "set",
+    "roman": "set"
+  },
+  {
+    "cat": "mathematics",
+    "en": "collection",
+    "bn": "songroho",
+    "roman": "collection"
+  },
+  {
+    "cat": "mathematics",
+    "en": "graph chart",
+    "bn": "graph",
+    "roman": "graph"
+  },
+  {
+    "cat": "mathematics",
+    "en": "bar chart",
+    "bn": "bar chart",
+    "roman": "bar chart"
+  },
+  {
+    "cat": "mathematics",
+    "en": "pie chart",
+    "bn": "pie chart",
+    "roman": "pie chart"
+  },
+  {
+    "cat": "mathematics",
+    "en": "data",
+    "bn": "data",
+    "roman": "data"
+  },
+  {
+    "cat": "mathematics",
+    "en": "calendar math",
+    "bn": "calendar",
+    "roman": "calendar"
+  },
+  {
+    "cat": "mathematics",
+    "en": "clock time",
+    "bn": "somoy",
+    "roman": "somoy"
+  },
+  {
+    "cat": "mathematics",
+    "en": "hour hand",
+    "bn": "ghonta",
+    "roman": "ghonta"
+  },
+  {
+    "cat": "mathematics",
+    "en": "minute hand",
+    "bn": "mini",
+    "roman": "mini"
+  },
+  {
+    "cat": "mathematics",
+    "en": "second hand",
+    "bn": "sec",
+    "roman": "sec"
+  },
+  {
+    "cat": "mathematics",
+    "en": "timer",
+    "bn": "timer",
+    "roman": "timer"
+  },
+  {
+    "cat": "mathematics",
+    "en": "stopwatch",
+    "bn": "stopwatch",
+    "roman": "stopwatch"
+  },
+  {
+    "cat": "mathematics",
+    "en": "centimeter",
+    "bn": "sentimitar",
+    "roman": "sentimitar"
+  },
+  {
+    "cat": "mathematics",
+    "en": "meter unit",
+    "bn": "mitar",
+    "roman": "mitar"
+  },
+  {
+    "cat": "mathematics",
+    "en": "kilometer",
+    "bn": "kilomitarmitar",
+    "roman": "kilomitar"
+  },
+  {
+    "cat": "mathematics",
+    "en": "gram",
+    "bn": "gram",
+    "roman": "gram"
+  },
+  {
+    "cat": "mathematics",
+    "en": "kilogram",
+    "bn": "kilogram",
+    "roman": "kilogram"
+  },
+  {
+    "cat": "mathematics",
+    "en": "liter",
+    "bn": "liter",
+    "roman": "liter"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cup measure",
+    "bn": "kap map",
+    "roman": "kap map"
+  },
+  {
+    "cat": "mathematics",
+    "en": "spoon measure",
+    "bn": "chamoch map",
+    "roman": "chamoch map"
+  },
+  {
+    "cat": "mathematics",
+    "en": "big number idea",
+    "bn": "boro songkha",
+    "roman": "boro songkha"
+  },
+  {
+    "cat": "mathematics",
+    "en": "small number idea",
+    "bn": "chhoto songkha",
+    "roman": "chhoto songkha"
+  },
+  {
+    "cat": "mathematics",
+    "en": "long object",
+    "bn": "lamba",
+    "roman": "lamba"
+  },
+  {
+    "cat": "mathematics",
+    "en": "short object",
+    "bn": "chhoto",
+    "roman": "chhoto"
+  },
+  {
+    "cat": "mathematics",
+    "en": "tall object",
+    "bn": "lomba",
+    "roman": "lomba"
+  },
+  {
+    "cat": "mathematics",
+    "en": "wide object",
+    "bn": "proshosto",
+    "roman": "proshosto"
+  },
+  {
+    "cat": "mathematics",
+    "en": "narrow object",
+    "bn": "sankuchito",
+    "roman": "sankuchito"
+  },
+  {
+    "cat": "mathematics",
+    "en": "thick object",
+    "bn": "mot",
+    "roman": "mot"
+  },
+  {
+    "cat": "mathematics",
+    "en": "thin object",
+    "bn": "patla",
+    "roman": "patla"
+  },
+  {
+    "cat": "mathematics",
+    "en": "deep",
+    "bn": "gobhir",
+    "roman": "gobhir"
+  },
+  {
+    "cat": "mathematics",
+    "en": "shallow",
+    "bn": "ohalpo",
+    "roman": "ohalpo"
+  },
+  {
+    "cat": "mathematics",
+    "en": "near",
+    "bn": "kache",
+    "roman": "kache"
+  },
+  {
+    "cat": "mathematics",
+    "en": "far",
+    "bn": "dure",
+    "roman": "dure"
+  },
+  {
+    "cat": "mathematics",
+    "en": "close together",
+    "bn": "kache kache",
+    "roman": "kache kache"
+  },
+  {
+    "cat": "mathematics",
+    "en": "far apart",
+    "bn": "dure dure",
+    "roman": "dure dure"
+  },
+  {
+    "cat": "mathematics",
+    "en": "overlap",
+    "bn": "overlap",
+    "roman": "overlap"
+  },
+  {
+    "cat": "mathematics",
+    "en": "connect dots",
+    "bn": "bindu jog",
+    "roman": "bindu jog"
+  },
+  {
+    "cat": "mathematics",
+    "en": "trace shape",
+    "bn": "akriti anukoron",
+    "roman": "akriti anukoron"
+  },
+  {
+    "cat": "mathematics",
+    "en": "draw shape",
+    "bn": "akriti aka",
+    "roman": "akriti aka"
+  },
+  {
+    "cat": "mathematics",
+    "en": "cut shape",
+    "bn": "akriti kata",
+    "roman": "akriti kata"
+  },
+  {
+    "cat": "mathematics",
+    "en": "fold shape",
+    "bn": "akriti bhaj",
+    "roman": "akriti bhaj"
+  },
+  {
+    "cat": "mathematics",
+    "en": "flip shape",
+    "bn": "ultano",
+    "roman": "ultano"
+  },
+  {
+    "cat": "mathematics",
+    "en": "rotate shape",
+    "bn": "ghurano",
+    "roman": "ghurano"
+  },
+  {
+    "cat": "mathematics",
+    "en": "slide shape",
+    "bn": "slide",
+    "roman": "slide"
+  },
+  {
+    "cat": "mathematics",
+    "en": "stack blocks",
+    "bn": "stack",
+    "roman": "stack"
+  },
+  {
+    "cat": "mathematics",
+    "en": "balance scale",
+    "bn": "tarajui",
+    "roman": "tarajui"
+  },
+  {
+    "cat": "mathematics",
+    "en": "weigh objects",
+    "bn": "ojon",
+    "roman": "ojon"
+  },
+  {
+    "cat": "mathematics",
+    "en": "count objects",
+    "bn": "gonona",
+    "roman": "gonona"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math puzzle",
+    "bn": "math puzzle",
+    "roman": "math puzzle"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math game",
+    "bn": "math khela",
+    "roman": "math khela"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math book",
+    "bn": "gonit boi",
+    "roman": "gonit boi"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math class",
+    "bn": "gonit class",
+    "roman": "gonit class"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math teacher",
+    "bn": "gonit shikkhok",
+    "roman": "gonit shikkhok"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math homework",
+    "bn": "gonit homework",
+    "roman": "gonit homework"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math test",
+    "bn": "gonit poriksha",
+    "roman": "gonit poriksha"
+  },
+  {
+    "cat": "mathematics",
+    "en": "math star",
+    "bn": "gonit star",
+    "roman": "gonit star"
+  },
+  {
+    "cat": "nature",
+    "en": "coral",
+    "bn": "prabal",
+    "roman": "prabal"
+  },
+  {
+    "cat": "nature",
+    "en": "cliff",
+    "bn": "prantor",
+    "roman": "prantor"
+  },
+  {
+    "cat": "nature",
+    "en": "glacier",
+    "bn": "himobah",
+    "roman": "himobah"
+  },
+  {
+    "cat": "nature",
+    "en": "hail",
+    "bn": "kol",
+    "roman": "kol"
+  },
+  {
+    "cat": "nature",
+    "en": "breeze",
+    "bn": "hawa",
+    "roman": "hawa"
+  },
+  {
+    "cat": "nature",
+    "en": "natural beauty",
+    "bn": "prakritir shundorjyo",
+    "roman": "prakritir shundorjyo"
+  },
+  {
+    "cat": "nature",
+    "en": "fresh air",
+    "bn": "taja hawa",
+    "roman": "taja hawa"
+  },
+  {
+    "cat": "nature",
+    "en": "clean water",
+    "bn": "porishkar pani",
+    "roman": "porishkar pani"
+  },
+  {
+    "cat": "nature",
+    "en": "rainy season",
+    "bn": "borsha kal",
+    "roman": "borsha kal"
+  },
+  {
+    "cat": "nature",
+    "en": "dry season",
+    "bn": "shukno kal",
+    "roman": "shukno kal"
+  },
+  {
+    "cat": "nature",
+    "en": "thunder sound",
+    "bn": "bijer awaj",
+    "roman": "bijer awaj"
+  },
+  {
+    "cat": "nature",
+    "en": "rain sound",
+    "bn": "brishtir awaj",
+    "roman": "brishtir awaj"
+  },
+  {
+    "cat": "nature",
+    "en": "bird song",
+    "bn": "pakhir gaan",
+    "roman": "pakhir gaan"
+  },
+  {
+    "cat": "nature",
+    "en": "frog sound",
+    "bn": "byanger awaj",
+    "roman": "byanger awaj"
+  },
+  {
+    "cat": "nature",
+    "en": "delta",
+    "bn": "delta",
+    "roman": "delta"
+  },
+  {
+    "cat": "nature",
+    "en": "estuary",
+    "bn": "mohona",
+    "roman": "mohona"
+  },
+  {
+    "cat": "nature",
+    "en": "shore",
+    "bn": "tir",
+    "roman": "tir"
+  },
+  {
+    "cat": "nature",
+    "en": "geyser",
+    "bn": "geyser",
+    "roman": "geyser"
+  },
+  {
+    "cat": "nature",
+    "en": "hot spring",
+    "bn": "gorom jol",
+    "roman": "gorom jol"
+  },
+  {
+    "cat": "nature",
+    "en": "crystal",
+    "bn": "kristal",
+    "roman": "kristal"
+  },
+  {
+    "cat": "nature",
+    "en": "gem",
+    "bn": "ratan",
+    "roman": "ratan"
+  },
+  {
+    "cat": "nature",
+    "en": "spring season",
+    "bn": "boshonto kal",
+    "roman": "boshonto kal"
+  },
+  {
+    "cat": "nature",
+    "en": "heatwave",
+    "bn": "tapon",
+    "roman": "tapon"
+  },
+  {
+    "cat": "nature",
+    "en": "cold wave",
+    "bn": "sheet lahar",
+    "roman": "sheet lahar"
+  },
+  {
+    "cat": "nature",
+    "en": "blizzard",
+    "bn": "tushar jhor",
+    "roman": "tushar jhor"
+  },
+  {
+    "cat": "nature",
+    "en": "dust storm",
+    "bn": "dhul jhor",
+    "roman": "dhul jhor"
+  },
+  {
+    "cat": "nature",
+    "en": "rainforest",
+    "bn": "bon",
+    "roman": "bon"
+  },
+  {
+    "cat": "nature",
+    "en": "prairie",
+    "bn": "preri",
+    "roman": "preri"
+  },
+  {
+    "cat": "nature",
+    "en": "wetland",
+    "bn": "pankuri",
+    "roman": "pankuri"
+  },
+  {
+    "cat": "nature",
+    "en": "oak tree",
+    "bn": "oak gach",
+    "roman": "oak gach"
+  },
+  {
+    "cat": "nature",
+    "en": "pine tree",
+    "bn": "pine gach",
+    "roman": "pine gach"
+  },
+  {
+    "cat": "nature",
+    "en": "cherry blossom",
+    "bn": "cherry phul",
+    "roman": "cherry phul"
+  },
+  {
+    "cat": "nature",
+    "en": "tulip",
+    "bn": "tulip",
+    "roman": "tulip"
+  },
+  {
+    "cat": "nature",
+    "en": "orchid",
+    "bn": "orchid",
+    "roman": "orchid"
+  },
+  {
+    "cat": "nature",
+    "en": "lily",
+    "bn": "lily",
+    "roman": "lily"
+  },
+  {
+    "cat": "nature",
+    "en": "moss",
+    "bn": "moss",
+    "roman": "moss"
+  },
+  {
+    "cat": "nature",
+    "en": "algae",
+    "bn": "algae",
+    "roman": "algae"
+  },
+  {
+    "cat": "nature",
+    "en": "boulder",
+    "bn": "baro pathor",
+    "roman": "baro pathor"
+  },
+  {
+    "cat": "nature",
+    "en": "plateau",
+    "bn": "mohishur",
+    "roman": "mohishur"
+  },
+  {
+    "cat": "nature",
+    "en": "oasis",
+    "bn": "oasis",
+    "roman": "oasis"
+  },
+  {
+    "cat": "nature",
+    "en": "iceberg",
+    "bn": "borof pahar",
+    "roman": "borof pahar"
+  },
+  {
+    "cat": "nature",
+    "en": "whirlpool",
+    "bn": "bort",
+    "roman": "bort"
+  },
+  {
+    "cat": "nature",
+    "en": "current",
+    "bn": "sroto",
+    "roman": "sroto"
+  },
+  {
+    "cat": "nature",
+    "en": "haze",
+    "bn": "dhundh",
+    "roman": "dhundh"
+  },
+  {
+    "cat": "nature",
+    "en": "sleet",
+    "bn": "borof brishti",
+    "roman": "borof brishti"
+  },
+  {
+    "cat": "nature",
+    "en": "gust",
+    "bn": "jhor hawa",
+    "roman": "jhor hawa"
+  },
+  {
+    "cat": "nature",
+    "en": "dryness",
+    "bn": "shuknota",
+    "roman": "shuknota"
+  },
+  {
+    "cat": "nature",
+    "en": "oxygen",
+    "bn": "oxygen",
+    "roman": "oxygen"
+  },
+  {
+    "cat": "nature",
+    "en": "recycling",
+    "bn": "punorbbyas",
+    "roman": "punorbbyas"
+  },
+  {
+    "cat": "nature",
+    "en": "conservation",
+    "bn": "sonrokkhon",
+    "roman": "sonrokkhon"
+  },
+  {
+    "cat": "nature",
+    "en": "habitat",
+    "bn": "basosthan",
+    "roman": "basosthan"
+  },
+  {
+    "cat": "nature",
+    "en": "photosynthesis",
+    "bn": "photosynthesis",
+    "roman": "photosynthesis"
+  },
+  {
+    "cat": "nature",
+    "en": "pollination",
+    "bn": "pollination",
+    "roman": "pollination"
+  },
+  {
+    "cat": "nature",
+    "en": "sprout",
+    "bn": "onkur",
+    "roman": "onkur"
+  },
+  {
+    "cat": "nature",
+    "en": "rice plant",
+    "bn": "dhan gach",
+    "roman": "dhan gach"
+  },
+  {
+    "cat": "nature",
+    "en": "jute plant",
+    "bn": "pat gach",
+    "roman": "pat gach"
+  },
+  {
+    "cat": "nature",
+    "en": "vegetable garden",
+    "bn": "shobji bagan",
+    "roman": "shobji bagan"
+  },
+  {
+    "cat": "nature",
+    "en": "playground",
+    "bn": "khelar mat",
+    "roman": "khelar mat"
+  },
+  {
+    "cat": "nature",
+    "en": "camping",
+    "bn": "camping",
+    "roman": "camping"
+  },
+  {
+    "cat": "nature",
+    "en": "picnic spot",
+    "bn": "picnic spot",
+    "roman": "picnic spot"
+  },
+  {
+    "cat": "nature",
+    "en": "brightness",
+    "bn": "ujjalota",
+    "roman": "ujjalota"
+  },
+  {
+    "cat": "nature",
+    "en": "galaxy",
+    "bn": "galaxy",
+    "roman": "galaxy"
+  },
+  {
+    "cat": "nature",
+    "en": "constellation",
+    "bn": "nokhotro",
+    "roman": "nokhotro"
+  },
+  {
+    "cat": "nature",
+    "en": "north star",
+    "bn": "dhruvo tara",
+    "roman": "dhruvo tara"
+  },
+  {
+    "cat": "nature",
+    "en": "milky way",
+    "bn": "akashtalika",
+    "roman": "akashtalika"
+  },
+  {
+    "cat": "nature",
+    "en": "solar eclipse",
+    "bn": "surjo grahan",
+    "roman": "surjo grahan"
+  },
+  {
+    "cat": "nature",
+    "en": "lunar eclipse",
+    "bn": "chad grahan",
+    "roman": "chad grahan"
+  },
+  {
+    "cat": "nature",
+    "en": "crescent moon",
+    "bn": "halka chad",
+    "roman": "halka chad"
+  },
+  {
+    "cat": "nature",
+    "en": "half moon",
+    "bn": "ordhek chad",
+    "roman": "ordhek chad"
+  },
+  {
+    "cat": "nature",
+    "en": "wind sound",
+    "bn": "bater awaj",
+    "roman": "bater awaj"
+  },
+  {
+    "cat": "nature",
+    "en": "cricket sound",
+    "bn": "jhinjhir awaj",
+    "roman": "jhinjhir awaj"
+  },
+  {
+    "cat": "nature",
+    "en": "river bend",
+    "bn": "nodir modh",
+    "roman": "nodir modh"
+  },
+  {
+    "cat": "nature",
+    "en": "river mouth",
+    "bn": "nodir mukh",
+    "roman": "nodir mukh"
+  },
+  {
+    "cat": "nature",
+    "en": "tide pool",
+    "bn": "jowar er jol",
+    "roman": "jowar er jol"
+  },
+  {
+    "cat": "nature",
+    "en": "rock pool",
+    "bn": "pathor er jol",
+    "roman": "pathor er jol"
+  },
+  {
+    "cat": "nature",
+    "en": "mineral",
+    "bn": "khanij",
+    "roman": "khanij"
+  },
+  {
+    "cat": "nature",
+    "en": "gold ore",
+    "bn": "sonar khanij",
+    "roman": "sonar khanij"
+  },
+  {
+    "cat": "nature",
+    "en": "iron ore",
+    "bn": "loher khanij",
+    "roman": "loher khanij"
+  },
+  {
+    "cat": "nature",
+    "en": "petroleum",
+    "bn": "petroleum",
+    "roman": "petroleum"
+  },
+  {
+    "cat": "nature",
+    "en": "natural gas",
+    "bn": "prakritik gas",
+    "roman": "prakritik gas"
+  },
+  {
+    "cat": "nature",
+    "en": "food chain",
+    "bn": "khabar shrinkhola",
+    "roman": "khabar shrinkhola"
+  },
+  {
+    "cat": "nature",
+    "en": "harvest moon",
+    "bn": "foshol chad",
+    "roman": "foshol chad"
+  },
+  {
+    "cat": "nature",
+    "en": "aurora",
+    "bn": "aurora",
+    "roman": "aurora"
+  },
+  {
+    "cat": "nature",
+    "en": "drought",
+    "bn": "khara",
+    "roman": "khara"
+  },
+  {
+    "cat": "nature",
+    "en": "earthquake",
+    "bn": "bhumikompo",
+    "roman": "bhumikompo"
+  },
+  {
+    "cat": "nature",
+    "en": "volcano",
+    "bn": "volcano",
+    "roman": "volcano"
+  },
+  {
+    "cat": "nature",
+    "en": "spring water",
+    "bn": "jharna",
+    "roman": "jharna"
+  },
+  {
+    "cat": "nature",
+    "en": "tamarind tree",
+    "bn": "tetul gach",
+    "roman": "tetul gach"
+  },
+  {
+    "cat": "nature",
+    "en": "eucalyptus",
+    "bn": "eucalyptus",
+    "roman": "eucalyptus"
+  },
+  {
+    "cat": "nature",
+    "en": "maple tree",
+    "bn": "maple gach",
+    "roman": "maple gach"
+  },
+  {
+    "cat": "nature",
+    "en": "willow tree",
+    "bn": "willow gach",
+    "roman": "willow gach"
+  },
+  {
+    "cat": "nature",
+    "en": "daisy",
+    "bn": "daisy",
+    "roman": "daisy"
+  },
+  {
+    "cat": "nature",
+    "en": "poppy",
+    "bn": "kash",
+    "roman": "kash"
+  },
+  {
+    "cat": "nature",
+    "en": "seaweed",
+    "bn": "shamuk",
+    "roman": "shamuk"
+  },
+  {
+    "cat": "nature",
+    "en": "carbon dioxide",
+    "bn": "carbon dioxide",
+    "roman": "carbon dioxide"
+  },
+  {
+    "cat": "nature",
+    "en": "nature trail",
+    "bn": "nature trail",
+    "roman": "nature trail"
+  },
+  {
+    "cat": "home",
+    "en": "sofa",
+    "bn": "sofa",
+    "roman": "sofa"
+  },
+  {
+    "cat": "home",
+    "en": "armchair",
+    "bn": "armchair",
+    "roman": "armchair"
+  },
+  {
+    "cat": "home",
+    "en": "bookshelf",
+    "bn": "boi almari",
+    "roman": "boi almari"
+  },
+  {
+    "cat": "home",
+    "en": "wardrobe",
+    "bn": "almari",
+    "roman": "almari"
+  },
+  {
+    "cat": "home",
+    "en": "dresser",
+    "bn": "dresser",
+    "roman": "dresser"
+  },
+  {
+    "cat": "home",
+    "en": "nightstand",
+    "bn": "nightstand",
+    "roman": "nightstand"
+  },
+  {
+    "cat": "home",
+    "en": "mattress",
+    "bn": "toshok",
+    "roman": "toshok"
+  },
+  {
+    "cat": "home",
+    "en": "sheet",
+    "bn": "chador",
+    "roman": "chador"
+  },
+  {
+    "cat": "home",
+    "en": "quilt",
+    "bn": "katha",
+    "roman": "katha"
+  },
+  {
+    "cat": "home",
+    "en": "cushion",
+    "bn": "kushion",
+    "roman": "kushion"
+  },
+  {
+    "cat": "home",
+    "en": "rug",
+    "bn": "carpet",
+    "roman": "carpet"
+  },
+  {
+    "cat": "home",
+    "en": "doormat",
+    "bn": "dormat",
+    "roman": "dormat"
+  },
+  {
+    "cat": "home",
+    "en": "hanger",
+    "bn": "hanger",
+    "roman": "hanger"
+  },
+  {
+    "cat": "home",
+    "en": "clothesline",
+    "bn": "tana",
+    "roman": "tana"
+  },
+  {
+    "cat": "home",
+    "en": "washing machine",
+    "bn": "washing machine",
+    "roman": "washing machine"
+  },
+  {
+    "cat": "home",
+    "en": "dryer",
+    "bn": "dryer",
+    "roman": "dryer"
+  },
+  {
+    "cat": "home",
+    "en": "iron",
+    "bn": "istri",
+    "roman": "istri"
+  },
+  {
+    "cat": "home",
+    "en": "ironing board",
+    "bn": "istri board",
+    "roman": "istri board"
+  },
+  {
+    "cat": "home",
+    "en": "vacuum cleaner",
+    "bn": "vacuum",
+    "roman": "vacuum"
+  },
+  {
+    "cat": "home",
+    "en": "broom",
+    "bn": "jharu",
+    "roman": "jharu"
+  },
+  {
+    "cat": "home",
+    "en": "mop",
+    "bn": "mop",
+    "roman": "mop"
+  },
+  {
+    "cat": "home",
+    "en": "dustbin",
+    "bn": "dustbin",
+    "roman": "dustbin"
+  },
+  {
+    "cat": "home",
+    "en": "trash bag",
+    "bn": "trash bag",
+    "roman": "trash bag"
+  },
+  {
+    "cat": "home",
+    "en": "recycle bin",
+    "bn": "recycle bin",
+    "roman": "recycle bin"
+  },
+  {
+    "cat": "home",
+    "en": "detergent",
+    "bn": "detergent",
+    "roman": "detergent"
+  },
+  {
+    "cat": "home",
+    "en": "bleach",
+    "bn": "bleach",
+    "roman": "bleach"
+  },
+  {
+    "cat": "home",
+    "en": "sponge",
+    "bn": "sponge",
+    "roman": "sponge"
+  },
+  {
+    "cat": "home",
+    "en": "dish soap",
+    "bn": "bartan dhonar saban",
+    "roman": "bartan dhonar saban"
+  },
+  {
+    "cat": "home",
+    "en": "dish rack",
+    "bn": "bartan rack",
+    "roman": "bartan rack"
+  },
+  {
+    "cat": "home",
+    "en": "cutting board",
+    "bn": "kata board",
+    "roman": "kata board"
+  },
+  {
+    "cat": "home",
+    "en": "colander",
+    "bn": "colander",
+    "roman": "colander"
+  },
+  {
+    "cat": "home",
+    "en": "whisk",
+    "bn": "whisk",
+    "roman": "whisk"
+  },
+  {
+    "cat": "home",
+    "en": "ladle",
+    "bn": "khunti",
+    "roman": "khunti"
+  },
+  {
+    "cat": "home",
+    "en": "tongs",
+    "bn": "tongs",
+    "roman": "tongs"
+  },
+  {
+    "cat": "home",
+    "en": "rolling pin",
+    "bn": "belun",
+    "roman": "belun"
+  },
+  {
+    "cat": "home",
+    "en": "grater",
+    "bn": "grater",
+    "roman": "grater"
+  },
+  {
+    "cat": "home",
+    "en": "peeler",
+    "bn": "peeler",
+    "roman": "peeler"
+  },
+  {
+    "cat": "home",
+    "en": "can opener",
+    "bn": "can opener",
+    "roman": "can opener"
+  },
+  {
+    "cat": "home",
+    "en": "bottle opener",
+    "bn": "bottle opener",
+    "roman": "bottle opener"
+  },
+  {
+    "cat": "home",
+    "en": "corkscrew",
+    "bn": "corkscrew",
+    "roman": "corkscrew"
+  },
+  {
+    "cat": "home",
+    "en": "measuring cup",
+    "bn": "mapar kap",
+    "roman": "mapar kap"
+  },
+  {
+    "cat": "home",
+    "en": "mixing bowl",
+    "bn": "mishran bati",
+    "roman": "mishran bati"
+  },
+  {
+    "cat": "home",
+    "en": "baking tray",
+    "bn": "baking tray",
+    "roman": "baking tray"
+  },
+  {
+    "cat": "home",
+    "en": "oven",
+    "bn": "oven",
+    "roman": "oven"
+  },
+  {
+    "cat": "home",
+    "en": "microwave",
+    "bn": "microwave",
+    "roman": "microwave"
+  },
+  {
+    "cat": "home",
+    "en": "toaster",
+    "bn": "toaster",
+    "roman": "toaster"
+  },
+  {
+    "cat": "home",
+    "en": "blender",
+    "bn": "blender",
+    "roman": "blender"
+  },
+  {
+    "cat": "home",
+    "en": "kettle",
+    "bn": "kettle",
+    "roman": "kettle"
+  },
+  {
+    "cat": "home",
+    "en": "rice cooker",
+    "bn": "rice cooker",
+    "roman": "rice cooker"
+  },
+  {
+    "cat": "home",
+    "en": "pressure cooker",
+    "bn": "pressure cooker",
+    "roman": "pressure cooker"
+  },
+  {
+    "cat": "home",
+    "en": "pan",
+    "bn": "pan",
+    "roman": "pan"
+  },
+  {
+    "cat": "home",
+    "en": "pot",
+    "bn": "hari",
+    "roman": "hari"
+  },
+  {
+    "cat": "home",
+    "en": "wok",
+    "bn": "karai",
+    "roman": "karai"
+  },
+  {
+    "cat": "home",
+    "en": "lid",
+    "bn": "dhakna",
+    "roman": "dhakna"
+  },
+  {
+    "cat": "home",
+    "en": "trivet",
+    "bn": "trivet",
+    "roman": "trivet"
+  },
+  {
+    "cat": "home",
+    "en": "teapot",
+    "bn": "teapot",
+    "roman": "teapot"
+  },
+  {
+    "cat": "home",
+    "en": "coffee maker",
+    "bn": "coffee maker",
+    "roman": "coffee maker"
+  },
+  {
+    "cat": "home",
+    "en": "water filter",
+    "bn": "pani filter",
+    "roman": "pani filter"
+  },
+  {
+    "cat": "home",
+    "en": "water bottle",
+    "bn": "pani bottle",
+    "roman": "pani bottle"
+  },
+  {
+    "cat": "home",
+    "en": "thermos",
+    "bn": "thermos",
+    "roman": "thermos"
+  },
+  {
+    "cat": "home",
+    "en": "lunch container",
+    "bn": "lunch box",
+    "roman": "lunch box"
+  },
+  {
+    "cat": "home",
+    "en": "food wrap",
+    "bn": "food wrap",
+    "roman": "food wrap"
+  },
+  {
+    "cat": "home",
+    "en": "aluminum foil",
+    "bn": "foil",
+    "roman": "foil"
+  },
+  {
+    "cat": "home",
+    "en": "plastic wrap",
+    "bn": "plastic wrap",
+    "roman": "plastic wrap"
+  },
+  {
+    "cat": "home",
+    "en": "ziplock bag",
+    "bn": "ziplock bag",
+    "roman": "ziplock bag"
+  },
+  {
+    "cat": "home",
+    "en": "pantry",
+    "bn": "pantry",
+    "roman": "pantry"
+  },
+  {
+    "cat": "home",
+    "en": "cupboard",
+    "bn": "almari",
+    "roman": "almari"
+  },
+  {
+    "cat": "home",
+    "en": "drawer",
+    "bn": "drawer",
+    "roman": "drawer"
+  },
+  {
+    "cat": "home",
+    "en": "shelf",
+    "bn": "tana",
+    "roman": "tana"
+  },
+  {
+    "cat": "home",
+    "en": "attic",
+    "bn": "chad ghor",
+    "roman": "chad ghor"
+  },
+  {
+    "cat": "home",
+    "en": "basement",
+    "bn": "nobin ghor",
+    "roman": "nobin ghor"
+  },
+  {
+    "cat": "home",
+    "en": "garage",
+    "bn": "garage",
+    "roman": "garage"
+  },
+  {
+    "cat": "home",
+    "en": "balcony",
+    "bn": "baranda",
+    "roman": "baranda"
+  },
+  {
+    "cat": "home",
+    "en": "porch",
+    "bn": "porch",
+    "roman": "porch"
+  },
+  {
+    "cat": "home",
+    "en": "yard",
+    "bn": "yard",
+    "roman": "yard"
+  },
+  {
+    "cat": "home",
+    "en": "gate",
+    "bn": "gate",
+    "roman": "gate"
+  },
+  {
+    "cat": "home",
+    "en": "fence",
+    "bn": "fence",
+    "roman": "fence"
+  },
+  {
+    "cat": "home",
+    "en": "mailbox",
+    "bn": "mailbox",
+    "roman": "mailbox"
+  },
+  {
+    "cat": "home",
+    "en": "doorbell",
+    "bn": "doorbell",
+    "roman": "doorbell"
+  },
+  {
+    "cat": "home",
+    "en": "door handle",
+    "bn": "dhanla",
+    "roman": "dhanla"
+  },
+  {
+    "cat": "home",
+    "en": "lock",
+    "bn": "tala",
+    "roman": "tala"
+  },
+  {
+    "cat": "home",
+    "en": "doorknob",
+    "bn": "dhanla",
+    "roman": "dhanla"
+  },
+  {
+    "cat": "home",
+    "en": "hinge",
+    "bn": "hinge",
+    "roman": "hinge"
+  },
+  {
+    "cat": "home",
+    "en": "door mat",
+    "bn": "dormat",
+    "roman": "dormat"
+  },
+  {
+    "cat": "home",
+    "en": "welcome mat",
+    "bn": "welcome mat",
+    "roman": "welcome mat"
+  },
+  {
+    "cat": "home",
+    "en": "smoke detector",
+    "bn": "smoke detector",
+    "roman": "smoke detector"
+  },
+  {
+    "cat": "home",
+    "en": "fire extinguisher",
+    "bn": "fire extinguisher",
+    "roman": "fire extinguisher"
+  },
+  {
+    "cat": "home",
+    "en": "first aid kit",
+    "bn": "first aid kit",
+    "roman": "first aid kit"
+  },
+  {
+    "cat": "home",
+    "en": "bandage",
+    "bn": "bandage",
+    "roman": "bandage"
+  },
+  {
+    "cat": "home",
+    "en": "medicine",
+    "bn": "oshudh",
+    "roman": "oshudh"
+  },
+  {
+    "cat": "home",
+    "en": "thermometer",
+    "bn": "thermometer",
+    "roman": "thermometer"
+  },
+  {
+    "cat": "home",
+    "en": "flashlight",
+    "bn": "flashlight",
+    "roman": "flashlight"
+  },
+  {
+    "cat": "home",
+    "en": "candle",
+    "bn": "mombati",
+    "roman": "mombati"
+  },
+  {
+    "cat": "home",
+    "en": "matchbox",
+    "bn": "diba",
+    "roman": "diba"
+  },
+  {
+    "cat": "home",
+    "en": "lighter",
+    "bn": "lighter",
+    "roman": "lighter"
+  },
+  {
+    "cat": "home",
+    "en": "extension cord",
+    "bn": "extension cord",
+    "roman": "extension cord"
+  },
+  {
+    "cat": "home",
+    "en": "plug",
+    "bn": "plug",
+    "roman": "plug"
+  },
+  {
+    "cat": "home",
+    "en": "socket",
+    "bn": "socket",
+    "roman": "socket"
+  },
+  {
+    "cat": "home",
+    "en": "switch",
+    "bn": "switch",
+    "roman": "switch"
+  },
+  {
+    "cat": "home",
+    "en": "bulb",
+    "bn": "bulb",
+    "roman": "bulb"
+  },
+  {
+    "cat": "home",
+    "en": "chandelier",
+    "bn": "chandelier",
+    "roman": "chandelier"
+  },
+  {
+    "cat": "home",
+    "en": "night light",
+    "bn": "night light",
+    "roman": "night light"
+  },
+  {
+    "cat": "home",
+    "en": "air conditioner",
+    "bn": "AC",
+    "roman": "ac"
+  },
+  {
+    "cat": "home",
+    "en": "heater",
+    "bn": "heater",
+    "roman": "heater"
+  },
+  {
+    "cat": "home",
+    "en": "humidifier",
+    "bn": "humidifier",
+    "roman": "humidifier"
+  },
+  {
+    "cat": "home",
+    "en": "dehumidifier",
+    "bn": "dehumidifier",
+    "roman": "dehumidifier"
+  },
+  {
+    "cat": "home",
+    "en": "air purifier",
+    "bn": "air purifier",
+    "roman": "air purifier"
+  },
+  {
+    "cat": "home",
+    "en": "remote control",
+    "bn": "remote",
+    "roman": "remote"
+  },
+  {
+    "cat": "home",
+    "en": "speaker",
+    "bn": "speaker",
+    "roman": "speaker"
+  },
+  {
+    "cat": "home",
+    "en": "radio",
+    "bn": "radio",
+    "roman": "radio"
+  },
+  {
+    "cat": "home",
+    "en": "computer",
+    "bn": "computer",
+    "roman": "computer"
+  },
+  {
+    "cat": "home",
+    "en": "laptop",
+    "bn": "laptop",
+    "roman": "laptop"
+  },
+  {
+    "cat": "home",
+    "en": "tablet",
+    "bn": "tablet",
+    "roman": "tablet"
+  },
+  {
+    "cat": "home",
+    "en": "keyboard",
+    "bn": "keyboard",
+    "roman": "keyboard"
+  },
+  {
+    "cat": "home",
+    "en": "mouse pad",
+    "bn": "mouse pad",
+    "roman": "mouse pad"
+  },
+  {
+    "cat": "home",
+    "en": "printer",
+    "bn": "printer",
+    "roman": "printer"
+  },
+  {
+    "cat": "home",
+    "en": "camera",
+    "bn": "camera",
+    "roman": "camera"
+  },
+  {
+    "cat": "home",
+    "en": "tripod",
+    "bn": "tripod",
+    "roman": "tripod"
+  },
+  {
+    "cat": "home",
+    "en": "backpack",
+    "bn": "backpack",
+    "roman": "backpack"
+  },
+  {
+    "cat": "home",
+    "en": "school bag",
+    "bn": "school bag",
+    "roman": "school bag"
+  },
+  {
+    "cat": "home",
+    "en": "pencil case",
+    "bn": "pencil case",
+    "roman": "pencil case"
+  },
+  {
+    "cat": "home",
+    "en": "eraser",
+    "bn": "eraser",
+    "roman": "eraser"
+  },
+  {
+    "cat": "home",
+    "en": "sharpener",
+    "bn": "sharpener",
+    "roman": "sharpener"
+  },
+  {
+    "cat": "home",
+    "en": "ruler",
+    "bn": "ruler",
+    "roman": "ruler"
+  },
+  {
+    "cat": "home",
+    "en": "glue",
+    "bn": "glue",
+    "roman": "glue"
+  },
+  {
+    "cat": "home",
+    "en": "tape",
+    "bn": "tape",
+    "roman": "tape"
+  },
+  {
+    "cat": "home",
+    "en": "stapler",
+    "bn": "stapler",
+    "roman": "stapler"
+  },
+  {
+    "cat": "home",
+    "en": "paper clip",
+    "bn": "paper clip",
+    "roman": "paper clip"
+  },
+  {
+    "cat": "home",
+    "en": "notebook",
+    "bn": "notebook",
+    "roman": "notebook"
+  },
+  {
+    "cat": "home",
+    "en": "diary",
+    "bn": "diary",
+    "roman": "diary"
+  },
+  {
+    "cat": "home",
+    "en": "calendar",
+    "bn": "calendar",
+    "roman": "calendar"
+  },
+  {
+    "cat": "home",
+    "en": "whiteboard",
+    "bn": "whiteboard",
+    "roman": "whiteboard"
+  },
+  {
+    "cat": "home",
+    "en": "blackboard",
+    "bn": "blackboard",
+    "roman": "blackboard"
+  },
+  {
+    "cat": "home",
+    "en": "chalk",
+    "bn": "chalk",
+    "roman": "chalk"
+  },
+  {
+    "cat": "home",
+    "en": "marker",
+    "bn": "marker",
+    "roman": "marker"
+  },
+  {
+    "cat": "home",
+    "en": "crayon",
+    "bn": "crayon",
+    "roman": "crayon"
+  },
+  {
+    "cat": "home",
+    "en": "paintbrush",
+    "bn": "paintbrush",
+    "roman": "paintbrush"
+  },
+  {
+    "cat": "home",
+    "en": "paint",
+    "bn": "rong",
+    "roman": "rong"
+  },
+  {
+    "cat": "home",
+    "en": "easel",
+    "bn": "easel",
+    "roman": "easel"
+  },
+  {
+    "cat": "home",
+    "en": "puzzle",
+    "bn": "puzzle",
+    "roman": "puzzle"
+  },
+  {
+    "cat": "home",
+    "en": "board game",
+    "bn": "board game",
+    "roman": "board game"
+  },
+  {
+    "cat": "home",
+    "en": "doll",
+    "bn": "doll",
+    "roman": "doll"
+  },
+  {
+    "cat": "home",
+    "en": "teddy bear",
+    "bn": "teddy bear",
+    "roman": "teddy bear"
+  },
+  {
+    "cat": "home",
+    "en": "blocks",
+    "bn": "blocks",
+    "roman": "blocks"
+  },
+  {
+    "cat": "home",
+    "en": "yo yo",
+    "bn": "yo yo",
+    "roman": "yo yo"
+  },
+  {
+    "cat": "home",
+    "en": "kite",
+    "bn": "ghuri",
+    "roman": "ghuri"
+  },
+  {
+    "cat": "home",
+    "en": "balloon",
+    "bn": "balloon",
+    "roman": "balloon"
+  },
+  {
+    "cat": "home",
+    "en": "party hat",
+    "bn": "party hat",
+    "roman": "party hat"
+  },
+  {
+    "cat": "home",
+    "en": "gift",
+    "bn": "gift",
+    "roman": "gift"
+  },
+  {
+    "cat": "home",
+    "en": "wrapping paper",
+    "bn": "wrapping paper",
+    "roman": "wrapping paper"
+  },
+  {
+    "cat": "home",
+    "en": "ribbon",
+    "bn": "ribbon",
+    "roman": "ribbon"
+  },
+  {
+    "cat": "home",
+    "en": "card",
+    "bn": "card",
+    "roman": "card"
+  },
+  {
+    "cat": "home",
+    "en": "envelope",
+    "bn": "envelope",
+    "roman": "envelope"
+  },
+  {
+    "cat": "home",
+    "en": "stamp",
+    "bn": "stamp",
+    "roman": "stamp"
+  },
+  {
+    "cat": "home",
+    "en": "photo frame",
+    "bn": "photo frame",
+    "roman": "photo frame"
+  },
+  {
+    "cat": "home",
+    "en": "vase",
+    "bn": "vase",
+    "roman": "vase"
+  },
+  {
+    "cat": "home",
+    "en": "plant pot",
+    "bn": "gach er tub",
+    "roman": "gach er tub"
+  },
+  {
+    "cat": "home",
+    "en": "watering can",
+    "bn": "pani dharar balti",
+    "roman": "pani dharar balti"
+  },
+  {
+    "cat": "home",
+    "en": "garden hose",
+    "bn": "garden hose",
+    "roman": "garden hose"
+  },
+  {
+    "cat": "home",
+    "en": "toolbox",
+    "bn": "toolbox",
+    "roman": "toolbox"
+  },
+  {
+    "cat": "home",
+    "en": "hammer",
+    "bn": "hammer",
+    "roman": "hammer"
+  },
+  {
+    "cat": "home",
+    "en": "screwdriver",
+    "bn": "screwdriver",
+    "roman": "screwdriver"
+  },
+  {
+    "cat": "home",
+    "en": "wrench",
+    "bn": "wrench",
+    "roman": "wrench"
+  },
+  {
+    "cat": "home",
+    "en": "nail",
+    "bn": "nail",
+    "roman": "nail"
+  },
+  {
+    "cat": "home",
+    "en": "screw",
+    "bn": "screw",
+    "roman": "screw"
+  },
+  {
+    "cat": "home",
+    "en": "drill",
+    "bn": "drill",
+    "roman": "drill"
+  },
+  {
+    "cat": "home",
+    "en": "ladder",
+    "bn": "ladder",
+    "roman": "ladder"
+  },
+  {
+    "cat": "home",
+    "en": "paint roller",
+    "bn": "paint roller",
+    "roman": "paint roller"
+  },
+  {
+    "cat": "home",
+    "en": "shovel",
+    "bn": "shovel",
+    "roman": "shovel"
+  },
+  {
+    "cat": "home",
+    "en": "rake",
+    "bn": "rake",
+    "roman": "rake"
+  },
+  {
+    "cat": "home",
+    "en": "wheelbarrow",
+    "bn": "wheelbarrow",
+    "roman": "wheelbarrow"
+  },
+  {
+    "cat": "clothes",
+    "en": "vest",
+    "bn": "baniyani",
+    "roman": "baniyani"
+  },
+  {
+    "cat": "clothes",
+    "en": "blouse",
+    "bn": "blouse",
+    "roman": "blouse"
+  },
+  {
+    "cat": "clothes",
+    "en": "dupatta",
+    "bn": "orna",
+    "roman": "orna"
+  },
+  {
+    "cat": "clothes",
+    "en": "shawl",
+    "bn": "shawl",
+    "roman": "shawl"
+  },
+  {
+    "cat": "clothes",
+    "en": "muffler",
+    "bn": "muffler",
+    "roman": "muffler"
+  },
+  {
+    "cat": "clothes",
+    "en": "cap",
+    "bn": "tupi",
+    "roman": "tupi"
+  },
+  {
+    "cat": "clothes",
+    "en": "helmet",
+    "bn": "helmet",
+    "roman": "helmet"
+  },
+  {
+    "cat": "clothes",
+    "en": "crown",
+    "bn": "mukut",
+    "roman": "mukut"
+  },
+  {
+    "cat": "clothes",
+    "en": "turban",
+    "bn": "pagri",
+    "roman": "pagri"
+  },
+  {
+    "cat": "clothes",
+    "en": "hijab",
+    "bn": "hijab",
+    "roman": "hijab"
+  },
+  {
+    "cat": "clothes",
+    "en": "burqa",
+    "bn": "burqa",
+    "roman": "burqa"
+  },
+  {
+    "cat": "clothes",
+    "en": "abaya",
+    "bn": "abaya",
+    "roman": "abaya"
+  },
+  {
+    "cat": "clothes",
+    "en": "panjabi top",
+    "bn": "panjabi",
+    "roman": "panjabi"
+  },
+  {
+    "cat": "clothes",
+    "en": "fatua",
+    "bn": "fatua",
+    "roman": "fatua"
+  },
+  {
+    "cat": "clothes",
+    "en": "kurta",
+    "bn": "kurta",
+    "roman": "kurta"
+  },
+  {
+    "cat": "clothes",
+    "en": "sherwani",
+    "bn": "sherwani",
+    "roman": "sherwani"
+  },
+  {
+    "cat": "clothes",
+    "en": "lehenga",
+    "bn": "lehenga",
+    "roman": "lehenga"
+  },
+  {
+    "cat": "clothes",
+    "en": "sharee blouse",
+    "bn": "sari blauj",
+    "roman": "sari blauj"
+  },
+  {
+    "cat": "clothes",
+    "en": "petticoat",
+    "bn": "petticoat",
+    "roman": "petticoat"
+  },
+  {
+    "cat": "clothes",
+    "en": "dhoti",
+    "bn": "dhoti",
+    "roman": "dhoti"
+  },
+  {
+    "cat": "clothes",
+    "en": "pajama pants",
+    "bn": "pajama",
+    "roman": "pajama"
+  },
+  {
+    "cat": "clothes",
+    "en": "track pants",
+    "bn": "track pant",
+    "roman": "track pant"
+  },
+  {
+    "cat": "clothes",
+    "en": "leggings",
+    "bn": "leggings",
+    "roman": "leggings"
+  },
+  {
+    "cat": "clothes",
+    "en": "tights",
+    "bn": "tights",
+    "roman": "tights"
+  },
+  {
+    "cat": "clothes",
+    "en": "swimsuit",
+    "bn": "swimsuit",
+    "roman": "swimsuit"
+  },
+  {
+    "cat": "clothes",
+    "en": "bikini",
+    "bn": "bikini",
+    "roman": "bikini"
+  },
+  {
+    "cat": "clothes",
+    "en": "raincoat",
+    "bn": "raincoat",
+    "roman": "raincoat"
+  },
+  {
+    "cat": "clothes",
+    "en": "windbreaker",
+    "bn": "windbreaker",
+    "roman": "windbreaker"
+  },
+  {
+    "cat": "clothes",
+    "en": "blazer",
+    "bn": "blazer",
+    "roman": "blazer"
+  },
+  {
+    "cat": "clothes",
+    "en": "cardigan",
+    "bn": "cardigan",
+    "roman": "cardigan"
+  },
+  {
+    "cat": "clothes",
+    "en": "poncho",
+    "bn": "poncho",
+    "roman": "poncho"
+  },
+  {
+    "cat": "clothes",
+    "en": "flip flops",
+    "bn": "flip flop",
+    "roman": "flip flop"
+  },
+  {
+    "cat": "clothes",
+    "en": "clogs",
+    "bn": "clogs",
+    "roman": "clogs"
+  },
+  {
+    "cat": "clothes",
+    "en": "heels",
+    "bn": "heel juto",
+    "roman": "heel juto"
+  },
+  {
+    "cat": "clothes",
+    "en": "loafers",
+    "bn": "loafers",
+    "roman": "loafers"
+  },
+  {
+    "cat": "clothes",
+    "en": "sneakers",
+    "bn": "sneakers",
+    "roman": "sneakers"
+  },
+  {
+    "cat": "clothes",
+    "en": "canvas shoes",
+    "bn": "canvas juto",
+    "roman": "canvas juto"
+  },
+  {
+    "cat": "clothes",
+    "en": "rain boots",
+    "bn": "rain boot",
+    "roman": "rain boot"
+  },
+  {
+    "cat": "clothes",
+    "en": "snow boots",
+    "bn": "snow boot",
+    "roman": "snow boot"
+  },
+  {
+    "cat": "clothes",
+    "en": "ankle socks",
+    "bn": "moja",
+    "roman": "moja"
+  },
+  {
+    "cat": "clothes",
+    "en": "knee socks",
+    "bn": "lamba moja",
+    "roman": "lamba moja"
+  },
+  {
+    "cat": "clothes",
+    "en": "stockings",
+    "bn": "stockings",
+    "roman": "stockings"
+  },
+  {
+    "cat": "clothes",
+    "en": "garter",
+    "bn": "garter",
+    "roman": "garter"
+  },
+  {
+    "cat": "clothes",
+    "en": "suspenders",
+    "bn": "suspenders",
+    "roman": "suspenders"
+  },
+  {
+    "cat": "clothes",
+    "en": "bow tie",
+    "bn": "bow tie",
+    "roman": "bow tie"
+  },
+  {
+    "cat": "clothes",
+    "en": "cufflinks",
+    "bn": "cufflinks",
+    "roman": "cufflinks"
+  },
+  {
+    "cat": "clothes",
+    "en": "brooch",
+    "bn": "brooch",
+    "roman": "brooch"
+  },
+  {
+    "cat": "clothes",
+    "en": "anklet",
+    "bn": "payel",
+    "roman": "payel"
+  },
+  {
+    "cat": "clothes",
+    "en": "toe ring",
+    "bn": "pay er angti",
+    "roman": "pay er angti"
+  },
+  {
+    "cat": "clothes",
+    "en": "bangle",
+    "bn": "churi",
+    "roman": "churi"
+  },
+  {
+    "cat": "clothes",
+    "en": "bracelet",
+    "bn": "bracelet",
+    "roman": "bracelet"
+  },
+  {
+    "cat": "clothes",
+    "en": "hair clip",
+    "bn": "chul er clip",
+    "roman": "chul er clip"
+  },
+  {
+    "cat": "clothes",
+    "en": "hair band",
+    "bn": "chul er band",
+    "roman": "chul er band"
+  },
+  {
+    "cat": "clothes",
+    "en": "hair pin",
+    "bn": "chul er pin",
+    "roman": "chul er pin"
+  },
+  {
+    "cat": "clothes",
+    "en": "ribbon hair",
+    "bn": "chul er ribbon",
+    "roman": "chul er ribbon"
+  },
+  {
+    "cat": "clothes",
+    "en": "veil",
+    "bn": "ghomta",
+    "roman": "ghomta"
+  },
+  {
+    "cat": "clothes",
+    "en": "mask",
+    "bn": "mask",
+    "roman": "mask"
+  },
+  {
+    "cat": "clothes",
+    "en": "gloves winter",
+    "bn": "dostana",
+    "roman": "dostana"
+  },
+  {
+    "cat": "clothes",
+    "en": "mittens",
+    "bn": "mittens",
+    "roman": "mittens"
+  },
+  {
+    "cat": "clothes",
+    "en": "apron",
+    "bn": "apron",
+    "roman": "apron"
+  },
+  {
+    "cat": "clothes",
+    "en": "uniform",
+    "bn": "uniform",
+    "roman": "uniform"
+  },
+  {
+    "cat": "clothes",
+    "en": "school uniform",
+    "bn": "school uniform",
+    "roman": "school uniform"
+  },
+  {
+    "cat": "clothes",
+    "en": "sports uniform",
+    "bn": "khelar poshak",
+    "roman": "khelar poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "lab coat",
+    "bn": "lab coat",
+    "roman": "lab coat"
+  },
+  {
+    "cat": "clothes",
+    "en": "overalls",
+    "bn": "overalls",
+    "roman": "overalls"
+  },
+  {
+    "cat": "clothes",
+    "en": "romper",
+    "bn": "romper",
+    "roman": "romper"
+  },
+  {
+    "cat": "clothes",
+    "en": "onesie",
+    "bn": "onesie",
+    "roman": "onesie"
+  },
+  {
+    "cat": "clothes",
+    "en": "bib",
+    "bn": "bib",
+    "roman": "bib"
+  },
+  {
+    "cat": "clothes",
+    "en": "diaper",
+    "bn": "diaper",
+    "roman": "diaper"
+  },
+  {
+    "cat": "clothes",
+    "en": "swaddle",
+    "bn": "swaddle",
+    "roman": "swaddle"
+  },
+  {
+    "cat": "clothes",
+    "en": "blanket wrap",
+    "bn": "kombol",
+    "roman": "kombol"
+  },
+  {
+    "cat": "clothes",
+    "en": "handkerchief",
+    "bn": "rumal",
+    "roman": "rumal"
+  },
+  {
+    "cat": "clothes",
+    "en": "pocket square",
+    "bn": "pocket square",
+    "roman": "pocket square"
+  },
+  {
+    "cat": "clothes",
+    "en": "belt buckle",
+    "bn": "belt buckle",
+    "roman": "belt buckle"
+  },
+  {
+    "cat": "clothes",
+    "en": "safety pin",
+    "bn": "safety pin",
+    "roman": "safety pin"
+  },
+  {
+    "cat": "clothes",
+    "en": "sewing kit",
+    "bn": "sewing kit",
+    "roman": "sewing kit"
+  },
+  {
+    "cat": "clothes",
+    "en": "thread",
+    "bn": "sut",
+    "roman": "sut"
+  },
+  {
+    "cat": "clothes",
+    "en": "needle",
+    "bn": "su",
+    "roman": "su"
+  },
+  {
+    "cat": "clothes",
+    "en": "thimble",
+    "bn": "thimble",
+    "roman": "thimble"
+  },
+  {
+    "cat": "clothes",
+    "en": "fabric",
+    "bn": "kapra",
+    "roman": "kapra"
+  },
+  {
+    "cat": "clothes",
+    "en": "cotton cloth",
+    "bn": "tuti",
+    "roman": "tuti"
+  },
+  {
+    "cat": "clothes",
+    "en": "silk cloth",
+    "bn": "resham",
+    "roman": "resham"
+  },
+  {
+    "cat": "clothes",
+    "en": "wool cloth",
+    "bn": "un",
+    "roman": "un"
+  },
+  {
+    "cat": "clothes",
+    "en": "denim",
+    "bn": "denim",
+    "roman": "denim"
+  },
+  {
+    "cat": "clothes",
+    "en": "leather",
+    "bn": "chamra",
+    "roman": "chamra"
+  },
+  {
+    "cat": "clothes",
+    "en": "fur coat",
+    "bn": "fur coat",
+    "roman": "fur coat"
+  },
+  {
+    "cat": "clothes",
+    "en": "patterned shirt",
+    "bn": "design shirt",
+    "roman": "design shirt"
+  },
+  {
+    "cat": "clothes",
+    "en": "striped shirt",
+    "bn": "dori shirt",
+    "roman": "dori shirt"
+  },
+  {
+    "cat": "clothes",
+    "en": "checked shirt",
+    "bn": "kata shirt",
+    "roman": "kata shirt"
+  },
+  {
+    "cat": "clothes",
+    "en": "plain shirt",
+    "bn": "sada shirt",
+    "roman": "sada shirt"
+  },
+  {
+    "cat": "clothes",
+    "en": "fancy dress",
+    "bn": "fancy poshak",
+    "roman": "fancy poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "costume",
+    "bn": "costume",
+    "roman": "costume"
+  },
+  {
+    "cat": "clothes",
+    "en": "traditional dress",
+    "bn": "traditional poshak",
+    "roman": "traditional poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "wedding dress",
+    "bn": "biye poshak",
+    "roman": "biye poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "party dress",
+    "bn": "party poshak",
+    "roman": "party poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "nightdress",
+    "bn": "rat poshak",
+    "roman": "rat poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "housecoat",
+    "bn": "ghor poshak",
+    "roman": "ghor poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "bathrobe",
+    "bn": "bathrobe",
+    "roman": "bathrobe"
+  },
+  {
+    "cat": "clothes",
+    "en": "slippers home",
+    "bn": "ghor slipar",
+    "roman": "ghor slipar"
+  },
+  {
+    "cat": "clothes",
+    "en": "monsoon gear",
+    "bn": "borsha poshak",
+    "roman": "borsha poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "winter coat",
+    "bn": "sheet poshak",
+    "roman": "sheet poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "monsoon umbrella",
+    "bn": "borsha chata",
+    "roman": "borsha chata"
+  },
+  {
+    "cat": "clothes",
+    "en": "sun hat",
+    "bn": "surjo tupi",
+    "roman": "surjo tupi"
+  },
+  {
+    "cat": "clothes",
+    "en": "winter hat",
+    "bn": "sheet tupi",
+    "roman": "sheet tupi"
+  },
+  {
+    "cat": "clothes",
+    "en": "earmuffs",
+    "bn": "kan cover",
+    "roman": "kan cover"
+  },
+  {
+    "cat": "clothes",
+    "en": "neck warmer",
+    "bn": "gola cover",
+    "roman": "gola cover"
+  },
+  {
+    "cat": "clothes",
+    "en": "thermal wear",
+    "bn": "thermal",
+    "roman": "thermal"
+  },
+  {
+    "cat": "clothes",
+    "en": "rain pants",
+    "bn": "borsha pant",
+    "roman": "borsha pant"
+  },
+  {
+    "cat": "clothes",
+    "en": "fishing vest",
+    "bn": "mach dhara vest",
+    "roman": "mach dhara vest"
+  },
+  {
+    "cat": "clothes",
+    "en": "tool belt",
+    "bn": "tool belt",
+    "roman": "tool belt"
+  },
+  {
+    "cat": "clothes",
+    "en": "money belt",
+    "bn": "money belt",
+    "roman": "money belt"
+  },
+  {
+    "cat": "clothes",
+    "en": "fanny pack",
+    "bn": "fanny pack",
+    "roman": "fanny pack"
+  },
+  {
+    "cat": "clothes",
+    "en": "crossbody bag",
+    "bn": "crossbody bag",
+    "roman": "crossbody bag"
+  },
+  {
+    "cat": "clothes",
+    "en": "handbag",
+    "bn": "handbag",
+    "roman": "handbag"
+  },
+  {
+    "cat": "clothes",
+    "en": "wallet",
+    "bn": "wallet",
+    "roman": "wallet"
+  },
+  {
+    "cat": "clothes",
+    "en": "coin purse",
+    "bn": "coin purse",
+    "roman": "coin purse"
+  },
+  {
+    "cat": "clothes",
+    "en": "keychain",
+    "bn": "keychain",
+    "roman": "keychain"
+  },
+  {
+    "cat": "clothes",
+    "en": "lanyard",
+    "bn": "lanyard",
+    "roman": "lanyard"
+  },
+  {
+    "cat": "clothes",
+    "en": "name tag",
+    "bn": "name tag",
+    "roman": "name tag"
+  },
+  {
+    "cat": "clothes",
+    "en": "badge",
+    "bn": "badge",
+    "roman": "badge"
+  },
+  {
+    "cat": "clothes",
+    "en": "sash",
+    "bn": "sash",
+    "roman": "sash"
+  },
+  {
+    "cat": "clothes",
+    "en": "medal ribbon",
+    "bn": "medal ribbon",
+    "roman": "medal ribbon"
+  },
+  {
+    "cat": "clothes",
+    "en": "sequin dress",
+    "bn": "sequin poshak",
+    "roman": "sequin poshak"
+  },
+  {
+    "cat": "clothes",
+    "en": "embroidered cloth",
+    "bn": "kata kapra",
+    "roman": "kata kapra"
+  },
+  {
+    "cat": "clothes",
+    "en": "block print",
+    "bn": "block print",
+    "roman": "block print"
+  },
+  {
+    "cat": "clothes",
+    "en": "tie dye",
+    "bn": "tie dye",
+    "roman": "tie dye"
+  },
+  {
+    "cat": "clothes",
+    "en": "batik",
+    "bn": "batik",
+    "roman": "batik"
+  },
+  {
+    "cat": "clothes",
+    "en": "muslin",
+    "bn": "muslin",
+    "roman": "muslin"
+  },
+  {
+    "cat": "clothes",
+    "en": "jamdani",
+    "bn": "jamdani",
+    "roman": "jamdani"
+  },
+  {
+    "cat": "clothes",
+    "en": "nakshi kantha",
+    "bn": "nakshi kantha",
+    "roman": "nakshi kantha"
+  },
+  {
+    "cat": "clothes",
+    "en": "gamcha towel",
+    "bn": "gamcha",
+    "roman": "gamcha"
+  },
+  {
+    "cat": "clothes",
+    "en": "tupi cap",
+    "bn": "tupi",
+    "roman": "tupi"
+  },
+  {
+    "cat": "clothes",
+    "en": "topi",
+    "bn": "topi",
+    "roman": "topi"
+  },
+  {
+    "cat": "transport",
+    "en": "auto rickshaw",
+    "bn": "auto rickshaw",
+    "roman": "auto rickshaw"
+  },
+  {
+    "cat": "transport",
+    "en": "cycle rickshaw",
+    "bn": "cycle rickshaw",
+    "roman": "cycle rickshaw"
+  },
+  {
+    "cat": "transport",
+    "en": "tempo",
+    "bn": "tempo",
+    "roman": "tempo"
+  },
+  {
+    "cat": "transport",
+    "en": "microbus",
+    "bn": "microbus",
+    "roman": "microbus"
+  },
+  {
+    "cat": "transport",
+    "en": "minibus",
+    "bn": "minibus",
+    "roman": "minibus"
+  },
+  {
+    "cat": "transport",
+    "en": "double decker",
+    "bn": "double decker",
+    "roman": "double decker"
+  },
+  {
+    "cat": "transport",
+    "en": "school bus",
+    "bn": "school bus",
+    "roman": "school bus"
+  },
+  {
+    "cat": "transport",
+    "en": "express train",
+    "bn": "express train",
+    "roman": "express train"
+  },
+  {
+    "cat": "transport",
+    "en": "local train",
+    "bn": "local train",
+    "roman": "local train"
+  },
+  {
+    "cat": "transport",
+    "en": "metro rail",
+    "bn": "metro rail",
+    "roman": "metro rail"
+  },
+  {
+    "cat": "transport",
+    "en": "monorail",
+    "bn": "monorail",
+    "roman": "monorail"
+  },
+  {
+    "cat": "transport",
+    "en": "cargo ship",
+    "bn": "cargo ship",
+    "roman": "cargo ship"
+  },
+  {
+    "cat": "transport",
+    "en": "fishing boat",
+    "bn": "mach dhara nouka",
+    "roman": "mach dhara nouka"
+  },
+  {
+    "cat": "transport",
+    "en": "speedboat",
+    "bn": "speedboat",
+    "roman": "speedboat"
+  },
+  {
+    "cat": "transport",
+    "en": "yacht",
+    "bn": "yacht",
+    "roman": "yacht"
+  },
+  {
+    "cat": "transport",
+    "en": "canoe",
+    "bn": "canoe",
+    "roman": "canoe"
+  },
+  {
+    "cat": "transport",
+    "en": "kayak",
+    "bn": "kayak",
+    "roman": "kayak"
+  },
+  {
+    "cat": "transport",
+    "en": "raft",
+    "bn": "raft",
+    "roman": "raft"
+  },
+  {
+    "cat": "transport",
+    "en": "paddle boat",
+    "bn": "paddle boat",
+    "roman": "paddle boat"
+  },
+  {
+    "cat": "transport",
+    "en": "water taxi",
+    "bn": "water taxi",
+    "roman": "water taxi"
+  },
+  {
+    "cat": "transport",
+    "en": "launch",
+    "bn": "launch",
+    "roman": "launch"
+  },
+  {
+    "cat": "transport",
+    "en": "hovercraft",
+    "bn": "hovercraft",
+    "roman": "hovercraft"
+  },
+  {
+    "cat": "transport",
+    "en": "glider",
+    "bn": "glider",
+    "roman": "glider"
+  },
+  {
+    "cat": "transport",
+    "en": "hot air balloon",
+    "bn": "hot air balloon",
+    "roman": "hot air balloon"
+  },
+  {
+    "cat": "transport",
+    "en": "parachute",
+    "bn": "parachute",
+    "roman": "parachute"
+  },
+  {
+    "cat": "transport",
+    "en": "skateboard",
+    "bn": "skateboard",
+    "roman": "skateboard"
+  },
+  {
+    "cat": "transport",
+    "en": "roller skates",
+    "bn": "roller skates",
+    "roman": "roller skates"
+  },
+  {
+    "cat": "transport",
+    "en": "segway",
+    "bn": "segway",
+    "roman": "segway"
+  },
+  {
+    "cat": "transport",
+    "en": "unicycle",
+    "bn": "unicycle",
+    "roman": "unicycle"
+  },
+  {
+    "cat": "transport",
+    "en": "tricycle",
+    "bn": "tricycle",
+    "roman": "tricycle"
+  },
+  {
+    "cat": "transport",
+    "en": "handcart",
+    "bn": "hath gari",
+    "roman": "hath gari"
+  },
+  {
+    "cat": "transport",
+    "en": "bullock cart",
+    "bn": "goru gari",
+    "roman": "goru gari"
+  },
+  {
+    "cat": "transport",
+    "en": "horse carriage",
+    "bn": "ghora gari",
+    "roman": "ghora gari"
+  },
+  {
+    "cat": "transport",
+    "en": "palanquin",
+    "bn": "palki",
+    "roman": "palki"
+  },
+  {
+    "cat": "transport",
+    "en": "sedan",
+    "bn": "sedan",
+    "roman": "sedan"
+  },
+  {
+    "cat": "transport",
+    "en": "hatchback",
+    "bn": "hatchback",
+    "roman": "hatchback"
+  },
+  {
+    "cat": "transport",
+    "en": "suv",
+    "bn": "SUV",
+    "roman": "suv"
+  },
+  {
+    "cat": "transport",
+    "en": "pickup truck",
+    "bn": "pickup",
+    "roman": "pickup"
+  },
+  {
+    "cat": "transport",
+    "en": "dump truck",
+    "bn": "dump truck",
+    "roman": "dump truck"
+  },
+  {
+    "cat": "transport",
+    "en": "tow truck",
+    "bn": "tow truck",
+    "roman": "tow truck"
+  },
+  {
+    "cat": "transport",
+    "en": "garbage truck",
+    "bn": "garbage truck",
+    "roman": "garbage truck"
+  },
+  {
+    "cat": "transport",
+    "en": "cement mixer",
+    "bn": "cement mixer",
+    "roman": "cement mixer"
+  },
+  {
+    "cat": "transport",
+    "en": "crane truck",
+    "bn": "crane",
+    "roman": "crane"
+  },
+  {
+    "cat": "transport",
+    "en": "bulldozer",
+    "bn": "bulldozer",
+    "roman": "bulldozer"
+  },
+  {
+    "cat": "transport",
+    "en": "excavator",
+    "bn": "excavator",
+    "roman": "excavator"
+  },
+  {
+    "cat": "transport",
+    "en": "forklift",
+    "bn": "forklift",
+    "roman": "forklift"
+  },
+  {
+    "cat": "transport",
+    "en": "golf cart",
+    "bn": "golf cart",
+    "roman": "golf cart"
+  },
+  {
+    "cat": "transport",
+    "en": "snowmobile",
+    "bn": "snowmobile",
+    "roman": "snowmobile"
+  },
+  {
+    "cat": "transport",
+    "en": "sled",
+    "bn": "sled",
+    "roman": "sled"
+  },
+  {
+    "cat": "transport",
+    "en": "wheelchair",
+    "bn": "wheelchair",
+    "roman": "wheelchair"
+  },
+  {
+    "cat": "transport",
+    "en": "stroller",
+    "bn": "stroller",
+    "roman": "stroller"
+  },
+  {
+    "cat": "transport",
+    "en": "shopping cart",
+    "bn": "shopping cart",
+    "roman": "shopping cart"
+  },
+  {
+    "cat": "transport",
+    "en": "luggage cart",
+    "bn": "luggage cart",
+    "roman": "luggage cart"
+  },
+  {
+    "cat": "transport",
+    "en": "trolley",
+    "bn": "trolley",
+    "roman": "trolley"
+  },
+  {
+    "cat": "transport",
+    "en": "dolly",
+    "bn": "dolly",
+    "roman": "dolly"
+  },
+  {
+    "cat": "transport",
+    "en": "conveyor belt",
+    "bn": "conveyor",
+    "roman": "conveyor"
+  },
+  {
+    "cat": "transport",
+    "en": "escalator",
+    "bn": "escalator",
+    "roman": "escalator"
+  },
+  {
+    "cat": "transport",
+    "en": "elevator",
+    "bn": "elevator",
+    "roman": "elevator"
+  },
+  {
+    "cat": "transport",
+    "en": "moving walkway",
+    "bn": "moving walkway",
+    "roman": "moving walkway"
+  },
+  {
+    "cat": "transport",
+    "en": "highway",
+    "bn": "highway",
+    "roman": "highway"
+  },
+  {
+    "cat": "transport",
+    "en": "expressway",
+    "bn": "expressway",
+    "roman": "expressway"
+  },
+  {
+    "cat": "transport",
+    "en": "alley",
+    "bn": "goli",
+    "roman": "goli"
+  },
+  {
+    "cat": "transport",
+    "en": "path",
+    "bn": "poth",
+    "roman": "poth"
+  },
+  {
+    "cat": "transport",
+    "en": "sidewalk",
+    "bn": "footpath",
+    "roman": "footpath"
+  },
+  {
+    "cat": "transport",
+    "en": "crosswalk",
+    "bn": "crosswalk",
+    "roman": "crosswalk"
+  },
+  {
+    "cat": "transport",
+    "en": "roundabout",
+    "bn": "roundabout",
+    "roman": "roundabout"
+  },
+  {
+    "cat": "transport",
+    "en": "intersection",
+    "bn": "crossing",
+    "roman": "crossing"
+  },
+  {
+    "cat": "transport",
+    "en": "tunnel",
+    "bn": "tunnel",
+    "roman": "tunnel"
+  },
+  {
+    "cat": "transport",
+    "en": "overpass",
+    "bn": "overpass",
+    "roman": "overpass"
+  },
+  {
+    "cat": "transport",
+    "en": "underpass",
+    "bn": "underpass",
+    "roman": "underpass"
+  },
+  {
+    "cat": "transport",
+    "en": "parking lot",
+    "bn": "parking",
+    "roman": "parking"
+  },
+  {
+    "cat": "transport",
+    "en": "garage parking",
+    "bn": "garage",
+    "roman": "garage"
+  },
+  {
+    "cat": "transport",
+    "en": "gas station",
+    "bn": "gas station",
+    "roman": "gas station"
+  },
+  {
+    "cat": "transport",
+    "en": "charging station",
+    "bn": "charging station",
+    "roman": "charging station"
+  },
+  {
+    "cat": "transport",
+    "en": "toll booth",
+    "bn": "toll booth",
+    "roman": "toll booth"
+  },
+  {
+    "cat": "transport",
+    "en": "weigh station",
+    "bn": "weigh station",
+    "roman": "weigh station"
+  },
+  {
+    "cat": "transport",
+    "en": "border crossing",
+    "bn": "border",
+    "roman": "border"
+  },
+  {
+    "cat": "transport",
+    "en": "customs",
+    "bn": "customs",
+    "roman": "customs"
+  },
+  {
+    "cat": "transport",
+    "en": "port",
+    "bn": "port",
+    "roman": "port"
+  },
+  {
+    "cat": "transport",
+    "en": "harbor",
+    "bn": "harbor",
+    "roman": "harbor"
+  },
+  {
+    "cat": "transport",
+    "en": "dock",
+    "bn": "dock",
+    "roman": "dock"
+  },
+  {
+    "cat": "transport",
+    "en": "pier",
+    "bn": "pier",
+    "roman": "pier"
+  },
+  {
+    "cat": "transport",
+    "en": "runway",
+    "bn": "runway",
+    "roman": "runway"
+  },
+  {
+    "cat": "transport",
+    "en": "control tower",
+    "bn": "control tower",
+    "roman": "control tower"
+  },
+  {
+    "cat": "transport",
+    "en": "hangar",
+    "bn": "hangar",
+    "roman": "hangar"
+  },
+  {
+    "cat": "transport",
+    "en": "helipad",
+    "bn": "helipad",
+    "roman": "helipad"
+  },
+  {
+    "cat": "transport",
+    "en": "train track",
+    "bn": "rail line",
+    "roman": "rail line"
+  },
+  {
+    "cat": "transport",
+    "en": "railway crossing",
+    "bn": "rail crossing",
+    "roman": "rail crossing"
+  },
+  {
+    "cat": "transport",
+    "en": "platform",
+    "bn": "platform",
+    "roman": "platform"
+  },
+  {
+    "cat": "transport",
+    "en": "waiting room",
+    "bn": "waiting room",
+    "roman": "waiting room"
+  },
+  {
+    "cat": "transport",
+    "en": "departure",
+    "bn": "departure",
+    "roman": "departure"
+  },
+  {
+    "cat": "transport",
+    "en": "arrival",
+    "bn": "arrival",
+    "roman": "arrival"
+  },
+  {
+    "cat": "transport",
+    "en": "boarding pass",
+    "bn": "boarding pass",
+    "roman": "boarding pass"
+  },
+  {
+    "cat": "transport",
+    "en": "passport",
+    "bn": "passport",
+    "roman": "passport"
+  },
+  {
+    "cat": "transport",
+    "en": "visa",
+    "bn": "visa",
+    "roman": "visa"
+  },
+  {
+    "cat": "transport",
+    "en": "luggage",
+    "bn": "luggage",
+    "roman": "luggage"
+  },
+  {
+    "cat": "transport",
+    "en": "suitcase",
+    "bn": "suitcase",
+    "roman": "suitcase"
+  },
+  {
+    "cat": "transport",
+    "en": "backpack travel",
+    "bn": "travel bag",
+    "roman": "travel bag"
+  },
+  {
+    "cat": "transport",
+    "en": "duffel bag",
+    "bn": "duffel bag",
+    "roman": "duffel bag"
+  },
+  {
+    "cat": "transport",
+    "en": "seat belt",
+    "bn": "seat belt",
+    "roman": "seat belt"
+  },
+  {
+    "cat": "transport",
+    "en": "car seat",
+    "bn": "car seat",
+    "roman": "car seat"
+  },
+  {
+    "cat": "transport",
+    "en": "dashboard",
+    "bn": "dashboard",
+    "roman": "dashboard"
+  },
+  {
+    "cat": "transport",
+    "en": "rearview mirror",
+    "bn": "rearview mirror",
+    "roman": "rearview mirror"
+  },
+  {
+    "cat": "transport",
+    "en": "windshield",
+    "bn": "windshield",
+    "roman": "windshield"
+  },
+  {
+    "cat": "transport",
+    "en": "wiper",
+    "bn": "wiper",
+    "roman": "wiper"
+  },
+  {
+    "cat": "transport",
+    "en": "headlight",
+    "bn": "headlight",
+    "roman": "headlight"
+  },
+  {
+    "cat": "transport",
+    "en": "taillight",
+    "bn": "taillight",
+    "roman": "taillight"
+  },
+  {
+    "cat": "transport",
+    "en": "turn signal",
+    "bn": "turn signal",
+    "roman": "turn signal"
+  },
+  {
+    "cat": "transport",
+    "en": "speedometer",
+    "bn": "speedometer",
+    "roman": "speedometer"
+  },
+  {
+    "cat": "transport",
+    "en": "odometer",
+    "bn": "odometer",
+    "roman": "odometer"
+  },
+  {
+    "cat": "transport",
+    "en": "gps",
+    "bn": "GPS",
+    "roman": "gps"
+  },
+  {
+    "cat": "transport",
+    "en": "compass",
+    "bn": "compass",
+    "roman": "compass"
+  },
+  {
+    "cat": "transport",
+    "en": "life jacket",
+    "bn": "life jacket",
+    "roman": "life jacket"
+  },
+  {
+    "cat": "transport",
+    "en": "anchor",
+    "bn": "anchor",
+    "roman": "anchor"
+  },
+  {
+    "cat": "transport",
+    "en": "sail",
+    "bn": "sail",
+    "roman": "sail"
+  },
+  {
+    "cat": "transport",
+    "en": "paddle",
+    "bn": "paddle",
+    "roman": "paddle"
+  },
+  {
+    "cat": "transport",
+    "en": "oar",
+    "bn": "oar",
+    "roman": "oar"
+  },
+  {
+    "cat": "transport",
+    "en": "motor",
+    "bn": "motor",
+    "roman": "motor"
+  },
+  {
+    "cat": "transport",
+    "en": "engine",
+    "bn": "engine",
+    "roman": "engine"
+  },
+  {
+    "cat": "transport",
+    "en": "propeller",
+    "bn": "propeller",
+    "roman": "propeller"
+  },
+  {
+    "cat": "transport",
+    "en": "jet engine",
+    "bn": "jet engine",
+    "roman": "jet engine"
+  },
+  {
+    "cat": "transport",
+    "en": "rocket engine",
+    "bn": "rocket engine",
+    "roman": "rocket engine"
+  },
+  {
+    "cat": "transport",
+    "en": "paraglider",
+    "bn": "paraglider",
+    "roman": "paraglider"
+  },
+  {
+    "cat": "transport",
+    "en": "hang glider",
+    "bn": "hang glider",
+    "roman": "hang glider"
+  },
+  {
+    "cat": "transport",
+    "en": "zip line",
+    "bn": "zip line",
+    "roman": "zip line"
+  },
+  {
+    "cat": "transport",
+    "en": "cable car",
+    "bn": "cable car",
+    "roman": "cable car"
+  },
+  {
+    "cat": "transport",
+    "en": "funicular",
+    "bn": "funicular",
+    "roman": "funicular"
+  },
+  {
+    "cat": "transport",
+    "en": "gondola lift",
+    "bn": "gondola",
+    "roman": "gondola"
+  },
+  {
+    "cat": "transport",
+    "en": "rickshaw stand",
+    "bn": "rickshaw stand",
+    "roman": "rickshaw stand"
+  },
+  {
+    "cat": "transport",
+    "en": "bus stop",
+    "bn": "bus stop",
+    "roman": "bus stop"
+  },
+  {
+    "cat": "transport",
+    "en": "taxi stand",
+    "bn": "taxi stand",
+    "roman": "taxi stand"
+  },
+  {
+    "cat": "transport",
+    "en": "bike lane",
+    "bn": "bike lane",
+    "roman": "bike lane"
+  },
+  {
+    "cat": "transport",
+    "en": "traffic jam",
+    "bn": "jam",
+    "roman": "jam"
+  },
+  {
+    "cat": "transport",
+    "en": "road work",
+    "bn": "road work",
+    "roman": "road work"
+  },
+  {
+    "cat": "transport",
+    "en": "detour",
+    "bn": "detour",
+    "roman": "detour"
+  },
+  {
+    "cat": "transport",
+    "en": "one way",
+    "bn": "one way",
+    "roman": "one way"
+  },
+  {
+    "cat": "transport",
+    "en": "speed limit",
+    "bn": "speed limit",
+    "roman": "speed limit"
+  },
+  {
+    "cat": "transport",
+    "en": "stop sign",
+    "bn": "stop sign",
+    "roman": "stop sign"
+  },
+  {
+    "cat": "transport",
+    "en": "yield sign",
+    "bn": "yield sign",
+    "roman": "yield sign"
+  },
+  {
+    "cat": "transport",
+    "en": "pedestrian",
+    "bn": "peyde",
+    "roman": "peyde"
+  },
+  {
+    "cat": "transport",
+    "en": "cyclist",
+    "bn": "saikelist",
+    "roman": "saikelist"
+  },
+  {
+    "cat": "transport",
+    "en": "motorcyclist",
+    "bn": "motorcyclist",
+    "roman": "motorcyclist"
+  },
+  {
+    "cat": "feelings",
+    "en": "nervous",
+    "bn": "nervous",
+    "roman": "nervous"
+  },
+  {
+    "cat": "feelings",
+    "en": "anxious",
+    "bn": "chintito",
+    "roman": "chintito"
+  },
+  {
+    "cat": "feelings",
+    "en": "stressed",
+    "bn": "stress",
+    "roman": "stress"
+  },
+  {
+    "cat": "feelings",
+    "en": "relaxed",
+    "bn": "aram",
+    "roman": "aram"
+  },
+  {
+    "cat": "feelings",
+    "en": "peaceful",
+    "bn": "shanti",
+    "roman": "peaceful"
+  },
+  {
+    "cat": "feelings",
+    "en": "content",
+    "bn": "santushto",
+    "roman": "santushto"
+  },
+  {
+    "cat": "feelings",
+    "en": "pleased",
+    "bn": "khushi",
+    "roman": "khushi"
+  },
+  {
+    "cat": "feelings",
+    "en": "delighted",
+    "bn": "khushi",
+    "roman": "khushi"
+  },
+  {
+    "cat": "feelings",
+    "en": "joyful",
+    "bn": "anondo",
+    "roman": "anondo"
+  },
+  {
+    "cat": "feelings",
+    "en": "cheerful",
+    "bn": "khushi",
+    "roman": "cheerful"
+  },
+  {
+    "cat": "feelings",
+    "en": "gleeful",
+    "bn": "khushi",
+    "roman": "gleeful"
+  },
+  {
+    "cat": "feelings",
+    "en": "merry",
+    "bn": "khushi",
+    "roman": "merry"
+  },
+  {
+    "cat": "feelings",
+    "en": "optimistic",
+    "bn": "optimistic",
+    "roman": "optimistic"
+  },
+  {
+    "cat": "feelings",
+    "en": "hopeless",
+    "bn": "ashah",
+    "roman": "ashah"
+  },
+  {
+    "cat": "feelings",
+    "en": "hopeless feeling",
+    "bn": "nirash",
+    "roman": "nirash"
+  },
+  {
+    "cat": "feelings",
+    "en": "discouraged",
+    "bn": "hataash",
+    "roman": "discouraged"
+  },
+  {
+    "cat": "feelings",
+    "en": "disappointed",
+    "bn": "hataash",
+    "roman": "disappointed"
+  },
+  {
+    "cat": "feelings",
+    "en": "frustrated",
+    "bn": "hataash",
+    "roman": "frustrated"
+  },
+  {
+    "cat": "feelings",
+    "en": "annoyed",
+    "bn": "birokto",
+    "roman": "birokto"
+  },
+  {
+    "cat": "feelings",
+    "en": "irritated",
+    "bn": "birokto",
+    "roman": "irritated"
+  },
+  {
+    "cat": "feelings",
+    "en": "furious",
+    "bn": "roge",
+    "roman": "roge"
+  },
+  {
+    "cat": "feelings",
+    "en": "rage",
+    "bn": "roge",
+    "roman": "rage"
+  },
+  {
+    "cat": "feelings",
+    "en": "mad",
+    "bn": "pagol",
+    "roman": "mad"
+  },
+  {
+    "cat": "feelings",
+    "en": "upset",
+    "bn": "dukkho",
+    "roman": "dukkho"
+  },
+  {
+    "cat": "feelings",
+    "en": "heartbroken",
+    "bn": "bhangapran",
+    "roman": "bhangapran"
+  },
+  {
+    "cat": "feelings",
+    "en": "miserable",
+    "bn": "dukkho",
+    "roman": "miserable"
+  },
+  {
+    "cat": "feelings",
+    "en": "gloomy",
+    "bn": "dukkho",
+    "roman": "gloomy"
+  },
+  {
+    "cat": "feelings",
+    "en": "depressed",
+    "bn": "dukkho",
+    "roman": "depressed"
+  },
+  {
+    "cat": "feelings",
+    "en": "melancholy",
+    "bn": "dukkho",
+    "roman": "melancholy"
+  },
+  {
+    "cat": "feelings",
+    "en": "homesick",
+    "bn": "ghor er shad",
+    "roman": "ghor er shad"
+  },
+  {
+    "cat": "feelings",
+    "en": "nostalgic",
+    "bn": "nostalgic",
+    "roman": "nostalgic"
+  },
+  {
+    "cat": "feelings",
+    "en": "sentimental",
+    "bn": "anubhutipurno",
+    "roman": "anubhutipurno"
+  },
+  {
+    "cat": "feelings",
+    "en": "touched",
+    "bn": "anubhuto",
+    "roman": "anubhuto"
+  },
+  {
+    "cat": "feelings",
+    "en": "moved",
+    "bn": "anubhuto",
+    "roman": "moved"
+  },
+  {
+    "cat": "feelings",
+    "en": "grateful feeling",
+    "bn": "kritoggo",
+    "roman": "kritoggo"
+  },
+  {
+    "cat": "feelings",
+    "en": "thankful",
+    "bn": "dhonnobad",
+    "roman": "thankful"
+  },
+  {
+    "cat": "feelings",
+    "en": "appreciative",
+    "bn": "kritoggo",
+    "roman": "appreciative"
+  },
+  {
+    "cat": "feelings",
+    "en": "respectful",
+    "bn": "shroddha",
+    "roman": "shroddha"
+  },
+  {
+    "cat": "feelings",
+    "en": "admiring",
+    "bn": "proshongsha",
+    "roman": "proshongsha"
+  },
+  {
+    "cat": "feelings",
+    "en": "inspired",
+    "bn": "utshahito",
+    "roman": "utshahito"
+  },
+  {
+    "cat": "feelings",
+    "en": "motivated",
+    "bn": "utshahito",
+    "roman": "motivated"
+  },
+  {
+    "cat": "feelings",
+    "en": "determined",
+    "bn": "proti",
+    "roman": "proti"
+  },
+  {
+    "cat": "feelings",
+    "en": "focused",
+    "bn": "monojog",
+    "roman": "monojog"
+  },
+  {
+    "cat": "feelings",
+    "en": "distracted",
+    "bn": "bikkhisto",
+    "roman": "bikkhisto"
+  },
+  {
+    "cat": "feelings",
+    "en": "overwhelmed",
+    "bn": "bikkhisto",
+    "roman": "overwhelmed"
+  },
+  {
+    "cat": "feelings",
+    "en": "exhausted",
+    "bn": "klanto",
+    "roman": "klanto"
+  },
+  {
+    "cat": "feelings",
+    "en": "drained",
+    "bn": "klanto",
+    "roman": "drained"
+  },
+  {
+    "cat": "feelings",
+    "en": "refreshed",
+    "bn": "taja",
+    "roman": "taja"
+  },
+  {
+    "cat": "feelings",
+    "en": "energetic",
+    "bn": "urjoshil",
+    "roman": "urjoshil"
+  },
+  {
+    "cat": "feelings",
+    "en": "lazy",
+    "bn": "alshe",
+    "roman": "alshe"
+  },
+  {
+    "cat": "feelings",
+    "en": "motivated lazy",
+    "bn": "alshe",
+    "roman": "alshe"
+  },
+  {
+    "cat": "feelings",
+    "en": "active",
+    "bn": "kormoshil",
+    "roman": "kormoshil"
+  },
+  {
+    "cat": "feelings",
+    "en": "restless",
+    "bn": "chanchal",
+    "roman": "chanchal"
+  },
+  {
+    "cat": "feelings",
+    "en": "patient",
+    "bn": "dhairyo",
+    "roman": "dhairyo"
+  },
+  {
+    "cat": "feelings",
+    "en": "impatient",
+    "bn": "oshanto",
+    "roman": "oshanto"
+  },
+  {
+    "cat": "feelings",
+    "en": "curious",
+    "bn": "koutuhol",
+    "roman": "koutuhol"
+  },
+  {
+    "cat": "feelings",
+    "en": "interested",
+    "bn": "agrohi",
+    "roman": "agrohi"
+  },
+  {
+    "cat": "feelings",
+    "en": "bored feeling",
+    "bn": "bored",
+    "roman": "bored"
+  },
+  {
+    "cat": "feelings",
+    "en": "amused",
+    "bn": "moja",
+    "roman": "amused"
+  },
+  {
+    "cat": "feelings",
+    "en": "entertained",
+    "bn": "moja",
+    "roman": "entertained"
+  },
+  {
+    "cat": "feelings",
+    "en": "playful",
+    "bn": "khelar moto",
+    "roman": "khelar moto"
+  },
+  {
+    "cat": "feelings",
+    "en": "mischievous",
+    "bn": "dushtu",
+    "roman": "dushtu"
+  },
+  {
+    "cat": "feelings",
+    "en": "naughty",
+    "bn": "dushtu",
+    "roman": "naughty"
+  },
+  {
+    "cat": "feelings",
+    "en": "guilty",
+    "bn": "doshi",
+    "roman": "doshi"
+  },
+  {
+    "cat": "feelings",
+    "en": "ashamed",
+    "bn": "lojja",
+    "roman": "lojja"
+  },
+  {
+    "cat": "feelings",
+    "en": "embarrassed",
+    "bn": "lojja",
+    "roman": "embarrassed"
+  },
+  {
+    "cat": "feelings",
+    "en": "regretful",
+    "bn": "doshi",
+    "roman": "regretful"
+  },
+  {
+    "cat": "feelings",
+    "en": "remorseful",
+    "bn": "doshi",
+    "roman": "remorseful"
+  },
+  {
+    "cat": "feelings",
+    "en": "forgiving",
+    "bn": "khoma",
+    "roman": "khoma"
+  },
+  {
+    "cat": "feelings",
+    "en": "trusting",
+    "bn": "bishwash",
+    "roman": "trusting"
+  },
+  {
+    "cat": "feelings",
+    "en": "suspicious",
+    "bn": "shondeh",
+    "roman": "shondeh"
+  },
+  {
+    "cat": "feelings",
+    "en": "doubtful",
+    "bn": "shondeh",
+    "roman": "doubtful"
+  },
+  {
+    "cat": "feelings",
+    "en": "certain",
+    "bn": "nishchit",
+    "roman": "nishchit"
+  },
+  {
+    "cat": "feelings",
+    "en": "uncertain",
+    "bn": "onishchit",
+    "roman": "onishchit"
+  },
+  {
+    "cat": "feelings",
+    "en": "confident",
+    "bn": "bishwasi",
+    "roman": "bishwasi"
+  },
+  {
+    "cat": "feelings",
+    "en": "insecure",
+    "bn": "onishchit",
+    "roman": "insecure"
+  },
+  {
+    "cat": "feelings",
+    "en": "proud feeling",
+    "bn": "gorbito",
+    "roman": "gorbito"
+  },
+  {
+    "cat": "feelings",
+    "en": "humble",
+    "bn": "onmodro",
+    "roman": "onmodro"
+  },
+  {
+    "cat": "feelings",
+    "en": "generous",
+    "bn": "udar",
+    "roman": "udar"
+  },
+  {
+    "cat": "feelings",
+    "en": "selfish",
+    "bn": "swarthi",
+    "roman": "swarthi"
+  },
+  {
+    "cat": "feelings",
+    "en": "caring",
+    "bn": "dayalu",
+    "roman": "dayalu"
+  },
+  {
+    "cat": "feelings",
+    "en": "loving feeling",
+    "bn": "bhalobasha",
+    "roman": "bhalobasha"
+  },
+  {
+    "cat": "feelings",
+    "en": "affectionate",
+    "bn": "snehomoy",
+    "roman": "snehomoy"
+  },
+  {
+    "cat": "feelings",
+    "en": "romantic",
+    "bn": "premik",
+    "roman": "premik"
+  },
+  {
+    "cat": "feelings",
+    "en": "friendly",
+    "bn": "bondhu",
+    "roman": "bondhu"
+  },
+  {
+    "cat": "feelings",
+    "en": "hostile",
+    "bn": "shotru",
+    "roman": "hostile"
+  },
+  {
+    "cat": "feelings",
+    "en": "peaceful mind",
+    "bn": "shanti",
+    "roman": "shanti"
+  },
+  {
+    "cat": "feelings",
+    "en": "mindful",
+    "bn": "monojog",
+    "roman": "monojog"
+  },
+  {
+    "cat": "feelings",
+    "en": "carefree",
+    "bn": "chinta mukt",
+    "roman": "chinta mukt"
+  },
+  {
+    "cat": "feelings",
+    "en": "careful",
+    "bn": "savdhan",
+    "roman": "savdhan"
+  },
+  {
+    "cat": "feelings",
+    "en": "cautious",
+    "bn": "savdhan",
+    "roman": "cautious"
+  },
+  {
+    "cat": "feelings",
+    "en": "alert",
+    "bn": "sachetan",
+    "roman": "sachetan"
+  },
+  {
+    "cat": "feelings",
+    "en": "sleepy feeling",
+    "bn": "ghum ghum",
+    "roman": "ghum ghum"
+  },
+  {
+    "cat": "feelings",
+    "en": "awake",
+    "bn": "jagroto",
+    "roman": "jagroto"
+  },
+  {
+    "cat": "feelings",
+    "en": "dizzy",
+    "bn": "ghum ghum",
+    "roman": "ghum ghum"
+  },
+  {
+    "cat": "feelings",
+    "en": "faint",
+    "bn": "murtyu prox",
+    "roman": "faint"
+  },
+  {
+    "cat": "feelings",
+    "en": "strong feeling",
+    "bn": "shakti",
+    "roman": "shakti"
+  },
+  {
+    "cat": "feelings",
+    "en": "weak feeling",
+    "bn": "durbol",
+    "roman": "durbol"
+  },
+  {
+    "cat": "feelings",
+    "en": "healthy feeling",
+    "bn": "shustho",
+    "roman": "healthy"
+  },
+  {
+    "cat": "feelings",
+    "en": "unwell",
+    "bn": "oshustho",
+    "roman": "unwell"
+  },
+  {
+    "cat": "feelings",
+    "en": "feverish",
+    "bn": "jor",
+    "roman": "feverish"
+  },
+  {
+    "cat": "feelings",
+    "en": "chilly",
+    "bn": "thanda",
+    "roman": "chilly"
+  },
+  {
+    "cat": "feelings",
+    "en": "warm feeling",
+    "bn": "gorom",
+    "roman": "warm"
+  },
+  {
+    "cat": "feelings",
+    "en": "cozy",
+    "bn": "aramdayok",
+    "roman": "cozy"
+  },
+  {
+    "cat": "feelings",
+    "en": "uncomfortable",
+    "bn": "oshohoj",
+    "roman": "uncomfortable"
+  },
+  {
+    "cat": "feelings",
+    "en": "comfortable",
+    "bn": "aramdayok",
+    "roman": "comfortable"
+  },
+  {
+    "cat": "feelings",
+    "en": "safe feeling",
+    "bn": "nirapod",
+    "roman": "safe"
+  },
+  {
+    "cat": "feelings",
+    "en": "unsafe",
+    "bn": "bipod",
+    "roman": "unsafe"
+  },
+  {
+    "cat": "feelings",
+    "en": "free feeling",
+    "bn": "mukt",
+    "roman": "mukt"
+  },
+  {
+    "cat": "feelings",
+    "en": "trapped",
+    "bn": "bondi",
+    "roman": "bondi"
+  },
+  {
+    "cat": "feelings",
+    "en": "lucky",
+    "bn": "bhagyoban",
+    "roman": "bhagyoban"
+  },
+  {
+    "cat": "feelings",
+    "en": "unlucky",
+    "bn": "bhagyohin",
+    "roman": "unlucky"
+  },
+  {
+    "cat": "feelings",
+    "en": "surprised feeling",
+    "bn": "obak",
+    "roman": "obak"
+  },
+  {
+    "cat": "feelings",
+    "en": "shocked",
+    "bn": "obak",
+    "roman": "shocked"
+  },
+  {
+    "cat": "feelings",
+    "en": "amazed",
+    "bn": "obak",
+    "roman": "amazed"
+  },
+  {
+    "cat": "feelings",
+    "en": "astonished",
+    "bn": "obak",
+    "roman": "astonished"
+  },
+  {
+    "cat": "feelings",
+    "en": "confused feeling",
+    "bn": "bibhranto",
+    "roman": "bibhranto"
+  },
+  {
+    "cat": "feelings",
+    "en": "clear minded",
+    "bn": "porishkar",
+    "roman": "clear minded"
+  },
+  {
+    "cat": "feelings",
+    "en": "foggy mind",
+    "bn": "dhundhla",
+    "roman": "foggy"
+  },
+  {
+    "cat": "feelings",
+    "en": "creative",
+    "bn": "srijonshil",
+    "roman": "srijonshil"
+  },
+  {
+    "cat": "feelings",
+    "en": "artistic",
+    "bn": "shilpi",
+    "roman": "artistic"
+  },
+  {
+    "cat": "feelings",
+    "en": "musical",
+    "bn": "sangitik",
+    "roman": "musical"
+  },
+  {
+    "cat": "actions",
+    "en": "hopscotch",
+    "bn": "ek pa ek pa",
+    "roman": "ek pa ek pa"
+  },
+  {
+    "cat": "actions",
+    "en": "tickle feet",
+    "bn": "pay kutukuti",
+    "roman": "pay kutukuti"
+  },
+  {
+    "cat": "actions",
+    "en": "stretch arms",
+    "bn": "hat prosharito",
+    "roman": "hat prosharito"
+  },
+  {
+    "cat": "actions",
+    "en": "hike",
+    "bn": "hiking",
+    "roman": "hiking"
+  },
+  {
+    "cat": "actions",
+    "en": "camp",
+    "bn": "camp",
+    "roman": "camp"
+  },
+  {
+    "cat": "actions",
+    "en": "color in",
+    "bn": "rong bhra",
+    "roman": "rong bhra"
+  },
+  {
+    "cat": "actions",
+    "en": "paint picture",
+    "bn": "chitra aka",
+    "roman": "chitra aka"
+  },
+  {
+    "cat": "actions",
+    "en": "button up",
+    "bn": "botam lagano",
+    "roman": "botam lagano"
+  },
+  {
+    "cat": "actions",
+    "en": "zip up",
+    "bn": "jip lagano",
+    "roman": "jip lagano"
+  },
+  {
+    "cat": "actions",
+    "en": "brush teeth",
+    "bn": "dat porishkar",
+    "roman": "dat porishkar"
+  },
+  {
+    "cat": "actions",
+    "en": "comb hair",
+    "bn": "chul parash",
+    "roman": "chul parash"
+  },
+  {
+    "cat": "actions",
+    "en": "bathe",
+    "bn": "goshol",
+    "roman": "goshol"
+  },
+  {
+    "cat": "actions",
+    "en": "shower",
+    "bn": "shower",
+    "roman": "shower"
+  },
+  {
+    "cat": "actions",
+    "en": "dress up",
+    "bn": "poshak porano",
+    "roman": "poshak porano"
+  },
+  {
+    "cat": "actions",
+    "en": "undress",
+    "bn": "poshak khola",
+    "roman": "poshak khola"
+  },
+  {
+    "cat": "actions",
+    "en": "put on",
+    "bn": "porano",
+    "roman": "porano"
+  },
+  {
+    "cat": "actions",
+    "en": "take off",
+    "bn": "khola",
+    "roman": "khola"
+  },
+  {
+    "cat": "actions",
+    "en": "wake up",
+    "bn": "jagano",
+    "roman": "jagano"
+  },
+  {
+    "cat": "actions",
+    "en": "get up",
+    "bn": "utha",
+    "roman": "utha"
+  },
+  {
+    "cat": "actions",
+    "en": "lie down",
+    "bn": "shuiya thaka",
+    "roman": "shuiya thaka"
+  },
+  {
+    "cat": "actions",
+    "en": "rest",
+    "bn": "bisram",
+    "roman": "bisram"
+  },
+  {
+    "cat": "actions",
+    "en": "relax",
+    "bn": "aram",
+    "roman": "aram"
+  },
+  {
+    "cat": "actions",
+    "en": "nap",
+    "bn": "chhoto ghum",
+    "roman": "chhoto ghum"
+  },
+  {
+    "cat": "actions",
+    "en": "snore",
+    "bn": "ghum ghum",
+    "roman": "ghum ghum"
+  },
+  {
+    "cat": "actions",
+    "en": "yawn sleepily",
+    "bn": "ghum ghum hai",
+    "roman": "ghum ghum hai"
+  }
+]
