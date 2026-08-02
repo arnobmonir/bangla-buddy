@@ -3,7 +3,7 @@
  * Convert a CSV of words into category JSON chunks + refresh index.json word counts.
  *
  * CSV columns (header required):
- *   categoryId,categoryNameEn,categoryNameBn,color,icon,en,bn,emoji,roman
+ *   categoryId,categoryNameEn,categoryNameBn,color,icon,en,bn,emoji,exampleEn,exampleBn
  *
  * Usage:
  *   node scripts/csv-to-json.mjs words.csv
@@ -135,14 +135,16 @@ function main() {
 
     const bucket = byCategory.get(categoryId)
     const emoji = col('emoji') >= 0 ? line[col('emoji')] : ''
-    const roman = col('roman') >= 0 ? line[col('roman')] : ''
+    const exampleEn = col('exampleen') >= 0 ? line[col('exampleen')] : ''
+    const exampleBn = col('examplebn') >= 0 ? line[col('examplebn')] : ''
     const word = {
       id: `${categoryId}-${slug(en)}`,
       en,
       bn,
     }
     if (emoji) word.emoji = emoji
-    if (roman) word.roman = roman
+    if (exampleEn) word.exampleEn = exampleEn
+    if (exampleBn) word.exampleBn = exampleBn
     bucket.words.push(word)
   }
 

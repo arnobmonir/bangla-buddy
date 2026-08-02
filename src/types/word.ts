@@ -3,8 +3,8 @@ export type Word = {
   en: string
   bn: string
   emoji?: string
-  roman?: string
-  kind?: 'word' | 'sentence'
+  exampleEn?: string
+  exampleBn?: string
 }
 
 export type Category = {
@@ -47,7 +47,6 @@ export type AppSettings = {
   banglaEngine: BanglaEngine
   autoAdvance: boolean
   banglaRepeat: BanglaRepeat
-  showRoman: boolean
   shuffle: boolean
   parentGate: ParentGate
   parentPin: string
@@ -64,7 +63,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   banglaEngine: 'neural',
   autoAdvance: true,
   banglaRepeat: 1,
-  showRoman: true,
   shuffle: false,
   parentGate: 'hold',
   parentPin: '1234',

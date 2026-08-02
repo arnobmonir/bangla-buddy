@@ -6,1554 +6,1776 @@
       "en": "sun",
       "bn": "সূর্য",
       "emoji": "☀️",
-      "roman": "shurjo"
+      "exampleEn": "The sun is bright.",
+      "exampleBn": "সূর্যটা উজ্জ্বল।"
     },
     {
       "id": "nature-moon",
       "en": "moon",
       "bn": "চাঁদ",
       "emoji": "🌙",
-      "roman": "chad"
+      "exampleEn": "The moon is beautiful.",
+      "exampleBn": "চাঁদটা সুন্দর।"
     },
     {
       "id": "nature-star",
       "en": "star",
       "bn": "তারা",
       "emoji": "⭐",
-      "roman": "tara"
+      "exampleEn": "I love the star.",
+      "exampleBn": "আমি তারা ভালোবাসি।"
     },
     {
       "id": "nature-sky",
       "en": "sky",
       "bn": "আকাশ",
       "emoji": "🌌",
-      "roman": "akash"
+      "exampleEn": "Look at the sky!",
+      "exampleBn": "আকাশটা দেখো!"
     },
     {
       "id": "nature-cloud",
       "en": "cloud",
       "bn": "মেঘ",
       "emoji": "☁️",
-      "roman": "megh"
+      "exampleEn": "I see the cloud.",
+      "exampleBn": "আমি মেঘ দেখছি।"
     },
     {
       "id": "nature-rain",
       "en": "rain",
       "bn": "বৃষ্টি",
       "emoji": "🌧️",
-      "roman": "brishti"
+      "exampleEn": "The rain is beautiful.",
+      "exampleBn": "বৃষ্টি খুব সুন্দর।"
     },
     {
       "id": "nature-tree",
       "en": "tree",
       "bn": "গাছ",
       "emoji": "🌳",
-      "roman": "gach"
+      "exampleEn": "I love the tree.",
+      "exampleBn": "আমি গাছ ভালোবাসি।"
     },
     {
       "id": "nature-flower",
       "en": "flower",
       "bn": "ফুল",
       "emoji": "🌸",
-      "roman": "phul"
+      "exampleEn": "Look at the flower!",
+      "exampleBn": "ফুলটা দেখো!"
     },
     {
       "id": "nature-leaf",
       "en": "leaf",
       "bn": "পাতা",
       "emoji": "🍃",
-      "roman": "pata"
+      "exampleEn": "I see the leaf.",
+      "exampleBn": "আমি পাতা দেখছি।"
     },
     {
       "id": "nature-grass",
       "en": "grass",
       "bn": "ঘাস",
       "emoji": "🌱",
-      "roman": "ghash"
+      "exampleEn": "The grass is beautiful.",
+      "exampleBn": "ঘাস খুব সুন্দর।"
     },
     {
       "id": "nature-river",
       "en": "river",
       "bn": "নদী",
       "emoji": "🏞️",
-      "roman": "nodi"
+      "exampleEn": "I love the river.",
+      "exampleBn": "আমি নদী ভালোবাসি।"
     },
     {
       "id": "nature-sea",
       "en": "sea",
       "bn": "সমুদ্র",
       "emoji": "🌊",
-      "roman": "shomudro"
+      "exampleEn": "Look at the sea!",
+      "exampleBn": "সমুদ্রটা দেখো!"
     },
     {
       "id": "nature-mountain",
       "en": "mountain",
       "bn": "পাহাড়",
       "emoji": "⛰️",
-      "roman": "pahar"
+      "exampleEn": "I see the mountain.",
+      "exampleBn": "আমি পাহাড় দেখছি।"
     },
     {
       "id": "nature-stone",
       "en": "stone",
       "bn": "পাথর",
       "emoji": "🪨",
-      "roman": "pathor"
+      "exampleEn": "The stone is beautiful.",
+      "exampleBn": "পাথর খুব সুন্দর।"
     },
     {
       "id": "nature-fire",
       "en": "fire",
       "bn": "আগুন",
       "emoji": "🔥",
-      "roman": "agun"
+      "exampleEn": "I love the fire.",
+      "exampleBn": "আমি আগুন ভালোবাসি।"
     },
     {
       "id": "nature-wind",
       "en": "wind",
       "bn": "বাতাস",
       "emoji": "💨",
-      "roman": "batash"
+      "exampleEn": "Look at the wind!",
+      "exampleBn": "বাতাসটা দেখো!"
     },
     {
       "id": "nature-earth",
       "en": "earth",
       "bn": "পৃথিবী",
       "emoji": "🌍",
-      "roman": "prithibi"
+      "exampleEn": "I see the earth.",
+      "exampleBn": "আমি পৃথিবী দেখছি।"
     },
     {
       "id": "nature-soil",
       "en": "soil",
       "bn": "মাটি",
       "emoji": "🪴",
-      "roman": "mati"
+      "exampleEn": "The soil is beautiful.",
+      "exampleBn": "মাটি খুব সুন্দর।"
     },
     {
       "id": "nature-thunder",
       "en": "thunder",
       "bn": "বজ্র",
       "emoji": "⛈️",
-      "roman": "bojro"
+      "exampleEn": "I love the thunder.",
+      "exampleBn": "আমি বজ্র ভালোবাসি।"
     },
     {
       "id": "nature-lightning",
       "en": "lightning",
       "bn": "বিদ্যুৎ",
       "emoji": "⚡",
-      "roman": "bidyut"
+      "exampleEn": "Look at the lightning!",
+      "exampleBn": "বিদ্যুৎটা দেখো!"
     },
     {
       "id": "nature-rainbow",
       "en": "rainbow",
       "bn": "রামধনু",
       "emoji": "🌈",
-      "roman": "ramdhonu"
+      "exampleEn": "I see the rainbow.",
+      "exampleBn": "আমি রামধনু দেখছি।"
     },
     {
       "id": "nature-snow",
       "en": "snow",
       "bn": "তুষার",
       "emoji": "❄️",
-      "roman": "tushar"
+      "exampleEn": "The snow is beautiful.",
+      "exampleBn": "তুষার খুব সুন্দর।"
     },
     {
       "id": "nature-ice",
       "en": "ice",
       "bn": "বরফ",
       "emoji": "🧊",
-      "roman": "borof"
+      "exampleEn": "I love the ice.",
+      "exampleBn": "আমি বরফ ভালোবাসি।"
     },
     {
       "id": "nature-fog",
       "en": "fog",
       "bn": "কুয়াশা",
       "emoji": "🌫️",
-      "roman": "kuyasha"
+      "exampleEn": "Look at the fog!",
+      "exampleBn": "কুয়াশাটা দেখো!"
     },
     {
       "id": "nature-dew",
       "en": "dew",
       "bn": "শিশির",
       "emoji": "💧",
-      "roman": "shishir"
+      "exampleEn": "I see the dew.",
+      "exampleBn": "আমি শিশির দেখছি।"
     },
     {
       "id": "nature-forest",
       "en": "forest",
       "bn": "বন",
       "emoji": "🌲",
-      "roman": "bon"
+      "exampleEn": "The forest is beautiful.",
+      "exampleBn": "বন খুব সুন্দর।"
     },
     {
       "id": "nature-garden",
       "en": "garden",
       "bn": "বাগান",
       "emoji": "🏡",
-      "roman": "bagan"
+      "exampleEn": "I love the garden.",
+      "exampleBn": "আমি বাগান ভালোবাসি।"
     },
     {
       "id": "nature-field",
       "en": "field",
       "bn": "মাঠ",
       "emoji": "🌾",
-      "roman": "math"
+      "exampleEn": "Look at the field!",
+      "exampleBn": "মাঠটা দেখো!"
     },
     {
       "id": "nature-pond",
       "en": "pond",
       "bn": "পুকুর",
       "emoji": "💧",
-      "roman": "pukur"
+      "exampleEn": "I see the pond.",
+      "exampleBn": "আমি পুকুর দেখছি।"
     },
     {
       "id": "nature-lake",
       "en": "lake",
       "bn": "হ্রদ",
       "emoji": "🏞️",
-      "roman": "hrodo"
+      "exampleEn": "The lake is beautiful.",
+      "exampleBn": "হ্রদ খুব সুন্দর।"
     },
     {
       "id": "nature-beach",
       "en": "beach",
       "bn": "সৈকত",
       "emoji": "🏖️",
-      "roman": "soikot"
+      "exampleEn": "I love the beach.",
+      "exampleBn": "আমি সৈকত ভালোবাসি।"
     },
     {
       "id": "nature-sand",
       "en": "sand",
       "bn": "বালু",
       "emoji": "🏜️",
-      "roman": "balu"
+      "exampleEn": "Look at the sand!",
+      "exampleBn": "বালুটা দেখো!"
     },
     {
       "id": "nature-island",
       "en": "island",
       "bn": "দ্বীপ",
       "emoji": "🏝️",
-      "roman": "dwip"
+      "exampleEn": "I see the island.",
+      "exampleBn": "আমি দ্বীপ দেখছি।"
     },
     {
       "id": "nature-hill",
       "en": "hill",
       "bn": "টিলা",
       "emoji": "🏔️",
-      "roman": "tila"
+      "exampleEn": "The hill is beautiful.",
+      "exampleBn": "টিলা খুব সুন্দর।"
     },
     {
       "id": "nature-cave",
       "en": "cave",
       "bn": "গুহা",
       "emoji": "🕳️",
-      "roman": "guha"
+      "exampleEn": "I love the cave.",
+      "exampleBn": "আমি গুহা ভালোবাসি।"
     },
     {
       "id": "nature-seed",
       "en": "seed",
       "bn": "বীজ",
       "emoji": "🌱",
-      "roman": "bij"
+      "exampleEn": "Look at the seed!",
+      "exampleBn": "বীজটা দেখো!"
     },
     {
       "id": "nature-root",
       "en": "root",
       "bn": "শিকড়",
       "emoji": "🪴",
-      "roman": "shikor"
+      "exampleEn": "I see the root.",
+      "exampleBn": "আমি শিকড় দেখছি।"
     },
     {
       "id": "nature-branch",
       "en": "branch",
       "bn": "ডাল",
       "emoji": "🌿",
-      "roman": "dal"
+      "exampleEn": "The branch is beautiful.",
+      "exampleBn": "ডাল খুব সুন্দর।"
     },
     {
       "id": "nature-rose",
       "en": "rose",
       "bn": "গোলাপ",
       "emoji": "🌹",
-      "roman": "golap"
+      "exampleEn": "I love the rose.",
+      "exampleBn": "আমি গোলাপ ভালোবাসি।"
     },
     {
       "id": "nature-lotus",
       "en": "lotus",
       "bn": "পদ্ম",
       "emoji": "🪷",
-      "roman": "poddo"
+      "exampleEn": "Look at the lotus!",
+      "exampleBn": "পদ্মটা দেখো!"
     },
     {
       "id": "nature-mango-tree",
       "en": "mango tree",
       "bn": "আম গাছ",
       "emoji": "🌳",
-      "roman": "am gach"
+      "exampleEn": "I see the mango tree.",
+      "exampleBn": "আমি আম গাছ দেখছি।"
     },
     {
       "id": "nature-shadow",
       "en": "shadow",
       "bn": "ছায়া",
       "emoji": "🌑",
-      "roman": "chaya"
+      "exampleEn": "The shadow is beautiful.",
+      "exampleBn": "ছায়া খুব সুন্দর।"
     },
     {
       "id": "nature-day",
       "en": "day",
       "bn": "দিন",
       "emoji": "☀️",
-      "roman": "din"
+      "exampleEn": "I love the day.",
+      "exampleBn": "আমি দিন ভালোবাসি।"
     },
     {
       "id": "nature-night",
       "en": "night",
       "bn": "রাত",
       "emoji": "🌙",
-      "roman": "rat"
+      "exampleEn": "Look at the night!",
+      "exampleBn": "রাতটা দেখো!"
     },
     {
       "id": "nature-morning",
       "en": "morning",
       "bn": "সকাল",
       "emoji": "🌅",
-      "roman": "shokal"
+      "exampleEn": "I see the morning.",
+      "exampleBn": "আমি সকাল দেখছি।"
     },
     {
       "id": "nature-evening",
       "en": "evening",
       "bn": "সন্ধ্যা",
       "emoji": "🌆",
-      "roman": "shondha"
+      "exampleEn": "The evening is beautiful.",
+      "exampleBn": "সন্ধ্যা খুব সুন্দর।"
     },
     {
       "id": "nature-season",
       "en": "season",
       "bn": "ঋতু",
       "emoji": "🍂",
-      "roman": "ritu"
+      "exampleEn": "I love the season.",
+      "exampleBn": "আমি ঋতু ভালোবাসি।"
     },
     {
       "id": "nature-weather",
       "en": "weather",
       "bn": "আবহাওয়া",
       "emoji": "🌤️",
-      "roman": "abohawa"
+      "exampleEn": "Look at the weather!",
+      "exampleBn": "আবহাওয়াটা দেখো!"
     },
     {
       "id": "nature-sunrise",
       "en": "sunrise",
       "bn": "সূর্যোদয়",
       "emoji": "🌅",
-      "roman": "surjodyo"
+      "exampleEn": "I see the sunrise.",
+      "exampleBn": "আমি সূর্যোদয় দেখছি।"
     },
     {
       "id": "nature-sunset",
       "en": "sunset",
       "bn": "সূর্যাস্ত",
       "emoji": "🌇",
-      "roman": "surjasto"
+      "exampleEn": "The sunset is beautiful.",
+      "exampleBn": "সূর্যাস্ত খুব সুন্দর।"
     },
     {
       "id": "nature-noon",
       "en": "noon",
       "bn": "দুপুর",
       "emoji": "☀️",
-      "roman": "dupur"
+      "exampleEn": "I love the noon.",
+      "exampleBn": "আমি দুপুর ভালোবাসি।"
     },
     {
       "id": "nature-afternoon",
       "en": "afternoon",
       "bn": "বিকেল",
       "emoji": "🌤️",
-      "roman": "bikel"
+      "exampleEn": "Look at the afternoon!",
+      "exampleBn": "বিকেলটা দেখো!"
     },
     {
       "id": "nature-midnight",
       "en": "midnight",
       "bn": "মধ্যরাত",
       "emoji": "🌃",
-      "roman": "modhyorat"
+      "exampleEn": "I see the midnight.",
+      "exampleBn": "আমি মধ্যরাত দেখছি।"
     },
     {
       "id": "nature-dawn",
       "en": "dawn",
       "bn": "প্রভাত",
       "emoji": "🌄",
-      "roman": "prabhat"
+      "exampleEn": "The dawn is beautiful.",
+      "exampleBn": "প্রভাত খুব সুন্দর।"
     },
     {
       "id": "nature-dusk",
       "en": "dusk",
       "bn": "গোধূলি",
       "emoji": "🌆",
-      "roman": "godhuli"
+      "exampleEn": "I love the dusk.",
+      "exampleBn": "আমি গোধূলি ভালোবাসি।"
     },
     {
       "id": "nature-spring",
       "en": "spring",
       "bn": "বসন্ত",
       "emoji": "🌸",
-      "roman": "boshonto"
+      "exampleEn": "Look at the spring!",
+      "exampleBn": "বসন্তটা দেখো!"
     },
     {
       "id": "nature-summer",
       "en": "summer",
       "bn": "গ্রীষ্ম",
       "emoji": "☀️",
-      "roman": "grishmo"
+      "exampleEn": "I see the summer.",
+      "exampleBn": "আমি গ্রীষ্ম দেখছি।"
     },
     {
       "id": "nature-monsoon",
       "en": "monsoon",
       "bn": "বর্ষা",
       "emoji": "🌧️",
-      "roman": "borsha"
+      "exampleEn": "The monsoon is beautiful.",
+      "exampleBn": "বর্ষা খুব সুন্দর।"
     },
     {
       "id": "nature-autumn",
       "en": "autumn",
       "bn": "শরৎ",
       "emoji": "🍂",
-      "roman": "shorot"
+      "exampleEn": "I love the autumn.",
+      "exampleBn": "আমি শরৎ ভালোবাসি।"
     },
     {
       "id": "nature-winter",
       "en": "winter",
       "bn": "শীত",
       "emoji": "❄️",
-      "roman": "sheet"
+      "exampleEn": "Look at the winter!",
+      "exampleBn": "শীতটা দেখো!"
     },
     {
       "id": "nature-storm",
       "en": "storm",
       "bn": "ঝড়",
       "emoji": "⛈️",
-      "roman": "jhor"
+      "exampleEn": "I see the storm.",
+      "exampleBn": "আমি ঝড় দেখছি।"
     },
     {
       "id": "nature-cyclone",
       "en": "cyclone",
       "bn": "ঘূর্ণিঝড়",
       "emoji": "🌀",
-      "roman": "ghurnijhor"
+      "exampleEn": "The cyclone is beautiful.",
+      "exampleBn": "ঘূর্ণিঝড় খুব সুন্দর।"
     },
     {
       "id": "nature-flood",
       "en": "flood",
       "bn": "বন্যা",
       "emoji": "🌊",
-      "roman": "bonna"
+      "exampleEn": "I love the flood.",
+      "exampleBn": "আমি বন্যা ভালোবাসি।"
     },
     {
       "id": "nature-waterfall",
       "en": "waterfall",
       "bn": "ঝর্ণা",
       "emoji": "💦",
-      "roman": "jhorna"
+      "exampleEn": "Look at the waterfall!",
+      "exampleBn": "ঝর্ণাটা দেখো!"
     },
     {
       "id": "nature-stream",
       "en": "stream",
       "bn": "ঝরনা",
       "emoji": "💧",
-      "roman": "jhorna"
+      "exampleEn": "I see the stream.",
+      "exampleBn": "আমি ঝরনা দেখছি।"
     },
     {
       "id": "nature-canal",
       "en": "canal",
       "bn": "নালা",
       "emoji": "💧",
-      "roman": "nala"
+      "exampleEn": "The canal is beautiful.",
+      "exampleBn": "নালা খুব সুন্দর।"
     },
     {
       "id": "nature-well",
       "en": "well",
       "bn": "কু",
       "emoji": "🪣",
-      "roman": "kua"
+      "exampleEn": "I love the well.",
+      "exampleBn": "আমি কু ভালোবাসি।"
     },
     {
       "id": "nature-marsh",
       "en": "marsh",
       "bn": "চাল",
       "emoji": "🌿",
-      "roman": "chal"
+      "exampleEn": "Look at the marsh!",
+      "exampleBn": "চালটা দেখো!"
     },
     {
       "id": "nature-meadow",
       "en": "meadow",
       "bn": "চরগহ",
       "emoji": "🌾",
-      "roman": "charagah"
+      "exampleEn": "I see the meadow.",
+      "exampleBn": "আমি চরগহ দেখছি।"
     },
     {
       "id": "nature-jungle",
       "en": "jungle",
       "bn": "জঙ্গল",
       "emoji": "🌴",
-      "roman": "jongol"
+      "exampleEn": "The jungle is beautiful.",
+      "exampleBn": "জঙ্গল খুব সুন্দর।"
     },
     {
       "id": "nature-mangrove",
       "en": "mangrove",
       "bn": "সুনদোরবোন",
       "emoji": "🌿",
-      "roman": "sundorbon"
+      "exampleEn": "I love the mangrove.",
+      "exampleBn": "আমি সুনদোরবোন ভালোবাসি।"
     },
     {
       "id": "nature-bamboo",
       "en": "bamboo",
       "bn": "বাঁশ",
       "emoji": "🎋",
-      "roman": "bansh"
+      "exampleEn": "Look at the bamboo!",
+      "exampleBn": "বাঁশটা দেখো!"
     },
     {
       "id": "nature-palm-tree",
       "en": "palm tree",
       "bn": "তাল গাছ",
       "emoji": "🌴",
-      "roman": "tal gach"
+      "exampleEn": "I see the palm tree.",
+      "exampleBn": "আমি তাল গাছ দেখছি।"
     },
     {
       "id": "nature-coconut-tree",
       "en": "coconut tree",
       "bn": "নারকেল গাছ",
       "emoji": "🌴",
-      "roman": "narkel gach"
+      "exampleEn": "The coconut tree is beautiful.",
+      "exampleBn": "নারকেল গাছ খুব সুন্দর।"
     },
     {
       "id": "nature-banana-tree",
       "en": "banana tree",
       "bn": "কলা গাছ",
       "emoji": "🍌",
-      "roman": "kola gach"
+      "exampleEn": "I love the banana tree.",
+      "exampleBn": "আমি কলা গাছ ভালোবাসি।"
     },
     {
       "id": "nature-jackfruit-tree",
       "en": "jackfruit tree",
       "bn": "কাঁঠাল গাছ",
       "emoji": "🍈",
-      "roman": "kãthal gach"
+      "exampleEn": "Look at the jackfruit tree!",
+      "exampleBn": "কাঁঠাল গাছটা দেখো!"
     },
     {
       "id": "nature-banyan-tree",
       "en": "banyan tree",
       "bn": "বট গাছ",
       "emoji": "🌳",
-      "roman": "bot gach"
+      "exampleEn": "I see the banyan tree.",
+      "exampleBn": "আমি বট গাছ দেখছি।"
     },
     {
       "id": "nature-neem-tree",
       "en": "neem tree",
       "bn": "নিম গাছ",
       "emoji": "🌳",
-      "roman": "neem gach"
+      "exampleEn": "The neem tree is beautiful.",
+      "exampleBn": "নিম গাছ খুব সুন্দর।"
     },
     {
       "id": "nature-sunflower",
       "en": "sunflower",
       "bn": "সূর্যমুখী",
       "emoji": "🌻",
-      "roman": "surjomukhi"
+      "exampleEn": "I love the sunflower.",
+      "exampleBn": "আমি সূর্যমুখী ভালোবাসি।"
     },
     {
       "id": "nature-marigold",
       "en": "marigold",
       "bn": "গাঁদা",
       "emoji": "🌼",
-      "roman": "gãda"
+      "exampleEn": "Look at the marigold!",
+      "exampleBn": "গাঁদাটা দেখো!"
     },
     {
       "id": "nature-jasmine",
       "en": "jasmine",
       "bn": "জুি",
       "emoji": "🌼",
-      "roman": "jui"
+      "exampleEn": "I see the jasmine.",
+      "exampleBn": "আমি জুি দেখছি।"
     },
     {
       "id": "nature-hibiscus",
       "en": "hibiscus",
       "bn": "জবা",
       "emoji": "🌺",
-      "roman": "joba"
+      "exampleEn": "The hibiscus is beautiful.",
+      "exampleBn": "জবা খুব সুন্দর।"
     },
     {
       "id": "nature-vine",
       "en": "vine",
       "bn": "লতা",
       "emoji": "🌿",
-      "roman": "lata"
+      "exampleEn": "I love the vine.",
+      "exampleBn": "আমি লতা ভালোবাসি।"
     },
     {
       "id": "nature-fern",
       "en": "fern",
       "bn": "ফেরন",
       "emoji": "🌿",
-      "roman": "fern"
+      "exampleEn": "Look at the fern!",
+      "exampleBn": "ফেরনটা দেখো!"
     },
     {
       "id": "nature-coral",
       "en": "coral",
       "bn": "পরবল",
       "emoji": "🪸",
-      "roman": "prabal"
+      "exampleEn": "I see the coral.",
+      "exampleBn": "আমি পরবল দেখছি।"
     },
     {
       "id": "nature-shell",
       "en": "shell",
       "bn": "শেলল",
       "emoji": "🐚",
-      "roman": "shãnkho"
+      "exampleEn": "The shell is beautiful.",
+      "exampleBn": "শেলল খুব সুন্দর।"
     },
     {
       "id": "nature-pebble",
       "en": "pebble",
       "bn": "কুরো",
       "emoji": "🪨",
-      "roman": "kuro"
+      "exampleEn": "I love the pebble.",
+      "exampleBn": "আমি কুরো ভালোবাসি।"
     },
     {
       "id": "nature-cliff",
       "en": "cliff",
       "bn": "পরনতোর",
       "emoji": "🏔️",
-      "roman": "prantor"
+      "exampleEn": "Look at the cliff!",
+      "exampleBn": "পরনতোরটা দেখো!"
     },
     {
       "id": "nature-valley",
       "en": "valley",
       "bn": "উপোটোক",
       "emoji": "🏞️",
-      "roman": "upottoka"
+      "exampleEn": "I see the valley.",
+      "exampleBn": "আমি উপোটোক দেখছি।"
     },
     {
       "id": "nature-desert",
       "en": "desert",
       "bn": "মোরুভুমি",
       "emoji": "🏜️",
-      "roman": "morubhumi"
+      "exampleEn": "The desert is beautiful.",
+      "exampleBn": "মোরুভুমি খুব সুন্দর।"
     },
     {
       "id": "nature-glacier",
       "en": "glacier",
       "bn": "হিমোবহ",
       "emoji": "🧊",
-      "roman": "himobah"
+      "exampleEn": "I love the glacier.",
+      "exampleBn": "আমি হিমোবহ ভালোবাসি।"
     },
     {
       "id": "nature-tide",
       "en": "tide",
       "bn": "জোবর ভত",
       "emoji": "🌊",
-      "roman": "jowar bhata"
+      "exampleEn": "Look at the tide!",
+      "exampleBn": "জোবর ভতটা দেখো!"
     },
     {
       "id": "nature-wave",
       "en": "wave",
       "bn": "ধেু",
       "emoji": "🌊",
-      "roman": "dheu"
+      "exampleEn": "I see the wave.",
+      "exampleBn": "আমি ধেু দেখছি।"
     },
     {
       "id": "nature-mist",
       "en": "mist",
       "bn": "কুয",
       "emoji": "🌫️",
-      "roman": "kuya"
+      "exampleEn": "The mist is beautiful.",
+      "exampleBn": "কুয খুব সুন্দর।"
     },
     {
       "id": "nature-hail",
       "en": "hail",
       "bn": "কোল",
       "emoji": "🌨️",
-      "roman": "kol"
+      "exampleEn": "I love the hail.",
+      "exampleBn": "আমি কোল ভালোবাসি।"
     },
     {
       "id": "nature-breeze",
       "en": "breeze",
       "bn": "হব",
       "emoji": "💨",
-      "roman": "hawa"
+      "exampleEn": "Look at the breeze!",
+      "exampleBn": "হবটা দেখো!"
     },
     {
       "id": "nature-hurricane",
       "en": "hurricane",
       "bn": "ঘূর্ণিঝড়",
       "emoji": "🌀",
-      "roman": "ghurnijhor"
+      "exampleEn": "I see the hurricane.",
+      "exampleBn": "আমি ঘূর্ণিঝড় দেখছি।"
     },
     {
       "id": "nature-tornado",
       "en": "tornado",
       "bn": "তোরনদো",
       "emoji": "🌪️",
-      "roman": "tornado"
+      "exampleEn": "The tornado is beautiful.",
+      "exampleBn": "তোরনদো খুব সুন্দর।"
     },
     {
       "id": "nature-humidity",
       "en": "humidity",
       "bn": "আর্দ্রতা",
       "emoji": "💧",
-      "roman": "ardrota"
+      "exampleEn": "I love the humidity.",
+      "exampleBn": "আমি আর্দ্রতা ভালোবাসি।"
     },
     {
       "id": "nature-climate",
       "en": "climate",
       "bn": "জলবায়ু",
       "emoji": "🌡️",
-      "roman": "jolobayu"
+      "exampleEn": "Look at the climate!",
+      "exampleBn": "জলবায়ুটা দেখো!"
     },
     {
       "id": "nature-temperature",
       "en": "temperature",
       "bn": "তাপমাত্রা",
       "emoji": "🌡️",
-      "roman": "tapmatra"
+      "exampleEn": "I see the temperature.",
+      "exampleBn": "আমি তাপমাত্রা দেখছি।"
     },
     {
       "id": "nature-atmosphere",
       "en": "atmosphere",
       "bn": "বায়ুমণ্ডল",
       "emoji": "🌍",
-      "roman": "bayumondol"
+      "exampleEn": "The atmosphere is beautiful.",
+      "exampleBn": "বায়ুমণ্ডল খুব সুন্দর।"
     },
     {
       "id": "nature-pollution",
       "en": "pollution",
       "bn": "দূষণ",
       "emoji": "🏭",
-      "roman": "dushon"
+      "exampleEn": "I love the pollution.",
+      "exampleBn": "আমি দূষণ ভালোবাসি।"
     },
     {
       "id": "nature-wildlife",
       "en": "wildlife",
       "bn": "বন্য প্রাণী",
       "emoji": "🐾",
-      "roman": "bonno prani"
+      "exampleEn": "Look at the wildlife!",
+      "exampleBn": "বন্য প্রাণীটা দেখো!"
     },
     {
       "id": "nature-ecosystem",
       "en": "ecosystem",
       "bn": "বাস্তুতন্ত্র",
       "emoji": "🌍",
-      "roman": "bostutontro"
+      "exampleEn": "I see the ecosystem.",
+      "exampleBn": "আমি বাস্তুতন্ত্র দেখছি।"
     },
     {
       "id": "nature-germination",
       "en": "germination",
       "bn": "অঙ্কুর",
       "emoji": "🌱",
-      "roman": "onkur"
+      "exampleEn": "The germination is beautiful.",
+      "exampleBn": "অঙ্কুর খুব সুন্দর।"
     },
     {
       "id": "nature-bloom",
       "en": "bloom",
       "bn": "ফুল ফোটা",
       "emoji": "🌸",
-      "roman": "phul phota"
+      "exampleEn": "I love the bloom.",
+      "exampleBn": "আমি ফুল ফোটা ভালোবাসি।"
     },
     {
       "id": "nature-harvest",
       "en": "harvest",
       "bn": "ফসল",
       "emoji": "🌾",
-      "roman": "foshol"
+      "exampleEn": "Look at the harvest!",
+      "exampleBn": "ফসলটা দেখো!"
     },
     {
       "id": "nature-crop",
       "en": "crop",
       "bn": "ফসল",
       "emoji": "🌾",
-      "roman": "foshol"
+      "exampleEn": "I see the crop.",
+      "exampleBn": "আমি ফসল দেখছি।"
     },
     {
       "id": "nature-paddy-field",
       "en": "paddy field",
       "bn": "ধান ক্ষেত",
       "emoji": "🌾",
-      "roman": "dhan khet"
+      "exampleEn": "The paddy field is beautiful.",
+      "exampleBn": "ধান ক্ষেত খুব সুন্দর।"
     },
     {
       "id": "nature-tea-garden",
       "en": "tea garden",
       "bn": "চা বাগান",
       "emoji": "🍵",
-      "roman": "cha bagan"
+      "exampleEn": "I love the tea garden.",
+      "exampleBn": "আমি চা বাগান ভালোবাসি।"
     },
     {
       "id": "nature-flower-garden",
       "en": "flower garden",
       "bn": "ফুল বাগান",
       "emoji": "🌸",
-      "roman": "phul bagan"
+      "exampleEn": "Look at the flower garden!",
+      "exampleBn": "ফুল বাগানটা দেখো!"
     },
     {
       "id": "nature-park",
       "en": "park",
       "bn": "পরক",
       "emoji": "🏞️",
-      "roman": "park"
+      "exampleEn": "I see the park.",
+      "exampleBn": "আমি পরক দেখছি।"
     },
     {
       "id": "nature-starlight",
       "en": "starlight",
       "bn": "তারার আলো",
       "emoji": "✨",
-      "roman": "tarar alo"
+      "exampleEn": "The starlight is beautiful.",
+      "exampleBn": "তারার আলো খুব সুন্দর।"
     },
     {
       "id": "nature-moonlight",
       "en": "moonlight",
       "bn": "চাঁদের আলো",
       "emoji": "🌙",
-      "roman": "chander alo"
+      "exampleEn": "I love the moonlight.",
+      "exampleBn": "আমি চাঁদের আলো ভালোবাসি।"
     },
     {
       "id": "nature-sunlight",
       "en": "sunlight",
       "bn": "সূর্যের আলো",
       "emoji": "☀️",
-      "roman": "surjer alo"
+      "exampleEn": "Look at the sunlight!",
+      "exampleBn": "সূর্যের আলোটা দেখো!"
     },
     {
       "id": "nature-darkness",
       "en": "darkness",
       "bn": "অন্ধকার",
       "emoji": "🌑",
-      "roman": "andhokar"
+      "exampleEn": "I see the darkness.",
+      "exampleBn": "আমি অন্ধকার দেখছি।"
     },
     {
       "id": "nature-horizon",
       "en": "horizon",
       "bn": "দিগন্ত",
       "emoji": "🌅",
-      "roman": "digonto"
+      "exampleEn": "The horizon is beautiful.",
+      "exampleBn": "দিগন্ত খুব সুন্দর।"
     },
     {
       "id": "nature-universe",
       "en": "universe",
       "bn": "বিশ্ব",
       "emoji": "🌌",
-      "roman": "bishwo"
+      "exampleEn": "I love the universe.",
+      "exampleBn": "আমি বিশ্ব ভালোবাসি।"
     },
     {
       "id": "nature-planet",
       "en": "planet",
       "bn": "গ্রহ",
       "emoji": "🪐",
-      "roman": "grho"
+      "exampleEn": "Look at the planet!",
+      "exampleBn": "গ্রহটা দেখো!"
     },
     {
       "id": "nature-comet",
       "en": "comet",
       "bn": "ধুমকেতু",
       "emoji": "☄️",
-      "roman": "dhumketu"
+      "exampleEn": "I see the comet.",
+      "exampleBn": "আমি ধুমকেতু দেখছি।"
     },
     {
       "id": "nature-meteor",
       "en": "meteor",
       "bn": "উলক",
       "emoji": "☄️",
-      "roman": "ulka"
+      "exampleEn": "The meteor is beautiful.",
+      "exampleBn": "উলক খুব সুন্দর।"
     },
     {
       "id": "nature-eclipse",
       "en": "eclipse",
       "bn": "গ্রহণ",
       "emoji": "🌑",
-      "roman": "grahon"
+      "exampleEn": "I love the eclipse.",
+      "exampleBn": "আমি গ্রহণ ভালোবাসি।"
     },
     {
       "id": "nature-full-moon",
       "en": "full moon",
       "bn": "পুরনিম",
       "emoji": "🌕",
-      "roman": "purnima"
+      "exampleEn": "Look at the full moon!",
+      "exampleBn": "পুরনিমটা দেখো!"
     },
     {
       "id": "nature-new-moon",
       "en": "new moon",
       "bn": "অমাবস্যা",
       "emoji": "🌑",
-      "roman": "amabossa"
+      "exampleEn": "I see the new moon.",
+      "exampleBn": "আমি অমাবস্যা দেখছি।"
     },
     {
       "id": "nature-cloudy-sky",
       "en": "cloudy sky",
       "bn": "মেঘল আকাশ",
       "emoji": "☁️",
-      "roman": "meghla akash"
+      "exampleEn": "The cloudy sky is beautiful.",
+      "exampleBn": "মেঘল আকাশ খুব সুন্দর।"
     },
     {
       "id": "nature-clear-sky",
       "en": "clear sky",
       "bn": "পরিষ্কার আকাশ",
       "emoji": "🌤️",
-      "roman": "porishkar akash"
+      "exampleEn": "I love the clear sky.",
+      "exampleBn": "আমি পরিষ্কার আকাশ ভালোবাসি।"
     },
     {
       "id": "nature-starry-night",
       "en": "starry night",
       "bn": "তারা ভর রাত",
       "emoji": "🌌",
-      "roman": "tara bhara rat"
+      "exampleEn": "Look at the starry night!",
+      "exampleBn": "তারা ভর রাতটা দেখো!"
     },
     {
       "id": "nature-river-bank",
       "en": "river bank",
       "bn": "নদীর তীর",
       "emoji": "🏞️",
-      "roman": "nodir tir"
+      "exampleEn": "I see the river bank.",
+      "exampleBn": "আমি নদীর তীর দেখছি।"
     },
     {
       "id": "nature-coast",
       "en": "coast",
       "bn": "উপোকুল",
       "emoji": "🏖️",
-      "roman": "upokul"
+      "exampleEn": "The coast is beautiful.",
+      "exampleBn": "উপোকুল খুব সুন্দর।"
     },
     {
       "id": "nature-coal",
       "en": "coal",
       "bn": "কোযল",
       "emoji": "🪨",
-      "roman": "koyla"
+      "exampleEn": "I love the coal.",
+      "exampleBn": "আমি কোযল ভালোবাসি।"
     },
     {
       "id": "nature-natural-beauty",
       "en": "natural beauty",
       "bn": "পরকরিতির শুনদোরজযো",
       "emoji": "🌿",
-      "roman": "prakritir shundorjyo"
+      "exampleEn": "Look at the natural beauty!",
+      "exampleBn": "পরকরিতির শুনদোরজযোটা দেখো!"
     },
     {
       "id": "nature-fresh-air",
       "en": "fresh air",
       "bn": "তজ হব",
       "emoji": "💨",
-      "roman": "taja hawa"
+      "exampleEn": "I see the fresh air.",
+      "exampleBn": "আমি তজ হব দেখছি।"
     },
     {
       "id": "nature-clean-water",
       "en": "clean water",
       "bn": "পরিষ্কার পানি",
       "emoji": "💧",
-      "roman": "porishkar pani"
+      "exampleEn": "The clean water is beautiful.",
+      "exampleBn": "পরিষ্কার পানি খুব সুন্দর।"
     },
     {
       "id": "nature-rainy-season",
       "en": "rainy season",
       "bn": "বর্ষা কল",
       "emoji": "🌧️",
-      "roman": "borsha kal"
+      "exampleEn": "I love the rainy season.",
+      "exampleBn": "আমি বর্ষা কল ভালোবাসি।"
     },
     {
       "id": "nature-dry-season",
       "en": "dry season",
       "bn": "শুকনো কল",
       "emoji": "☀️",
-      "roman": "shukno kal"
+      "exampleEn": "Look at the dry season!",
+      "exampleBn": "শুকনো কলটা দেখো!"
     },
     {
       "id": "nature-thunder-sound",
       "en": "thunder sound",
       "bn": "বিজের অবজ",
       "emoji": "⛈️",
-      "roman": "bijer awaj"
+      "exampleEn": "I see the thunder sound.",
+      "exampleBn": "আমি বিজের অবজ দেখছি।"
     },
     {
       "id": "nature-rain-sound",
       "en": "rain sound",
       "bn": "বরিশতির অবজ",
       "emoji": "🌧️",
-      "roman": "brishtir awaj"
+      "exampleEn": "The rain sound is beautiful.",
+      "exampleBn": "বরিশতির অবজ খুব সুন্দর।"
     },
     {
       "id": "nature-bird-song",
       "en": "bird song",
       "bn": "পখির গান",
       "emoji": "🐦",
-      "roman": "pakhir gaan"
+      "exampleEn": "I love the bird song.",
+      "exampleBn": "আমি পখির গান ভালোবাসি।"
     },
     {
       "id": "nature-frog-sound",
       "en": "frog sound",
       "bn": "ব্যাদ্যারের অবজ",
       "emoji": "🐸",
-      "roman": "byanger awaj"
+      "exampleEn": "Look at the frog sound!",
+      "exampleBn": "ব্যাদ্যারের অবজটা দেখো!"
     },
     {
       "id": "nature-delta",
       "en": "delta",
       "bn": "দেলত",
       "emoji": "🌊",
-      "roman": "delta"
+      "exampleEn": "I see the delta.",
+      "exampleBn": "আমি দেলত দেখছি।"
     },
     {
       "id": "nature-estuary",
       "en": "estuary",
       "bn": "মোহোন",
       "emoji": "🌊",
-      "roman": "mohona"
+      "exampleEn": "The estuary is beautiful.",
+      "exampleBn": "মোহোন খুব সুন্দর।"
     },
     {
       "id": "nature-shore",
       "en": "shore",
       "bn": "তীর",
       "emoji": "🏖️",
-      "roman": "tir"
+      "exampleEn": "I love the shore.",
+      "exampleBn": "আমি তীর ভালোবাসি।"
     },
     {
       "id": "nature-geyser",
       "en": "geyser",
       "bn": "গেযসের",
       "emoji": "💦",
-      "roman": "geyser"
+      "exampleEn": "Look at the geyser!",
+      "exampleBn": "গেযসেরটা দেখো!"
     },
     {
       "id": "nature-hot-spring",
       "en": "hot spring",
       "bn": "গরম জোল",
       "emoji": "♨️",
-      "roman": "gorom jol"
+      "exampleEn": "I see the hot spring.",
+      "exampleBn": "আমি গরম জোল দেখছি।"
     },
     {
       "id": "nature-crystal",
       "en": "crystal",
       "bn": "করিসতল",
       "emoji": "💎",
-      "roman": "kristal"
+      "exampleEn": "The crystal is beautiful.",
+      "exampleBn": "করিসতল খুব সুন্দর।"
     },
     {
       "id": "nature-gem",
       "en": "gem",
       "bn": "রতন",
       "emoji": "💎",
-      "roman": "ratan"
+      "exampleEn": "I love the gem.",
+      "exampleBn": "আমি রতন ভালোবাসি।"
     },
     {
       "id": "nature-spring-season",
       "en": "spring season",
       "bn": "বসন্ত কল",
       "emoji": "🌸",
-      "roman": "boshonto kal"
+      "exampleEn": "Look at the spring season!",
+      "exampleBn": "বসন্ত কলটা দেখো!"
     },
     {
       "id": "nature-heatwave",
       "en": "heatwave",
       "bn": "তপোন",
       "emoji": "🥵",
-      "roman": "tapon"
+      "exampleEn": "I see the heatwave.",
+      "exampleBn": "আমি তপোন দেখছি।"
     },
     {
       "id": "nature-cold-wave",
       "en": "cold wave",
       "bn": "শীত লহর",
       "emoji": "🥶",
-      "roman": "sheet lahar"
+      "exampleEn": "The cold wave is beautiful.",
+      "exampleBn": "শীত লহর খুব সুন্দর।"
     },
     {
       "id": "nature-blizzard",
       "en": "blizzard",
       "bn": "তুষার ঝড়",
       "emoji": "❄️",
-      "roman": "tushar jhor"
+      "exampleEn": "I love the blizzard.",
+      "exampleBn": "আমি তুষার ঝড় ভালোবাসি।"
     },
     {
       "id": "nature-dust-storm",
       "en": "dust storm",
       "bn": "ধুল ঝড়",
       "emoji": "🌪️",
-      "roman": "dhul jhor"
+      "exampleEn": "Look at the dust storm!",
+      "exampleBn": "ধুল ঝড়টা দেখো!"
     },
     {
       "id": "nature-rainforest",
       "en": "rainforest",
       "bn": "বন",
       "emoji": "🌴",
-      "roman": "bon"
+      "exampleEn": "I see the rainforest.",
+      "exampleBn": "আমি বন দেখছি।"
     },
     {
       "id": "nature-prairie",
       "en": "prairie",
       "bn": "পরেরি",
       "emoji": "🌾",
-      "roman": "preri"
+      "exampleEn": "The prairie is beautiful.",
+      "exampleBn": "পরেরি খুব সুন্দর।"
     },
     {
       "id": "nature-wetland",
       "en": "wetland",
       "bn": "পনকুরি",
       "emoji": "🌿",
-      "roman": "pankuri"
+      "exampleEn": "I love the wetland.",
+      "exampleBn": "আমি পনকুরি ভালোবাসি।"
     },
     {
       "id": "nature-oak-tree",
       "en": "oak tree",
       "bn": "ওক গাছ",
       "emoji": "🌳",
-      "roman": "oak gach"
+      "exampleEn": "Look at the oak tree!",
+      "exampleBn": "ওক গাছটা দেখো!"
     },
     {
       "id": "nature-pine-tree",
       "en": "pine tree",
       "bn": "পিনে গাছ",
       "emoji": "🌲",
-      "roman": "pine gach"
+      "exampleEn": "I see the pine tree.",
+      "exampleBn": "আমি পিনে গাছ দেখছি।"
     },
     {
       "id": "nature-cherry-blossom",
       "en": "cherry blossom",
       "bn": "চেড়য ফুল",
       "emoji": "🌸",
-      "roman": "cherry phul"
+      "exampleEn": "The cherry blossom is beautiful.",
+      "exampleBn": "চেড়য ফুল খুব সুন্দর।"
     },
     {
       "id": "nature-tulip",
       "en": "tulip",
       "bn": "তুলিপ",
       "emoji": "🌷",
-      "roman": "tulip"
+      "exampleEn": "I love the tulip.",
+      "exampleBn": "আমি তুলিপ ভালোবাসি।"
     },
     {
       "id": "nature-orchid",
       "en": "orchid",
       "bn": "ওরচিদ",
       "emoji": "🌸",
-      "roman": "orchid"
+      "exampleEn": "Look at the orchid!",
+      "exampleBn": "ওরচিদটা দেখো!"
     },
     {
       "id": "nature-lily",
       "en": "lily",
       "bn": "লিলয",
       "emoji": "🪷",
-      "roman": "lily"
+      "exampleEn": "I see the lily.",
+      "exampleBn": "আমি লিলয দেখছি।"
     },
     {
       "id": "nature-moss",
       "en": "moss",
       "bn": "মোসস",
       "emoji": "🌿",
-      "roman": "moss"
+      "exampleEn": "The moss is beautiful.",
+      "exampleBn": "মোসস খুব সুন্দর।"
     },
     {
       "id": "nature-algae",
       "en": "algae",
       "bn": "অলগে",
       "emoji": "🌿",
-      "roman": "algae"
+      "exampleEn": "I love the algae.",
+      "exampleBn": "আমি অলগে ভালোবাসি।"
     },
     {
       "id": "nature-boulder",
       "en": "boulder",
       "bn": "বড় পাথর",
       "emoji": "🪨",
-      "roman": "baro pathor"
+      "exampleEn": "Look at the boulder!",
+      "exampleBn": "বড় পাথরটা দেখো!"
     },
     {
       "id": "nature-plateau",
       "en": "plateau",
       "bn": "মোহিশুর",
       "emoji": "🏔️",
-      "roman": "mohishur"
+      "exampleEn": "I see the plateau.",
+      "exampleBn": "আমি মোহিশুর দেখছি।"
     },
     {
       "id": "nature-oasis",
       "en": "oasis",
       "bn": "ওসিস",
       "emoji": "🏝️",
-      "roman": "oasis"
+      "exampleEn": "The oasis is beautiful.",
+      "exampleBn": "ওসিস খুব সুন্দর।"
     },
     {
       "id": "nature-iceberg",
       "en": "iceberg",
       "bn": "বরফ পাহাড়",
       "emoji": "🧊",
-      "roman": "borof pahar"
+      "exampleEn": "I love the iceberg.",
+      "exampleBn": "আমি বরফ পাহাড় ভালোবাসি।"
     },
     {
       "id": "nature-whirlpool",
       "en": "whirlpool",
       "bn": "বোরত",
       "emoji": "🌀",
-      "roman": "bort"
+      "exampleEn": "Look at the whirlpool!",
+      "exampleBn": "বোরতটা দেখো!"
     },
     {
       "id": "nature-current",
       "en": "current",
       "bn": "সরোতো",
       "emoji": "🌊",
-      "roman": "sroto"
+      "exampleEn": "I see the current.",
+      "exampleBn": "আমি সরোতো দেখছি।"
     },
     {
       "id": "nature-haze",
       "en": "haze",
       "bn": "ধুনধ",
       "emoji": "🌫️",
-      "roman": "dhundh"
+      "exampleEn": "The haze is beautiful.",
+      "exampleBn": "ধুনধ খুব সুন্দর।"
     },
     {
       "id": "nature-sleet",
       "en": "sleet",
       "bn": "বরফ বৃষ্টি",
       "emoji": "🌨️",
-      "roman": "borof brishti"
+      "exampleEn": "I love the sleet.",
+      "exampleBn": "আমি বরফ বৃষ্টি ভালোবাসি।"
     },
     {
       "id": "nature-gust",
       "en": "gust",
       "bn": "ঝড় হব",
       "emoji": "💨",
-      "roman": "jhor hawa"
+      "exampleEn": "Look at the gust!",
+      "exampleBn": "ঝড় হবটা দেখো!"
     },
     {
       "id": "nature-dryness",
       "en": "dryness",
       "bn": "শুকনোত",
       "emoji": "🏜️",
-      "roman": "shuknota"
+      "exampleEn": "I see the dryness.",
+      "exampleBn": "আমি শুকনোত দেখছি।"
     },
     {
       "id": "nature-oxygen",
       "en": "oxygen",
       "bn": "ওক্সযগেন",
       "emoji": "💨",
-      "roman": "oxygen"
+      "exampleEn": "The oxygen is beautiful.",
+      "exampleBn": "ওক্সযগেন খুব সুন্দর।"
     },
     {
       "id": "nature-recycling",
       "en": "recycling",
       "bn": "পুনোরববযস",
       "emoji": "♻️",
-      "roman": "punorbbyas"
+      "exampleEn": "I love the recycling.",
+      "exampleBn": "আমি পুনোরববযস ভালোবাসি।"
     },
     {
       "id": "nature-conservation",
       "en": "conservation",
       "bn": "সোনরোকখোন",
       "emoji": "🌿",
-      "roman": "sonrokkhon"
+      "exampleEn": "Look at the conservation!",
+      "exampleBn": "সোনরোকখোনটা দেখো!"
     },
     {
       "id": "nature-habitat",
       "en": "habitat",
       "bn": "বসোসথন",
       "emoji": "🏠",
-      "roman": "basosthan"
+      "exampleEn": "I see the habitat.",
+      "exampleBn": "আমি বসোসথন দেখছি।"
     },
     {
       "id": "nature-photosynthesis",
       "en": "photosynthesis",
       "bn": "ফোতোসযনথেসিস",
       "emoji": "🌱",
-      "roman": "photosynthesis"
+      "exampleEn": "The photosynthesis is beautiful.",
+      "exampleBn": "ফোতোসযনথেসিস খুব সুন্দর।"
     },
     {
       "id": "nature-pollination",
       "en": "pollination",
       "bn": "পোললিনতিোন",
       "emoji": "🐝",
-      "roman": "pollination"
+      "exampleEn": "I love the pollination.",
+      "exampleBn": "আমি পোললিনতিোন ভালোবাসি।"
     },
     {
       "id": "nature-sprout",
       "en": "sprout",
       "bn": "অঙ্কুর",
       "emoji": "🌱",
-      "roman": "onkur"
+      "exampleEn": "Look at the sprout!",
+      "exampleBn": "অঙ্কুরটা দেখো!"
     },
     {
       "id": "nature-rice-plant",
       "en": "rice plant",
       "bn": "ধান গাছ",
       "emoji": "🌾",
-      "roman": "dhan gach"
+      "exampleEn": "I see the rice plant.",
+      "exampleBn": "আমি ধান গাছ দেখছি।"
     },
     {
       "id": "nature-jute-plant",
       "en": "jute plant",
       "bn": "পত গাছ",
       "emoji": "🌿",
-      "roman": "pat gach"
+      "exampleEn": "The jute plant is beautiful.",
+      "exampleBn": "পত গাছ খুব সুন্দর।"
     },
     {
       "id": "nature-vegetable-garden",
       "en": "vegetable garden",
       "bn": "সবজি বাগান",
       "emoji": "🥬",
-      "roman": "shobji bagan"
+      "exampleEn": "I love the vegetable garden.",
+      "exampleBn": "আমি সবজি বাগান ভালোবাসি।"
     },
     {
       "id": "nature-playground",
       "en": "playground",
       "bn": "খেলর মত",
       "emoji": "🏃",
-      "roman": "khelar mat"
+      "exampleEn": "Look at the playground!",
+      "exampleBn": "খেলর মতটা দেখো!"
     },
     {
       "id": "nature-camping",
       "en": "camping",
       "bn": "চমপিঙ",
       "emoji": "⛺",
-      "roman": "camping"
+      "exampleEn": "I see the camping.",
+      "exampleBn": "আমি চমপিঙ দেখছি।"
     },
     {
       "id": "nature-picnic-spot",
       "en": "picnic spot",
       "bn": "পিচনিচ সপোত",
       "emoji": "🧺",
-      "roman": "picnic spot"
+      "exampleEn": "The picnic spot is beautiful.",
+      "exampleBn": "পিচনিচ সপোত খুব সুন্দর।"
     },
     {
       "id": "nature-brightness",
       "en": "brightness",
       "bn": "উজজলোত",
       "emoji": "✨",
-      "roman": "ujjalota"
+      "exampleEn": "I love the brightness.",
+      "exampleBn": "আমি উজজলোত ভালোবাসি।"
     },
     {
       "id": "nature-galaxy",
       "en": "galaxy",
       "bn": "গলক্সয",
       "emoji": "🌌",
-      "roman": "galaxy"
+      "exampleEn": "Look at the galaxy!",
+      "exampleBn": "গলক্সযটা দেখো!"
     },
     {
       "id": "nature-constellation",
       "en": "constellation",
       "bn": "নোখোতরো",
       "emoji": "⭐",
-      "roman": "nokhotro"
+      "exampleEn": "I see the constellation.",
+      "exampleBn": "আমি নোখোতরো দেখছি।"
     },
     {
       "id": "nature-north-star",
       "en": "north star",
       "bn": "ধরুভো তারা",
       "emoji": "⭐",
-      "roman": "dhruvo tara"
+      "exampleEn": "The north star is beautiful.",
+      "exampleBn": "ধরুভো তারা খুব সুন্দর।"
     },
     {
       "id": "nature-milky-way",
       "en": "milky way",
       "bn": "অকশতলিক",
       "emoji": "🌌",
-      "roman": "akashtalika"
+      "exampleEn": "I love the milky way.",
+      "exampleBn": "আমি অকশতলিক ভালোবাসি।"
     },
     {
       "id": "nature-solar-eclipse",
       "en": "solar eclipse",
       "bn": "সুরজো গরহন",
       "emoji": "🌑",
-      "roman": "surjo grahan"
+      "exampleEn": "Look at the solar eclipse!",
+      "exampleBn": "সুরজো গরহনটা দেখো!"
     },
     {
       "id": "nature-lunar-eclipse",
       "en": "lunar eclipse",
       "bn": "ছাদ গরহন",
       "emoji": "🌑",
-      "roman": "chad grahan"
+      "exampleEn": "I see the lunar eclipse.",
+      "exampleBn": "আমি ছাদ গরহন দেখছি।"
     },
     {
       "id": "nature-crescent-moon",
       "en": "crescent moon",
       "bn": "হালকা ছাদ",
       "emoji": "🌙",
-      "roman": "halka chad"
+      "exampleEn": "The crescent moon is beautiful.",
+      "exampleBn": "হালকা ছাদ খুব সুন্দর।"
     },
     {
       "id": "nature-half-moon",
       "en": "half moon",
       "bn": "অর্ধেক ছাদ",
       "emoji": "🌓",
-      "roman": "ordhek chad"
+      "exampleEn": "I love the half moon.",
+      "exampleBn": "আমি অর্ধেক ছাদ ভালোবাসি।"
     },
     {
       "id": "nature-wind-sound",
       "en": "wind sound",
       "bn": "বতের অবজ",
       "emoji": "💨",
-      "roman": "bater awaj"
+      "exampleEn": "Look at the wind sound!",
+      "exampleBn": "বতের অবজটা দেখো!"
     },
     {
       "id": "nature-cricket-sound",
       "en": "cricket sound",
       "bn": "ঝিনঝির অবজ",
       "emoji": "🦗",
-      "roman": "jhinjhir awaj"
+      "exampleEn": "I see the cricket sound.",
+      "exampleBn": "আমি ঝিনঝির অবজ দেখছি।"
     },
     {
       "id": "nature-river-bend",
       "en": "river bend",
       "bn": "নদীর মোধ",
       "emoji": "🏞️",
-      "roman": "nodir modh"
+      "exampleEn": "The river bend is beautiful.",
+      "exampleBn": "নদীর মোধ খুব সুন্দর।"
     },
     {
       "id": "nature-river-mouth",
       "en": "river mouth",
       "bn": "নদীর মুখ",
       "emoji": "🏞️",
-      "roman": "nodir mukh"
+      "exampleEn": "I love the river mouth.",
+      "exampleBn": "আমি নদীর মুখ ভালোবাসি।"
     },
     {
       "id": "nature-tide-pool",
       "en": "tide pool",
       "bn": "জোবর এর জোল",
       "emoji": "🌊",
-      "roman": "jowar er jol"
+      "exampleEn": "Look at the tide pool!",
+      "exampleBn": "জোবর এর জোলটা দেখো!"
     },
     {
       "id": "nature-rock-pool",
       "en": "rock pool",
       "bn": "পাথর এর জোল",
       "emoji": "🪨",
-      "roman": "pathor er jol"
+      "exampleEn": "I see the rock pool.",
+      "exampleBn": "আমি পাথর এর জোল দেখছি।"
     },
     {
       "id": "nature-mineral",
       "en": "mineral",
       "bn": "খনিজ",
       "emoji": "💎",
-      "roman": "khanij"
+      "exampleEn": "The mineral is beautiful.",
+      "exampleBn": "খনিজ খুব সুন্দর।"
     },
     {
       "id": "nature-gold-ore",
       "en": "gold ore",
       "bn": "সোনর খনিজ",
       "emoji": "🥇",
-      "roman": "sonar khanij"
+      "exampleEn": "I love the gold ore.",
+      "exampleBn": "আমি সোনর খনিজ ভালোবাসি।"
     },
     {
       "id": "nature-iron-ore",
       "en": "iron ore",
       "bn": "লোহের খনিজ",
       "emoji": "⛏️",
-      "roman": "loher khanij"
+      "exampleEn": "Look at the iron ore!",
+      "exampleBn": "লোহের খনিজটা দেখো!"
     },
     {
       "id": "nature-petroleum",
       "en": "petroleum",
       "bn": "পেতরোলেুম",
       "emoji": "🛢️",
-      "roman": "petroleum"
+      "exampleEn": "I see the petroleum.",
+      "exampleBn": "আমি পেতরোলেুম দেখছি।"
     },
     {
       "id": "nature-natural-gas",
       "en": "natural gas",
       "bn": "পরকরিতিক গস",
       "emoji": "💨",
-      "roman": "prakritik gas"
+      "exampleEn": "The natural gas is beautiful.",
+      "exampleBn": "পরকরিতিক গস খুব সুন্দর।"
     },
     {
       "id": "nature-food-chain",
       "en": "food chain",
       "bn": "শব্যাব শরিনখোল",
       "emoji": "🔗",
-      "roman": "khabar shrinkhola"
+      "exampleEn": "I love the food chain.",
+      "exampleBn": "আমি শব্যাব শরিনখোল ভালোবাসি।"
     },
     {
       "id": "nature-harvest-moon",
       "en": "harvest moon",
       "bn": "ফসল ছাদ",
       "emoji": "🌕",
-      "roman": "foshol chad"
+      "exampleEn": "Look at the harvest moon!",
+      "exampleBn": "ফসল ছাদটা দেখো!"
     },
     {
       "id": "nature-aurora",
       "en": "aurora",
       "bn": "অুরোর",
       "emoji": "🌌",
-      "roman": "aurora"
+      "exampleEn": "I see the aurora.",
+      "exampleBn": "আমি অুরোর দেখছি।"
     },
     {
       "id": "nature-drought",
       "en": "drought",
       "bn": "খর",
       "emoji": "🏜️",
-      "roman": "khara"
+      "exampleEn": "The drought is beautiful.",
+      "exampleBn": "খর খুব সুন্দর।"
     },
     {
       "id": "nature-earthquake",
       "en": "earthquake",
       "bn": "ভুমিকোমপো",
       "emoji": "🌍",
-      "roman": "bhumikompo"
+      "exampleEn": "I love the earthquake.",
+      "exampleBn": "আমি ভুমিকোমপো ভালোবাসি।"
     },
     {
       "id": "nature-volcano",
       "en": "volcano",
       "bn": "ভোলচনো",
       "emoji": "🌋",
-      "roman": "volcano"
+      "exampleEn": "Look at the volcano!",
+      "exampleBn": "ভোলচনোটা দেখো!"
     },
     {
       "id": "nature-spring-water",
       "en": "spring water",
       "bn": "ঝরন",
       "emoji": "💧",
-      "roman": "jharna"
+      "exampleEn": "I see the spring water.",
+      "exampleBn": "আমি ঝরন দেখছি।"
     },
     {
       "id": "nature-tamarind-tree",
       "en": "tamarind tree",
       "bn": "তেতুল গাছ",
       "emoji": "🌳",
-      "roman": "tetul gach"
+      "exampleEn": "The tamarind tree is beautiful.",
+      "exampleBn": "তেতুল গাছ খুব সুন্দর।"
     },
     {
       "id": "nature-eucalyptus",
       "en": "eucalyptus",
       "bn": "এুচলযপতুস",
       "emoji": "🌳",
-      "roman": "eucalyptus"
+      "exampleEn": "I love the eucalyptus.",
+      "exampleBn": "আমি এুচলযপতুস ভালোবাসি।"
     },
     {
       "id": "nature-maple-tree",
       "en": "maple tree",
       "bn": "মপলে গাছ",
       "emoji": "🍁",
-      "roman": "maple gach"
+      "exampleEn": "Look at the maple tree!",
+      "exampleBn": "মপলে গাছটা দেখো!"
     },
     {
       "id": "nature-willow-tree",
       "en": "willow tree",
       "bn": "বিললোব গাছ",
       "emoji": "🌳",
-      "roman": "willow gach"
+      "exampleEn": "I see the willow tree.",
+      "exampleBn": "আমি বিললোব গাছ দেখছি।"
     },
     {
       "id": "nature-daisy",
       "en": "daisy",
       "bn": "দিসয",
       "emoji": "🌼",
-      "roman": "daisy"
+      "exampleEn": "The daisy is beautiful.",
+      "exampleBn": "দিসয খুব সুন্দর।"
     },
     {
       "id": "nature-poppy",
       "en": "poppy",
       "bn": "কশ",
       "emoji": "🌺",
-      "roman": "kash"
+      "exampleEn": "I love the poppy.",
+      "exampleBn": "আমি কশ ভালোবাসি।"
     },
     {
       "id": "nature-seaweed",
       "en": "seaweed",
       "bn": "শামুক",
       "emoji": "🌿",
-      "roman": "shamuk"
+      "exampleEn": "Look at the seaweed!",
+      "exampleBn": "শামুকটা দেখো!"
     },
     {
       "id": "nature-carbon-dioxide",
       "en": "carbon dioxide",
       "bn": "চরবোন দিোক্সিদে",
       "emoji": "💨",
-      "roman": "carbon dioxide"
+      "exampleEn": "I see the carbon dioxide.",
+      "exampleBn": "আমি চরবোন দিোক্সিদে দেখছি।"
     },
     {
       "id": "nature-nature-trail",
       "en": "nature trail",
       "bn": "নতুরে তরিল",
       "emoji": "🥾",
-      "roman": "nature trail"
+      "exampleEn": "The nature trail is beautiful.",
+      "exampleBn": "নতুরে তরিল খুব সুন্দর।"
     }
   ]
 }

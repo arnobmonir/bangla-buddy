@@ -9,9 +9,19 @@ export type CategoryProgress = {
   resumeIndex: number
 }
 
+export type QuizCategoryStats = {
+  bestScore: number
+  bestTotal: number
+  lastScore: number
+  lastTotal: number
+  plays: number
+  lastPlayedAt: number
+}
+
 export type ProgressStore = {
   wordsHeard: Record<string, number>
   categories: Record<string, CategoryProgress>
+  quizByCategory: Record<string, QuizCategoryStats>
   sessions: number
   totalWordPlays: number
   uniqueWords: number
@@ -25,6 +35,7 @@ export const PROGRESS_STORAGE_KEY = 'baby-bangla-progress'
 export const EMPTY_PROGRESS: ProgressStore = {
   wordsHeard: {},
   categories: {},
+  quizByCategory: {},
   sessions: 0,
   totalWordPlays: 0,
   uniqueWords: 0,
@@ -69,6 +80,26 @@ function sanitizeCategory(raw: unknown): CategoryProgress {
   }
 }
 
+function sanitizeQuizStats(raw: unknown): QuizCategoryStats {
+  const input = (raw && typeof raw === 'object' ? raw : {}) as Partial<QuizCategoryStats>
+  const lastTotal = Math.max(0, Number(input.lastTotal ?? 0) || 0)
+  const bestScore = Math.max(0, Number(input.bestScore ?? 0) || 0)
+  const bestTotalRaw = Math.max(0, Number(input.bestTotal ?? 0) || 0)
+  return {
+    bestScore,
+    bestTotal:
+      bestTotalRaw > 0
+        ? Math.max(bestTotalRaw, bestScore)
+        : bestScore > 0
+          ? Math.max(lastTotal, bestScore)
+          : lastTotal,
+    lastScore: Math.max(0, Number(input.lastScore ?? 0) || 0),
+    lastTotal,
+    plays: Math.max(0, Number(input.plays ?? 0) || 0),
+    lastPlayedAt: Math.max(0, Number(input.lastPlayedAt ?? 0) || 0),
+  }
+}
+
 function sanitize(raw: unknown): ProgressStore {
   const input = (raw && typeof raw === 'object' ? raw : {}) as Partial<ProgressStore>
   const categoriesIn =
@@ -77,10 +108,19 @@ function sanitize(raw: unknown): ProgressStore {
   for (const [id, value] of Object.entries(categoriesIn)) {
     categories[id] = sanitizeCategory(value)
   }
+  const quizIn =
+    input.quizByCategory && typeof input.quizByCategory === 'object'
+      ? input.quizByCategory
+      : {}
+  const quizByCategory: Record<string, QuizCategoryStats> = {}
+  for (const [id, value] of Object.entries(quizIn)) {
+    quizByCategory[id] = sanitizeQuizStats(value)
+  }
   return {
     wordsHeard:
       input.wordsHeard && typeof input.wordsHeard === 'object' ? input.wordsHeard : {},
     categories,
+    quizByCategory,
     sessions: Number(input.sessions ?? 0) || 0,
     totalWordPlays: Number(input.totalWordPlays ?? 0) || 0,
     uniqueWords: Number(input.uniqueWords ?? 0) || 0,
@@ -224,6 +264,47 @@ export function clearCategoryResume(
   categoryId: string,
 ): ProgressStore {
   return saveCategoryResume(store, categoryId, null, 0)
+}
+
+export function recordQuizResult(
+  store: ProgressStore,
+  categoryId: string,
+  score: number,
+  total: number,
+): ProgressStore {
+  const safeTotal = Math.max(0, total)
+  const safeScore = Math.max(0, Math.min(score, safeTotal))
+  const now = Date.now()
+  const prev = store.quizByCategory[categoryId] ?? {
+    bestScore: 0,
+    bestTotal: 0,
+    lastScore: 0,
+    lastTotal: 0,
+    plays: 0,
+    lastPlayedAt: 0,
+  }
+
+  const prevBestRatio = prev.bestTotal > 0 ? prev.bestScore / prev.bestTotal : -1
+  const nextBestRatio = safeTotal > 0 ? safeScore / safeTotal : 0
+  const isNewBest = nextBestRatio > prevBestRatio || (nextBestRatio === prevBestRatio && safeScore > prev.bestScore)
+
+  const next: ProgressStore = touchStreak({
+    ...store,
+    lastSessionAt: now,
+    quizByCategory: {
+      ...store.quizByCategory,
+      [categoryId]: {
+        bestScore: isNewBest ? safeScore : prev.bestScore,
+        bestTotal: isNewBest ? safeTotal : prev.bestTotal || prev.lastTotal,
+        lastScore: safeScore,
+        lastTotal: safeTotal,
+        plays: prev.plays + 1,
+        lastPlayedAt: now,
+      },
+    },
+  })
+  persist(next)
+  return next
 }
 
 export function resetProgress(): ProgressStore {

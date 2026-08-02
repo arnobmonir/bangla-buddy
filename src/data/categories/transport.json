@@ -6,1274 +6,1456 @@
       "en": "car",
       "bn": "গাড়ি",
       "emoji": "🚗",
-      "roman": "gari"
+      "exampleEn": "We go by car.",
+      "exampleBn": "আমরা গাড়ি করে যাই।"
     },
     {
       "id": "transport-bus",
       "en": "bus",
       "bn": "বাস",
       "emoji": "🚌",
-      "roman": "bas"
+      "exampleEn": "The bus is fast.",
+      "exampleBn": "বাসটা দ্রুত।"
     },
     {
       "id": "transport-train",
       "en": "train",
       "bn": "ট্রেন",
       "emoji": "🚆",
-      "roman": "tren"
+      "exampleEn": "We go by train.",
+      "exampleBn": "আমরা ট্রেন করে যাই।"
     },
     {
       "id": "transport-plane",
       "en": "plane",
       "bn": "বিমান",
       "emoji": "✈️",
-      "roman": "biman"
+      "exampleEn": "I see a plane.",
+      "exampleBn": "আমি একটি বিমান দেখছি।"
     },
     {
       "id": "transport-boat",
       "en": "boat",
       "bn": "নৌকা",
       "emoji": "⛵",
-      "roman": "nouka"
+      "exampleEn": "Look at the boat!",
+      "exampleBn": "নৌকাটা দেখো!"
     },
     {
       "id": "transport-bike",
       "en": "bicycle",
       "bn": "সাইকেল",
       "emoji": "🚲",
-      "roman": "saikel"
+      "exampleEn": "The bicycle is fast.",
+      "exampleBn": "সাইকেলটা দ্রুত।"
     },
     {
       "id": "transport-rickshaw",
       "en": "rickshaw",
       "bn": "রিকশা",
       "emoji": "🛺",
-      "roman": "riksha"
+      "exampleEn": "We go by rickshaw.",
+      "exampleBn": "আমরা রিকশা করে যাই।"
     },
     {
       "id": "transport-truck",
       "en": "truck",
       "bn": "ট্রাক",
       "emoji": "🚚",
-      "roman": "trak"
+      "exampleEn": "I see a truck.",
+      "exampleBn": "আমি একটি ট্রাক দেখছি।"
     },
     {
       "id": "transport-ship",
       "en": "ship",
       "bn": "জাহাজ",
       "emoji": "🚢",
-      "roman": "jahaj"
+      "exampleEn": "Look at the ship!",
+      "exampleBn": "জাহাজটা দেখো!"
     },
     {
       "id": "transport-taxi",
       "en": "taxi",
       "bn": "ট্যাক্সি",
       "emoji": "🚕",
-      "roman": "taxi"
+      "exampleEn": "The taxi is fast.",
+      "exampleBn": "ট্যাক্সিটা দ্রুত।"
     },
     {
       "id": "transport-motorcycle",
       "en": "motorcycle",
       "bn": "মোটরসাইকেল",
       "emoji": "🏍️",
-      "roman": "motorsaikel"
+      "exampleEn": "We go by motorcycle.",
+      "exampleBn": "আমরা মোটরসাইকেল করে যাই।"
     },
     {
       "id": "transport-scooter",
       "en": "scooter",
       "bn": "স্কুটার",
       "emoji": "🛵",
-      "roman": "skutar"
+      "exampleEn": "I see a scooter.",
+      "exampleBn": "আমি একটি স্কুটার দেখছি।"
     },
     {
       "id": "transport-helicopter",
       "en": "helicopter",
       "bn": "হেলিকপ্টার",
       "emoji": "🚁",
-      "roman": "helicopter"
+      "exampleEn": "Look at the helicopter!",
+      "exampleBn": "হেলিকপ্টারটা দেখো!"
     },
     {
       "id": "transport-road",
       "en": "road",
       "bn": "রাস্তা",
       "emoji": "🛣️",
-      "roman": "rasta"
+      "exampleEn": "The road is fast.",
+      "exampleBn": "রাস্তাটা দ্রুত।"
     },
     {
       "id": "transport-van",
       "en": "van",
       "bn": "ভ্যান",
       "emoji": "🚐",
-      "roman": "van"
+      "exampleEn": "We go by van.",
+      "exampleBn": "আমরা ভ্যান করে যাই।"
     },
     {
       "id": "transport-ambulance",
       "en": "ambulance",
       "bn": "অ্যাম্বুলেন্স",
       "emoji": "🚑",
-      "roman": "ambulance"
+      "exampleEn": "I see an ambulance.",
+      "exampleBn": "আমি একটি অ্যাম্বুলেন্স দেখছি।"
     },
     {
       "id": "transport-fire-truck",
       "en": "fire truck",
       "bn": "ফায়ার ব্রিগেড",
       "emoji": "🚒",
-      "roman": "fire brigade"
+      "exampleEn": "Look at the fire truck!",
+      "exampleBn": "ফায়ার ব্রিগেডটা দেখো!"
     },
     {
       "id": "transport-police-car",
       "en": "police car",
       "bn": "পুলিশ গাড়ি",
       "emoji": "🚓",
-      "roman": "pulish gari"
+      "exampleEn": "The police car is fast.",
+      "exampleBn": "পুলিশ গাড়িটা দ্রুত।"
     },
     {
       "id": "transport-tractor",
       "en": "tractor",
       "bn": "ট্র্যাক্টর",
       "emoji": "🚜",
-      "roman": "tractor"
+      "exampleEn": "We go by tractor.",
+      "exampleBn": "আমরা ট্র্যাক্টর করে যাই।"
     },
     {
       "id": "transport-subway",
       "en": "subway",
       "bn": "মেট্রো",
       "emoji": "🚇",
-      "roman": "metro"
+      "exampleEn": "I see a subway.",
+      "exampleBn": "আমি একটি মেট্রো দেখছি।"
     },
     {
       "id": "transport-tram",
       "en": "tram",
       "bn": "ট্রাম",
       "emoji": "🚊",
-      "roman": "tram"
+      "exampleEn": "Look at the tram!",
+      "exampleBn": "ট্রামটা দেখো!"
     },
     {
       "id": "transport-ferry",
       "en": "ferry",
       "bn": "ফেরি",
       "emoji": "⛴️",
-      "roman": "feri"
+      "exampleEn": "The ferry is fast.",
+      "exampleBn": "ফেরিটা দ্রুত।"
     },
     {
       "id": "transport-rocket",
       "en": "rocket",
       "bn": "রকেট",
       "emoji": "🚀",
-      "roman": "rocket"
+      "exampleEn": "We go by rocket.",
+      "exampleBn": "আমরা রকেট করে যাই।"
     },
     {
       "id": "transport-cart",
       "en": "cart",
       "bn": "গাড়া",
       "emoji": "🛒",
-      "roman": "gara"
+      "exampleEn": "I see a cart.",
+      "exampleBn": "আমি একটি গাড়া দেখছি।"
     },
     {
       "id": "transport-cng",
       "en": "CNG",
       "bn": "সিএনজি",
       "emoji": "🛺",
-      "roman": "cng"
+      "exampleEn": "Look at the CNG!",
+      "exampleBn": "সিএনজিটা দেখো!"
     },
     {
       "id": "transport-wheel",
       "en": "wheel",
       "bn": "চাকা",
       "emoji": "⚙️",
-      "roman": "chaka"
+      "exampleEn": "The wheel is fast.",
+      "exampleBn": "চাকাটা দ্রুত।"
     },
     {
       "id": "transport-steering",
       "en": "steering",
       "bn": "স্টিয়ারিং",
       "emoji": "🛞",
-      "roman": "steering"
+      "exampleEn": "We go by steering.",
+      "exampleBn": "আমরা স্টিয়ারিং করে যাই।"
     },
     {
       "id": "transport-horn",
       "en": "horn",
       "bn": "হর্ন",
       "emoji": "📢",
-      "roman": "horn"
+      "exampleEn": "I see a horn.",
+      "exampleBn": "আমি একটি হর্ন দেখছি।"
     },
     {
       "id": "transport-brake",
       "en": "brake",
       "bn": "ব্রেক",
       "emoji": "🛑",
-      "roman": "brek"
+      "exampleEn": "Look at the brake!",
+      "exampleBn": "ব্রেকটা দেখো!"
     },
     {
       "id": "transport-fuel",
       "en": "fuel",
       "bn": "জ্বালানি",
       "emoji": "⛽",
-      "roman": "jalani"
+      "exampleEn": "The fuel is fast.",
+      "exampleBn": "জ্বালানিটা দ্রুত।"
     },
     {
       "id": "transport-station",
       "en": "station",
       "bn": "স্টেশন",
       "emoji": "🚉",
-      "roman": "steshon"
+      "exampleEn": "We go by station.",
+      "exampleBn": "আমরা স্টেশন করে যাই।"
     },
     {
       "id": "transport-airport",
       "en": "airport",
       "bn": "বিমানবন্দর",
       "emoji": "🛫",
-      "roman": "bimanbondor"
+      "exampleEn": "I see an airport.",
+      "exampleBn": "আমি একটি বিমানবন্দর দেখছি।"
     },
     {
       "id": "transport-bridge",
       "en": "bridge",
       "bn": "সেতু",
       "emoji": "🌉",
-      "roman": "setu"
+      "exampleEn": "Look at the bridge!",
+      "exampleBn": "সেতুটা দেখো!"
     },
     {
       "id": "transport-traffic",
       "en": "traffic",
       "bn": "ট্রাফিক",
       "emoji": "🚦",
-      "roman": "traffic"
+      "exampleEn": "The traffic is fast.",
+      "exampleBn": "ট্রাফিকটা দ্রুত।"
     },
     {
       "id": "transport-signal",
       "en": "signal",
       "bn": "সিগন্যাল",
       "emoji": "🚦",
-      "roman": "signal"
+      "exampleEn": "We go by signal.",
+      "exampleBn": "আমরা সিগন্যাল করে যাই।"
     },
     {
       "id": "transport-driver",
       "en": "driver",
       "bn": "চালক",
       "emoji": "🧑‍✈️",
-      "roman": "chalok"
+      "exampleEn": "I see a driver.",
+      "exampleBn": "আমি একটি চালক দেখছি।"
     },
     {
       "id": "transport-passenger",
       "en": "passenger",
       "bn": "যাত্রী",
       "emoji": "🧍",
-      "roman": "jatri"
+      "exampleEn": "Look at the passenger!",
+      "exampleBn": "যাত্রীটা দেখো!"
     },
     {
       "id": "transport-ticket",
       "en": "ticket",
       "bn": "টিকিট",
       "emoji": "🎫",
-      "roman": "tikit"
+      "exampleEn": "The ticket is fast.",
+      "exampleBn": "টিকিটটা দ্রুত।"
     },
     {
       "id": "transport-map",
       "en": "map",
       "bn": "মানচিত্র",
       "emoji": "🗺️",
-      "roman": "manochitro"
+      "exampleEn": "We go by map.",
+      "exampleBn": "আমরা মানচিত্র করে যাই।"
     },
     {
       "id": "transport-journey",
       "en": "journey",
       "bn": "যাত্রা",
       "emoji": "🧳",
-      "roman": "jatra"
+      "exampleEn": "I see a journey.",
+      "exampleBn": "আমি একটি যাত্রা দেখছি।"
     },
     {
       "id": "transport-auto-rickshaw",
       "en": "auto rickshaw",
       "bn": "অটো রিকশা",
       "emoji": "🛺",
-      "roman": "auto rickshaw"
+      "exampleEn": "Look at the auto rickshaw!",
+      "exampleBn": "অটো রিকশাটা দেখো!"
     },
     {
       "id": "transport-cycle-rickshaw",
       "en": "cycle rickshaw",
       "bn": "সাইকেল রিকশা",
       "emoji": "🚲",
-      "roman": "cycle rickshaw"
+      "exampleEn": "The cycle rickshaw is fast.",
+      "exampleBn": "সাইকেল রিকশাটা দ্রুত।"
     },
     {
       "id": "transport-tempo",
       "en": "tempo",
       "bn": "টেম্পো",
       "emoji": "🛺",
-      "roman": "tempo"
+      "exampleEn": "We go by tempo.",
+      "exampleBn": "আমরা টেম্পো করে যাই।"
     },
     {
       "id": "transport-microbus",
       "en": "microbus",
       "bn": "মাইক্রোবাস",
       "emoji": "🚐",
-      "roman": "microbus"
+      "exampleEn": "I see a microbus.",
+      "exampleBn": "আমি একটি মাইক্রোবাস দেখছি।"
     },
     {
       "id": "transport-minibus",
       "en": "minibus",
       "bn": "মিনিবাস",
       "emoji": "🚌",
-      "roman": "minibus"
+      "exampleEn": "Look at the minibus!",
+      "exampleBn": "মিনিবাসটা দেখো!"
     },
     {
       "id": "transport-double-decker",
       "en": "double decker",
       "bn": "দোতলা বাস",
       "emoji": "🚌",
-      "roman": "double decker"
+      "exampleEn": "The double decker is fast.",
+      "exampleBn": "দোতলা বাসটা দ্রুত।"
     },
     {
       "id": "transport-school-bus",
       "en": "school bus",
       "bn": "স্কুল বাস",
       "emoji": "🚌",
-      "roman": "school bus"
+      "exampleEn": "We go by school bus.",
+      "exampleBn": "আমরা স্কুল বাস করে যাই।"
     },
     {
       "id": "transport-express-train",
       "en": "express train",
       "bn": "এক্সপ্রেস ট্রেন",
       "emoji": "🚆",
-      "roman": "express train"
+      "exampleEn": "I see an express train.",
+      "exampleBn": "আমি একটি এক্সপ্রেস ট্রেন দেখছি।"
     },
     {
       "id": "transport-local-train",
       "en": "local train",
       "bn": "লোকাল ট্রেন",
       "emoji": "🚆",
-      "roman": "local train"
+      "exampleEn": "Look at the local train!",
+      "exampleBn": "লোকাল ট্রেনটা দেখো!"
     },
     {
       "id": "transport-metro-rail",
       "en": "metro rail",
       "bn": "মেট্রো রেল",
       "emoji": "🚇",
-      "roman": "metro rail"
+      "exampleEn": "The metro rail is fast.",
+      "exampleBn": "মেট্রো রেলটা দ্রুত।"
     },
     {
       "id": "transport-monorail",
       "en": "monorail",
       "bn": "মোনোরেল",
       "emoji": "🚝",
-      "roman": "monorail"
+      "exampleEn": "We go by monorail.",
+      "exampleBn": "আমরা মোনোরেল করে যাই।"
     },
     {
       "id": "transport-cargo-ship",
       "en": "cargo ship",
       "bn": "মালবাহী জাহাজ",
       "emoji": "🚢",
-      "roman": "cargo ship"
+      "exampleEn": "I see a cargo ship.",
+      "exampleBn": "আমি একটি মালবাহী জাহাজ দেখছি।"
     },
     {
       "id": "transport-fishing-boat",
       "en": "fishing boat",
       "bn": "মাছ ধরার নৌকা",
       "emoji": "⛵",
-      "roman": "mach dharar nouka"
+      "exampleEn": "Look at the fishing boat!",
+      "exampleBn": "মাছ ধরার নৌকাটা দেখো!"
     },
     {
       "id": "transport-speedboat",
       "en": "speedboat",
       "bn": "স্পিডবোট",
       "emoji": "🚤",
-      "roman": "speedboat"
+      "exampleEn": "The speedboat is fast.",
+      "exampleBn": "স্পিডবোটটা দ্রুত।"
     },
     {
       "id": "transport-yacht",
       "en": "yacht",
       "bn": "ইয়ট",
       "emoji": "⛵",
-      "roman": "yacht"
+      "exampleEn": "We go by yacht.",
+      "exampleBn": "আমরা ইয়ট করে যাই।"
     },
     {
       "id": "transport-canoe",
       "en": "canoe",
       "bn": "ডিঙি",
       "emoji": "🛶",
-      "roman": "canoe"
+      "exampleEn": "I see a canoe.",
+      "exampleBn": "আমি একটি ডিঙি দেখছি।"
     },
     {
       "id": "transport-kayak",
       "en": "kayak",
       "bn": "কায়াক",
       "emoji": "🛶",
-      "roman": "kayak"
+      "exampleEn": "Look at the kayak!",
+      "exampleBn": "কায়াকটা দেখো!"
     },
     {
       "id": "transport-raft",
       "en": "raft",
       "bn": "ভেলা",
       "emoji": "🛶",
-      "roman": "raft"
+      "exampleEn": "The raft is fast.",
+      "exampleBn": "ভেলাটা দ্রুত।"
     },
     {
       "id": "transport-paddle-boat",
       "en": "paddle boat",
       "bn": "প্যাডেল নৌকা",
       "emoji": "🛶",
-      "roman": "paddle boat"
+      "exampleEn": "We go by paddle boat.",
+      "exampleBn": "আমরা প্যাডেল নৌকা করে যাই।"
     },
     {
       "id": "transport-water-taxi",
       "en": "water taxi",
       "bn": "জল ট্যাক্সি",
       "emoji": "🚤",
-      "roman": "water taxi"
+      "exampleEn": "I see a water taxi.",
+      "exampleBn": "আমি একটি জল ট্যাক্সি দেখছি।"
     },
     {
       "id": "transport-launch",
       "en": "launch",
       "bn": "লঞ্চ",
       "emoji": "🚢",
-      "roman": "launch"
+      "exampleEn": "Look at the launch!",
+      "exampleBn": "লঞ্চটা দেখো!"
     },
     {
       "id": "transport-hovercraft",
       "en": "hovercraft",
       "bn": "হোভারক্রাফট",
       "emoji": "🚤",
-      "roman": "hovercraft"
+      "exampleEn": "The hovercraft is fast.",
+      "exampleBn": "হোভারক্রাফটটা দ্রুত।"
     },
     {
       "id": "transport-glider",
       "en": "glider",
       "bn": "গ্লাইডার",
       "emoji": "🛩️",
-      "roman": "glider"
+      "exampleEn": "We go by glider.",
+      "exampleBn": "আমরা গ্লাইডার করে যাই।"
     },
     {
       "id": "transport-hot-air-balloon",
       "en": "hot air balloon",
       "bn": "গরম বাতাসের বেলুন",
       "emoji": "🎈",
-      "roman": "gorom bataser belun"
+      "exampleEn": "I see a hot air balloon.",
+      "exampleBn": "আমি একটি গরম বাতাসের বেলুন দেখছি।"
     },
     {
       "id": "transport-parachute",
       "en": "parachute",
       "bn": "প্যারাসুট",
       "emoji": "🪂",
-      "roman": "parachute"
+      "exampleEn": "Look at the parachute!",
+      "exampleBn": "প্যারাসুটটা দেখো!"
     },
     {
       "id": "transport-skateboard",
       "en": "skateboard",
       "bn": "স্কেটবোর্ড",
       "emoji": "🛹",
-      "roman": "skateboard"
+      "exampleEn": "The skateboard is fast.",
+      "exampleBn": "স্কেটবোর্ডটা দ্রুত।"
     },
     {
       "id": "transport-roller-skates",
       "en": "roller skates",
       "bn": "রোলার স্কেট",
       "emoji": "🛼",
-      "roman": "roller skates"
+      "exampleEn": "We go by roller skates.",
+      "exampleBn": "আমরা রোলার স্কেট করে যাই।"
     },
     {
       "id": "transport-segway",
       "en": "segway",
       "bn": "সেগওয়ে",
       "emoji": "🛴",
-      "roman": "segway"
+      "exampleEn": "I see a segway.",
+      "exampleBn": "আমি একটি সেগওয়ে দেখছি।"
     },
     {
       "id": "transport-unicycle",
       "en": "unicycle",
       "bn": "একচাকা সাইকেল",
       "emoji": "🚲",
-      "roman": "ekchaka cycle"
+      "exampleEn": "Look at the unicycle!",
+      "exampleBn": "একচাকা সাইকেলটা দেখো!"
     },
     {
       "id": "transport-tricycle",
       "en": "tricycle",
       "bn": "তিনচাকা সাইকেল",
       "emoji": "🚲",
-      "roman": "tinchaka cycle"
+      "exampleEn": "The tricycle is fast.",
+      "exampleBn": "তিনচাকা সাইকেলটা দ্রুত।"
     },
     {
       "id": "transport-handcart",
       "en": "handcart",
       "bn": "হাতঠেলা গাড়ি",
       "emoji": "🛒",
-      "roman": "hath thela gari"
+      "exampleEn": "We go by handcart.",
+      "exampleBn": "আমরা হাতঠেলা গাড়ি করে যাই।"
     },
     {
       "id": "transport-bullock-cart",
       "en": "bullock cart",
       "bn": "গরু গাড়ি",
       "emoji": "🐂",
-      "roman": "goru gari"
+      "exampleEn": "I see a bullock cart.",
+      "exampleBn": "আমি একটি গরু গাড়ি দেখছি।"
     },
     {
       "id": "transport-horse-carriage",
       "en": "horse carriage",
       "bn": "ঘোড়া গাড়ি",
       "emoji": "🐴",
-      "roman": "ghora gari"
+      "exampleEn": "Look at the horse carriage!",
+      "exampleBn": "ঘোড়া গাড়িটা দেখো!"
     },
     {
       "id": "transport-palanquin",
       "en": "palanquin",
       "bn": "পালকি",
       "emoji": "🛏️",
-      "roman": "palki"
+      "exampleEn": "The palanquin is fast.",
+      "exampleBn": "পালকিটা দ্রুত।"
     },
     {
       "id": "transport-sedan",
       "en": "sedan",
       "bn": "সেডান",
       "emoji": "🚗",
-      "roman": "sedan"
+      "exampleEn": "We go by sedan.",
+      "exampleBn": "আমরা সেডান করে যাই।"
     },
     {
       "id": "transport-hatchback",
       "en": "hatchback",
       "bn": "হ্যাচব্যাক",
       "emoji": "🚗",
-      "roman": "hatchback"
+      "exampleEn": "I see a hatchback.",
+      "exampleBn": "আমি একটি হ্যাচব্যাক দেখছি।"
     },
     {
       "id": "transport-suv",
       "en": "suv",
       "bn": "এসইউভি",
       "emoji": "🚙",
-      "roman": "suv"
+      "exampleEn": "Look at the suv!",
+      "exampleBn": "এসইউভিটা দেখো!"
     },
     {
       "id": "transport-pickup-truck",
       "en": "pickup truck",
       "bn": "পিকআপ ট্রাক",
       "emoji": "🛻",
-      "roman": "pickup truck"
+      "exampleEn": "The pickup truck is fast.",
+      "exampleBn": "পিকআপ ট্রাকটা দ্রুত।"
     },
     {
       "id": "transport-dump-truck",
       "en": "dump truck",
       "bn": "ডাম্প ট্রাক",
       "emoji": "🚚",
-      "roman": "dump truck"
+      "exampleEn": "We go by dump truck.",
+      "exampleBn": "আমরা ডাম্প ট্রাক করে যাই।"
     },
     {
       "id": "transport-tow-truck",
       "en": "tow truck",
       "bn": "টো ট্রাক",
       "emoji": "🚛",
-      "roman": "tow truck"
+      "exampleEn": "I see a tow truck.",
+      "exampleBn": "আমি একটি টো ট্রাক দেখছি।"
     },
     {
       "id": "transport-garbage-truck",
       "en": "garbage truck",
       "bn": "আবর্জনা ট্রাক",
       "emoji": "🚛",
-      "roman": "garbage truck"
+      "exampleEn": "Look at the garbage truck!",
+      "exampleBn": "আবর্জনা ট্রাকটা দেখো!"
     },
     {
       "id": "transport-cement-mixer",
       "en": "cement mixer",
       "bn": "সিমেন্ট মিক্সার",
       "emoji": "🚛",
-      "roman": "cement mixer"
+      "exampleEn": "The cement mixer is fast.",
+      "exampleBn": "সিমেন্ট মিক্সারটা দ্রুত।"
     },
     {
       "id": "transport-crane-truck",
       "en": "crane truck",
       "bn": "ক্রেন",
       "emoji": "🏗️",
-      "roman": "crane"
+      "exampleEn": "We go by crane truck.",
+      "exampleBn": "আমরা ক্রেন করে যাই।"
     },
     {
       "id": "transport-bulldozer",
       "en": "bulldozer",
       "bn": "বুলডোজার",
       "emoji": "🚜",
-      "roman": "bulldozer"
+      "exampleEn": "I see a bulldozer.",
+      "exampleBn": "আমি একটি বুলডোজার দেখছি।"
     },
     {
       "id": "transport-excavator",
       "en": "excavator",
       "bn": "এক্সকাভেটর",
       "emoji": "🚜",
-      "roman": "excavator"
+      "exampleEn": "Look at the excavator!",
+      "exampleBn": "এক্সকাভেটরটা দেখো!"
     },
     {
       "id": "transport-forklift",
       "en": "forklift",
       "bn": "ফর্কলিফট",
       "emoji": "🏗️",
-      "roman": "forklift"
+      "exampleEn": "The forklift is fast.",
+      "exampleBn": "ফর্কলিফটটা দ্রুত।"
     },
     {
       "id": "transport-golf-cart",
       "en": "golf cart",
       "bn": "গলফ কার্ট",
       "emoji": "⛳",
-      "roman": "golf cart"
+      "exampleEn": "We go by golf cart.",
+      "exampleBn": "আমরা গলফ কার্ট করে যাই।"
     },
     {
       "id": "transport-snowmobile",
       "en": "snowmobile",
       "bn": "স্নোমোবাইল",
       "emoji": "🛷",
-      "roman": "snowmobile"
+      "exampleEn": "I see a snowmobile.",
+      "exampleBn": "আমি একটি স্নোমোবাইল দেখছি।"
     },
     {
       "id": "transport-sled",
       "en": "sled",
       "bn": "স্লেজ",
       "emoji": "🛷",
-      "roman": "sled"
+      "exampleEn": "Look at the sled!",
+      "exampleBn": "স্লেজটা দেখো!"
     },
     {
       "id": "transport-wheelchair",
       "en": "wheelchair",
       "bn": "হুইলচেয়ার",
       "emoji": "♿",
-      "roman": "wheelchair"
+      "exampleEn": "The wheelchair is fast.",
+      "exampleBn": "হুইলচেয়ারটা দ্রুত।"
     },
     {
       "id": "transport-stroller",
       "en": "stroller",
       "bn": "শিশু গাড়ি",
       "emoji": "👶",
-      "roman": "shishu gari"
+      "exampleEn": "We go by stroller.",
+      "exampleBn": "আমরা শিশু গাড়ি করে যাই।"
     },
     {
       "id": "transport-shopping-cart",
       "en": "shopping cart",
       "bn": "কেনাকাটার ঠেলা গাড়ি",
       "emoji": "🛒",
-      "roman": "kenakatar thela gari"
+      "exampleEn": "I see a shopping cart.",
+      "exampleBn": "আমি একটি কেনাকাটার ঠেলা গাড়ি দেখছি।"
     },
     {
       "id": "transport-luggage-cart",
       "en": "luggage cart",
       "bn": "মালপত্রের ঠেলা গাড়ি",
       "emoji": "🧳",
-      "roman": "luggage cart"
+      "exampleEn": "Look at the luggage cart!",
+      "exampleBn": "মালপত্রের ঠেলা গাড়িটা দেখো!"
     },
     {
       "id": "transport-trolley",
       "en": "trolley",
       "bn": "ট্রলি",
       "emoji": "🛒",
-      "roman": "trolley"
+      "exampleEn": "The trolley is fast.",
+      "exampleBn": "ট্রলিটা দ্রুত।"
     },
     {
       "id": "transport-dolly",
       "en": "dolly",
       "bn": "ঠেলা গাড়ি",
       "emoji": "📦",
-      "roman": "thela gari"
+      "exampleEn": "We go by dolly.",
+      "exampleBn": "আমরা ঠেলা গাড়ি করে যাই।"
     },
     {
       "id": "transport-conveyor-belt",
       "en": "conveyor belt",
       "bn": "কনভেয়র বেল্ট",
       "emoji": "🏭",
-      "roman": "conveyor belt"
+      "exampleEn": "I see a conveyor belt.",
+      "exampleBn": "আমি একটি কনভেয়র বেল্ট দেখছি।"
     },
     {
       "id": "transport-escalator",
       "en": "escalator",
       "bn": "এসকেলেটর",
       "emoji": "🛗",
-      "roman": "escalator"
+      "exampleEn": "Look at the escalator!",
+      "exampleBn": "এসকেলেটরটা দেখো!"
     },
     {
       "id": "transport-elevator",
       "en": "elevator",
       "bn": "লিফট",
       "emoji": "🛗",
-      "roman": "lift"
+      "exampleEn": "The elevator is fast.",
+      "exampleBn": "লিফটটা দ্রুত।"
     },
     {
       "id": "transport-moving-walkway",
       "en": "moving walkway",
       "bn": "চলন্ত ফুটপাথ",
       "emoji": "🚶",
-      "roman": "moving walkway"
+      "exampleEn": "We go by moving walkway.",
+      "exampleBn": "আমরা চলন্ত ফুটপাথ করে যাই।"
     },
     {
       "id": "transport-highway",
       "en": "highway",
       "bn": "মহাসড়ক",
       "emoji": "🛣️",
-      "roman": "mahasarak"
+      "exampleEn": "I see a highway.",
+      "exampleBn": "আমি একটি মহাসড়ক দেখছি।"
     },
     {
       "id": "transport-expressway",
       "en": "expressway",
       "bn": "এক্সপ্রেসওয়ে",
       "emoji": "🛣️",
-      "roman": "expressway"
+      "exampleEn": "Look at the expressway!",
+      "exampleBn": "এক্সপ্রেসওয়েটা দেখো!"
     },
     {
       "id": "transport-alley",
       "en": "alley",
       "bn": "গলি",
       "emoji": "🛣️",
-      "roman": "goli"
+      "exampleEn": "The alley is fast.",
+      "exampleBn": "গলিটা দ্রুত।"
     },
     {
       "id": "transport-path",
       "en": "path",
       "bn": "পথ",
       "emoji": "🛤️",
-      "roman": "poth"
+      "exampleEn": "We go by path.",
+      "exampleBn": "আমরা পথ করে যাই।"
     },
     {
       "id": "transport-sidewalk",
       "en": "sidewalk",
       "bn": "ফুটপাথ",
       "emoji": "🚶",
-      "roman": "footpath"
+      "exampleEn": "I see a sidewalk.",
+      "exampleBn": "আমি একটি ফুটপাথ দেখছি।"
     },
     {
       "id": "transport-crosswalk",
       "en": "crosswalk",
       "bn": "জেব্রা ক্রসিং",
       "emoji": "🚸",
-      "roman": "crosswalk"
+      "exampleEn": "Look at the crosswalk!",
+      "exampleBn": "জেব্রা ক্রসিংটা দেখো!"
     },
     {
       "id": "transport-roundabout",
       "en": "roundabout",
       "bn": "গোলচক্কর",
       "emoji": "🔄",
-      "roman": "roundabout"
+      "exampleEn": "The roundabout is fast.",
+      "exampleBn": "গোলচক্করটা দ্রুত।"
     },
     {
       "id": "transport-intersection",
       "en": "intersection",
       "bn": "চৌমাথা",
       "emoji": "✖️",
-      "roman": "choumatha"
+      "exampleEn": "We go by intersection.",
+      "exampleBn": "আমরা চৌমাথা করে যাই।"
     },
     {
       "id": "transport-tunnel",
       "en": "tunnel",
       "bn": "টানেল",
       "emoji": "🚇",
-      "roman": "tunnel"
+      "exampleEn": "I see a tunnel.",
+      "exampleBn": "আমি একটি টানেল দেখছি।"
     },
     {
       "id": "transport-overpass",
       "en": "overpass",
       "bn": "ওভারপাস",
       "emoji": "🛣️",
-      "roman": "overpass"
+      "exampleEn": "Look at the overpass!",
+      "exampleBn": "ওভারপাসটা দেখো!"
     },
     {
       "id": "transport-underpass",
       "en": "underpass",
       "bn": "আন্ডারপাস",
       "emoji": "🛣️",
-      "roman": "underpass"
+      "exampleEn": "The underpass is fast.",
+      "exampleBn": "আন্ডারপাসটা দ্রুত।"
     },
     {
       "id": "transport-parking-lot",
       "en": "parking lot",
       "bn": "পার্কিং",
       "emoji": "🅿️",
-      "roman": "parking"
+      "exampleEn": "We go by parking lot.",
+      "exampleBn": "আমরা পার্কিং করে যাই।"
     },
     {
       "id": "transport-garage-parking",
       "en": "garage parking",
       "bn": "গ্যারেজ",
       "emoji": "🅿️",
-      "roman": "garage"
+      "exampleEn": "I see a garage parking.",
+      "exampleBn": "আমি একটি গ্যারেজ দেখছি।"
     },
     {
       "id": "transport-gas-station",
       "en": "gas station",
       "bn": "পেট্রল পাম্প",
       "emoji": "⛽",
-      "roman": "petrol pump"
+      "exampleEn": "Look at the gas station!",
+      "exampleBn": "পেট্রল পাম্পটা দেখো!"
     },
     {
       "id": "transport-charging-station",
       "en": "charging station",
       "bn": "চার্জিং স্টেশন",
       "emoji": "🔌",
-      "roman": "charging station"
+      "exampleEn": "The charging station is fast.",
+      "exampleBn": "চার্জিং স্টেশনটা দ্রুত।"
     },
     {
       "id": "transport-toll-booth",
       "en": "toll booth",
       "bn": "টোল বুথ",
       "emoji": "💰",
-      "roman": "toll booth"
+      "exampleEn": "We go by toll booth.",
+      "exampleBn": "আমরা টোল বুথ করে যাই।"
     },
     {
       "id": "transport-weigh-station",
       "en": "weigh station",
       "bn": "ওজন কেন্দ্র",
       "emoji": "⚖️",
-      "roman": "weigh station"
+      "exampleEn": "I see a weigh station.",
+      "exampleBn": "আমি একটি ওজন কেন্দ্র দেখছি।"
     },
     {
       "id": "transport-border-crossing",
       "en": "border crossing",
       "bn": "সীমান্ত পার",
       "emoji": "🛃",
-      "roman": "border crossing"
+      "exampleEn": "Look at the border crossing!",
+      "exampleBn": "সীমান্ত পারটা দেখো!"
     },
     {
       "id": "transport-customs",
       "en": "customs",
       "bn": "শুল্ক",
       "emoji": "🛃",
-      "roman": "customs"
+      "exampleEn": "The customs is fast.",
+      "exampleBn": "শুল্কটা দ্রুত।"
     },
     {
       "id": "transport-port",
       "en": "port",
       "bn": "বন্দর",
       "emoji": "⚓",
-      "roman": "bandar"
+      "exampleEn": "We go by port.",
+      "exampleBn": "আমরা বন্দর করে যাই।"
     },
     {
       "id": "transport-harbor",
       "en": "harbor",
       "bn": "বন্দর",
       "emoji": "⚓",
-      "roman": "bandar"
+      "exampleEn": "I see a harbor.",
+      "exampleBn": "আমি একটি বন্দর দেখছি।"
     },
     {
       "id": "transport-dock",
       "en": "dock",
       "bn": "ঘাট",
       "emoji": "⚓",
-      "roman": "ghat"
+      "exampleEn": "Look at the dock!",
+      "exampleBn": "ঘাটটা দেখো!"
     },
     {
       "id": "transport-pier",
       "en": "pier",
       "bn": "ঘাট",
       "emoji": "🌊",
-      "roman": "ghat"
+      "exampleEn": "The pier is fast.",
+      "exampleBn": "ঘাটটা দ্রুত।"
     },
     {
       "id": "transport-runway",
       "en": "runway",
       "bn": "রানওয়ে",
       "emoji": "🛫",
-      "roman": "runway"
+      "exampleEn": "We go by runway.",
+      "exampleBn": "আমরা রানওয়ে করে যাই।"
     },
     {
       "id": "transport-control-tower",
       "en": "control tower",
       "bn": "নিয়ন্ত্রণ টাওয়ার",
       "emoji": "🗼",
-      "roman": "control tower"
+      "exampleEn": "I see a control tower.",
+      "exampleBn": "আমি একটি নিয়ন্ত্রণ টাওয়ার দেখছি।"
     },
     {
       "id": "transport-hangar",
       "en": "hangar",
       "bn": "হ্যাংগার",
       "emoji": "🛩️",
-      "roman": "hangar"
+      "exampleEn": "Look at the hangar!",
+      "exampleBn": "হ্যাংগারটা দেখো!"
     },
     {
       "id": "transport-helipad",
       "en": "helipad",
       "bn": "হেলিপ্যাড",
       "emoji": "🚁",
-      "roman": "helipad"
+      "exampleEn": "The helipad is fast.",
+      "exampleBn": "হেলিপ্যাডটা দ্রুত।"
     },
     {
       "id": "transport-train-track",
       "en": "train track",
       "bn": "রেল লাইন",
       "emoji": "🛤️",
-      "roman": "rail line"
+      "exampleEn": "We go by train track.",
+      "exampleBn": "আমরা রেল লাইন করে যাই।"
     },
     {
       "id": "transport-railway-crossing",
       "en": "railway crossing",
       "bn": "রেলগেট",
       "emoji": "🚧",
-      "roman": "railgate"
+      "exampleEn": "I see a railway crossing.",
+      "exampleBn": "আমি একটি রেলগেট দেখছি।"
     },
     {
       "id": "transport-platform",
       "en": "platform",
       "bn": "প্ল্যাটফর্ম",
       "emoji": "🚉",
-      "roman": "platform"
+      "exampleEn": "Look at the platform!",
+      "exampleBn": "প্ল্যাটফর্মটা দেখো!"
     },
     {
       "id": "transport-waiting-room",
       "en": "waiting room",
       "bn": "অপেক্ষাকক্ষ",
       "emoji": "🪑",
-      "roman": "opekkakakkho"
+      "exampleEn": "The waiting room is fast.",
+      "exampleBn": "অপেক্ষাকক্ষটা দ্রুত।"
     },
     {
       "id": "transport-departure",
       "en": "departure",
       "bn": "ছাড়ার সময়",
       "emoji": "🛫",
-      "roman": "chharar somoy"
+      "exampleEn": "We go by departure.",
+      "exampleBn": "আমরা ছাড়ার সময় করে যাই।"
     },
     {
       "id": "transport-arrival",
       "en": "arrival",
       "bn": "আগমন",
       "emoji": "🛬",
-      "roman": "agomon"
+      "exampleEn": "I see an arrival.",
+      "exampleBn": "আমি একটি আগমন দেখছি।"
     },
     {
       "id": "transport-boarding-pass",
       "en": "boarding pass",
       "bn": "বোর্ডিং পাস",
       "emoji": "🎫",
-      "roman": "boarding pass"
+      "exampleEn": "Look at the boarding pass!",
+      "exampleBn": "বোর্ডিং পাসটা দেখো!"
     },
     {
       "id": "transport-passport",
       "en": "passport",
       "bn": "পাসপোর্ট",
       "emoji": "🛂",
-      "roman": "passport"
+      "exampleEn": "The passport is fast.",
+      "exampleBn": "পাসপোর্টটা দ্রুত।"
     },
     {
       "id": "transport-visa",
       "en": "visa",
       "bn": "ভিসা",
       "emoji": "🛂",
-      "roman": "visa"
+      "exampleEn": "We go by visa.",
+      "exampleBn": "আমরা ভিসা করে যাই।"
     },
     {
       "id": "transport-luggage",
       "en": "luggage",
       "bn": "ভ্রমণ ব্যাগ",
       "emoji": "🧳",
-      "roman": "travel bag"
+      "exampleEn": "I see a luggage.",
+      "exampleBn": "আমি একটি ভ্রমণ ব্যাগ দেখছি।"
     },
     {
       "id": "transport-suitcase",
       "en": "suitcase",
       "bn": "স্যুটকেস",
       "emoji": "🧳",
-      "roman": "suitcase"
+      "exampleEn": "Look at the suitcase!",
+      "exampleBn": "স্যুটকেসটা দেখো!"
     },
     {
       "id": "transport-backpack-travel",
       "en": "backpack travel",
       "bn": "ভ্রমণ ব্যাগ",
       "emoji": "🎒",
-      "roman": "travel bag"
+      "exampleEn": "The backpack travel is fast.",
+      "exampleBn": "ভ্রমণ ব্যাগটা দ্রুত।"
     },
     {
       "id": "transport-duffel-bag",
       "en": "duffel bag",
       "bn": "ডাফেল ব্যাগ",
       "emoji": "🧳",
-      "roman": "duffel bag"
+      "exampleEn": "We go by duffel bag.",
+      "exampleBn": "আমরা ডাফেল ব্যাগ করে যাই।"
     },
     {
       "id": "transport-seat-belt",
       "en": "seat belt",
       "bn": "সিট বেল্ট",
       "emoji": "💺",
-      "roman": "seat belt"
+      "exampleEn": "I see a seat belt.",
+      "exampleBn": "আমি একটি সিট বেল্ট দেখছি।"
     },
     {
       "id": "transport-car-seat",
       "en": "car seat",
       "bn": "গাড়ির সিট",
       "emoji": "💺",
-      "roman": "car seat"
+      "exampleEn": "Look at the car seat!",
+      "exampleBn": "গাড়ির সিটটা দেখো!"
     },
     {
       "id": "transport-dashboard",
       "en": "dashboard",
       "bn": "ড্যাশবোর্ড",
       "emoji": "🚗",
-      "roman": "dashboard"
+      "exampleEn": "The dashboard is fast.",
+      "exampleBn": "ড্যাশবোর্ডটা দ্রুত।"
     },
     {
       "id": "transport-rearview-mirror",
       "en": "rearview mirror",
       "bn": "পেছনের আয়না",
       "emoji": "🪞",
-      "roman": "rearview mirror"
+      "exampleEn": "We go by rearview mirror.",
+      "exampleBn": "আমরা পেছনের আয়না করে যাই।"
     },
     {
       "id": "transport-windshield",
       "en": "windshield",
       "bn": "উইন্ডশিল্ড",
       "emoji": "🚗",
-      "roman": "windshield"
+      "exampleEn": "I see a windshield.",
+      "exampleBn": "আমি একটি উইন্ডশিল্ড দেখছি।"
     },
     {
       "id": "transport-wiper",
       "en": "wiper",
       "bn": "ওয়াইপার",
       "emoji": "🌧️",
-      "roman": "wiper"
+      "exampleEn": "Look at the wiper!",
+      "exampleBn": "ওয়াইপারটা দেখো!"
     },
     {
       "id": "transport-headlight",
       "en": "headlight",
       "bn": "হেডলাইট",
       "emoji": "💡",
-      "roman": "headlight"
+      "exampleEn": "The headlight is fast.",
+      "exampleBn": "হেডলাইটটা দ্রুত।"
     },
     {
       "id": "transport-taillight",
       "en": "taillight",
       "bn": "টেললাইট",
       "emoji": "🔴",
-      "roman": "taillight"
+      "exampleEn": "We go by taillight.",
+      "exampleBn": "আমরা টেললাইট করে যাই।"
     },
     {
       "id": "transport-turn-signal",
       "en": "turn signal",
       "bn": "টার্ন সিগন্যাল",
       "emoji": "↔️",
-      "roman": "turn signal"
+      "exampleEn": "I see a turn signal.",
+      "exampleBn": "আমি একটি টার্ন সিগন্যাল দেখছি।"
     },
     {
       "id": "transport-speedometer",
       "en": "speedometer",
       "bn": "স্পিডোমিটার",
       "emoji": "🏎️",
-      "roman": "speedometer"
+      "exampleEn": "Look at the speedometer!",
+      "exampleBn": "স্পিডোমিটারটা দেখো!"
     },
     {
       "id": "transport-odometer",
       "en": "odometer",
       "bn": "ওডোমিটার",
       "emoji": "📊",
-      "roman": "odometer"
+      "exampleEn": "The odometer is fast.",
+      "exampleBn": "ওডোমিটারটা দ্রুত।"
     },
     {
       "id": "transport-gps",
       "en": "gps",
       "bn": "জিপিএস",
       "emoji": "🗺️",
-      "roman": "gps"
+      "exampleEn": "We go by gps.",
+      "exampleBn": "আমরা জিপিএস করে যাই।"
     },
     {
       "id": "transport-compass",
       "en": "compass",
       "bn": "কম্পাস",
       "emoji": "🧭",
-      "roman": "compass"
+      "exampleEn": "I see a compass.",
+      "exampleBn": "আমি একটি কম্পাস দেখছি।"
     },
     {
       "id": "transport-life-jacket",
       "en": "life jacket",
       "bn": "জীবনঝাঁকটি",
       "emoji": "🦺",
-      "roman": "jibon jhakti"
+      "exampleEn": "Look at the life jacket!",
+      "exampleBn": "জীবনঝাঁকটিটা দেখো!"
     },
     {
       "id": "transport-anchor",
       "en": "anchor",
       "bn": "নোঙ্গর",
       "emoji": "⚓",
-      "roman": "nongor"
+      "exampleEn": "The anchor is fast.",
+      "exampleBn": "নোঙ্গরটা দ্রুত।"
     },
     {
       "id": "transport-sail",
       "en": "sail",
       "bn": "পাল",
       "emoji": "⛵",
-      "roman": "pal"
+      "exampleEn": "We go by sail.",
+      "exampleBn": "আমরা পাল করে যাই।"
     },
     {
       "id": "transport-paddle",
       "en": "paddle",
       "bn": "দাঁড়",
       "emoji": "🛶",
-      "roman": "dar"
+      "exampleEn": "I see a paddle.",
+      "exampleBn": "আমি একটি দাঁড় দেখছি।"
     },
     {
       "id": "transport-oar",
       "en": "oar",
       "bn": "দাঁড়",
       "emoji": "🛶",
-      "roman": "dar"
+      "exampleEn": "Look at the oar!",
+      "exampleBn": "দাঁড়টা দেখো!"
     },
     {
       "id": "transport-motor",
       "en": "motor",
       "bn": "মোটর",
       "emoji": "⚙️",
-      "roman": "motor"
+      "exampleEn": "The motor is fast.",
+      "exampleBn": "মোটরটা দ্রুত।"
     },
     {
       "id": "transport-engine",
       "en": "engine",
       "bn": "ইঞ্জিন",
       "emoji": "⚙️",
-      "roman": "engine"
+      "exampleEn": "We go by engine.",
+      "exampleBn": "আমরা ইঞ্জিন করে যাই।"
     },
     {
       "id": "transport-propeller",
       "en": "propeller",
       "bn": "প্রোপেলার",
       "emoji": "🌀",
-      "roman": "propeller"
+      "exampleEn": "I see a propeller.",
+      "exampleBn": "আমি একটি প্রোপেলার দেখছি।"
     },
     {
       "id": "transport-jet-engine",
       "en": "jet engine",
       "bn": "জেট ইঞ্জিন",
       "emoji": "✈️",
-      "roman": "jet engine"
+      "exampleEn": "Look at the jet engine!",
+      "exampleBn": "জেট ইঞ্জিনটা দেখো!"
     },
     {
       "id": "transport-rocket-engine",
       "en": "rocket engine",
       "bn": "রকেট ইঞ্জিন",
       "emoji": "🚀",
-      "roman": "rocket engine"
+      "exampleEn": "The rocket engine is fast.",
+      "exampleBn": "রকেট ইঞ্জিনটা দ্রুত।"
     },
     {
       "id": "transport-paraglider",
       "en": "paraglider",
       "bn": "প্যারাগ্লাইডার",
       "emoji": "🪂",
-      "roman": "paraglider"
+      "exampleEn": "We go by paraglider.",
+      "exampleBn": "আমরা প্যারাগ্লাইডার করে যাই।"
     },
     {
       "id": "transport-hang-glider",
       "en": "hang glider",
       "bn": "হ্যাং গ্লাইডার",
       "emoji": "🪂",
-      "roman": "hang glider"
+      "exampleEn": "I see a hang glider.",
+      "exampleBn": "আমি একটি হ্যাং গ্লাইডার দেখছি।"
     },
     {
       "id": "transport-zip-line",
       "en": "zip line",
       "bn": "জিপ লাইন",
       "emoji": "🪂",
-      "roman": "zip line"
+      "exampleEn": "Look at the zip line!",
+      "exampleBn": "জিপ লাইনটা দেখো!"
     },
     {
       "id": "transport-cable-car",
       "en": "cable car",
       "bn": "কেবল কার",
       "emoji": "🚡",
-      "roman": "cable car"
+      "exampleEn": "The cable car is fast.",
+      "exampleBn": "কেবল কারটা দ্রুত।"
     },
     {
       "id": "transport-funicular",
       "en": "funicular",
       "bn": "ফুনিকুলার",
       "emoji": "🚞",
-      "roman": "funicular"
+      "exampleEn": "We go by funicular.",
+      "exampleBn": "আমরা ফুনিকুলার করে যাই।"
     },
     {
       "id": "transport-gondola-lift",
       "en": "gondola lift",
       "bn": "গন্ডোলা",
       "emoji": "🚡",
-      "roman": "gondola"
+      "exampleEn": "I see a gondola lift.",
+      "exampleBn": "আমি একটি গন্ডোলা দেখছি।"
     },
     {
       "id": "transport-rickshaw-stand",
       "en": "rickshaw stand",
       "bn": "রিকশা স্ট্যান্ড",
       "emoji": "🛺",
-      "roman": "rickshaw stand"
+      "exampleEn": "Look at the rickshaw stand!",
+      "exampleBn": "রিকশা স্ট্যান্ডটা দেখো!"
     },
     {
       "id": "transport-bus-stop",
       "en": "bus stop",
       "bn": "বাস স্টপ",
       "emoji": "🚏",
-      "roman": "bus stop"
+      "exampleEn": "The bus stop is fast.",
+      "exampleBn": "বাস স্টপটা দ্রুত।"
     },
     {
       "id": "transport-taxi-stand",
       "en": "taxi stand",
       "bn": "ট্যাক্সি স্ট্যান্ড",
       "emoji": "🚕",
-      "roman": "taxi stand"
+      "exampleEn": "We go by taxi stand.",
+      "exampleBn": "আমরা ট্যাক্সি স্ট্যান্ড করে যাই।"
     },
     {
       "id": "transport-bike-lane",
       "en": "bike lane",
       "bn": "সাইকেল লেন",
       "emoji": "🚲",
-      "roman": "bike lane"
+      "exampleEn": "I see a bike lane.",
+      "exampleBn": "আমি একটি সাইকেল লেন দেখছি।"
     },
     {
       "id": "transport-traffic-jam",
       "en": "traffic jam",
       "bn": "জ্যাম",
       "emoji": "🚗",
-      "roman": "jam"
+      "exampleEn": "Look at the traffic jam!",
+      "exampleBn": "জ্যামটা দেখো!"
     },
     {
       "id": "transport-road-work",
       "en": "road work",
       "bn": "রাস্তার কাজ",
       "emoji": "🚧",
-      "roman": "road work"
+      "exampleEn": "The road work is fast.",
+      "exampleBn": "রাস্তার কাজটা দ্রুত।"
     },
     {
       "id": "transport-detour",
       "en": "detour",
       "bn": "বিকল্প পথ",
       "emoji": "↪️",
-      "roman": "detour"
+      "exampleEn": "We go by detour.",
+      "exampleBn": "আমরা বিকল্প পথ করে যাই।"
     },
     {
       "id": "transport-one-way",
       "en": "one way",
       "bn": "একমুখী রাস্তা",
       "emoji": "➡️",
-      "roman": "one way"
+      "exampleEn": "I see an one way.",
+      "exampleBn": "আমি একটি একমুখী রাস্তা দেখছি।"
     },
     {
       "id": "transport-speed-limit",
       "en": "speed limit",
       "bn": "গতিসীমা",
       "emoji": "🏎️",
-      "roman": "goti sima"
+      "exampleEn": "Look at the speed limit!",
+      "exampleBn": "গতিসীমাটা দেখো!"
     },
     {
       "id": "transport-stop-sign",
       "en": "stop sign",
       "bn": "থামার চিহ্ন",
       "emoji": "🛑",
-      "roman": "stop sign"
+      "exampleEn": "The stop sign is fast.",
+      "exampleBn": "থামার চিহ্নটা দ্রুত।"
     },
     {
       "id": "transport-yield-sign",
       "en": "yield sign",
       "bn": "সাবধান চিহ্ন",
       "emoji": "⚠️",
-      "roman": "yield sign"
+      "exampleEn": "We go by yield sign.",
+      "exampleBn": "আমরা সাবধান চিহ্ন করে যাই।"
     },
     {
       "id": "transport-pedestrian",
       "en": "pedestrian",
       "bn": "পথচারী",
       "emoji": "🚶",
-      "roman": "pathachari"
+      "exampleEn": "I see a pedestrian.",
+      "exampleBn": "আমি একটি পথচারী দেখছি।"
     },
     {
       "id": "transport-cyclist",
       "en": "cyclist",
       "bn": "সাইকেল চালক",
       "emoji": "🚴",
-      "roman": "cycle chalok"
+      "exampleEn": "Look at the cyclist!",
+      "exampleBn": "সাইকেল চালকটা দেখো!"
     },
     {
       "id": "transport-motorcyclist",
       "en": "motorcyclist",
       "bn": "মোটরসাইকেল চালক",
       "emoji": "🏍️",
-      "roman": "motorcycle chalok"
+      "exampleEn": "The motorcyclist is fast.",
+      "exampleBn": "মোটরসাইকেল চালকটা দ্রুত।"
     }
   ]
 }

@@ -7,16 +7,15 @@ type Props = {
   categoryIcon: string
   color: string
   animateKey: number
-  showRoman: boolean
 }
 
-export function WordCard({ word, categoryIcon, color, animateKey, showRoman }: Props) {
-  const isSentence = word.kind === 'sentence'
+export function WordCard({ word, categoryIcon, color, animateKey }: Props) {
+  const hasExample = Boolean(word.exampleEn?.trim() && word.exampleBn?.trim())
 
   return (
     <article
       key={animateKey}
-      className={`${styles.card}${isSentence ? ` ${styles.sentence}` : ''}`}
+      className={styles.card}
       style={{ '--cat-color': color } as CSSProperties}
       aria-live="polite"
     >
@@ -25,7 +24,12 @@ export function WordCard({ word, categoryIcon, color, animateKey, showRoman }: P
       </div>
       <h1 className={styles.en}>{word.en}</h1>
       <p className={styles.bn}>{word.bn}</p>
-      {showRoman && word.roman ? <p className={styles.roman}>{word.roman}</p> : null}
+      {hasExample ? (
+        <div className={styles.example}>
+          <p className={styles.exampleEn}>{word.exampleEn}</p>
+          <p className={styles.exampleBn}>{word.exampleBn}</p>
+        </div>
+      ) : null}
     </article>
   )
 }

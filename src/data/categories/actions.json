@@ -6,1715 +6,1960 @@
       "en": "eat",
       "bn": "খাওয়া",
       "emoji": "🍽️",
-      "roman": "khawa"
+      "exampleEn": "I want to eat now.",
+      "exampleBn": "আমি এখন খেতে চাই।"
     },
     {
       "id": "actions-drink",
       "en": "drink",
       "bn": "পান করা",
       "emoji": "🥤",
-      "roman": "pan kora"
+      "exampleEn": "I want to drink water.",
+      "exampleBn": "আমি পানি পান করতে চাই।"
     },
     {
       "id": "actions-sleep",
       "en": "sleep",
       "bn": "ঘুমানো",
       "emoji": "😴",
-      "roman": "ghumano"
+      "exampleEn": "I want to sleep now.",
+      "exampleBn": "আমি এখন ঘুমাতে চাই।"
     },
     {
       "id": "actions-walk",
       "en": "walk",
       "bn": "হাঁটা",
       "emoji": "🚶",
-      "roman": "hãta"
+      "exampleEn": "Can you walk?",
+      "exampleBn": "তুমি কি হাঁটা পারো?"
     },
     {
       "id": "actions-run",
       "en": "run",
       "bn": "দৌড়ানো",
       "emoji": "🏃",
-      "roman": "dourano"
+      "exampleEn": "I want to run.",
+      "exampleBn": "আমি দৌড়ানো চাই।"
     },
     {
       "id": "actions-jump",
       "en": "jump",
       "bn": "লাফানো",
       "emoji": "🤸",
-      "roman": "lafano"
+      "exampleEn": "Let's jump now.",
+      "exampleBn": "চলো এখন লাফানো।"
     },
     {
       "id": "actions-sit",
       "en": "sit",
       "bn": "বসা",
       "emoji": "🪑",
-      "roman": "bosha"
+      "exampleEn": "I like to sit.",
+      "exampleBn": "আমার বসা ভালো লাগে।"
     },
     {
       "id": "actions-stand",
       "en": "stand",
       "bn": "দাঁড়ানো",
       "emoji": "🧍",
-      "roman": "dãrano"
+      "exampleEn": "Can you stand?",
+      "exampleBn": "তুমি কি দাঁড়ানো পারো?"
     },
     {
       "id": "actions-play",
       "en": "play",
       "bn": "খেলা",
       "emoji": "🎮",
-      "roman": "khela"
+      "exampleEn": "I want to play.",
+      "exampleBn": "আমি খেলা চাই।"
     },
     {
       "id": "actions-read",
       "en": "read",
       "bn": "পড়া",
       "emoji": "📖",
-      "roman": "pora"
+      "exampleEn": "Let's read now.",
+      "exampleBn": "চলো এখন পড়া।"
     },
     {
       "id": "actions-write",
       "en": "write",
       "bn": "লেখা",
       "emoji": "✍️",
-      "roman": "lekha"
+      "exampleEn": "I like to write.",
+      "exampleBn": "আমার লেখা ভালো লাগে।"
     },
     {
       "id": "actions-sing",
       "en": "sing",
       "bn": "গান করা",
       "emoji": "🎤",
-      "roman": "gan kora"
+      "exampleEn": "Can you sing?",
+      "exampleBn": "তুমি কি গান করা পারো?"
     },
     {
       "id": "actions-dance",
       "en": "dance",
       "bn": "নাচ",
       "emoji": "💃",
-      "roman": "nach"
+      "exampleEn": "I want to dance.",
+      "exampleBn": "আমি নাচ চাই।"
     },
     {
       "id": "actions-wash",
       "en": "wash",
       "bn": "ধোয়া",
       "emoji": "🧼",
-      "roman": "dhowa"
+      "exampleEn": "Let's wash now.",
+      "exampleBn": "চলো এখন ধোয়া।"
     },
     {
       "id": "actions-look",
       "en": "look",
       "bn": "দেখা",
       "emoji": "👀",
-      "roman": "dekha"
+      "exampleEn": "I like to look.",
+      "exampleBn": "আমার দেখা ভালো লাগে।"
     },
     {
       "id": "actions-listen",
       "en": "listen",
       "bn": "শোনা",
       "emoji": "👂",
-      "roman": "shona"
+      "exampleEn": "Can you listen?",
+      "exampleBn": "তুমি কি শোনা পারো?"
     },
     {
       "id": "actions-speak",
       "en": "speak",
       "bn": "কথা বলা",
       "emoji": "🗣️",
-      "roman": "kotha bola"
+      "exampleEn": "I want to speak.",
+      "exampleBn": "আমি কথা বলা চাই।"
     },
     {
       "id": "actions-say",
       "en": "say",
       "bn": "বলা",
       "emoji": "💬",
-      "roman": "bola"
+      "exampleEn": "Let's say now.",
+      "exampleBn": "চলো এখন বলা।"
     },
     {
       "id": "actions-come",
       "en": "come",
       "bn": "আসা",
       "emoji": "👋",
-      "roman": "asha"
+      "exampleEn": "I like to come.",
+      "exampleBn": "আমার আসা ভালো লাগে।"
     },
     {
       "id": "actions-go",
       "en": "go",
       "bn": "যাওয়া",
       "emoji": "🚶",
-      "roman": "jawa"
+      "exampleEn": "Can you go?",
+      "exampleBn": "তুমি কি যাওয়া পারো?"
     },
     {
       "id": "actions-give",
       "en": "give",
       "bn": "দেওয়া",
       "emoji": "🤲",
-      "roman": "dewa"
+      "exampleEn": "I want to give.",
+      "exampleBn": "আমি দেওয়া চাই।"
     },
     {
       "id": "actions-take",
       "en": "take",
       "bn": "নেওয়া",
       "emoji": "✋",
-      "roman": "newa"
+      "exampleEn": "Let's take now.",
+      "exampleBn": "চলো এখন নেওয়া।"
     },
     {
       "id": "actions-open",
       "en": "open",
       "bn": "খোলা",
       "emoji": "📂",
-      "roman": "khola"
+      "exampleEn": "I like to open.",
+      "exampleBn": "আমার খোলা ভালো লাগে।"
     },
     {
       "id": "actions-close",
       "en": "close",
       "bn": "বন্ধ করা",
       "emoji": "🚪",
-      "roman": "bondho kora"
+      "exampleEn": "Can you close?",
+      "exampleBn": "তুমি কি বন্ধ করা পারো?"
     },
     {
       "id": "actions-push",
       "en": "push",
       "bn": "ধাক্কা দেওয়া",
       "emoji": "👉",
-      "roman": "dhakka dewa"
+      "exampleEn": "I want to push.",
+      "exampleBn": "আমি ধাক্কা দেওয়া চাই।"
     },
     {
       "id": "actions-pull",
       "en": "pull",
       "bn": "টানা",
       "emoji": "👈",
-      "roman": "tana"
+      "exampleEn": "Let's pull now.",
+      "exampleBn": "চলো এখন টানা।"
     },
     {
       "id": "actions-throw",
       "en": "throw",
       "bn": "ছোড়া",
       "emoji": "⚾",
-      "roman": "chhora"
+      "exampleEn": "I like to throw.",
+      "exampleBn": "আমার ছোড়া ভালো লাগে।"
     },
     {
       "id": "actions-catch",
       "en": "catch",
       "bn": "ধরা",
       "emoji": "🥎",
-      "roman": "dhora"
+      "exampleEn": "Can you catch?",
+      "exampleBn": "তুমি কি ধরা পারো?"
     },
     {
       "id": "actions-climb",
       "en": "climb",
       "bn": "চড়া",
       "emoji": "🧗",
-      "roman": "chora"
+      "exampleEn": "I want to climb.",
+      "exampleBn": "আমি চড়া চাই।"
     },
     {
       "id": "actions-fall",
       "en": "fall",
       "bn": "পড়া",
       "emoji": "🤕",
-      "roman": "pora"
+      "exampleEn": "Let's fall now.",
+      "exampleBn": "চলো এখন পড়া।"
     },
     {
       "id": "actions-cry",
       "en": "cry",
       "bn": "কাঁদা",
       "emoji": "😭",
-      "roman": "kãda"
+      "exampleEn": "I like to cry.",
+      "exampleBn": "আমার কাঁদা ভালো লাগে।"
     },
     {
       "id": "actions-laugh",
       "en": "laugh",
       "bn": "হাসা",
       "emoji": "😂",
-      "roman": "hasha"
+      "exampleEn": "Can you laugh?",
+      "exampleBn": "তুমি কি হাসা পারো?"
     },
     {
       "id": "actions-smile",
       "en": "smile",
       "bn": "হাসি",
       "emoji": "😄",
-      "roman": "hashi"
+      "exampleEn": "I want to smile.",
+      "exampleBn": "আমি হাসি চাই।"
     },
     {
       "id": "actions-hug",
       "en": "hug",
       "bn": "জড়িয়ে ধরা",
       "emoji": "🤗",
-      "roman": "joriye dhora"
+      "exampleEn": "Let's hug now.",
+      "exampleBn": "চলো এখন জড়িয়ে ধরা।"
     },
     {
       "id": "actions-kiss",
       "en": "kiss",
       "bn": "চুমু",
       "emoji": "😘",
-      "roman": "chumu"
+      "exampleEn": "I like to kiss.",
+      "exampleBn": "আমার চুমু ভালো লাগে।"
     },
     {
       "id": "actions-help",
       "en": "help",
       "bn": "সাহায্য করা",
       "emoji": "🆘",
-      "roman": "shahajjo kora"
+      "exampleEn": "Can you help?",
+      "exampleBn": "তুমি কি সাহায্য করা পারো?"
     },
     {
       "id": "actions-cook",
       "en": "cook",
       "bn": "রান্না করা",
       "emoji": "👨‍🍳",
-      "roman": "ranna kora"
+      "exampleEn": "I want to cook.",
+      "exampleBn": "আমি রান্না করা চাই।"
     },
     {
       "id": "actions-clean",
       "en": "clean",
       "bn": "পরিষ্কার করা",
       "emoji": "🧹",
-      "roman": "porishkar kora"
+      "exampleEn": "Let's clean now.",
+      "exampleBn": "চলো এখন পরিষ্কার করা।"
     },
     {
       "id": "actions-draw",
       "en": "draw",
       "bn": "আঁকা",
       "emoji": "🎨",
-      "roman": "ãka"
+      "exampleEn": "I like to draw.",
+      "exampleBn": "আমার আঁকা ভালো লাগে।"
     },
     {
       "id": "actions-count",
       "en": "count",
       "bn": "গণনা করা",
       "emoji": "🔢",
-      "roman": "gonona kora"
+      "exampleEn": "Can you count?",
+      "exampleBn": "তুমি কি গণনা করা পারো?"
     },
     {
       "id": "actions-wait",
       "en": "wait",
       "bn": "অপেক্ষা করা",
       "emoji": "⏳",
-      "roman": "opekkha kora"
+      "exampleEn": "I want to wait.",
+      "exampleBn": "আমি অপেক্ষা করা চাই।"
     },
     {
       "id": "actions-stop",
       "en": "stop",
       "bn": "থামানো",
       "emoji": "🛑",
-      "roman": "thamano"
+      "exampleEn": "Let's stop now.",
+      "exampleBn": "চলো এখন থামানো।"
     },
     {
       "id": "actions-start",
       "en": "start",
       "bn": "শুরু করা",
       "emoji": "▶️",
-      "roman": "shuru kora"
+      "exampleEn": "I like to start.",
+      "exampleBn": "আমার শুরু করা ভালো লাগে।"
     },
     {
       "id": "actions-find",
       "en": "find",
       "bn": "খুঁজে পাওয়া",
       "emoji": "🔍",
-      "roman": "khũje pawa"
+      "exampleEn": "Can you find?",
+      "exampleBn": "তুমি কি খুঁজে পাওয়া পারো?"
     },
     {
       "id": "actions-hide",
       "en": "hide",
       "bn": "লুকানো",
       "emoji": "🙈",
-      "roman": "lukano"
+      "exampleEn": "I want to hide.",
+      "exampleBn": "আমি লুকানো চাই।"
     },
     {
       "id": "actions-show",
       "en": "show",
       "bn": "দেখানো",
       "emoji": "👉",
-      "roman": "dekhano"
+      "exampleEn": "Let's show now.",
+      "exampleBn": "চলো এখন দেখানো।"
     },
     {
       "id": "actions-buy",
       "en": "buy",
       "bn": "কেনা",
       "emoji": "🛒",
-      "roman": "kena"
+      "exampleEn": "I like to buy.",
+      "exampleBn": "আমার কেনা ভালো লাগে।"
     },
     {
       "id": "actions-learn",
       "en": "learn",
       "bn": "শেখা",
       "emoji": "📚",
-      "roman": "shekha"
+      "exampleEn": "Can you learn?",
+      "exampleBn": "তুমি কি শেখা পারো?"
     },
     {
       "id": "actions-swim",
       "en": "swim",
       "bn": "সাঁতার কাটা",
       "emoji": "🏊",
-      "roman": "satär kata"
+      "exampleEn": "I want to swim.",
+      "exampleBn": "আমি সাঁতার কাটা চাই।"
     },
     {
       "id": "actions-fly",
       "en": "fly",
       "bn": "ওড়া",
       "emoji": "🕊️",
-      "roman": "ora"
+      "exampleEn": "Let's fly now.",
+      "exampleBn": "চলো এখন ওড়া।"
     },
     {
       "id": "actions-crawl",
       "en": "crawl",
       "bn": "হামাগুড়ি দেওয়া",
       "emoji": "🐛",
-      "roman": "hamaguri dewa"
+      "exampleEn": "I like to crawl.",
+      "exampleBn": "আমার হামাগুড়ি দেওয়া ভালো লাগে।"
     },
     {
       "id": "actions-creep",
       "en": "creep",
       "bn": "হামাগুড়ি দেওয়া",
       "emoji": "🐛",
-      "roman": "hamaguri dewa"
+      "exampleEn": "Can you creep?",
+      "exampleBn": "তুমি কি হামাগুড়ি দেওয়া পারো?"
     },
     {
       "id": "actions-hop",
       "en": "hop",
       "bn": "লাফ দেওয়া",
       "emoji": "🐰",
-      "roman": "laf dewa"
+      "exampleEn": "I want to hop.",
+      "exampleBn": "আমি লাফ দেওয়া চাই।"
     },
     {
       "id": "actions-skip",
       "en": "skip",
       "bn": "লাফিয়ে যাওয়া",
       "emoji": "⏭️",
-      "roman": "lafiye jawa"
+      "exampleEn": "Let's skip now.",
+      "exampleBn": "চলো এখন লাফিয়ে যাওয়া।"
     },
     {
       "id": "actions-hopscotch",
       "en": "hopscotch",
       "bn": "এক পা এক পা",
       "emoji": "🦶",
-      "roman": "ek pa ek pa"
+      "exampleEn": "I like to hopscotch.",
+      "exampleBn": "আমার এক পা এক পা ভালো লাগে।"
     },
     {
       "id": "actions-swing",
       "en": "swing",
       "bn": "দোলনা",
       "emoji": "🎠",
-      "roman": "dolna"
+      "exampleEn": "Can you swing?",
+      "exampleBn": "তুমি কি দোলনা পারো?"
     },
     {
       "id": "actions-slide",
       "en": "slide",
       "bn": "স্লাইড",
       "emoji": "🛝",
-      "roman": "slide"
+      "exampleEn": "I want to slide.",
+      "exampleBn": "আমি স্লাইড চাই।"
     },
     {
       "id": "actions-spin",
       "en": "spin",
       "bn": "ঘুরানো",
       "emoji": "🌀",
-      "roman": "ghurano"
+      "exampleEn": "Let's spin now.",
+      "exampleBn": "চলো এখন ঘুরানো।"
     },
     {
       "id": "actions-turn",
       "en": "turn",
       "bn": "ঘোরা",
       "emoji": "🔄",
-      "roman": "ghora"
+      "exampleEn": "I like to turn.",
+      "exampleBn": "আমার ঘোরা ভালো লাগে।"
     },
     {
       "id": "actions-roll",
       "en": "roll",
       "bn": "গড়ানো",
       "emoji": "🎲",
-      "roman": "gorano"
+      "exampleEn": "Can you roll?",
+      "exampleBn": "তুমি কি গড়ানো পারো?"
     },
     {
       "id": "actions-bend",
       "en": "bend",
       "bn": "বাঁকা",
       "emoji": "🤸",
-      "roman": "bãka"
+      "exampleEn": "I want to bend.",
+      "exampleBn": "আমি বাঁকা চাই।"
     },
     {
       "id": "actions-stretch",
       "en": "stretch",
       "bn": "প্রসারিত করা",
       "emoji": "🤸",
-      "roman": "prosarito kora"
+      "exampleEn": "Let's stretch now.",
+      "exampleBn": "চলো এখন প্রসারিত করা।"
     },
     {
       "id": "actions-yawn",
       "en": "yawn",
       "bn": "হাই তোলা",
       "emoji": "🥱",
-      "roman": "hai tola"
+      "exampleEn": "I like to yawn.",
+      "exampleBn": "আমার হাই তোলা ভালো লাগে।"
     },
     {
       "id": "actions-sneeze",
       "en": "sneeze",
       "bn": "হাঁচি",
       "emoji": "🤧",
-      "roman": "hãchi"
+      "exampleEn": "Can you sneeze?",
+      "exampleBn": "তুমি কি হাঁচি পারো?"
     },
     {
       "id": "actions-cough",
       "en": "cough",
       "bn": "কাশি",
       "emoji": "😷",
-      "roman": "kashi"
+      "exampleEn": "I want to cough.",
+      "exampleBn": "আমি কাশি চাই।"
     },
     {
       "id": "actions-breathe",
       "en": "breathe",
       "bn": "শ্বাস নেওয়া",
       "emoji": "💨",
-      "roman": "shwash newa"
+      "exampleEn": "Let's breathe now.",
+      "exampleBn": "চলো এখন শ্বাস নেওয়া।"
     },
     {
       "id": "actions-whisper",
       "en": "whisper",
       "bn": "ফিসফিস",
       "emoji": "🤫",
-      "roman": "fisfis"
+      "exampleEn": "I like to whisper.",
+      "exampleBn": "আমার ফিসফিস ভালো লাগে।"
     },
     {
       "id": "actions-shout",
       "en": "shout",
       "bn": "চিৎকার",
       "emoji": "📢",
-      "roman": "chitkar"
+      "exampleEn": "Can you shout?",
+      "exampleBn": "তুমি কি চিৎকার পারো?"
     },
     {
       "id": "actions-ask",
       "en": "ask",
       "bn": "জিজ্ঞাসা করা",
       "emoji": "❓",
-      "roman": "jiggasha kora"
+      "exampleEn": "I want to ask.",
+      "exampleBn": "আমি জিজ্ঞাসা করা চাই।"
     },
     {
       "id": "actions-answer",
       "en": "answer",
       "bn": "উত্তর দেওয়া",
       "emoji": "💬",
-      "roman": "uttar dewa"
+      "exampleEn": "Let's answer now.",
+      "exampleBn": "চলো এখন উত্তর দেওয়া।"
     },
     {
       "id": "actions-tell",
       "en": "tell",
       "bn": "বলানো",
       "emoji": "🗣️",
-      "roman": "bolano"
+      "exampleEn": "I like to tell.",
+      "exampleBn": "আমার বলানো ভালো লাগে।"
     },
     {
       "id": "actions-explain",
       "en": "explain",
       "bn": "ব্যাখ্যা করা",
       "emoji": "💡",
-      "roman": "byakhya kora"
+      "exampleEn": "Can you explain?",
+      "exampleBn": "তুমি কি ব্যাখ্যা করা পারো?"
     },
     {
       "id": "actions-remember",
       "en": "remember",
       "bn": "মনে রাখা",
       "emoji": "🧠",
-      "roman": "mone rakha"
+      "exampleEn": "I want to remember.",
+      "exampleBn": "আমি মনে রাখা চাই।"
     },
     {
       "id": "actions-forget",
       "en": "forget",
       "bn": "ভুলে যাওয়া",
       "emoji": "🤔",
-      "roman": "bhule jawa"
+      "exampleEn": "Let's forget now.",
+      "exampleBn": "চলো এখন ভুলে যাওয়া।"
     },
     {
       "id": "actions-think",
       "en": "think",
       "bn": "ভাবা",
       "emoji": "🤔",
-      "roman": "bhaba"
+      "exampleEn": "I like to think.",
+      "exampleBn": "আমার ভাবা ভালো লাগে।"
     },
     {
       "id": "actions-dream",
       "en": "dream",
       "bn": "স্বপ্ন দেখা",
       "emoji": "💭",
-      "roman": "swopno dekha"
+      "exampleEn": "Can you dream?",
+      "exampleBn": "তুমি কি স্বপ্ন দেখা পারো?"
     },
     {
       "id": "actions-imagine",
       "en": "imagine",
       "bn": "কল্পনা করা",
       "emoji": "💭",
-      "roman": "kolpona kora"
+      "exampleEn": "I want to imagine.",
+      "exampleBn": "আমি কল্পনা করা চাই।"
     },
     {
       "id": "actions-choose",
       "en": "choose",
       "bn": "বেছে নেওয়া",
       "emoji": "👆",
-      "roman": "beche newa"
+      "exampleEn": "Let's choose now.",
+      "exampleBn": "চলো এখন বেছে নেওয়া।"
     },
     {
       "id": "actions-decide",
       "en": "decide",
       "bn": "সিদ্ধান্ত নেওয়া",
       "emoji": "✅",
-      "roman": "siddhanto newa"
+      "exampleEn": "I like to decide.",
+      "exampleBn": "আমার সিদ্ধান্ত নেওয়া ভালো লাগে।"
     },
     {
       "id": "actions-try",
       "en": "try",
       "bn": "চেষ্টা করা",
       "emoji": "💪",
-      "roman": "chesta kora"
+      "exampleEn": "Can you try?",
+      "exampleBn": "তুমি কি চেষ্টা করা পারো?"
     },
     {
       "id": "actions-practice",
       "en": "practice",
       "bn": "অভ্যাস করা",
       "emoji": "🏋️",
-      "roman": "obhyash kora"
+      "exampleEn": "I want to practice.",
+      "exampleBn": "আমি অভ্যাস করা চাই।"
     },
     {
       "id": "actions-win",
       "en": "win",
       "bn": "জেতা",
       "emoji": "🏆",
-      "roman": "jeta"
+      "exampleEn": "Let's win now.",
+      "exampleBn": "চলো এখন জেতা।"
     },
     {
       "id": "actions-lose",
       "en": "lose",
       "bn": "হারা",
       "emoji": "😢",
-      "roman": "hara"
+      "exampleEn": "I like to lose.",
+      "exampleBn": "আমার হারা ভালো লাগে।"
     },
     {
       "id": "actions-share",
       "en": "share",
       "bn": "ভাগ করা",
       "emoji": "🤝",
-      "roman": "bhag kora"
+      "exampleEn": "Can you share?",
+      "exampleBn": "তুমি কি ভাগ করা পারো?"
     },
     {
       "id": "actions-borrow",
       "en": "borrow",
       "bn": "ধার নেওয়া",
       "emoji": "🤲",
-      "roman": "dhar newa"
+      "exampleEn": "I want to borrow.",
+      "exampleBn": "আমি ধার নেওয়া চাই।"
     },
     {
       "id": "actions-lend",
       "en": "lend",
       "bn": "ধার দেওয়া",
       "emoji": "🤲",
-      "roman": "dhar dewa"
+      "exampleEn": "Let's lend now.",
+      "exampleBn": "চলো এখন ধার দেওয়া।"
     },
     {
       "id": "actions-pay",
       "en": "pay",
       "bn": "টাকা দেওয়া",
       "emoji": "💵",
-      "roman": "taka dewa"
+      "exampleEn": "I like to pay.",
+      "exampleBn": "আমার টাকা দেওয়া ভালো লাগে।"
     },
     {
       "id": "actions-sell",
       "en": "sell",
       "bn": "বিক্রি করা",
       "emoji": "💰",
-      "roman": "bikri kora"
+      "exampleEn": "Can you sell?",
+      "exampleBn": "তুমি কি বিক্রি করা পারো?"
     },
     {
       "id": "actions-pack",
       "en": "pack",
       "bn": "প্যাক করা",
       "emoji": "📦",
-      "roman": "pack kora"
+      "exampleEn": "I want to pack.",
+      "exampleBn": "আমি প্যাক করা চাই।"
     },
     {
       "id": "actions-unpack",
       "en": "unpack",
       "bn": "আনপ্যাক করা",
       "emoji": "📦",
-      "roman": "unpack kora"
+      "exampleEn": "Let's unpack now.",
+      "exampleBn": "চলো এখন আনপ্যাক করা।"
     },
     {
       "id": "actions-wrap",
       "en": "wrap",
       "bn": "মোড়ানো",
       "emoji": "🎁",
-      "roman": "morano"
+      "exampleEn": "I like to wrap.",
+      "exampleBn": "আমার মোড়ানো ভালো লাগে।"
     },
     {
       "id": "actions-unwrap",
       "en": "unwrap",
       "bn": "খোলা",
       "emoji": "🎁",
-      "roman": "khola"
+      "exampleEn": "Can you unwrap?",
+      "exampleBn": "তুমি কি খোলা পারো?"
     },
     {
       "id": "actions-tie",
       "en": "tie",
       "bn": "বাঁধা",
       "emoji": "🎀",
-      "roman": "bãdha"
+      "exampleEn": "I want to tie.",
+      "exampleBn": "আমি বাঁধা চাই।"
     },
     {
       "id": "actions-untie",
       "en": "untie",
       "bn": "খোলা",
       "emoji": "🎀",
-      "roman": "khola"
+      "exampleEn": "Let's untie now.",
+      "exampleBn": "চলো এখন খোলা।"
     },
     {
       "id": "actions-cut",
       "en": "cut",
       "bn": "কাটা",
       "emoji": "✂️",
-      "roman": "kata"
+      "exampleEn": "I like to cut.",
+      "exampleBn": "আমার কাটা ভালো লাগে।"
     },
     {
       "id": "actions-paste",
       "en": "paste",
       "bn": "আটকানো",
       "emoji": "📎",
-      "roman": "atkano"
+      "exampleEn": "Can you paste?",
+      "exampleBn": "তুমি কি আটকানো পারো?"
     },
     {
       "id": "actions-fold",
       "en": "fold",
       "bn": "ভাঁজ করা",
       "emoji": "👕",
-      "roman": "bhãj kora"
+      "exampleEn": "I want to fold.",
+      "exampleBn": "আমি ভাঁজ করা চাই।"
     },
     {
       "id": "actions-unfold",
       "en": "unfold",
       "bn": "খোলা",
       "emoji": "👕",
-      "roman": "khola"
+      "exampleEn": "Let's unfold now.",
+      "exampleBn": "চলো এখন খোলা।"
     },
     {
       "id": "actions-hang",
       "en": "hang",
       "bn": "ঝোলানো",
       "emoji": "👕",
-      "roman": "jholano"
+      "exampleEn": "I like to hang.",
+      "exampleBn": "আমার ঝোলানো ভালো লাগে।"
     },
     {
       "id": "actions-dry",
       "en": "dry",
       "bn": "শুকানো",
       "emoji": "☀️",
-      "roman": "shukano"
+      "exampleEn": "Can you dry?",
+      "exampleBn": "তুমি কি শুকানো পারো?"
     },
     {
       "id": "actions-wet",
       "en": "wet",
       "bn": "ভিজানো",
       "emoji": "💧",
-      "roman": "bijano"
+      "exampleEn": "I want to wet.",
+      "exampleBn": "আমি ভিজানো চাই।"
     },
     {
       "id": "actions-soak",
       "en": "soak",
       "bn": "ভিজিয়ে রাখা",
       "emoji": "💧",
-      "roman": "bijiye rakha"
+      "exampleEn": "Let's soak now.",
+      "exampleBn": "চলো এখন ভিজিয়ে রাখা।"
     },
     {
       "id": "actions-squeeze",
       "en": "squeeze",
       "bn": "চাপ দেওয়া",
       "emoji": "🤏",
-      "roman": "chap dewa"
+      "exampleEn": "I like to squeeze.",
+      "exampleBn": "আমার চাপ দেওয়া ভালো লাগে।"
     },
     {
       "id": "actions-mix",
       "en": "mix",
       "bn": "মেশানো",
       "emoji": "🥣",
-      "roman": "meshano"
+      "exampleEn": "Can you mix?",
+      "exampleBn": "তুমি কি মেশানো পারো?"
     },
     {
       "id": "actions-stir",
       "en": "stir",
       "bn": "নাড়া",
       "emoji": "🥄",
-      "roman": "nara"
+      "exampleEn": "I want to stir.",
+      "exampleBn": "আমি নাড়া চাই।"
     },
     {
       "id": "actions-pour",
       "en": "pour",
       "bn": "ঢালা",
       "emoji": "🫗",
-      "roman": "dhala"
+      "exampleEn": "Let's pour now.",
+      "exampleBn": "চলো এখন ঢালা।"
     },
     {
       "id": "actions-spill",
       "en": "spill",
       "bn": "ঝরে পড়া",
       "emoji": "💧",
-      "roman": "jhore pora"
+      "exampleEn": "I like to spill.",
+      "exampleBn": "আমার ঝরে পড়া ভালো লাগে।"
     },
     {
       "id": "actions-break",
       "en": "break",
       "bn": "ভাঙা",
       "emoji": "💔",
-      "roman": "bhanga"
+      "exampleEn": "Can you break?",
+      "exampleBn": "তুমি কি ভাঙা পারো?"
     },
     {
       "id": "actions-fix",
       "en": "fix",
       "bn": "ঠিক করা",
       "emoji": "🔧",
-      "roman": "thik kora"
+      "exampleEn": "I want to fix.",
+      "exampleBn": "আমি ঠিক করা চাই।"
     },
     {
       "id": "actions-build",
       "en": "build",
       "bn": "তৈরি করা",
       "emoji": "🏗️",
-      "roman": "tori kora"
+      "exampleEn": "Let's build now.",
+      "exampleBn": "চলো এখন তৈরি করা।"
     },
     {
       "id": "actions-make",
       "en": "make",
       "bn": "তৈরি করা",
       "emoji": "🔨",
-      "roman": "tori kora"
+      "exampleEn": "I like to make.",
+      "exampleBn": "আমার তৈরি করা ভালো লাগে।"
     },
     {
       "id": "actions-create",
       "en": "create",
       "bn": "সৃষ্টি করা",
       "emoji": "✨",
-      "roman": "srishti kora"
+      "exampleEn": "Can you create?",
+      "exampleBn": "তুমি কি সৃষ্টি করা পারো?"
     },
     {
       "id": "actions-destroy",
       "en": "destroy",
       "bn": "ধ্বংস করা",
       "emoji": "💥",
-      "roman": "dhongsho kora"
+      "exampleEn": "I want to destroy.",
+      "exampleBn": "আমি ধ্বংস করা চাই।"
     },
     {
       "id": "actions-plant",
       "en": "plant",
       "bn": "রোপণ করা",
       "emoji": "🌱",
-      "roman": "ropon kora"
+      "exampleEn": "Let's plant now.",
+      "exampleBn": "চলো এখন রোপণ করা।"
     },
     {
       "id": "actions-water-plants",
       "en": "water plants",
       "bn": "গাছে পানি দেওয়া",
       "emoji": "🪴",
-      "roman": "gache pani dewa"
+      "exampleEn": "I like to water plants.",
+      "exampleBn": "আমার গাছে পানি দেওয়া ভালো লাগে।"
     },
     {
       "id": "actions-dig",
       "en": "dig",
       "bn": "খনন করা",
       "emoji": "⛏️",
-      "roman": "khonon kora"
+      "exampleEn": "Can you dig?",
+      "exampleBn": "তুমি কি খনন করা পারো?"
     },
     {
       "id": "actions-pick",
       "en": "pick",
       "bn": "তোলা",
       "emoji": "🤏",
-      "roman": "tola"
+      "exampleEn": "I want to pick.",
+      "exampleBn": "আমি তোলা চাই।"
     },
     {
       "id": "actions-drop",
       "en": "drop",
       "bn": "ফেলে দেওয়া",
       "emoji": "⬇️",
-      "roman": "phele dewa"
+      "exampleEn": "Let's drop now.",
+      "exampleBn": "চলো এখন ফেলে দেওয়া।"
     },
     {
       "id": "actions-carry",
       "en": "carry",
       "bn": "বহন করা",
       "emoji": "🎒",
-      "roman": "bohon kora"
+      "exampleEn": "I like to carry.",
+      "exampleBn": "আমার বহন করা ভালো লাগে।"
     },
     {
       "id": "actions-lift",
       "en": "lift",
       "bn": "তোলা",
       "emoji": "🏋️",
-      "roman": "tola"
+      "exampleEn": "Can you lift?",
+      "exampleBn": "তুমি কি তোলা পারো?"
     },
     {
       "id": "actions-hold",
       "en": "hold",
       "bn": "ধরা",
       "emoji": "🤲",
-      "roman": "dhora"
+      "exampleEn": "I want to hold.",
+      "exampleBn": "আমি ধরা চাই।"
     },
     {
       "id": "actions-release",
       "en": "release",
       "bn": "ছেড়ে দেওয়া",
       "emoji": "🕊️",
-      "roman": "chhere dewa"
+      "exampleEn": "Let's release now.",
+      "exampleBn": "চলো এখন ছেড়ে দেওয়া।"
     },
     {
       "id": "actions-touch",
       "en": "touch",
       "bn": "স্পর্শ করা",
       "emoji": "👆",
-      "roman": "sporsho kora"
+      "exampleEn": "I like to touch.",
+      "exampleBn": "আমার স্পর্শ করা ভালো লাগে।"
     },
     {
       "id": "actions-feel",
       "en": "feel",
       "bn": "অনুভব করা",
       "emoji": "🤚",
-      "roman": "onubhob kora"
+      "exampleEn": "Can you feel?",
+      "exampleBn": "তুমি কি অনুভব করা পারো?"
     },
     {
       "id": "actions-smell",
       "en": "smell",
       "bn": "ঘ্রাণ নেওয়া",
       "emoji": "👃",
-      "roman": "ghran newa"
+      "exampleEn": "I want to smell.",
+      "exampleBn": "আমি ঘ্রাণ নেওয়া চাই।"
     },
     {
       "id": "actions-taste",
       "en": "taste",
       "bn": "স্বাদ নেওয়া",
       "emoji": "👅",
-      "roman": "swad newa"
+      "exampleEn": "Let's taste now.",
+      "exampleBn": "চলো এখন স্বাদ নেওয়া।"
     },
     {
       "id": "actions-watch",
       "en": "watch",
       "bn": "দেখা",
       "emoji": "👀",
-      "roman": "dekha"
+      "exampleEn": "I like to watch.",
+      "exampleBn": "আমার দেখা ভালো লাগে।"
     },
     {
       "id": "actions-follow",
       "en": "follow",
       "bn": "অনুসরণ করা",
       "emoji": "👣",
-      "roman": "onushoron kora"
+      "exampleEn": "Can you follow?",
+      "exampleBn": "তুমি কি অনুসরণ করা পারো?"
     },
     {
       "id": "actions-lead",
       "en": "lead",
       "bn": "নেতৃত্ব দেওয়া",
       "emoji": "👑",
-      "roman": "netritwo dewa"
+      "exampleEn": "I want to lead.",
+      "exampleBn": "আমি নেতৃত্ব দেওয়া চাই।"
     },
     {
       "id": "actions-guide",
       "en": "guide",
       "bn": "পথ দেখানো",
       "emoji": "🧭",
-      "roman": "poth dekhano"
+      "exampleEn": "Let's guide now.",
+      "exampleBn": "চলো এখন পথ দেখানো।"
     },
     {
       "id": "actions-visit",
       "en": "visit",
       "bn": "দেখা করা",
       "emoji": "🏠",
-      "roman": "dekha kora"
+      "exampleEn": "I like to visit.",
+      "exampleBn": "আমার দেখা করা ভালো লাগে।"
     },
     {
       "id": "actions-leave",
       "en": "leave",
       "bn": "চলে যাওয়া",
       "emoji": "👋",
-      "roman": "chale jawa"
+      "exampleEn": "Can you leave?",
+      "exampleBn": "তুমি কি চলে যাওয়া পারো?"
     },
     {
       "id": "actions-arrive",
       "en": "arrive",
       "bn": "পৌঁছানো",
       "emoji": "📍",
-      "roman": "pouchano"
+      "exampleEn": "I want to arrive.",
+      "exampleBn": "আমি পৌঁছানো চাই।"
     },
     {
       "id": "actions-enter",
       "en": "enter",
       "bn": "প্রবেশ করা",
       "emoji": "🚪",
-      "roman": "probesh kora"
+      "exampleEn": "Let's enter now.",
+      "exampleBn": "চলো এখন প্রবেশ করা।"
     },
     {
       "id": "actions-exit",
       "en": "exit",
       "bn": "বের হওয়া",
       "emoji": "🚪",
-      "roman": "ber howa"
+      "exampleEn": "I like to exit.",
+      "exampleBn": "আমার বের হওয়া ভালো লাগে।"
     },
     {
       "id": "actions-knock",
       "en": "knock",
       "bn": "কড়া নাড়া",
       "emoji": "🚪",
-      "roman": "kora nara"
+      "exampleEn": "Can you knock?",
+      "exampleBn": "তুমি কি কড়া নাড়া পারো?"
     },
     {
       "id": "actions-ring-bell",
       "en": "ring bell",
       "bn": "ঘণ্টা বাজানো",
       "emoji": "🔔",
-      "roman": "ghonta bajano"
+      "exampleEn": "I want to ring bell.",
+      "exampleBn": "আমি ঘণ্টা বাজানো চাই।"
     },
     {
       "id": "actions-call",
       "en": "call",
       "bn": "ডাকা",
       "emoji": "📞",
-      "roman": "daka"
+      "exampleEn": "Let's call now.",
+      "exampleBn": "চলো এখন ডাকা।"
     },
     {
       "id": "actions-phone",
       "en": "phone",
       "bn": "ফোন করা",
       "emoji": "📱",
-      "roman": "phon kora"
+      "exampleEn": "I like to phone.",
+      "exampleBn": "আমার ফোন করা ভালো লাগে।"
     },
     {
       "id": "actions-text",
       "en": "text",
       "bn": "মেসেজ করা",
       "emoji": "💬",
-      "roman": "message kora"
+      "exampleEn": "Can you text?",
+      "exampleBn": "তুমি কি মেসেজ করা পারো?"
     },
     {
       "id": "actions-mail",
       "en": "mail",
       "bn": "চিঠি পাঠানো",
       "emoji": "✉️",
-      "roman": "chithi pathano"
+      "exampleEn": "I want to mail.",
+      "exampleBn": "আমি চিঠি পাঠানো চাই।"
     },
     {
       "id": "actions-invite",
       "en": "invite",
       "bn": "আমন্ত্রণ করা",
       "emoji": "💌",
-      "roman": "amontroon kora"
+      "exampleEn": "Let's invite now.",
+      "exampleBn": "চলো এখন আমন্ত্রণ করা।"
     },
     {
       "id": "actions-welcome",
       "en": "welcome",
       "bn": "স্বাগত জানানো",
       "emoji": "👋",
-      "roman": "swagat janano"
+      "exampleEn": "I like to welcome.",
+      "exampleBn": "আমার স্বাগত জানানো ভালো লাগে।"
     },
     {
       "id": "actions-greet",
       "en": "greet",
       "bn": "শুভেচ্ছা জানানো",
       "emoji": "👋",
-      "roman": "shubhechcha janano"
+      "exampleEn": "Can you greet?",
+      "exampleBn": "তুমি কি শুভেচ্ছা জানানো পারো?"
     },
     {
       "id": "actions-introduce",
       "en": "introduce",
       "bn": "পরিচয় করানো",
       "emoji": "🤝",
-      "roman": "porichoy karano"
+      "exampleEn": "I want to introduce.",
+      "exampleBn": "আমি পরিচয় করানো চাই।"
     },
     {
       "id": "actions-meet",
       "en": "meet",
       "bn": "দেখা হওয়া",
       "emoji": "🤝",
-      "roman": "dekha howa"
+      "exampleEn": "Let's meet now.",
+      "exampleBn": "চলো এখন দেখা হওয়া।"
     },
     {
       "id": "actions-miss",
       "en": "miss",
       "bn": "মিস করা",
       "emoji": "😢",
-      "roman": "miss kora"
+      "exampleEn": "I like to miss.",
+      "exampleBn": "আমার মিস করা ভালো লাগে।"
     },
     {
       "id": "actions-celebrate",
       "en": "celebrate",
       "bn": "উদযাপন করা",
       "emoji": "🎉",
-      "roman": "udjapon kora"
+      "exampleEn": "Can you celebrate?",
+      "exampleBn": "তুমি কি উদযাপন করা পারো?"
     },
     {
       "id": "actions-party",
       "en": "party",
       "bn": "পার্টি করা",
       "emoji": "🎉",
-      "roman": "party kora"
+      "exampleEn": "I want to party.",
+      "exampleBn": "আমি পার্টি করা চাই।"
     },
     {
       "id": "actions-clap",
       "en": "clap",
       "bn": "তালি দেওয়া",
       "emoji": "👏",
-      "roman": "tali dewa"
+      "exampleEn": "Let's clap now.",
+      "exampleBn": "চলো এখন তালি দেওয়া।"
     },
     {
       "id": "actions-wave-hand",
       "en": "wave hand",
       "bn": "হাত নাড়ানো",
       "emoji": "👋",
-      "roman": "hat narano"
+      "exampleEn": "I like to wave hand.",
+      "exampleBn": "আমার হাত নাড়ানো ভালো লাগে।"
     },
     {
       "id": "actions-point",
       "en": "point",
       "bn": "আঙুল দেখানো",
       "emoji": "👉",
-      "roman": "angul dekhano"
+      "exampleEn": "Can you point?",
+      "exampleBn": "তুমি কি আঙুল দেখানো পারো?"
     },
     {
       "id": "actions-nod",
       "en": "nod",
       "bn": "মাথা নাড়ানো",
       "emoji": "👍",
-      "roman": "matha narano"
+      "exampleEn": "I want to nod.",
+      "exampleBn": "আমি মাথা নাড়ানো চাই।"
     },
     {
       "id": "actions-shake-head",
       "en": "shake head",
       "bn": "মাথা নাড়ানো",
       "emoji": "👎",
-      "roman": "matha narano"
+      "exampleEn": "Let's shake head now.",
+      "exampleBn": "চলো এখন মাথা নাড়ানো।"
     },
     {
       "id": "actions-wink",
       "en": "wink",
       "bn": "চোখ পিটপিট",
       "emoji": "😉",
-      "roman": "chokh pitpit"
+      "exampleEn": "I like to wink.",
+      "exampleBn": "আমার চোখ পিটপিট ভালো লাগে।"
     },
     {
       "id": "actions-blink",
       "en": "blink",
       "bn": "চোখ পিটপিট",
       "emoji": "😉",
-      "roman": "chokh pitpit"
+      "exampleEn": "Can you blink?",
+      "exampleBn": "তুমি কি চোখ পিটপিট পারো?"
     },
     {
       "id": "actions-pray",
       "en": "pray",
       "bn": "পররথোন করা",
       "emoji": "🙏",
-      "roman": "prarthona kora"
+      "exampleEn": "I want to pray.",
+      "exampleBn": "আমি পররথোন করা চাই।"
     },
     {
       "id": "actions-bless",
       "en": "bless",
       "bn": "আশীর্বাদ করা",
       "emoji": "🙏",
-      "roman": "ashirbad kora"
+      "exampleEn": "Let's bless now.",
+      "exampleBn": "চলো এখন আশীর্বাদ করা।"
     },
     {
       "id": "actions-forgive",
       "en": "forgive",
       "bn": "ক্ষমা করা",
       "emoji": "🤝",
-      "roman": "khoma kora"
+      "exampleEn": "I like to forgive.",
+      "exampleBn": "আমার ক্ষমা করা ভালো লাগে।"
     },
     {
       "id": "actions-promise",
       "en": "promise",
       "bn": "পরোমিসে করা",
       "emoji": "🤞",
-      "roman": "promise kora"
+      "exampleEn": "Can you promise?",
+      "exampleBn": "তুমি কি পরোমিসে করা পারো?"
     },
     {
       "id": "actions-obey",
       "en": "obey",
       "bn": "মান্য করা",
       "emoji": "✅",
-      "roman": "manyo kora"
+      "exampleEn": "I want to obey.",
+      "exampleBn": "আমি মান্য করা চাই।"
     },
     {
       "id": "actions-disobey",
       "en": "disobey",
       "bn": "অমান্য করা",
       "emoji": "❌",
-      "roman": "omanyo kora"
+      "exampleEn": "Let's disobey now.",
+      "exampleBn": "চলো এখন অমান্য করা।"
     },
     {
       "id": "actions-behave",
       "en": "behave",
       "bn": "আচরণ করা",
       "emoji": "🙂",
-      "roman": "achoron kora"
+      "exampleEn": "I like to behave.",
+      "exampleBn": "আমার আচরণ করা ভালো লাগে।"
     },
     {
       "id": "actions-discipline",
       "en": "discipline",
       "bn": "শৃঙ্খলা",
       "emoji": "📏",
-      "roman": "shringkhola"
+      "exampleEn": "Can you discipline?",
+      "exampleBn": "তুমি কি শৃঙ্খলা পারো?"
     },
     {
       "id": "actions-reward",
       "en": "reward",
       "bn": "পুরস্কার",
       "emoji": "🏅",
-      "roman": "puruskar"
+      "exampleEn": "I want to reward.",
+      "exampleBn": "আমি পুরস্কার চাই।"
     },
     {
       "id": "actions-punish",
       "en": "punish",
       "bn": "শাস্তি",
       "emoji": "⚠️",
-      "roman": "shasti"
+      "exampleEn": "Let's punish now.",
+      "exampleBn": "চলো এখন শাস্তি।"
     },
     {
       "id": "actions-compete",
       "en": "compete",
       "bn": "প্রতিযোগিতা",
       "emoji": "🏆",
-      "roman": "protijogita"
+      "exampleEn": "I like to compete.",
+      "exampleBn": "আমার প্রতিযোগিতা ভালো লাগে।"
     },
     {
       "id": "actions-cooperate",
       "en": "cooperate",
       "bn": "সহযোগিতা",
       "emoji": "🤝",
-      "roman": "shohojogita"
+      "exampleEn": "Can you cooperate?",
+      "exampleBn": "তুমি কি সহযোগিতা পারো?"
     },
     {
       "id": "actions-argue",
       "en": "argue",
       "bn": "তর্ক করা",
       "emoji": "💬",
-      "roman": "torko kora"
+      "exampleEn": "I want to argue.",
+      "exampleBn": "আমি তর্ক করা চাই।"
     },
     {
       "id": "actions-agree",
       "en": "agree",
       "bn": "একমত হওয়া",
       "emoji": "👍",
-      "roman": "ekmot howa"
+      "exampleEn": "Let's agree now.",
+      "exampleBn": "চলো এখন একমত হওয়া।"
     },
     {
       "id": "actions-disagree",
       "en": "disagree",
       "bn": "অসম্মত হওয়া",
       "emoji": "👎",
-      "roman": "osommot howa"
+      "exampleEn": "I like to disagree.",
+      "exampleBn": "আমার অসম্মত হওয়া ভালো লাগে।"
     },
     {
       "id": "actions-discuss",
       "en": "discuss",
       "bn": "আলোচনা",
       "emoji": "💬",
-      "roman": "alochona"
+      "exampleEn": "Can you discuss?",
+      "exampleBn": "তুমি কি আলোচনা পারো?"
     },
     {
       "id": "actions-plan",
       "en": "plan",
       "bn": "পরিকল্পনা",
       "emoji": "📋",
-      "roman": "porikolpona"
+      "exampleEn": "I want to plan.",
+      "exampleBn": "আমি পরিকল্পনা চাই।"
     },
     {
       "id": "actions-prepare",
       "en": "prepare",
       "bn": "প্রস্তুতি",
       "emoji": "📝",
-      "roman": "prostuti"
+      "exampleEn": "Let's prepare now.",
+      "exampleBn": "চলো এখন প্রস্তুতি।"
     },
     {
       "id": "actions-organize",
       "en": "organize",
       "bn": "গোছানো",
       "emoji": "📂",
-      "roman": "goshano"
+      "exampleEn": "I like to organize.",
+      "exampleBn": "আমার গোছানো ভালো লাগে।"
     },
     {
       "id": "actions-sort",
       "en": "sort",
       "bn": "সাজানো",
       "emoji": "📊",
-      "roman": "sajano"
+      "exampleEn": "Can you sort?",
+      "exampleBn": "তুমি কি সাজানো পারো?"
     },
     {
       "id": "actions-arrange",
       "en": "arrange",
       "bn": "সাজানো",
       "emoji": "📋",
-      "roman": "sajano"
+      "exampleEn": "I want to arrange.",
+      "exampleBn": "আমি সাজানো চাই।"
     },
     {
       "id": "actions-collect",
       "en": "collect",
       "bn": "সংগ্রহ",
       "emoji": "📦",
-      "roman": "songroho"
+      "exampleEn": "Let's collect now.",
+      "exampleBn": "চলো এখন সংগ্রহ।"
     },
     {
       "id": "actions-gather",
       "en": "gather",
       "bn": "একত্র করা",
       "emoji": "👥",
-      "roman": "ekotro kora"
+      "exampleEn": "I like to gather.",
+      "exampleBn": "আমার একত্র করা ভালো লাগে।"
     },
     {
       "id": "actions-scatter",
       "en": "scatter",
       "bn": "ছড়িয়ে দেওয়া",
       "emoji": "💨",
-      "roman": "chhoriye dewa"
+      "exampleEn": "Can you scatter?",
+      "exampleBn": "তুমি কি ছড়িয়ে দেওয়া পারো?"
     },
     {
       "id": "actions-save",
       "en": "save",
       "bn": "জমা রাখা",
       "emoji": "💰",
-      "roman": "joma rakha"
+      "exampleEn": "I want to save.",
+      "exampleBn": "আমি জমা রাখা চাই।"
     },
     {
       "id": "actions-spend",
       "en": "spend",
       "bn": "খরচ করা",
       "emoji": "💸",
-      "roman": "khoroch kora"
+      "exampleEn": "Let's spend now.",
+      "exampleBn": "চলো এখন খরচ করা।"
     },
     {
       "id": "actions-waste",
       "en": "waste",
       "bn": "নষ্ট করা",
       "emoji": "🗑️",
-      "roman": "noshto kora"
+      "exampleEn": "I like to waste.",
+      "exampleBn": "আমার নষ্ট করা ভালো লাগে।"
     },
     {
       "id": "actions-recycle",
       "en": "recycle",
       "bn": "পুনর্ব্যবহার",
       "emoji": "♻️",
-      "roman": "punorbbyash"
+      "exampleEn": "Can you recycle?",
+      "exampleBn": "তুমি কি পুনর্ব্যবহার পারো?"
     },
     {
       "id": "actions-protect",
       "en": "protect",
       "bn": "রক্ষা করা",
       "emoji": "🛡️",
-      "roman": "rokkha kora"
+      "exampleEn": "I want to protect.",
+      "exampleBn": "আমি রক্ষা করা চাই।"
     },
     {
       "id": "actions-attack",
       "en": "attack",
       "bn": "আক্রমণ",
       "emoji": "⚔️",
-      "roman": "akromon"
+      "exampleEn": "Let's attack now.",
+      "exampleBn": "চলো এখন আক্রমণ।"
     },
     {
       "id": "actions-defend",
       "en": "defend",
       "bn": "রক্ষা",
       "emoji": "🛡️",
-      "roman": "rokkha"
+      "exampleEn": "I like to defend.",
+      "exampleBn": "আমার রক্ষা ভালো লাগে।"
     },
     {
       "id": "actions-escape",
       "en": "escape",
       "bn": "পালানো",
       "emoji": "🏃",
-      "roman": "palano"
+      "exampleEn": "Can you escape?",
+      "exampleBn": "তুমি কি পালানো পারো?"
     },
     {
       "id": "actions-chase",
       "en": "chase",
       "bn": "অনুসরণ",
       "emoji": "🏃",
-      "roman": "onushoron"
+      "exampleEn": "I want to chase.",
+      "exampleBn": "আমি অনুসরণ চাই।"
     },
     {
       "id": "actions-race",
       "en": "race",
       "bn": "দৌড়",
       "emoji": "🏁",
-      "roman": "dour"
+      "exampleEn": "Let's race now.",
+      "exampleBn": "চলো এখন দৌড়।"
     },
     {
       "id": "actions-kick",
       "en": "kick",
       "bn": "লাথি",
       "emoji": "🦵",
-      "roman": "lathi"
+      "exampleEn": "I like to kick.",
+      "exampleBn": "আমার লাথি ভালো লাগে।"
     },
     {
       "id": "actions-punch",
       "en": "punch",
       "bn": "মুকখ",
       "emoji": "👊",
-      "roman": "mukkha"
+      "exampleEn": "Can you punch?",
+      "exampleBn": "তুমি কি মুকখ পারো?"
     },
     {
       "id": "actions-tickle",
       "en": "tickle",
       "bn": "কুতুকুতি",
       "emoji": "🤭",
-      "roman": "kutukuti"
+      "exampleEn": "I want to tickle.",
+      "exampleBn": "আমি কুতুকুতি চাই।"
     },
     {
       "id": "actions-tickle-feet",
       "en": "tickle feet",
       "bn": "পা কুতুকুতি",
       "emoji": "🦶",
-      "roman": "pay kutukuti"
+      "exampleEn": "Let's tickle feet now.",
+      "exampleBn": "চলো এখন পা কুতুকুতি।"
     },
     {
       "id": "actions-massage",
       "en": "massage",
       "bn": "মলিশ",
       "emoji": "💆",
-      "roman": "malish"
+      "exampleEn": "I like to massage.",
+      "exampleBn": "আমার মলিশ ভালো লাগে।"
     },
     {
       "id": "actions-exercise",
       "en": "exercise",
       "bn": "ব্যায়াম",
       "emoji": "🏋️",
-      "roman": "byayam"
+      "exampleEn": "Can you exercise?",
+      "exampleBn": "তুমি কি ব্যায়াম পারো?"
     },
     {
       "id": "actions-stretch-arms",
       "en": "stretch arms",
       "bn": "হাত পরোশরিতো",
       "emoji": "🤸",
-      "roman": "hat prosharito"
+      "exampleEn": "I want to stretch arms.",
+      "exampleBn": "আমি হাত পরোশরিতো চাই।"
     },
     {
       "id": "actions-balance",
       "en": "balance",
       "bn": "ভারসাম্য",
       "emoji": "⚖️",
-      "roman": "bharsamyo"
+      "exampleEn": "Let's balance now.",
+      "exampleBn": "চলো এখন ভারসাম্য।"
     },
     {
       "id": "actions-tip-toe",
       "en": "tip toe",
       "bn": "পায়ের আঙুলে",
       "emoji": "🦶",
-      "roman": "payer angule"
+      "exampleEn": "I like to tip toe.",
+      "exampleBn": "আমার পায়ের আঙুলে ভালো লাগে।"
     },
     {
       "id": "actions-march",
       "en": "march",
       "bn": "মরচ",
       "emoji": "🚶",
-      "roman": "march"
+      "exampleEn": "Can you march?",
+      "exampleBn": "তুমি কি মরচ পারো?"
     },
     {
       "id": "actions-stomp",
       "en": "stomp",
       "bn": "পা ফেলা",
       "emoji": "🦶",
-      "roman": "pa fela"
+      "exampleEn": "I want to stomp.",
+      "exampleBn": "আমি পা ফেলা চাই।"
     },
     {
       "id": "actions-tiptoe",
       "en": "tiptoe",
       "bn": "চুপি চুপি",
       "emoji": "🤫",
-      "roman": "chupi chupi"
+      "exampleEn": "Let's tiptoe now.",
+      "exampleBn": "চলো এখন চুপি চুপি।"
     },
     {
       "id": "actions-sprint",
       "en": "sprint",
       "bn": "দ্রুত দৌড়",
       "emoji": "🏃",
-      "roman": "druto dour"
+      "exampleEn": "I like to sprint.",
+      "exampleBn": "আমার দ্রুত দৌড় ভালো লাগে।"
     },
     {
       "id": "actions-jog",
       "en": "jog",
       "bn": "জোগগিঙ",
       "emoji": "🏃",
-      "roman": "jogging"
+      "exampleEn": "Can you jog?",
+      "exampleBn": "তুমি কি জোগগিঙ পারো?"
     },
     {
       "id": "actions-hike",
       "en": "hike",
       "bn": "হিকিঙ",
       "emoji": "🥾",
-      "roman": "hiking"
+      "exampleEn": "I want to hike.",
+      "exampleBn": "আমি হিকিঙ চাই।"
     },
     {
       "id": "actions-camp",
       "en": "camp",
       "bn": "চমপ",
       "emoji": "⛺",
-      "roman": "camp"
+      "exampleEn": "Let's camp now.",
+      "exampleBn": "চলো এখন চমপ।"
     },
     {
       "id": "actions-explore",
       "en": "explore",
       "bn": "অন্বেষণ",
       "emoji": "🔍",
-      "roman": "onweshon"
+      "exampleEn": "I like to explore.",
+      "exampleBn": "আমার অন্বেষণ ভালো লাগে।"
     },
     {
       "id": "actions-discover",
       "en": "discover",
       "bn": "আবিষ্কার",
       "emoji": "💡",
-      "roman": "abishkar"
+      "exampleEn": "Can you discover?",
+      "exampleBn": "তুমি কি আবিষ্কার পারো?"
     },
     {
       "id": "actions-invent",
       "en": "invent",
       "bn": "উদ্ভাবন",
       "emoji": "💡",
-      "roman": "udbhavon"
+      "exampleEn": "I want to invent.",
+      "exampleBn": "আমি উদ্ভাবন চাই।"
     },
     {
       "id": "actions-measure",
       "en": "measure",
       "bn": "মাপা",
       "emoji": "📏",
-      "roman": "mapa"
+      "exampleEn": "Let's measure now.",
+      "exampleBn": "চলো এখন মাপা।"
     },
     {
       "id": "actions-weigh",
       "en": "weigh",
       "bn": "ওজন করা",
       "emoji": "⚖️",
-      "roman": "ojon kora"
+      "exampleEn": "I like to weigh.",
+      "exampleBn": "আমার ওজন করা ভালো লাগে।"
     },
     {
       "id": "actions-compare",
       "en": "compare",
       "bn": "তুলনা",
       "emoji": "⚖️",
-      "roman": "tulona"
+      "exampleEn": "Can you compare?",
+      "exampleBn": "তুমি কি তুলনা পারো?"
     },
     {
       "id": "actions-match",
       "en": "match",
       "bn": "মিলানো",
       "emoji": "🧩",
-      "roman": "milano"
+      "exampleEn": "I want to match.",
+      "exampleBn": "আমি মিলানো চাই।"
     },
     {
       "id": "actions-guess",
       "en": "guess",
       "bn": "অনুমান",
       "emoji": "🤔",
-      "roman": "onuman"
+      "exampleEn": "Let's guess now.",
+      "exampleBn": "চলো এখন অনুমান।"
     },
     {
       "id": "actions-check",
       "en": "check",
       "bn": "পরীক্ষা",
       "emoji": "✅",
-      "roman": "poriksha"
+      "exampleEn": "I like to check.",
+      "exampleBn": "আমার পরীক্ষা ভালো লাগে।"
     },
     {
       "id": "actions-test",
       "en": "test",
       "bn": "পরীক্ষা",
       "emoji": "📝",
-      "roman": "poriksha"
+      "exampleEn": "Can you test?",
+      "exampleBn": "তুমি কি পরীক্ষা পারো?"
     },
     {
       "id": "actions-pass",
       "en": "pass",
       "bn": "পাস",
       "emoji": "✅",
-      "roman": "pass"
+      "exampleEn": "I want to pass.",
+      "exampleBn": "আমি পাস চাই।"
     },
     {
       "id": "actions-fail",
       "en": "fail",
       "bn": "ফিল",
       "emoji": "❌",
-      "roman": "fail"
+      "exampleEn": "Let's fail now.",
+      "exampleBn": "চলো এখন ফিল।"
     },
     {
       "id": "actions-repeat",
       "en": "repeat",
       "bn": "পুনরাবৃত্তি",
       "emoji": "🔁",
-      "roman": "punorabritti"
+      "exampleEn": "I like to repeat.",
+      "exampleBn": "আমার পুনরাবৃত্তি ভালো লাগে।"
     },
     {
       "id": "actions-copy",
       "en": "copy",
       "bn": "চোপয",
       "emoji": "📋",
-      "roman": "copy"
+      "exampleEn": "Can you copy?",
+      "exampleBn": "তুমি কি চোপয পারো?"
     },
     {
       "id": "actions-trace",
       "en": "trace",
       "bn": "অনুসরণ",
       "emoji": "✏️",
-      "roman": "onushoron"
+      "exampleEn": "I want to trace.",
+      "exampleBn": "আমি অনুসরণ চাই।"
     },
     {
       "id": "actions-color-in",
       "en": "color in",
       "bn": "রং ভর",
       "emoji": "🎨",
-      "roman": "rong bhra"
+      "exampleEn": "Let's color in now.",
+      "exampleBn": "চলো এখন রং ভর।"
     },
     {
       "id": "actions-paint-picture",
       "en": "paint picture",
       "bn": "চিতর অক",
       "emoji": "🎨",
-      "roman": "chitra aka"
+      "exampleEn": "I like to paint picture.",
+      "exampleBn": "আমার চিতর অক ভালো লাগে।"
     },
     {
       "id": "actions-sculpt",
       "en": "sculpt",
       "bn": "ভাস্কর্য",
       "emoji": "🗿",
-      "roman": "bhaskarjo"
+      "exampleEn": "Can you sculpt?",
+      "exampleBn": "তুমি কি ভাস্কর্য পারো?"
     },
     {
       "id": "actions-knit",
       "en": "knit",
       "bn": "বরে",
       "emoji": "🧶",
-      "roman": "bre"
+      "exampleEn": "I want to knit.",
+      "exampleBn": "আমি বরে চাই।"
     },
     {
       "id": "actions-sew",
       "en": "sew",
       "bn": "সেব",
       "emoji": "🧵",
-      "roman": "sew"
+      "exampleEn": "Let's sew now.",
+      "exampleBn": "চলো এখন সেব।"
     },
     {
       "id": "actions-stitch",
       "en": "stitch",
       "bn": "সেব",
       "emoji": "🧵",
-      "roman": "sew"
+      "exampleEn": "I like to stitch.",
+      "exampleBn": "আমার সেব ভালো লাগে।"
     },
     {
       "id": "actions-button-up",
       "en": "button up",
       "bn": "বোতাম লগনো",
       "emoji": "🔘",
-      "roman": "botam lagano"
+      "exampleEn": "Can you button up?",
+      "exampleBn": "তুমি কি বোতাম লগনো পারো?"
     },
     {
       "id": "actions-zip-up",
       "en": "zip up",
       "bn": "জিপ লগনো",
       "emoji": "🤐",
-      "roman": "jip lagano"
+      "exampleEn": "I want to zip up.",
+      "exampleBn": "আমি জিপ লগনো চাই।"
     },
     {
       "id": "actions-brush-teeth",
       "en": "brush teeth",
       "bn": "দাৎয় পরিষ্কার",
       "emoji": "🪥",
-      "roman": "dat porishkar"
+      "exampleEn": "Let's brush teeth now.",
+      "exampleBn": "চলো এখন দাৎয় পরিষ্কার।"
     },
     {
       "id": "actions-comb-hair",
       "en": "comb hair",
       "bn": "চুল আঁচড়ানো",
       "emoji": "💇",
-      "roman": "chul achrano"
+      "exampleEn": "I like to comb hair.",
+      "exampleBn": "আমার চুল আঁচড়ানো ভালো লাগে।"
     },
     {
       "id": "actions-bathe",
       "en": "bathe",
       "bn": "গোশোল",
       "emoji": "🛁",
-      "roman": "goshol"
+      "exampleEn": "Can you bathe?",
+      "exampleBn": "তুমি কি গোশোল পারো?"
     },
     {
       "id": "actions-shower",
       "en": "shower",
       "bn": "শোবের",
       "emoji": "🚿",
-      "roman": "shower"
+      "exampleEn": "I want to shower.",
+      "exampleBn": "আমি শোবের চাই।"
     },
     {
       "id": "actions-dress-up",
       "en": "dress up",
       "bn": "পোশাক পোরনো",
       "emoji": "👗",
-      "roman": "poshak porano"
+      "exampleEn": "Let's dress up now.",
+      "exampleBn": "চলো এখন পোশাক পোরনো।"
     },
     {
       "id": "actions-undress",
       "en": "undress",
       "bn": "পোশাক খোলা",
       "emoji": "👕",
-      "roman": "poshak khola"
+      "exampleEn": "I like to undress.",
+      "exampleBn": "আমার পোশাক খোলা ভালো লাগে।"
     },
     {
       "id": "actions-put-on",
       "en": "put on",
       "bn": "পোরনো",
       "emoji": "👕",
-      "roman": "porano"
+      "exampleEn": "Can you put on?",
+      "exampleBn": "তুমি কি পোরনো পারো?"
     },
     {
       "id": "actions-take-off",
       "en": "take off",
       "bn": "খোলা",
       "emoji": "👕",
-      "roman": "khola"
+      "exampleEn": "I want to take off.",
+      "exampleBn": "আমি খোলা চাই।"
     },
     {
       "id": "actions-wake-up",
       "en": "wake up",
       "bn": "জগনো",
       "emoji": "⏰",
-      "roman": "jagano"
+      "exampleEn": "Let's wake up now.",
+      "exampleBn": "চলো এখন জগনো।"
     },
     {
       "id": "actions-get-up",
       "en": "get up",
       "bn": "উথ",
       "emoji": "🛏️",
-      "roman": "utha"
+      "exampleEn": "I like to get up.",
+      "exampleBn": "আমার উথ ভালো লাগে।"
     },
     {
       "id": "actions-lie-down",
       "en": "lie down",
       "bn": "শুিয থক",
       "emoji": "🛏️",
-      "roman": "shuiya thaka"
+      "exampleEn": "Can you lie down?",
+      "exampleBn": "তুমি কি শুিয থক পারো?"
     },
     {
       "id": "actions-rest",
       "en": "rest",
       "bn": "বিসরম",
       "emoji": "😌",
-      "roman": "bisram"
+      "exampleEn": "I want to rest.",
+      "exampleBn": "আমি বিসরম চাই।"
     },
     {
       "id": "actions-relax",
       "en": "relax",
       "bn": "আরাম",
       "emoji": "🛋️",
-      "roman": "aram"
+      "exampleEn": "Let's relax now.",
+      "exampleBn": "চলো এখন আরাম।"
     },
     {
       "id": "actions-nap",
       "en": "nap",
       "bn": "ছস্ট ঘুম",
       "emoji": "😴",
-      "roman": "chhoto ghum"
+      "exampleEn": "I like to nap.",
+      "exampleBn": "আমার ছস্ট ঘুম ভালো লাগে।"
     },
     {
       "id": "actions-snore",
       "en": "snore",
       "bn": "ঘুম ঘুম",
       "emoji": "😴",
-      "roman": "ghum ghum"
+      "exampleEn": "Can you snore?",
+      "exampleBn": "তুমি কি ঘুম ঘুম পারো?"
     },
     {
       "id": "actions-yawn-sleepily",
       "en": "yawn sleepily",
       "bn": "ঘুম ঘুম হাই",
       "emoji": "🥱",
-      "roman": "ghum ghum hai"
+      "exampleEn": "I want to yawn sleepily.",
+      "exampleBn": "আমি ঘুম ঘুম হাই চাই।"
     }
   ]
 }

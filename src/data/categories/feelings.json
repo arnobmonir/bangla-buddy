@@ -6,1106 +6,1264 @@
       "en": "happy",
       "bn": "খুশি",
       "emoji": "😊",
-      "roman": "khushi"
+      "exampleEn": "I feel happy today.",
+      "exampleBn": "আজ আমি খুশি।"
     },
     {
       "id": "feelings-sad",
       "en": "sad",
       "bn": "দুঃখিত",
       "emoji": "😢",
-      "roman": "dukkhito"
+      "exampleEn": "I feel a little sad.",
+      "exampleBn": "আমি একটু দুঃখিত।"
     },
     {
       "id": "feelings-angry",
       "en": "angry",
       "bn": "রাগ",
       "emoji": "😠",
-      "roman": "rag"
+      "exampleEn": "Sometimes I feel angry.",
+      "exampleBn": "মাঝে মাঝে আমি রাগ হই।"
     },
     {
       "id": "feelings-scared",
       "en": "scared",
       "bn": "ভয়",
       "emoji": "😨",
-      "roman": "bhoy"
+      "exampleEn": "You look scared.",
+      "exampleBn": "তুমি ভয় দেখাচ্ছো।"
     },
     {
       "id": "feelings-tired",
       "en": "tired",
       "bn": "ক্লান্ত",
       "emoji": "😩",
-      "roman": "klanto"
+      "exampleEn": "I feel tired.",
+      "exampleBn": "আমি ক্লান্ত বোধ করছি।"
     },
     {
       "id": "feelings-hungry",
       "en": "hungry",
       "bn": "ক্ষুধার্ত",
       "emoji": "😋",
-      "roman": "khudarto"
+      "exampleEn": "I am hungry today.",
+      "exampleBn": "আজ আমি ক্ষুধার্ত।"
     },
     {
       "id": "feelings-thirsty",
       "en": "thirsty",
       "bn": "তৃষ্ণার্ত",
       "emoji": "🥤",
-      "roman": "trishnarto"
+      "exampleEn": "Sometimes I feel thirsty.",
+      "exampleBn": "মাঝে মাঝে আমি তৃষ্ণার্ত হই।"
     },
     {
       "id": "feelings-sleepy",
       "en": "sleepy",
       "bn": "ঘুমঘুম",
       "emoji": "😴",
-      "roman": "ghumghum"
+      "exampleEn": "You look sleepy.",
+      "exampleBn": "তুমি ঘুমঘুম দেখাচ্ছো।"
     },
     {
       "id": "feelings-love",
       "en": "love",
       "bn": "ভালোবাসা",
       "emoji": "❤️",
-      "roman": "bhalobasha"
+      "exampleEn": "I feel love.",
+      "exampleBn": "আমি ভালোবাসা বোধ করছি।"
     },
     {
       "id": "feelings-excited",
       "en": "excited",
       "bn": "উত্তেজিত",
       "emoji": "🤩",
-      "roman": "uttejito"
+      "exampleEn": "I am excited today.",
+      "exampleBn": "আজ আমি উত্তেজিত।"
     },
     {
       "id": "feelings-brave",
       "en": "brave",
       "bn": "সাহসী",
       "emoji": "💪",
-      "roman": "sahoshi"
+      "exampleEn": "Sometimes I feel brave.",
+      "exampleBn": "মাঝে মাঝে আমি সাহসী হই।"
     },
     {
       "id": "feelings-calm",
       "en": "calm",
       "bn": "শান্ত",
       "emoji": "😌",
-      "roman": "shanto"
+      "exampleEn": "You look calm.",
+      "exampleBn": "তুমি শান্ত দেখাচ্ছো।"
     },
     {
       "id": "feelings-surprised",
       "en": "surprised",
       "bn": "অবাক",
       "emoji": "😲",
-      "roman": "obak"
+      "exampleEn": "I feel surprised.",
+      "exampleBn": "আমি অবাক বোধ করছি।"
     },
     {
       "id": "feelings-confused",
       "en": "confused",
       "bn": "বিভ্রান্ত",
       "emoji": "😕",
-      "roman": "bibhranto"
+      "exampleEn": "I am confused today.",
+      "exampleBn": "আজ আমি বিভ্রান্ত।"
     },
     {
       "id": "feelings-shy",
       "en": "shy",
       "bn": "লাজুক",
       "emoji": "😳",
-      "roman": "lajuk"
+      "exampleEn": "Sometimes I feel shy.",
+      "exampleBn": "মাঝে মাঝে আমি লাজুক হই।"
     },
     {
       "id": "feelings-proud",
       "en": "proud",
       "bn": "গর্বিত",
       "emoji": "😌",
-      "roman": "gorvito"
+      "exampleEn": "You look proud.",
+      "exampleBn": "তুমি গর্বিত দেখাচ্ছো।"
     },
     {
       "id": "feelings-lonely",
       "en": "lonely",
       "bn": "একাকী",
       "emoji": "🥺",
-      "roman": "ekaki"
+      "exampleEn": "I feel lonely.",
+      "exampleBn": "আমি একাকী বোধ করছি।"
     },
     {
       "id": "feelings-bored",
       "en": "bored",
       "bn": "বিরক্ত",
       "emoji": "😑",
-      "roman": "birokto"
+      "exampleEn": "I am bored today.",
+      "exampleBn": "আজ আমি বিরক্ত।"
     },
     {
       "id": "feelings-worried",
       "en": "worried",
       "bn": "চিন্তিত",
       "emoji": "😟",
-      "roman": "chintito"
+      "exampleEn": "Sometimes I feel worried.",
+      "exampleBn": "মাঝে মাঝে আমি চিন্তিত হই।"
     },
     {
       "id": "feelings-silly",
       "en": "silly",
       "bn": "হাস্যকর",
       "emoji": "😜",
-      "roman": "hashyokor"
+      "exampleEn": "You look silly.",
+      "exampleBn": "তুমি হাস্যকর দেখাচ্ছো।"
     },
     {
       "id": "feelings-kind",
       "en": "kind",
       "bn": "দয়ালু",
       "emoji": "🤗",
-      "roman": "doyalu"
+      "exampleEn": "I feel kind.",
+      "exampleBn": "আমি দয়ালু বোধ করছি।"
     },
     {
       "id": "feelings-jealous",
       "en": "jealous",
       "bn": "ঈর্ষান্বিত",
       "emoji": "😒",
-      "roman": "irshanvito"
+      "exampleEn": "I am jealous today.",
+      "exampleBn": "আজ আমি ঈর্ষান্বিত।"
     },
     {
       "id": "feelings-grateful",
       "en": "grateful",
       "bn": "কৃতজ্ঞ",
       "emoji": "🙏",
-      "roman": "kritoggo"
+      "exampleEn": "Sometimes I feel grateful.",
+      "exampleBn": "মাঝে মাঝে আমি কৃতজ্ঞ হই।"
     },
     {
       "id": "feelings-hopeful",
       "en": "hopeful",
       "bn": "আশাবাদী",
       "emoji": "🤞",
-      "roman": "ashabadi"
+      "exampleEn": "You look hopeful.",
+      "exampleBn": "তুমি আশাবাদী দেখাচ্ছো।"
     },
     {
       "id": "feelings-hot",
       "en": "hot",
       "bn": "গরম",
       "emoji": "🥵",
-      "roman": "gorom"
+      "exampleEn": "I feel hot.",
+      "exampleBn": "আমি গরম বোধ করছি।"
     },
     {
       "id": "feelings-cold",
       "en": "cold",
       "bn": "ঠান্ডা",
       "emoji": "🥶",
-      "roman": "thanda"
+      "exampleEn": "I am cold today.",
+      "exampleBn": "আজ আমি ঠান্ডা।"
     },
     {
       "id": "feelings-sick",
       "en": "sick",
       "bn": "অসুস্থ",
       "emoji": "🤒",
-      "roman": "oshustho"
+      "exampleEn": "Sometimes I feel sick.",
+      "exampleBn": "মাঝে মাঝে আমি অসুস্থ হই।"
     },
     {
       "id": "feelings-pain",
       "en": "pain",
       "bn": "ব্যথা",
       "emoji": "🤕",
-      "roman": "byatha"
+      "exampleEn": "You look pain.",
+      "exampleBn": "তুমি ব্যথা দেখাচ্ছো।"
     },
     {
       "id": "feelings-comfort",
       "en": "comfort",
       "bn": "আরাম",
       "emoji": "🛋️",
-      "roman": "aram"
+      "exampleEn": "I feel comfort.",
+      "exampleBn": "আমি আরাম বোধ করছি।"
     },
     {
       "id": "feelings-fun",
       "en": "fun",
       "bn": "মজা",
       "emoji": "🎉",
-      "roman": "moja"
+      "exampleEn": "I am fun today.",
+      "exampleBn": "আজ আমি মজা।"
     },
     {
       "id": "feelings-funny",
       "en": "funny",
       "bn": "মজার",
       "emoji": "😂",
-      "roman": "mojar"
+      "exampleEn": "Sometimes I feel funny.",
+      "exampleBn": "মাঝে মাঝে আমি মজার হই।"
     },
     {
       "id": "feelings-good",
       "en": "good",
       "bn": "ভালো",
       "emoji": "👍",
-      "roman": "bhalo"
+      "exampleEn": "You look good.",
+      "exampleBn": "তুমি ভালো দেখাচ্ছো।"
     },
     {
       "id": "feelings-bad",
       "en": "bad",
       "bn": "খারাপ",
       "emoji": "👎",
-      "roman": "kharap"
+      "exampleEn": "I feel bad.",
+      "exampleBn": "আমি খারাপ বোধ করছি।"
     },
     {
       "id": "feelings-yes-feeling",
       "en": "okay",
       "bn": "ঠিক আছে",
       "emoji": "👌",
-      "roman": "thik ache"
+      "exampleEn": "I am okay today.",
+      "exampleBn": "আজ আমি ঠিক আছে।"
     },
     {
       "id": "feelings-sorry",
       "en": "sorry",
       "bn": "দুঃখিত",
       "emoji": "😔",
-      "roman": "dukkhito"
+      "exampleEn": "Sometimes I feel sorry.",
+      "exampleBn": "মাঝে মাঝে আমি দুঃখিত হই।"
     },
     {
       "id": "feelings-thank-you",
       "en": "thank you",
       "bn": "ধন্যবাদ",
       "emoji": "🙏",
-      "roman": "dhonnobad"
+      "exampleEn": "You look thank you.",
+      "exampleBn": "তুমি ধন্যবাদ দেখাচ্ছো।"
     },
     {
       "id": "feelings-nervous",
       "en": "nervous",
       "bn": "উদ্বিগ্ন",
       "emoji": "😰",
-      "roman": "nervous"
+      "exampleEn": "I feel nervous.",
+      "exampleBn": "আমি উদ্বিগ্ন বোধ করছি।"
     },
     {
       "id": "feelings-anxious",
       "en": "anxious",
       "bn": "চিন্তিত",
       "emoji": "😰",
-      "roman": "chintito"
+      "exampleEn": "I am anxious today.",
+      "exampleBn": "আজ আমি চিন্তিত।"
     },
     {
       "id": "feelings-stressed",
       "en": "stressed",
       "bn": "চাপগ্রস্ত",
       "emoji": "😫",
-      "roman": "stress"
+      "exampleEn": "Sometimes I feel stressed.",
+      "exampleBn": "মাঝে মাঝে আমি চাপগ্রস্ত হই।"
     },
     {
       "id": "feelings-relaxed",
       "en": "relaxed",
       "bn": "আরাম",
       "emoji": "😌",
-      "roman": "aram"
+      "exampleEn": "You look relaxed.",
+      "exampleBn": "তুমি আরাম দেখাচ্ছো।"
     },
     {
       "id": "feelings-peaceful",
       "en": "peaceful",
       "bn": "শান্ত",
       "emoji": "☮️",
-      "roman": "peaceful"
+      "exampleEn": "I feel peaceful.",
+      "exampleBn": "আমি শান্ত বোধ করছি।"
     },
     {
       "id": "feelings-content",
       "en": "content",
       "bn": "সন্তুষ্ট",
       "emoji": "😊",
-      "roman": "santushto"
+      "exampleEn": "I am content today.",
+      "exampleBn": "আজ আমি সন্তুষ্ট।"
     },
     {
       "id": "feelings-pleased",
       "en": "pleased",
       "bn": "খুশি",
       "emoji": "😊",
-      "roman": "khushi"
+      "exampleEn": "Sometimes I feel pleased.",
+      "exampleBn": "মাঝে মাঝে আমি খুশি হই।"
     },
     {
       "id": "feelings-delighted",
       "en": "delighted",
       "bn": "খুশি",
       "emoji": "😄",
-      "roman": "khushi"
+      "exampleEn": "You look delighted.",
+      "exampleBn": "তুমি খুশি দেখাচ্ছো।"
     },
     {
       "id": "feelings-joyful",
       "en": "joyful",
       "bn": "অনোনদো",
       "emoji": "😄",
-      "roman": "anondo"
+      "exampleEn": "I feel joyful.",
+      "exampleBn": "আমি অনোনদো বোধ করছি।"
     },
     {
       "id": "feelings-cheerful",
       "en": "cheerful",
       "bn": "চীরফুল",
       "emoji": "😊",
-      "roman": "cheerful"
+      "exampleEn": "I am cheerful today.",
+      "exampleBn": "আজ আমি চীরফুল।"
     },
     {
       "id": "feelings-gleeful",
       "en": "gleeful",
       "bn": "গলীফুল",
       "emoji": "😆",
-      "roman": "gleeful"
+      "exampleEn": "Sometimes I feel gleeful.",
+      "exampleBn": "মাঝে মাঝে আমি গলীফুল হই।"
     },
     {
       "id": "feelings-merry",
       "en": "merry",
       "bn": "মেড়য",
       "emoji": "🎄",
-      "roman": "merry"
+      "exampleEn": "You look merry.",
+      "exampleBn": "তুমি মেড়য দেখাচ্ছো।"
     },
     {
       "id": "feelings-optimistic",
       "en": "optimistic",
       "bn": "ওপতিমিসতিচ",
       "emoji": "🌞",
-      "roman": "optimistic"
+      "exampleEn": "I feel optimistic.",
+      "exampleBn": "আমি ওপতিমিসতিচ বোধ করছি।"
     },
     {
       "id": "feelings-hopeless",
       "en": "hopeless",
       "bn": "নিরাশ",
       "emoji": "😞",
-      "roman": "ashah"
+      "exampleEn": "I am hopeless today.",
+      "exampleBn": "আজ আমি নিরাশ।"
     },
     {
       "id": "feelings-hopeless-feeling",
       "en": "hopeless feeling",
       "bn": "নিরশ",
       "emoji": "😞",
-      "roman": "nirash"
+      "exampleEn": "Sometimes I feel hopeless feeling.",
+      "exampleBn": "মাঝে মাঝে আমি নিরশ হই।"
     },
     {
       "id": "feelings-discouraged",
       "en": "discouraged",
       "bn": "হতাশ",
       "emoji": "😞",
-      "roman": "discouraged"
+      "exampleEn": "You look discouraged.",
+      "exampleBn": "তুমি হতাশ দেখাচ্ছো।"
     },
     {
       "id": "feelings-disappointed",
       "en": "disappointed",
       "bn": "হতাশ",
       "emoji": "😞",
-      "roman": "disappointed"
+      "exampleEn": "I feel disappointed.",
+      "exampleBn": "আমি হতাশ বোধ করছি।"
     },
     {
       "id": "feelings-frustrated",
       "en": "frustrated",
       "bn": "হতাশ",
       "emoji": "😤",
-      "roman": "frustrated"
+      "exampleEn": "I am frustrated today.",
+      "exampleBn": "আজ আমি হতাশ।"
     },
     {
       "id": "feelings-annoyed",
       "en": "annoyed",
       "bn": "বিরক্ত",
       "emoji": "😒",
-      "roman": "birokto"
+      "exampleEn": "Sometimes I feel annoyed.",
+      "exampleBn": "মাঝে মাঝে আমি বিরক্ত হই।"
     },
     {
       "id": "feelings-irritated",
       "en": "irritated",
       "bn": "ইড়িততেদ",
       "emoji": "😠",
-      "roman": "irritated"
+      "exampleEn": "You look irritated.",
+      "exampleBn": "তুমি ইড়িততেদ দেখাচ্ছো।"
     },
     {
       "id": "feelings-furious",
       "en": "furious",
       "bn": "রাগান্বিত",
       "emoji": "😡",
-      "roman": "roge"
+      "exampleEn": "I feel furious.",
+      "exampleBn": "আমি রাগান্বিত বোধ করছি।"
     },
     {
       "id": "feelings-rage",
       "en": "rage",
       "bn": "রাগ",
       "emoji": "🤬",
-      "roman": "rage"
+      "exampleEn": "I am rage today.",
+      "exampleBn": "আজ আমি রাগ।"
     },
     {
       "id": "feelings-mad",
       "en": "mad",
       "bn": "রাগান্ন",
       "emoji": "😡",
-      "roman": "mad"
+      "exampleEn": "Sometimes I feel mad.",
+      "exampleBn": "মাঝে মাঝে আমি রাগান্ন হই।"
     },
     {
       "id": "feelings-upset",
       "en": "upset",
       "bn": "দুকখো",
       "emoji": "😢",
-      "roman": "dukkho"
+      "exampleEn": "You look upset.",
+      "exampleBn": "তুমি দুকখো দেখাচ্ছো।"
     },
     {
       "id": "feelings-heartbroken",
       "en": "heartbroken",
       "bn": "ভঙপরন",
       "emoji": "💔",
-      "roman": "bhangapran"
+      "exampleEn": "I feel heartbroken.",
+      "exampleBn": "আমি ভঙপরন বোধ করছি।"
     },
     {
       "id": "feelings-miserable",
       "en": "miserable",
       "bn": "মিসেরবলে",
       "emoji": "😢",
-      "roman": "miserable"
+      "exampleEn": "I am miserable today.",
+      "exampleBn": "আজ আমি মিসেরবলে।"
     },
     {
       "id": "feelings-gloomy",
       "en": "gloomy",
       "bn": "গলুময",
       "emoji": "😔",
-      "roman": "gloomy"
+      "exampleEn": "Sometimes I feel gloomy.",
+      "exampleBn": "মাঝে মাঝে আমি গলুময হই।"
     },
     {
       "id": "feelings-depressed",
       "en": "depressed",
       "bn": "বিষণ্ণ",
       "emoji": "😞",
-      "roman": "depressed"
+      "exampleEn": "You look depressed.",
+      "exampleBn": "তুমি বিষণ্ণ দেখাচ্ছো।"
     },
     {
       "id": "feelings-melancholy",
       "en": "melancholy",
       "bn": "মেলনচোলয",
       "emoji": "😔",
-      "roman": "melancholy"
+      "exampleEn": "I feel melancholy.",
+      "exampleBn": "আমি মেলনচোলয বোধ করছি।"
     },
     {
       "id": "feelings-homesick",
       "en": "homesick",
       "bn": "ঘর এর শদ",
       "emoji": "🏠",
-      "roman": "ghor er shad"
+      "exampleEn": "I am homesick today.",
+      "exampleBn": "আজ আমি ঘর এর শদ।"
     },
     {
       "id": "feelings-nostalgic",
       "en": "nostalgic",
       "bn": "নোসতলগিচ",
       "emoji": "🕰️",
-      "roman": "nostalgic"
+      "exampleEn": "Sometimes I feel nostalgic.",
+      "exampleBn": "মাঝে মাঝে আমি নোসতলগিচ হই।"
     },
     {
       "id": "feelings-sentimental",
       "en": "sentimental",
       "bn": "অনুভুতিপুরনো",
       "emoji": "💭",
-      "roman": "anubhutipurno"
+      "exampleEn": "You look sentimental.",
+      "exampleBn": "তুমি অনুভুতিপুরনো দেখাচ্ছো।"
     },
     {
       "id": "feelings-touched",
       "en": "touched",
       "bn": "অনুভুতো",
       "emoji": "🥹",
-      "roman": "anubhuto"
+      "exampleEn": "I feel touched.",
+      "exampleBn": "আমি অনুভুতো বোধ করছি।"
     },
     {
       "id": "feelings-moved",
       "en": "moved",
       "bn": "মোভেদ",
       "emoji": "🥹",
-      "roman": "moved"
+      "exampleEn": "I am moved today.",
+      "exampleBn": "আজ আমি মোভেদ।"
     },
     {
       "id": "feelings-grateful-feeling",
       "en": "grateful feeling",
       "bn": "কৃতজ্ঞ",
       "emoji": "🙏",
-      "roman": "kritoggo"
+      "exampleEn": "Sometimes I feel grateful feeling.",
+      "exampleBn": "মাঝে মাঝে আমি কৃতজ্ঞ হই।"
     },
     {
       "id": "feelings-thankful",
       "en": "thankful",
       "bn": "থনকফুল",
       "emoji": "🙏",
-      "roman": "thankful"
+      "exampleEn": "You look thankful.",
+      "exampleBn": "তুমি থনকফুল দেখাচ্ছো।"
     },
     {
       "id": "feelings-appreciative",
       "en": "appreciative",
       "bn": "অপপরেচিতিভে",
       "emoji": "🙏",
-      "roman": "appreciative"
+      "exampleEn": "I feel appreciative.",
+      "exampleBn": "আমি অপপরেচিতিভে বোধ করছি।"
     },
     {
       "id": "feelings-respectful",
       "en": "respectful",
       "bn": "শরোড়হ",
       "emoji": "🙏",
-      "roman": "shroddha"
+      "exampleEn": "I am respectful today.",
+      "exampleBn": "আজ আমি শরোড়হ।"
     },
     {
       "id": "feelings-admiring",
       "en": "admiring",
       "bn": "পরোশোঙশ",
       "emoji": "😍",
-      "roman": "proshongsha"
+      "exampleEn": "Sometimes I feel admiring.",
+      "exampleBn": "মাঝে মাঝে আমি পরোশোঙশ হই।"
     },
     {
       "id": "feelings-inspired",
       "en": "inspired",
       "bn": "উতশহিতো",
       "emoji": "✨",
-      "roman": "utshahito"
+      "exampleEn": "You look inspired.",
+      "exampleBn": "তুমি উতশহিতো দেখাচ্ছো।"
     },
     {
       "id": "feelings-motivated",
       "en": "motivated",
       "bn": "মোতিভতেদ",
       "emoji": "💪",
-      "roman": "motivated"
+      "exampleEn": "I feel motivated.",
+      "exampleBn": "আমি মোতিভতেদ বোধ করছি।"
     },
     {
       "id": "feelings-determined",
       "en": "determined",
       "bn": "পরোতি",
       "emoji": "💪",
-      "roman": "proti"
+      "exampleEn": "I am determined today.",
+      "exampleBn": "আজ আমি পরোতি।"
     },
     {
       "id": "feelings-focused",
       "en": "focused",
       "bn": "মোনোজোগ",
       "emoji": "🎯",
-      "roman": "monojog"
+      "exampleEn": "Sometimes I feel focused.",
+      "exampleBn": "মাঝে মাঝে আমি মোনোজোগ হই।"
     },
     {
       "id": "feelings-distracted",
       "en": "distracted",
       "bn": "বিকখিসতো",
       "emoji": "😵",
-      "roman": "bikkhisto"
+      "exampleEn": "You look distracted.",
+      "exampleBn": "তুমি বিকখিসতো দেখাচ্ছো।"
     },
     {
       "id": "feelings-overwhelmed",
       "en": "overwhelmed",
       "bn": "ওভেরবহেলমেদ",
       "emoji": "😵",
-      "roman": "overwhelmed"
+      "exampleEn": "I feel overwhelmed.",
+      "exampleBn": "আমি ওভেরবহেলমেদ বোধ করছি।"
     },
     {
       "id": "feelings-exhausted",
       "en": "exhausted",
       "bn": "ক্লান্ত",
       "emoji": "😩",
-      "roman": "klanto"
+      "exampleEn": "I am exhausted today.",
+      "exampleBn": "আজ আমি ক্লান্ত।"
     },
     {
       "id": "feelings-drained",
       "en": "drained",
       "bn": "দরিনেদ",
       "emoji": "🪫",
-      "roman": "drained"
+      "exampleEn": "Sometimes I feel drained.",
+      "exampleBn": "মাঝে মাঝে আমি দরিনেদ হই।"
     },
     {
       "id": "feelings-refreshed",
       "en": "refreshed",
       "bn": "সতেজ",
       "emoji": "😊",
-      "roman": "taja"
+      "exampleEn": "You look refreshed.",
+      "exampleBn": "তুমি সতেজ দেখাচ্ছো।"
     },
     {
       "id": "feelings-energetic",
       "en": "energetic",
       "bn": "উরজোশিল",
       "emoji": "⚡",
-      "roman": "urjoshil"
+      "exampleEn": "I feel energetic.",
+      "exampleBn": "আমি উরজোশিল বোধ করছি।"
     },
     {
       "id": "feelings-lazy",
       "en": "lazy",
       "bn": "অলশে",
       "emoji": "😴",
-      "roman": "alshe"
+      "exampleEn": "I am lazy today.",
+      "exampleBn": "আজ আমি অলশে।"
     },
     {
       "id": "feelings-motivated-lazy",
       "en": "motivated lazy",
       "bn": "অলশে",
       "emoji": "🦥",
-      "roman": "alshe"
+      "exampleEn": "Sometimes I feel motivated lazy.",
+      "exampleBn": "মাঝে মাঝে আমি অলশে হই।"
     },
     {
       "id": "feelings-active",
       "en": "active",
       "bn": "কোরমোশিল",
       "emoji": "🏃",
-      "roman": "kormoshil"
+      "exampleEn": "You look active.",
+      "exampleBn": "তুমি কোরমোশিল দেখাচ্ছো।"
     },
     {
       "id": "feelings-restless",
       "en": "restless",
       "bn": "চনচল",
       "emoji": "😬",
-      "roman": "chanchal"
+      "exampleEn": "I feel restless.",
+      "exampleBn": "আমি চনচল বোধ করছি।"
     },
     {
       "id": "feelings-patient",
       "en": "patient",
       "bn": "ধিরযো",
       "emoji": "🧘",
-      "roman": "dhairyo"
+      "exampleEn": "I am patient today.",
+      "exampleBn": "আজ আমি ধিরযো।"
     },
     {
       "id": "feelings-impatient",
       "en": "impatient",
       "bn": "ওশনতো",
       "emoji": "😤",
-      "roman": "oshanto"
+      "exampleEn": "Sometimes I feel impatient.",
+      "exampleBn": "মাঝে মাঝে আমি ওশনতো হই।"
     },
     {
       "id": "feelings-curious",
       "en": "curious",
       "bn": "কৌতুহোল",
       "emoji": "🤔",
-      "roman": "koutuhol"
+      "exampleEn": "You look curious.",
+      "exampleBn": "তুমি কৌতুহোল দেখাচ্ছো।"
     },
     {
       "id": "feelings-interested",
       "en": "interested",
       "bn": "অগরোহি",
       "emoji": "👀",
-      "roman": "agrohi"
+      "exampleEn": "I feel interested.",
+      "exampleBn": "আমি অগরোহি বোধ করছি।"
     },
     {
       "id": "feelings-bored-feeling",
       "en": "bored feeling",
       "bn": "বোরেদ",
       "emoji": "😑",
-      "roman": "bored"
+      "exampleEn": "I am bored feeling today.",
+      "exampleBn": "আজ আমি বোরেদ।"
     },
     {
       "id": "feelings-amused",
       "en": "amused",
       "bn": "অমুসেদ",
       "emoji": "😄",
-      "roman": "amused"
+      "exampleEn": "Sometimes I feel amused.",
+      "exampleBn": "মাঝে মাঝে আমি অমুসেদ হই।"
     },
     {
       "id": "feelings-entertained",
       "en": "entertained",
       "bn": "এনতেরতিনেদ",
       "emoji": "🎭",
-      "roman": "entertained"
+      "exampleEn": "You look entertained.",
+      "exampleBn": "তুমি এনতেরতিনেদ দেখাচ্ছো।"
     },
     {
       "id": "feelings-playful",
       "en": "playful",
       "bn": "খেলর মোতো",
       "emoji": "😜",
-      "roman": "khelar moto"
+      "exampleEn": "I feel playful.",
+      "exampleBn": "আমি খেলর মোতো বোধ করছি।"
     },
     {
       "id": "feelings-mischievous",
       "en": "mischievous",
       "bn": "দুশতু",
       "emoji": "😈",
-      "roman": "dushtu"
+      "exampleEn": "I am mischievous today.",
+      "exampleBn": "আজ আমি দুশতু।"
     },
     {
       "id": "feelings-naughty",
       "en": "naughty",
       "bn": "নুঘতয",
       "emoji": "😈",
-      "roman": "naughty"
+      "exampleEn": "Sometimes I feel naughty.",
+      "exampleBn": "মাঝে মাঝে আমি নুঘতয হই।"
     },
     {
       "id": "feelings-guilty",
       "en": "guilty",
       "bn": "দোশি",
       "emoji": "😔",
-      "roman": "doshi"
+      "exampleEn": "You look guilty.",
+      "exampleBn": "তুমি দোশি দেখাচ্ছো।"
     },
     {
       "id": "feelings-ashamed",
       "en": "ashamed",
       "bn": "লোজজ",
       "emoji": "😳",
-      "roman": "lojja"
+      "exampleEn": "I feel ashamed.",
+      "exampleBn": "আমি লোজজ বোধ করছি।"
     },
     {
       "id": "feelings-embarrassed",
       "en": "embarrassed",
       "bn": "এমবড়সসেদ",
       "emoji": "😳",
-      "roman": "embarrassed"
+      "exampleEn": "I am embarrassed today.",
+      "exampleBn": "আজ আমি এমবড়সসেদ।"
     },
     {
       "id": "feelings-regretful",
       "en": "regretful",
       "bn": "রেগরেতফুল",
       "emoji": "😔",
-      "roman": "regretful"
+      "exampleEn": "Sometimes I feel regretful.",
+      "exampleBn": "মাঝে মাঝে আমি রেগরেতফুল হই।"
     },
     {
       "id": "feelings-remorseful",
       "en": "remorseful",
       "bn": "রেমোরসেফুল",
       "emoji": "😔",
-      "roman": "remorseful"
+      "exampleEn": "You look remorseful.",
+      "exampleBn": "তুমি রেমোরসেফুল দেখাচ্ছো।"
     },
     {
       "id": "feelings-forgiving",
       "en": "forgiving",
       "bn": "ক্ষমা",
       "emoji": "🤝",
-      "roman": "khoma"
+      "exampleEn": "I feel forgiving.",
+      "exampleBn": "আমি ক্ষমা বোধ করছি।"
     },
     {
       "id": "feelings-trusting",
       "en": "trusting",
       "bn": "তরুসতিঙ",
       "emoji": "🤝",
-      "roman": "trusting"
+      "exampleEn": "I am trusting today.",
+      "exampleBn": "আজ আমি তরুসতিঙ।"
     },
     {
       "id": "feelings-suspicious",
       "en": "suspicious",
       "bn": "শোনদেহ",
       "emoji": "🤨",
-      "roman": "shondeh"
+      "exampleEn": "Sometimes I feel suspicious.",
+      "exampleBn": "মাঝে মাঝে আমি শোনদেহ হই।"
     },
     {
       "id": "feelings-doubtful",
       "en": "doubtful",
       "bn": "দৌবতফুল",
       "emoji": "🤔",
-      "roman": "doubtful"
+      "exampleEn": "You look doubtful.",
+      "exampleBn": "তুমি দৌবতফুল দেখাচ্ছো।"
     },
     {
       "id": "feelings-certain",
       "en": "certain",
       "bn": "নিশচিত",
       "emoji": "✅",
-      "roman": "nishchit"
+      "exampleEn": "I feel certain.",
+      "exampleBn": "আমি নিশচিত বোধ করছি।"
     },
     {
       "id": "feelings-uncertain",
       "en": "uncertain",
       "bn": "ওনিশচিত",
       "emoji": "❓",
-      "roman": "onishchit"
+      "exampleEn": "I am uncertain today.",
+      "exampleBn": "আজ আমি ওনিশচিত।"
     },
     {
       "id": "feelings-confident",
       "en": "confident",
       "bn": "আত্মবিশ্বাসী",
       "emoji": "💪",
-      "roman": "bishwasi"
+      "exampleEn": "Sometimes I feel confident.",
+      "exampleBn": "মাঝে মাঝে আমি আত্মবিশ্বাসী হই।"
     },
     {
       "id": "feelings-insecure",
       "en": "insecure",
       "bn": "অসুরক্ষিত",
       "emoji": "😟",
-      "roman": "insecure"
+      "exampleEn": "You look insecure.",
+      "exampleBn": "তুমি অসুরক্ষিত দেখাচ্ছো।"
     },
     {
       "id": "feelings-proud-feeling",
       "en": "proud feeling",
       "bn": "গোরবিতো",
       "emoji": "😌",
-      "roman": "gorbito"
+      "exampleEn": "I feel proud feeling.",
+      "exampleBn": "আমি গোরবিতো বোধ করছি।"
     },
     {
       "id": "feelings-humble",
       "en": "humble",
       "bn": "বিনয়ী",
       "emoji": "🙏",
-      "roman": "onmodro"
+      "exampleEn": "I am humble today.",
+      "exampleBn": "আজ আমি বিনয়ী।"
     },
     {
       "id": "feelings-generous",
       "en": "generous",
       "bn": "উদার",
       "emoji": "🎁",
-      "roman": "udar"
+      "exampleEn": "Sometimes I feel generous.",
+      "exampleBn": "মাঝে মাঝে আমি উদার হই।"
     },
     {
       "id": "feelings-selfish",
       "en": "selfish",
       "bn": "স্বার্থপর",
       "emoji": "😒",
-      "roman": "swarthi"
+      "exampleEn": "You look selfish.",
+      "exampleBn": "তুমি স্বার্থপর দেখাচ্ছো।"
     },
     {
       "id": "feelings-caring",
       "en": "caring",
       "bn": "যত্নশীল",
       "emoji": "🤗",
-      "roman": "dayalu"
+      "exampleEn": "I feel caring.",
+      "exampleBn": "আমি যত্নশীল বোধ করছি।"
     },
     {
       "id": "feelings-loving-feeling",
       "en": "loving feeling",
       "bn": "ভালোবাসা",
       "emoji": "❤️",
-      "roman": "bhalobasha"
+      "exampleEn": "I am loving feeling today.",
+      "exampleBn": "আজ আমি ভালোবাসা।"
     },
     {
       "id": "feelings-affectionate",
       "en": "affectionate",
       "bn": "স্নেহময়",
       "emoji": "🥰",
-      "roman": "snehomoy"
+      "exampleEn": "Sometimes I feel affectionate.",
+      "exampleBn": "মাঝে মাঝে আমি স্নেহময় হই।"
     },
     {
       "id": "feelings-romantic",
       "en": "romantic",
       "bn": "রোমান্টিক",
       "emoji": "💕",
-      "roman": "premik"
+      "exampleEn": "You look romantic.",
+      "exampleBn": "তুমি রোমান্টিক দেখাচ্ছো।"
     },
     {
       "id": "feelings-friendly",
       "en": "friendly",
       "bn": "বন্ধু",
       "emoji": "🤝",
-      "roman": "bondhu"
+      "exampleEn": "I feel friendly.",
+      "exampleBn": "আমি বন্ধু বোধ করছি।"
     },
     {
       "id": "feelings-hostile",
       "en": "hostile",
       "bn": "শত্রুতাপূর্ণ",
       "emoji": "😠",
-      "roman": "hostile"
+      "exampleEn": "I am hostile today.",
+      "exampleBn": "আজ আমি শত্রুতাপূর্ণ।"
     },
     {
       "id": "feelings-peaceful-mind",
       "en": "peaceful mind",
       "bn": "শনতি",
       "emoji": "☮️",
-      "roman": "shanti"
+      "exampleEn": "Sometimes I feel peaceful mind.",
+      "exampleBn": "মাঝে মাঝে আমি শনতি হই।"
     },
     {
       "id": "feelings-mindful",
       "en": "mindful",
       "bn": "মোনোজোগ",
       "emoji": "🧘",
-      "roman": "monojog"
+      "exampleEn": "You look mindful.",
+      "exampleBn": "তুমি মোনোজোগ দেখাচ্ছো।"
     },
     {
       "id": "feelings-carefree",
       "en": "carefree",
       "bn": "হাশা মুকত",
       "emoji": "😊",
-      "roman": "chinta mukt"
+      "exampleEn": "I feel carefree.",
+      "exampleBn": "আমি হাশা মুকত বোধ করছি।"
     },
     {
       "id": "feelings-careful",
       "en": "careful",
       "bn": "সভধন",
       "emoji": "⚠️",
-      "roman": "savdhan"
+      "exampleEn": "I am careful today.",
+      "exampleBn": "আজ আমি সভধন।"
     },
     {
       "id": "feelings-cautious",
       "en": "cautious",
       "bn": "চুতিৌস",
       "emoji": "⚠️",
-      "roman": "cautious"
+      "exampleEn": "Sometimes I feel cautious.",
+      "exampleBn": "মাঝে মাঝে আমি চুতিৌস হই।"
     },
     {
       "id": "feelings-alert",
       "en": "alert",
       "bn": "সচেতন",
       "emoji": "👀",
-      "roman": "sachetan"
+      "exampleEn": "You look alert.",
+      "exampleBn": "তুমি সচেতন দেখাচ্ছো।"
     },
     {
       "id": "feelings-sleepy-feeling",
       "en": "sleepy feeling",
       "bn": "ঘুম ঘুম",
       "emoji": "😴",
-      "roman": "ghum ghum"
+      "exampleEn": "I feel sleepy feeling.",
+      "exampleBn": "আমি ঘুম ঘুম বোধ করছি।"
     },
     {
       "id": "feelings-awake",
       "en": "awake",
       "bn": "জগরোতো",
       "emoji": "👀",
-      "roman": "jagroto"
+      "exampleEn": "I am awake today.",
+      "exampleBn": "আজ আমি জগরোতো।"
     },
     {
       "id": "feelings-dizzy",
       "en": "dizzy",
       "bn": "মাথা ঘোরা",
       "emoji": "😵",
-      "roman": "ghum ghum"
+      "exampleEn": "Sometimes I feel dizzy.",
+      "exampleBn": "মাঝে মাঝে আমি মাথা ঘোরা হই।"
     },
     {
       "id": "feelings-faint",
       "en": "faint",
       "bn": "অজ্ঞান",
       "emoji": "😵",
-      "roman": "faint"
+      "exampleEn": "You look faint.",
+      "exampleBn": "তুমি অজ্ঞান দেখাচ্ছো।"
     },
     {
       "id": "feelings-strong-feeling",
       "en": "strong feeling",
       "bn": "শস্তি",
       "emoji": "💪",
-      "roman": "shakti"
+      "exampleEn": "I feel strong feeling.",
+      "exampleBn": "আমি শস্তি বোধ করছি।"
     },
     {
       "id": "feelings-weak-feeling",
       "en": "weak feeling",
       "bn": "দুরবোল",
       "emoji": "😓",
-      "roman": "durbol"
+      "exampleEn": "I am weak feeling today.",
+      "exampleBn": "আজ আমি দুরবোল।"
     },
     {
       "id": "feelings-healthy-feeling",
       "en": "healthy feeling",
       "bn": "সুস্থ",
       "emoji": "💪",
-      "roman": "healthy"
+      "exampleEn": "Sometimes I feel healthy feeling.",
+      "exampleBn": "মাঝে মাঝে আমি সুস্থ হই।"
     },
     {
       "id": "feelings-unwell",
       "en": "unwell",
       "bn": "অসুস্থ",
       "emoji": "🤒",
-      "roman": "unwell"
+      "exampleEn": "You look unwell.",
+      "exampleBn": "তুমি অসুস্থ দেখাচ্ছো।"
     },
     {
       "id": "feelings-feverish",
       "en": "feverish",
       "bn": "জ্বরযুক্ত",
       "emoji": "🤒",
-      "roman": "feverish"
+      "exampleEn": "I feel feverish.",
+      "exampleBn": "আমি জ্বরযুক্ত বোধ করছি।"
     },
     {
       "id": "feelings-chilly",
       "en": "chilly",
       "bn": "ঠান্ডা লাগা",
       "emoji": "🥶",
-      "roman": "chilly"
+      "exampleEn": "I am chilly today.",
+      "exampleBn": "আজ আমি ঠান্ডা লাগা।"
     },
     {
       "id": "feelings-warm-feeling",
       "en": "warm feeling",
       "bn": "উষ্ণ অনুভূতি",
       "emoji": "🥵",
-      "roman": "warm"
+      "exampleEn": "Sometimes I feel warm feeling.",
+      "exampleBn": "মাঝে মাঝে আমি উষ্ণ অনুভূতি হই।"
     },
     {
       "id": "feelings-cozy",
       "en": "cozy",
       "bn": "আরামদায়ক",
       "emoji": "🛋️",
-      "roman": "cozy"
+      "exampleEn": "You look cozy.",
+      "exampleBn": "তুমি আরামদায়ক দেখাচ্ছো।"
     },
     {
       "id": "feelings-uncomfortable",
       "en": "uncomfortable",
       "bn": "অস্বস্তিকর",
       "emoji": "😣",
-      "roman": "uncomfortable"
+      "exampleEn": "I feel uncomfortable.",
+      "exampleBn": "আমি অস্বস্তিকর বোধ করছি।"
     },
     {
       "id": "feelings-comfortable",
       "en": "comfortable",
       "bn": "আরামদায়ক",
       "emoji": "😌",
-      "roman": "comfortable"
+      "exampleEn": "I am comfortable today.",
+      "exampleBn": "আজ আমি আরামদায়ক।"
     },
     {
       "id": "feelings-safe-feeling",
       "en": "safe feeling",
       "bn": "নিরাপদ",
       "emoji": "🛡️",
-      "roman": "safe"
+      "exampleEn": "Sometimes I feel safe feeling.",
+      "exampleBn": "মাঝে মাঝে আমি নিরাপদ হই।"
     },
     {
       "id": "feelings-unsafe",
       "en": "unsafe",
       "bn": "উনসফে",
       "emoji": "⚠️",
-      "roman": "unsafe"
+      "exampleEn": "You look unsafe.",
+      "exampleBn": "তুমি উনসফে দেখাচ্ছো।"
     },
     {
       "id": "feelings-free-feeling",
       "en": "free feeling",
       "bn": "মুকত",
       "emoji": "🕊️",
-      "roman": "mukt"
+      "exampleEn": "I feel free feeling.",
+      "exampleBn": "আমি মুকত বোধ করছি।"
     },
     {
       "id": "feelings-trapped",
       "en": "trapped",
       "bn": "আটক",
       "emoji": "🔒",
-      "roman": "bondi"
+      "exampleEn": "I am trapped today.",
+      "exampleBn": "আজ আমি আটক।"
     },
     {
       "id": "feelings-lucky",
       "en": "lucky",
       "bn": "ভাগ্যবান",
       "emoji": "🍀",
-      "roman": "bhagyoban"
+      "exampleEn": "Sometimes I feel lucky.",
+      "exampleBn": "মাঝে মাঝে আমি ভাগ্যবান হই।"
     },
     {
       "id": "feelings-unlucky",
       "en": "unlucky",
       "bn": "দুর্ভাগ্য",
       "emoji": "😞",
-      "roman": "unlucky"
+      "exampleEn": "You look unlucky.",
+      "exampleBn": "তুমি দুর্ভাগ্য দেখাচ্ছো।"
     },
     {
       "id": "feelings-surprised-feeling",
       "en": "surprised feeling",
       "bn": "অবাক",
       "emoji": "😲",
-      "roman": "obak"
+      "exampleEn": "I feel surprised feeling.",
+      "exampleBn": "আমি অবাক বোধ করছি।"
     },
     {
       "id": "feelings-shocked",
       "en": "shocked",
       "bn": "হতবাক",
       "emoji": "😱",
-      "roman": "shocked"
+      "exampleEn": "I am shocked today.",
+      "exampleBn": "আজ আমি হতবাক।"
     },
     {
       "id": "feelings-amazed",
       "en": "amazed",
       "bn": "বিস্মিত",
       "emoji": "🤩",
-      "roman": "amazed"
+      "exampleEn": "Sometimes I feel amazed.",
+      "exampleBn": "মাঝে মাঝে আমি বিস্মিত হই।"
     },
     {
       "id": "feelings-astonished",
       "en": "astonished",
       "bn": "অসতোনিশেদ",
       "emoji": "😲",
-      "roman": "astonished"
+      "exampleEn": "You look astonished.",
+      "exampleBn": "তুমি অসতোনিশেদ দেখাচ্ছো।"
     },
     {
       "id": "feelings-confused-feeling",
       "en": "confused feeling",
       "bn": "বিভ্রান্ত",
       "emoji": "😕",
-      "roman": "bibhranto"
+      "exampleEn": "I feel confused feeling.",
+      "exampleBn": "আমি বিভ্রান্ত বোধ করছি।"
     },
     {
       "id": "feelings-clear-minded",
       "en": "clear minded",
       "bn": "চলের মিনদেদ",
       "emoji": "💡",
-      "roman": "clear minded"
+      "exampleEn": "I am clear minded today.",
+      "exampleBn": "আজ আমি চলের মিনদেদ।"
     },
     {
       "id": "feelings-foggy-mind",
       "en": "foggy mind",
       "bn": "মন ঘোলাটে",
       "emoji": "🌫️",
-      "roman": "foggy"
+      "exampleEn": "Sometimes I feel foggy mind.",
+      "exampleBn": "মাঝে মাঝে আমি মন ঘোলাটে হই।"
     },
     {
       "id": "feelings-creative",
       "en": "creative",
       "bn": "সৃজনশীল",
       "emoji": "🎨",
-      "roman": "srijonshil"
+      "exampleEn": "You look creative.",
+      "exampleBn": "তুমি সৃজনশীল দেখাচ্ছো।"
     },
     {
       "id": "feelings-artistic",
       "en": "artistic",
       "bn": "শিল্পপ্রেমী",
       "emoji": "🎨",
-      "roman": "artistic"
+      "exampleEn": "I feel artistic.",
+      "exampleBn": "আমি শিল্পপ্রেমী বোধ করছি।"
     },
     {
       "id": "feelings-musical",
       "en": "musical",
       "bn": "সঙ্গীতপ্রেমী",
       "emoji": "🎵",
-      "roman": "musical"
+      "exampleEn": "I am musical today.",
+      "exampleBn": "আজ আমি সঙ্গীতপ্রেমী।"
     }
   ]
 }

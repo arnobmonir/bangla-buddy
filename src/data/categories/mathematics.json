@@ -6,1921 +6,2204 @@
       "en": "zero",
       "bn": "শূন্য",
       "emoji": "0️⃣",
-      "roman": "shunno"
+      "exampleEn": "This is zero.",
+      "exampleBn": "এটা শূন্য।"
     },
     {
       "id": "math-one",
       "en": "one",
       "bn": "এক",
       "emoji": "1️⃣",
-      "roman": "ek"
+      "exampleEn": "I can say one.",
+      "exampleBn": "আমি এক বলতে পারি।"
     },
     {
       "id": "math-two",
       "en": "two",
       "bn": "দুই",
       "emoji": "2️⃣",
-      "roman": "dui"
+      "exampleEn": "Show me two.",
+      "exampleBn": "আমাকে দুই দেখাও।"
     },
     {
       "id": "math-three",
       "en": "three",
       "bn": "তিন",
       "emoji": "3️⃣",
-      "roman": "tin"
+      "exampleEn": "We learned about three.",
+      "exampleBn": "আমরা তিন শিখেছি।"
     },
     {
       "id": "math-four",
       "en": "four",
       "bn": "চার",
       "emoji": "4️⃣",
-      "roman": "char"
+      "exampleEn": "This is four.",
+      "exampleBn": "এটা চার।"
     },
     {
       "id": "math-five",
       "en": "five",
       "bn": "পাঁচ",
       "emoji": "5️⃣",
-      "roman": "panch"
+      "exampleEn": "I can say five.",
+      "exampleBn": "আমি পাঁচ বলতে পারি।"
     },
     {
       "id": "math-six",
       "en": "six",
       "bn": "ছয়",
       "emoji": "6️⃣",
-      "roman": "chhoy"
+      "exampleEn": "Show me six.",
+      "exampleBn": "আমাকে ছয় দেখাও।"
     },
     {
       "id": "math-seven",
       "en": "seven",
       "bn": "সাত",
       "emoji": "7️⃣",
-      "roman": "shat"
+      "exampleEn": "We learned about seven.",
+      "exampleBn": "আমরা সাত শিখেছি।"
     },
     {
       "id": "math-eight",
       "en": "eight",
       "bn": "আট",
       "emoji": "8️⃣",
-      "roman": "at"
+      "exampleEn": "This is eight.",
+      "exampleBn": "এটা আট।"
     },
     {
       "id": "math-nine",
       "en": "nine",
       "bn": "নয়",
       "emoji": "9️⃣",
-      "roman": "noy"
+      "exampleEn": "I can say nine.",
+      "exampleBn": "আমি নয় বলতে পারি।"
     },
     {
       "id": "math-ten",
       "en": "ten",
       "bn": "দশ",
       "emoji": "🔟",
-      "roman": "dosh"
+      "exampleEn": "Show me ten.",
+      "exampleBn": "আমাকে দশ দেখাও।"
     },
     {
       "id": "math-eleven",
       "en": "eleven",
       "bn": "এগারো",
       "emoji": "1️⃣1️⃣",
-      "roman": "egaro"
+      "exampleEn": "We learned about eleven.",
+      "exampleBn": "আমরা এগারো শিখেছি।"
     },
     {
       "id": "math-twelve",
       "en": "twelve",
       "bn": "বারো",
       "emoji": "1️⃣2️⃣",
-      "roman": "baro"
+      "exampleEn": "This is twelve.",
+      "exampleBn": "এটা বারো।"
     },
     {
       "id": "math-thirteen",
       "en": "thirteen",
       "bn": "তেরো",
       "emoji": "1️⃣3️⃣",
-      "roman": "tero"
+      "exampleEn": "I can say thirteen.",
+      "exampleBn": "আমি তেরো বলতে পারি।"
     },
     {
       "id": "math-fourteen",
       "en": "fourteen",
       "bn": "চৌদ্দ",
       "emoji": "1️⃣4️⃣",
-      "roman": "chouddo"
+      "exampleEn": "Show me fourteen.",
+      "exampleBn": "আমাকে চৌদ্দ দেখাও।"
     },
     {
       "id": "math-fifteen",
       "en": "fifteen",
       "bn": "পনেরো",
       "emoji": "1️⃣5️⃣",
-      "roman": "ponero"
+      "exampleEn": "We learned about fifteen.",
+      "exampleBn": "আমরা পনেরো শিখেছি।"
     },
     {
       "id": "math-sixteen",
       "en": "sixteen",
       "bn": "ষোলো",
       "emoji": "1️⃣6️⃣",
-      "roman": "sholo"
+      "exampleEn": "This is sixteen.",
+      "exampleBn": "এটা ষোলো।"
     },
     {
       "id": "math-seventeen",
       "en": "seventeen",
       "bn": "সতেরো",
       "emoji": "1️⃣7️⃣",
-      "roman": "shotero"
+      "exampleEn": "I can say seventeen.",
+      "exampleBn": "আমি সতেরো বলতে পারি।"
     },
     {
       "id": "math-eighteen",
       "en": "eighteen",
       "bn": "আঠারো",
       "emoji": "1️⃣8️⃣",
-      "roman": "atharo"
+      "exampleEn": "Show me eighteen.",
+      "exampleBn": "আমাকে আঠারো দেখাও।"
     },
     {
       "id": "math-nineteen",
       "en": "nineteen",
       "bn": "উনিশ",
       "emoji": "1️⃣9️⃣",
-      "roman": "unish"
+      "exampleEn": "We learned about nineteen.",
+      "exampleBn": "আমরা উনিশ শিখেছি।"
     },
     {
       "id": "math-twenty",
       "en": "twenty",
       "bn": "বিশ",
       "emoji": "2️⃣0️⃣",
-      "roman": "bish"
+      "exampleEn": "This is twenty.",
+      "exampleBn": "এটা বিশ।"
     },
     {
       "id": "math-twenty-one",
       "en": "twenty-one",
       "bn": "একুশ",
       "emoji": "2️⃣1️⃣",
-      "roman": "ekush"
+      "exampleEn": "I can say twenty-one.",
+      "exampleBn": "আমি একুশ বলতে পারি।"
     },
     {
       "id": "math-twenty-two",
       "en": "twenty-two",
       "bn": "বাইশ",
       "emoji": "2️⃣2️⃣",
-      "roman": "baish"
+      "exampleEn": "Show me twenty-two.",
+      "exampleBn": "আমাকে বাইশ দেখাও।"
     },
     {
       "id": "math-twenty-three",
       "en": "twenty-three",
       "bn": "তেইশ",
       "emoji": "2️⃣3️⃣",
-      "roman": "teish"
+      "exampleEn": "We learned about twenty-three.",
+      "exampleBn": "আমরা তেইশ শিখেছি।"
     },
     {
       "id": "math-twenty-four",
       "en": "twenty-four",
       "bn": "চব্বিশ",
       "emoji": "2️⃣4️⃣",
-      "roman": "chobbish"
+      "exampleEn": "This is twenty-four.",
+      "exampleBn": "এটা চব্বিশ।"
     },
     {
       "id": "math-twenty-five",
       "en": "twenty-five",
       "bn": "পঁচিশ",
       "emoji": "2️⃣5️⃣",
-      "roman": "pochish"
+      "exampleEn": "I can say twenty-five.",
+      "exampleBn": "আমি পঁচিশ বলতে পারি।"
     },
     {
       "id": "math-twenty-six",
       "en": "twenty-six",
       "bn": "ছাব্বিশ",
       "emoji": "2️⃣6️⃣",
-      "roman": "chabbish"
+      "exampleEn": "Show me twenty-six.",
+      "exampleBn": "আমাকে ছাব্বিশ দেখাও।"
     },
     {
       "id": "math-twenty-seven",
       "en": "twenty-seven",
       "bn": "সাতাশ",
       "emoji": "2️⃣7️⃣",
-      "roman": "shatash"
+      "exampleEn": "We learned about twenty-seven.",
+      "exampleBn": "আমরা সাতাশ শিখেছি।"
     },
     {
       "id": "math-twenty-eight",
       "en": "twenty-eight",
       "bn": "আটাশ",
       "emoji": "2️⃣8️⃣",
-      "roman": "athash"
+      "exampleEn": "This is twenty-eight.",
+      "exampleBn": "এটা আটাশ।"
     },
     {
       "id": "math-twenty-nine",
       "en": "twenty-nine",
       "bn": "ঊনত্রিশ",
       "emoji": "2️⃣9️⃣",
-      "roman": "unotrish"
+      "exampleEn": "I can say twenty-nine.",
+      "exampleBn": "আমি ঊনত্রিশ বলতে পারি।"
     },
     {
       "id": "math-thirty",
       "en": "thirty",
       "bn": "ত্রিশ",
       "emoji": "3️⃣0️⃣",
-      "roman": "trish"
+      "exampleEn": "Show me thirty.",
+      "exampleBn": "আমাকে ত্রিশ দেখাও।"
     },
     {
       "id": "math-thirty-one",
       "en": "thirty-one",
       "bn": "একত্রিশ",
       "emoji": "3️⃣1️⃣",
-      "roman": "ektrish"
+      "exampleEn": "We learned about thirty-one.",
+      "exampleBn": "আমরা একত্রিশ শিখেছি।"
     },
     {
       "id": "math-thirty-two",
       "en": "thirty-two",
       "bn": "বত্রিশ",
       "emoji": "3️⃣2️⃣",
-      "roman": "botrish"
+      "exampleEn": "This is thirty-two.",
+      "exampleBn": "এটা বত্রিশ।"
     },
     {
       "id": "math-thirty-five",
       "en": "thirty-five",
       "bn": "পঁয়ত্রিশ",
       "emoji": "3️⃣5️⃣",
-      "roman": "poyotrish"
+      "exampleEn": "I can say thirty-five.",
+      "exampleBn": "আমি পঁয়ত্রিশ বলতে পারি।"
     },
     {
       "id": "math-forty",
       "en": "forty",
       "bn": "চল্লিশ",
       "emoji": "4️⃣0️⃣",
-      "roman": "chollish"
+      "exampleEn": "Show me forty.",
+      "exampleBn": "আমাকে চল্লিশ দেখাও।"
     },
     {
       "id": "math-forty-five",
       "en": "forty-five",
       "bn": "পঁয়তাল্লিশ",
       "emoji": "4️⃣5️⃣",
-      "roman": "poyotallish"
+      "exampleEn": "We learned about forty-five.",
+      "exampleBn": "আমরা পঁয়তাল্লিশ শিখেছি।"
     },
     {
       "id": "math-fifty",
       "en": "fifty",
       "bn": "পঞ্চাশ",
       "emoji": "5️⃣0️⃣",
-      "roman": "ponchash"
+      "exampleEn": "This is fifty.",
+      "exampleBn": "এটা পঞ্চাশ।"
     },
     {
       "id": "math-sixty",
       "en": "sixty",
       "bn": "ষাট",
       "emoji": "6️⃣0️⃣",
-      "roman": "shat"
+      "exampleEn": "I can say sixty.",
+      "exampleBn": "আমি ষাট বলতে পারি।"
     },
     {
       "id": "math-seventy",
       "en": "seventy",
       "bn": "সত্তর",
       "emoji": "7️⃣0️⃣",
-      "roman": "shottor"
+      "exampleEn": "Show me seventy.",
+      "exampleBn": "আমাকে সত্তর দেখাও।"
     },
     {
       "id": "math-eighty",
       "en": "eighty",
       "bn": "আশি",
       "emoji": "8️⃣0️⃣",
-      "roman": "ashi"
+      "exampleEn": "We learned about eighty.",
+      "exampleBn": "আমরা আশি শিখেছি।"
     },
     {
       "id": "math-ninety",
       "en": "ninety",
       "bn": "নব্বই",
       "emoji": "9️⃣0️⃣",
-      "roman": "nobboi"
+      "exampleEn": "This is ninety.",
+      "exampleBn": "এটা নব্বই।"
     },
     {
       "id": "math-hundred",
       "en": "hundred",
       "bn": "একশো",
       "emoji": "💯",
-      "roman": "eksho"
+      "exampleEn": "I can say hundred.",
+      "exampleBn": "আমি একশো বলতে পারি।"
     },
     {
       "id": "math-two-hundred",
       "en": "two hundred",
       "bn": "দুইশো",
       "emoji": "2️⃣0️⃣0️⃣",
-      "roman": "duisho"
+      "exampleEn": "Show me two hundred.",
+      "exampleBn": "আমাকে দুইশো দেখাও।"
     },
     {
       "id": "math-five-hundred",
       "en": "five hundred",
       "bn": "পাঁচশো",
       "emoji": "5️⃣0️⃣0️⃣",
-      "roman": "pãchsho"
+      "exampleEn": "We learned about five hundred.",
+      "exampleBn": "আমরা পাঁচশো শিখেছি।"
     },
     {
       "id": "math-thousand",
       "en": "thousand",
       "bn": "হাজার",
       "emoji": "🔢",
-      "roman": "hajar"
+      "exampleEn": "This is thousand.",
+      "exampleBn": "এটা হাজার।"
     },
     {
       "id": "math-lakh",
       "en": "lakh",
       "bn": "লাখ",
       "emoji": "💰",
-      "roman": "lakh"
+      "exampleEn": "I can say lakh.",
+      "exampleBn": "আমি লাখ বলতে পারি।"
     },
     {
       "id": "math-first",
       "en": "first",
       "bn": "প্রথম",
       "emoji": "1️⃣",
-      "roman": "prothom"
+      "exampleEn": "Show me first.",
+      "exampleBn": "আমাকে প্রথম দেখাও।"
     },
     {
       "id": "math-second",
       "en": "second",
       "bn": "দ্বিতীয়",
       "emoji": "2️⃣",
-      "roman": "ditiyo"
+      "exampleEn": "We learned about second.",
+      "exampleBn": "আমরা দ্বিতীয় শিখেছি।"
     },
     {
       "id": "math-third",
       "en": "third",
       "bn": "তৃতীয়",
       "emoji": "3️⃣",
-      "roman": "tritiyo"
+      "exampleEn": "This is third.",
+      "exampleBn": "এটা তৃতীয়।"
     },
     {
       "id": "math-fourth",
       "en": "fourth",
       "bn": "চতুর্থ",
       "emoji": "4️⃣",
-      "roman": "choturtho"
+      "exampleEn": "I can say fourth.",
+      "exampleBn": "আমি চতুর্থ বলতে পারি।"
     },
     {
       "id": "math-fifth",
       "en": "fifth",
       "bn": "পঞ্চম",
       "emoji": "5️⃣",
-      "roman": "ponchom"
+      "exampleEn": "Show me fifth.",
+      "exampleBn": "আমাকে পঞ্চম দেখাও।"
     },
     {
       "id": "math-last",
       "en": "last",
       "bn": "শেষ",
       "emoji": "🏁",
-      "roman": "shesh"
+      "exampleEn": "We learned about last.",
+      "exampleBn": "আমরা শেষ শিখেছি।"
     },
     {
       "id": "math-plus",
       "en": "plus",
       "bn": "যোগ",
       "emoji": "➕",
-      "roman": "jog"
+      "exampleEn": "This is plus.",
+      "exampleBn": "এটা যোগ।"
     },
     {
       "id": "math-minus",
       "en": "minus",
       "bn": "বিয়োগ",
       "emoji": "➖",
-      "roman": "biyog"
+      "exampleEn": "I can say minus.",
+      "exampleBn": "আমি বিয়োগ বলতে পারি।"
     },
     {
       "id": "math-times",
       "en": "times",
       "bn": "গুণ",
       "emoji": "✖️",
-      "roman": "gun"
+      "exampleEn": "Show me times.",
+      "exampleBn": "আমাকে গুণ দেখাও।"
     },
     {
       "id": "math-divide",
       "en": "divide",
       "bn": "ভাগ",
       "emoji": "➗",
-      "roman": "bhag"
+      "exampleEn": "We learned about divide.",
+      "exampleBn": "আমরা ভাগ শিখেছি।"
     },
     {
       "id": "math-equal",
       "en": "equal",
       "bn": "সমান",
       "emoji": "=",
-      "roman": "shoman"
+      "exampleEn": "This is equal.",
+      "exampleBn": "এটা সমান।"
     },
     {
       "id": "math-add",
       "en": "add",
       "bn": "যোগ করা",
       "emoji": "➕",
-      "roman": "jog kora"
+      "exampleEn": "I can say add.",
+      "exampleBn": "আমি যোগ করা বলতে পারি।"
     },
     {
       "id": "math-subtract",
       "en": "subtract",
       "bn": "বিয়োগ করা",
       "emoji": "➖",
-      "roman": "biyog kora"
+      "exampleEn": "Show me subtract.",
+      "exampleBn": "আমাকে বিয়োগ করা দেখাও।"
     },
     {
       "id": "math-multiply",
       "en": "multiply",
       "bn": "গুণ করা",
       "emoji": "✖️",
-      "roman": "gun kora"
+      "exampleEn": "We learned about multiply.",
+      "exampleBn": "আমরা গুণ করা শিখেছি।"
     },
     {
       "id": "math-count",
       "en": "count",
       "bn": "গণনা",
       "emoji": "🔢",
-      "roman": "gonona"
+      "exampleEn": "This is count.",
+      "exampleBn": "এটা গণনা।"
     },
     {
       "id": "math-number",
       "en": "number",
       "bn": "সংখ্যা",
       "emoji": "#️⃣",
-      "roman": "songkha"
+      "exampleEn": "I can say number.",
+      "exampleBn": "আমি সংখ্যা বলতে পারি।"
     },
     {
       "id": "math-sum",
       "en": "sum",
       "bn": "যোগফল",
       "emoji": "Σ",
-      "roman": "jogfol"
+      "exampleEn": "Show me sum.",
+      "exampleBn": "আমাকে যোগফল দেখাও।"
     },
     {
       "id": "math-difference",
       "en": "difference",
       "bn": "বিয়োগফল",
       "emoji": "➖",
-      "roman": "biyogfol"
+      "exampleEn": "We learned about difference.",
+      "exampleBn": "আমরা বিয়োগফল শিখেছি।"
     },
     {
       "id": "math-half",
       "en": "half",
       "bn": "অর্ধেক",
       "emoji": "½",
-      "roman": "ordhek"
+      "exampleEn": "This is half.",
+      "exampleBn": "এটা অর্ধেক।"
     },
     {
       "id": "math-quarter",
       "en": "quarter",
       "bn": "এক চতুর্থাংশ",
       "emoji": "¼",
-      "roman": "ek choturthangsho"
+      "exampleEn": "I can say quarter.",
+      "exampleBn": "আমি এক চতুর্থাংশ বলতে পারি।"
     },
     {
       "id": "math-whole",
       "en": "whole",
       "bn": "সম্পূর্ণ",
       "emoji": "⭕",
-      "roman": "shompurno"
+      "exampleEn": "Show me whole.",
+      "exampleBn": "আমাকে সম্পূর্ণ দেখাও।"
     },
     {
       "id": "math-more",
       "en": "more",
       "bn": "বেশি",
       "emoji": "📈",
-      "roman": "beshi"
+      "exampleEn": "We learned about more.",
+      "exampleBn": "আমরা বেশি শিখেছি।"
     },
     {
       "id": "math-less",
       "en": "less",
       "bn": "কম",
       "emoji": "📉",
-      "roman": "kom"
+      "exampleEn": "This is less.",
+      "exampleBn": "এটা কম।"
     },
     {
       "id": "math-greater",
       "en": "greater",
       "bn": "বড়",
       "emoji": ">",
-      "roman": "boro"
+      "exampleEn": "I can say greater.",
+      "exampleBn": "আমি বড় বলতে পারি।"
     },
     {
       "id": "math-smaller",
       "en": "smaller",
       "bn": "ছোট",
       "emoji": "<",
-      "roman": "choto"
+      "exampleEn": "Show me smaller.",
+      "exampleBn": "আমাকে ছোট দেখাও।"
     },
     {
       "id": "math-same",
       "en": "same",
       "bn": "একই",
       "emoji": "🟰",
-      "roman": "ekoi"
+      "exampleEn": "We learned about same.",
+      "exampleBn": "আমরা একই শিখেছি।"
     },
     {
       "id": "math-different",
       "en": "different",
       "bn": "আলাদা",
       "emoji": "≠",
-      "roman": "alada"
+      "exampleEn": "This is different.",
+      "exampleBn": "এটা আলাদা।"
     },
     {
       "id": "math-many",
       "en": "many",
       "bn": "অনেক",
       "emoji": "➕",
-      "roman": "onek"
+      "exampleEn": "I can say many.",
+      "exampleBn": "আমি অনেক বলতে পারি।"
     },
     {
       "id": "math-few",
       "en": "few",
       "bn": "কয়েক",
       "emoji": "🤏",
-      "roman": "koyek"
+      "exampleEn": "Show me few.",
+      "exampleBn": "আমাকে কয়েক দেখাও।"
     },
     {
       "id": "math-all",
       "en": "all",
       "bn": "সব",
       "emoji": "♾️",
-      "roman": "shob"
+      "exampleEn": "We learned about all.",
+      "exampleBn": "আমরা সব শিখেছি।"
     },
     {
       "id": "math-none",
       "en": "none",
       "bn": "কোনোটি নয়",
       "emoji": "🚫",
-      "roman": "konoti noy"
+      "exampleEn": "This is none.",
+      "exampleBn": "এটা কোনোটি নয়।"
     },
     {
       "id": "math-pair",
       "en": "pair",
       "bn": "জোড়া",
       "emoji": "👯",
-      "roman": "jora"
+      "exampleEn": "I can say pair.",
+      "exampleBn": "আমি জোড়া বলতে পারি।"
     },
     {
       "id": "math-odd",
       "en": "odd",
       "bn": "বিজোড়",
       "emoji": "1️⃣",
-      "roman": "bijor"
+      "exampleEn": "Show me odd.",
+      "exampleBn": "আমাকে বিজোড় দেখাও।"
     },
     {
       "id": "math-even",
       "en": "even",
       "bn": "জোড়",
       "emoji": "2️⃣",
-      "roman": "jor"
+      "exampleEn": "We learned about even.",
+      "exampleBn": "আমরা জোড় শিখেছি।"
     },
     {
       "id": "math-circle",
       "en": "circle",
       "bn": "বৃত্ত",
       "emoji": "⭕",
-      "roman": "britto"
+      "exampleEn": "This is circle.",
+      "exampleBn": "এটা বৃত্ত।"
     },
     {
       "id": "math-square",
       "en": "square",
       "bn": "বর্গক্ষেত্র",
       "emoji": "⬜",
-      "roman": "borgokhettro"
+      "exampleEn": "I can say square.",
+      "exampleBn": "আমি বর্গক্ষেত্র বলতে পারি।"
     },
     {
       "id": "math-triangle",
       "en": "triangle",
       "bn": "ত্রিভুজ",
       "emoji": "🔺",
-      "roman": "tribhuj"
+      "exampleEn": "Show me triangle.",
+      "exampleBn": "আমাকে ত্রিভুজ দেখাও।"
     },
     {
       "id": "math-rectangle",
       "en": "rectangle",
       "bn": "আয়তক্ষেত্র",
       "emoji": "▭",
-      "roman": "ayotokhettro"
+      "exampleEn": "We learned about rectangle.",
+      "exampleBn": "আমরা আয়তক্ষেত্র শিখেছি।"
     },
     {
       "id": "math-oval",
       "en": "oval",
       "bn": "ডিম্বাকৃতি",
       "emoji": "⬭",
-      "roman": "dimbakriti"
+      "exampleEn": "This is oval.",
+      "exampleBn": "এটা ডিম্বাকৃতি।"
     },
     {
       "id": "math-star-shape",
       "en": "star shape",
       "bn": "তারকা আকৃতি",
       "emoji": "⭐",
-      "roman": "taroka akriti"
+      "exampleEn": "I can say star shape.",
+      "exampleBn": "আমি তারকা আকৃতি বলতে পারি।"
     },
     {
       "id": "math-line",
       "en": "line",
       "bn": "রেখা",
       "emoji": "➖",
-      "roman": "rekha"
+      "exampleEn": "Show me line.",
+      "exampleBn": "আমাকে রেখা দেখাও।"
     },
     {
       "id": "math-point",
       "en": "point",
       "bn": "বিন্দু",
       "emoji": "•",
-      "roman": "bindu"
+      "exampleEn": "We learned about point.",
+      "exampleBn": "আমরা বিন্দু শিখেছি।"
     },
     {
       "id": "math-angle",
       "en": "angle",
       "bn": "কোণ",
       "emoji": "∠",
-      "roman": "kon"
+      "exampleEn": "This is angle.",
+      "exampleBn": "এটা কোণ।"
     },
     {
       "id": "math-length",
       "en": "length",
       "bn": "দৈর্ঘ্য",
       "emoji": "📏",
-      "roman": "doirgho"
+      "exampleEn": "I can say length.",
+      "exampleBn": "আমি দৈর্ঘ্য বলতে পারি।"
     },
     {
       "id": "math-width",
       "en": "width",
       "bn": "প্রস্থ",
       "emoji": "↔️",
-      "roman": "prostho"
+      "exampleEn": "Show me width.",
+      "exampleBn": "আমাকে প্রস্থ দেখাও।"
     },
     {
       "id": "math-height",
       "en": "height",
       "bn": "উচ্চতা",
       "emoji": "↕️",
-      "roman": "uchchota"
+      "exampleEn": "We learned about height.",
+      "exampleBn": "আমরা উচ্চতা শিখেছি।"
     },
     {
       "id": "math-size",
       "en": "size",
       "bn": "আকার",
       "emoji": "📐",
-      "roman": "akar"
+      "exampleEn": "This is size.",
+      "exampleBn": "এটা আকার।"
     },
     {
       "id": "math-measure",
       "en": "measure",
       "bn": "মাপা",
       "emoji": "📏",
-      "roman": "mapa"
+      "exampleEn": "I can say measure.",
+      "exampleBn": "আমি মাপা বলতে পারি।"
     },
     {
       "id": "math-ruler",
       "en": "ruler",
       "bn": "রুলার",
       "emoji": "📏",
-      "roman": "skel"
+      "exampleEn": "Show me ruler.",
+      "exampleBn": "আমাকে রুলার দেখাও।"
     },
     {
       "id": "math-pattern",
       "en": "pattern",
       "bn": "প্যাটার্ন",
       "emoji": "🔷",
-      "roman": "pattern"
+      "exampleEn": "We learned about pattern.",
+      "exampleBn": "আমরা প্যাটার্ন শিখেছি।"
     },
     {
       "id": "math-group",
       "en": "group",
       "bn": "দল",
       "emoji": "👥",
-      "roman": "dol"
+      "exampleEn": "This is group.",
+      "exampleBn": "এটা দল।"
     },
     {
       "id": "math-total",
       "en": "total",
       "bn": "মোট",
       "emoji": "🧮",
-      "roman": "mot"
+      "exampleEn": "I can say total.",
+      "exampleBn": "আমি মোট বলতে পারি।"
     },
     {
       "id": "math-answer",
       "en": "answer",
       "bn": "উত্তর",
       "emoji": "✅",
-      "roman": "uttar"
+      "exampleEn": "Show me answer.",
+      "exampleBn": "আমাকে উত্তর দেখাও।"
     },
     {
       "id": "math-question",
       "en": "question",
       "bn": "প্রশ্ন",
       "emoji": "❓",
-      "roman": "proshno"
+      "exampleEn": "We learned about question.",
+      "exampleBn": "আমরা প্রশ্ন শিখেছি।"
     },
     {
       "id": "math-problem",
       "en": "problem",
       "bn": "সমস্যা",
       "emoji": "🧮",
-      "roman": "shomossa"
+      "exampleEn": "This is problem.",
+      "exampleBn": "এটা সমস্যা।"
     },
     {
       "id": "math-solve",
       "en": "solve",
       "bn": "সমাধান",
       "emoji": "💡",
-      "roman": "shomadhan"
+      "exampleEn": "I can say solve.",
+      "exampleBn": "আমি সমাধান বলতে পারি।"
     },
     {
       "id": "math-math",
       "en": "mathematics",
       "bn": "গণিত",
       "emoji": "🧮",
-      "roman": "gonit"
+      "exampleEn": "Show me mathematics.",
+      "exampleBn": "আমাকে গণিত দেখাও।"
     },
     {
       "id": "mathematics-hexagon",
       "en": "hexagon",
       "bn": "ষড়ভুজ",
       "emoji": "⬡",
-      "roman": "shohobhuj"
+      "exampleEn": "We learned about hexagon.",
+      "exampleBn": "আমরা ষড়ভুজ শিখেছি।"
     },
     {
       "id": "mathematics-pentagon",
       "en": "pentagon",
       "bn": "পঞ্চভুজ",
       "emoji": "⬠",
-      "roman": "ponchobhuj"
+      "exampleEn": "This is pentagon.",
+      "exampleBn": "এটা পঞ্চভুজ।"
     },
     {
       "id": "mathematics-octagon",
       "en": "octagon",
       "bn": "অষ্টভুজ",
       "emoji": "⛔",
-      "roman": "ashtobhuj"
+      "exampleEn": "I can say octagon.",
+      "exampleBn": "আমি অষ্টভুজ বলতে পারি।"
     },
     {
       "id": "mathematics-diamond-shape",
       "en": "diamond shape",
       "bn": "হীরক আকৃতি",
       "emoji": "💎",
-      "roman": "hira"
+      "exampleEn": "Show me diamond shape.",
+      "exampleBn": "আমাকে হীরক আকৃতি দেখাও।"
     },
     {
       "id": "mathematics-heart-shape",
       "en": "heart shape",
       "bn": "হৃদ আকৃতি",
       "emoji": "❤️",
-      "roman": "hiya akriti"
+      "exampleEn": "We learned about heart shape.",
+      "exampleBn": "আমরা হৃদ আকৃতি শিখেছি।"
     },
     {
       "id": "mathematics-cross-shape",
       "en": "cross shape",
       "bn": "ক্রস আকৃতি",
       "emoji": "✝️",
-      "roman": "cross akriti"
+      "exampleEn": "This is cross shape.",
+      "exampleBn": "এটা ক্রস আকৃতি।"
     },
     {
       "id": "mathematics-cube",
       "en": "cube",
       "bn": "ঘনক",
       "emoji": "🧊",
-      "roman": "ghon"
+      "exampleEn": "I can say cube.",
+      "exampleBn": "আমি ঘনক বলতে পারি।"
     },
     {
       "id": "mathematics-sphere",
       "en": "sphere",
       "bn": "গোলোক",
       "emoji": "⚽",
-      "roman": "golok"
+      "exampleEn": "Show me sphere.",
+      "exampleBn": "আমাকে গোলোক দেখাও।"
     },
     {
       "id": "mathematics-cylinder",
       "en": "cylinder",
       "bn": "বেলন",
       "emoji": "🛢️",
-      "roman": "belan"
+      "exampleEn": "We learned about cylinder.",
+      "exampleBn": "আমরা বেলন শিখেছি।"
     },
     {
       "id": "mathematics-cone",
       "en": "cone",
       "bn": "শনকু",
       "emoji": "🔺",
-      "roman": "shanku"
+      "exampleEn": "This is cone.",
+      "exampleBn": "এটা শনকু।"
     },
     {
       "id": "mathematics-pyramid",
       "en": "pyramid",
       "bn": "পিরমিদ",
       "emoji": "🔺",
-      "roman": "piramid"
+      "exampleEn": "I can say pyramid.",
+      "exampleBn": "আমি পিরমিদ বলতে পারি।"
     },
     {
       "id": "mathematics-prism",
       "en": "prism",
       "bn": "পরিসম",
       "emoji": "🔷",
-      "roman": "prism"
+      "exampleEn": "Show me prism.",
+      "exampleBn": "আমাকে পরিসম দেখাও।"
     },
     {
       "id": "mathematics-parallel",
       "en": "parallel",
       "bn": "সমনতোরল",
       "emoji": "∥",
-      "roman": "samantoral"
+      "exampleEn": "We learned about parallel.",
+      "exampleBn": "আমরা সমনতোরল শিখেছি।"
     },
     {
       "id": "mathematics-perpendicular",
       "en": "perpendicular",
       "bn": "লোমব",
       "emoji": "⊥",
-      "roman": "lomb"
+      "exampleEn": "This is perpendicular.",
+      "exampleBn": "এটা লোমব।"
     },
     {
       "id": "mathematics-straight-line",
       "en": "straight line",
       "bn": "শোজ রেখা",
       "emoji": "📏",
-      "roman": "shoja rekha"
+      "exampleEn": "I can say straight line.",
+      "exampleBn": "আমি শোজ রেখা বলতে পারি।"
     },
     {
       "id": "mathematics-curved-line",
       "en": "curved line",
       "bn": "বন রেখা",
       "emoji": "〰️",
-      "roman": "ban rekha"
+      "exampleEn": "Show me curved line.",
+      "exampleBn": "আমাকে বন রেখা দেখাও।"
     },
     {
       "id": "mathematics-corner",
       "en": "corner",
       "bn": "কোণ",
       "emoji": "📐",
-      "roman": "kon"
+      "exampleEn": "We learned about corner.",
+      "exampleBn": "আমরা কোণ শিখেছি।"
     },
     {
       "id": "mathematics-edge",
       "en": "edge",
       "bn": "পরনত",
       "emoji": "📐",
-      "roman": "prant"
+      "exampleEn": "This is edge.",
+      "exampleBn": "এটা পরনত।"
     },
     {
       "id": "mathematics-side",
       "en": "side",
       "bn": "পাশ",
       "emoji": "📐",
-      "roman": "pash"
+      "exampleEn": "I can say side.",
+      "exampleBn": "আমি পাশ বলতে পারি।"
     },
     {
       "id": "mathematics-face-shape",
       "en": "face shape",
       "bn": "মুখ আকৃতি",
       "emoji": "⬜",
-      "roman": "mukh akriti"
+      "exampleEn": "Show me face shape.",
+      "exampleBn": "আমাকে মুখ আকৃতি দেখাও।"
     },
     {
       "id": "mathematics-surface",
       "en": "surface",
       "bn": "পরিসথো",
       "emoji": "⬜",
-      "roman": "pristho"
+      "exampleEn": "We learned about surface.",
+      "exampleBn": "আমরা পরিসথো শিখেছি।"
     },
     {
       "id": "mathematics-inside",
       "en": "inside",
       "bn": "ভিতোরে",
       "emoji": "📦",
-      "roman": "bhitore"
+      "exampleEn": "This is inside.",
+      "exampleBn": "এটা ভিতোরে।"
     },
     {
       "id": "mathematics-outside",
       "en": "outside",
       "bn": "ভিরে",
       "emoji": "📦",
-      "roman": "bhaire"
+      "exampleEn": "I can say outside.",
+      "exampleBn": "আমি ভিরে বলতে পারি।"
     },
     {
       "id": "mathematics-between",
       "en": "between",
       "bn": "মাঝে",
       "emoji": "↔️",
-      "roman": "majhe"
+      "exampleEn": "Show me between.",
+      "exampleBn": "আমাকে মাঝে দেখাও।"
     },
     {
       "id": "mathematics-middle",
       "en": "middle",
       "bn": "মোড়হে",
       "emoji": "🎯",
-      "roman": "moddhe"
+      "exampleEn": "We learned about middle.",
+      "exampleBn": "আমরা মোড়হে শিখেছি।"
     },
     {
       "id": "mathematics-next-to",
       "en": "next to",
       "bn": "পাশে",
       "emoji": "↔️",
-      "roman": "pashe"
+      "exampleEn": "This is next to.",
+      "exampleBn": "এটা পাশে।"
     },
     {
       "id": "mathematics-above",
       "en": "above",
       "bn": "উপোরে",
       "emoji": "⬆️",
-      "roman": "upore"
+      "exampleEn": "I can say above.",
+      "exampleBn": "আমি উপোরে বলতে পারি।"
     },
     {
       "id": "mathematics-below",
       "en": "below",
       "bn": "নিচে",
       "emoji": "⬇️",
-      "roman": "niche"
+      "exampleEn": "Show me below.",
+      "exampleBn": "আমাকে নিচে দেখাও।"
     },
     {
       "id": "mathematics-left-side",
       "en": "left side",
       "bn": "বাম",
       "emoji": "⬅️",
-      "roman": "bam"
+      "exampleEn": "We learned about left side.",
+      "exampleBn": "আমরা বাম শিখেছি।"
     },
     {
       "id": "mathematics-right-side",
       "en": "right side",
       "bn": "ডান",
       "emoji": "➡️",
-      "roman": "dan"
+      "exampleEn": "This is right side.",
+      "exampleBn": "এটা ডান।"
     },
     {
       "id": "mathematics-forward",
       "en": "forward",
       "bn": "অগিযে",
       "emoji": "➡️",
-      "roman": "agiye"
+      "exampleEn": "I can say forward.",
+      "exampleBn": "আমি অগিযে বলতে পারি।"
     },
     {
       "id": "mathematics-backward",
       "en": "backward",
       "bn": "পিচোনে",
       "emoji": "⬅️",
-      "roman": "pichone"
+      "exampleEn": "Show me backward.",
+      "exampleBn": "আমাকে পিচোনে দেখাও।"
     },
     {
       "id": "mathematics-upward",
       "en": "upward",
       "bn": "উপবরদ",
       "emoji": "⬆️",
-      "roman": "upward"
+      "exampleEn": "We learned about upward.",
+      "exampleBn": "আমরা উপবরদ শিখেছি।"
     },
     {
       "id": "mathematics-downward",
       "en": "downward",
       "bn": "দোবনবরদ",
       "emoji": "⬇️",
-      "roman": "downward"
+      "exampleEn": "This is downward.",
+      "exampleBn": "এটা দোবনবরদ।"
     },
     {
       "id": "mathematics-clockwise",
       "en": "clockwise",
       "bn": "ঘোরিের দিক",
       "emoji": "🔄",
-      "roman": "ghorier dik"
+      "exampleEn": "I can say clockwise.",
+      "exampleBn": "আমি ঘোরিের দিক বলতে পারি।"
     },
     {
       "id": "mathematics-counterclockwise",
       "en": "counterclockwise",
       "bn": "উলতো দিক",
       "emoji": "🔃",
-      "roman": "ulto dik"
+      "exampleEn": "Show me counterclockwise.",
+      "exampleBn": "আমাকে উলতো দিক দেখাও।"
     },
     {
       "id": "mathematics-heavy",
       "en": "heavy",
       "bn": "ভারী",
       "emoji": "🏋️",
-      "roman": "bhari"
+      "exampleEn": "We learned about heavy.",
+      "exampleBn": "আমরা ভারী শিখেছি।"
     },
     {
       "id": "mathematics-light-weight",
       "en": "light weight",
       "bn": "হালকা",
       "emoji": "🪶",
-      "roman": "halka"
+      "exampleEn": "This is light weight.",
+      "exampleBn": "এটা হালকা।"
     },
     {
       "id": "mathematics-empty",
       "en": "empty",
       "bn": "খালি",
       "emoji": "⬜",
-      "roman": "khali"
+      "exampleEn": "I can say empty.",
+      "exampleBn": "আমি খালি বলতে পারি।"
     },
     {
       "id": "mathematics-full-amount",
       "en": "full amount",
       "bn": "পূর্ণ",
       "emoji": "⬛",
-      "roman": "purno"
+      "exampleEn": "Show me full amount.",
+      "exampleBn": "আমাকে পূর্ণ দেখাও।"
     },
     {
       "id": "mathematics-double-amount",
       "en": "double amount",
       "bn": "দুগুন",
       "emoji": "✖️2",
-      "roman": "dugun"
+      "exampleEn": "We learned about double amount.",
+      "exampleBn": "আমরা দুগুন শিখেছি।"
     },
     {
       "id": "mathematics-triple-amount",
       "en": "triple amount",
       "bn": "তিগুন",
       "emoji": "✖️3",
-      "roman": "tigun"
+      "exampleEn": "This is triple amount.",
+      "exampleBn": "এটা তিগুন।"
     },
     {
       "id": "mathematics-sort-items",
       "en": "sort items",
       "bn": "সাজানো",
       "emoji": "📊",
-      "roman": "sajano"
+      "exampleEn": "I can say sort items.",
+      "exampleBn": "আমি সাজানো বলতে পারি।"
     },
     {
       "id": "mathematics-order-items",
       "en": "order items",
       "bn": "ক্রম",
       "emoji": "📊",
-      "roman": "krom"
+      "exampleEn": "Show me order items.",
+      "exampleBn": "আমাকে ক্রম দেখাও।"
     },
     {
       "id": "mathematics-match-pairs",
       "en": "match pairs",
       "bn": "জোড়া",
       "emoji": "👯",
-      "roman": "jora"
+      "exampleEn": "We learned about match pairs.",
+      "exampleBn": "আমরা জোড়া শিখেছি।"
     },
     {
       "id": "mathematics-compare-sizes",
       "en": "compare sizes",
       "bn": "তুলনা",
       "emoji": "⚖️",
-      "roman": "tulona"
+      "exampleEn": "This is compare sizes.",
+      "exampleBn": "এটা তুলনা।"
     },
     {
       "id": "mathematics-estimate",
       "en": "estimate",
       "bn": "অনুমান",
       "emoji": "🤔",
-      "roman": "anuman"
+      "exampleEn": "I can say estimate.",
+      "exampleBn": "আমি অনুমান বলতে পারি।"
     },
     {
       "id": "mathematics-exactly",
       "en": "exactly",
       "bn": "ঠিক",
       "emoji": "🎯",
-      "roman": "thik"
+      "exampleEn": "Show me exactly.",
+      "exampleBn": "আমাকে ঠিক দেখাও।"
     },
     {
       "id": "mathematics-approximately",
       "en": "approximately",
       "bn": "প্রায়",
       "emoji": "≈",
-      "roman": "praye"
+      "exampleEn": "We learned about approximately.",
+      "exampleBn": "আমরা প্রায় শিখেছি।"
     },
     {
       "id": "mathematics-abacus",
       "en": "abacus",
       "bn": "গণনা ফ্রেম",
       "emoji": "🧮",
-      "roman": "abacus"
+      "exampleEn": "This is abacus.",
+      "exampleBn": "এটা গণনা ফ্রেম।"
     },
     {
       "id": "mathematics-calculator",
       "en": "calculator",
       "bn": "ক্যালকুলেটার",
       "emoji": "🧮",
-      "roman": "calculator"
+      "exampleEn": "I can say calculator.",
+      "exampleBn": "আমি ক্যালকুলেটার বলতে পারি।"
     },
     {
       "id": "mathematics-digit-symbol",
       "en": "digit symbol",
       "bn": "সংখ্যা চিনহো",
       "emoji": "#️⃣",
-      "roman": "songkha chinho"
+      "exampleEn": "Show me digit symbol.",
+      "exampleBn": "আমাকে সংখ্যা চিনহো দেখাও।"
     },
     {
       "id": "mathematics-fraction-part",
       "en": "fraction part",
       "bn": "ভগ্নাংশ",
       "emoji": "½",
-      "roman": "bhag"
+      "exampleEn": "We learned about fraction part.",
+      "exampleBn": "আমরা ভগ্নাংশ শিখেছি।"
     },
     {
       "id": "mathematics-decimal-point",
       "en": "decimal point",
       "bn": "দশমিক",
       "emoji": ".",
-      "roman": "doshomik"
+      "exampleEn": "This is decimal point.",
+      "exampleBn": "এটা দশমিক।"
     },
     {
       "id": "mathematics-percent",
       "en": "percent",
       "bn": "শতাংশ",
       "emoji": "%",
-      "roman": "shatangsho"
+      "exampleEn": "I can say percent.",
+      "exampleBn": "আমি শতাংশ বলতে পারি।"
     },
     {
       "id": "mathematics-ratio",
       "en": "ratio",
       "bn": "অনুপাত",
       "emoji": "∶",
-      "roman": "anupat"
+      "exampleEn": "Show me ratio.",
+      "exampleBn": "আমাকে অনুপাত দেখাও।"
     },
     {
       "id": "mathematics-proportion",
       "en": "proportion",
       "bn": "সমপাত",
       "emoji": "⚖️",
-      "roman": "samopat"
+      "exampleEn": "We learned about proportion.",
+      "exampleBn": "আমরা সমপাত শিখেছি।"
     },
     {
       "id": "mathematics-symmetry",
       "en": "symmetry",
       "bn": "সমমিতি",
       "emoji": "🪞",
-      "roman": "sammmito"
+      "exampleEn": "This is symmetry.",
+      "exampleBn": "এটা সমমিতি।"
     },
     {
       "id": "mathematics-grid",
       "en": "grid",
       "bn": "গ্রিড",
       "emoji": "▦",
-      "roman": "grid"
+      "exampleEn": "I can say grid.",
+      "exampleBn": "আমি গ্রিড বলতে পারি।"
     },
     {
       "id": "mathematics-row",
       "en": "row",
       "bn": "সারি",
       "emoji": "➡️",
-      "roman": "sor"
+      "exampleEn": "Show me row.",
+      "exampleBn": "আমাকে সারি দেখাও।"
     },
     {
       "id": "mathematics-column",
       "en": "column",
       "bn": "স্তম্ভ",
       "emoji": "⬇️",
-      "roman": "stambho"
+      "exampleEn": "We learned about column.",
+      "exampleBn": "আমরা স্তম্ভ শিখেছি।"
     },
     {
       "id": "mathematics-block-tower",
       "en": "block tower",
       "bn": "বলোচক",
       "emoji": "🧱",
-      "roman": "block"
+      "exampleEn": "This is block tower.",
+      "exampleBn": "এটা বলোচক।"
     },
     {
       "id": "mathematics-building-blocks",
       "en": "building blocks",
       "bn": "বলোচক",
       "emoji": "🧱",
-      "roman": "block"
+      "exampleEn": "I can say building blocks.",
+      "exampleBn": "আমি বলোচক বলতে পারি।"
     },
     {
       "id": "mathematics-set-of-items",
       "en": "set of items",
       "bn": "সেত",
       "emoji": "📦",
-      "roman": "set"
+      "exampleEn": "Show me set of items.",
+      "exampleBn": "আমাকে সেত দেখাও।"
     },
     {
       "id": "mathematics-collection",
       "en": "collection",
       "bn": "সংগ্রহ",
       "emoji": "📦",
-      "roman": "collection"
+      "exampleEn": "We learned about collection.",
+      "exampleBn": "আমরা সংগ্রহ শিখেছি।"
     },
     {
       "id": "mathematics-graph-chart",
       "en": "graph chart",
       "bn": "গরফ",
       "emoji": "📊",
-      "roman": "graph"
+      "exampleEn": "This is graph chart.",
+      "exampleBn": "এটা গরফ।"
     },
     {
       "id": "mathematics-bar-chart",
       "en": "bar chart",
       "bn": "বর চরত",
       "emoji": "📊",
-      "roman": "bar chart"
+      "exampleEn": "I can say bar chart.",
+      "exampleBn": "আমি বর চরত বলতে পারি।"
     },
     {
       "id": "mathematics-pie-chart",
       "en": "pie chart",
       "bn": "পিে চরত",
       "emoji": "🥧",
-      "roman": "pie chart"
+      "exampleEn": "Show me pie chart.",
+      "exampleBn": "আমাকে পিে চরত দেখাও।"
     },
     {
       "id": "mathematics-data",
       "en": "data",
       "bn": "তথ্য",
       "emoji": "📊",
-      "roman": "data"
+      "exampleEn": "We learned about data.",
+      "exampleBn": "আমরা তথ্য শিখেছি।"
     },
     {
       "id": "mathematics-calendar-math",
       "en": "calendar math",
       "bn": "চলেনদর",
       "emoji": "📅",
-      "roman": "calendar"
+      "exampleEn": "This is calendar math.",
+      "exampleBn": "এটা চলেনদর।"
     },
     {
       "id": "mathematics-clock-time",
       "en": "clock time",
       "bn": "সময়",
       "emoji": "🕐",
-      "roman": "somoy"
+      "exampleEn": "I can say clock time.",
+      "exampleBn": "আমি সময় বলতে পারি।"
     },
     {
       "id": "mathematics-hour-hand",
       "en": "hour hand",
       "bn": "ঘণ্টা",
       "emoji": "🕐",
-      "roman": "ghonta"
+      "exampleEn": "Show me hour hand.",
+      "exampleBn": "আমাকে ঘণ্টা দেখাও।"
     },
     {
       "id": "mathematics-minute-hand",
       "en": "minute hand",
       "bn": "মিনিট",
       "emoji": "🕐",
-      "roman": "mini"
+      "exampleEn": "We learned about minute hand.",
+      "exampleBn": "আমরা মিনিট শিখেছি।"
     },
     {
       "id": "mathematics-second-hand",
       "en": "second hand",
       "bn": "সেকেন্ড",
       "emoji": "🕐",
-      "roman": "sec"
+      "exampleEn": "This is second hand.",
+      "exampleBn": "এটা সেকেন্ড।"
     },
     {
       "id": "mathematics-timer",
       "en": "timer",
       "bn": "টাইমার",
       "emoji": "⏱️",
-      "roman": "timer"
+      "exampleEn": "I can say timer.",
+      "exampleBn": "আমি টাইমার বলতে পারি।"
     },
     {
       "id": "mathematics-stopwatch",
       "en": "stopwatch",
       "bn": "স্টপওয়াচ",
       "emoji": "⏱️",
-      "roman": "stopwatch"
+      "exampleEn": "Show me stopwatch.",
+      "exampleBn": "আমাকে স্টপওয়াচ দেখাও।"
     },
     {
       "id": "mathematics-centimeter",
       "en": "centimeter",
       "bn": "সেন্টিমিটার",
       "emoji": "📏",
-      "roman": "sentimitar"
+      "exampleEn": "We learned about centimeter.",
+      "exampleBn": "আমরা সেন্টিমিটার শিখেছি।"
     },
     {
       "id": "mathematics-meter-unit",
       "en": "meter unit",
       "bn": "মিটার",
       "emoji": "📏",
-      "roman": "mitar"
+      "exampleEn": "This is meter unit.",
+      "exampleBn": "এটা মিটার।"
     },
     {
       "id": "mathematics-kilometer",
       "en": "kilometer",
       "bn": "কিলোমিটার",
       "emoji": "📏",
-      "roman": "kilomitar"
+      "exampleEn": "I can say kilometer.",
+      "exampleBn": "আমি কিলোমিটার বলতে পারি।"
     },
     {
       "id": "mathematics-gram",
       "en": "gram",
       "bn": "গ্রাম",
       "emoji": "⚖️",
-      "roman": "gram"
+      "exampleEn": "Show me gram.",
+      "exampleBn": "আমাকে গ্রাম দেখাও।"
     },
     {
       "id": "mathematics-kilogram",
       "en": "kilogram",
       "bn": "কিলোগ্রাম",
       "emoji": "⚖️",
-      "roman": "kilogram"
+      "exampleEn": "We learned about kilogram.",
+      "exampleBn": "আমরা কিলোগ্রাম শিখেছি।"
     },
     {
       "id": "mathematics-liter",
       "en": "liter",
       "bn": "লিটার",
       "emoji": "🫗",
-      "roman": "liter"
+      "exampleEn": "This is liter.",
+      "exampleBn": "এটা লিটার।"
     },
     {
       "id": "mathematics-cup-measure",
       "en": "cup measure",
       "bn": "কাপ মাপ",
       "emoji": "☕",
-      "roman": "kap map"
+      "exampleEn": "I can say cup measure.",
+      "exampleBn": "আমি কাপ মাপ বলতে পারি।"
     },
     {
       "id": "mathematics-spoon-measure",
       "en": "spoon measure",
       "bn": "চামচ মাপ",
       "emoji": "🥄",
-      "roman": "chamoch map"
+      "exampleEn": "Show me spoon measure.",
+      "exampleBn": "আমাকে চামচ মাপ দেখাও।"
     },
     {
       "id": "mathematics-big-number-idea",
       "en": "big number idea",
       "bn": "বড় সংখ্যা",
       "emoji": "📈",
-      "roman": "boro songkha"
+      "exampleEn": "We learned about big number idea.",
+      "exampleBn": "আমরা বড় সংখ্যা শিখেছি।"
     },
     {
       "id": "mathematics-small-number-idea",
       "en": "small number idea",
       "bn": "ছস্ট সংখ্যা",
       "emoji": "📉",
-      "roman": "chhoto songkha"
+      "exampleEn": "This is small number idea.",
+      "exampleBn": "এটা ছস্ট সংখ্যা।"
     },
     {
       "id": "mathematics-long-object",
       "en": "long object",
       "bn": "লম্বা",
       "emoji": "📏",
-      "roman": "lamba"
+      "exampleEn": "I can say long object.",
+      "exampleBn": "আমি লম্বা বলতে পারি।"
     },
     {
       "id": "mathematics-short-object",
       "en": "short object",
       "bn": "ছোট",
       "emoji": "📏",
-      "roman": "chhoto"
+      "exampleEn": "Show me short object.",
+      "exampleBn": "আমাকে ছোট দেখাও।"
     },
     {
       "id": "mathematics-tall-object",
       "en": "tall object",
       "bn": "লম্বা",
       "emoji": "📏",
-      "roman": "lomba"
+      "exampleEn": "We learned about tall object.",
+      "exampleBn": "আমরা লম্বা শিখেছি।"
     },
     {
       "id": "mathematics-wide-object",
       "en": "wide object",
       "bn": "প্রশস্ত",
       "emoji": "↔️",
-      "roman": "proshosto"
+      "exampleEn": "This is wide object.",
+      "exampleBn": "এটা প্রশস্ত।"
     },
     {
       "id": "mathematics-narrow-object",
       "en": "narrow object",
       "bn": "সংকীর্ণ",
       "emoji": "↔️",
-      "roman": "sankuchito"
+      "exampleEn": "I can say narrow object.",
+      "exampleBn": "আমি সংকীর্ণ বলতে পারি।"
     },
     {
       "id": "mathematics-thick-object",
       "en": "thick object",
       "bn": "মোটা",
       "emoji": "📏",
-      "roman": "mot"
+      "exampleEn": "Show me thick object.",
+      "exampleBn": "আমাকে মোটা দেখাও।"
     },
     {
       "id": "mathematics-thin-object",
       "en": "thin object",
       "bn": "পাতলা",
       "emoji": "📏",
-      "roman": "patla"
+      "exampleEn": "We learned about thin object.",
+      "exampleBn": "আমরা পাতলা শিখেছি।"
     },
     {
       "id": "mathematics-deep",
       "en": "deep",
       "bn": "গভীর",
       "emoji": "🕳️",
-      "roman": "gobhir"
+      "exampleEn": "This is deep.",
+      "exampleBn": "এটা গভীর।"
     },
     {
       "id": "mathematics-shallow",
       "en": "shallow",
       "bn": "অগভীর",
       "emoji": "🕳️",
-      "roman": "ohalpo"
+      "exampleEn": "I can say shallow.",
+      "exampleBn": "আমি অগভীর বলতে পারি।"
     },
     {
       "id": "mathematics-near",
       "en": "near",
       "bn": "কাছে",
       "emoji": "📍",
-      "roman": "kache"
+      "exampleEn": "Show me near.",
+      "exampleBn": "আমাকে কাছে দেখাও।"
     },
     {
       "id": "mathematics-far",
       "en": "far",
       "bn": "দুরে",
       "emoji": "📍",
-      "roman": "dure"
+      "exampleEn": "We learned about far.",
+      "exampleBn": "আমরা দুরে শিখেছি।"
     },
     {
       "id": "mathematics-close-together",
       "en": "close together",
       "bn": "কাছাকাছি",
       "emoji": "🤏",
-      "roman": "kache kache"
+      "exampleEn": "This is close together.",
+      "exampleBn": "এটা কাছাকাছি।"
     },
     {
       "id": "mathematics-far-apart",
       "en": "far apart",
       "bn": "দূর দূর",
       "emoji": "↔️",
-      "roman": "dure dure"
+      "exampleEn": "I can say far apart.",
+      "exampleBn": "আমি দূর দূর বলতে পারি।"
     },
     {
       "id": "mathematics-overlap",
       "en": "overlap",
       "bn": "ওভেরলপ",
       "emoji": "🔲",
-      "roman": "overlap"
+      "exampleEn": "Show me overlap.",
+      "exampleBn": "আমাকে ওভেরলপ দেখাও।"
     },
     {
       "id": "mathematics-connect-dots",
       "en": "connect dots",
       "bn": "বিন্দু যোগ",
       "emoji": "⚫",
-      "roman": "bindu jog"
+      "exampleEn": "We learned about connect dots.",
+      "exampleBn": "আমরা বিন্দু যোগ শিখেছি।"
     },
     {
       "id": "mathematics-trace-shape",
       "en": "trace shape",
       "bn": "আকৃতি অনুকোরোন",
       "emoji": "✏️",
-      "roman": "akriti anukoron"
+      "exampleEn": "This is trace shape.",
+      "exampleBn": "এটা আকৃতি অনুকোরোন।"
     },
     {
       "id": "mathematics-draw-shape",
       "en": "draw shape",
       "bn": "আকৃতি অক",
       "emoji": "✏️",
-      "roman": "akriti aka"
+      "exampleEn": "I can say draw shape.",
+      "exampleBn": "আমি আকৃতি অক বলতে পারি।"
     },
     {
       "id": "mathematics-cut-shape",
       "en": "cut shape",
       "bn": "আকৃতি কাটা",
       "emoji": "✂️",
-      "roman": "akriti kata"
+      "exampleEn": "Show me cut shape.",
+      "exampleBn": "আমাকে আকৃতি কাটা দেখাও।"
     },
     {
       "id": "mathematics-fold-shape",
       "en": "fold shape",
       "bn": "আকৃতি ভজ",
       "emoji": "📄",
-      "roman": "akriti bhaj"
+      "exampleEn": "We learned about fold shape.",
+      "exampleBn": "আমরা আকৃতি ভজ শিখেছি।"
     },
     {
       "id": "mathematics-flip-shape",
       "en": "flip shape",
       "bn": "উলতনো",
       "emoji": "🔄",
-      "roman": "ultano"
+      "exampleEn": "This is flip shape.",
+      "exampleBn": "এটা উলতনো।"
     },
     {
       "id": "mathematics-rotate-shape",
       "en": "rotate shape",
       "bn": "ঘুরানো",
       "emoji": "🔄",
-      "roman": "ghurano"
+      "exampleEn": "I can say rotate shape.",
+      "exampleBn": "আমি ঘুরানো বলতে পারি।"
     },
     {
       "id": "mathematics-slide-shape",
       "en": "slide shape",
       "bn": "স্লাইড",
       "emoji": "➡️",
-      "roman": "slide"
+      "exampleEn": "Show me slide shape.",
+      "exampleBn": "আমাকে স্লাইড দেখাও।"
     },
     {
       "id": "mathematics-stack-blocks",
       "en": "stack blocks",
       "bn": "স্তূপ",
       "emoji": "📚",
-      "roman": "stack"
+      "exampleEn": "We learned about stack blocks.",
+      "exampleBn": "আমরা স্তূপ শিখেছি।"
     },
     {
       "id": "mathematics-balance-scale",
       "en": "balance scale",
       "bn": "তরাজু",
       "emoji": "⚖️",
-      "roman": "tarajui"
+      "exampleEn": "This is balance scale.",
+      "exampleBn": "এটা তরাজু।"
     },
     {
       "id": "mathematics-weigh-objects",
       "en": "weigh objects",
       "bn": "ওজন",
       "emoji": "⚖️",
-      "roman": "ojon"
+      "exampleEn": "I can say weigh objects.",
+      "exampleBn": "আমি ওজন বলতে পারি।"
     },
     {
       "id": "mathematics-count-objects",
       "en": "count objects",
       "bn": "গণনা",
       "emoji": "🔢",
-      "roman": "gonona"
+      "exampleEn": "Show me count objects.",
+      "exampleBn": "আমাকে গণনা দেখাও।"
     },
     {
       "id": "mathematics-math-puzzle",
       "en": "math puzzle",
       "bn": "গণিত ধাঁধা",
       "emoji": "🧩",
-      "roman": "math puzzle"
+      "exampleEn": "We learned about math puzzle.",
+      "exampleBn": "আমরা গণিত ধাঁধা শিখেছি।"
     },
     {
       "id": "mathematics-math-game",
       "en": "math game",
       "bn": "গণিত খেলা",
       "emoji": "🎲",
-      "roman": "math khela"
+      "exampleEn": "This is math game.",
+      "exampleBn": "এটা গণিত খেলা।"
     },
     {
       "id": "mathematics-math-book",
       "en": "math book",
       "bn": "গণিত বই",
       "emoji": "📘",
-      "roman": "gonit boi"
+      "exampleEn": "I can say math book.",
+      "exampleBn": "আমি গণিত বই বলতে পারি।"
     },
     {
       "id": "mathematics-math-class",
       "en": "math class",
       "bn": "গণিত ক্লাস",
       "emoji": "🏫",
-      "roman": "gonit class"
+      "exampleEn": "Show me math class.",
+      "exampleBn": "আমাকে গণিত ক্লাস দেখাও।"
     },
     {
       "id": "mathematics-math-teacher",
       "en": "math teacher",
       "bn": "গণিত শিক্ষক",
       "emoji": "👩‍🏫",
-      "roman": "gonit shikkhok"
+      "exampleEn": "We learned about math teacher.",
+      "exampleBn": "আমরা গণিত শিক্ষক শিখেছি।"
     },
     {
       "id": "mathematics-math-homework",
       "en": "math homework",
       "bn": "গণিত বাড়ির কাজ",
       "emoji": "📝",
-      "roman": "gonit homework"
+      "exampleEn": "This is math homework.",
+      "exampleBn": "এটা গণিত বাড়ির কাজ।"
     },
     {
       "id": "mathematics-math-test",
       "en": "math test",
       "bn": "গণিত পরীক্ষা",
       "emoji": "📝",
-      "roman": "gonit poriksha"
+      "exampleEn": "I can say math test.",
+      "exampleBn": "আমি গণিত পরীক্ষা বলতে পারি।"
     },
     {
       "id": "mathematics-math-star",
       "en": "math star",
       "bn": "গণিত তারকা",
       "emoji": "⭐",
-      "roman": "gonit star"
+      "exampleEn": "Show me math star.",
+      "exampleBn": "আমাকে গণিত তারকা দেখাও।"
     },
     {
       "id": "mathematics-thirty-three",
       "en": "thirty-three",
       "bn": "তেত্রিশ",
-      "roman": "tetrish"
+      "exampleEn": "We learned about thirty-three.",
+      "exampleBn": "আমরা তেত্রিশ শিখেছি।"
     },
     {
       "id": "mathematics-thirty-four",
       "en": "thirty-four",
       "bn": "চৌত্রিশ",
-      "roman": "choutrish"
+      "exampleEn": "This is thirty-four.",
+      "exampleBn": "এটা চৌত্রিশ।"
     },
     {
       "id": "mathematics-thirty-six",
       "en": "thirty-six",
       "bn": "ছত্রিশ",
-      "roman": "chhotrish"
+      "exampleEn": "I can say thirty-six.",
+      "exampleBn": "আমি ছত্রিশ বলতে পারি।"
     },
     {
       "id": "mathematics-thirty-seven",
       "en": "thirty-seven",
       "bn": "সাঁইত্রিশ",
-      "roman": "shaitrish"
+      "exampleEn": "Show me thirty-seven.",
+      "exampleBn": "আমাকে সাঁইত্রিশ দেখাও।"
     },
     {
       "id": "mathematics-thirty-eight",
       "en": "thirty-eight",
       "bn": "আটত্রিশ",
-      "roman": "attrish"
+      "exampleEn": "We learned about thirty-eight.",
+      "exampleBn": "আমরা আটত্রিশ শিখেছি।"
     },
     {
       "id": "mathematics-thirty-nine",
       "en": "thirty-nine",
       "bn": "ঊনচল্লিশ",
-      "roman": "unochollish"
+      "exampleEn": "This is thirty-nine.",
+      "exampleBn": "এটা ঊনচল্লিশ।"
     },
     {
       "id": "mathematics-forty-one",
       "en": "forty-one",
       "bn": "একচল্লিশ",
-      "roman": "ekchollish"
+      "exampleEn": "I can say forty-one.",
+      "exampleBn": "আমি একচল্লিশ বলতে পারি।"
     },
     {
       "id": "mathematics-forty-two",
       "en": "forty-two",
       "bn": "বিয়াল্লিশ",
-      "roman": "biyallish"
+      "exampleEn": "Show me forty-two.",
+      "exampleBn": "আমাকে বিয়াল্লিশ দেখাও।"
     },
     {
       "id": "mathematics-forty-three",
       "en": "forty-three",
       "bn": "তেতাল্লিশ",
-      "roman": "tetallish"
+      "exampleEn": "We learned about forty-three.",
+      "exampleBn": "আমরা তেতাল্লিশ শিখেছি।"
     },
     {
       "id": "mathematics-forty-four",
       "en": "forty-four",
       "bn": "চুয়াল্লিশ",
-      "roman": "chuyallish"
+      "exampleEn": "This is forty-four.",
+      "exampleBn": "এটা চুয়াল্লিশ।"
     },
     {
       "id": "mathematics-forty-six",
       "en": "forty-six",
       "bn": "ছেচল্লিশ",
-      "roman": "chechollish"
+      "exampleEn": "I can say forty-six.",
+      "exampleBn": "আমি ছেচল্লিশ বলতে পারি।"
     },
     {
       "id": "mathematics-forty-seven",
       "en": "forty-seven",
       "bn": "সাতচল্লিশ",
-      "roman": "shatchollish"
+      "exampleEn": "Show me forty-seven.",
+      "exampleBn": "আমাকে সাতচল্লিশ দেখাও।"
     },
     {
       "id": "mathematics-forty-eight",
       "en": "forty-eight",
       "bn": "আটচল্লিশ",
-      "roman": "atchollish"
+      "exampleEn": "We learned about forty-eight.",
+      "exampleBn": "আমরা আটচল্লিশ শিখেছি।"
     },
     {
       "id": "mathematics-forty-nine",
       "en": "forty-nine",
       "bn": "ঊনপঞ্চাশ",
-      "roman": "unoponchash"
+      "exampleEn": "This is forty-nine.",
+      "exampleBn": "এটা ঊনপঞ্চাশ।"
     },
     {
       "id": "mathematics-fifty-one",
       "en": "fifty-one",
       "bn": "একান্ন",
-      "roman": "ekanno"
+      "exampleEn": "I can say fifty-one.",
+      "exampleBn": "আমি একান্ন বলতে পারি।"
     },
     {
       "id": "mathematics-fifty-two",
       "en": "fifty-two",
       "bn": "বায়ান্ন",
-      "roman": "bayanno"
+      "exampleEn": "Show me fifty-two.",
+      "exampleBn": "আমাকে বায়ান্ন দেখাও।"
     },
     {
       "id": "mathematics-fifty-three",
       "en": "fifty-three",
       "bn": "তিপ্পান্ন",
-      "roman": "tippanno"
+      "exampleEn": "We learned about fifty-three.",
+      "exampleBn": "আমরা তিপ্পান্ন শিখেছি।"
     },
     {
       "id": "mathematics-fifty-four",
       "en": "fifty-four",
       "bn": "চুয়ান্ন",
-      "roman": "chuyanno"
+      "exampleEn": "This is fifty-four.",
+      "exampleBn": "এটা চুয়ান্ন।"
     },
     {
       "id": "mathematics-fifty-five",
       "en": "fifty-five",
       "bn": "পঞ্চান্ন",
-      "roman": "ponchanno"
+      "exampleEn": "I can say fifty-five.",
+      "exampleBn": "আমি পঞ্চান্ন বলতে পারি।"
     },
     {
       "id": "mathematics-fifty-six",
       "en": "fifty-six",
       "bn": "ছাপ্পান্ন",
-      "roman": "chhappanno"
+      "exampleEn": "Show me fifty-six.",
+      "exampleBn": "আমাকে ছাপ্পান্ন দেখাও।"
     },
     {
       "id": "mathematics-fifty-seven",
       "en": "fifty-seven",
       "bn": "সাতান্ন",
-      "roman": "shatanno"
+      "exampleEn": "We learned about fifty-seven.",
+      "exampleBn": "আমরা সাতান্ন শিখেছি।"
     },
     {
       "id": "mathematics-fifty-eight",
       "en": "fifty-eight",
       "bn": "আটান্ন",
-      "roman": "atanno"
+      "exampleEn": "This is fifty-eight.",
+      "exampleBn": "এটা আটান্ন।"
     },
     {
       "id": "mathematics-fifty-nine",
       "en": "fifty-nine",
       "bn": "ঊনষাট",
-      "roman": "unoshat"
+      "exampleEn": "I can say fifty-nine.",
+      "exampleBn": "আমি ঊনষাট বলতে পারি।"
     },
     {
       "id": "mathematics-sixty-one",
       "en": "sixty-one",
       "bn": "একষট্টি",
-      "roman": "ekshotti"
+      "exampleEn": "Show me sixty-one.",
+      "exampleBn": "আমাকে একষট্টি দেখাও।"
     },
     {
       "id": "mathematics-sixty-two",
       "en": "sixty-two",
       "bn": "বাষট্টি",
-      "roman": "bashotti"
+      "exampleEn": "We learned about sixty-two.",
+      "exampleBn": "আমরা বাষট্টি শিখেছি।"
     },
     {
       "id": "mathematics-sixty-three",
       "en": "sixty-three",
       "bn": "তেষট্টি",
-      "roman": "teshotti"
+      "exampleEn": "This is sixty-three.",
+      "exampleBn": "এটা তেষট্টি।"
     },
     {
       "id": "mathematics-sixty-four",
       "en": "sixty-four",
       "bn": "চৌষট্টি",
-      "roman": "choushotti"
+      "exampleEn": "I can say sixty-four.",
+      "exampleBn": "আমি চৌষট্টি বলতে পারি।"
     },
     {
       "id": "mathematics-sixty-five",
       "en": "sixty-five",
       "bn": "পঁয়ষট্টি",
-      "roman": "poyoshotti"
+      "exampleEn": "Show me sixty-five.",
+      "exampleBn": "আমাকে পঁয়ষট্টি দেখাও।"
     },
     {
       "id": "mathematics-sixty-six",
       "en": "sixty-six",
       "bn": "ছেষট্টি",
-      "roman": "cheshotti"
+      "exampleEn": "We learned about sixty-six.",
+      "exampleBn": "আমরা ছেষট্টি শিখেছি।"
     },
     {
       "id": "mathematics-sixty-seven",
       "en": "sixty-seven",
       "bn": "সাতষট্টি",
-      "roman": "shatshotti"
+      "exampleEn": "This is sixty-seven.",
+      "exampleBn": "এটা সাতষট্টি।"
     },
     {
       "id": "mathematics-sixty-eight",
       "en": "sixty-eight",
       "bn": "আটষট্টি",
-      "roman": "atshotti"
+      "exampleEn": "I can say sixty-eight.",
+      "exampleBn": "আমি আটষট্টি বলতে পারি।"
     },
     {
       "id": "mathematics-sixty-nine",
       "en": "sixty-nine",
       "bn": "ঊনসত্তর",
-      "roman": "unoshottor"
+      "exampleEn": "Show me sixty-nine.",
+      "exampleBn": "আমাকে ঊনসত্তর দেখাও।"
     },
     {
       "id": "mathematics-seventy-one",
       "en": "seventy-one",
       "bn": "একাত্তর",
-      "roman": "ekattor"
+      "exampleEn": "We learned about seventy-one.",
+      "exampleBn": "আমরা একাত্তর শিখেছি।"
     },
     {
       "id": "mathematics-seventy-two",
       "en": "seventy-two",
       "bn": "বাহাত্তর",
-      "roman": "bahattor"
+      "exampleEn": "This is seventy-two.",
+      "exampleBn": "এটা বাহাত্তর।"
     },
     {
       "id": "mathematics-seventy-three",
       "en": "seventy-three",
       "bn": "তিয়াত্তর",
-      "roman": "tiyattor"
+      "exampleEn": "I can say seventy-three.",
+      "exampleBn": "আমি তিয়াত্তর বলতে পারি।"
     },
     {
       "id": "mathematics-seventy-four",
       "en": "seventy-four",
       "bn": "চুয়াত্তর",
-      "roman": "chuyattor"
+      "exampleEn": "Show me seventy-four.",
+      "exampleBn": "আমাকে চুয়াত্তর দেখাও।"
     },
     {
       "id": "mathematics-seventy-five",
       "en": "seventy-five",
       "bn": "পঁচাত্তর",
-      "roman": "pochattor"
+      "exampleEn": "We learned about seventy-five.",
+      "exampleBn": "আমরা পঁচাত্তর শিখেছি।"
     },
     {
       "id": "mathematics-seventy-six",
       "en": "seventy-six",
       "bn": "ছিয়াত্তর",
-      "roman": "chiyattor"
+      "exampleEn": "This is seventy-six.",
+      "exampleBn": "এটা ছিয়াত্তর।"
     },
     {
       "id": "mathematics-seventy-seven",
       "en": "seventy-seven",
       "bn": "সাতাত্তর",
-      "roman": "shatattor"
+      "exampleEn": "I can say seventy-seven.",
+      "exampleBn": "আমি সাতাত্তর বলতে পারি।"
     },
     {
       "id": "mathematics-seventy-eight",
       "en": "seventy-eight",
       "bn": "আটাত্তর",
-      "roman": "atattor"
+      "exampleEn": "Show me seventy-eight.",
+      "exampleBn": "আমাকে আটাত্তর দেখাও।"
     },
     {
       "id": "mathematics-seventy-nine",
       "en": "seventy-nine",
       "bn": "ঊনআশি",
-      "roman": "unoashi"
+      "exampleEn": "We learned about seventy-nine.",
+      "exampleBn": "আমরা ঊনআশি শিখেছি।"
     },
     {
       "id": "mathematics-eighty-one",
       "en": "eighty-one",
       "bn": "একাশি",
-      "roman": "ekashi"
+      "exampleEn": "This is eighty-one.",
+      "exampleBn": "এটা একাশি।"
     },
     {
       "id": "mathematics-eighty-two",
       "en": "eighty-two",
       "bn": "বিরাশি",
-      "roman": "birashi"
+      "exampleEn": "I can say eighty-two.",
+      "exampleBn": "আমি বিরাশি বলতে পারি।"
     },
     {
       "id": "mathematics-eighty-three",
       "en": "eighty-three",
       "bn": "তিরাশি",
-      "roman": "tirashi"
+      "exampleEn": "Show me eighty-three.",
+      "exampleBn": "আমাকে তিরাশি দেখাও।"
     },
     {
       "id": "mathematics-eighty-four",
       "en": "eighty-four",
       "bn": "চুরাশি",
-      "roman": "curashi"
+      "exampleEn": "We learned about eighty-four.",
+      "exampleBn": "আমরা চুরাশি শিখেছি।"
     },
     {
       "id": "mathematics-eighty-five",
       "en": "eighty-five",
       "bn": "পঁচাশি",
-      "roman": "pochashi"
+      "exampleEn": "This is eighty-five.",
+      "exampleBn": "এটা পঁচাশি।"
     },
     {
       "id": "mathematics-eighty-six",
       "en": "eighty-six",
       "bn": "ছিয়াশি",
-      "roman": "chiyashi"
+      "exampleEn": "I can say eighty-six.",
+      "exampleBn": "আমি ছিয়াশি বলতে পারি।"
     },
     {
       "id": "mathematics-eighty-seven",
       "en": "eighty-seven",
       "bn": "সাতাশি",
-      "roman": "shatashi"
+      "exampleEn": "Show me eighty-seven.",
+      "exampleBn": "আমাকে সাতাশি দেখাও।"
     },
     {
       "id": "mathematics-eighty-eight",
       "en": "eighty-eight",
       "bn": "আটাশি",
-      "roman": "atashi"
+      "exampleEn": "We learned about eighty-eight.",
+      "exampleBn": "আমরা আটাশি শিখেছি।"
     },
     {
       "id": "mathematics-eighty-nine",
       "en": "eighty-nine",
       "bn": "ঊননব্বই",
-      "roman": "unonobboi"
+      "exampleEn": "This is eighty-nine.",
+      "exampleBn": "এটা ঊননব্বই।"
     },
     {
       "id": "mathematics-ninety-one",
       "en": "ninety-one",
       "bn": "একানব্বই",
-      "roman": "ekanobboi"
+      "exampleEn": "I can say ninety-one.",
+      "exampleBn": "আমি একানব্বই বলতে পারি।"
     },
     {
       "id": "mathematics-ninety-two",
       "en": "ninety-two",
       "bn": "বিরানব্বই",
-      "roman": "biranobboi"
+      "exampleEn": "Show me ninety-two.",
+      "exampleBn": "আমাকে বিরানব্বই দেখাও।"
     },
     {
       "id": "mathematics-ninety-three",
       "en": "ninety-three",
       "bn": "তিরানব্বই",
-      "roman": "tiranobboi"
+      "exampleEn": "We learned about ninety-three.",
+      "exampleBn": "আমরা তিরানব্বই শিখেছি।"
     },
     {
       "id": "mathematics-ninety-four",
       "en": "ninety-four",
       "bn": "চুরানব্বই",
-      "roman": "curanobboi"
+      "exampleEn": "This is ninety-four.",
+      "exampleBn": "এটা চুরানব্বই।"
     },
     {
       "id": "mathematics-ninety-five",
       "en": "ninety-five",
       "bn": "পঁচানব্বই",
-      "roman": "pochanobboi"
+      "exampleEn": "I can say ninety-five.",
+      "exampleBn": "আমি পঁচানব্বই বলতে পারি।"
     },
     {
       "id": "mathematics-ninety-six",
       "en": "ninety-six",
       "bn": "ছিয়ানব্বই",
-      "roman": "chiyanobboi"
+      "exampleEn": "Show me ninety-six.",
+      "exampleBn": "আমাকে ছিয়ানব্বই দেখাও।"
     },
     {
       "id": "mathematics-ninety-seven",
       "en": "ninety-seven",
       "bn": "সাতানব্বই",
-      "roman": "shatanobboi"
+      "exampleEn": "We learned about ninety-seven.",
+      "exampleBn": "আমরা সাতানব্বই শিখেছি।"
     },
     {
       "id": "mathematics-ninety-eight",
       "en": "ninety-eight",
       "bn": "আটানব্বই",
-      "roman": "atanobboi"
+      "exampleEn": "This is ninety-eight.",
+      "exampleBn": "এটা আটানব্বই।"
     },
     {
       "id": "mathematics-ninety-nine",
       "en": "ninety-nine",
       "bn": "নিরানব্বই",
-      "roman": "niranobboi"
+      "exampleEn": "I can say ninety-nine.",
+      "exampleBn": "আমি নিরানব্বই বলতে পারি।"
     },
     {
       "id": "mathematics-one-hundred",
       "en": "one hundred",
       "bn": "একশো",
-      "roman": "eksho"
+      "exampleEn": "Show me one hundred.",
+      "exampleBn": "আমাকে একশো দেখাও।"
     }
   ]
 }

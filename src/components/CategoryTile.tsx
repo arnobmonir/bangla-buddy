@@ -5,22 +5,14 @@ import styles from './CategoryTile.module.css'
 type Props = {
   category: Category
   index?: number
-  featured?: boolean
   onSelect: (category: Category) => void
 }
 
-export function CategoryTile({
-  category,
-  index = 0,
-  featured = false,
-  onSelect,
-}: Props) {
-  const unit = category.id === 'sentences' ? 'phrases' : 'words'
-
+export function CategoryTile({ category, index = 0, onSelect }: Props) {
   return (
     <button
       type="button"
-      className={`${styles.tile}${featured ? ` ${styles.featured}` : ''}`}
+      className={styles.tile}
       style={
         {
           '--cat-color': category.color,
@@ -28,7 +20,7 @@ export function CategoryTile({
         } as CSSProperties
       }
       onClick={() => onSelect(category)}
-      aria-label={`${category.nameEn}, ${category.nameBn}, ${category.wordCount} ${unit}`}
+      aria-label={`${category.nameEn}, ${category.nameBn}, ${category.wordCount} words`}
     >
       <span className={styles.icon} aria-hidden>
         {category.icon}
@@ -38,14 +30,7 @@ export function CategoryTile({
           <span className={styles.en}>{category.nameEn}</span>
           <span className={styles.bn}>{category.nameBn}</span>
         </span>
-        {featured ? (
-          <span className={styles.blurb}>
-            Short everyday lines kids can say — English, then Bangla.
-          </span>
-        ) : null}
-        <span className={styles.count}>
-          {category.wordCount} {unit}
-        </span>
+        <span className={styles.count}>{category.wordCount} words</span>
       </span>
     </button>
   )

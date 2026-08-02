@@ -29,7 +29,6 @@ type Props = {
   onBanglaEngine: (engine: BanglaEngine) => void
   onAutoAdvance: (value: boolean) => void
   onBanglaRepeat: (value: BanglaRepeat) => void
-  onShowRoman: (value: boolean) => void
   onShuffle: (value: boolean) => void
   onParentGate: (value: ParentGate) => void
   onParentPin: (value: string) => void
@@ -137,7 +136,6 @@ export function Settings({
   onBanglaEngine,
   onAutoAdvance,
   onBanglaRepeat,
-  onShowRoman,
   onShuffle,
   onParentGate,
   onParentPin,
@@ -372,12 +370,6 @@ export function Settings({
             onChange={onShuffle}
             label="Shuffle order"
             hint="Fresh order each Start"
-          />
-          <Switch
-            checked={settings.showRoman}
-            onChange={onShowRoman}
-            label="Show romanization"
-            hint="Helps parents pronounce Bangla"
           />
         </div>
       </section>

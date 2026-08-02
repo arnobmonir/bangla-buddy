@@ -1,4 +1,4 @@
-import { useMemo, type CSSProperties } from 'react'
+import type { CSSProperties } from 'react'
 import type { Category, ParentGate } from '../types/word'
 import { CategoryTile } from '../components/CategoryTile'
 import { ParentGateButton } from '../components/ParentGateButton'
@@ -9,6 +9,7 @@ type Props = {
   parentGate: ParentGate
   parentPin: string
   onSelect: (category: Category) => void
+  onOpenQuiz: () => void
   onOpenDashboard: () => void
 }
 
@@ -19,17 +20,24 @@ export function Home({
   parentGate,
   parentPin,
   onSelect,
+  onOpenQuiz,
   onOpenDashboard,
 }: Props) {
-  const { featured, wordCategories } = useMemo(() => {
-    const featuredCat = categories.find((c) => c.id === 'sentences') ?? null
-    const rest = categories.filter((c) => c.id !== 'sentences')
-    return { featured: featuredCat, wordCategories: rest }
-  }, [categories])
-
   return (
     <div className={styles.page}>
       <section className={styles.hero} aria-label="Welcome">
+        <div className={styles.topLeft}>
+          <button
+            type="button"
+            className={styles.quizBtn}
+            onClick={onOpenQuiz}
+            aria-label="Open quiz"
+          >
+            <span aria-hidden>🎯</span>
+            Quiz
+          </button>
+        </div>
+
         <div className={styles.topActions}>
           <ParentGateButton
             className={styles.dashboardBtn}
@@ -77,23 +85,12 @@ export function Home({
           <p className={styles.sectionSub}>ক্যাটাগরি বেছে নিন</p>
         </div>
 
-        {featured ? (
-          <div className={styles.featuredWrap}>
-            <CategoryTile
-              category={featured}
-              index={0}
-              featured
-              onSelect={onSelect}
-            />
-          </div>
-        ) : null}
-
         <div className={styles.grid}>
-          {wordCategories.map((category, index) => (
+          {categories.map((category, index) => (
             <CategoryTile
               key={category.id}
               category={category}
-              index={index + (featured ? 1 : 0)}
+              index={index}
               onSelect={onSelect}
             />
           ))}

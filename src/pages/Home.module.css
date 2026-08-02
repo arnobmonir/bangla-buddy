@@ -33,6 +33,34 @@
   will-change: transform, opacity;
 }
 
+.topLeft {
+  position: absolute;
+  top: var(--space-3);
+  left: 0;
+  z-index: 3;
+}
+
+.quizBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, #e28a2e 28%, transparent);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, #ffe08a 45%, white),
+    color-mix(in srgb, #ffc4a8 35%, white)
+  );
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(226, 138, 46, 0.16);
+}
+
 .topActions {
   position: absolute;
   top: var(--space-3);
@@ -190,10 +218,6 @@
   color: var(--ink-soft);
 }
 
-.featuredWrap {
-  margin-bottom: 0.95rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -242,10 +266,6 @@
   .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1.15rem;
-  }
-
-  .featuredWrap {
-    margin-bottom: 1.15rem;
   }
 
   .hero {

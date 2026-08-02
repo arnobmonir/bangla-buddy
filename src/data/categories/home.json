@@ -6,1533 +6,1752 @@
       "en": "house",
       "bn": "বাড়ি",
       "emoji": "🏠",
-      "roman": "bari"
+      "exampleEn": "I see a house.",
+      "exampleBn": "আমি একটি বাড়ি দেখছি।"
     },
     {
       "id": "home-door",
       "en": "door",
       "bn": "দরজা",
       "emoji": "🚪",
-      "roman": "dorja"
+      "exampleEn": "Please open the door.",
+      "exampleBn": "দয়া করে দরজা খোলো।"
     },
     {
       "id": "home-window",
       "en": "window",
       "bn": "জানালা",
       "emoji": "🪟",
-      "roman": "janala"
+      "exampleEn": "Please open the window.",
+      "exampleBn": "দয়া করে জানালা খোলো।"
     },
     {
       "id": "home-room",
       "en": "room",
       "bn": "ঘর",
       "emoji": "🛏️",
-      "roman": "ghor"
+      "exampleEn": "The room is clean.",
+      "exampleBn": "ঘরটা পরিষ্কার।"
     },
     {
       "id": "home-bed",
       "en": "bed",
       "bn": "বিছানা",
       "emoji": "🛏️",
-      "roman": "bichana"
+      "exampleEn": "I see a bed.",
+      "exampleBn": "আমি একটি বিছানা দেখছি।"
     },
     {
       "id": "home-chair",
       "en": "chair",
       "bn": "চেয়ার",
       "emoji": "🪑",
-      "roman": "cheyar"
+      "exampleEn": "This is our chair.",
+      "exampleBn": "এটা আমাদের চেয়ার।"
     },
     {
       "id": "home-table",
       "en": "table",
       "bn": "টেবিল",
       "emoji": "🪵",
-      "roman": "tebil"
+      "exampleEn": "Please open the table.",
+      "exampleBn": "দয়া করে টেবিল খোলো।"
     },
     {
       "id": "home-lamp",
       "en": "lamp",
       "bn": "বাতি",
       "emoji": "💡",
-      "roman": "bati"
+      "exampleEn": "The lamp is clean.",
+      "exampleBn": "বাতিটা পরিষ্কার।"
     },
     {
       "id": "home-book",
       "en": "book",
       "bn": "বই",
       "emoji": "📖",
-      "roman": "boi"
+      "exampleEn": "I see a book.",
+      "exampleBn": "আমি একটি বই দেখছি।"
     },
     {
       "id": "home-ball",
       "en": "ball",
       "bn": "বল",
       "emoji": "⚽",
-      "roman": "bol"
+      "exampleEn": "This is our ball.",
+      "exampleBn": "এটা আমাদের বল।"
     },
     {
       "id": "home-toy",
       "en": "toy",
       "bn": "খেলনা",
       "emoji": "🧸",
-      "roman": "khelna"
+      "exampleEn": "Please open the toy.",
+      "exampleBn": "দয়া করে খেলনা খোলো।"
     },
     {
       "id": "home-cup",
       "en": "cup",
       "bn": "কাপ",
       "emoji": "☕",
-      "roman": "kap"
+      "exampleEn": "The cup is clean.",
+      "exampleBn": "কাপটা পরিষ্কার।"
     },
     {
       "id": "home-plate",
       "en": "plate",
       "bn": "থালা",
       "emoji": "🍽️",
-      "roman": "thala"
+      "exampleEn": "I see a plate.",
+      "exampleBn": "আমি একটি থালা দেখছি।"
     },
     {
       "id": "home-spoon",
       "en": "spoon",
       "bn": "চামচ",
       "emoji": "🥄",
-      "roman": "chamoch"
+      "exampleEn": "This is our spoon.",
+      "exampleBn": "এটা আমাদের চামচ।"
     },
     {
       "id": "home-knife",
       "en": "knife",
       "bn": "ছুরি",
       "emoji": "🔪",
-      "roman": "churi"
+      "exampleEn": "Please open the knife.",
+      "exampleBn": "দয়া করে ছুরি খোলো।"
     },
     {
       "id": "home-clock",
       "en": "clock",
       "bn": "ঘড়ি",
       "emoji": "🕐",
-      "roman": "ghori"
+      "exampleEn": "The clock is clean.",
+      "exampleBn": "ঘড়িটা পরিষ্কার।"
     },
     {
       "id": "home-phone",
       "en": "phone",
       "bn": "ফোন",
       "emoji": "📱",
-      "roman": "phon"
+      "exampleEn": "I see a phone.",
+      "exampleBn": "আমি একটি ফোন দেখছি।"
     },
     {
       "id": "home-key",
       "en": "key",
       "bn": "চাবি",
       "emoji": "🔑",
-      "roman": "chabi"
+      "exampleEn": "This is our key.",
+      "exampleBn": "এটা আমাদের চাবি।"
     },
     {
       "id": "home-kitchen",
       "en": "kitchen",
       "bn": "রান্নাঘর",
       "emoji": "🍳",
-      "roman": "rannaghor"
+      "exampleEn": "Please open the kitchen.",
+      "exampleBn": "দয়া করে রান্নাঘর খোলো।"
     },
     {
       "id": "home-bathroom",
       "en": "bathroom",
       "bn": "বাথরুম",
       "emoji": "🚿",
-      "roman": "bathroom"
+      "exampleEn": "The bathroom is clean.",
+      "exampleBn": "বাথরুমটা পরিষ্কার।"
     },
     {
       "id": "home-toilet",
       "en": "toilet",
       "bn": "টয়লেট",
       "emoji": "🚽",
-      "roman": "toilet"
+      "exampleEn": "I see a toilet.",
+      "exampleBn": "আমি একটি টয়লেট দেখছি।"
     },
     {
       "id": "home-bedroom",
       "en": "bedroom",
       "bn": "শোবার ঘর",
       "emoji": "🛌",
-      "roman": "shobar ghor"
+      "exampleEn": "This is our bedroom.",
+      "exampleBn": "এটা আমাদের শোবার ঘর।"
     },
     {
       "id": "home-living-room",
       "en": "living room",
       "bn": "বসার ঘর",
       "emoji": "🛋️",
-      "roman": "boshar ghor"
+      "exampleEn": "Please open the living room.",
+      "exampleBn": "দয়া করে বসার ঘর খোলো।"
     },
     {
       "id": "home-roof",
       "en": "roof",
       "bn": "ছাদ",
       "emoji": "🏠",
-      "roman": "chad"
+      "exampleEn": "The roof is clean.",
+      "exampleBn": "ছাদটা পরিষ্কার।"
     },
     {
       "id": "home-floor",
       "en": "floor",
       "bn": "মেঝে",
       "emoji": "🟫",
-      "roman": "mejhe"
+      "exampleEn": "I see a floor.",
+      "exampleBn": "আমি একটি মেঝে দেখছি।"
     },
     {
       "id": "home-wall",
       "en": "wall",
       "bn": "দেয়াল",
       "emoji": "🧱",
-      "roman": "deyal"
+      "exampleEn": "This is our wall.",
+      "exampleBn": "এটা আমাদের দেয়াল।"
     },
     {
       "id": "home-stairs",
       "en": "stairs",
       "bn": "সিঁড়ি",
       "emoji": "🪜",
-      "roman": "shĩri"
+      "exampleEn": "Please open the stairs.",
+      "exampleBn": "দয়া করে সিঁড়ি খোলো।"
     },
     {
       "id": "home-fan",
       "en": "fan",
       "bn": "পাখা",
       "emoji": "🌀",
-      "roman": "pakha"
+      "exampleEn": "The fan is clean.",
+      "exampleBn": "পাখাটা পরিষ্কার।"
     },
     {
       "id": "home-tv",
       "en": "television",
       "bn": "টিভি",
       "emoji": "📺",
-      "roman": "tivi"
+      "exampleEn": "I see a television.",
+      "exampleBn": "আমি একটি টিভি দেখছি।"
     },
     {
       "id": "home-fridge",
       "en": "fridge",
       "bn": "ফ্রিজ",
       "emoji": "🧊",
-      "roman": "frij"
+      "exampleEn": "This is our fridge.",
+      "exampleBn": "এটা আমাদের ফ্রিজ।"
     },
     {
       "id": "home-stove",
       "en": "stove",
       "bn": "চুলা",
       "emoji": "🔥",
-      "roman": "chula"
+      "exampleEn": "Please open the stove.",
+      "exampleBn": "দয়া করে চুলা খোলো।"
     },
     {
       "id": "home-mirror",
       "en": "mirror",
       "bn": "আয়না",
       "emoji": "🪞",
-      "roman": "ayna"
+      "exampleEn": "The mirror is clean.",
+      "exampleBn": "আয়নাটা পরিষ্কার।"
     },
     {
       "id": "home-soap",
       "en": "soap",
       "bn": "সাবান",
       "emoji": "🧼",
-      "roman": "shaban"
+      "exampleEn": "I see a soap.",
+      "exampleBn": "আমি একটি সাবান দেখছি।"
     },
     {
       "id": "home-towel",
       "en": "towel",
       "bn": "তোয়ালে",
       "emoji": "🧺",
-      "roman": "towale"
+      "exampleEn": "This is our towel.",
+      "exampleBn": "এটা আমাদের তোয়ালে।"
     },
     {
       "id": "home-brush",
       "en": "brush",
       "bn": "ব্রাশ",
       "emoji": "🪥",
-      "roman": "brush"
+      "exampleEn": "Please open the brush.",
+      "exampleBn": "দয়া করে ব্রাশ খোলো।"
     },
     {
       "id": "home-comb",
       "en": "comb",
       "bn": "চিরুনি",
       "emoji": "💇",
-      "roman": "chiruni"
+      "exampleEn": "The comb is clean.",
+      "exampleBn": "চিরুনিটা পরিষ্কার।"
     },
     {
       "id": "home-pillow",
       "en": "pillow",
       "bn": "বালিশ",
       "emoji": "🛏️",
-      "roman": "balish"
+      "exampleEn": "I see a pillow.",
+      "exampleBn": "আমি একটি বালিশ দেখছি।"
     },
     {
       "id": "home-blanket",
       "en": "blanket",
       "bn": "কম্বল",
       "emoji": "🛏️",
-      "roman": "kombol"
+      "exampleEn": "This is our blanket.",
+      "exampleBn": "এটা আমাদের কম্বল।"
     },
     {
       "id": "home-curtain",
       "en": "curtain",
       "bn": "পর্দা",
       "emoji": "🪟",
-      "roman": "porda"
+      "exampleEn": "Please open the curtain.",
+      "exampleBn": "দয়া করে পর্দা খোলো।"
     },
     {
       "id": "home-bucket",
       "en": "bucket",
       "bn": "বালতি",
       "emoji": "🪣",
-      "roman": "balti"
+      "exampleEn": "The bucket is clean.",
+      "exampleBn": "বালতিটা পরিষ্কার।"
     },
     {
       "id": "home-glass",
       "en": "glass",
       "bn": "গ্লাস",
       "emoji": "🥛",
-      "roman": "glas"
+      "exampleEn": "I see a glass.",
+      "exampleBn": "আমি একটি গ্লাস দেখছি।"
     },
     {
       "id": "home-fork",
       "en": "fork",
       "bn": "কাঁটাচামচ",
       "emoji": "🍴",
-      "roman": "kãtachamoch"
+      "exampleEn": "This is our fork.",
+      "exampleBn": "এটা আমাদের কাঁটাচামচ।"
     },
     {
       "id": "home-bowl",
       "en": "bowl",
       "bn": "বাটি",
       "emoji": "🥣",
-      "roman": "bati"
+      "exampleEn": "Please open the bowl.",
+      "exampleBn": "দয়া করে বাটি খোলো।"
     },
     {
       "id": "home-pencil",
       "en": "pencil",
       "bn": "পেন্সিল",
       "emoji": "✏️",
-      "roman": "pensil"
+      "exampleEn": "The pencil is clean.",
+      "exampleBn": "পেন্সিলটা পরিষ্কার।"
     },
     {
       "id": "home-paper",
       "en": "paper",
       "bn": "কাগজ",
       "emoji": "📄",
-      "roman": "kagoj"
+      "exampleEn": "I see a paper.",
+      "exampleBn": "আমি একটি কাগজ দেখছি।"
     },
     {
       "id": "home-scissors",
       "en": "scissors",
       "bn": "কাঁচি",
       "emoji": "✂️",
-      "roman": "kãchi"
+      "exampleEn": "This is our scissors.",
+      "exampleBn": "এটা আমাদের কাঁচি।"
     },
     {
       "id": "home-box",
       "en": "box",
       "bn": "বাক্স",
       "emoji": "📦",
-      "roman": "baksho"
+      "exampleEn": "Please open the box.",
+      "exampleBn": "দয়া করে বাক্স খোলো।"
     },
     {
       "id": "home-light",
       "en": "light",
       "bn": "আলো",
       "emoji": "💡",
-      "roman": "alo"
+      "exampleEn": "The light is clean.",
+      "exampleBn": "আলোটা পরিষ্কার।"
     },
     {
       "id": "home-sofa",
       "en": "sofa",
       "bn": "সোফা",
       "emoji": "🛋️",
-      "roman": "sofa"
+      "exampleEn": "I see a sofa.",
+      "exampleBn": "আমি একটি সোফা দেখছি।"
     },
     {
       "id": "home-armchair",
       "en": "armchair",
       "bn": "আর্মচেয়ার",
       "emoji": "🪑",
-      "roman": "armchair"
+      "exampleEn": "This is our armchair.",
+      "exampleBn": "এটা আমাদের আর্মচেয়ার।"
     },
     {
       "id": "home-bookshelf",
       "en": "bookshelf",
       "bn": "বই অলমরি",
       "emoji": "📚",
-      "roman": "boi almari"
+      "exampleEn": "Please open the bookshelf.",
+      "exampleBn": "দয়া করে বই অলমরি খোলো।"
     },
     {
       "id": "home-wardrobe",
       "en": "wardrobe",
       "bn": "অলমরি",
       "emoji": "🚪",
-      "roman": "almari"
+      "exampleEn": "The wardrobe is clean.",
+      "exampleBn": "অলমরিটা পরিষ্কার।"
     },
     {
       "id": "home-dresser",
       "en": "dresser",
       "bn": "ড্রেসার",
       "emoji": "🪞",
-      "roman": "dresser"
+      "exampleEn": "I see a dresser.",
+      "exampleBn": "আমি একটি ড্রেসার দেখছি।"
     },
     {
       "id": "home-nightstand",
       "en": "nightstand",
       "bn": "বেডসাইড টেবিল",
       "emoji": "🛏️",
-      "roman": "nightstand"
+      "exampleEn": "This is our nightstand.",
+      "exampleBn": "এটা আমাদের বেডসাইড টেবিল।"
     },
     {
       "id": "home-mattress",
       "en": "mattress",
       "bn": "তোশক",
       "emoji": "🛏️",
-      "roman": "toshok"
+      "exampleEn": "Please open the mattress.",
+      "exampleBn": "দয়া করে তোশক খোলো।"
     },
     {
       "id": "home-sheet",
       "en": "sheet",
       "bn": "চাদর",
       "emoji": "🛏️",
-      "roman": "chador"
+      "exampleEn": "The sheet is clean.",
+      "exampleBn": "চাদরটা পরিষ্কার।"
     },
     {
       "id": "home-quilt",
       "en": "quilt",
       "bn": "কাঁথা",
       "emoji": "🛏️",
-      "roman": "katha"
+      "exampleEn": "I see a quilt.",
+      "exampleBn": "আমি একটি কাঁথা দেখছি।"
     },
     {
       "id": "home-cushion",
       "en": "cushion",
       "bn": "কুশন",
       "emoji": "🛋️",
-      "roman": "kushion"
+      "exampleEn": "This is our cushion.",
+      "exampleBn": "এটা আমাদের কুশন।"
     },
     {
       "id": "home-rug",
       "en": "rug",
       "bn": "কার্পেট",
       "emoji": "🟫",
-      "roman": "carpet"
+      "exampleEn": "Please open the rug.",
+      "exampleBn": "দয়া করে কার্পেট খোলো।"
     },
     {
       "id": "home-doormat",
       "en": "doormat",
       "bn": "দরজার চটাই",
       "emoji": "🟫",
-      "roman": "dormat"
+      "exampleEn": "The doormat is clean.",
+      "exampleBn": "দরজার চটাইটা পরিষ্কার।"
     },
     {
       "id": "home-hanger",
       "en": "hanger",
       "bn": "কাপড় ঝুলানোর হ্যাঙার",
       "emoji": "🪝",
-      "roman": "hanger"
+      "exampleEn": "I see a hanger.",
+      "exampleBn": "আমি একটি কাপড় ঝুলানোর হ্যাঙার দেখছি।"
     },
     {
       "id": "home-clothesline",
       "en": "clothesline",
       "bn": "টানা",
       "emoji": "👕",
-      "roman": "tana"
+      "exampleEn": "This is our clothesline.",
+      "exampleBn": "এটা আমাদের টানা।"
     },
     {
       "id": "home-washing-machine",
       "en": "washing machine",
       "bn": "ওয়াশিং মেশিন",
       "emoji": "🧺",
-      "roman": "washing machine"
+      "exampleEn": "Please open the washing machine.",
+      "exampleBn": "দয়া করে ওয়াশিং মেশিন খোলো।"
     },
     {
       "id": "home-dryer",
       "en": "dryer",
       "bn": "ড্রায়ার",
       "emoji": "👕",
-      "roman": "dryer"
+      "exampleEn": "The dryer is clean.",
+      "exampleBn": "ড্রায়ারটা পরিষ্কার।"
     },
     {
       "id": "home-iron",
       "en": "iron",
       "bn": "ইসতরি",
       "emoji": "👔",
-      "roman": "istri"
+      "exampleEn": "I see an iron.",
+      "exampleBn": "আমি একটি ইসতরি দেখছি।"
     },
     {
       "id": "home-ironing-board",
       "en": "ironing board",
       "bn": "ইসতরি বোরদ",
       "emoji": "👔",
-      "roman": "istri board"
+      "exampleEn": "This is our ironing board.",
+      "exampleBn": "এটা আমাদের ইসতরি বোরদ।"
     },
     {
       "id": "home-vacuum-cleaner",
       "en": "vacuum cleaner",
       "bn": "ভ্যাকুয়াম ক্লিনার",
       "emoji": "🧹",
-      "roman": "vacuum"
+      "exampleEn": "Please open the vacuum cleaner.",
+      "exampleBn": "দয়া করে ভ্যাকুয়াম ক্লিনার খোলো।"
     },
     {
       "id": "home-broom",
       "en": "broom",
       "bn": "ঝাড়ু",
       "emoji": "🧹",
-      "roman": "jharu"
+      "exampleEn": "The broom is clean.",
+      "exampleBn": "ঝাড়ুটা পরিষ্কার।"
     },
     {
       "id": "home-mop",
       "en": "mop",
       "bn": "মোপ",
       "emoji": "🧹",
-      "roman": "mop"
+      "exampleEn": "I see a mop.",
+      "exampleBn": "আমি একটি মোপ দেখছি।"
     },
     {
       "id": "home-dustbin",
       "en": "dustbin",
       "bn": "আবর্জনার ঝুড়ি",
       "emoji": "🗑️",
-      "roman": "dustbin"
+      "exampleEn": "This is our dustbin.",
+      "exampleBn": "এটা আমাদের আবর্জনার ঝুড়ি।"
     },
     {
       "id": "home-trash-bag",
       "en": "trash bag",
       "bn": "আবর্জনার ব্যাগ",
       "emoji": "🗑️",
-      "roman": "trash bag"
+      "exampleEn": "Please open the trash bag.",
+      "exampleBn": "দয়া করে আবর্জনার ব্যাগ খোলো।"
     },
     {
       "id": "home-recycle-bin",
       "en": "recycle bin",
       "bn": "পুনর্ব্যবহারের বাক্স",
       "emoji": "♻️",
-      "roman": "recycle bin"
+      "exampleEn": "The recycle bin is clean.",
+      "exampleBn": "পুনর্ব্যবহারের বাক্সটা পরিষ্কার।"
     },
     {
       "id": "home-detergent",
       "en": "detergent",
       "bn": "ডিটারজেন্ট",
       "emoji": "🧴",
-      "roman": "detergent"
+      "exampleEn": "I see a detergent.",
+      "exampleBn": "আমি একটি ডিটারজেন্ট দেখছি।"
     },
     {
       "id": "home-bleach",
       "en": "bleach",
       "bn": "ব্লিচ",
       "emoji": "🧴",
-      "roman": "bleach"
+      "exampleEn": "This is our bleach.",
+      "exampleBn": "এটা আমাদের ব্লিচ।"
     },
     {
       "id": "home-sponge",
       "en": "sponge",
       "bn": "স্পঞ্জ",
       "emoji": "🧽",
-      "roman": "sponge"
+      "exampleEn": "Please open the sponge.",
+      "exampleBn": "দয়া করে স্পঞ্জ খোলো।"
     },
     {
       "id": "home-dish-soap",
       "en": "dish soap",
       "bn": "বাসন ধোয়ার সাবান",
       "emoji": "🧼",
-      "roman": "bartan dhonar saban"
+      "exampleEn": "The dish soap is clean.",
+      "exampleBn": "বাসন ধোয়ার সাবানটা পরিষ্কার।"
     },
     {
       "id": "home-dish-rack",
       "en": "dish rack",
       "bn": "বাসনের র্যাক",
       "emoji": "🍽️",
-      "roman": "bartan rack"
+      "exampleEn": "I see a dish rack.",
+      "exampleBn": "আমি একটি বাসনের র্যাক দেখছি।"
     },
     {
       "id": "home-cutting-board",
       "en": "cutting board",
       "bn": "কাটার বোর্ড",
       "emoji": "🔪",
-      "roman": "kata board"
+      "exampleEn": "This is our cutting board.",
+      "exampleBn": "এটা আমাদের কাটার বোর্ড।"
     },
     {
       "id": "home-colander",
       "en": "colander",
       "bn": "ছাকা",
       "emoji": "🥣",
-      "roman": "colander"
+      "exampleEn": "Please open the colander.",
+      "exampleBn": "দয়া করে ছাকা খোলো।"
     },
     {
       "id": "home-whisk",
       "en": "whisk",
       "bn": "ফুড়া",
       "emoji": "🥄",
-      "roman": "whisk"
+      "exampleEn": "The whisk is clean.",
+      "exampleBn": "ফুড়াটা পরিষ্কার।"
     },
     {
       "id": "home-ladle",
       "en": "ladle",
       "bn": "খুনতি",
       "emoji": "🥄",
-      "roman": "khunti"
+      "exampleEn": "I see a ladle.",
+      "exampleBn": "আমি একটি খুনতি দেখছি।"
     },
     {
       "id": "home-tongs",
       "en": "tongs",
       "bn": "তোঙস",
       "emoji": "🥢",
-      "roman": "tongs"
+      "exampleEn": "This is our tongs.",
+      "exampleBn": "এটা আমাদের তোঙস।"
     },
     {
       "id": "home-rolling-pin",
       "en": "rolling pin",
       "bn": "বেলুন",
       "emoji": "🥖",
-      "roman": "belun"
+      "exampleEn": "Please open the rolling pin.",
+      "exampleBn": "দয়া করে বেলুন খোলো।"
     },
     {
       "id": "home-grater",
       "en": "grater",
       "bn": "গরতের",
       "emoji": "🧀",
-      "roman": "grater"
+      "exampleEn": "The grater is clean.",
+      "exampleBn": "গরতেরটা পরিষ্কার।"
     },
     {
       "id": "home-peeler",
       "en": "peeler",
       "bn": "পিলার",
       "emoji": "🥔",
-      "roman": "peeler"
+      "exampleEn": "I see a peeler.",
+      "exampleBn": "আমি একটি পিলার দেখছি।"
     },
     {
       "id": "home-can-opener",
       "en": "can opener",
       "bn": "চন ওপেনের",
       "emoji": "🥫",
-      "roman": "can opener"
+      "exampleEn": "This is our can opener.",
+      "exampleBn": "এটা আমাদের চন ওপেনের।"
     },
     {
       "id": "home-bottle-opener",
       "en": "bottle opener",
       "bn": "বোটলে ওপেনের",
       "emoji": "🍾",
-      "roman": "bottle opener"
+      "exampleEn": "Please open the bottle opener.",
+      "exampleBn": "দয়া করে বোটলে ওপেনের খোলো।"
     },
     {
       "id": "home-corkscrew",
       "en": "corkscrew",
       "bn": "চোরকসচরেব",
       "emoji": "🍾",
-      "roman": "corkscrew"
+      "exampleEn": "The corkscrew is clean.",
+      "exampleBn": "চোরকসচরেবটা পরিষ্কার।"
     },
     {
       "id": "home-measuring-cup",
       "en": "measuring cup",
       "bn": "মাপের কাপ",
       "emoji": "🥛",
-      "roman": "mapar kap"
+      "exampleEn": "I see a measuring cup.",
+      "exampleBn": "আমি একটি মাপের কাপ দেখছি।"
     },
     {
       "id": "home-mixing-bowl",
       "en": "mixing bowl",
       "bn": "মিশ্রণের বাটি",
       "emoji": "🥣",
-      "roman": "mishran bati"
+      "exampleEn": "This is our mixing bowl.",
+      "exampleBn": "এটা আমাদের মিশ্রণের বাটি।"
     },
     {
       "id": "home-baking-tray",
       "en": "baking tray",
       "bn": "বেকিং ট্রে",
       "emoji": "🍪",
-      "roman": "baking tray"
+      "exampleEn": "Please open the baking tray.",
+      "exampleBn": "দয়া করে বেকিং ট্রে খোলো।"
     },
     {
       "id": "home-oven",
       "en": "oven",
       "bn": "ওভেন",
       "emoji": "🔥",
-      "roman": "oven"
+      "exampleEn": "The oven is clean.",
+      "exampleBn": "ওভেনটা পরিষ্কার।"
     },
     {
       "id": "home-microwave",
       "en": "microwave",
       "bn": "মাইক্রোওয়েভ",
       "emoji": "📻",
-      "roman": "microwave"
+      "exampleEn": "I see a microwave.",
+      "exampleBn": "আমি একটি মাইক্রোওয়েভ দেখছি।"
     },
     {
       "id": "home-toaster",
       "en": "toaster",
       "bn": "টোস্টার",
       "emoji": "🍞",
-      "roman": "toaster"
+      "exampleEn": "This is our toaster.",
+      "exampleBn": "এটা আমাদের টোস্টার।"
     },
     {
       "id": "home-blender",
       "en": "blender",
       "bn": "ব্লেন্ডার",
       "emoji": "🥤",
-      "roman": "blender"
+      "exampleEn": "Please open the blender.",
+      "exampleBn": "দয়া করে ব্লেন্ডার খোলো।"
     },
     {
       "id": "home-kettle",
       "en": "kettle",
       "bn": "কেটল",
       "emoji": "🫖",
-      "roman": "kettle"
+      "exampleEn": "The kettle is clean.",
+      "exampleBn": "কেটলটা পরিষ্কার।"
     },
     {
       "id": "home-rice-cooker",
       "en": "rice cooker",
       "bn": "রাইস কুকার",
       "emoji": "🍚",
-      "roman": "rice cooker"
+      "exampleEn": "I see a rice cooker.",
+      "exampleBn": "আমি একটি রাইস কুকার দেখছি।"
     },
     {
       "id": "home-pressure-cooker",
       "en": "pressure cooker",
       "bn": "প্রেশার কুকার",
       "emoji": "🍲",
-      "roman": "pressure cooker"
+      "exampleEn": "This is our pressure cooker.",
+      "exampleBn": "এটা আমাদের প্রেশার কুকার।"
     },
     {
       "id": "home-pan",
       "en": "pan",
       "bn": "প্যান",
       "emoji": "🍳",
-      "roman": "pan"
+      "exampleEn": "Please open the pan.",
+      "exampleBn": "দয়া করে প্যান খোলো।"
     },
     {
       "id": "home-pot",
       "en": "pot",
       "bn": "হাঁড়ি",
       "emoji": "🍲",
-      "roman": "hari"
+      "exampleEn": "The pot is clean.",
+      "exampleBn": "হাঁড়িটা পরিষ্কার।"
     },
     {
       "id": "home-wok",
       "en": "wok",
       "bn": "কড়াই",
       "emoji": "🍳",
-      "roman": "karai"
+      "exampleEn": "I see a wok.",
+      "exampleBn": "আমি একটি কড়াই দেখছি।"
     },
     {
       "id": "home-lid",
       "en": "lid",
       "bn": "ঢাকনা",
       "emoji": "🫕",
-      "roman": "dhakna"
+      "exampleEn": "This is our lid.",
+      "exampleBn": "এটা আমাদের ঢাকনা।"
     },
     {
       "id": "home-trivet",
       "en": "trivet",
       "bn": "তরিভেত",
       "emoji": "🔥",
-      "roman": "trivet"
+      "exampleEn": "Please open the trivet.",
+      "exampleBn": "দয়া করে তরিভেত খোলো।"
     },
     {
       "id": "home-teapot",
       "en": "teapot",
       "bn": "তেপোত",
       "emoji": "🫖",
-      "roman": "teapot"
+      "exampleEn": "The teapot is clean.",
+      "exampleBn": "তেপোতটা পরিষ্কার।"
     },
     {
       "id": "home-coffee-maker",
       "en": "coffee maker",
       "bn": "কাফি মকের",
       "emoji": "☕",
-      "roman": "coffee maker"
+      "exampleEn": "I see a coffee maker.",
+      "exampleBn": "আমি একটি কাফি মকের দেখছি।"
     },
     {
       "id": "home-water-filter",
       "en": "water filter",
       "bn": "পানি ফিলতের",
       "emoji": "💧",
-      "roman": "pani filter"
+      "exampleEn": "This is our water filter.",
+      "exampleBn": "এটা আমাদের পানি ফিলতের।"
     },
     {
       "id": "home-water-bottle",
       "en": "water bottle",
       "bn": "পানি বোটলে",
       "emoji": "💧",
-      "roman": "pani bottle"
+      "exampleEn": "Please open the water bottle.",
+      "exampleBn": "দয়া করে পানি বোটলে খোলো।"
     },
     {
       "id": "home-thermos",
       "en": "thermos",
       "bn": "থেরমোস",
       "emoji": "🫖",
-      "roman": "thermos"
+      "exampleEn": "The thermos is clean.",
+      "exampleBn": "থেরমোসটা পরিষ্কার।"
     },
     {
       "id": "home-lunch-container",
       "en": "lunch container",
       "bn": "লুনচ বোক্স",
       "emoji": "🍱",
-      "roman": "lunch box"
+      "exampleEn": "I see a lunch container.",
+      "exampleBn": "আমি একটি লুনচ বোক্স দেখছি।"
     },
     {
       "id": "home-food-wrap",
       "en": "food wrap",
       "bn": "শব্যাব বরপ",
       "emoji": "🥡",
-      "roman": "food wrap"
+      "exampleEn": "This is our food wrap.",
+      "exampleBn": "এটা আমাদের শব্যাব বরপ।"
     },
     {
       "id": "home-aluminum-foil",
       "en": "aluminum foil",
       "bn": "ফৈল",
       "emoji": "📄",
-      "roman": "foil"
+      "exampleEn": "Please open the aluminum foil.",
+      "exampleBn": "দয়া করে ফৈল খোলো।"
     },
     {
       "id": "home-plastic-wrap",
       "en": "plastic wrap",
       "bn": "পলসতিচ বরপ",
       "emoji": "📄",
-      "roman": "plastic wrap"
+      "exampleEn": "The plastic wrap is clean.",
+      "exampleBn": "পলসতিচ বরপটা পরিষ্কার।"
     },
     {
       "id": "home-ziplock-bag",
       "en": "ziplock bag",
       "bn": "জিপলোচক ব্যাগ",
       "emoji": "🥡",
-      "roman": "ziplock bag"
+      "exampleEn": "I see a ziplock bag.",
+      "exampleBn": "আমি একটি জিপলোচক ব্যাগ দেখছি।"
     },
     {
       "id": "home-pantry",
       "en": "pantry",
       "bn": "পনতরয",
       "emoji": "🥫",
-      "roman": "pantry"
+      "exampleEn": "This is our pantry.",
+      "exampleBn": "এটা আমাদের পনতরয।"
     },
     {
       "id": "home-cupboard",
       "en": "cupboard",
       "bn": "অলমরি",
       "emoji": "🚪",
-      "roman": "almari"
+      "exampleEn": "Please open the cupboard.",
+      "exampleBn": "দয়া করে অলমরি খোলো।"
     },
     {
       "id": "home-drawer",
       "en": "drawer",
       "bn": "দরবের",
       "emoji": "🗄️",
-      "roman": "drawer"
+      "exampleEn": "The drawer is clean.",
+      "exampleBn": "দরবেরটা পরিষ্কার।"
     },
     {
       "id": "home-shelf",
       "en": "shelf",
       "bn": "টানা",
       "emoji": "📚",
-      "roman": "tana"
+      "exampleEn": "I see a shelf.",
+      "exampleBn": "আমি একটি টানা দেখছি।"
     },
     {
       "id": "home-attic",
       "en": "attic",
       "bn": "ছাদ ঘর",
       "emoji": "🏠",
-      "roman": "chad ghor"
+      "exampleEn": "This is our attic.",
+      "exampleBn": "এটা আমাদের ছাদ ঘর।"
     },
     {
       "id": "home-basement",
       "en": "basement",
       "bn": "নোবিন ঘর",
       "emoji": "🏠",
-      "roman": "nobin ghor"
+      "exampleEn": "Please open the basement.",
+      "exampleBn": "দয়া করে নোবিন ঘর খোলো।"
     },
     {
       "id": "home-garage",
       "en": "garage",
       "bn": "গরগে",
       "emoji": "🚗",
-      "roman": "garage"
+      "exampleEn": "The garage is clean.",
+      "exampleBn": "গরগেটা পরিষ্কার।"
     },
     {
       "id": "home-balcony",
       "en": "balcony",
       "bn": "বারান্দা",
       "emoji": "🏠",
-      "roman": "baranda"
+      "exampleEn": "I see a balcony.",
+      "exampleBn": "আমি একটি বারান্দা দেখছি।"
     },
     {
       "id": "home-porch",
       "en": "porch",
       "bn": "বারান্দা",
       "emoji": "🏠",
-      "roman": "porch"
+      "exampleEn": "This is our porch.",
+      "exampleBn": "এটা আমাদের বারান্দা।"
     },
     {
       "id": "home-yard",
       "en": "yard",
       "bn": "উঠান",
       "emoji": "🏡",
-      "roman": "yard"
+      "exampleEn": "Please open the yard.",
+      "exampleBn": "দয়া করে উঠান খোলো।"
     },
     {
       "id": "home-gate",
       "en": "gate",
       "bn": "গেট",
       "emoji": "🚪",
-      "roman": "gate"
+      "exampleEn": "The gate is clean.",
+      "exampleBn": "গেটটা পরিষ্কার।"
     },
     {
       "id": "home-fence",
       "en": "fence",
       "bn": "বেড়া",
       "emoji": "🚧",
-      "roman": "fence"
+      "exampleEn": "I see a fence.",
+      "exampleBn": "আমি একটি বেড়া দেখছি।"
     },
     {
       "id": "home-mailbox",
       "en": "mailbox",
       "bn": "মেইলবক্স",
       "emoji": "📬",
-      "roman": "mailbox"
+      "exampleEn": "This is our mailbox.",
+      "exampleBn": "এটা আমাদের মেইলবক্স।"
     },
     {
       "id": "home-doorbell",
       "en": "doorbell",
       "bn": "দরজার ঘণ্টা",
       "emoji": "🔔",
-      "roman": "doorbell"
+      "exampleEn": "Please open the doorbell.",
+      "exampleBn": "দয়া করে দরজার ঘণ্টা খোলো।"
     },
     {
       "id": "home-door-handle",
       "en": "door handle",
       "bn": "দরজার হাতল",
       "emoji": "🚪",
-      "roman": "dhanla"
+      "exampleEn": "The door handle is clean.",
+      "exampleBn": "দরজার হাতলটা পরিষ্কার।"
     },
     {
       "id": "home-lock",
       "en": "lock",
       "bn": "তালা",
       "emoji": "🔒",
-      "roman": "tala"
+      "exampleEn": "I see a lock.",
+      "exampleBn": "আমি একটি তালা দেখছি।"
     },
     {
       "id": "home-doorknob",
       "en": "doorknob",
       "bn": "দরজার হাতল",
       "emoji": "🚪",
-      "roman": "dhanla"
+      "exampleEn": "This is our doorknob.",
+      "exampleBn": "এটা আমাদের দরজার হাতল।"
     },
     {
       "id": "home-hinge",
       "en": "hinge",
       "bn": "হিঙে",
       "emoji": "🚪",
-      "roman": "hinge"
+      "exampleEn": "Please open the hinge.",
+      "exampleBn": "দয়া করে হিঙে খোলো।"
     },
     {
       "id": "home-door-mat",
       "en": "door mat",
       "bn": "দোরমত",
       "emoji": "🟫",
-      "roman": "dormat"
+      "exampleEn": "The door mat is clean.",
+      "exampleBn": "দোরমতটা পরিষ্কার।"
     },
     {
       "id": "home-welcome-mat",
       "en": "welcome mat",
       "bn": "বেলচোমে মত",
       "emoji": "🟫",
-      "roman": "welcome mat"
+      "exampleEn": "I see a welcome mat.",
+      "exampleBn": "আমি একটি বেলচোমে মত দেখছি।"
     },
     {
       "id": "home-smoke-detector",
       "en": "smoke detector",
       "bn": "ধোঁয়া সেন্সর",
       "emoji": "🚨",
-      "roman": "smoke detector"
+      "exampleEn": "This is our smoke detector.",
+      "exampleBn": "এটা আমাদের ধোঁয়া সেন্সর।"
     },
     {
       "id": "home-fire-extinguisher",
       "en": "fire extinguisher",
       "bn": "অগ্নিনির্বাপক",
       "emoji": "🧯",
-      "roman": "fire extinguisher"
+      "exampleEn": "Please open the fire extinguisher.",
+      "exampleBn": "দয়া করে অগ্নিনির্বাপক খোলো।"
     },
     {
       "id": "home-first-aid-kit",
       "en": "first aid kit",
       "bn": "প্রাথমিক চিকিৎসা",
       "emoji": "🩹",
-      "roman": "first aid kit"
+      "exampleEn": "The first aid kit is clean.",
+      "exampleBn": "প্রাথমিক চিকিৎসাটা পরিষ্কার।"
     },
     {
       "id": "home-bandage",
       "en": "bandage",
       "bn": "ব্যান্ডেজ",
       "emoji": "🩹",
-      "roman": "bandage"
+      "exampleEn": "I see a bandage.",
+      "exampleBn": "আমি একটি ব্যান্ডেজ দেখছি।"
     },
     {
       "id": "home-medicine",
       "en": "medicine",
       "bn": "ঔষধ",
       "emoji": "💊",
-      "roman": "oshudh"
+      "exampleEn": "This is our medicine.",
+      "exampleBn": "এটা আমাদের ঔষধ।"
     },
     {
       "id": "home-thermometer",
       "en": "thermometer",
       "bn": "থার্মোমিটার",
       "emoji": "🌡️",
-      "roman": "thermometer"
+      "exampleEn": "Please open the thermometer.",
+      "exampleBn": "দয়া করে থার্মোমিটার খোলো।"
     },
     {
       "id": "home-flashlight",
       "en": "flashlight",
       "bn": "ফ্ল্যাশলাইট",
       "emoji": "🔦",
-      "roman": "flashlight"
+      "exampleEn": "The flashlight is clean.",
+      "exampleBn": "ফ্ল্যাশলাইটটা পরিষ্কার।"
     },
     {
       "id": "home-candle",
       "en": "candle",
       "bn": "মোমবতি",
       "emoji": "🕯️",
-      "roman": "mombati"
+      "exampleEn": "I see a candle.",
+      "exampleBn": "আমি একটি মোমবতি দেখছি।"
     },
     {
       "id": "home-matchbox",
       "en": "matchbox",
       "bn": "দিয়াসলাই",
       "emoji": "🔥",
-      "roman": "diba"
+      "exampleEn": "This is our matchbox.",
+      "exampleBn": "এটা আমাদের দিয়াসলাই।"
     },
     {
       "id": "home-lighter",
       "en": "lighter",
       "bn": "লাইটার",
       "emoji": "🔥",
-      "roman": "lighter"
+      "exampleEn": "Please open the lighter.",
+      "exampleBn": "দয়া করে লাইটার খোলো।"
     },
     {
       "id": "home-extension-cord",
       "en": "extension cord",
       "bn": "এক্সটেনশন কোর্ড",
       "emoji": "🔌",
-      "roman": "extension cord"
+      "exampleEn": "The extension cord is clean.",
+      "exampleBn": "এক্সটেনশন কোর্ডটা পরিষ্কার।"
     },
     {
       "id": "home-plug",
       "en": "plug",
       "bn": "প্লাগ",
       "emoji": "🔌",
-      "roman": "plug"
+      "exampleEn": "I see a plug.",
+      "exampleBn": "আমি একটি প্লাগ দেখছি।"
     },
     {
       "id": "home-socket",
       "en": "socket",
       "bn": "সকেট",
       "emoji": "🔌",
-      "roman": "socket"
+      "exampleEn": "This is our socket.",
+      "exampleBn": "এটা আমাদের সকেট।"
     },
     {
       "id": "home-switch",
       "en": "switch",
       "bn": "সুইচ",
       "emoji": "💡",
-      "roman": "switch"
+      "exampleEn": "Please open the switch.",
+      "exampleBn": "দয়া করে সুইচ খোলো।"
     },
     {
       "id": "home-bulb",
       "en": "bulb",
       "bn": "বাল্ব",
       "emoji": "💡",
-      "roman": "bulb"
+      "exampleEn": "The bulb is clean.",
+      "exampleBn": "বাল্বটা পরিষ্কার।"
     },
     {
       "id": "home-chandelier",
       "en": "chandelier",
       "bn": "ঝাড়বাতি",
       "emoji": "💡",
-      "roman": "chandelier"
+      "exampleEn": "I see a chandelier.",
+      "exampleBn": "আমি একটি ঝাড়বাতি দেখছি।"
     },
     {
       "id": "home-night-light",
       "en": "night light",
       "bn": "রাতের আলো",
       "emoji": "🌙",
-      "roman": "night light"
+      "exampleEn": "This is our night light.",
+      "exampleBn": "এটা আমাদের রাতের আলো।"
     },
     {
       "id": "home-air-conditioner",
       "en": "air conditioner",
       "bn": "এসি",
       "emoji": "❄️",
-      "roman": "ac"
+      "exampleEn": "Please open the air conditioner.",
+      "exampleBn": "দয়া করে এসি খোলো।"
     },
     {
       "id": "home-heater",
       "en": "heater",
       "bn": "হিটার",
       "emoji": "🔥",
-      "roman": "heater"
+      "exampleEn": "The heater is clean.",
+      "exampleBn": "হিটারটা পরিষ্কার।"
     },
     {
       "id": "home-humidifier",
       "en": "humidifier",
       "bn": "আর্দ্রতা বৃদ্ধিকারী",
       "emoji": "💧",
-      "roman": "humidifier"
+      "exampleEn": "I see a humidifier.",
+      "exampleBn": "আমি একটি আর্দ্রতা বৃদ্ধিকারী দেখছি।"
     },
     {
       "id": "home-dehumidifier",
       "en": "dehumidifier",
       "bn": "আর্দ্রতা কমানো যন্ত্র",
       "emoji": "💨",
-      "roman": "dehumidifier"
+      "exampleEn": "This is our dehumidifier.",
+      "exampleBn": "এটা আমাদের আর্দ্রতা কমানো যন্ত্র।"
     },
     {
       "id": "home-air-purifier",
       "en": "air purifier",
       "bn": "বায়ু পরিশোধক",
       "emoji": "💨",
-      "roman": "air purifier"
+      "exampleEn": "Please open the air purifier.",
+      "exampleBn": "দয়া করে বায়ু পরিশোধক খোলো।"
     },
     {
       "id": "home-remote-control",
       "en": "remote control",
       "bn": "রিমোট",
       "emoji": "📱",
-      "roman": "remote"
+      "exampleEn": "The remote control is clean.",
+      "exampleBn": "রিমোটটা পরিষ্কার।"
     },
     {
       "id": "home-speaker",
       "en": "speaker",
       "bn": "স্পিকার",
       "emoji": "🔊",
-      "roman": "speaker"
+      "exampleEn": "I see a speaker.",
+      "exampleBn": "আমি একটি স্পিকার দেখছি।"
     },
     {
       "id": "home-radio",
       "en": "radio",
       "bn": "রেডিও",
       "emoji": "📻",
-      "roman": "radio"
+      "exampleEn": "This is our radio.",
+      "exampleBn": "এটা আমাদের রেডিও।"
     },
     {
       "id": "home-computer",
       "en": "computer",
       "bn": "কম্পিউটার",
       "emoji": "💻",
-      "roman": "computer"
+      "exampleEn": "Please open the computer.",
+      "exampleBn": "দয়া করে কম্পিউটার খোলো।"
     },
     {
       "id": "home-laptop",
       "en": "laptop",
       "bn": "ল্যাপটপ",
       "emoji": "💻",
-      "roman": "laptop"
+      "exampleEn": "The laptop is clean.",
+      "exampleBn": "ল্যাপটপটা পরিষ্কার।"
     },
     {
       "id": "home-tablet",
       "en": "tablet",
       "bn": "ট্যাবলেট",
       "emoji": "📱",
-      "roman": "tablet"
+      "exampleEn": "I see a tablet.",
+      "exampleBn": "আমি একটি ট্যাবলেট দেখছি।"
     },
     {
       "id": "home-keyboard",
       "en": "keyboard",
       "bn": "কীবোর্ড",
       "emoji": "⌨️",
-      "roman": "keyboard"
+      "exampleEn": "This is our keyboard.",
+      "exampleBn": "এটা আমাদের কীবোর্ড।"
     },
     {
       "id": "home-mouse-pad",
       "en": "mouse pad",
       "bn": "মাউস প্যাড",
       "emoji": "🖱️",
-      "roman": "mouse pad"
+      "exampleEn": "Please open the mouse pad.",
+      "exampleBn": "দয়া করে মাউস প্যাড খোলো।"
     },
     {
       "id": "home-printer",
       "en": "printer",
       "bn": "প্রিন্টার",
       "emoji": "🖨️",
-      "roman": "printer"
+      "exampleEn": "The printer is clean.",
+      "exampleBn": "প্রিন্টারটা পরিষ্কার।"
     },
     {
       "id": "home-camera",
       "en": "camera",
       "bn": "ক্যামেরা",
       "emoji": "📷",
-      "roman": "camera"
+      "exampleEn": "I see a camera.",
+      "exampleBn": "আমি একটি ক্যামেরা দেখছি।"
     },
     {
       "id": "home-tripod",
       "en": "tripod",
       "bn": "ট্রাইপড",
       "emoji": "📷",
-      "roman": "tripod"
+      "exampleEn": "This is our tripod.",
+      "exampleBn": "এটা আমাদের ট্রাইপড।"
     },
     {
       "id": "home-backpack",
       "en": "backpack",
       "bn": "ব্যাকপ্যাক",
       "emoji": "🎒",
-      "roman": "backpack"
+      "exampleEn": "Please open the backpack.",
+      "exampleBn": "দয়া করে ব্যাকপ্যাক খোলো।"
     },
     {
       "id": "home-school-bag",
       "en": "school bag",
       "bn": "স্কুল ব্যাগ",
       "emoji": "🎒",
-      "roman": "school bag"
+      "exampleEn": "The school bag is clean.",
+      "exampleBn": "স্কুল ব্যাগটা পরিষ্কার।"
     },
     {
       "id": "home-pencil-case",
       "en": "pencil case",
       "bn": "পেন্সিল বক্স",
       "emoji": "✏️",
-      "roman": "pencil case"
+      "exampleEn": "I see a pencil case.",
+      "exampleBn": "আমি একটি পেন্সিল বক্স দেখছি।"
     },
     {
       "id": "home-eraser",
       "en": "eraser",
       "bn": "রবার",
       "emoji": "🧽",
-      "roman": "eraser"
+      "exampleEn": "This is our eraser.",
+      "exampleBn": "এটা আমাদের রবার।"
     },
     {
       "id": "home-sharpener",
       "en": "sharpener",
       "bn": "শার্পনার",
       "emoji": "✏️",
-      "roman": "sharpener"
+      "exampleEn": "Please open the sharpener.",
+      "exampleBn": "দয়া করে শার্পনার খোলো।"
     },
     {
       "id": "home-ruler",
       "en": "ruler",
       "bn": "রুলার",
       "emoji": "📏",
-      "roman": "ruler"
+      "exampleEn": "The ruler is clean.",
+      "exampleBn": "রুলারটা পরিষ্কার।"
     },
     {
       "id": "home-glue",
       "en": "glue",
       "bn": "আঠা",
       "emoji": "🧴",
-      "roman": "glue"
+      "exampleEn": "I see a glue.",
+      "exampleBn": "আমি একটি আঠা দেখছি।"
     },
     {
       "id": "home-tape",
       "en": "tape",
       "bn": "টেপ",
       "emoji": "📼",
-      "roman": "tape"
+      "exampleEn": "This is our tape.",
+      "exampleBn": "এটা আমাদের টেপ।"
     },
     {
       "id": "home-stapler",
       "en": "stapler",
       "bn": "স্ট্যাপলার",
       "emoji": "📎",
-      "roman": "stapler"
+      "exampleEn": "Please open the stapler.",
+      "exampleBn": "দয়া করে স্ট্যাপলার খোলো।"
     },
     {
       "id": "home-paper-clip",
       "en": "paper clip",
       "bn": "পেপার ক্লিপ",
       "emoji": "📎",
-      "roman": "paper clip"
+      "exampleEn": "The paper clip is clean.",
+      "exampleBn": "পেপার ক্লিপটা পরিষ্কার।"
     },
     {
       "id": "home-notebook",
       "en": "notebook",
       "bn": "নোটবুক",
       "emoji": "📓",
-      "roman": "notebook"
+      "exampleEn": "I see a notebook.",
+      "exampleBn": "আমি একটি নোটবুক দেখছি।"
     },
     {
       "id": "home-diary",
       "en": "diary",
       "bn": "ডায়েরি",
       "emoji": "📔",
-      "roman": "diary"
+      "exampleEn": "This is our diary.",
+      "exampleBn": "এটা আমাদের ডায়েরি।"
     },
     {
       "id": "home-calendar",
       "en": "calendar",
       "bn": "ক্যালেন্ডার",
       "emoji": "📅",
-      "roman": "calendar"
+      "exampleEn": "Please open the calendar.",
+      "exampleBn": "দয়া করে ক্যালেন্ডার খোলো।"
     },
     {
       "id": "home-whiteboard",
       "en": "whiteboard",
       "bn": "হোয়াইটবোর্ড",
       "emoji": "📋",
-      "roman": "whiteboard"
+      "exampleEn": "The whiteboard is clean.",
+      "exampleBn": "হোয়াইটবোর্ডটা পরিষ্কার।"
     },
     {
       "id": "home-blackboard",
       "en": "blackboard",
       "bn": "ব্ল্যাকবোর্ড",
       "emoji": "📋",
-      "roman": "blackboard"
+      "exampleEn": "I see a blackboard.",
+      "exampleBn": "আমি একটি ব্ল্যাকবোর্ড দেখছি।"
     },
     {
       "id": "home-chalk",
       "en": "chalk",
       "bn": "চাল্খ",
       "emoji": "✏️",
-      "roman": "chalk"
+      "exampleEn": "This is our chalk.",
+      "exampleBn": "এটা আমাদের চাল্খ।"
     },
     {
       "id": "home-marker",
       "en": "marker",
       "bn": "মার্কার",
       "emoji": "🖊️",
-      "roman": "marker"
+      "exampleEn": "Please open the marker.",
+      "exampleBn": "দয়া করে মার্কার খোলো।"
     },
     {
       "id": "home-crayon",
       "en": "crayon",
       "bn": "ক্রেয়ন",
       "emoji": "🖍️",
-      "roman": "crayon"
+      "exampleEn": "The crayon is clean.",
+      "exampleBn": "ক্রেয়নটা পরিষ্কার।"
     },
     {
       "id": "home-paintbrush",
       "en": "paintbrush",
       "bn": "পেন্টব্রাশ",
       "emoji": "🖌️",
-      "roman": "paintbrush"
+      "exampleEn": "I see a paintbrush.",
+      "exampleBn": "আমি একটি পেন্টব্রাশ দেখছি।"
     },
     {
       "id": "home-paint",
       "en": "paint",
       "bn": "রং",
       "emoji": "🎨",
-      "roman": "rong"
+      "exampleEn": "This is our paint.",
+      "exampleBn": "এটা আমাদের রং।"
     },
     {
       "id": "home-easel",
       "en": "easel",
       "bn": "ইজল",
       "emoji": "🎨",
-      "roman": "easel"
+      "exampleEn": "Please open the easel.",
+      "exampleBn": "দয়া করে ইজল খোলো।"
     },
     {
       "id": "home-puzzle",
       "en": "puzzle",
       "bn": "ধাঁধা",
       "emoji": "🧩",
-      "roman": "puzzle"
+      "exampleEn": "The puzzle is clean.",
+      "exampleBn": "ধাঁধাটা পরিষ্কার।"
     },
     {
       "id": "home-board-game",
       "en": "board game",
       "bn": "বোর্ড গেম",
       "emoji": "🎲",
-      "roman": "board game"
+      "exampleEn": "I see a board game.",
+      "exampleBn": "আমি একটি বোর্ড গেম দেখছি।"
     },
     {
       "id": "home-doll",
       "en": "doll",
       "bn": "পুতুল",
       "emoji": "🪆",
-      "roman": "doll"
+      "exampleEn": "This is our doll.",
+      "exampleBn": "এটা আমাদের পুতুল।"
     },
     {
       "id": "home-teddy-bear",
       "en": "teddy bear",
       "bn": "টেডি ভালুক",
       "emoji": "🧸",
-      "roman": "teddy bear"
+      "exampleEn": "Please open the teddy bear.",
+      "exampleBn": "দয়া করে টেডি ভালুক খোলো।"
     },
     {
       "id": "home-blocks",
       "en": "blocks",
       "bn": "ব্লক",
       "emoji": "🧱",
-      "roman": "blocks"
+      "exampleEn": "The blocks is clean.",
+      "exampleBn": "ব্লকটা পরিষ্কার।"
     },
     {
       "id": "home-yo-yo",
       "en": "yo yo",
       "bn": "যো যো",
       "emoji": "🪀",
-      "roman": "yo yo"
+      "exampleEn": "I see a yo yo.",
+      "exampleBn": "আমি একটি যো যো দেখছি।"
     },
     {
       "id": "home-kite",
       "en": "kite",
       "bn": "ঘুরি",
       "emoji": "🪁",
-      "roman": "ghuri"
+      "exampleEn": "This is our kite.",
+      "exampleBn": "এটা আমাদের ঘুরি।"
     },
     {
       "id": "home-balloon",
       "en": "balloon",
       "bn": "বেলুন",
       "emoji": "🎈",
-      "roman": "balloon"
+      "exampleEn": "Please open the balloon.",
+      "exampleBn": "দয়া করে বেলুন খোলো।"
     },
     {
       "id": "home-party-hat",
       "en": "party hat",
       "bn": "পার্টি টুপি",
       "emoji": "🎉",
-      "roman": "party hat"
+      "exampleEn": "The party hat is clean.",
+      "exampleBn": "পার্টি টুপিটা পরিষ্কার।"
     },
     {
       "id": "home-gift",
       "en": "gift",
       "bn": "উপহার",
       "emoji": "🎁",
-      "roman": "gift"
+      "exampleEn": "I see a gift.",
+      "exampleBn": "আমি একটি উপহার দেখছি।"
     },
     {
       "id": "home-wrapping-paper",
       "en": "wrapping paper",
       "bn": "বরপপিঙ পপের",
       "emoji": "🎁",
-      "roman": "wrapping paper"
+      "exampleEn": "This is our wrapping paper.",
+      "exampleBn": "এটা আমাদের বরপপিঙ পপের।"
     },
     {
       "id": "home-ribbon",
       "en": "ribbon",
       "bn": "রিববোন",
       "emoji": "🎀",
-      "roman": "ribbon"
+      "exampleEn": "Please open the ribbon.",
+      "exampleBn": "দয়া করে রিববোন খোলো।"
     },
     {
       "id": "home-card",
       "en": "card",
       "bn": "কার্ড",
       "emoji": "💌",
-      "roman": "card"
+      "exampleEn": "The card is clean.",
+      "exampleBn": "কার্ডটা পরিষ্কার।"
     },
     {
       "id": "home-envelope",
       "en": "envelope",
       "bn": "খাম",
       "emoji": "✉️",
-      "roman": "envelope"
+      "exampleEn": "I see an envelope.",
+      "exampleBn": "আমি একটি খাম দেখছি।"
     },
     {
       "id": "home-stamp",
       "en": "stamp",
       "bn": "ডাকটিকিট",
       "emoji": "📮",
-      "roman": "stamp"
+      "exampleEn": "This is our stamp.",
+      "exampleBn": "এটা আমাদের ডাকটিকিট।"
     },
     {
       "id": "home-photo-frame",
       "en": "photo frame",
       "bn": "ছবির ফ্রেম",
       "emoji": "🖼️",
-      "roman": "photo frame"
+      "exampleEn": "Please open the photo frame.",
+      "exampleBn": "দয়া করে ছবির ফ্রেম খোলো।"
     },
     {
       "id": "home-vase",
       "en": "vase",
       "bn": "ফুলদানি",
       "emoji": "🏺",
-      "roman": "vase"
+      "exampleEn": "The vase is clean.",
+      "exampleBn": "ফুলদানিটা পরিষ্কার।"
     },
     {
       "id": "home-plant-pot",
       "en": "plant pot",
       "bn": "গাছের টব",
       "emoji": "🪴",
-      "roman": "gach er tub"
+      "exampleEn": "I see a plant pot.",
+      "exampleBn": "আমি একটি গাছের টব দেখছি।"
     },
     {
       "id": "home-watering-can",
       "en": "watering can",
       "bn": "পানি ধরার বালতি",
       "emoji": "🪴",
-      "roman": "pani dharar balti"
+      "exampleEn": "This is our watering can.",
+      "exampleBn": "এটা আমাদের পানি ধরার বালতি।"
     },
     {
       "id": "home-garden-hose",
       "en": "garden hose",
       "bn": "বাগানের পাইপ",
       "emoji": "🌿",
-      "roman": "garden hose"
+      "exampleEn": "Please open the garden hose.",
+      "exampleBn": "দয়া করে বাগানের পাইপ খোলো।"
     },
     {
       "id": "home-toolbox",
       "en": "toolbox",
       "bn": "টুলবক্স",
       "emoji": "🧰",
-      "roman": "toolbox"
+      "exampleEn": "The toolbox is clean.",
+      "exampleBn": "টুলবক্সটা পরিষ্কার।"
     },
     {
       "id": "home-hammer",
       "en": "hammer",
       "bn": "হাতুড়ি",
       "emoji": "🔨",
-      "roman": "hammer"
+      "exampleEn": "I see a hammer.",
+      "exampleBn": "আমি একটি হাতুড়ি দেখছি।"
     },
     {
       "id": "home-screwdriver",
       "en": "screwdriver",
       "bn": "স্ক্রুড্রাইভার",
       "emoji": "🪛",
-      "roman": "screwdriver"
+      "exampleEn": "This is our screwdriver.",
+      "exampleBn": "এটা আমাদের স্ক্রুড্রাইভার।"
     },
     {
       "id": "home-wrench",
       "en": "wrench",
       "bn": "রেনচ",
       "emoji": "🔧",
-      "roman": "wrench"
+      "exampleEn": "Please open the wrench.",
+      "exampleBn": "দয়া করে রেনচ খোলো।"
     },
     {
       "id": "home-nail",
       "en": "nail",
       "bn": "পেরেক",
       "emoji": "🔨",
-      "roman": "nail"
+      "exampleEn": "The nail is clean.",
+      "exampleBn": "পেরেকটা পরিষ্কার।"
     },
     {
       "id": "home-screw",
       "en": "screw",
       "bn": "স্ক্রু",
       "emoji": "🔩",
-      "roman": "screw"
+      "exampleEn": "I see a screw.",
+      "exampleBn": "আমি একটি স্ক্রু দেখছি।"
     },
     {
       "id": "home-drill",
       "en": "drill",
       "bn": "ড্রিল",
       "emoji": "🔩",
-      "roman": "drill"
+      "exampleEn": "This is our drill.",
+      "exampleBn": "এটা আমাদের ড্রিল।"
     },
     {
       "id": "home-ladder",
       "en": "ladder",
       "bn": "মই",
       "emoji": "🪜",
-      "roman": "ladder"
+      "exampleEn": "Please open the ladder.",
+      "exampleBn": "দয়া করে মই খোলো।"
     },
     {
       "id": "home-paint-roller",
       "en": "paint roller",
       "bn": "পিনত নীলকন্ঠ",
       "emoji": "🖌️",
-      "roman": "paint roller"
+      "exampleEn": "The paint roller is clean.",
+      "exampleBn": "পিনত নীলকন্ঠটা পরিষ্কার।"
     },
     {
       "id": "home-shovel",
       "en": "shovel",
       "bn": "বেলচা",
       "emoji": "⛏️",
-      "roman": "shovel"
+      "exampleEn": "I see a shovel.",
+      "exampleBn": "আমি একটি বেলচা দেখছি।"
     },
     {
       "id": "home-rake",
       "en": "rake",
       "bn": "ঝাুড়ু",
       "emoji": "🍂",
-      "roman": "rake"
+      "exampleEn": "This is our rake.",
+      "exampleBn": "এটা আমাদের ঝাুড়ু।"
     },
     {
       "id": "home-wheelbarrow",
       "en": "wheelbarrow",
       "bn": "ঠেলাগাড়ি",
       "emoji": "🛒",
-      "roman": "wheelbarrow"
+      "exampleEn": "Please open the wheelbarrow.",
+      "exampleBn": "দয়া করে ঠেলাগাড়ি খোলো।"
     }
   ]
 }

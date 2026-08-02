@@ -4,6 +4,7 @@ import { BANGLA_VOICES } from '../types/word'
 import {
   formatRelativeTime,
   type ProgressStore,
+  type QuizCategoryStats,
 } from '../lib/progress'
 import styles from './ParentDashboard.module.css'
 
@@ -14,8 +15,14 @@ type Props = {
   totalWordCatalog: number
   onBack: () => void
   onOpenSettings: () => void
+  onOpenQuiz: () => void
   onPlayCategory: (category: Category) => void
   onClearProgress: () => void
+}
+
+function scorePct(score: number, total: number) {
+  if (total <= 0) return 0
+  return Math.round((score / total) * 100)
 }
 
 export function ParentDashboard({
@@ -25,6 +32,7 @@ export function ParentDashboard({
   totalWordCatalog,
   onBack,
   onOpenSettings,
+  onOpenQuiz,
   onPlayCategory,
   onClearProgress,
 }: Props) {
@@ -45,6 +53,38 @@ export function ParentDashboard({
     .filter((row) => row.lastPlayedAt > 0)
     .sort((a, b) => b.lastPlayedAt - a.lastPlayedAt)
     .slice(0, 4)
+
+  const quizEntries = categories
+    .map((category) => {
+      const quiz = progress.quizByCategory[category.id]
+      return quiz && quiz.plays > 0
+        ? { category, quiz: quiz as QuizCategoryStats }
+        : null
+    })
+    .filter((row): row is { category: Category; quiz: QuizCategoryStats } => row != null)
+    .sort((a, b) => {
+      const aPct = scorePct(a.quiz.bestScore, a.quiz.bestTotal || a.quiz.lastTotal)
+      const bPct = scorePct(b.quiz.bestScore, b.quiz.bestTotal || b.quiz.lastTotal)
+      if (bPct !== aPct) return bPct - aPct
+      return b.quiz.plays - a.quiz.plays
+    })
+
+  const quizPlays = quizEntries.reduce((sum, row) => sum + row.quiz.plays, 0)
+  const quizCategories = quizEntries.length
+  const bestQuiz = quizEntries[0] ?? null
+  const avgLastPct =
+    quizEntries.length === 0
+      ? 0
+      : Math.round(
+          quizEntries.reduce(
+            (sum, row) => sum + scorePct(row.quiz.lastScore, row.quiz.lastTotal),
+            0,
+          ) / quizEntries.length,
+        )
+  const lastQuizAt = quizEntries.reduce(
+    (max, row) => Math.max(max, row.quiz.lastPlayedAt ?? 0),
+    0,
+  )
 
   const voiceLabel =
     BANGLA_VOICES.find((v) => v.id === settings.banglaVoice)?.label.split(' (')[0] ??
@@ -69,8 +109,7 @@ export function ParentDashboard({
           <h1 className={styles.title}>Parent Dashboard</h1>
           <p className={styles.subtitle}>অভিভাবক ড্যাশবোর্ড</p>
           <p className={styles.lead}>
-            Track what your baby has heard, jump back into a category, and tweak
-            learning settings.
+            Track listening progress, quiz scores, and jump back into practice.
           </p>
         </div>
       </header>
@@ -100,6 +139,103 @@ export function ParentDashboard({
         </article>
       </section>
 
+      <section className={styles.card} aria-label="Quiz analytics">
+        <div className={styles.cardHead}>
+          <span className={styles.cardIcon} aria-hidden>
+            🎯
+          </span>
+          <div>
+            <h2 className={styles.sectionTitle}>Quiz analytics</h2>
+            <p className={styles.sectionHint}>
+              Practice rounds: English word, pick the matching Bangla
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.quizSummary} aria-label="Quiz summary">
+          <article className={styles.quizStat}>
+            <p className={styles.quizStatValue}>{quizPlays}</p>
+            <p className={styles.quizStatLabel}>Rounds played</p>
+          </article>
+          <article className={styles.quizStat}>
+            <p className={styles.quizStatValue}>{quizCategories}</p>
+            <p className={styles.quizStatLabel}>Categories tried</p>
+          </article>
+          <article className={styles.quizStat}>
+            <p className={styles.quizStatValue}>
+              {bestQuiz
+                ? `${scorePct(bestQuiz.quiz.bestScore, bestQuiz.quiz.bestTotal || bestQuiz.quiz.lastTotal)}%`
+                : '—'}
+            </p>
+            <p className={styles.quizStatLabel}>
+              {bestQuiz ? `Best · ${bestQuiz.category.nameEn}` : 'Best score'}
+            </p>
+          </article>
+          <article className={styles.quizStat}>
+            <p className={styles.quizStatValue}>{quizEntries.length ? `${avgLastPct}%` : '—'}</p>
+            <p className={styles.quizStatLabel}>Avg last score</p>
+          </article>
+        </div>
+
+        {lastQuizAt > 0 ? (
+          <p className={styles.sectionHint}>
+            Last quiz {formatRelativeTime(lastQuizAt)}
+          </p>
+        ) : (
+          <p className={styles.emptyHint}>
+            No quiz rounds yet. Kids can open Quiz from the home screen and practice
+            any category.
+          </p>
+        )}
+
+        {quizEntries.length > 0 ? (
+          <ul className={styles.catList}>
+            {quizEntries.map(({ category, quiz }) => {
+              const bestTotal = quiz.bestTotal || quiz.lastTotal || 10
+              const bestPct = scorePct(quiz.bestScore, bestTotal)
+              const lastPct = scorePct(quiz.lastScore, quiz.lastTotal)
+              return (
+                <li key={category.id} className={styles.catRow}>
+                  <div
+                    className={styles.quizRow}
+                    style={{ '--cat-color': category.color } as CSSProperties}
+                  >
+                    <span className={styles.catIcon} aria-hidden>
+                      {category.icon}
+                    </span>
+                    <span className={styles.catCopy}>
+                      <span className={styles.catName}>{category.nameEn}</span>
+                      <span className={styles.catMeta}>
+                        Best {quiz.bestScore}/{bestTotal} ({bestPct}%)
+                        {' · '}
+                        Last {quiz.lastScore}/{quiz.lastTotal} ({lastPct}%)
+                      </span>
+                      <span className={styles.catMeta}>
+                        {quiz.plays} round{quiz.plays === 1 ? '' : 's'}
+                        {quiz.lastPlayedAt
+                          ? ` · ${formatRelativeTime(quiz.lastPlayedAt)}`
+                          : ''}
+                      </span>
+                      <span className={styles.catBar} aria-hidden>
+                        <span
+                          className={styles.catFill}
+                          style={{ width: `${bestPct}%` }}
+                        />
+                      </span>
+                    </span>
+                    <span className={styles.quizPct}>{bestPct}%</span>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        ) : null}
+
+        <button type="button" className={styles.primaryBtn} onClick={onOpenQuiz}>
+          Open quiz
+        </button>
+      </section>
+
       <section className={styles.card}>
         <div className={styles.cardHead}>
           <span className={styles.cardIcon} aria-hidden>
@@ -127,12 +263,13 @@ export function ParentDashboard({
           </span>
           <div>
             <h2 className={styles.sectionTitle}>Category progress</h2>
-            <p className={styles.sectionHint}>Completions and practice per topic</p>
+            <p className={styles.sectionHint}>Listening practice and quiz best per topic</p>
           </div>
         </div>
         <ul className={styles.catList}>
           {categories.map((category) => {
             const stats = progress.categories[category.id]
+            const quiz = progress.quizByCategory[category.id]
             const softPct =
               stats && stats.completed > 0
                 ? 100
@@ -142,6 +279,10 @@ export function ParentDashboard({
                       ((stats?.wordsHeard ?? 0) / Math.max(category.wordCount, 1)) * 100,
                     ),
                   )
+            const quizBest =
+              quiz && quiz.plays > 0
+                ? scorePct(quiz.bestScore, quiz.bestTotal || quiz.lastTotal)
+                : null
 
             return (
               <li key={category.id} className={styles.catRow}>
@@ -164,6 +305,7 @@ export function ParentDashboard({
                           : 'Not started'}
                       {' · '}
                       {category.wordCount} words
+                      {quizBest != null ? ` · Quiz best ${quizBest}%` : ''}
                     </span>
                     <span className={styles.catBar} aria-hidden>
                       <span
@@ -265,7 +407,7 @@ export function ParentDashboard({
         <ul className={styles.tips}>
           <li>Keep sessions short — 3 to 5 minutes is plenty.</li>
           <li>Point to the emoji while the word is spoken.</li>
-          <li>Repeat the Bangla word yourself after the app.</li>
+          <li>Try a Quiz round after listening to reinforce words.</li>
           <li>Use Slow preset at first, then Normal as they grow.</li>
         </ul>
       </section>
@@ -278,7 +420,8 @@ export function ParentDashboard({
           <div>
             <h2 className={styles.sectionTitle}>Reset progress</h2>
             <p className={styles.sectionHint}>
-              Clears hearing history and streaks on this browser only. Settings are kept.
+              Clears hearing history, quiz scores, and streaks on this browser only.
+              Settings are kept.
             </p>
           </div>
         </div>
@@ -286,7 +429,7 @@ export function ParentDashboard({
           type="button"
           className={styles.resetBtn}
           onClick={() => {
-            if (window.confirm('Clear all learning progress on this device?')) {
+            if (window.confirm('Clear all learning and quiz progress on this device?')) {
               onClearProgress()
             }
           }}

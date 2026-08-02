@@ -6,1099 +6,1256 @@
       "en": "rice",
       "bn": "ভাত",
       "emoji": "🍚",
-      "roman": "bhat"
+      "exampleEn": "I want some rice.",
+      "exampleBn": "আমি একটু ভাত চাই।"
     },
     {
       "id": "food-bread",
       "en": "bread",
       "bn": "রুটি",
       "emoji": "🍞",
-      "roman": "ruti"
+      "exampleEn": "I like bread.",
+      "exampleBn": "আমার রুটি ভালো লাগে।"
     },
     {
       "id": "food-milk",
       "en": "milk",
       "bn": "দুধ",
       "emoji": "🥛",
-      "roman": "dudh"
+      "exampleEn": "Please give me milk.",
+      "exampleBn": "দয়া করে আমাকে দুধ দাও।"
     },
     {
       "id": "food-water",
       "en": "water",
       "bn": "পানি",
       "emoji": "💧",
-      "roman": "pani"
+      "exampleEn": "This water tastes good.",
+      "exampleBn": "এই পানি ভালো লাগে।"
     },
     {
       "id": "food-apple",
       "en": "apple",
       "bn": "আপেল",
       "emoji": "🍎",
-      "roman": "apel"
+      "exampleEn": "I want an apple.",
+      "exampleBn": "আমি আপেল চাই।"
     },
     {
       "id": "food-banana",
       "en": "banana",
       "bn": "কলা",
       "emoji": "🍌",
-      "roman": "kola"
+      "exampleEn": "I like banana.",
+      "exampleBn": "আমার কলা ভালো লাগে।"
     },
     {
       "id": "food-mango",
       "en": "mango",
       "bn": "আম",
       "emoji": "🥭",
-      "roman": "am"
+      "exampleEn": "Please give me mango.",
+      "exampleBn": "দয়া করে আমাকে আম দাও।"
     },
     {
       "id": "food-orange",
       "en": "orange",
       "bn": "কমলা",
       "emoji": "🍊",
-      "roman": "komola"
+      "exampleEn": "This orange tastes good.",
+      "exampleBn": "এই কমলা ভালো লাগে।"
     },
     {
       "id": "food-egg",
       "en": "egg",
       "bn": "ডিম",
       "emoji": "🥚",
-      "roman": "dim"
+      "exampleEn": "I want an egg.",
+      "exampleBn": "আমি ডিম চাই।"
     },
     {
       "id": "food-fish",
       "en": "fish",
       "bn": "মাছ",
       "emoji": "🐟",
-      "roman": "mach"
+      "exampleEn": "I like fish.",
+      "exampleBn": "আমার মাছ ভালো লাগে।"
     },
     {
       "id": "food-chicken",
       "en": "chicken",
       "bn": "মুরগি",
       "emoji": "🍗",
-      "roman": "murgi"
+      "exampleEn": "Please give me chicken.",
+      "exampleBn": "দয়া করে আমাকে মুরগি দাও।"
     },
     {
       "id": "food-dal",
       "en": "lentils",
       "bn": "ডাল",
       "emoji": "🥣",
-      "roman": "dal"
+      "exampleEn": "This lentils tastes good.",
+      "exampleBn": "এই ডাল ভালো লাগে।"
     },
     {
       "id": "food-vegetable",
       "en": "vegetable",
       "bn": "সবজি",
       "emoji": "🥬",
-      "roman": "shobji"
+      "exampleEn": "I want a vegetable.",
+      "exampleBn": "আমি সবজি চাই।"
     },
     {
       "id": "food-potato",
       "en": "potato",
       "bn": "আলু",
       "emoji": "🥔",
-      "roman": "alu"
+      "exampleEn": "I like potato.",
+      "exampleBn": "আমার আলু ভালো লাগে।"
     },
     {
       "id": "food-tomato",
       "en": "tomato",
       "bn": "টমেটো",
       "emoji": "🍅",
-      "roman": "tomato"
+      "exampleEn": "Please give me tomato.",
+      "exampleBn": "দয়া করে আমাকে টমেটো দাও।"
     },
     {
       "id": "food-carrot",
       "en": "carrot",
       "bn": "গাজর",
       "emoji": "🥕",
-      "roman": "gajor"
+      "exampleEn": "This carrot tastes good.",
+      "exampleBn": "এই গাজর ভালো লাগে।"
     },
     {
       "id": "food-sweet",
       "en": "sweet",
       "bn": "মিষ্টি",
       "emoji": "🍬",
-      "roman": "mishti"
+      "exampleEn": "I want a sweet.",
+      "exampleBn": "আমি মিষ্টি চাই।"
     },
     {
       "id": "food-cake",
       "en": "cake",
       "bn": "কেক",
       "emoji": "🎂",
-      "roman": "kek"
+      "exampleEn": "I like cake.",
+      "exampleBn": "আমার কেক ভালো লাগে।"
     },
     {
       "id": "food-tea",
       "en": "tea",
       "bn": "চা",
       "emoji": "🍵",
-      "roman": "cha"
+      "exampleEn": "Please give me tea.",
+      "exampleBn": "দয়া করে আমাকে চা দাও।"
     },
     {
       "id": "food-juice",
       "en": "juice",
       "bn": "রস",
       "emoji": "🧃",
-      "roman": "rosh"
+      "exampleEn": "This juice tastes good.",
+      "exampleBn": "এই রস ভালো লাগে।"
     },
     {
       "id": "food-salt",
       "en": "salt",
       "bn": "লবণ",
       "emoji": "🧂",
-      "roman": "lobon"
+      "exampleEn": "I want a salt.",
+      "exampleBn": "আমি লবণ চাই।"
     },
     {
       "id": "food-sugar",
       "en": "sugar",
       "bn": "চিনি",
       "emoji": "🍬",
-      "roman": "chini"
+      "exampleEn": "I like sugar.",
+      "exampleBn": "আমার চিনি ভালো লাগে।"
     },
     {
       "id": "food-soup",
       "en": "soup",
       "bn": "স্যুপ",
       "emoji": "🍲",
-      "roman": "soup"
+      "exampleEn": "Please give me soup.",
+      "exampleBn": "দয়া করে আমাকে স্যুপ দাও।"
     },
     {
       "id": "food-fruit",
       "en": "fruit",
       "bn": "ফল",
       "emoji": "🍇",
-      "roman": "phol"
+      "exampleEn": "This fruit tastes good.",
+      "exampleBn": "এই ফল ভালো লাগে।"
     },
     {
       "id": "food-guava",
       "en": "guava",
       "bn": "পেয়ারা",
       "emoji": "🟢",
-      "roman": "peyara"
+      "exampleEn": "I want a guava.",
+      "exampleBn": "আমি পেয়ারা চাই।"
     },
     {
       "id": "food-papaya",
       "en": "papaya",
       "bn": "পেঁপে",
       "emoji": "🧡",
-      "roman": "pẽpe"
+      "exampleEn": "I like papaya.",
+      "exampleBn": "আমার পেঁপে ভালো লাগে।"
     },
     {
       "id": "food-jackfruit",
       "en": "jackfruit",
       "bn": "কাঁঠাল",
       "emoji": "🍈",
-      "roman": "kãthal"
+      "exampleEn": "Please give me jackfruit.",
+      "exampleBn": "দয়া করে আমাকে কাঁঠাল দাও।"
     },
     {
       "id": "food-coconut",
       "en": "coconut",
       "bn": "নারকেল",
       "emoji": "🥥",
-      "roman": "narkel"
+      "exampleEn": "This coconut tastes good.",
+      "exampleBn": "এই নারকেল ভালো লাগে।"
     },
     {
       "id": "food-grape",
       "en": "grape",
       "bn": "আঙ্গুর",
       "emoji": "🍇",
-      "roman": "angur"
+      "exampleEn": "I want a grape.",
+      "exampleBn": "আমি আঙ্গুর চাই।"
     },
     {
       "id": "food-watermelon",
       "en": "watermelon",
       "bn": "তরমুজ",
       "emoji": "🍉",
-      "roman": "tormuj"
+      "exampleEn": "I like watermelon.",
+      "exampleBn": "আমার তরমুজ ভালো লাগে।"
     },
     {
       "id": "food-pineapple",
       "en": "pineapple",
       "bn": "আনারস",
       "emoji": "🍍",
-      "roman": "anarosh"
+      "exampleEn": "Please give me pineapple.",
+      "exampleBn": "দয়া করে আমাকে আনারস দাও।"
     },
     {
       "id": "food-lemon",
       "en": "lemon",
       "bn": "লেবু",
       "emoji": "🍋",
-      "roman": "lebu"
+      "exampleEn": "This lemon tastes good.",
+      "exampleBn": "এই লেবু ভালো লাগে।"
     },
     {
       "id": "food-onion",
       "en": "onion",
       "bn": "পেঁয়াজ",
       "emoji": "🧅",
-      "roman": "pẽyaj"
+      "exampleEn": "I want an onion.",
+      "exampleBn": "আমি পেঁয়াজ চাই।"
     },
     {
       "id": "food-garlic",
       "en": "garlic",
       "bn": "রসুন",
       "emoji": "🧄",
-      "roman": "roshun"
+      "exampleEn": "I like garlic.",
+      "exampleBn": "আমার রসুন ভালো লাগে।"
     },
     {
       "id": "food-chili",
       "en": "chili",
       "bn": "মরিচ",
       "emoji": "🌶️",
-      "roman": "morich"
+      "exampleEn": "Please give me chili.",
+      "exampleBn": "দয়া করে আমাকে মরিচ দাও।"
     },
     {
       "id": "food-cucumber",
       "en": "cucumber",
       "bn": "শসা",
       "emoji": "🥒",
-      "roman": "shosha"
+      "exampleEn": "This cucumber tastes good.",
+      "exampleBn": "এই শসা ভালো লাগে।"
     },
     {
       "id": "food-eggplant",
       "en": "eggplant",
       "bn": "বেগুন",
       "emoji": "🍆",
-      "roman": "begun"
+      "exampleEn": "I want an eggplant.",
+      "exampleBn": "আমি বেগুন চাই।"
     },
     {
       "id": "food-spinach",
       "en": "spinach",
       "bn": "পালং শাক",
       "emoji": "🥬",
-      "roman": "palong shak"
+      "exampleEn": "I like spinach.",
+      "exampleBn": "আমার পালং শাক ভালো লাগে।"
     },
     {
       "id": "food-meat",
       "en": "meat",
       "bn": "মাংস",
       "emoji": "🥩",
-      "roman": "mangsho"
+      "exampleEn": "Please give me meat.",
+      "exampleBn": "দয়া করে আমাকে মাংস দাও।"
     },
     {
       "id": "food-beef",
       "en": "beef",
       "bn": "গরুর মাংস",
       "emoji": "🥩",
-      "roman": "gorur mangsho"
+      "exampleEn": "This beef tastes good.",
+      "exampleBn": "এই গরুর মাংস ভালো লাগে।"
     },
     {
       "id": "food-biryani",
       "en": "biryani",
       "bn": "বিরিয়ানি",
       "emoji": "🍛",
-      "roman": "biriyani"
+      "exampleEn": "I want a biryani.",
+      "exampleBn": "আমি বিরিয়ানি চাই।"
     },
     {
       "id": "food-khichuri",
       "en": "khichuri",
       "bn": "খিচুড়ি",
       "emoji": "🍲",
-      "roman": "khichuri"
+      "exampleEn": "I like khichuri.",
+      "exampleBn": "আমার খিচুড়ি ভালো লাগে।"
     },
     {
       "id": "food-pitha",
       "en": "pitha",
       "bn": "পিঠা",
       "emoji": "🥞",
-      "roman": "pitha"
+      "exampleEn": "Please give me pitha.",
+      "exampleBn": "দয়া করে আমাকে পিঠা দাও।"
     },
     {
       "id": "food-rosogolla",
       "en": "rosogolla",
       "bn": "রসগোল্লা",
       "emoji": "⚪",
-      "roman": "roshogolla"
+      "exampleEn": "This rosogolla tastes good.",
+      "exampleBn": "এই রসগোল্লা ভালো লাগে।"
     },
     {
       "id": "food-ice-cream",
       "en": "ice cream",
       "bn": "আইসক্রিম",
       "emoji": "🍦",
-      "roman": "aiskrim"
+      "exampleEn": "I want an ice cream.",
+      "exampleBn": "আমি আইসক্রিম চাই।"
     },
     {
       "id": "food-biscuit",
       "en": "biscuit",
       "bn": "বিস্কুট",
       "emoji": "🍪",
-      "roman": "biskut"
+      "exampleEn": "I like biscuit.",
+      "exampleBn": "আমার বিস্কুট ভালো লাগে।"
     },
     {
       "id": "food-honey",
       "en": "honey",
       "bn": "মধু",
       "emoji": "🍯",
-      "roman": "modhu"
+      "exampleEn": "Please give me honey.",
+      "exampleBn": "দয়া করে আমাকে মধু দাও।"
     },
     {
       "id": "food-butter",
       "en": "butter",
       "bn": "মাখন",
       "emoji": "🧈",
-      "roman": "makhon"
+      "exampleEn": "This butter tastes good.",
+      "exampleBn": "এই মাখন ভালো লাগে।"
     },
     {
       "id": "food-paratha",
       "en": "paratha",
       "bn": "পরোটা",
       "emoji": "🫓",
-      "roman": "porota"
+      "exampleEn": "I want a paratha.",
+      "exampleBn": "আমি পরোটা চাই।"
     },
     {
       "id": "food-samosa",
       "en": "samosa",
       "bn": "সমোস",
       "emoji": "🥟",
-      "roman": "samosa"
+      "exampleEn": "I like samosa.",
+      "exampleBn": "আমার সমোস ভালো লাগে।"
     },
     {
       "id": "food-singara",
       "en": "singara",
       "bn": "সিঙ্গারা",
       "emoji": "🥟",
-      "roman": "singara"
+      "exampleEn": "Please give me singara.",
+      "exampleBn": "দয়া করে আমাকে সিঙ্গারা দাও।"
     },
     {
       "id": "food-fuchka",
       "en": "fuchka",
       "bn": "ফুচকা",
       "emoji": "🥟",
-      "roman": "fuchka"
+      "exampleEn": "This fuchka tastes good.",
+      "exampleBn": "এই ফুচকা ভালো লাগে।"
     },
     {
       "id": "food-jhal-muri",
       "en": "jhal muri",
       "bn": "ঝাল মুড়ি",
       "emoji": "🍿",
-      "roman": "jhal muri"
+      "exampleEn": "I want a jhal muri.",
+      "exampleBn": "আমি ঝাল মুড়ি চাই।"
     },
     {
       "id": "food-chanachur",
       "en": "chanachur",
       "bn": "চানাচুর",
       "emoji": "🍿",
-      "roman": "chanachur"
+      "exampleEn": "I like chanachur.",
+      "exampleBn": "আমার চানাচুর ভালো লাগে।"
     },
     {
       "id": "food-mishti-doi",
       "en": "mishti doi",
       "bn": "মিষ্টি দই",
       "emoji": "🥛",
-      "roman": "mishti doi"
+      "exampleEn": "Please give me mishti doi.",
+      "exampleBn": "দয়া করে আমাকে মিষ্টি দই দাও।"
     },
     {
       "id": "food-ras-malai",
       "en": "ras malai",
       "bn": "রস মালাই",
       "emoji": "🍮",
-      "roman": "rosh malai"
+      "exampleEn": "This ras malai tastes good.",
+      "exampleBn": "এই রস মালাই ভালো লাগে।"
     },
     {
       "id": "food-sandesh",
       "en": "sandesh",
       "bn": "সন্দেশ",
       "emoji": "🍬",
-      "roman": "sandesh"
+      "exampleEn": "I want a sandesh.",
+      "exampleBn": "আমি সন্দেশ চাই।"
     },
     {
       "id": "food-payesh",
       "en": "payesh",
       "bn": "পায়েস",
       "emoji": "🍮",
-      "roman": "payesh"
+      "exampleEn": "I like payesh.",
+      "exampleBn": "আমার পায়েস ভালো লাগে।"
     },
     {
       "id": "food-polao",
       "en": "polao",
       "bn": "পোলাও",
       "emoji": "🍚",
-      "roman": "polao"
+      "exampleEn": "Please give me polao.",
+      "exampleBn": "দয়া করে আমাকে পোলাও দাও।"
     },
     {
       "id": "food-tehari",
       "en": "tehari",
       "bn": "তেহারি",
       "emoji": "🍚",
-      "roman": "tehari"
+      "exampleEn": "This tehari tastes good.",
+      "exampleBn": "এই তেহারি ভালো লাগে।"
     },
     {
       "id": "food-kacchi-biryani",
       "en": "kacchi biryani",
       "bn": "কাচ্চি বিরিয়ানি",
       "emoji": "🍛",
-      "roman": "kacchi biriyani"
+      "exampleEn": "I want a kacchi biryani.",
+      "exampleBn": "আমি কাচ্চি বিরিয়ানি চাই।"
     },
     {
       "id": "food-shorshe-ilish",
       "en": "shorshe ilish",
       "bn": "সরষে ইলিশ",
       "emoji": "🐟",
-      "roman": "shorshe ilish"
+      "exampleEn": "I like shorshe ilish.",
+      "exampleBn": "আমার সরষে ইলিশ ভালো লাগে।"
     },
     {
       "id": "food-shutki",
       "en": "shutki",
       "bn": "শুঁটকি",
       "emoji": "🐟",
-      "roman": "shutki"
+      "exampleEn": "Please give me shutki.",
+      "exampleBn": "দয়া করে আমাকে শুঁটকি দাও।"
     },
     {
       "id": "food-beguni",
       "en": "beguni",
       "bn": "বেগুনি",
       "emoji": "🍆",
-      "roman": "beguni"
+      "exampleEn": "This beguni tastes good.",
+      "exampleBn": "এই বেগুনি ভালো লাগে।"
     },
     {
       "id": "food-piyaju",
       "en": "piyaju",
       "bn": "পিয়াজু",
       "emoji": "🧅",
-      "roman": "piyaju"
+      "exampleEn": "I want a piyaju.",
+      "exampleBn": "আমি পিয়াজু চাই।"
     },
     {
       "id": "food-halim",
       "en": "halim",
       "bn": "হালিম",
       "emoji": "🍲",
-      "roman": "haleem"
+      "exampleEn": "I like halim.",
+      "exampleBn": "আমার হালিম ভালো লাগে।"
     },
     {
       "id": "food-borhani",
       "en": "borhani",
       "bn": "বোরহানি",
       "emoji": "🥤",
-      "roman": "borhani"
+      "exampleEn": "Please give me borhani.",
+      "exampleBn": "দয়া করে আমাকে বোরহানি দাও।"
     },
     {
       "id": "food-lassi",
       "en": "lassi",
       "bn": "লাসি",
       "emoji": "🥤",
-      "roman": "lassi"
+      "exampleEn": "This lassi tastes good.",
+      "exampleBn": "এই লাসি ভালো লাগে।"
     },
     {
       "id": "food-sugarcane-juice",
       "en": "sugarcane juice",
       "bn": "আখের রস",
       "emoji": "🥤",
-      "roman": "akher rosh"
+      "exampleEn": "I want a sugarcane juice.",
+      "exampleBn": "আমি আখের রস চাই।"
     },
     {
       "id": "food-coconut-water",
       "en": "coconut water",
       "bn": "ডাবের পানি",
       "emoji": "🥥",
-      "roman": "daber pani"
+      "exampleEn": "I like coconut water.",
+      "exampleBn": "আমার ডাবের পানি ভালো লাগে।"
     },
     {
       "id": "food-litchi",
       "en": "litchi",
       "bn": "লিচু",
       "emoji": "🍒",
-      "roman": "lichu"
+      "exampleEn": "Please give me litchi.",
+      "exampleBn": "দয়া করে আমাকে লিচু দাও।"
     },
     {
       "id": "food-jamun",
       "en": "jamun",
       "bn": "জাম",
       "emoji": "🫐",
-      "roman": "jam"
+      "exampleEn": "This jamun tastes good.",
+      "exampleBn": "এই জাম ভালো লাগে।"
     },
     {
       "id": "food-dragon-fruit",
       "en": "dragon fruit",
       "bn": "ড্রাগন ফল",
       "emoji": "🐉",
-      "roman": "dragon fruit"
+      "exampleEn": "I want a dragon fruit.",
+      "exampleBn": "আমি ড্রাগন ফল চাই।"
     },
     {
       "id": "food-strawberry",
       "en": "strawberry",
       "bn": "স্ট্রবেরি",
       "emoji": "🍓",
-      "roman": "strawberry"
+      "exampleEn": "I like strawberry.",
+      "exampleBn": "আমার স্ট্রবেরি ভালো লাগে।"
     },
     {
       "id": "food-pear",
       "en": "pear",
       "bn": "নাশপাতি",
       "emoji": "🍐",
-      "roman": "nashpati"
+      "exampleEn": "Please give me pear.",
+      "exampleBn": "দয়া করে আমাকে নাশপাতি দাও।"
     },
     {
       "id": "food-ghee",
       "en": "ghee",
       "bn": "ঘী",
       "emoji": "🧈",
-      "roman": "ghee"
+      "exampleEn": "This ghee tastes good.",
+      "exampleBn": "এই ঘী ভালো লাগে।"
     },
     {
       "id": "food-yogurt",
       "en": "yogurt",
       "bn": "দই",
       "emoji": "🥛",
-      "roman": "doi"
+      "exampleEn": "I want a yogurt.",
+      "exampleBn": "আমি দই চাই।"
     },
     {
       "id": "food-cheese",
       "en": "cheese",
       "bn": "পনির",
       "emoji": "🧀",
-      "roman": "ponir"
+      "exampleEn": "I like cheese.",
+      "exampleBn": "আমার পনির ভালো লাগে।"
     },
     {
       "id": "food-noodles",
       "en": "noodles",
       "bn": "নুডলস",
       "emoji": "🍜",
-      "roman": "noodles"
+      "exampleEn": "Please give me noodles.",
+      "exampleBn": "দয়া করে আমাকে নুডলস দাও।"
     },
     {
       "id": "food-pizza",
       "en": "pizza",
       "bn": "পিজ্জা",
       "emoji": "🍕",
-      "roman": "pizza"
+      "exampleEn": "This pizza tastes good.",
+      "exampleBn": "এই পিজ্জা ভালো লাগে।"
     },
     {
       "id": "food-burger",
       "en": "burger",
       "bn": "বার্গার",
       "emoji": "🍔",
-      "roman": "burger"
+      "exampleEn": "I want a burger.",
+      "exampleBn": "আমি বার্গার চাই।"
     },
     {
       "id": "food-french-fries",
       "en": "french fries",
       "bn": "ফ্রেঞ্চ ফ্রাই",
       "emoji": "🍟",
-      "roman": "french fries"
+      "exampleEn": "I like french fries.",
+      "exampleBn": "আমার ফ্রেঞ্চ ফ্রাই ভালো লাগে।"
     },
     {
       "id": "food-popcorn",
       "en": "popcorn",
       "bn": "পপকর্ন",
       "emoji": "🍿",
-      "roman": "popcorn"
+      "exampleEn": "Please give me popcorn.",
+      "exampleBn": "দয়া করে আমাকে পপকর্ন দাও।"
     },
     {
       "id": "food-peanut",
       "en": "peanut",
       "bn": "বাদাম",
       "emoji": "🥜",
-      "roman": "badam"
+      "exampleEn": "This peanut tastes good.",
+      "exampleBn": "এই বাদাম ভালো লাগে।"
     },
     {
       "id": "food-pickle",
       "en": "pickle",
       "bn": "আচার",
       "emoji": "🥒",
-      "roman": "achar"
+      "exampleEn": "I want a pickle.",
+      "exampleBn": "আমি আচার চাই।"
     },
     {
       "id": "food-chutney",
       "en": "chutney",
       "bn": "চতনি",
       "emoji": "🥣",
-      "roman": "chatni"
+      "exampleEn": "I like chutney.",
+      "exampleBn": "আমার চতনি ভালো লাগে।"
     },
     {
       "id": "food-turmeric",
       "en": "turmeric",
       "bn": "হলুদ",
       "emoji": "🟡",
-      "roman": "holud"
+      "exampleEn": "Please give me turmeric.",
+      "exampleBn": "দয়া করে আমাকে হলুদ দাও।"
     },
     {
       "id": "food-ginger",
       "en": "ginger",
       "bn": "আদা",
       "emoji": "🫚",
-      "roman": "ada"
+      "exampleEn": "This ginger tastes good.",
+      "exampleBn": "এই আদা ভালো লাগে।"
     },
     {
       "id": "food-cauliflower",
       "en": "cauliflower",
       "bn": "ফুলকোপি",
       "emoji": "🥦",
-      "roman": "phulkopi"
+      "exampleEn": "I want a cauliflower.",
+      "exampleBn": "আমি ফুলকোপি চাই।"
     },
     {
       "id": "food-cabbage",
       "en": "cabbage",
       "bn": "বনধকোপি",
       "emoji": "🥬",
-      "roman": "bandhakopi"
+      "exampleEn": "I like cabbage.",
+      "exampleBn": "আমার বনধকোপি ভালো লাগে।"
     },
     {
       "id": "food-peas",
       "en": "peas",
       "bn": "মটর",
       "emoji": "🫛",
-      "roman": "motor"
+      "exampleEn": "Please give me peas.",
+      "exampleBn": "দয়া করে আমাকে মটর দাও।"
     },
     {
       "id": "food-mushroom",
       "en": "mushroom",
       "bn": "মাশরুম",
       "emoji": "🍄",
-      "roman": "mushroom"
+      "exampleEn": "This mushroom tastes good.",
+      "exampleBn": "এই মাশরুম ভালো লাগে।"
     },
     {
       "id": "food-pumpkin",
       "en": "pumpkin",
       "bn": "কুমরো",
       "emoji": "🎃",
-      "roman": "kumro"
+      "exampleEn": "I want a pumpkin.",
+      "exampleBn": "আমি কুমরো চাই।"
     },
     {
       "id": "food-corn",
       "en": "corn",
       "bn": "ভুট্টা",
       "emoji": "🌽",
-      "roman": "bhutta"
+      "exampleEn": "I like corn.",
+      "exampleBn": "আমার ভুট্টা ভালো লাগে।"
     },
     {
       "id": "food-chira",
       "en": "chira",
       "bn": "চির",
       "emoji": "🍚",
-      "roman": "chira"
+      "exampleEn": "Please give me chira.",
+      "exampleBn": "দয়া করে আমাকে চির দাও।"
     },
     {
       "id": "food-muri",
       "en": "muri",
       "bn": "মুড়ি",
       "emoji": "🍚",
-      "roman": "muri"
+      "exampleEn": "This muri tastes good.",
+      "exampleBn": "এই মুড়ি ভালো লাগে।"
     },
     {
       "id": "food-kebab",
       "en": "kebab",
       "bn": "কাবাব",
       "emoji": "🍢",
-      "roman": "kebab"
+      "exampleEn": "I want a kebab.",
+      "exampleBn": "আমি কাবাব চাই।"
     },
     {
       "id": "food-fried-rice",
       "en": "fried rice",
       "bn": "ভাজা ভাত",
       "emoji": "🍚",
-      "roman": "bhaja bhat"
+      "exampleEn": "I like fried rice.",
+      "exampleBn": "আমার ভাজা ভাত ভালো লাগে।"
     },
     {
       "id": "food-fish-curry",
       "en": "fish curry",
       "bn": "মাছের তরকারি",
       "emoji": "🐟",
-      "roman": "macher torkari"
+      "exampleEn": "Please give me fish curry.",
+      "exampleBn": "দয়া করে আমাকে মাছের তরকারি দাও।"
     },
     {
       "id": "food-mutton",
       "en": "mutton",
       "bn": "খশি মাংস",
       "emoji": "🥩",
-      "roman": "khashi mangsho"
+      "exampleEn": "This mutton tastes good.",
+      "exampleBn": "এই খশি মাংস ভালো লাগে।"
     },
     {
       "id": "food-omelet",
       "en": "omelet",
       "bn": "ডিম ভাজি",
       "emoji": "🍳",
-      "roman": "dim poch"
+      "exampleEn": "I want an omelet.",
+      "exampleBn": "আমি ডিম ভাজি চাই।"
     },
     {
       "id": "food-chocolate",
       "en": "chocolate",
       "bn": "চকোলেট",
       "emoji": "🍫",
-      "roman": "chocolate"
+      "exampleEn": "I like chocolate.",
+      "exampleBn": "আমার চকোলেট ভালো লাগে।"
     },
     {
       "id": "food-lollipop",
       "en": "lollipop",
       "bn": "ললিপপ",
       "emoji": "🍭",
-      "roman": "lollipop"
+      "exampleEn": "Please give me lollipop.",
+      "exampleBn": "দয়া করে আমাকে ললিপপ দাও।"
     },
     {
       "id": "food-breakfast",
       "en": "breakfast",
       "bn": "নাশতা",
       "emoji": "🍳",
-      "roman": "nashta"
+      "exampleEn": "This breakfast tastes good.",
+      "exampleBn": "এই নাশতা ভালো লাগে।"
     },
     {
       "id": "food-lunch",
       "en": "lunch",
       "bn": "দুপুরের খাবার",
       "emoji": "🍱",
-      "roman": "dupur khabar"
+      "exampleEn": "I want a lunch.",
+      "exampleBn": "আমি দুপুরের খাবার চাই।"
     },
     {
       "id": "food-dinner",
       "en": "dinner",
       "bn": "রাতের খাবার",
       "emoji": "🍽️",
-      "roman": "ratri khabar"
+      "exampleEn": "I like dinner.",
+      "exampleBn": "আমার রাতের খাবার ভালো লাগে।"
     },
     {
       "id": "food-iftar",
       "en": "iftar",
       "bn": "ইফতর",
       "emoji": "🌙",
-      "roman": "iftar"
+      "exampleEn": "Please give me iftar.",
+      "exampleBn": "দয়া করে আমাকে ইফতর দাও।"
     },
     {
       "id": "food-naan",
       "en": "naan",
       "bn": "নান",
       "emoji": "🫓",
-      "roman": "nan"
+      "exampleEn": "This naan tastes good.",
+      "exampleBn": "এই নান ভালো লাগে।"
     },
     {
       "id": "food-semolina",
       "en": "semolina",
       "bn": "সুজি",
       "emoji": "🌾",
-      "roman": "suji"
+      "exampleEn": "I want a semolina.",
+      "exampleBn": "আমি সুজি চাই।"
     },
     {
       "id": "food-flour",
       "en": "flour",
       "bn": "আটা",
       "emoji": "🌾",
-      "roman": "ata"
+      "exampleEn": "I like flour.",
+      "exampleBn": "আমার আটা ভালো লাগে।"
     },
     {
       "id": "food-mustard-oil",
       "en": "mustard oil",
       "bn": "সরিষার তেল",
       "emoji": "🫙",
-      "roman": "sarisha tel"
+      "exampleEn": "Please give me mustard oil.",
+      "exampleBn": "দয়া করে আমাকে সরিষার তেল দাও।"
     },
     {
       "id": "food-jaggery",
       "en": "jaggery",
       "bn": "গুড়",
       "emoji": "🟤",
-      "roman": "gur"
+      "exampleEn": "This jaggery tastes good.",
+      "exampleBn": "এই গুড় ভালো লাগে।"
     },
     {
       "id": "food-radish",
       "en": "radish",
       "bn": "মূলা",
       "emoji": "🥕",
-      "roman": "mula"
+      "exampleEn": "I want a radish.",
+      "exampleBn": "আমি মূলা চাই।"
     },
     {
       "id": "food-fish-fry",
       "en": "fish fry",
       "bn": "মাছ ভাজা",
       "emoji": "🐟",
-      "roman": "mach bhaja"
+      "exampleEn": "I like fish fry.",
+      "exampleBn": "আমার মাছ ভাজা ভালো লাগে।"
     },
     {
       "id": "food-dal-puri",
       "en": "dal puri",
       "bn": "দল পুরি",
       "emoji": "🫓",
-      "roman": "dal puri"
+      "exampleEn": "Please give me dal puri.",
+      "exampleBn": "দয়া করে আমাকে দল পুরি দাও।"
     },
     {
       "id": "food-luchi",
       "en": "luchi",
       "bn": "লুচি",
       "emoji": "🫓",
-      "roman": "luchi"
+      "exampleEn": "This luchi tastes good.",
+      "exampleBn": "এই লুচি ভালো লাগে।"
     },
     {
       "id": "food-beef-curry",
       "en": "beef curry",
       "bn": "গরুর মাংসের তরকারি",
       "emoji": "🥩",
-      "roman": "gorur mangsher torkari"
+      "exampleEn": "I want a beef curry.",
+      "exampleBn": "আমি গরুর মাংসের তরকারি চাই।"
     },
     {
       "id": "food-duck-curry",
       "en": "duck curry",
       "bn": "হাঁসের তরকারি",
       "emoji": "🦆",
-      "roman": "hasher torkari"
+      "exampleEn": "I like duck curry.",
+      "exampleBn": "আমার হাঁসের তরকারি ভালো লাগে।"
     },
     {
       "id": "food-prawn-fry",
       "en": "prawn fry",
       "bn": "চিঙরি ভাজা",
       "emoji": "🦐",
-      "roman": "chingri bhaja"
+      "exampleEn": "Please give me prawn fry.",
+      "exampleBn": "দয়া করে আমাকে চিঙরি ভাজা দাও।"
     },
     {
       "id": "food-star-fruit",
       "en": "star fruit",
       "bn": "কমরঙ",
       "emoji": "⭐",
-      "roman": "kamranga"
+      "exampleEn": "This star fruit tastes good.",
+      "exampleBn": "এই কমরঙ ভালো লাগে।"
     },
     {
       "id": "food-bel-fruit",
       "en": "bel fruit",
       "bn": "বেল",
       "emoji": "🟤",
-      "roman": "bel"
+      "exampleEn": "I want a bel fruit.",
+      "exampleBn": "আমি বেল চাই।"
     },
     {
       "id": "food-wood-apple",
       "en": "wood apple",
       "bn": "কথবেল",
       "emoji": "🟤",
-      "roman": "kathbel"
+      "exampleEn": "I like wood apple.",
+      "exampleBn": "আমার কথবেল ভালো লাগে।"
     },
     {
       "id": "food-mango-juice",
       "en": "mango juice",
       "bn": "আমের রস",
       "emoji": "🧃",
-      "roman": "am er rosh"
+      "exampleEn": "Please give me mango juice.",
+      "exampleBn": "দয়া করে আমাকে আমের রস দাও।"
     },
     {
       "id": "food-lemonade",
       "en": "lemonade",
       "bn": "লেবুর শরবত",
       "emoji": "🍋",
-      "roman": "lebur shorbot"
+      "exampleEn": "This lemonade tastes good.",
+      "exampleBn": "এই লেবুর শরবত ভালো লাগে।"
     },
     {
       "id": "food-coffee",
       "en": "coffee",
       "bn": "কফি",
       "emoji": "☕",
-      "roman": "coffee"
+      "exampleEn": "I want coffee.",
+      "exampleBn": "আমি কফি চাই।"
     },
     {
       "id": "food-cake-slice",
       "en": "cake slice",
       "bn": "কেক",
       "emoji": "🍰",
-      "roman": "cake"
+      "exampleEn": "I like cake slice.",
+      "exampleBn": "আমার কেক ভালো লাগে।"
     },
     {
       "id": "food-donut",
       "en": "donut",
       "bn": "ডোনাট",
       "emoji": "🍩",
-      "roman": "donut"
+      "exampleEn": "Please give me donut.",
+      "exampleBn": "দয়া করে আমাকে ডোনাট দাও।"
     },
     {
       "id": "food-toast",
       "en": "toast",
       "bn": "টোস্ট",
       "emoji": "🍞",
-      "roman": "toast"
+      "exampleEn": "This toast tastes good.",
+      "exampleBn": "এই টোস্ট ভালো লাগে।"
     },
     {
       "id": "food-chicken-soup",
       "en": "chicken soup",
       "bn": "মুরগির সুপ",
       "emoji": "🍲",
-      "roman": "murgir soup"
+      "exampleEn": "I want a chicken soup.",
+      "exampleBn": "আমি মুরগির সুপ চাই।"
     },
     {
       "id": "food-fried-chicken",
       "en": "fried chicken",
       "bn": "ভাজা মুরগি",
       "emoji": "🍗",
-      "roman": "bhaja murgi"
+      "exampleEn": "I like fried chicken.",
+      "exampleBn": "আমার ভাজা মুরগি ভালো লাগে।"
     },
     {
       "id": "food-steamed-rice",
       "en": "steamed rice",
       "bn": "ভাপা ভাত",
       "emoji": "🍚",
-      "roman": "bhapa bhat"
+      "exampleEn": "Please give me steamed rice.",
+      "exampleBn": "দয়া করে আমাকে ভাপা ভাত দাও।"
     },
     {
       "id": "food-mashed-potato",
       "en": "mashed potato",
       "bn": "আলু ভর্তা",
       "emoji": "🥔",
-      "roman": "alu bhorta"
+      "exampleEn": "This mashed potato tastes good.",
+      "exampleBn": "এই আলু ভর্তা ভালো লাগে।"
     },
     {
       "id": "food-mashed-fish",
       "en": "mashed fish",
       "bn": "মাছ ভর্তা",
       "emoji": "🐟",
-      "roman": "mach bhorta"
+      "exampleEn": "I want a mashed fish.",
+      "exampleBn": "আমি মাছ ভর্তা চাই।"
     },
     {
       "id": "food-dried-fish",
       "en": "dried fish",
       "bn": "শুঁটকি মাছ",
       "emoji": "🐟",
-      "roman": "shutki mach"
+      "exampleEn": "I like dried fish.",
+      "exampleBn": "আমার শুঁটকি মাছ ভালো লাগে।"
     },
     {
       "id": "food-sweet-yogurt",
       "en": "sweet yogurt",
       "bn": "মিষ্টি দই",
       "emoji": "🥛",
-      "roman": "mishti doi"
+      "exampleEn": "Please give me sweet yogurt.",
+      "exampleBn": "দয়া করে আমাকে মিষ্টি দই দাও।"
     },
     {
       "id": "food-paneer",
       "en": "paneer",
       "bn": "পনির",
       "emoji": "🧀",
-      "roman": "paneer"
+      "exampleEn": "This paneer tastes good.",
+      "exampleBn": "এই পনির ভালো লাগে।"
     },
     {
       "id": "food-jalebi",
       "en": "jalebi",
       "bn": "জিলাপি",
       "emoji": "🍩",
-      "roman": "jilapi"
+      "exampleEn": "I want a jalebi.",
+      "exampleBn": "আমি জিলাপি চাই।"
     },
     {
       "id": "food-firni",
       "en": "firni",
       "bn": "ফিরনি",
       "emoji": "🍮",
-      "roman": "firni"
+      "exampleEn": "I like firni.",
+      "exampleBn": "আমার ফিরনি ভালো লাগে।"
     },
     {
       "id": "food-rice-cake",
       "en": "rice cake",
       "bn": "পিঠা",
       "emoji": "🥞",
-      "roman": "pitha"
+      "exampleEn": "Please give me rice cake.",
+      "exampleBn": "দয়া করে আমাকে পিঠা দাও।"
     },
     {
       "id": "food-patishapta",
       "en": "patishapta",
       "bn": "পাটিশাপ্টা",
       "emoji": "🥞",
-      "roman": "patishapta"
+      "exampleEn": "This patishapta tastes good.",
+      "exampleBn": "এই পাটিশাপ্টা ভালো লাগে।"
     },
     {
       "id": "food-bora",
       "en": "bora",
       "bn": "বড়া",
       "emoji": "🍘",
-      "roman": "bora"
+      "exampleEn": "I want a bora.",
+      "exampleBn": "আমি বড়া চাই।"
     },
     {
       "id": "food-chop",
       "en": "chop",
       "bn": "চপ",
       "emoji": "🍢",
-      "roman": "chop"
+      "exampleEn": "I like chop.",
+      "exampleBn": "আমার চপ ভালো লাগে।"
     },
     {
       "id": "food-kathi-roll",
       "en": "kathi roll",
       "bn": "কাঠি রোল",
       "emoji": "🌯",
-      "roman": "kathi roll"
+      "exampleEn": "Please give me kathi roll.",
+      "exampleBn": "দয়া করে আমাকে কাঠি রোল দাও।"
     },
     {
       "id": "food-dim-chop",
       "en": "dim chop",
       "bn": "ডিম চপ",
       "emoji": "🍢",
-      "roman": "dim chop"
+      "exampleEn": "This dim chop tastes good.",
+      "exampleBn": "এই ডিম চপ ভালো লাগে।"
     },
     {
       "id": "food-shami-kebab",
       "en": "shami kebab",
       "bn": "শামি কাবাব",
       "emoji": "🍢",
-      "roman": "shami kebab"
+      "exampleEn": "I want a shami kebab.",
+      "exampleBn": "আমি শামি কাবাব চাই।"
     },
     {
       "id": "food-hot-dog",
       "en": "hot dog",
       "bn": "হটডগ",
       "emoji": "🌭",
-      "roman": "hot dog"
+      "exampleEn": "I like hot dog.",
+      "exampleBn": "আমার হটডগ ভালো লাগে।"
     },
     {
       "id": "food-sandwich",
       "en": "sandwich",
       "bn": "স্যান্ডউইচ",
       "emoji": "🥪",
-      "roman": "sandwich"
+      "exampleEn": "Please give me sandwich.",
+      "exampleBn": "দয়া করে আমাকে স্যান্ডউইচ দাও।"
     },
     {
       "id": "food-tiffin",
       "en": "tiffin",
       "bn": "টিফিন",
       "emoji": "🍱",
-      "roman": "tiffin"
+      "exampleEn": "This tiffin tastes good.",
+      "exampleBn": "এই টিফিন ভালো লাগে।"
     },
     {
       "id": "food-street-food",
       "en": "street food",
       "bn": "রাস্তার খাবার",
       "emoji": "🍢",
-      "roman": "rasta khabar"
+      "exampleEn": "I want a street food.",
+      "exampleBn": "আমি রাস্তার খাবার চাই।"
     },
     {
       "id": "food-spicy-food",
       "en": "spicy food",
       "bn": "ঝাল খাবার",
       "emoji": "🌶️",
-      "roman": "jhal khabar"
+      "exampleEn": "I like spicy food.",
+      "exampleBn": "আমার ঝাল খাবার ভালো লাগে।"
     },
     {
       "id": "food-sweet-taste",
       "en": "sweet taste",
       "bn": "মিষ্টি স্বাদ",
       "emoji": "🍬",
-      "roman": "mishti swad"
+      "exampleEn": "Please give me sweet taste.",
+      "exampleBn": "দয়া করে আমাকে মিষ্টি স্বাদ দাও।"
     },
     {
       "id": "food-fast-food",
       "en": "fast food",
       "bn": "ফাস্ট ফুড",
       "emoji": "🍔",
-      "roman": "fast food"
+      "exampleEn": "This fast food tastes good.",
+      "exampleBn": "এই ফাস্ট ফুড ভালো লাগে।"
     },
     {
       "id": "food-healthy-food",
       "en": "healthy food",
       "bn": "সুস্থ খাবার",
       "emoji": "🥗",
-      "roman": "shustho khabar"
+      "exampleEn": "I want a healthy food.",
+      "exampleBn": "আমি সুস্থ খাবার চাই।"
     },
     {
       "id": "food-morog-polao",
       "en": "morog polao",
       "bn": "মোরগ পোলাও",
       "emoji": "🍚",
-      "roman": "morog polao"
+      "exampleEn": "I like morog polao.",
+      "exampleBn": "আমার মোরগ পোলাও ভালো লাগে।"
     },
     {
       "id": "food-rezaela",
       "en": "rezaela",
       "bn": "রেজালা",
       "emoji": "🍲",
-      "roman": "rezala"
+      "exampleEn": "Please give me rezaela.",
+      "exampleBn": "দয়া করে আমাকে রেজালা দাও।"
     },
     {
       "id": "food-korma",
       "en": "korma",
       "bn": "কোরম",
       "emoji": "🍲",
-      "roman": "korma"
+      "exampleEn": "This korma tastes good.",
+      "exampleBn": "এই কোরম ভালো লাগে।"
     },
     {
       "id": "food-boot",
       "en": "boot",
       "bn": "বূট",
       "emoji": "🥾",
-      "roman": "but"
+      "exampleEn": "I want a boot.",
+      "exampleBn": "আমি বূট চাই।"
     }
   ]
 }

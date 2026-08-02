@@ -48,7 +48,6 @@ function sanitize(raw: unknown): AppSettings {
     banglaEngine: engine === 'device' || engine === 'neural' ? engine : DEFAULT_SETTINGS.banglaEngine,
     autoAdvance: Boolean(input.autoAdvance ?? DEFAULT_SETTINGS.autoAdvance),
     banglaRepeat: repeat === 2 ? 2 : 1,
-    showRoman: Boolean(input.showRoman ?? DEFAULT_SETTINGS.showRoman),
     shuffle: Boolean(input.shuffle ?? DEFAULT_SETTINGS.shuffle),
     parentGate:
       gate === 'hold' || gate === 'pin' || gate === 'off' ? gate : DEFAULT_SETTINGS.parentGate,
@@ -147,7 +146,6 @@ export function useSettings() {
     (banglaRepeat: BanglaRepeat) => update({ banglaRepeat }),
     [update],
   )
-  const setShowRoman = useCallback((showRoman: boolean) => update({ showRoman }), [update])
   const setShuffle = useCallback((shuffle: boolean) => update({ shuffle }), [update])
   const setParentGate = useCallback(
     (parentGate: ParentGate) => update({ parentGate }),
@@ -171,7 +169,6 @@ export function useSettings() {
     setBanglaEngine,
     setAutoAdvance,
     setBanglaRepeat,
-    setShowRoman,
     setShuffle,
     setParentGate,
     setParentPin,

@@ -17,6 +17,8 @@ type SpeakWordInput = {
   id: string
   en: string
   bn: string
+  exampleEn?: string
+  exampleBn?: string
 }
 
 function pickVoice(
@@ -37,10 +39,35 @@ function pickVoice(
 export function useSpeech() {
   const [voicesReady, setVoicesReady] = useState(false)
   const voicesRef = useRef<SpeechSynthesisVoice[]>([])
-  const cancelRef = useRef(false)
+  /** Bumps on every cancel / new speakWord — stale async work must exit. */
+  const generationRef = useRef(0)
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const audioWaitRef = useRef<(() => void) | null>(null)
   const objectUrlRef = useRef<string | null>(null)
+  const gapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const clearGapTimer = () => {
+    if (gapTimerRef.current != null) {
+      clearTimeout(gapTimerRef.current)
+      gapTimerRef.current = null
+    }
+  }
+
+  const stopAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.onended = null
+      audioRef.current.onerror = null
+      audioRef.current.pause()
+      audioRef.current.src = ''
+      audioRef.current = null
+    }
+    if (objectUrlRef.current) {
+      URL.revokeObjectURL(objectUrlRef.current)
+      objectUrlRef.current = null
+    }
+    audioWaitRef.current?.()
+    audioWaitRef.current = null
+  }
 
   useEffect(() => {
     if (typeof window === 'undefined' || !window.speechSynthesis) return
@@ -55,42 +82,41 @@ export function useSpeech() {
     return () => {
       window.speechSynthesis.removeEventListener('voiceschanged', load)
       window.speechSynthesis.cancel()
-      if (audioRef.current) {
-        audioRef.current.pause()
-        audioRef.current = null
-      }
-      if (objectUrlRef.current) {
-        URL.revokeObjectURL(objectUrlRef.current)
-        objectUrlRef.current = null
-      }
-      audioWaitRef.current?.()
-      audioWaitRef.current = null
+      clearGapTimer()
+      stopAudio()
     }
   }, [])
 
   const cancel = useCallback(() => {
-    cancelRef.current = true
+    generationRef.current += 1
+    clearGapTimer()
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
     }
-    if (audioRef.current) {
-      audioRef.current.onended = null
-      audioRef.current.onerror = null
-      audioRef.current.pause()
-      audioRef.current.src = ''
-      audioRef.current = null
-    }
-    if (objectUrlRef.current) {
-      URL.revokeObjectURL(objectUrlRef.current)
-      objectUrlRef.current = null
-    }
-    audioWaitRef.current?.()
-    audioWaitRef.current = null
+    stopAudio()
+  }, [])
+
+  const waitGap = useCallback((ms: number, generation: number) => {
+    return new Promise<void>((resolve) => {
+      clearGapTimer()
+      if (generation !== generationRef.current) {
+        resolve()
+        return
+      }
+      gapTimerRef.current = setTimeout(() => {
+        gapTimerRef.current = null
+        resolve()
+      }, ms)
+    })
   }, [])
 
   const speakBrowser = useCallback(
-    (text: string, langPrefs: string[], rate: number, volume: number) =>
+    (text: string, langPrefs: string[], rate: number, volume: number, generation: number) =>
       new Promise<void>((resolve) => {
+        if (generation !== generationRef.current) {
+          resolve()
+          return
+        }
         if (!window.speechSynthesis) {
           resolve()
           return
@@ -103,15 +129,21 @@ export function useSpeech() {
         const voice = pickVoice(voicesRef.current, langPrefs)
         if (voice) utterance.voice = voice
 
-        utterance.onend = () => resolve()
-        utterance.onerror = () => resolve()
+        const finish = () => resolve()
+        utterance.onend = finish
+        utterance.onerror = finish
         window.speechSynthesis.speak(utterance)
       }),
     [],
   )
 
-  const playBlob = useCallback((blob: Blob, rate: number, volume: number) => {
+  const playBlob = useCallback((blob: Blob, rate: number, volume: number, generation: number) => {
     return new Promise<void>((resolve, reject) => {
+      if (generation !== generationRef.current) {
+        resolve()
+        return
+      }
+
       const finish = () => {
         if (audioWaitRef.current === finish) audioWaitRef.current = null
         if (objectUrlRef.current) {
@@ -125,7 +157,6 @@ export function useSpeech() {
       const url = URL.createObjectURL(blob)
       objectUrlRef.current = url
       const audio = new Audio(url)
-      // Rate already baked into neural synth; keep near 1 for clarity
       audio.playbackRate = Math.min(1.15, Math.max(0.85, rate > 1 ? 1 + (rate - 1) * 0.35 : rate))
       audio.volume = volume
       audioRef.current = audio
@@ -150,59 +181,93 @@ export function useSpeech() {
     })
   }, [])
 
-  const speakBangla = useCallback(
-    async (word: SpeakWordInput, options: SpeakOptions) => {
+  const speakBanglaText = useCallback(
+    async (text: string, options: SpeakOptions, generation: number) => {
+      if (generation !== generationRef.current) return
+
       if (options.banglaEngine === 'device') {
-        await speakBrowser(word.bn, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume)
+        await speakBrowser(text, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume, generation)
         return
       }
 
       try {
-        const blob = await fetchBanglaAudio(word.bn, options.banglaVoice, options.rate)
-        if (cancelRef.current) return
-        await playBlob(blob, options.rate, options.volume)
+        const blob = await fetchBanglaAudio(text, options.banglaVoice, options.rate)
+        if (generation !== generationRef.current) return
+        await playBlob(blob, options.rate, options.volume, generation)
       } catch {
-        if (cancelRef.current) return
-        await speakBrowser(word.bn, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume)
+        if (generation !== generationRef.current) return
+        await speakBrowser(text, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume, generation)
       }
     },
     [playBlob, speakBrowser],
   )
 
+  const speakPair = useCallback(
+    async (en: string, bn: string, options: SpeakOptions, generation: number) => {
+      if (generation !== generationRef.current) return
+
+      if (options.mode === 'en-bn' || options.mode === 'en-only') {
+        await speakBrowser(en, ['en-US', 'en-GB', 'en'], options.rate, options.volume, generation)
+        if (generation !== generationRef.current) return
+        if (options.mode === 'en-only') return
+        await waitGap(options.enBnGapMs, generation)
+        if (generation !== generationRef.current) return
+      }
+
+      if (options.mode === 'en-only') return
+
+      const times = options.banglaRepeat
+      for (let i = 0; i < times; i++) {
+        if (generation !== generationRef.current) return
+        await speakBanglaText(bn, options, generation)
+        if (generation !== generationRef.current) return
+        if (i < times - 1) {
+          await waitGap(Math.max(200, options.enBnGapMs), generation)
+        }
+      }
+    },
+    [speakBanglaText, speakBrowser, waitGap],
+  )
+
   const speakWord = useCallback(
     async (word: SpeakWordInput, options: SpeakOptions) => {
-      cancelRef.current = false
+      const generation = ++generationRef.current
+      clearGapTimer()
+      stopAudio()
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel()
+      }
+
       if (options.muted) return
+      if (generation !== generationRef.current) return
 
       if (window.speechSynthesis) {
         window.speechSynthesis.resume()
       }
 
-      if (options.mode === 'en-bn' || options.mode === 'en-only') {
-        await speakBrowser(word.en, ['en-US', 'en-GB', 'en'], options.rate, options.volume)
-        if (cancelRef.current) return
-        if (options.mode === 'en-only') return
-        await new Promise((r) => setTimeout(r, options.enBnGapMs))
-        if (cancelRef.current) return
-      }
+      await speakPair(word.en, word.bn, options, generation)
+      if (generation !== generationRef.current) return
 
-      const times = options.banglaRepeat
-      for (let i = 0; i < times; i++) {
-        if (cancelRef.current) return
-        await speakBangla(word, options)
-        if (cancelRef.current) return
-        if (i < times - 1) {
-          await new Promise((r) => setTimeout(r, Math.max(200, options.enBnGapMs)))
-        }
-      }
+      const exampleEn = word.exampleEn?.trim()
+      const exampleBn = word.exampleBn?.trim()
+      if (!exampleEn || !exampleBn) return
+
+      await waitGap(Math.max(280, options.enBnGapMs), generation)
+      if (generation !== generationRef.current) return
+
+      await speakPair(exampleEn, exampleBn, options, generation)
     },
-    [speakBangla, speakBrowser],
+    [speakPair, waitGap],
   )
 
   const prefetchBangla = useCallback(
     (word: SpeakWordInput, voice: BanglaVoiceId, rate: number, engine: BanglaEngine) => {
       if (engine !== 'neural') return
       void fetchBanglaAudio(word.bn, voice, rate).catch(() => undefined)
+      const exampleBn = word.exampleBn?.trim()
+      if (exampleBn) {
+        void fetchBanglaAudio(exampleBn, voice, rate).catch(() => undefined)
+      }
     },
     [],
   )

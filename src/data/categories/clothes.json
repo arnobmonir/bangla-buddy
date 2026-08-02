@@ -6,1211 +6,1384 @@
       "en": "shirt",
       "bn": "শার্ট",
       "emoji": "👕",
-      "roman": "shirt"
+      "exampleEn": "I wear a shirt.",
+      "exampleBn": "আমি শার্ট পরি।"
     },
     {
       "id": "clothes-pants",
       "en": "pants",
       "bn": "প্যান্ট",
       "emoji": "👖",
-      "roman": "pant"
+      "exampleEn": "Please put on your pants.",
+      "exampleBn": "দয়া করে তোমার প্যান্ট পরো।"
     },
     {
       "id": "clothes-dress",
       "en": "dress",
       "bn": "গাউন",
       "emoji": "👗",
-      "roman": "gaun"
+      "exampleEn": "My dress is soft.",
+      "exampleBn": "আমার গাউন নরম।"
     },
     {
       "id": "clothes-shoe",
       "en": "shoe",
       "bn": "জুতো",
       "emoji": "👟",
-      "roman": "juto"
+      "exampleEn": "I like this shoe.",
+      "exampleBn": "আমার এই জুতো ভালো লাগে।"
     },
     {
       "id": "clothes-sock",
       "en": "sock",
       "bn": "মোজা",
       "emoji": "🧦",
-      "roman": "moja"
+      "exampleEn": "I wear a sock.",
+      "exampleBn": "আমি মোজা পরি।"
     },
     {
       "id": "clothes-hat",
       "en": "hat",
       "bn": "টুপি",
       "emoji": "🧢",
-      "roman": "tupi"
+      "exampleEn": "Please put on your hat.",
+      "exampleBn": "দয়া করে তোমার টুপি পরো।"
     },
     {
       "id": "clothes-coat",
       "en": "coat",
       "bn": "কোট",
       "emoji": "🧥",
-      "roman": "kot"
+      "exampleEn": "My coat is soft.",
+      "exampleBn": "আমার কোট নরম।"
     },
     {
       "id": "clothes-scarf",
       "en": "scarf",
       "bn": "স্কার্ফ",
       "emoji": "🧣",
-      "roman": "scarf"
+      "exampleEn": "I like this scarf.",
+      "exampleBn": "আমার এই স্কার্ফ ভালো লাগে।"
     },
     {
       "id": "clothes-glove",
       "en": "glove",
       "bn": "দস্তানা",
       "emoji": "🧤",
-      "roman": "dostana"
+      "exampleEn": "I wear a glove.",
+      "exampleBn": "আমি দস্তানা পরি।"
     },
     {
       "id": "clothes-bag",
       "en": "bag",
       "bn": "ব্যাগ",
       "emoji": "👜",
-      "roman": "bag"
+      "exampleEn": "Please put on your bag.",
+      "exampleBn": "দয়া করে তোমার ব্যাগ পরো।"
     },
     {
       "id": "clothes-sari",
       "en": "sari",
       "bn": "শাড়ি",
       "emoji": "🥻",
-      "roman": "shari"
+      "exampleEn": "My sari is soft.",
+      "exampleBn": "আমার শাড়ি নরম।"
     },
     {
       "id": "clothes-punjabi",
       "en": "punjabi",
       "bn": "পাঞ্জাবি",
       "emoji": "👔",
-      "roman": "panjabi"
+      "exampleEn": "I like this punjabi.",
+      "exampleBn": "আমার এই পাঞ্জাবি ভালো লাগে।"
     },
     {
       "id": "clothes-button",
       "en": "button",
       "bn": "বোতাম",
       "emoji": "🔘",
-      "roman": "botam"
+      "exampleEn": "I wear a button.",
+      "exampleBn": "আমি বোতাম পরি।"
     },
     {
       "id": "clothes-umbrella",
       "en": "umbrella",
       "bn": "ছাতা",
       "emoji": "☂️",
-      "roman": "chata"
+      "exampleEn": "Please put on your umbrella.",
+      "exampleBn": "দয়া করে তোমার ছাতা পরো।"
     },
     {
       "id": "clothes-tshirt",
       "en": "t-shirt",
       "bn": "টি-শার্ট",
       "emoji": "👕",
-      "roman": "t-shirt"
+      "exampleEn": "My t-shirt is soft.",
+      "exampleBn": "আমার টি-শার্ট নরম।"
     },
     {
       "id": "clothes-skirt",
       "en": "skirt",
       "bn": "স্কার্ট",
       "emoji": "👗",
-      "roman": "skirt"
+      "exampleEn": "I like this skirt.",
+      "exampleBn": "আমার এই স্কার্ট ভালো লাগে।"
     },
     {
       "id": "clothes-shorts",
       "en": "shorts",
       "bn": "শর্টস",
       "emoji": "🩳",
-      "roman": "shorts"
+      "exampleEn": "I wear shorts.",
+      "exampleBn": "আমি শর্টস পরি।"
     },
     {
       "id": "clothes-jeans",
       "en": "jeans",
       "bn": "জিনস",
       "emoji": "👖",
-      "roman": "jins"
+      "exampleEn": "Please put on your jeans.",
+      "exampleBn": "দয়া করে তোমার জিনস পরো।"
     },
     {
       "id": "clothes-sweater",
       "en": "sweater",
       "bn": "সোয়েটার",
       "emoji": "🧶",
-      "roman": "sweater"
+      "exampleEn": "My sweater is soft.",
+      "exampleBn": "আমার সোয়েটার নরম।"
     },
     {
       "id": "clothes-jacket",
       "en": "jacket",
       "bn": "জ্যাকেট",
       "emoji": "🧥",
-      "roman": "jacket"
+      "exampleEn": "I like this jacket.",
+      "exampleBn": "আমার এই জ্যাকেট ভালো লাগে।"
     },
     {
       "id": "clothes-hoodie",
       "en": "hoodie",
       "bn": "হুডি",
       "emoji": "🧥",
-      "roman": "hudi"
+      "exampleEn": "I wear a hoodie.",
+      "exampleBn": "আমি হুডি পরি।"
     },
     {
       "id": "clothes-pajamas",
       "en": "pajamas",
       "bn": "পাজামা",
       "emoji": "🛌",
-      "roman": "pajama"
+      "exampleEn": "Please put on your pajamas.",
+      "exampleBn": "দয়া করে তোমার পাজামা পরো।"
     },
     {
       "id": "clothes-underwear",
       "en": "underwear",
       "bn": "অন্তর্বাস",
       "emoji": "🩲",
-      "roman": "ontorbas"
+      "exampleEn": "My underwear is soft.",
+      "exampleBn": "আমার অন্তর্বাস নরম।"
     },
     {
       "id": "clothes-sandal",
       "en": "sandal",
       "bn": "স্যান্ডেল",
       "emoji": "🩴",
-      "roman": "sandal"
+      "exampleEn": "I like this sandal.",
+      "exampleBn": "আমার এই স্যান্ডেল ভালো লাগে।"
     },
     {
       "id": "clothes-boot",
       "en": "boot",
       "bn": "বুট",
       "emoji": "🥾",
-      "roman": "but"
+      "exampleEn": "I wear a boot.",
+      "exampleBn": "আমি বুট পরি।"
     },
     {
       "id": "clothes-slipper",
       "en": "slipper",
       "bn": "স্লিপার",
       "emoji": "🩴",
-      "roman": "slipar"
+      "exampleEn": "Please put on your slipper.",
+      "exampleBn": "দয়া করে তোমার স্লিপার পরো।"
     },
     {
       "id": "clothes-belt",
       "en": "belt",
       "bn": "বেল্ট",
       "emoji": "➰",
-      "roman": "belt"
+      "exampleEn": "My belt is soft.",
+      "exampleBn": "আমার বেল্ট নরম।"
     },
     {
       "id": "clothes-tie",
       "en": "tie",
       "bn": "নেকটাই",
       "emoji": "👔",
-      "roman": "nektai"
+      "exampleEn": "I like this tie.",
+      "exampleBn": "আমার এই নেকটাই ভালো লাগে।"
     },
     {
       "id": "clothes-glasses",
       "en": "glasses",
       "bn": "চশমা",
       "emoji": "👓",
-      "roman": "choshma"
+      "exampleEn": "I wear glasses.",
+      "exampleBn": "আমি চশমা পরি।"
     },
     {
       "id": "clothes-watch",
       "en": "watch",
       "bn": "ঘড়ি",
       "emoji": "⌚",
-      "roman": "ghori"
+      "exampleEn": "Please put on your watch.",
+      "exampleBn": "দয়া করে তোমার ঘড়ি পরো।"
     },
     {
       "id": "clothes-ring",
       "en": "ring",
       "bn": "আংটি",
       "emoji": "💍",
-      "roman": "angti"
+      "exampleEn": "My ring is soft.",
+      "exampleBn": "আমার আংটি নরম।"
     },
     {
       "id": "clothes-necklace",
       "en": "necklace",
       "bn": "হার",
       "emoji": "📿",
-      "roman": "har"
+      "exampleEn": "I like this necklace.",
+      "exampleBn": "আমার এই হার ভালো লাগে।"
     },
     {
       "id": "clothes-earring",
       "en": "earring",
       "bn": "কানের দুল",
       "emoji": "👂",
-      "roman": "kaner dul"
+      "exampleEn": "I wear an earring.",
+      "exampleBn": "আমি কানের দুল পরি।"
     },
     {
       "id": "clothes-salwar",
       "en": "salwar",
       "bn": "সালোয়ার",
       "emoji": "👗",
-      "roman": "saloyar"
+      "exampleEn": "Please put on your salwar.",
+      "exampleBn": "দয়া করে তোমার সালোয়ার পরো।"
     },
     {
       "id": "clothes-kamiz",
       "en": "kameez",
       "bn": "কামিজ",
       "emoji": "👚",
-      "roman": "kamij"
+      "exampleEn": "My kameez is soft.",
+      "exampleBn": "আমার কামিজ নরম।"
     },
     {
       "id": "clothes-lungi",
       "en": "lungi",
       "bn": "লুঙ্গি",
       "emoji": "🩳",
-      "roman": "lungi"
+      "exampleEn": "I like this lungi.",
+      "exampleBn": "আমার এই লুঙ্গি ভালো লাগে।"
     },
     {
       "id": "clothes-gamcha",
       "en": "towel cloth",
       "bn": "গামছা",
       "emoji": "🧣",
-      "roman": "gamcha"
+      "exampleEn": "I wear a towel cloth.",
+      "exampleBn": "আমি গামছা পরি।"
     },
     {
       "id": "clothes-pocket",
       "en": "pocket",
       "bn": "পকেট",
       "emoji": "👖",
-      "roman": "poket"
+      "exampleEn": "Please put on your pocket.",
+      "exampleBn": "দয়া করে তোমার পকেট পরো।"
     },
     {
       "id": "clothes-zipper",
       "en": "zipper",
       "bn": "জিপার",
       "emoji": "🤐",
-      "roman": "jipar"
+      "exampleEn": "My zipper is soft.",
+      "exampleBn": "আমার জিপার নরম।"
     },
     {
       "id": "clothes-clothes",
       "en": "clothes",
       "bn": "পোশাক",
       "emoji": "👚",
-      "roman": "poshak"
+      "exampleEn": "I like this clothes.",
+      "exampleBn": "আমার এই পোশাক ভালো লাগে।"
     },
     {
       "id": "clothes-vest",
       "en": "vest",
       "bn": "বনিযনি",
       "emoji": "🦺",
-      "roman": "baniyani"
+      "exampleEn": "I wear a vest.",
+      "exampleBn": "আমি বনিযনি পরি।"
     },
     {
       "id": "clothes-blouse",
       "en": "blouse",
       "bn": "বলৌসে",
       "emoji": "👚",
-      "roman": "blouse"
+      "exampleEn": "Please put on your blouse.",
+      "exampleBn": "দয়া করে তোমার বলৌসে পরো।"
     },
     {
       "id": "clothes-dupatta",
       "en": "dupatta",
       "bn": "ওরন",
       "emoji": "🧣",
-      "roman": "orna"
+      "exampleEn": "My dupatta is soft.",
+      "exampleBn": "আমার ওরন নরম।"
     },
     {
       "id": "clothes-shawl",
       "en": "shawl",
       "bn": "শবল",
       "emoji": "🧣",
-      "roman": "shawl"
+      "exampleEn": "I like this shawl.",
+      "exampleBn": "আমার এই শবল ভালো লাগে।"
     },
     {
       "id": "clothes-muffler",
       "en": "muffler",
       "bn": "মুফফলের",
       "emoji": "🧣",
-      "roman": "muffler"
+      "exampleEn": "I wear a muffler.",
+      "exampleBn": "আমি মুফফলের পরি।"
     },
     {
       "id": "clothes-cap",
       "en": "cap",
       "bn": "টুপি",
       "emoji": "🧢",
-      "roman": "tupi"
+      "exampleEn": "Please put on your cap.",
+      "exampleBn": "দয়া করে তোমার টুপি পরো।"
     },
     {
       "id": "clothes-helmet",
       "en": "helmet",
       "bn": "হেলমেত",
       "emoji": "⛑️",
-      "roman": "helmet"
+      "exampleEn": "My helmet is soft.",
+      "exampleBn": "আমার হেলমেত নরম।"
     },
     {
       "id": "clothes-crown",
       "en": "crown",
       "bn": "মুকুত",
       "emoji": "👑",
-      "roman": "mukut"
+      "exampleEn": "I like this crown.",
+      "exampleBn": "আমার এই মুকুত ভালো লাগে।"
     },
     {
       "id": "clothes-turban",
       "en": "turban",
       "bn": "পগরি",
       "emoji": "👳",
-      "roman": "pagri"
+      "exampleEn": "I wear a turban.",
+      "exampleBn": "আমি পগরি পরি।"
     },
     {
       "id": "clothes-hijab",
       "en": "hijab",
       "bn": "হিজব",
       "emoji": "🧕",
-      "roman": "hijab"
+      "exampleEn": "Please put on your hijab.",
+      "exampleBn": "দয়া করে তোমার হিজব পরো।"
     },
     {
       "id": "clothes-burqa",
       "en": "burqa",
       "bn": "বুরক",
       "emoji": "🧕",
-      "roman": "burqa"
+      "exampleEn": "My burqa is soft.",
+      "exampleBn": "আমার বুরক নরম।"
     },
     {
       "id": "clothes-abaya",
       "en": "abaya",
       "bn": "অবয",
       "emoji": "🧕",
-      "roman": "abaya"
+      "exampleEn": "I like this abaya.",
+      "exampleBn": "আমার এই অবয ভালো লাগে।"
     },
     {
       "id": "clothes-panjabi-top",
       "en": "panjabi top",
       "bn": "পাঞ্জাবি",
       "emoji": "👔",
-      "roman": "panjabi"
+      "exampleEn": "I wear a panjabi top.",
+      "exampleBn": "আমি পাঞ্জাবি পরি।"
     },
     {
       "id": "clothes-fatua",
       "en": "fatua",
       "bn": "ফতু",
       "emoji": "👕",
-      "roman": "fatua"
+      "exampleEn": "Please put on your fatua.",
+      "exampleBn": "দয়া করে তোমার ফতু পরো।"
     },
     {
       "id": "clothes-kurta",
       "en": "kurta",
       "bn": "কুরত",
       "emoji": "👕",
-      "roman": "kurta"
+      "exampleEn": "My kurta is soft.",
+      "exampleBn": "আমার কুরত নরম।"
     },
     {
       "id": "clothes-sherwani",
       "en": "sherwani",
       "bn": "শেরবনি",
       "emoji": "🤵",
-      "roman": "sherwani"
+      "exampleEn": "I like this sherwani.",
+      "exampleBn": "আমার এই শেরবনি ভালো লাগে।"
     },
     {
       "id": "clothes-lehenga",
       "en": "lehenga",
       "bn": "লেহেঙ",
       "emoji": "👗",
-      "roman": "lehenga"
+      "exampleEn": "I wear a lehenga.",
+      "exampleBn": "আমি লেহেঙ পরি।"
     },
     {
       "id": "clothes-sharee-blouse",
       "en": "sharee blouse",
       "bn": "সরি বলুজ",
       "emoji": "👚",
-      "roman": "sari blauj"
+      "exampleEn": "Please put on your sharee blouse.",
+      "exampleBn": "দয়া করে তোমার সরি বলুজ পরো।"
     },
     {
       "id": "clothes-petticoat",
       "en": "petticoat",
       "bn": "পেটিচোত",
       "emoji": "👗",
-      "roman": "petticoat"
+      "exampleEn": "My petticoat is soft.",
+      "exampleBn": "আমার পেটিচোত নরম।"
     },
     {
       "id": "clothes-dhoti",
       "en": "dhoti",
       "bn": "ধোতি",
       "emoji": "👖",
-      "roman": "dhoti"
+      "exampleEn": "I like this dhoti.",
+      "exampleBn": "আমার এই ধোতি ভালো লাগে।"
     },
     {
       "id": "clothes-pajama-pants",
       "en": "pajama pants",
       "bn": "পাজামা",
       "emoji": "🩳",
-      "roman": "pajama"
+      "exampleEn": "I wear pajama pants.",
+      "exampleBn": "আমি পাজামা পরি।"
     },
     {
       "id": "clothes-track-pants",
       "en": "track pants",
       "bn": "তরচক প্যান্ট",
       "emoji": "👖",
-      "roman": "track pant"
+      "exampleEn": "Please put on your track pants.",
+      "exampleBn": "দয়া করে তোমার তরচক প্যান্ট পরো।"
     },
     {
       "id": "clothes-leggings",
       "en": "leggings",
       "bn": "লেগগিঙস",
       "emoji": "👖",
-      "roman": "leggings"
+      "exampleEn": "My leggings is soft.",
+      "exampleBn": "আমার লেগগিঙস নরম।"
     },
     {
       "id": "clothes-tights",
       "en": "tights",
       "bn": "তিঘতস",
       "emoji": "🩱",
-      "roman": "tights"
+      "exampleEn": "I like this tights.",
+      "exampleBn": "আমার এই তিঘতস ভালো লাগে।"
     },
     {
       "id": "clothes-swimsuit",
       "en": "swimsuit",
       "bn": "সাঁতারের পোশাক",
       "emoji": "🩱",
-      "roman": "swimsuit"
+      "exampleEn": "I wear a swimsuit.",
+      "exampleBn": "আমি সাঁতারের পোশাক পরি।"
     },
     {
       "id": "clothes-bikini",
       "en": "bikini",
       "bn": "বিকিনি",
       "emoji": "👙",
-      "roman": "bikini"
+      "exampleEn": "Please put on your bikini.",
+      "exampleBn": "দয়া করে তোমার বিকিনি পরো।"
     },
     {
       "id": "clothes-raincoat",
       "en": "raincoat",
       "bn": "রিনচোত",
       "emoji": "🧥",
-      "roman": "raincoat"
+      "exampleEn": "My raincoat is soft.",
+      "exampleBn": "আমার রিনচোত নরম।"
     },
     {
       "id": "clothes-windbreaker",
       "en": "windbreaker",
       "bn": "বিনদবরেকের",
       "emoji": "🧥",
-      "roman": "windbreaker"
+      "exampleEn": "I like this windbreaker.",
+      "exampleBn": "আমার এই বিনদবরেকের ভালো লাগে।"
     },
     {
       "id": "clothes-blazer",
       "en": "blazer",
       "bn": "বলজের",
       "emoji": "🧥",
-      "roman": "blazer"
+      "exampleEn": "I wear a blazer.",
+      "exampleBn": "আমি বলজের পরি।"
     },
     {
       "id": "clothes-cardigan",
       "en": "cardigan",
       "bn": "চরদিগন",
       "emoji": "🧶",
-      "roman": "cardigan"
+      "exampleEn": "Please put on your cardigan.",
+      "exampleBn": "দয়া করে তোমার চরদিগন পরো।"
     },
     {
       "id": "clothes-poncho",
       "en": "poncho",
       "bn": "পোনচো",
       "emoji": "🧥",
-      "roman": "poncho"
+      "exampleEn": "My poncho is soft.",
+      "exampleBn": "আমার পোনচো নরম।"
     },
     {
       "id": "clothes-flip-flops",
       "en": "flip flops",
       "bn": "ফলিপ ফলোপ",
       "emoji": "🩴",
-      "roman": "flip flop"
+      "exampleEn": "I like this flip flops.",
+      "exampleBn": "আমার এই ফলিপ ফলোপ ভালো লাগে।"
     },
     {
       "id": "clothes-clogs",
       "en": "clogs",
       "bn": "চলোগস",
       "emoji": "🥿",
-      "roman": "clogs"
+      "exampleEn": "I wear clogs.",
+      "exampleBn": "আমি চলোগস পরি।"
     },
     {
       "id": "clothes-heels",
       "en": "heels",
       "bn": "হীল জুতো",
       "emoji": "👠",
-      "roman": "heel juto"
+      "exampleEn": "Please put on your heels.",
+      "exampleBn": "দয়া করে তোমার হীল জুতো পরো।"
     },
     {
       "id": "clothes-loafers",
       "en": "loafers",
       "bn": "লোফেরস",
       "emoji": "👞",
-      "roman": "loafers"
+      "exampleEn": "My loafers is soft.",
+      "exampleBn": "আমার লোফেরস নরম।"
     },
     {
       "id": "clothes-sneakers",
       "en": "sneakers",
       "bn": "সনেকেরস",
       "emoji": "👟",
-      "roman": "sneakers"
+      "exampleEn": "I like this sneakers.",
+      "exampleBn": "আমার এই সনেকেরস ভালো লাগে।"
     },
     {
       "id": "clothes-canvas-shoes",
       "en": "canvas shoes",
       "bn": "চনভস জুতো",
       "emoji": "👟",
-      "roman": "canvas juto"
+      "exampleEn": "I wear canvas shoes.",
+      "exampleBn": "আমি চনভস জুতো পরি।"
     },
     {
       "id": "clothes-rain-boots",
       "en": "rain boots",
       "bn": "রিন বূট",
       "emoji": "🥾",
-      "roman": "rain boot"
+      "exampleEn": "Please put on your rain boots.",
+      "exampleBn": "দয়া করে তোমার রিন বূট পরো।"
     },
     {
       "id": "clothes-snow-boots",
       "en": "snow boots",
       "bn": "সনোব বূট",
       "emoji": "🥾",
-      "roman": "snow boot"
+      "exampleEn": "My snow boots is soft.",
+      "exampleBn": "আমার সনোব বূট নরম।"
     },
     {
       "id": "clothes-ankle-socks",
       "en": "ankle socks",
       "bn": "মজা",
       "emoji": "🧦",
-      "roman": "moja"
+      "exampleEn": "I like this ankle socks.",
+      "exampleBn": "আমার এই মজা ভালো লাগে।"
     },
     {
       "id": "clothes-knee-socks",
       "en": "knee socks",
       "bn": "লমব মজা",
       "emoji": "🧦",
-      "roman": "lamba moja"
+      "exampleEn": "I wear knee socks.",
+      "exampleBn": "আমি লমব মজা পরি।"
     },
     {
       "id": "clothes-stockings",
       "en": "stockings",
       "bn": "সতোচকিঙস",
       "emoji": "🧦",
-      "roman": "stockings"
+      "exampleEn": "Please put on your stockings.",
+      "exampleBn": "দয়া করে তোমার সতোচকিঙস পরো।"
     },
     {
       "id": "clothes-garter",
       "en": "garter",
       "bn": "গরতের",
       "emoji": "🧦",
-      "roman": "garter"
+      "exampleEn": "My garter is soft.",
+      "exampleBn": "আমার গরতের নরম।"
     },
     {
       "id": "clothes-suspenders",
       "en": "suspenders",
       "bn": "সুসপেনদেরস",
       "emoji": "👖",
-      "roman": "suspenders"
+      "exampleEn": "I like this suspenders.",
+      "exampleBn": "আমার এই সুসপেনদেরস ভালো লাগে।"
     },
     {
       "id": "clothes-bow-tie",
       "en": "bow tie",
       "bn": "বোব তিে",
       "emoji": "🎀",
-      "roman": "bow tie"
+      "exampleEn": "I wear a bow tie.",
+      "exampleBn": "আমি বোব তিে পরি।"
     },
     {
       "id": "clothes-cufflinks",
       "en": "cufflinks",
       "bn": "চুফফলিনকস",
       "emoji": "👔",
-      "roman": "cufflinks"
+      "exampleEn": "Please put on your cufflinks.",
+      "exampleBn": "দয়া করে তোমার চুফফলিনকস পরো।"
     },
     {
       "id": "clothes-brooch",
       "en": "brooch",
       "bn": "বরুচ",
       "emoji": "📿",
-      "roman": "brooch"
+      "exampleEn": "My brooch is soft.",
+      "exampleBn": "আমার বরুচ নরম।"
     },
     {
       "id": "clothes-anklet",
       "en": "anklet",
       "bn": "পযেল",
       "emoji": "📿",
-      "roman": "payel"
+      "exampleEn": "I like this anklet.",
+      "exampleBn": "আমার এই পযেল ভালো লাগে।"
     },
     {
       "id": "clothes-toe-ring",
       "en": "toe ring",
       "bn": "পা এর আংটি",
       "emoji": "💍",
-      "roman": "pay er angti"
+      "exampleEn": "I wear a toe ring.",
+      "exampleBn": "আমি পা এর আংটি পরি।"
     },
     {
       "id": "clothes-bangle",
       "en": "bangle",
       "bn": "ছুরি",
       "emoji": "📿",
-      "roman": "churi"
+      "exampleEn": "Please put on your bangle.",
+      "exampleBn": "দয়া করে তোমার ছুরি পরো।"
     },
     {
       "id": "clothes-bracelet",
       "en": "bracelet",
       "bn": "বরচেলেত",
       "emoji": "📿",
-      "roman": "bracelet"
+      "exampleEn": "My bracelet is soft.",
+      "exampleBn": "আমার বরচেলেত নরম।"
     },
     {
       "id": "clothes-hair-clip",
       "en": "hair clip",
       "bn": "চুল এর চলিপ",
       "emoji": "💇",
-      "roman": "chul er clip"
+      "exampleEn": "I like this hair clip.",
+      "exampleBn": "আমার এই চুল এর চলিপ ভালো লাগে।"
     },
     {
       "id": "clothes-hair-band",
       "en": "hair band",
       "bn": "চুল এর বনদ",
       "emoji": "💇",
-      "roman": "chul er band"
+      "exampleEn": "I wear a hair band.",
+      "exampleBn": "আমি চুল এর বনদ পরি।"
     },
     {
       "id": "clothes-hair-pin",
       "en": "hair pin",
       "bn": "চুল এর পিন",
       "emoji": "💇",
-      "roman": "chul er pin"
+      "exampleEn": "Please put on your hair pin.",
+      "exampleBn": "দয়া করে তোমার চুল এর পিন পরো।"
     },
     {
       "id": "clothes-ribbon-hair",
       "en": "ribbon hair",
       "bn": "চুল এর রিববোন",
       "emoji": "🎀",
-      "roman": "chul er ribbon"
+      "exampleEn": "My ribbon hair is soft.",
+      "exampleBn": "আমার চুল এর রিববোন নরম।"
     },
     {
       "id": "clothes-veil",
       "en": "veil",
       "bn": "ঘোমত",
       "emoji": "👰",
-      "roman": "ghomta"
+      "exampleEn": "I like this veil.",
+      "exampleBn": "আমার এই ঘোমত ভালো লাগে।"
     },
     {
       "id": "clothes-mask",
       "en": "mask",
       "bn": "মসক",
       "emoji": "😷",
-      "roman": "mask"
+      "exampleEn": "I wear a mask.",
+      "exampleBn": "আমি মসক পরি।"
     },
     {
       "id": "clothes-gloves-winter",
       "en": "gloves winter",
       "bn": "দস্তানা",
       "emoji": "🧤",
-      "roman": "dostana"
+      "exampleEn": "Please put on your gloves winter.",
+      "exampleBn": "দয়া করে তোমার দস্তানা পরো।"
     },
     {
       "id": "clothes-mittens",
       "en": "mittens",
       "bn": "মিটেনস",
       "emoji": "🧤",
-      "roman": "mittens"
+      "exampleEn": "My mittens is soft.",
+      "exampleBn": "আমার মিটেনস নরম।"
     },
     {
       "id": "clothes-apron",
       "en": "apron",
       "bn": "অপরোন",
       "emoji": "👨‍🍳",
-      "roman": "apron"
+      "exampleEn": "I like this apron.",
+      "exampleBn": "আমার এই অপরোন ভালো লাগে।"
     },
     {
       "id": "clothes-uniform",
       "en": "uniform",
       "bn": "উনিফোরম",
       "emoji": "👔",
-      "roman": "uniform"
+      "exampleEn": "I wear an uniform.",
+      "exampleBn": "আমি উনিফোরম পরি।"
     },
     {
       "id": "clothes-school-uniform",
       "en": "school uniform",
       "bn": "স্কুল উনিফোরম",
       "emoji": "🎓",
-      "roman": "school uniform"
+      "exampleEn": "Please put on your school uniform.",
+      "exampleBn": "দয়া করে তোমার স্কুল উনিফোরম পরো।"
     },
     {
       "id": "clothes-sports-uniform",
       "en": "sports uniform",
       "bn": "খেলর পোশাক",
       "emoji": "⚽",
-      "roman": "khelar poshak"
+      "exampleEn": "My sports uniform is soft.",
+      "exampleBn": "আমার খেলর পোশাক নরম।"
     },
     {
       "id": "clothes-lab-coat",
       "en": "lab coat",
       "bn": "লব চোত",
       "emoji": "🥼",
-      "roman": "lab coat"
+      "exampleEn": "I like this lab coat.",
+      "exampleBn": "আমার এই লব চোত ভালো লাগে।"
     },
     {
       "id": "clothes-overalls",
       "en": "overalls",
       "bn": "ওভেরললস",
       "emoji": "👖",
-      "roman": "overalls"
+      "exampleEn": "I wear overalls.",
+      "exampleBn": "আমি ওভেরললস পরি।"
     },
     {
       "id": "clothes-romper",
       "en": "romper",
       "bn": "রোমপের",
       "emoji": "👶",
-      "roman": "romper"
+      "exampleEn": "Please put on your romper.",
+      "exampleBn": "দয়া করে তোমার রোমপের পরো।"
     },
     {
       "id": "clothes-onesie",
       "en": "onesie",
       "bn": "ওনেসিে",
       "emoji": "👶",
-      "roman": "onesie"
+      "exampleEn": "My onesie is soft.",
+      "exampleBn": "আমার ওনেসিে নরম।"
     },
     {
       "id": "clothes-bib",
       "en": "bib",
       "bn": "বিব",
       "emoji": "👶",
-      "roman": "bib"
+      "exampleEn": "I like this bib.",
+      "exampleBn": "আমার এই বিব ভালো লাগে।"
     },
     {
       "id": "clothes-diaper",
       "en": "diaper",
       "bn": "দিপের",
       "emoji": "👶",
-      "roman": "diaper"
+      "exampleEn": "I wear a diaper.",
+      "exampleBn": "আমি দিপের পরি।"
     },
     {
       "id": "clothes-swaddle",
       "en": "swaddle",
       "bn": "সবড়লে",
       "emoji": "👶",
-      "roman": "swaddle"
+      "exampleEn": "Please put on your swaddle.",
+      "exampleBn": "দয়া করে তোমার সবড়লে পরো।"
     },
     {
       "id": "clothes-blanket-wrap",
       "en": "blanket wrap",
       "bn": "কম্বল",
       "emoji": "🛏️",
-      "roman": "kombol"
+      "exampleEn": "My blanket wrap is soft.",
+      "exampleBn": "আমার কম্বল নরম।"
     },
     {
       "id": "clothes-handkerchief",
       "en": "handkerchief",
       "bn": "রুমল",
       "emoji": "🤧",
-      "roman": "rumal"
+      "exampleEn": "I like this handkerchief.",
+      "exampleBn": "আমার এই রুমল ভালো লাগে।"
     },
     {
       "id": "clothes-pocket-square",
       "en": "pocket square",
       "bn": "পোচকেত সকুরে",
       "emoji": "👔",
-      "roman": "pocket square"
+      "exampleEn": "I wear a pocket square.",
+      "exampleBn": "আমি পোচকেত সকুরে পরি।"
     },
     {
       "id": "clothes-belt-buckle",
       "en": "belt buckle",
       "bn": "বেল্ট বুচকলে",
       "emoji": "➰",
-      "roman": "belt buckle"
+      "exampleEn": "Please put on your belt buckle.",
+      "exampleBn": "দয়া করে তোমার বেল্ট বুচকলে পরো।"
     },
     {
       "id": "clothes-safety-pin",
       "en": "safety pin",
       "bn": "সফেতয পিন",
       "emoji": "📎",
-      "roman": "safety pin"
+      "exampleEn": "My safety pin is soft.",
+      "exampleBn": "আমার সফেতয পিন নরম।"
     },
     {
       "id": "clothes-sewing-kit",
       "en": "sewing kit",
       "bn": "সেবিঙ ছানা",
       "emoji": "🧵",
-      "roman": "sewing kit"
+      "exampleEn": "I like this sewing kit.",
+      "exampleBn": "আমার এই সেবিঙ ছানা ভালো লাগে।"
     },
     {
       "id": "clothes-thread",
       "en": "thread",
       "bn": "সুত",
       "emoji": "🧵",
-      "roman": "sut"
+      "exampleEn": "I wear a thread.",
+      "exampleBn": "আমি সুত পরি।"
     },
     {
       "id": "clothes-needle",
       "en": "needle",
       "bn": "সু",
       "emoji": "🪡",
-      "roman": "su"
+      "exampleEn": "Please put on your needle.",
+      "exampleBn": "দয়া করে তোমার সু পরো।"
     },
     {
       "id": "clothes-thimble",
       "en": "thimble",
       "bn": "থিমবলে",
       "emoji": "🪡",
-      "roman": "thimble"
+      "exampleEn": "My thimble is soft.",
+      "exampleBn": "আমার থিমবলে নরম।"
     },
     {
       "id": "clothes-fabric",
       "en": "fabric",
       "bn": "কপর",
       "emoji": "🧵",
-      "roman": "kapra"
+      "exampleEn": "I like this fabric.",
+      "exampleBn": "আমার এই কপর ভালো লাগে।"
     },
     {
       "id": "clothes-cotton-cloth",
       "en": "cotton cloth",
       "bn": "তুতি",
       "emoji": "🧵",
-      "roman": "tuti"
+      "exampleEn": "I wear a cotton cloth.",
+      "exampleBn": "আমি তুতি পরি।"
     },
     {
       "id": "clothes-silk-cloth",
       "en": "silk cloth",
       "bn": "রেশম",
       "emoji": "🧵",
-      "roman": "resham"
+      "exampleEn": "Please put on your silk cloth.",
+      "exampleBn": "দয়া করে তোমার রেশম পরো।"
     },
     {
       "id": "clothes-wool-cloth",
       "en": "wool cloth",
       "bn": "উন",
       "emoji": "🧶",
-      "roman": "un"
+      "exampleEn": "My wool cloth is soft.",
+      "exampleBn": "আমার উন নরম।"
     },
     {
       "id": "clothes-denim",
       "en": "denim",
       "bn": "দেনিম",
       "emoji": "👖",
-      "roman": "denim"
+      "exampleEn": "I like this denim.",
+      "exampleBn": "আমার এই দেনিম ভালো লাগে।"
     },
     {
       "id": "clothes-leather",
       "en": "leather",
       "bn": "চমর",
       "emoji": "🧥",
-      "roman": "chamra"
+      "exampleEn": "I wear a leather.",
+      "exampleBn": "আমি চমর পরি।"
     },
     {
       "id": "clothes-fur-coat",
       "en": "fur coat",
       "bn": "ফুর চোত",
       "emoji": "🧥",
-      "roman": "fur coat"
+      "exampleEn": "Please put on your fur coat.",
+      "exampleBn": "দয়া করে তোমার ফুর চোত পরো।"
     },
     {
       "id": "clothes-patterned-shirt",
       "en": "patterned shirt",
       "bn": "দেসিগন শার্ট",
       "emoji": "👕",
-      "roman": "design shirt"
+      "exampleEn": "My patterned shirt is soft.",
+      "exampleBn": "আমার দেসিগন শার্ট নরম।"
     },
     {
       "id": "clothes-striped-shirt",
       "en": "striped shirt",
       "bn": "দোরি শার্ট",
       "emoji": "👕",
-      "roman": "dori shirt"
+      "exampleEn": "I like this striped shirt.",
+      "exampleBn": "আমার এই দোরি শার্ট ভালো লাগে।"
     },
     {
       "id": "clothes-checked-shirt",
       "en": "checked shirt",
       "bn": "কাটা শার্ট",
       "emoji": "👕",
-      "roman": "kata shirt"
+      "exampleEn": "I wear a checked shirt.",
+      "exampleBn": "আমি কাটা শার্ট পরি।"
     },
     {
       "id": "clothes-plain-shirt",
       "en": "plain shirt",
       "bn": "সদ শার্ট",
       "emoji": "👕",
-      "roman": "sada shirt"
+      "exampleEn": "Please put on your plain shirt.",
+      "exampleBn": "দয়া করে তোমার সদ শার্ট পরো।"
     },
     {
       "id": "clothes-fancy-dress",
       "en": "fancy dress",
       "bn": "ফনচয পোশাক",
       "emoji": "👗",
-      "roman": "fancy poshak"
+      "exampleEn": "My fancy dress is soft.",
+      "exampleBn": "আমার ফনচয পোশাক নরম।"
     },
     {
       "id": "clothes-costume",
       "en": "costume",
       "bn": "চোসতুমে",
       "emoji": "🎭",
-      "roman": "costume"
+      "exampleEn": "I like this costume.",
+      "exampleBn": "আমার এই চোসতুমে ভালো লাগে।"
     },
     {
       "id": "clothes-traditional-dress",
       "en": "traditional dress",
       "bn": "তরদিতিোনল পোশাক",
       "emoji": "👘",
-      "roman": "traditional poshak"
+      "exampleEn": "I wear a traditional dress.",
+      "exampleBn": "আমি তরদিতিোনল পোশাক পরি।"
     },
     {
       "id": "clothes-wedding-dress",
       "en": "wedding dress",
       "bn": "বিয়ে পোশাক",
       "emoji": "👰",
-      "roman": "biye poshak"
+      "exampleEn": "Please put on your wedding dress.",
+      "exampleBn": "দয়া করে তোমার বিয়ে পোশাক পরো।"
     },
     {
       "id": "clothes-party-dress",
       "en": "party dress",
       "bn": "পার্টি পোশাক",
       "emoji": "👗",
-      "roman": "party poshak"
+      "exampleEn": "My party dress is soft.",
+      "exampleBn": "আমার পার্টি পোশাক নরম।"
     },
     {
       "id": "clothes-nightdress",
       "en": "nightdress",
       "bn": "রাত পোশাক",
       "emoji": "🛌",
-      "roman": "rat poshak"
+      "exampleEn": "I like this nightdress.",
+      "exampleBn": "আমার এই রাত পোশাক ভালো লাগে।"
     },
     {
       "id": "clothes-housecoat",
       "en": "housecoat",
       "bn": "ঘর পোশাক",
       "emoji": "🛌",
-      "roman": "ghor poshak"
+      "exampleEn": "I wear a housecoat.",
+      "exampleBn": "আমি ঘর পোশাক পরি।"
     },
     {
       "id": "clothes-bathrobe",
       "en": "bathrobe",
       "bn": "গোসলের গাউন",
       "emoji": "🛁",
-      "roman": "bathrobe"
+      "exampleEn": "Please put on your bathrobe.",
+      "exampleBn": "দয়া করে তোমার গোসলের গাউন পরো।"
     },
     {
       "id": "clothes-slippers-home",
       "en": "slippers home",
       "bn": "ঘর স্লিপার",
       "emoji": "🩴",
-      "roman": "ghor slipar"
+      "exampleEn": "My slippers home is soft.",
+      "exampleBn": "আমার ঘর স্লিপার নরম।"
     },
     {
       "id": "clothes-monsoon-gear",
       "en": "monsoon gear",
       "bn": "বর্ষা পোশাক",
       "emoji": "🌧️",
-      "roman": "borsha poshak"
+      "exampleEn": "I like this monsoon gear.",
+      "exampleBn": "আমার এই বর্ষা পোশাক ভালো লাগে।"
     },
     {
       "id": "clothes-winter-coat",
       "en": "winter coat",
       "bn": "শীত পোশাক",
       "emoji": "🧥",
-      "roman": "sheet poshak"
+      "exampleEn": "I wear a winter coat.",
+      "exampleBn": "আমি শীত পোশাক পরি।"
     },
     {
       "id": "clothes-monsoon-umbrella",
       "en": "monsoon umbrella",
       "bn": "বর্ষা ছাতা",
       "emoji": "☂️",
-      "roman": "borsha chata"
+      "exampleEn": "Please put on your monsoon umbrella.",
+      "exampleBn": "দয়া করে তোমার বর্ষা ছাতা পরো।"
     },
     {
       "id": "clothes-sun-hat",
       "en": "sun hat",
       "bn": "সুরজো টুপি",
       "emoji": "👒",
-      "roman": "surjo tupi"
+      "exampleEn": "My sun hat is soft.",
+      "exampleBn": "আমার সুরজো টুপি নরম।"
     },
     {
       "id": "clothes-winter-hat",
       "en": "winter hat",
       "bn": "শীত টুপি",
       "emoji": "🧢",
-      "roman": "sheet tupi"
+      "exampleEn": "I like this winter hat.",
+      "exampleBn": "আমার এই শীত টুপি ভালো লাগে।"
     },
     {
       "id": "clothes-earmuffs",
       "en": "earmuffs",
       "bn": "কানের কভার",
       "emoji": "👂",
-      "roman": "kan cover"
+      "exampleEn": "I wear earmuffs.",
+      "exampleBn": "আমি কানের কভার পরি।"
     },
     {
       "id": "clothes-neck-warmer",
       "en": "neck warmer",
       "bn": "গলা চোভের",
       "emoji": "🧣",
-      "roman": "gola cover"
+      "exampleEn": "Please put on your neck warmer.",
+      "exampleBn": "দয়া করে তোমার গলা চোভের পরো।"
     },
     {
       "id": "clothes-thermal-wear",
       "en": "thermal wear",
       "bn": "থেরমল",
       "emoji": "👕",
-      "roman": "thermal"
+      "exampleEn": "My thermal wear is soft.",
+      "exampleBn": "আমার থেরমল নরম।"
     },
     {
       "id": "clothes-rain-pants",
       "en": "rain pants",
       "bn": "বর্ষা প্যান্ট",
       "emoji": "👖",
-      "roman": "borsha pant"
+      "exampleEn": "I like this rain pants.",
+      "exampleBn": "আমার এই বর্ষা প্যান্ট ভালো লাগে।"
     },
     {
       "id": "clothes-fishing-vest",
       "en": "fishing vest",
       "bn": "মাছ ধর ভেসত",
       "emoji": "🦺",
-      "roman": "mach dhara vest"
+      "exampleEn": "I wear a fishing vest.",
+      "exampleBn": "আমি মাছ ধর ভেসত পরি।"
     },
     {
       "id": "clothes-tool-belt",
       "en": "tool belt",
       "bn": "তুল বেল্ট",
       "emoji": "🔧",
-      "roman": "tool belt"
+      "exampleEn": "Please put on your tool belt.",
+      "exampleBn": "দয়া করে তোমার তুল বেল্ট পরো।"
     },
     {
       "id": "clothes-money-belt",
       "en": "money belt",
       "bn": "মোনেয বেল্ট",
       "emoji": "💰",
-      "roman": "money belt"
+      "exampleEn": "My money belt is soft.",
+      "exampleBn": "আমার মোনেয বেল্ট নরম।"
     },
     {
       "id": "clothes-fanny-pack",
       "en": "fanny pack",
       "bn": "ফণয দল",
       "emoji": "👝",
-      "roman": "fanny pack"
+      "exampleEn": "I like this fanny pack.",
+      "exampleBn": "আমার এই ফণয দল ভালো লাগে।"
     },
     {
       "id": "clothes-crossbody-bag",
       "en": "crossbody bag",
       "bn": "কাঁধের ব্যাগ",
       "emoji": "👜",
-      "roman": "crossbody bag"
+      "exampleEn": "I wear a crossbody bag.",
+      "exampleBn": "আমি কাঁধের ব্যাগ পরি।"
     },
     {
       "id": "clothes-handbag",
       "en": "handbag",
       "bn": "হ্যান্ডব্যাগ",
       "emoji": "👜",
-      "roman": "handbag"
+      "exampleEn": "Please put on your handbag.",
+      "exampleBn": "দয়া করে তোমার হ্যান্ডব্যাগ পরো।"
     },
     {
       "id": "clothes-wallet",
       "en": "wallet",
       "bn": "ওয়ালেট",
       "emoji": "👛",
-      "roman": "wallet"
+      "exampleEn": "My wallet is soft.",
+      "exampleBn": "আমার ওয়ালেট নরম।"
     },
     {
       "id": "clothes-coin-purse",
       "en": "coin purse",
       "bn": "কয়েন ব্যাগ",
       "emoji": "👛",
-      "roman": "coin purse"
+      "exampleEn": "I like this coin purse.",
+      "exampleBn": "আমার এই কয়েন ব্যাগ ভালো লাগে।"
     },
     {
       "id": "clothes-keychain",
       "en": "keychain",
       "bn": "চাবির রিং",
       "emoji": "🔑",
-      "roman": "keychain"
+      "exampleEn": "I wear a keychain.",
+      "exampleBn": "আমি চাবির রিং পরি।"
     },
     {
       "id": "clothes-lanyard",
       "en": "lanyard",
       "bn": "লনযরদ",
       "emoji": "🎫",
-      "roman": "lanyard"
+      "exampleEn": "Please put on your lanyard.",
+      "exampleBn": "দয়া করে তোমার লনযরদ পরো।"
     },
     {
       "id": "clothes-name-tag",
       "en": "name tag",
       "bn": "নমে তগ",
       "emoji": "🏷️",
-      "roman": "name tag"
+      "exampleEn": "My name tag is soft.",
+      "exampleBn": "আমার নমে তগ নরম।"
     },
     {
       "id": "clothes-badge",
       "en": "badge",
       "bn": "বদগে",
       "emoji": "🏅",
-      "roman": "badge"
+      "exampleEn": "I like this badge.",
+      "exampleBn": "আমার এই বদগে ভালো লাগে।"
     },
     {
       "id": "clothes-sash",
       "en": "sash",
       "bn": "সশ",
       "emoji": "🎀",
-      "roman": "sash"
+      "exampleEn": "I wear a sash.",
+      "exampleBn": "আমি সশ পরি।"
     },
     {
       "id": "clothes-medal-ribbon",
       "en": "medal ribbon",
       "bn": "মেদল রিববোন",
       "emoji": "🏅",
-      "roman": "medal ribbon"
+      "exampleEn": "Please put on your medal ribbon.",
+      "exampleBn": "দয়া করে তোমার মেদল রিববোন পরো।"
     },
     {
       "id": "clothes-sequin-dress",
       "en": "sequin dress",
       "bn": "সেকুিন পোশাক",
       "emoji": "✨",
-      "roman": "sequin poshak"
+      "exampleEn": "My sequin dress is soft.",
+      "exampleBn": "আমার সেকুিন পোশাক নরম।"
     },
     {
       "id": "clothes-embroidered-cloth",
       "en": "embroidered cloth",
       "bn": "কাটা কপর",
       "emoji": "🧵",
-      "roman": "kata kapra"
+      "exampleEn": "I like this embroidered cloth.",
+      "exampleBn": "আমার এই কাটা কপর ভালো লাগে।"
     },
     {
       "id": "clothes-block-print",
       "en": "block print",
       "bn": "বলোচক পরিনত",
       "emoji": "🧵",
-      "roman": "block print"
+      "exampleEn": "I wear a block print.",
+      "exampleBn": "আমি বলোচক পরিনত পরি।"
     },
     {
       "id": "clothes-tie-dye",
       "en": "tie dye",
       "bn": "তিে দযে",
       "emoji": "🎨",
-      "roman": "tie dye"
+      "exampleEn": "Please put on your tie dye.",
+      "exampleBn": "দয়া করে তোমার তিে দযে পরো।"
     },
     {
       "id": "clothes-batik",
       "en": "batik",
       "bn": "বতিক",
       "emoji": "🎨",
-      "roman": "batik"
+      "exampleEn": "My batik is soft.",
+      "exampleBn": "আমার বতিক নরম।"
     },
     {
       "id": "clothes-muslin",
       "en": "muslin",
       "bn": "মুসলিন",
       "emoji": "🧵",
-      "roman": "muslin"
+      "exampleEn": "I like this muslin.",
+      "exampleBn": "আমার এই মুসলিন ভালো লাগে।"
     },
     {
       "id": "clothes-jamdani",
       "en": "jamdani",
       "bn": "জমদনি",
       "emoji": "🥻",
-      "roman": "jamdani"
+      "exampleEn": "I wear a jamdani.",
+      "exampleBn": "আমি জমদনি পরি।"
     },
     {
       "id": "clothes-nakshi-kantha",
       "en": "nakshi kantha",
       "bn": "নকশি কনথ",
       "emoji": "🛏️",
-      "roman": "nakshi kantha"
+      "exampleEn": "Please put on your nakshi kantha.",
+      "exampleBn": "দয়া করে তোমার নকশি কনথ পরো।"
     },
     {
       "id": "clothes-gamcha-towel",
       "en": "gamcha towel",
       "bn": "গামছা",
       "emoji": "🧣",
-      "roman": "gamcha"
+      "exampleEn": "My gamcha towel is soft.",
+      "exampleBn": "আমার গামছা নরম।"
     },
     {
       "id": "clothes-tupi-cap",
       "en": "tupi cap",
       "bn": "টুপি",
       "emoji": "🧢",
-      "roman": "tupi"
+      "exampleEn": "I like this tupi cap.",
+      "exampleBn": "আমার এই টুপি ভালো লাগে।"
     },
     {
       "id": "clothes-topi",
       "en": "topi",
       "bn": "তোপি",
       "emoji": "🎩",
-      "roman": "topi"
+      "exampleEn": "I wear a topi.",
+      "exampleBn": "আমি তোপি পরি।"
     }
   ]
 }

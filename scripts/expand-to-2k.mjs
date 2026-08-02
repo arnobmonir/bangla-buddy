@@ -232,116 +232,11 @@ const EN_0_TO_100 = [
   'one hundred',
 ]
 
-const ROMAN_0_TO_100 = [
-  'shunno',
-  'ek',
-  'dui',
-  'tin',
-  'char',
-  'panch',
-  'chhoy',
-  'shat',
-  'at',
-  'noy',
-  'dosh',
-  'egaro',
-  'baro',
-  'tero',
-  'chouddo',
-  'ponero',
-  'sholo',
-  'shotero',
-  'atharo',
-  'unish',
-  'bish',
-  'ekush',
-  'baish',
-  'teish',
-  'chobbish',
-  'pochish',
-  'chabbish',
-  'shatash',
-  'athash',
-  'unotrish',
-  'trish',
-  'ektrish',
-  'botrish',
-  'tetrish',
-  'choutrish',
-  'poyotrish',
-  'chhotrish',
-  'shaitrish',
-  'attrish',
-  'unochollish',
-  'chollish',
-  'ekchollish',
-  'biyallish',
-  'tetallish',
-  'chuyallish',
-  'poyotallish',
-  'chechollish',
-  'shatchollish',
-  'atchollish',
-  'unoponchash',
-  'ponchash',
-  'ekanno',
-  'bayanno',
-  'tippanno',
-  'chuyanno',
-  'ponchanno',
-  'chhappanno',
-  'shatanno',
-  'atanno',
-  'unoshat',
-  'shat',
-  'ekshotti',
-  'bashotti',
-  'teshotti',
-  'choushotti',
-  'poyoshotti',
-  'cheshotti',
-  'shatshotti',
-  'atshotti',
-  'unoshottor',
-  'shottor',
-  'ekattor',
-  'bahattor',
-  'tiyattor',
-  'chuyattor',
-  'pochattor',
-  'chiyattor',
-  'shatattor',
-  'atattor',
-  'unoashi',
-  'ashi',
-  'ekashi',
-  'birashi',
-  'tirashi',
-  'curashi',
-  'pochashi',
-  'chiyashi',
-  'shatashi',
-  'atashi',
-  'unonobboi',
-  'nobboi',
-  'ekanobboi',
-  'biranobboi',
-  'tiranobboi',
-  'curanobboi',
-  'pochanobboi',
-  'chiyanobboi',
-  'shatanobboi',
-  'atanobboi',
-  'niranobboi',
-  'eksho',
-]
-
 function mathNumberWords() {
   return EN_0_TO_100.map((en, i) => ({
     en,
     bn: BN_0_TO_100[i],
     emoji: i <= 10 ? `${['0️⃣', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'][i]}` : undefined,
-    roman: ROMAN_0_TO_100[i],
   }))
 }
 
@@ -355,7 +250,8 @@ function normalizeWord(categoryId, raw) {
     bn,
   }
   if (raw.emoji) word.emoji = String(raw.emoji)
-  if (raw.roman) word.roman = String(raw.roman)
+  if (raw.exampleEn) word.exampleEn = String(raw.exampleEn).trim()
+  if (raw.exampleBn) word.exampleBn = String(raw.exampleBn).trim()
   return word
 }
 
@@ -373,7 +269,8 @@ function mergeWords(categoryId, existing, extras) {
       // Curated bank wins for translation quality
       prev.bn = word.bn
       if (word.emoji) prev.emoji = word.emoji
-      if (word.roman) prev.roman = word.roman
+      if (word.exampleEn) prev.exampleEn = word.exampleEn
+      if (word.exampleBn) prev.exampleBn = word.exampleBn
       continue
     }
     byEn.set(key, word)

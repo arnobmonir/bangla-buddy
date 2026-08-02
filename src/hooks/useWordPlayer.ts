@@ -78,7 +78,13 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
         const nextWord = playlistRef.current[i + 1]
         if (nextWord && s.banglaEngine === 'neural' && s.speechMode !== 'en-only') {
           prefetchBangla(
-            { id: nextWord.id, en: nextWord.en, bn: nextWord.bn },
+            {
+              id: nextWord.id,
+              en: nextWord.en,
+              bn: nextWord.bn,
+              exampleEn: nextWord.exampleEn,
+              exampleBn: nextWord.exampleBn,
+            },
             s.banglaVoice,
             s.rate,
             s.banglaEngine,
@@ -87,7 +93,13 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
 
         try {
           await speakWord(
-            { id: word.id, en: word.en, bn: word.bn },
+            {
+              id: word.id,
+              en: word.en,
+              bn: word.bn,
+              exampleEn: word.exampleEn,
+              exampleBn: word.exampleBn,
+            },
             {
               rate: s.rate,
               volume: s.volume,

@@ -7,6 +7,8 @@ import { Home } from './pages/Home'
 import { Player } from './pages/Player'
 import { Settings } from './pages/Settings'
 import { ParentDashboard } from './pages/ParentDashboard'
+import { QuizPick } from './pages/QuizPick'
+import { Quiz } from './pages/Quiz'
 import './styles/tokens.css'
 import './styles/app.css'
 
@@ -15,6 +17,8 @@ type Screen =
   | { name: 'player'; category: Category }
   | { name: 'settings' }
   | { name: 'dashboard' }
+  | { name: 'quiz-pick' }
+  | { name: 'quiz'; category: Category }
 
 export default function App() {
   const categories = useMemo(() => getCategories(), [])
@@ -35,7 +39,6 @@ export default function App() {
     setBanglaEngine,
     setAutoAdvance,
     setBanglaRepeat,
-    setShowRoman,
     setShuffle,
     setParentGate,
     setParentPin,
@@ -47,6 +50,7 @@ export default function App() {
     trackSessionStart,
     trackWordHeard,
     trackCategoryComplete,
+    trackQuizResult,
     clearResume,
     clearProgress,
     refresh,
@@ -79,7 +83,6 @@ export default function App() {
         onBanglaEngine={setBanglaEngine}
         onAutoAdvance={setAutoAdvance}
         onBanglaRepeat={setBanglaRepeat}
-        onShowRoman={setShowRoman}
         onShuffle={setShuffle}
         onParentGate={setParentGate}
         onParentPin={setParentPin}
@@ -99,8 +102,31 @@ export default function App() {
         totalWordCatalog={totalWordCatalog}
         onBack={() => setScreen({ name: 'home' })}
         onOpenSettings={() => setScreen({ name: 'settings' })}
+        onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
         onPlayCategory={(category) => setScreen({ name: 'player', category })}
         onClearProgress={clearProgress}
+      />
+    )
+  }
+
+  if (screen.name === 'quiz-pick') {
+    return (
+      <QuizPick
+        categories={categories}
+        onSelect={(category) => setScreen({ name: 'quiz', category })}
+        onBack={() => setScreen({ name: 'home' })}
+      />
+    )
+  }
+
+  if (screen.name === 'quiz') {
+    return (
+      <Quiz
+        category={screen.category}
+        settings={settings}
+        onBackToPick={() => setScreen({ name: 'quiz-pick' })}
+        onHome={() => setScreen({ name: 'home' })}
+        onQuizComplete={trackQuizResult}
       />
     )
   }
@@ -128,6 +154,7 @@ export default function App() {
       parentGate={settings.parentGate}
       parentPin={settings.parentPin}
       onSelect={(category) => setScreen({ name: 'player', category })}
+      onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
       onOpenDashboard={() => setScreen({ name: 'dashboard' })}
     />
   )

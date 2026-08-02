@@ -235,7 +235,6 @@ export function Player({
             categoryIcon={category.icon}
             color={category.color}
             animateKey={player.index}
-            showRoman={settings.showRoman}
           />
         ) : null}
       </main>

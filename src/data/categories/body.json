@@ -6,987 +6,1128 @@
       "en": "head",
       "bn": "মাথা",
       "emoji": "🗣️",
-      "roman": "matha"
+      "exampleEn": "This is my head.",
+      "exampleBn": "এটা আমার মাথা।"
     },
     {
       "id": "body-eye",
       "en": "eye",
       "bn": "চোখ",
       "emoji": "👁️",
-      "roman": "chokh"
+      "exampleEn": "I wash my eye.",
+      "exampleBn": "আমি আমার চোখ ধুই।"
     },
     {
       "id": "body-ear",
       "en": "ear",
       "bn": "কান",
       "emoji": "👂",
-      "roman": "kan"
+      "exampleEn": "Look at my ear.",
+      "exampleBn": "আমার কান দেখো।"
     },
     {
       "id": "body-nose",
       "en": "nose",
       "bn": "নাক",
       "emoji": "👃",
-      "roman": "nak"
+      "exampleEn": "My nose feels fine.",
+      "exampleBn": "আমার নাক ভালো আছে।"
     },
     {
       "id": "body-mouth",
       "en": "mouth",
       "bn": "মুখ",
       "emoji": "👄",
-      "roman": "mukh"
+      "exampleEn": "This is my mouth.",
+      "exampleBn": "এটা আমার মুখ।"
     },
     {
       "id": "body-hand",
       "en": "hand",
       "bn": "হাত",
       "emoji": "✋",
-      "roman": "hat"
+      "exampleEn": "Please wash your hands.",
+      "exampleBn": "দয়া করে হাত ধুয়ে নাও।"
     },
     {
       "id": "body-foot",
       "en": "foot",
       "bn": "পা",
       "emoji": "🦶",
-      "roman": "pa"
+      "exampleEn": "Look at my foot.",
+      "exampleBn": "আমার পা দেখো।"
     },
     {
       "id": "body-finger",
       "en": "finger",
       "bn": "আঙুল",
       "emoji": "👆",
-      "roman": "angul"
+      "exampleEn": "My finger feels fine.",
+      "exampleBn": "আমার আঙুল ভালো আছে।"
     },
     {
       "id": "body-hair",
       "en": "hair",
       "bn": "চুল",
       "emoji": "💇",
-      "roman": "chul"
+      "exampleEn": "This is my hair.",
+      "exampleBn": "এটা আমার চুল।"
     },
     {
       "id": "body-tooth",
       "en": "tooth",
       "bn": "দাঁত",
       "emoji": "🦷",
-      "roman": "dãt"
+      "exampleEn": "I wash my tooth.",
+      "exampleBn": "আমি আমার দাঁত ধুই।"
     },
     {
       "id": "body-tongue",
       "en": "tongue",
       "bn": "জিভ",
       "emoji": "👅",
-      "roman": "jibh"
+      "exampleEn": "Look at my tongue.",
+      "exampleBn": "আমার জিভ দেখো।"
     },
     {
       "id": "body-arm",
       "en": "arm",
       "bn": "বাহু",
       "emoji": "💪",
-      "roman": "bahu"
+      "exampleEn": "My arm feels fine.",
+      "exampleBn": "আমার বাহু ভালো আছে।"
     },
     {
       "id": "body-leg",
       "en": "leg",
       "bn": "পা",
       "emoji": "🦵",
-      "roman": "pa"
+      "exampleEn": "This is my leg.",
+      "exampleBn": "এটা আমার পা।"
     },
     {
       "id": "body-knee",
       "en": "knee",
       "bn": "হাঁটু",
       "emoji": "🦵",
-      "roman": "hãtu"
+      "exampleEn": "I wash my knee.",
+      "exampleBn": "আমি আমার হাঁটু ধুই।"
     },
     {
       "id": "body-belly",
       "en": "belly",
       "bn": "পেট",
       "emoji": "🤰",
-      "roman": "pet"
+      "exampleEn": "Look at my belly.",
+      "exampleBn": "আমার পেট দেখো।"
     },
     {
       "id": "body-back",
       "en": "back",
       "bn": "পিঠ",
       "emoji": "🧍",
-      "roman": "pith"
+      "exampleEn": "My back feels fine.",
+      "exampleBn": "আমার পিঠ ভালো আছে।"
     },
     {
       "id": "body-face",
       "en": "face",
       "bn": "চেহারা",
       "emoji": "😊",
-      "roman": "chehara"
+      "exampleEn": "This is my face.",
+      "exampleBn": "এটা আমার চেহারা।"
     },
     {
       "id": "body-neck",
       "en": "neck",
       "bn": "গলা",
       "emoji": "🦒",
-      "roman": "gola"
+      "exampleEn": "I wash my neck.",
+      "exampleBn": "আমি আমার গলা ধুই।"
     },
     {
       "id": "body-shoulder",
       "en": "shoulder",
       "bn": "কাঁধ",
       "emoji": "💪",
-      "roman": "kãdh"
+      "exampleEn": "Look at my shoulder.",
+      "exampleBn": "আমার কাঁধ দেখো।"
     },
     {
       "id": "body-chest",
       "en": "chest",
       "bn": "বুক",
       "emoji": "🫁",
-      "roman": "buk"
+      "exampleEn": "My chest feels fine.",
+      "exampleBn": "আমার বুক ভালো আছে।"
     },
     {
       "id": "body-elbow",
       "en": "elbow",
       "bn": "কনুই",
       "emoji": "💪",
-      "roman": "konui"
+      "exampleEn": "This is my elbow.",
+      "exampleBn": "এটা আমার কনুই।"
     },
     {
       "id": "body-wrist",
       "en": "wrist",
       "bn": "কব্জি",
       "emoji": "⌚",
-      "roman": "kobji"
+      "exampleEn": "I wash my wrist.",
+      "exampleBn": "আমি আমার কব্জি ধুই।"
     },
     {
       "id": "body-nail",
       "en": "nail",
       "bn": "পেরেক",
       "emoji": "💅",
-      "roman": "nokh"
+      "exampleEn": "Look at my nail.",
+      "exampleBn": "আমার পেরেক দেখো।"
     },
     {
       "id": "body-thumb",
       "en": "thumb",
       "bn": "বুড়ো আঙুল",
       "emoji": "👍",
-      "roman": "buro angul"
+      "exampleEn": "My thumb feels fine.",
+      "exampleBn": "আমার বুড়ো আঙুল ভালো আছে।"
     },
     {
       "id": "body-toe",
       "en": "toe",
       "bn": "পায়ের আঙুল",
       "emoji": "🦶",
-      "roman": "payer angul"
+      "exampleEn": "This is my toe.",
+      "exampleBn": "এটা আমার পায়ের আঙুল।"
     },
     {
       "id": "body-heel",
       "en": "heel",
       "bn": "গোড়ালি",
       "emoji": "👠",
-      "roman": "gorali"
+      "exampleEn": "I wash my heel.",
+      "exampleBn": "আমি আমার গোড়ালি ধুই।"
     },
     {
       "id": "body-lip",
       "en": "lip",
       "bn": "ঠোঁট",
       "emoji": "👄",
-      "roman": "thõt"
+      "exampleEn": "Look at my lip.",
+      "exampleBn": "আমার ঠোঁট দেখো।"
     },
     {
       "id": "body-cheek",
       "en": "cheek",
       "bn": "গাল",
       "emoji": "😊",
-      "roman": "gal"
+      "exampleEn": "My cheek feels fine.",
+      "exampleBn": "আমার গাল ভালো আছে।"
     },
     {
       "id": "body-chin",
       "en": "chin",
       "bn": "চিবুক",
       "emoji": "🙂",
-      "roman": "chibuk"
+      "exampleEn": "This is my chin.",
+      "exampleBn": "এটা আমার চিবুক।"
     },
     {
       "id": "body-forehead",
       "en": "forehead",
       "bn": "কপাল",
       "emoji": "🧠",
-      "roman": "kopal"
+      "exampleEn": "I wash my forehead.",
+      "exampleBn": "আমি আমার কপাল ধুই।"
     },
     {
       "id": "body-eyebrow",
       "en": "eyebrow",
       "bn": "ভ্রূ",
       "emoji": "🤨",
-      "roman": "bhru"
+      "exampleEn": "Look at my eyebrow.",
+      "exampleBn": "আমার ভ্রূ দেখো।"
     },
     {
       "id": "body-eyelash",
       "en": "eyelash",
       "bn": "পক্ষ্ম",
       "emoji": "👁️",
-      "roman": "pokkho"
+      "exampleEn": "My eyelash feels fine.",
+      "exampleBn": "আমার পক্ষ্ম ভালো আছে।"
     },
     {
       "id": "body-skin",
       "en": "skin",
       "bn": "ত্বক",
       "emoji": "🧴",
-      "roman": "twok"
+      "exampleEn": "This is my skin.",
+      "exampleBn": "এটা আমার ত্বক।"
     },
     {
       "id": "body-bone",
       "en": "bone",
       "bn": "হাড়",
       "emoji": "🦴",
-      "roman": "har"
+      "exampleEn": "I wash my bone.",
+      "exampleBn": "আমি আমার হাড় ধুই।"
     },
     {
       "id": "body-blood",
       "en": "blood",
       "bn": "রক্ত",
       "emoji": "🩸",
-      "roman": "rokto"
+      "exampleEn": "Look at my blood.",
+      "exampleBn": "আমার রক্ত দেখো।"
     },
     {
       "id": "body-heart",
       "en": "heart",
       "bn": "হৃদয়",
       "emoji": "❤️",
-      "roman": "hridoy"
+      "exampleEn": "My heart feels fine.",
+      "exampleBn": "আমার হৃদয় ভালো আছে।"
     },
     {
       "id": "body-brain",
       "en": "brain",
       "bn": "মস্তিষ্ক",
       "emoji": "🧠",
-      "roman": "mostishko"
+      "exampleEn": "This is my brain.",
+      "exampleBn": "এটা আমার মস্তিষ্ক।"
     },
     {
       "id": "body-stomach",
       "en": "stomach",
       "bn": "পাকস্থলী",
       "emoji": "🫄",
-      "roman": "pakostholi"
+      "exampleEn": "I wash my stomach.",
+      "exampleBn": "আমি আমার পাকস্থলী ধুই।"
     },
     {
       "id": "body-body",
       "en": "body",
       "bn": "শরীর",
       "emoji": "🧍",
-      "roman": "shorir"
+      "exampleEn": "Look at my body.",
+      "exampleBn": "আমার শরীর দেখো।"
     },
     {
       "id": "body-voice",
       "en": "voice",
       "bn": "কণ্ঠস্বর",
       "emoji": "🗣️",
-      "roman": "konthoshor"
+      "exampleEn": "My voice feels fine.",
+      "exampleBn": "আমার কণ্ঠস্বর ভালো আছে।"
     },
     {
       "id": "body-palm",
       "en": "palm",
       "bn": "হাতের তালু",
       "emoji": "🤚",
-      "roman": "hater talu"
+      "exampleEn": "This is my palm.",
+      "exampleBn": "এটা আমার হাতের তালু।"
     },
     {
       "id": "body-fist",
       "en": "fist",
       "bn": "মুঠি",
       "emoji": "✊",
-      "roman": "muthi"
+      "exampleEn": "I wash my fist.",
+      "exampleBn": "আমি আমার মুঠি ধুই।"
     },
     {
       "id": "body-knuckle",
       "en": "knuckle",
       "bn": "াস্ক্রী",
       "emoji": "👊",
-      "roman": "knuckle"
+      "exampleEn": "Look at my knuckle.",
+      "exampleBn": "আমার াস্ক্রী দেখো।"
     },
     {
       "id": "body-joint",
       "en": "joint",
       "bn": "সস্থাস্থাস",
       "emoji": "🦴",
-      "roman": "joint"
+      "exampleEn": "My joint feels fine.",
+      "exampleBn": "আমার সস্থাস্থাস ভালো আছে।"
     },
     {
       "id": "body-muscle",
       "en": "muscle",
       "bn": "পেশী",
       "emoji": "💪",
-      "roman": "peshi"
+      "exampleEn": "This is my muscle.",
+      "exampleBn": "এটা আমার পেশী।"
     },
     {
       "id": "body-vein",
       "en": "vein",
       "bn": "শিরা",
       "emoji": "🩸",
-      "roman": "shira"
+      "exampleEn": "I wash my vein.",
+      "exampleBn": "আমি আমার শিরা ধুই।"
     },
     {
       "id": "body-artery",
       "en": "artery",
       "bn": "প্রধাররী",
       "emoji": "🩸",
-      "roman": "artery"
+      "exampleEn": "Look at my artery.",
+      "exampleBn": "আমার প্রধাররী দেখো।"
     },
     {
       "id": "body-pulse",
       "en": "pulse",
       "bn": "নাড়ি",
       "emoji": "💓",
-      "roman": "pulse"
+      "exampleEn": "My pulse feels fine.",
+      "exampleBn": "আমার নাড়ি ভালো আছে।"
     },
     {
       "id": "body-skeleton",
       "en": "skeleton",
       "bn": "কন্কাল",
       "emoji": "🦴",
-      "roman": "kankal"
+      "exampleEn": "This is my skeleton.",
+      "exampleBn": "এটা আমার কন্কাল।"
     },
     {
       "id": "body-rib",
       "en": "rib",
       "bn": "পাের",
       "emoji": "🦴",
-      "roman": "par"
+      "exampleEn": "I wash my rib.",
+      "exampleBn": "আমি আমার পাের ধুই।"
     },
     {
       "id": "body-spine",
       "en": "spine",
       "bn": "মেরুদণ্ড",
       "emoji": "🦴",
-      "roman": "merudand"
+      "exampleEn": "Look at my spine.",
+      "exampleBn": "আমার মেরুদণ্ড দেখো।"
     },
     {
       "id": "body-hip",
       "en": "hip",
       "bn": "কোমর",
       "emoji": "🦴",
-      "roman": "komor"
+      "exampleEn": "My hip feels fine.",
+      "exampleBn": "আমার কোমর ভালো আছে।"
     },
     {
       "id": "body-thigh",
       "en": "thigh",
       "bn": "উরু",
       "emoji": "🦵",
-      "roman": "ur"
+      "exampleEn": "This is my thigh.",
+      "exampleBn": "এটা আমার উরু।"
     },
     {
       "id": "body-shin",
       "en": "shin",
       "bn": "পিপূড়লী",
       "emoji": "🦵",
-      "roman": "pindili"
+      "exampleEn": "I wash my shin.",
+      "exampleBn": "আমি আমার পিপূড়লী ধুই।"
     },
     {
       "id": "body-ankle",
       "en": "ankle",
       "bn": "নেলা",
       "emoji": "🦶",
-      "roman": "golay"
+      "exampleEn": "Look at my ankle.",
+      "exampleBn": "আমার নেলা দেখো।"
     },
     {
       "id": "body-arch",
       "en": "arch",
       "bn": "পা এর ভাষ",
       "emoji": "🦶",
-      "roman": "pay er bhag"
+      "exampleEn": "My arch feels fine.",
+      "exampleBn": "আমার পা এর ভাষ ভালো আছে।"
     },
     {
       "id": "body-sole",
       "en": "sole",
       "bn": "পা এর তালু",
       "emoji": "🦶",
-      "roman": "pay er talu"
+      "exampleEn": "This is my sole.",
+      "exampleBn": "এটা আমার পা এর তালু।"
     },
     {
       "id": "body-instep",
       "en": "instep",
       "bn": "পা এর উপর",
       "emoji": "🦶",
-      "roman": "pay er upor"
+      "exampleEn": "I wash my instep.",
+      "exampleBn": "আমি আমার পা এর উপর ধুই।"
     },
     {
       "id": "body-knuckle-hand",
       "en": "knuckle hand",
       "bn": "হাতের সস্থাস্থাস",
       "emoji": "✊",
-      "roman": "hater joint"
+      "exampleEn": "Look at my knuckle hand.",
+      "exampleBn": "আমার হাতের সস্থাস্থাস দেখো।"
     },
     {
       "id": "body-cuticle",
       "en": "cuticle",
       "bn": "নখের ভিত্তি",
       "emoji": "💅",
-      "roman": "nokher base"
+      "exampleEn": "My cuticle feels fine.",
+      "exampleBn": "আমার নখের ভিত্তি ভালো আছে।"
     },
     {
       "id": "body-freckle",
       "en": "freckle",
       "bn": "ছিস্তি",
       "emoji": "😊",
-      "roman": "freckle"
+      "exampleEn": "This is my freckle.",
+      "exampleBn": "এটা আমার ছিস্তি।"
     },
     {
       "id": "body-dimple",
       "en": "dimple",
       "bn": "কড়",
       "emoji": "😊",
-      "roman": "dimple"
+      "exampleEn": "I wash my dimple.",
+      "exampleBn": "আমি আমার কড় ধুই।"
     },
     {
       "id": "body-wrinkle",
       "en": "wrinkle",
       "bn": "জতি",
       "emoji": "👴",
-      "roman": "wrinkle"
+      "exampleEn": "Look at my wrinkle.",
+      "exampleBn": "আমার জতি দেখো।"
     },
     {
       "id": "body-scar",
       "en": "scar",
       "bn": "খাত",
       "emoji": "🩹",
-      "roman": "scar"
+      "exampleEn": "My scar feels fine.",
+      "exampleBn": "আমার খাত ভালো আছে।"
     },
     {
       "id": "body-bruise",
       "en": "bruise",
       "bn": "দার",
       "emoji": "🩹",
-      "roman": "bruise"
+      "exampleEn": "This is my bruise.",
+      "exampleBn": "এটা আমার দার।"
     },
     {
       "id": "body-cut-skin",
       "en": "cut skin",
       "bn": "কাটা",
       "emoji": "🩹",
-      "roman": "kata"
+      "exampleEn": "I wash my cut skin.",
+      "exampleBn": "আমি আমার কাটা ধুই।"
     },
     {
       "id": "body-burn",
       "en": "burn",
       "bn": "দাহ",
       "emoji": "🔥",
-      "roman": "burn"
+      "exampleEn": "Look at my burn.",
+      "exampleBn": "আমার দাহ দেখো।"
     },
     {
       "id": "body-rash",
       "en": "rash",
       "bn": "দাস",
       "emoji": "🔴",
-      "roman": "rash"
+      "exampleEn": "My rash feels fine.",
+      "exampleBn": "আমার দাস ভালো আছে।"
     },
     {
       "id": "body-itch",
       "en": "itch",
       "bn": "চুলনা",
       "emoji": "🤚",
-      "roman": "khujli"
+      "exampleEn": "This is my itch.",
+      "exampleBn": "এটা আমার চুলনা।"
     },
     {
       "id": "body-sweat",
       "en": "sweat",
       "bn": "স্ধধ",
       "emoji": "💦",
-      "roman": "gham"
+      "exampleEn": "I wash my sweat.",
+      "exampleBn": "আমি আমার স্ধধ ধুই।"
     },
     {
       "id": "body-tear",
       "en": "tear",
       "bn": "অশ্রু",
       "emoji": "😢",
-      "roman": "ashru"
+      "exampleEn": "Look at my tear.",
+      "exampleBn": "আমার অশ্রু দেখো।"
     },
     {
       "id": "body-saliva",
       "en": "saliva",
       "bn": "লাল",
       "emoji": "💧",
-      "roman": "lal"
+      "exampleEn": "My saliva feels fine.",
+      "exampleBn": "আমার লাল ভালো আছে।"
     },
     {
       "id": "body-mucus",
       "en": "mucus",
       "bn": "শ্লেষ্ম",
       "emoji": "🤧",
-      "roman": "shleshm"
+      "exampleEn": "This is my mucus.",
+      "exampleBn": "এটা আমার শ্লেষ্ম।"
     },
     {
       "id": "body-phlegm",
       "en": "phlegm",
       "bn": "বেলগাম",
       "emoji": "🤧",
-      "roman": "balgam"
+      "exampleEn": "I wash my phlegm.",
+      "exampleBn": "আমি আমার বেলগাম ধুই।"
     },
     {
       "id": "body-urine",
       "en": "urine",
       "bn": "মূত্র",
       "emoji": "💧",
-      "roman": "mutra"
+      "exampleEn": "Look at my urine.",
+      "exampleBn": "আমার মূত্র দেখো।"
     },
     {
       "id": "body-stool",
       "en": "stool",
       "bn": "পায়খানা",
       "emoji": "💩",
-      "roman": "potty"
+      "exampleEn": "My stool feels fine.",
+      "exampleBn": "আমার পায়খানা ভালো আছে।"
     },
     {
       "id": "body-belly-button",
       "en": "belly button",
       "bn": "নাভি",
       "emoji": "👶",
-      "roman": "nabhi"
+      "exampleEn": "This is my belly button.",
+      "exampleBn": "এটা আমার নাভি।"
     },
     {
       "id": "body-waist",
       "en": "waist",
       "bn": "কোমর",
       "emoji": "👖",
-      "roman": "komor"
+      "exampleEn": "I wash my waist.",
+      "exampleBn": "আমি আমার কোমর ধুই।"
     },
     {
       "id": "body-torso",
       "en": "torso",
       "bn": "দেহ",
       "emoji": "🧍",
-      "roman": "deho"
+      "exampleEn": "Look at my torso.",
+      "exampleBn": "আমার দেহ দেখো।"
     },
     {
       "id": "body-upper-body",
       "en": "upper body",
       "bn": "উপর দেহ",
       "emoji": "🧍",
-      "roman": "upor deho"
+      "exampleEn": "My upper body feels fine.",
+      "exampleBn": "আমার উপর দেহ ভালো আছে।"
     },
     {
       "id": "body-lower-body",
       "en": "lower body",
       "bn": "নিচে দেহ",
       "emoji": "🧍",
-      "roman": "niche deho"
+      "exampleEn": "This is my lower body.",
+      "exampleBn": "এটা আমার নিচে দেহ।"
     },
     {
       "id": "body-left-hand",
       "en": "left hand",
       "bn": "বাম হাত",
       "emoji": "🤚",
-      "roman": "bam hat"
+      "exampleEn": "I wash my left hand.",
+      "exampleBn": "আমি আমার বাম হাত ধুই।"
     },
     {
       "id": "body-right-hand",
       "en": "right hand",
       "bn": "ডান হাত",
       "emoji": "🤚",
-      "roman": "dan hat"
+      "exampleEn": "Look at my right hand.",
+      "exampleBn": "আমার ডান হাত দেখো।"
     },
     {
       "id": "body-left-foot",
       "en": "left foot",
       "bn": "বাম পা",
       "emoji": "🦶",
-      "roman": "bam pa"
+      "exampleEn": "My left foot feels fine.",
+      "exampleBn": "আমার বাম পা ভালো আছে।"
     },
     {
       "id": "body-right-foot",
       "en": "right foot",
       "bn": "ডান পা",
       "emoji": "🦶",
-      "roman": "dan pa"
+      "exampleEn": "This is my right foot.",
+      "exampleBn": "এটা আমার ডান পা।"
     },
     {
       "id": "body-index-finger",
       "en": "index finger",
       "bn": "তারজানী",
       "emoji": "☝️",
-      "roman": "tarjani"
+      "exampleEn": "I wash my index finger.",
+      "exampleBn": "আমি আমার তারজানী ধুই।"
     },
     {
       "id": "body-middle-finger",
       "en": "middle finger",
       "bn": "মধ্যমা",
       "emoji": "🖕",
-      "roman": "madhyama"
+      "exampleEn": "Look at my middle finger.",
+      "exampleBn": "আমার মধ্যমা দেখো।"
     },
     {
       "id": "body-ring-finger",
       "en": "ring finger",
       "bn": "আনামিলা",
       "emoji": "💍",
-      "roman": "anamika"
+      "exampleEn": "My ring finger feels fine.",
+      "exampleBn": "আমার আনামিলা ভালো আছে।"
     },
     {
       "id": "body-pinky-finger",
       "en": "pinky finger",
       "bn": "ছোট আঙুল",
       "emoji": "🤙",
-      "roman": "kanistha"
+      "exampleEn": "This is my pinky finger.",
+      "exampleBn": "এটা আমার ছোট আঙুল।"
     },
     {
       "id": "body-big-toe",
       "en": "big toe",
       "bn": "বড় আঙুল",
       "emoji": "🦶",
-      "roman": "baro angul"
+      "exampleEn": "I wash my big toe.",
+      "exampleBn": "আমি আমার বড় আঙুল ধুই।"
     },
     {
       "id": "body-little-toe",
       "en": "little toe",
       "bn": "ছোট আঙুল",
       "emoji": "🦶",
-      "roman": "chhoto angul"
+      "exampleEn": "Look at my little toe.",
+      "exampleBn": "আমার ছোট আঙুল দেখো।"
     },
     {
       "id": "body-eyelid",
       "en": "eyelid",
       "bn": "চোখের পাত",
       "emoji": "👁️",
-      "roman": "chokher palok"
+      "exampleEn": "My eyelid feels fine.",
+      "exampleBn": "আমার চোখের পাত ভালো আছে।"
     },
     {
       "id": "body-pupil",
       "en": "pupil",
       "bn": "চোখের মণি",
       "emoji": "👁️",
-      "roman": "chokher putul"
+      "exampleEn": "This is my pupil.",
+      "exampleBn": "এটা আমার চোখের মণি।"
     },
     {
       "id": "body-iris",
       "en": "iris",
       "bn": "আইরিস",
       "emoji": "👁️",
-      "roman": "iris"
+      "exampleEn": "I wash my iris.",
+      "exampleBn": "আমি আমার আইরিস ধুই।"
     },
     {
       "id": "body-retina",
       "en": "retina",
       "bn": "রেটিনা",
       "emoji": "👁️",
-      "roman": "retina"
+      "exampleEn": "Look at my retina.",
+      "exampleBn": "আমার রেটিনা দেখো।"
     },
     {
       "id": "body-cornea",
       "en": "cornea",
       "bn": "কর্নিয়া",
       "emoji": "👁️",
-      "roman": "cornea"
+      "exampleEn": "My cornea feels fine.",
+      "exampleBn": "আমার কর্নিয়া ভালো আছে।"
     },
     {
       "id": "body-tear-duct",
       "en": "tear duct",
       "bn": "অশ্রু নালি",
       "emoji": "😢",
-      "roman": "ashru nali"
+      "exampleEn": "This is my tear duct.",
+      "exampleBn": "এটা আমার অশ্রু নালি।"
     },
     {
       "id": "body-earlobe",
       "en": "earlobe",
       "bn": "কানের লত",
       "emoji": "👂",
-      "roman": "kaner lata"
+      "exampleEn": "I wash my earlobe.",
+      "exampleBn": "আমি আমার কানের লত ধুই।"
     },
     {
       "id": "body-eardrum",
       "en": "eardrum",
       "bn": "কানের পর্দা",
       "emoji": "👂",
-      "roman": "kaner pata"
+      "exampleEn": "Look at my eardrum.",
+      "exampleBn": "আমার কানের পর্দা দেখো।"
     },
     {
       "id": "body-nostril",
       "en": "nostril",
       "bn": "নাকের ফুটো",
       "emoji": "👃",
-      "roman": "nak er ched"
+      "exampleEn": "My nostril feels fine.",
+      "exampleBn": "আমার নাকের ফুটো ভালো আছে।"
     },
     {
       "id": "body-sinus",
       "en": "sinus",
       "bn": "নাকছিশ",
       "emoji": "👃",
-      "roman": "sinus"
+      "exampleEn": "This is my sinus.",
+      "exampleBn": "এটা আমার নাকছিশ।"
     },
     {
       "id": "body-palate",
       "en": "palate",
       "bn": "তালু",
       "emoji": "👄",
-      "roman": "talu"
+      "exampleEn": "I wash my palate.",
+      "exampleBn": "আমি আমার তালু ধুই।"
     },
     {
       "id": "body-gum",
       "en": "gum",
       "bn": "মাড়ি",
       "emoji": "🦷",
-      "roman": "masuda"
+      "exampleEn": "Look at my gum.",
+      "exampleBn": "আমার মাড়ি দেখো।"
     },
     {
       "id": "body-wisdom-tooth",
       "en": "wisdom tooth",
       "bn": "পাড় দাঁত",
       "emoji": "🦷",
-      "roman": "girja dat"
+      "exampleEn": "My wisdom tooth feels fine.",
+      "exampleBn": "আমার পাড় দাঁত ভালো আছে।"
     },
     {
       "id": "body-baby-tooth",
       "en": "baby tooth",
       "bn": "দুধ দাঁত",
       "emoji": "🦷",
-      "roman": "shishu dat"
+      "exampleEn": "This is my baby tooth.",
+      "exampleBn": "এটা আমার দুধ দাঁত।"
     },
     {
       "id": "body-uvula",
       "en": "uvula",
       "bn": "গলবিল",
       "emoji": "👅",
-      "roman": "uvula"
+      "exampleEn": "I wash my uvula.",
+      "exampleBn": "আমি আমার গলবিল ধুই।"
     },
     {
       "id": "body-tonsil",
       "en": "tonsil",
       "bn": "টনসিল",
       "emoji": "😷",
-      "roman": "tonsil"
+      "exampleEn": "Look at my tonsil.",
+      "exampleBn": "আমার টনসিল দেখো।"
     },
     {
       "id": "body-adam-apple",
       "en": "adam apple",
       "bn": "কণ্ঠনাল",
       "emoji": "🗣️",
-      "roman": "kanthas"
+      "exampleEn": "My adam apple feels fine.",
+      "exampleBn": "আমার কণ্ঠনাল ভালো আছে।"
     },
     {
       "id": "body-larynx",
       "en": "larynx",
       "bn": "স্বরশলি",
       "emoji": "🗣️",
-      "roman": "sworashuli"
+      "exampleEn": "This is my larynx.",
+      "exampleBn": "এটা আমার স্বরশলি।"
     },
     {
       "id": "body-trachea",
       "en": "trachea",
       "bn": "শ্বাসনালী",
       "emoji": "💨",
-      "roman": "shwasnali"
+      "exampleEn": "I wash my trachea.",
+      "exampleBn": "আমি আমার শ্বাসনালী ধুই।"
     },
     {
       "id": "body-lung",
       "en": "lung",
       "bn": "ফুসফুস",
       "emoji": "🫁",
-      "roman": "phusphus"
+      "exampleEn": "Look at my lung.",
+      "exampleBn": "আমার ফুসফুস দেখো।"
     },
     {
       "id": "body-kidney",
       "en": "kidney",
       "bn": "কিডনি",
       "emoji": "🫘",
-      "roman": "kukshi"
+      "exampleEn": "My kidney feels fine.",
+      "exampleBn": "আমার কিডনি ভালো আছে।"
     },
     {
       "id": "body-liver",
       "en": "liver",
       "bn": "যকৃত",
       "emoji": "🫀",
-      "roman": "jigar"
+      "exampleEn": "This is my liver.",
+      "exampleBn": "এটা আমার যকৃত।"
     },
     {
       "id": "body-intestine",
       "en": "intestine",
       "bn": "অন্ত্র",
       "emoji": "🫃",
-      "roman": "antro"
+      "exampleEn": "I wash my intestine.",
+      "exampleBn": "আমি আমার অন্ত্র ধুই।"
     },
     {
       "id": "body-bladder",
       "en": "bladder",
       "bn": "মূত্রাশয়",
       "emoji": "💧",
-      "roman": "mutrashay"
+      "exampleEn": "Look at my bladder.",
+      "exampleBn": "আমার মূত্রাশয় দেখো।"
     },
     {
       "id": "body-pancreas",
       "en": "pancreas",
       "bn": "অগ্ন্যাশয়",
       "emoji": "🫃",
-      "roman": "pancreas"
+      "exampleEn": "My pancreas feels fine.",
+      "exampleBn": "আমার অগ্ন্যাশয় ভালো আছে।"
     },
     {
       "id": "body-spleen",
       "en": "spleen",
       "bn": "প্লীহ",
       "emoji": "🫃",
-      "roman": "pleeha"
+      "exampleEn": "This is my spleen.",
+      "exampleBn": "এটা আমার প্লীহ।"
     },
     {
       "id": "body-immune-system",
       "en": "immune system",
       "bn": "রোগ প্রতিরোধ ক্ষমতা",
       "emoji": "🛡️",
-      "roman": "rogg pratirodk"
+      "exampleEn": "I wash my immune system.",
+      "exampleBn": "আমি আমার রোগ প্রতিরোধ ক্ষমতা ধুই।"
     },
     {
       "id": "body-nerve",
       "en": "nerve",
       "bn": "শিরা",
       "emoji": "⚡",
-      "roman": "shira"
+      "exampleEn": "Look at my nerve.",
+      "exampleBn": "আমার শিরা দেখো।"
     },
     {
       "id": "body-reflex",
       "en": "reflex",
       "bn": "স্বাভাবিক প্রতিক্রিয়া",
       "emoji": "⚡",
-      "roman": "reflex"
+      "exampleEn": "My reflex feels fine.",
+      "exampleBn": "আমার স্বাভাবিক প্রতিক্রিয়া ভালো আছে।"
     },
     {
       "id": "body-instinct",
       "en": "instinct",
       "bn": "সহজাত প্রবৃত্তি",
       "emoji": "🧠",
-      "roman": "instinct"
+      "exampleEn": "This is my instinct.",
+      "exampleBn": "এটা আমার সহজাত প্রবৃত্তি।"
     },
     {
       "id": "body-memory",
       "en": "memory",
       "bn": "স্মৃতি",
       "emoji": "🧠",
-      "roman": "smriti"
+      "exampleEn": "I wash my memory.",
+      "exampleBn": "আমি আমার স্মৃতি ধুই।"
     },
     {
       "id": "body-thought",
       "en": "thought",
       "bn": "চিন্তা",
       "emoji": "💭",
-      "roman": "chinta"
+      "exampleEn": "Look at my thought.",
+      "exampleBn": "আমার চিন্তা দেখো।"
     },
     {
       "id": "body-sense",
       "en": "sense",
       "bn": "ইন্দ্রিয়",
       "emoji": "👃",
-      "roman": "indriyo"
+      "exampleEn": "My sense feels fine.",
+      "exampleBn": "আমার ইন্দ্রিয় ভালো আছে।"
     },
     {
       "id": "body-sight",
       "en": "sight",
       "bn": "দৃষ্টি",
       "emoji": "👁️",
-      "roman": "drishti"
+      "exampleEn": "This is my sight.",
+      "exampleBn": "এটা আমার দৃষ্টি।"
     },
     {
       "id": "body-hearing",
       "en": "hearing",
       "bn": "শ্রবণ",
       "emoji": "👂",
-      "roman": "shroban"
+      "exampleEn": "I wash my hearing.",
+      "exampleBn": "আমি আমার শ্রবণ ধুই।"
     },
     {
       "id": "body-smell-sense",
       "en": "smell sense",
       "bn": "গন্ধ",
       "emoji": "👃",
-      "roman": "ghran"
+      "exampleEn": "Look at my smell sense.",
+      "exampleBn": "আমার গন্ধ দেখো।"
     },
     {
       "id": "body-taste-sense",
       "en": "taste sense",
       "bn": "স্বাদ",
       "emoji": "👅",
-      "roman": "swad"
+      "exampleEn": "My taste sense feels fine.",
+      "exampleBn": "আমার স্বাদ ভালো আছে।"
     },
     {
       "id": "body-touch-sense",
       "en": "touch sense",
       "bn": "স্পর্শ",
       "emoji": "🤚",
-      "roman": "sporsho"
+      "exampleEn": "This is my touch sense.",
+      "exampleBn": "এটা আমার স্পর্শ।"
     },
     {
       "id": "body-balance-sense",
       "en": "balance sense",
       "bn": "ভারসাম্য",
       "emoji": "⚖️",
-      "roman": "bharsamyo"
+      "exampleEn": "I wash my balance sense.",
+      "exampleBn": "আমি আমার ভারসাম্য ধুই।"
     },
     {
       "id": "body-posture",
       "en": "posture",
       "bn": "অবস্থান",
       "emoji": "🧍",
-      "roman": "abosthan"
+      "exampleEn": "Look at my posture.",
+      "exampleBn": "আমার অবস্থান দেখো।"
     },
     {
       "id": "body-gesture",
       "en": "gesture",
       "bn": "ইশারা",
       "emoji": "👋",
-      "roman": "ishara"
+      "exampleEn": "My gesture feels fine.",
+      "exampleBn": "আমার ইশারা ভালো আছে।"
     },
     {
       "id": "body-expression",
       "en": "expression",
       "bn": "অভিব্যক্তি",
       "emoji": "😊",
-      "roman": "abhibyakti"
+      "exampleEn": "This is my expression.",
+      "exampleBn": "এটা আমার অভিব্যক্তি।"
     },
     {
       "id": "body-body-language",
       "en": "body language",
       "bn": "দেহের ভাষা",
       "emoji": "🧍",
-      "roman": "dehor bhasha"
+      "exampleEn": "I wash my body language.",
+      "exampleBn": "আমি আমার দেহের ভাষা ধুই।"
     },
     {
       "id": "body-health",
       "en": "health",
       "bn": "সুস্থ",
       "emoji": "💪",
-      "roman": "shustho"
+      "exampleEn": "Look at my health.",
+      "exampleBn": "আমার সুস্থ দেখো।"
     },
     {
       "id": "body-fitness",
       "en": "fitness",
       "bn": "শারীরিক সুস্থতা",
       "emoji": "🏋️",
-      "roman": "fitness"
+      "exampleEn": "My fitness feels fine.",
+      "exampleBn": "আমার শারীরিক সুস্থতা ভালো আছে।"
     },
     {
       "id": "body-strength",
       "en": "strength",
       "bn": "শক্তি",
       "emoji": "💪",
-      "roman": "shakti"
+      "exampleEn": "This is my strength.",
+      "exampleBn": "এটা আমার শক্তি।"
     },
     {
       "id": "body-energy",
       "en": "energy",
       "bn": "শক্তি",
       "emoji": "⚡",
-      "roman": "shakti"
+      "exampleEn": "I wash my energy.",
+      "exampleBn": "আমি আমার শক্তি ধুই।"
     },
     {
       "id": "body-growth",
       "en": "growth",
       "bn": "বৃদ্ধি",
       "emoji": "📈",
-      "roman": "brihhi"
+      "exampleEn": "Look at my growth.",
+      "exampleBn": "আমার বৃদ্ধি দেখো।"
     },
     {
       "id": "body-height-growth",
       "en": "height growth",
       "bn": "উচ্চতা",
       "emoji": "📏",
-      "roman": "uchai"
+      "exampleEn": "My height growth feels fine.",
+      "exampleBn": "আমার উচ্চতা ভালো আছে।"
     },
     {
       "id": "body-weight",
       "en": "weight",
       "bn": "ওজন",
       "emoji": "⚖️",
-      "roman": "vajan"
+      "exampleEn": "This is my weight.",
+      "exampleBn": "এটা আমার ওজন।"
     }
   ]
 }

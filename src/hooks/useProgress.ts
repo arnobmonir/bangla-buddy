@@ -4,6 +4,7 @@ import {
   clearCategoryResume,
   loadProgress,
   recordCategoryComplete,
+  recordQuizResult,
   recordSessionStart,
   recordWordHeard,
   resetProgress,
@@ -42,6 +43,13 @@ export function useProgress() {
     setProgress((prev) => recordCategoryComplete(prev, categoryId))
   }, [])
 
+  const trackQuizResult = useCallback(
+    (categoryId: string, score: number, total: number) => {
+      setProgress((prev) => recordQuizResult(prev, categoryId, score, total))
+    },
+    [],
+  )
+
   const clearResume = useCallback((categoryId: string) => {
     setProgress((prev) => clearCategoryResume(prev, categoryId))
   }, [])
@@ -59,6 +67,7 @@ export function useProgress() {
     trackSessionStart,
     trackWordHeard,
     trackCategoryComplete,
+    trackQuizResult,
     clearResume,
     clearProgress,
     refresh,
