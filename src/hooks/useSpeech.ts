@@ -214,8 +214,6 @@ export function useSpeech() {
         if (generation !== generationRef.current) return
       }
 
-      if (options.mode === 'en-only') return
-
       const times = options.banglaRepeat
       for (let i = 0; i < times; i++) {
         if (generation !== generationRef.current) return
