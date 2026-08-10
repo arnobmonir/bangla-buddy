@@ -3,7 +3,7 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "functions": {
-    "api/tts.ts": {
+    "api/tts.js": {
       "maxDuration": 20,
       "memory": 1024
     }

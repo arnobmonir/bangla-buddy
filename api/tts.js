@@ -1,17 +1,18 @@
-import { createHash, randomBytes } from 'node:crypto'
-import WebSocket from 'ws'
+/**
+ * Vercel serverless TTS handler (CommonJS).
+ * Kept as .cjs because package.json has "type": "module", and loading `ws`
+ * inside an ESM serverless bundle often causes FUNCTION_INVOCATION_FAILED.
+ */
+const { createHash, randomBytes } = require('node:crypto')
 
-export const ALLOWED_EDGE_VOICES = new Set([
+const ALLOWED_EDGE_VOICES = new Set([
   'bn-IN-TanishaaNeural',
   'bn-IN-BashkarNeural',
   'bn-BD-NabanitaNeural',
   'bn-BD-PradeepNeural',
 ])
 
-/** @deprecated Use ALLOWED_EDGE_VOICES */
-export const ALLOWED_VOICES = ALLOWED_EDGE_VOICES
-
-export const ALLOWED_GEMINI_VOICES = new Set([
+const ALLOWED_GEMINI_VOICES = new Set([
   'Leda',
   'Achernar',
   'Puck',
@@ -20,15 +21,11 @@ export const ALLOWED_GEMINI_VOICES = new Set([
   'Zephyr',
 ])
 
-export type TtsEngine = 'neural' | 'gemini'
-
 const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4'
 const CHROMIUM_FULL_VERSION = '143.0.3650.75'
 const WINDOWS_FILE_TIME_EPOCH = 11644473600n
 const GEMINI_TTS_MODEL = 'gemini-3.1-flash-tts-preview'
 const GEMINI_PCM_RATE = 24000
-const GEMINI_PCM_CHANNELS = 1
-const GEMINI_PCM_SAMPLE_WIDTH = 2
 
 function generateSecMsGecToken() {
   const ticks =
@@ -39,14 +36,14 @@ function generateSecMsGecToken() {
   return createHash('sha256').update(strToHash, 'ascii').digest('hex').toUpperCase()
 }
 
-export function rateToEdge(rate: number): string {
+function rateToEdge(rate) {
   const pct = Math.round((rate - 1) * 100)
   const clamped = Math.max(-40, Math.min(20, pct))
   return clamped >= 0 ? `+${clamped}%` : `${clamped}%`
 }
 
-function escapeXml(unsafe: string) {
-  return unsafe.replace(/[<>&"']/g, (c) => {
+function escapeXml(unsafe) {
+  return String(unsafe).replace(/[<>&"']/g, (c) => {
     switch (c) {
       case '<':
         return '&lt;'
@@ -64,15 +61,7 @@ function escapeXml(unsafe: string) {
   })
 }
 
-/**
- * Wrap raw PCM (s16le) in a minimal RIFF/WAVE header for browser playback.
- */
-export function pcmToWav(
-  pcm: Buffer,
-  sampleRate = GEMINI_PCM_RATE,
-  channels = GEMINI_PCM_CHANNELS,
-  sampleWidth = GEMINI_PCM_SAMPLE_WIDTH,
-): Buffer {
+function pcmToWav(pcm, sampleRate = GEMINI_PCM_RATE, channels = 1, sampleWidth = 2) {
   const blockAlign = channels * sampleWidth
   const byteRate = sampleRate * blockAlign
   const dataSize = pcm.length
@@ -83,7 +72,7 @@ export function pcmToWav(
   header.write('WAVE', 8)
   header.write('fmt ', 12)
   header.writeUInt32LE(16, 16)
-  header.writeUInt16LE(1, 20) // PCM
+  header.writeUInt16LE(1, 20)
   header.writeUInt16LE(channels, 22)
   header.writeUInt32LE(sampleRate, 24)
   header.writeUInt32LE(byteRate, 28)
@@ -95,15 +84,60 @@ export function pcmToWav(
   return Buffer.concat([header, pcm])
 }
 
-/**
- * Synthesize Bangla speech via Microsoft Edge read-aloud WebSocket.
- * Returns MP3 bytes in memory (Vercel-friendly, no temp files).
- */
-export async function synthesizeBangla(
-  text: string,
-  voice: string,
-  rate: number,
-): Promise<Buffer> {
+function extractGeminiAudioBase64(payload) {
+  if (!payload || typeof payload !== 'object') return null
+
+  const outputAudio = payload.output_audio ?? payload.outputAudio
+  if (outputAudio && typeof outputAudio === 'object' && typeof outputAudio.data === 'string') {
+    return outputAudio.data
+  }
+
+  const candidates = payload.candidates
+  if (Array.isArray(candidates) && candidates[0]) {
+    const parts = candidates[0]?.content?.parts
+    if (Array.isArray(parts) && parts[0]) {
+      const inline = parts[0].inlineData ?? parts[0].inline_data
+      if (inline && typeof inline.data === 'string') return inline.data
+    }
+  }
+
+  return null
+}
+
+function parseTtsParams(query) {
+  const text = String(query.text ?? '').trim()
+  const engineRaw = String(query.engine ?? 'neural').toLowerCase()
+  const engine = engineRaw === 'gemini' ? 'gemini' : 'neural'
+  const voice = String(
+    query.voice ?? (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural'),
+  )
+  const rate = Number(query.rate ?? '0.85')
+
+  if (!text) return { ok: false, status: 400, error: 'Missing text' }
+  if (text.length > 200) return { ok: false, status: 400, error: 'Text too long' }
+
+  if (engine === 'gemini') {
+    if (!ALLOWED_GEMINI_VOICES.has(voice)) {
+      return { ok: false, status: 400, error: 'Unsupported voice' }
+    }
+  } else if (!ALLOWED_EDGE_VOICES.has(voice)) {
+    return { ok: false, status: 400, error: 'Unsupported voice' }
+  }
+
+  return {
+    ok: true,
+    value: {
+      text,
+      voice,
+      rate: Number.isFinite(rate) ? rate : 0.85,
+      engine,
+    },
+  }
+}
+
+function synthesizeBangla(text, voice, rate) {
+  // Lazy-load so Gemini requests don't need ws if Edge path isn't used.
+  const WebSocket = require('ws')
   const lang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
   const edgeRate = rateToEdge(rate)
   const chromeMajor = CHROMIUM_FULL_VERSION.split('.')[0]
@@ -113,9 +147,9 @@ export async function synthesizeBangla(
     `&Sec-MS-GEC=${generateSecMsGecToken()}` +
     `&Sec-MS-GEC-Version=1-${CHROMIUM_FULL_VERSION}`
 
-  const chunks: Buffer[] = []
+  const chunks = []
 
-  await new Promise<void>((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     const ws = new WebSocket(wsUrl, {
       host: 'speech.platform.bing.com',
       origin: 'chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold',
@@ -137,14 +171,14 @@ export async function synthesizeBangla(
       reject(new Error('TTS timed out'))
     }, 15000)
 
-    const fail = (err: Error) => {
+    const fail = (err) => {
       clearTimeout(timeout)
       try {
         ws.close()
       } catch {
         // ignore
       }
-      reject(err)
+      reject(err instanceof Error ? err : new Error(String(err)))
     }
 
     ws.on('open', () => {
@@ -178,12 +212,10 @@ export async function synthesizeBangla(
 
     ws.on('message', (data, isBinary) => {
       if (isBinary) {
-        const buf = Buffer.isBuffer(data) ? data : Buffer.from(data as ArrayBuffer)
+        const buf = Buffer.isBuffer(data) ? data : Buffer.from(data)
         const separator = 'Path:audio\r\n'
         const index = buf.indexOf(separator)
-        if (index >= 0) {
-          chunks.push(buf.subarray(index + separator.length))
-        }
+        if (index >= 0) chunks.push(buf.subarray(index + separator.length))
         return
       }
 
@@ -199,71 +231,26 @@ export async function synthesizeBangla(
       }
     })
 
-    ws.on('error', (err) => {
-      fail(err instanceof Error ? err : new Error(String(err)))
-    })
+    ws.on('error', fail)
 
     ws.on('close', () => {
-      // If closed before turn.end with some audio, still resolve
       if (chunks.length > 0) {
         clearTimeout(timeout)
         resolve()
       }
     })
+  }).then(() => {
+    if (chunks.length === 0) throw new Error('TTS returned no audio')
+    return Buffer.concat(chunks)
   })
-
-  if (chunks.length === 0) {
-    throw new Error('TTS returned no audio')
-  }
-  return Buffer.concat(chunks)
 }
 
-function extractGeminiAudioBase64(payload: unknown): string | null {
-  if (!payload || typeof payload !== 'object') return null
-  const root = payload as Record<string, unknown>
-
-  const outputAudio = root.output_audio ?? root.outputAudio
-  if (outputAudio && typeof outputAudio === 'object') {
-    const data = (outputAudio as Record<string, unknown>).data
-    if (typeof data === 'string' && data.length > 0) return data
-  }
-
-  // Fallback: generateContent-shaped responses if the API returns that layout.
-  const candidates = root.candidates
-  if (Array.isArray(candidates) && candidates[0]) {
-    const content = (candidates[0] as Record<string, unknown>).content as
-      | Record<string, unknown>
-      | undefined
-    const parts = content?.parts
-    if (Array.isArray(parts) && parts[0]) {
-      const inline =
-        (parts[0] as Record<string, unknown>).inlineData ??
-        (parts[0] as Record<string, unknown>).inline_data
-      if (inline && typeof inline === 'object') {
-        const data = (inline as Record<string, unknown>).data
-        if (typeof data === 'string' && data.length > 0) return data
-      }
-    }
-  }
-
-  return null
-}
-
-/**
- * Synthesize Bangla speech via Gemini TTS (generateContent).
- * Returns WAV bytes (PCM wrapped) for browser playback.
- */
-export async function synthesizeGeminiBangla(
-  text: string,
-  voice: string,
-): Promise<Buffer> {
+async function synthesizeGeminiBangla(text, voice) {
   const apiKey = process.env.GEMINI_API_KEY?.trim()
   if (!apiKey) {
     const err = new Error(
       'GEMINI_API_KEY is not configured. In Vercel → Project Settings → Environment Variables, add GEMINI_API_KEY, enable Preview (and Production), then Redeploy.',
-    ) as Error & {
-      status?: number
-    }
+    )
     err.status = 503
     throw err
   }
@@ -275,47 +262,44 @@ export async function synthesizeGeminiBangla(
   const timeout = setTimeout(() => controller.abort(), 25000)
 
   try {
-    const url =
-      `https://generativelanguage.googleapis.com/v1beta/models/` +
-      `${GEMINI_TTS_MODEL}:generateContent`
-
-    const res = await fetch(url, {
-      method: 'POST',
-      signal: controller.signal,
-      headers: {
-        'Content-Type': 'application/json',
-        'x-goog-api-key': apiKey,
-      },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          responseModalities: ['AUDIO'],
-          speechConfig: {
-            voiceConfig: {
-              prebuiltVoiceConfig: {
-                voiceName: voice,
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_TTS_MODEL}:generateContent`,
+      {
+        method: 'POST',
+        signal: controller.signal,
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey,
+        },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            responseModalities: ['AUDIO'],
+            speechConfig: {
+              voiceConfig: {
+                prebuiltVoiceConfig: {
+                  voiceName: voice,
+                },
               },
             },
           },
-        },
-      }),
-    })
+        }),
+      },
+    )
 
     const bodyText = await res.text()
     if (!res.ok) {
       let message = `Gemini TTS HTTP ${res.status}`
       try {
-        const parsed = JSON.parse(bodyText) as {
-          error?: { message?: string }
-        }
-        if (parsed.error?.message) message = parsed.error.message
+        const parsed = JSON.parse(bodyText)
+        if (parsed?.error?.message) message = parsed.error.message
       } catch {
         if (bodyText.trim()) message = bodyText.slice(0, 200)
       }
       throw new Error(message)
     }
 
-    let payload: unknown
+    let payload
     try {
       payload = JSON.parse(bodyText)
     } catch {
@@ -333,56 +317,66 @@ export async function synthesizeGeminiBangla(
   }
 }
 
-export type TtsRequestParams = {
-  text: string
-  voice: string
-  rate: number
-  engine: TtsEngine
-}
+module.exports = async function handler(req, res) {
+  try {
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
 
-export type TtsResult = {
-  audio: Buffer
-  contentType: 'audio/mpeg' | 'audio/wav'
-}
-
-export function parseTtsParams(searchParams: URLSearchParams):
-  | { ok: true; value: TtsRequestParams }
-  | { ok: false; status: number; error: string } {
-  const text = (searchParams.get('text') ?? '').trim()
-  const engineRaw = (searchParams.get('engine') ?? 'neural').toLowerCase()
-  const engine: TtsEngine = engineRaw === 'gemini' ? 'gemini' : 'neural'
-  const voice =
-    searchParams.get('voice') ??
-    (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural')
-  const rate = Number(searchParams.get('rate') ?? '0.85')
-
-  if (!text) return { ok: false, status: 400, error: 'Missing text' }
-  if (text.length > 200) return { ok: false, status: 400, error: 'Text too long' }
-
-  if (engine === 'gemini') {
-    if (!ALLOWED_GEMINI_VOICES.has(voice)) {
-      return { ok: false, status: 400, error: 'Unsupported voice' }
+    if (req.method === 'OPTIONS') {
+      res.statusCode = 204
+      res.end()
+      return
     }
-  } else if (!ALLOWED_EDGE_VOICES.has(voice)) {
-    return { ok: false, status: 400, error: 'Unsupported voice' }
-  }
 
-  return {
-    ok: true,
-    value: {
-      text,
-      voice,
-      rate: Number.isFinite(rate) ? rate : 0.85,
-      engine,
-    },
+    if (req.method !== 'GET') {
+      res.statusCode = 405
+      res.setHeader('Content-Type', 'application/json; charset=utf-8')
+      res.end(JSON.stringify({ error: 'Method not allowed' }))
+      return
+    }
+
+    const query = {}
+    for (const [key, value] of Object.entries(req.query ?? {})) {
+      if (value == null) continue
+      query[key] = Array.isArray(value) ? String(value[0]) : String(value)
+    }
+
+    const parsed = parseTtsParams(query)
+    if (!parsed.ok) {
+      res.statusCode = parsed.status
+      res.setHeader('Content-Type', 'application/json; charset=utf-8')
+      res.end(JSON.stringify({ error: parsed.error }))
+      return
+    }
+
+    let audio
+    let contentType
+    if (parsed.value.engine === 'gemini') {
+      audio = await synthesizeGeminiBangla(parsed.value.text, parsed.value.voice)
+      contentType = 'audio/wav'
+    } else {
+      audio = await synthesizeBangla(
+        parsed.value.text,
+        parsed.value.voice,
+        parsed.value.rate,
+      )
+      contentType = 'audio/mpeg'
+    }
+
+    res.statusCode = 200
+    res.setHeader('Content-Type', contentType)
+    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
+    res.end(audio)
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'TTS failed'
+    const status = typeof err?.status === 'number' ? err.status : 502
+    console.error('[api/tts]', message)
+    res.statusCode = status
+    res.setHeader('Content-Type', 'application/json; charset=utf-8')
+    res.end(JSON.stringify({ error: message }))
   }
 }
 
-export async function synthesizeTts(params: TtsRequestParams): Promise<TtsResult> {
-  if (params.engine === 'gemini') {
-    const audio = await synthesizeGeminiBangla(params.text, params.voice)
-    return { audio, contentType: 'audio/wav' }
-  }
-  const audio = await synthesizeBangla(params.text, params.voice, params.rate)
-  return { audio, contentType: 'audio/mpeg' }
+module.exports.config = {
+  maxDuration: 20,
 }
