@@ -4,14 +4,16 @@ import type {
   BanglaEngine,
   BanglaRepeat,
   BanglaVoiceId,
+  GeminiVoiceId,
   ParentGate,
   SpeechMode,
 } from '../types/word'
-import { BANGLA_VOICES, DEFAULT_SETTINGS } from '../types/word'
+import { BANGLA_VOICES, DEFAULT_SETTINGS, GEMINI_VOICES } from '../types/word'
 
 export const SETTINGS_STORAGE_KEY = 'baby-bangla-settings'
 
 const VOICE_IDS = new Set(BANGLA_VOICES.map((v) => v.id))
+const GEMINI_VOICE_IDS = new Set(GEMINI_VOICES.map((v) => v.id))
 
 function clamp(n: number, min: number, max: number) {
   return Math.min(max, Math.max(min, n))
@@ -22,6 +24,7 @@ function sanitize(raw: unknown): AppSettings {
   const mode = input.speechMode
   const engine = input.banglaEngine
   const voice = input.banglaVoice
+  const geminiVoice = input.geminiVoice
   const repeat = input.banglaRepeat
 
   const gate = input.parentGate
@@ -45,7 +48,14 @@ function sanitize(raw: unknown): AppSettings {
       typeof voice === 'string' && VOICE_IDS.has(voice as BanglaVoiceId)
         ? (voice as BanglaVoiceId)
         : DEFAULT_SETTINGS.banglaVoice,
-    banglaEngine: engine === 'device' || engine === 'neural' ? engine : DEFAULT_SETTINGS.banglaEngine,
+    geminiVoice:
+      typeof geminiVoice === 'string' && GEMINI_VOICE_IDS.has(geminiVoice as GeminiVoiceId)
+        ? (geminiVoice as GeminiVoiceId)
+        : DEFAULT_SETTINGS.geminiVoice,
+    banglaEngine:
+      engine === 'device' || engine === 'neural' || engine === 'gemini'
+        ? engine
+        : DEFAULT_SETTINGS.banglaEngine,
     autoAdvance: Boolean(input.autoAdvance ?? DEFAULT_SETTINGS.autoAdvance),
     banglaRepeat:
       repeat === 1 || repeat === 2 ? repeat : DEFAULT_SETTINGS.banglaRepeat,
@@ -135,6 +145,10 @@ export function useSettings() {
     (banglaVoice: BanglaVoiceId) => update({ banglaVoice }),
     [update],
   )
+  const setGeminiVoice = useCallback(
+    (geminiVoice: GeminiVoiceId) => update({ geminiVoice }),
+    [update],
+  )
   const setBanglaEngine = useCallback(
     (banglaEngine: BanglaEngine) => update({ banglaEngine }),
     [update],
@@ -167,6 +181,7 @@ export function useSettings() {
     setMuted,
     setSpeechMode,
     setBanglaVoice,
+    setGeminiVoice,
     setBanglaEngine,
     setAutoAdvance,
     setBanglaRepeat,

@@ -112,6 +112,7 @@ export function Quiz({
       volume: settings.volume,
       muted: settings.muted,
       banglaVoice: settings.banglaVoice,
+      geminiVoice: settings.geminiVoice,
       banglaEngine: settings.banglaEngine,
       enBnGapMs: settings.enBnGapMs,
       banglaRepeat: 1 as const,

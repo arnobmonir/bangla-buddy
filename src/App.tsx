@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { Category } from './types/word'
 import { getCategories, prefetchCategories } from './data/loader'
 import { useSettings } from './hooks/useSettings'
@@ -20,6 +20,28 @@ type Screen =
   | { name: 'quiz-pick' }
   | { name: 'quiz'; category: Category }
 
+const PARENTS_PATH = '/parents'
+const SETTINGS_PATH = '/settings'
+
+function normalizePath(pathname: string) {
+  if (pathname.length > 1 && pathname.endsWith('/')) return pathname.slice(0, -1)
+  return pathname || '/'
+}
+
+function screenFromPath(pathname: string): Screen {
+  const path = normalizePath(pathname)
+  if (path === PARENTS_PATH) return { name: 'dashboard' }
+  if (path === SETTINGS_PATH) return { name: 'settings' }
+  return { name: 'home' }
+}
+
+function pathForScreen(screen: Screen): string | null {
+  if (screen.name === 'dashboard') return PARENTS_PATH
+  if (screen.name === 'settings') return SETTINGS_PATH
+  if (screen.name === 'home') return '/'
+  return null
+}
+
 export default function App() {
   const categories = useMemo(() => getCategories(), [])
   const totalWordCatalog = useMemo(
@@ -36,6 +58,7 @@ export default function App() {
     setMuted,
     setSpeechMode,
     setBanglaVoice,
+    setGeminiVoice,
     setBanglaEngine,
     setAutoAdvance,
     setBanglaRepeat,
@@ -55,7 +78,30 @@ export default function App() {
     clearProgress,
     refresh,
   } = useProgress()
-  const [screen, setScreen] = useState<Screen>({ name: 'home' })
+  const [screen, setScreen] = useState<Screen>(() =>
+    typeof window === 'undefined' ? { name: 'home' } : screenFromPath(window.location.pathname),
+  )
+
+  const goTo = useCallback((next: Screen, mode: 'push' | 'replace' = 'push') => {
+    setScreen(next)
+    const path = pathForScreen(next)
+    if (!path) return
+    const current = normalizePath(window.location.pathname)
+    if (current === path) return
+    if (mode === 'replace') {
+      window.history.replaceState(null, '', path)
+    } else {
+      window.history.pushState(null, '', path)
+    }
+  }, [])
+
+  useEffect(() => {
+    const onPopState = () => {
+      setScreen(screenFromPath(window.location.pathname))
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [])
 
   useEffect(() => {
     const handle = window.setTimeout(() => {
@@ -67,6 +113,15 @@ export default function App() {
   useEffect(() => {
     if (screen.name === 'dashboard') refresh()
   }, [screen.name, refresh])
+
+  const openDashboardInNewTab = useCallback(() => {
+    const url = new URL(PARENTS_PATH, window.location.origin)
+    const opened = window.open(url.href, '_blank', 'noopener,noreferrer')
+    if (!opened) {
+      // Popup blocked — fall back to same-tab navigation.
+      goTo({ name: 'dashboard' })
+    }
+  }, [goTo])
 
   if (screen.name === 'settings') {
     return (
@@ -80,6 +135,7 @@ export default function App() {
         onMuted={setMuted}
         onMode={setSpeechMode}
         onBanglaVoice={setBanglaVoice}
+        onGeminiVoice={setGeminiVoice}
         onBanglaEngine={setBanglaEngine}
         onAutoAdvance={setAutoAdvance}
         onBanglaRepeat={setBanglaRepeat}
@@ -88,7 +144,7 @@ export default function App() {
         onParentPin={setParentPin}
         onApplyPreset={applyPreset}
         onReset={resetSettings}
-        onBack={() => setScreen({ name: 'dashboard' })}
+        onBack={() => goTo({ name: 'dashboard' })}
       />
     )
   }
@@ -100,8 +156,8 @@ export default function App() {
         settings={settings}
         progress={progress}
         totalWordCatalog={totalWordCatalog}
-        onBack={() => setScreen({ name: 'home' })}
-        onOpenSettings={() => setScreen({ name: 'settings' })}
+        onBack={() => goTo({ name: 'home' })}
+        onOpenSettings={() => goTo({ name: 'settings' })}
         onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
         onPlayCategory={(category) => setScreen({ name: 'player', category })}
         onClearProgress={clearProgress}
@@ -114,7 +170,7 @@ export default function App() {
       <QuizPick
         categories={categories}
         onSelect={(category) => setScreen({ name: 'quiz', category })}
-        onBack={() => setScreen({ name: 'home' })}
+        onBack={() => goTo({ name: 'home' })}
       />
     )
   }
@@ -125,7 +181,7 @@ export default function App() {
         category={screen.category}
         settings={settings}
         onBackToPick={() => setScreen({ name: 'quiz-pick' })}
-        onHome={() => setScreen({ name: 'home' })}
+        onHome={() => goTo({ name: 'home' })}
         onQuizComplete={trackQuizResult}
       />
     )
@@ -139,7 +195,7 @@ export default function App() {
         settings={settings}
         resumeWordId={catProgress?.resumeWordId ?? null}
         resumeIndex={catProgress?.resumeIndex ?? 0}
-        onBack={() => setScreen({ name: 'home' })}
+        onBack={() => goTo({ name: 'home' })}
         onSessionStart={trackSessionStart}
         onWordHeard={trackWordHeard}
         onCategoryComplete={trackCategoryComplete}
@@ -155,7 +211,7 @@ export default function App() {
       parentPin={settings.parentPin}
       onSelect={(category) => setScreen({ name: 'player', category })}
       onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
-      onOpenDashboard={() => setScreen({ name: 'dashboard' })}
+      onOpenDashboard={openDashboardInNewTab}
     />
   )
 }

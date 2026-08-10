@@ -1,6 +1,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { fetchBanglaAudio } from '../lib/banglaTts'
-import type { BanglaEngine, BanglaVoiceId, SpeechMode } from '../types/word'
+import type {
+  BanglaEngine,
+  BanglaVoiceId,
+  GeminiVoiceId,
+  SpeechMode,
+} from '../types/word'
 
 type SpeakOptions = {
   rate: number
@@ -8,6 +13,7 @@ type SpeakOptions = {
   muted: boolean
   mode: SpeechMode
   banglaVoice: BanglaVoiceId
+  geminiVoice: GeminiVoiceId
   banglaEngine: BanglaEngine
   enBnGapMs: number
   banglaRepeat: 1 | 2
@@ -34,6 +40,10 @@ function pickVoice(
     if (prefix) return prefix
   }
   return null
+}
+
+function cloudVoice(options: SpeakOptions): BanglaVoiceId | GeminiVoiceId {
+  return options.banglaEngine === 'gemini' ? options.geminiVoice : options.banglaVoice
 }
 
 export function useSpeech() {
@@ -190,8 +200,14 @@ export function useSpeech() {
         return
       }
 
+      const engine = options.banglaEngine === 'gemini' ? 'gemini' : 'neural'
       try {
-        const blob = await fetchBanglaAudio(text, options.banglaVoice, options.rate)
+        const blob = await fetchBanglaAudio(
+          text,
+          cloudVoice(options),
+          options.rate,
+          engine,
+        )
         if (generation !== generationRef.current) return
         await playBlob(blob, options.rate, options.volume, generation)
       } catch {
@@ -260,12 +276,17 @@ export function useSpeech() {
   )
 
   const prefetchBangla = useCallback(
-    (word: SpeakWordInput, voice: BanglaVoiceId, rate: number, engine: BanglaEngine) => {
-      if (engine !== 'neural') return
-      void fetchBanglaAudio(word.bn, voice, rate).catch(() => undefined)
+    (
+      word: SpeakWordInput,
+      voice: BanglaVoiceId | GeminiVoiceId,
+      rate: number,
+      engine: BanglaEngine,
+    ) => {
+      if (engine !== 'neural' && engine !== 'gemini') return
+      void fetchBanglaAudio(word.bn, voice, rate, engine).catch(() => undefined)
       const exampleBn = word.exampleBn?.trim()
       if (exampleBn) {
-        void fetchBanglaAudio(exampleBn, voice, rate).catch(() => undefined)
+        void fetchBanglaAudio(exampleBn, voice, rate, engine).catch(() => undefined)
       }
     },
     [],

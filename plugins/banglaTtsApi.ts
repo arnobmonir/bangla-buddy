@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Connect, Plugin } from 'vite'
-import { parseTtsParams, synthesizeBangla } from '../server/banglaTts.ts'
+import { parseTtsParams, synthesizeTts } from '../server/banglaTts.ts'
 
 function sendJson(res: ServerResponse, status: number, body: unknown) {
   res.statusCode = status
@@ -40,19 +40,19 @@ async function handleTts(
       return
     }
 
-    const audio = await synthesizeBangla(
-      parsed.value.text,
-      parsed.value.voice,
-      parsed.value.rate,
-    )
+    const result = await synthesizeTts(parsed.value)
     res.statusCode = 200
-    res.setHeader('Content-Type', 'audio/mpeg')
+    res.setHeader('Content-Type', result.contentType)
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
     res.setHeader('Access-Control-Allow-Origin', '*')
-    res.end(audio)
+    res.end(result.audio)
   } catch (err) {
     const message = err instanceof Error ? err.message : 'TTS failed'
-    sendJson(res, 502, { error: message })
+    const status =
+      err && typeof err === 'object' && 'status' in err && typeof (err as { status: unknown }).status === 'number'
+        ? (err as { status: number }).status
+        : 502
+    sendJson(res, status, { error: message })
   }
 }
 

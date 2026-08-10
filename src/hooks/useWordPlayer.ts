@@ -76,7 +76,11 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
         const s = settingsRef.current
 
         const nextWord = playlistRef.current[i + 1]
-        if (nextWord && s.banglaEngine === 'neural' && s.speechMode !== 'en-only') {
+        if (
+          nextWord &&
+          (s.banglaEngine === 'neural' || s.banglaEngine === 'gemini') &&
+          s.speechMode !== 'en-only'
+        ) {
           prefetchBangla(
             {
               id: nextWord.id,
@@ -85,7 +89,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
               exampleEn: nextWord.exampleEn,
               exampleBn: nextWord.exampleBn,
             },
-            s.banglaVoice,
+            s.banglaEngine === 'gemini' ? s.geminiVoice : s.banglaVoice,
             s.rate,
             s.banglaEngine,
           )
@@ -106,6 +110,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
               muted: s.muted,
               mode: s.speechMode,
               banglaVoice: s.banglaVoice,
+              geminiVoice: s.geminiVoice,
               banglaEngine: s.banglaEngine,
               enBnGapMs: s.enBnGapMs,
               banglaRepeat: s.banglaRepeat,

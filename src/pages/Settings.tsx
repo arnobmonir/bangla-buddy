@@ -4,10 +4,11 @@ import type {
   BanglaEngine,
   BanglaRepeat,
   BanglaVoiceId,
+  GeminiVoiceId,
   ParentGate,
   SpeechMode,
 } from '../types/word'
-import { BANGLA_VOICES, SETTINGS_PRESETS } from '../types/word'
+import { BANGLA_VOICES, GEMINI_VOICES, SETTINGS_PRESETS } from '../types/word'
 import {
   clearAudioCache,
   formatBytes,
@@ -26,6 +27,7 @@ type Props = {
   onMuted: (muted: boolean) => void
   onMode: (mode: SpeechMode) => void
   onBanglaVoice: (voice: BanglaVoiceId) => void
+  onGeminiVoice: (voice: GeminiVoiceId) => void
   onBanglaEngine: (engine: BanglaEngine) => void
   onAutoAdvance: (value: boolean) => void
   onBanglaRepeat: (value: BanglaRepeat) => void
@@ -133,6 +135,7 @@ export function Settings({
   onMuted,
   onMode,
   onBanglaVoice,
+  onGeminiVoice,
   onBanglaEngine,
   onAutoAdvance,
   onBanglaRepeat,
@@ -291,6 +294,7 @@ export function Settings({
                 muted: settings.muted,
                 mode: settings.speechMode === 'en-only' ? 'en-bn' : settings.speechMode,
                 banglaVoice: settings.banglaVoice,
+                geminiVoice: settings.geminiVoice,
                 banglaEngine: settings.banglaEngine,
                 enBnGapMs: settings.enBnGapMs,
                 banglaRepeat: 1,
@@ -381,7 +385,9 @@ export function Settings({
           </span>
           <div>
             <h2 className={styles.sectionTitle}>Bangla voice</h2>
-            <p className={styles.sectionHint}>Clear neural speech, cached on device</p>
+            <p className={styles.sectionHint}>
+              Neural (Edge), Gemini (API key), or device — cached on this device
+            </p>
           </div>
         </div>
 
@@ -390,14 +396,16 @@ export function Settings({
           value={settings.banglaEngine}
           onChange={onBanglaEngine}
           options={[
-            { id: 'neural', label: 'Neural', hint: 'Clearest' },
-            { id: 'device', label: 'Device', hint: 'No download' },
+            { id: 'neural', label: 'Neural', hint: 'Edge TTS' },
+            { id: 'gemini', label: 'Gemini', hint: 'Needs API key' },
+            { id: 'device', label: 'Device', hint: 'Offline' },
           ]}
         />
 
         <div
           className={styles.voiceGrid}
           data-disabled={settings.banglaEngine !== 'neural' ? 'true' : 'false'}
+          hidden={settings.banglaEngine === 'gemini'}
         >
           {BANGLA_VOICES.map((voice) => (
             <button
@@ -407,6 +415,30 @@ export function Settings({
               data-active={settings.banglaVoice === voice.id ? 'true' : 'false'}
               disabled={settings.banglaEngine !== 'neural'}
               onClick={() => onBanglaVoice(voice.id)}
+            >
+              <span className={styles.voiceName}>{voice.label.split(' (')[0]}</span>
+              <span className={styles.voiceMeta}>
+                {voice.label.includes('(')
+                  ? voice.label.slice(voice.label.indexOf('(') + 1, -1)
+                  : voice.id}
+              </span>
+            </button>
+          ))}
+        </div>
+
+        <div
+          className={styles.voiceGrid}
+          data-disabled={settings.banglaEngine !== 'gemini' ? 'true' : 'false'}
+          hidden={settings.banglaEngine !== 'gemini'}
+        >
+          {GEMINI_VOICES.map((voice) => (
+            <button
+              key={voice.id}
+              type="button"
+              className={styles.voiceCard}
+              data-active={settings.geminiVoice === voice.id ? 'true' : 'false'}
+              disabled={settings.banglaEngine !== 'gemini'}
+              onClick={() => onGeminiVoice(voice.id)}
             >
               <span className={styles.voiceName}>{voice.label.split(' (')[0]}</span>
               <span className={styles.voiceMeta}>

@@ -1,6 +1,6 @@
 import type { CSSProperties } from 'react'
 import type { AppSettings, Category } from '../types/word'
-import { BANGLA_VOICES } from '../types/word'
+import { BANGLA_VOICES, GEMINI_VOICES } from '../types/word'
 import {
   formatRelativeTime,
   type ProgressStore,
@@ -87,8 +87,18 @@ export function ParentDashboard({
   )
 
   const voiceLabel =
-    BANGLA_VOICES.find((v) => v.id === settings.banglaVoice)?.label.split(' (')[0] ??
-    'Neural'
+    settings.banglaEngine === 'gemini'
+      ? (GEMINI_VOICES.find((v) => v.id === settings.geminiVoice)?.label.split(' (')[0] ??
+        'Gemini')
+      : (BANGLA_VOICES.find((v) => v.id === settings.banglaVoice)?.label.split(' (')[0] ??
+        'Neural')
+
+  const banglaVoiceSummary =
+    settings.banglaEngine === 'neural'
+      ? `Neural · ${voiceLabel}`
+      : settings.banglaEngine === 'gemini'
+        ? `Gemini · ${voiceLabel}`
+        : 'Device voice'
 
   const modeLabel =
     settings.speechMode === 'en-bn'
@@ -373,9 +383,7 @@ export function ParentDashboard({
           </div>
           <div>
             <dt>Bangla voice</dt>
-            <dd>
-              {settings.banglaEngine === 'neural' ? voiceLabel : 'Device voice'}
-            </dd>
+            <dd>{banglaVoiceSummary}</dd>
           </div>
           <div>
             <dt>Speed</dt>

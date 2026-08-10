@@ -30,7 +30,15 @@ export type BanglaVoiceId =
   | 'bn-BD-NabanitaNeural'
   | 'bn-BD-PradeepNeural'
 
-export type BanglaEngine = 'neural' | 'device'
+export type GeminiVoiceId =
+  | 'Leda'
+  | 'Achernar'
+  | 'Puck'
+  | 'Kore'
+  | 'Aoede'
+  | 'Zephyr'
+
+export type BanglaEngine = 'neural' | 'gemini' | 'device'
 
 export type BanglaRepeat = 1 | 2
 
@@ -44,6 +52,7 @@ export type AppSettings = {
   muted: boolean
   speechMode: SpeechMode
   banglaVoice: BanglaVoiceId
+  geminiVoice: GeminiVoiceId
   banglaEngine: BanglaEngine
   autoAdvance: boolean
   banglaRepeat: BanglaRepeat
@@ -60,6 +69,7 @@ export const DEFAULT_SETTINGS: AppSettings = {
   muted: false,
   speechMode: 'en-bn',
   banglaVoice: 'bn-BD-PradeepNeural',
+  geminiVoice: 'Leda',
   banglaEngine: 'neural',
   autoAdvance: true,
   banglaRepeat: 2,
@@ -73,6 +83,15 @@ export const BANGLA_VOICES: { id: BanglaVoiceId; label: string }[] = [
   { id: 'bn-IN-BashkarNeural', label: 'Bashkar (clear, India)' },
   { id: 'bn-BD-NabanitaNeural', label: 'Nabanita (Bangladesh)' },
   { id: 'bn-BD-PradeepNeural', label: 'Pradeep (Bangladesh)' },
+]
+
+export const GEMINI_VOICES: { id: GeminiVoiceId; label: string }[] = [
+  { id: 'Leda', label: 'Leda (youthful)' },
+  { id: 'Achernar', label: 'Achernar (soft)' },
+  { id: 'Puck', label: 'Puck (upbeat)' },
+  { id: 'Kore', label: 'Kore (firm)' },
+  { id: 'Aoede', label: 'Aoede (breezy)' },
+  { id: 'Zephyr', label: 'Zephyr (bright)' },
 ]
 
 export const SETTINGS_PRESETS: {

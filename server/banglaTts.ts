@@ -1,16 +1,34 @@
 import { createHash, randomBytes } from 'node:crypto'
 import WebSocket from 'ws'
 
-export const ALLOWED_VOICES = new Set([
+export const ALLOWED_EDGE_VOICES = new Set([
   'bn-IN-TanishaaNeural',
   'bn-IN-BashkarNeural',
   'bn-BD-NabanitaNeural',
   'bn-BD-PradeepNeural',
 ])
 
+/** @deprecated Use ALLOWED_EDGE_VOICES */
+export const ALLOWED_VOICES = ALLOWED_EDGE_VOICES
+
+export const ALLOWED_GEMINI_VOICES = new Set([
+  'Leda',
+  'Achernar',
+  'Puck',
+  'Kore',
+  'Aoede',
+  'Zephyr',
+])
+
+export type TtsEngine = 'neural' | 'gemini'
+
 const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4'
 const CHROMIUM_FULL_VERSION = '143.0.3650.75'
 const WINDOWS_FILE_TIME_EPOCH = 11644473600n
+const GEMINI_TTS_MODEL = 'gemini-3.1-flash-tts-preview'
+const GEMINI_PCM_RATE = 24000
+const GEMINI_PCM_CHANNELS = 1
+const GEMINI_PCM_SAMPLE_WIDTH = 2
 
 function generateSecMsGecToken() {
   const ticks =
@@ -44,6 +62,37 @@ function escapeXml(unsafe: string) {
         return c
     }
   })
+}
+
+/**
+ * Wrap raw PCM (s16le) in a minimal RIFF/WAVE header for browser playback.
+ */
+export function pcmToWav(
+  pcm: Buffer,
+  sampleRate = GEMINI_PCM_RATE,
+  channels = GEMINI_PCM_CHANNELS,
+  sampleWidth = GEMINI_PCM_SAMPLE_WIDTH,
+): Buffer {
+  const blockAlign = channels * sampleWidth
+  const byteRate = sampleRate * blockAlign
+  const dataSize = pcm.length
+  const header = Buffer.alloc(44)
+
+  header.write('RIFF', 0)
+  header.writeUInt32LE(36 + dataSize, 4)
+  header.write('WAVE', 8)
+  header.write('fmt ', 12)
+  header.writeUInt32LE(16, 16)
+  header.writeUInt16LE(1, 20) // PCM
+  header.writeUInt16LE(channels, 22)
+  header.writeUInt32LE(sampleRate, 24)
+  header.writeUInt32LE(byteRate, 28)
+  header.writeUInt16LE(blockAlign, 32)
+  header.writeUInt16LE(sampleWidth * 8, 34)
+  header.write('data', 36)
+  header.writeUInt32LE(dataSize, 40)
+
+  return Buffer.concat([header, pcm])
 }
 
 /**
@@ -169,22 +218,150 @@ export async function synthesizeBangla(
   return Buffer.concat(chunks)
 }
 
+function extractGeminiAudioBase64(payload: unknown): string | null {
+  if (!payload || typeof payload !== 'object') return null
+  const root = payload as Record<string, unknown>
+
+  const outputAudio = root.output_audio ?? root.outputAudio
+  if (outputAudio && typeof outputAudio === 'object') {
+    const data = (outputAudio as Record<string, unknown>).data
+    if (typeof data === 'string' && data.length > 0) return data
+  }
+
+  // Fallback: generateContent-shaped responses if the API returns that layout.
+  const candidates = root.candidates
+  if (Array.isArray(candidates) && candidates[0]) {
+    const content = (candidates[0] as Record<string, unknown>).content as
+      | Record<string, unknown>
+      | undefined
+    const parts = content?.parts
+    if (Array.isArray(parts) && parts[0]) {
+      const inline =
+        (parts[0] as Record<string, unknown>).inlineData ??
+        (parts[0] as Record<string, unknown>).inline_data
+      if (inline && typeof inline === 'object') {
+        const data = (inline as Record<string, unknown>).data
+        if (typeof data === 'string' && data.length > 0) return data
+      }
+    }
+  }
+
+  return null
+}
+
+/**
+ * Synthesize Bangla speech via Gemini TTS (generateContent).
+ * Returns WAV bytes (PCM wrapped) for browser playback.
+ */
+export async function synthesizeGeminiBangla(
+  text: string,
+  voice: string,
+): Promise<Buffer> {
+  const apiKey = process.env.GEMINI_API_KEY?.trim()
+  if (!apiKey) {
+    const err = new Error('GEMINI_API_KEY is not configured') as Error & {
+      status?: number
+    }
+    err.status = 503
+    throw err
+  }
+
+  const prompt =
+    `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
+
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), 25000)
+
+  try {
+    const url =
+      `https://generativelanguage.googleapis.com/v1beta/models/` +
+      `${GEMINI_TTS_MODEL}:generateContent`
+
+    const res = await fetch(url, {
+      method: 'POST',
+      signal: controller.signal,
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey,
+      },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: {
+          responseModalities: ['AUDIO'],
+          speechConfig: {
+            voiceConfig: {
+              prebuiltVoiceConfig: {
+                voiceName: voice,
+              },
+            },
+          },
+        },
+      }),
+    })
+
+    const bodyText = await res.text()
+    if (!res.ok) {
+      let message = `Gemini TTS HTTP ${res.status}`
+      try {
+        const parsed = JSON.parse(bodyText) as {
+          error?: { message?: string }
+        }
+        if (parsed.error?.message) message = parsed.error.message
+      } catch {
+        if (bodyText.trim()) message = bodyText.slice(0, 200)
+      }
+      throw new Error(message)
+    }
+
+    let payload: unknown
+    try {
+      payload = JSON.parse(bodyText)
+    } catch {
+      throw new Error('Gemini TTS returned invalid JSON')
+    }
+
+    const b64 = extractGeminiAudioBase64(payload)
+    if (!b64) throw new Error('Gemini TTS returned no audio')
+
+    const pcm = Buffer.from(b64, 'base64')
+    if (pcm.length === 0) throw new Error('Gemini TTS returned empty audio')
+    return pcmToWav(pcm)
+  } finally {
+    clearTimeout(timeout)
+  }
+}
+
 export type TtsRequestParams = {
   text: string
   voice: string
   rate: number
+  engine: TtsEngine
+}
+
+export type TtsResult = {
+  audio: Buffer
+  contentType: 'audio/mpeg' | 'audio/wav'
 }
 
 export function parseTtsParams(searchParams: URLSearchParams):
   | { ok: true; value: TtsRequestParams }
   | { ok: false; status: number; error: string } {
   const text = (searchParams.get('text') ?? '').trim()
-  const voice = searchParams.get('voice') ?? 'bn-IN-TanishaaNeural'
+  const engineRaw = (searchParams.get('engine') ?? 'neural').toLowerCase()
+  const engine: TtsEngine = engineRaw === 'gemini' ? 'gemini' : 'neural'
+  const voice =
+    searchParams.get('voice') ??
+    (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural')
   const rate = Number(searchParams.get('rate') ?? '0.85')
 
   if (!text) return { ok: false, status: 400, error: 'Missing text' }
   if (text.length > 200) return { ok: false, status: 400, error: 'Text too long' }
-  if (!ALLOWED_VOICES.has(voice)) {
+
+  if (engine === 'gemini') {
+    if (!ALLOWED_GEMINI_VOICES.has(voice)) {
+      return { ok: false, status: 400, error: 'Unsupported voice' }
+    }
+  } else if (!ALLOWED_EDGE_VOICES.has(voice)) {
     return { ok: false, status: 400, error: 'Unsupported voice' }
   }
 
@@ -194,6 +371,16 @@ export function parseTtsParams(searchParams: URLSearchParams):
       text,
       voice,
       rate: Number.isFinite(rate) ? rate : 0.85,
+      engine,
     },
   }
+}
+
+export async function synthesizeTts(params: TtsRequestParams): Promise<TtsResult> {
+  if (params.engine === 'gemini') {
+    const audio = await synthesizeGeminiBangla(params.text, params.voice)
+    return { audio, contentType: 'audio/wav' }
+  }
+  const audio = await synthesizeBangla(params.text, params.voice, params.rate)
+  return { audio, contentType: 'audio/mpeg' }
 }
