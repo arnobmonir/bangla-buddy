@@ -1,0 +1,180 @@
+{
+  "categoryId": "calendar",
+  "words": [
+    {
+      "id": "calendar-april",
+      "en": "April",
+      "bn": "এপ্রিল",
+      "emoji": "☔",
+      "exampleEn": "Bengali New Year is celebrated in April.",
+      "exampleBn": "এপ্রিল মাসে বাংলা নববর্ষ পালিত হয়।"
+    },
+    {
+      "id": "calendar-august",
+      "en": "August",
+      "bn": "আগস্ট",
+      "emoji": "🏖️",
+      "exampleEn": "It often rains heavily in August.",
+      "exampleBn": "আগস্ট মাসে প্রায়ই ভারী বৃষ্টি হয়।"
+    },
+    {
+      "id": "calendar-birthday",
+      "en": "Birthday",
+      "bn": "জন্মদিন",
+      "emoji": "🎂",
+      "exampleEn": "The family cut a cake together on her birthday.",
+      "exampleBn": "তার জন্মদিনে পরিবার একসাথে কেক কাটল।"
+    },
+    {
+      "id": "calendar-december",
+      "en": "December",
+      "bn": "ডিসেম্বর",
+      "emoji": "🎄",
+      "exampleEn": "There is a winter holiday at school in December.",
+      "exampleBn": "ডিসেম্বর মাসে স্কুলে শীতকালীন ছুটি হয়।"
+    },
+    {
+      "id": "calendar-february",
+      "en": "February",
+      "bn": "ফেব্রুয়ারি",
+      "emoji": "💝",
+      "exampleEn": "Her birthday is in February.",
+      "exampleBn": "তার জন্মদিন ফেব্রুয়ারি মাসে।"
+    },
+    {
+      "id": "calendar-friday",
+      "en": "Friday",
+      "bn": "শুক্রবার",
+      "emoji": "📅",
+      "exampleEn": "Everyone goes to the mosque to pray on Friday.",
+      "exampleBn": "শুক্রবারে সবাই মসজিদে নামাজ পড়তে যায়।"
+    },
+    {
+      "id": "calendar-holiday",
+      "en": "Holiday",
+      "bn": "ছুটি",
+      "emoji": "🎉",
+      "exampleEn": "They went to visit the village during the summer holiday.",
+      "exampleBn": "গ্রীষ্মের ছুটিতে তারা গ্রামে বেড়াতে গেল।"
+    },
+    {
+      "id": "calendar-january",
+      "en": "January",
+      "bn": "জানুয়ারি",
+      "emoji": "❄️",
+      "exampleEn": "It gets very cold in January.",
+      "exampleBn": "জানুয়ারি মাসে খুব ঠান্ডা পড়ে।"
+    },
+    {
+      "id": "calendar-july",
+      "en": "July",
+      "bn": "জুলাই",
+      "emoji": "🌞",
+      "exampleEn": "There is a summer holiday at school in July.",
+      "exampleBn": "জুলাই মাসে স্কুলে গ্রীষ্মের ছুটি থাকে।"
+    },
+    {
+      "id": "calendar-june",
+      "en": "June",
+      "bn": "জুন",
+      "emoji": "☀️",
+      "exampleEn": "Rain starts in June.",
+      "exampleBn": "জুন মাসে বৃষ্টি শুরু হয়।"
+    },
+    {
+      "id": "calendar-march",
+      "en": "March",
+      "bn": "মার্চ",
+      "emoji": "🚶",
+      "exampleEn": "The weather becomes a bit warmer in March.",
+      "exampleBn": "মার্চ মাসে আবহাওয়া একটু উষ্ণ হয়ে ওঠে।"
+    },
+    {
+      "id": "calendar-may",
+      "en": "May",
+      "bn": "মে",
+      "emoji": "🌸",
+      "exampleEn": "The heat starts to increase in May.",
+      "exampleBn": "মে মাসে গরম বেশ বাড়তে শুরু করে।"
+    },
+    {
+      "id": "calendar-monday",
+      "en": "Monday",
+      "bn": "সোমবার",
+      "emoji": "📅",
+      "exampleEn": "School will reopen from Monday.",
+      "exampleBn": "সোমবার থেকে স্কুল আবার খুলবে।"
+    },
+    {
+      "id": "calendar-november",
+      "en": "November",
+      "bn": "নভেম্বর",
+      "emoji": "🍁",
+      "exampleEn": "The weather starts getting cold in November.",
+      "exampleBn": "নভেম্বর মাসে আবহাওয়া ঠান্ডা হতে শুরু করে।"
+    },
+    {
+      "id": "calendar-october",
+      "en": "October",
+      "bn": "অক্টোবর",
+      "emoji": "🎃",
+      "exampleEn": "Durga Puja is celebrated in October.",
+      "exampleBn": "অক্টোবর মাসে দুর্গাপূজা উদযাপিত হয়।"
+    },
+    {
+      "id": "calendar-saturday",
+      "en": "Saturday",
+      "bn": "শনিবার",
+      "emoji": "📅",
+      "exampleEn": "She goes shopping at the market on Saturday.",
+      "exampleBn": "শনিবারে সে বাজারে কেনাকাটা করতে যায়।"
+    },
+    {
+      "id": "calendar-september",
+      "en": "September",
+      "bn": "সেপ্টেম্বর",
+      "emoji": "🍂",
+      "exampleEn": "The new school year begins in September.",
+      "exampleBn": "সেপ্টেম্বর মাসে নতুন শিক্ষাবর্ষ শুরু হয়।"
+    },
+    {
+      "id": "calendar-sunday",
+      "en": "Sunday",
+      "bn": "রবিবার",
+      "emoji": "📅",
+      "exampleEn": "They spend time with family on Sunday.",
+      "exampleBn": "রবিবারে তারা পরিবারের সাথে সময় কাটায়।"
+    },
+    {
+      "id": "calendar-thursday",
+      "en": "Thursday",
+      "bn": "বৃহস্পতিবার",
+      "emoji": "📅",
+      "exampleEn": "They have a special class on Thursday.",
+      "exampleBn": "বৃহস্পতিবার তাদের বিশেষ ক্লাস হয়।"
+    },
+    {
+      "id": "calendar-tuesday",
+      "en": "Tuesday",
+      "bn": "মঙ্গলবার",
+      "emoji": "📅",
+      "exampleEn": "They have a math test on Tuesday.",
+      "exampleBn": "মঙ্গলবার তাদের গণিত পরীক্ষা আছে।"
+    },
+    {
+      "id": "calendar-wednesday",
+      "en": "Wednesday",
+      "bn": "বুধবার",
+      "emoji": "📅",
+      "exampleEn": "She will go to the doctor on Wednesday.",
+      "exampleBn": "বুধবার সে ডাক্তারের কাছে যাবে।"
+    },
+    {
+      "id": "calendar-weekend",
+      "en": "Weekend",
+      "bn": "সপ্তাহান্ত",
+      "exampleEn": "They go to the park on the weekend.",
+      "exampleBn": "সপ্তাহান্তে তারা পার্কে ঘুরতে যায়।"
+    }
+  ]
+}

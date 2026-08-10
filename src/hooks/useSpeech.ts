@@ -253,7 +253,8 @@ export function useSpeech() {
       await waitGap(Math.max(280, options.enBnGapMs), generation)
       if (generation !== generationRef.current) return
 
-      await speakPair(exampleEn, exampleBn, options, generation)
+      // Sentences play once; banglaRepeat only applies to the headword.
+      await speakPair(exampleEn, exampleBn, { ...options, banglaRepeat: 1 }, generation)
     },
     [speakPair, waitGap],
   )

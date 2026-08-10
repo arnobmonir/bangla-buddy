@@ -1,0 +1,197 @@
+{
+  "categoryId": "sports",
+  "words": [
+    {
+      "id": "sports-baseball",
+      "en": "Baseball",
+      "bn": "বেসবল",
+      "emoji": "⚾",
+      "exampleEn": "His brother really likes playing baseball.",
+      "exampleBn": "তার ভাই বেসবল খেলতে খুব পছন্দ করে।"
+    },
+    {
+      "id": "sports-basketball",
+      "en": "Basketball",
+      "bn": "বাস্কেটবল",
+      "emoji": "🏀",
+      "exampleEn": "He practices basketball every afternoon.",
+      "exampleBn": "সে প্রতিদিন বিকেলে বাস্কেটবল অনুশীলন করে।"
+    },
+    {
+      "id": "sports-blocks",
+      "en": "Blocks",
+      "bn": "ব্লক",
+      "emoji": "🧱",
+      "exampleEn": "The child built a house with blocks.",
+      "exampleBn": "শিশুটি ব্লক দিয়ে একটি বাড়ি বানাল।"
+    },
+    {
+      "id": "sports-board-game",
+      "en": "Board game",
+      "bn": "বোর্ড গেম",
+      "emoji": "🎲",
+      "exampleEn": "The family played a board game in the evening.",
+      "exampleBn": "পরিবারটি সন্ধ্যায় একটি বোর্ড গেম খেলল।"
+    },
+    {
+      "id": "sports-cricket",
+      "en": "Cricket",
+      "bn": "ক্রিকেট",
+      "emoji": "🏏",
+      "exampleEn": "They play cricket on the weekend.",
+      "exampleBn": "তারা সপ্তাহান্তে ক্রিকেট খেলে।"
+    },
+    {
+      "id": "sports-cycling",
+      "en": "Cycling",
+      "bn": "সাইকেল চালানো",
+      "emoji": "🚴",
+      "exampleEn": "Cycling on the road can be dangerous.",
+      "exampleBn": "রাস্তায় সাইকেল চালানো বিপজ্জনক হতে পারে।"
+    },
+    {
+      "id": "sports-hide-and-seek",
+      "en": "Hide and seek",
+      "bn": "লুকোচুরি",
+      "emoji": "🙈",
+      "exampleEn": "The children are playing hide and seek in the yard.",
+      "exampleBn": "বাচ্চারা উঠানে লুকোচুরি খেলছে।"
+    },
+    {
+      "id": "sports-hockey",
+      "en": "Hockey",
+      "bn": "হকি",
+      "emoji": "🏒",
+      "exampleEn": "There will be a hockey match at school today.",
+      "exampleBn": "স্কুলে আজ একটি হকি ম্যাচ হবে।"
+    },
+    {
+      "id": "sports-jumping",
+      "en": "Jumping",
+      "bn": "লাফানো",
+      "exampleEn": "Children enjoy jumping rope.",
+      "exampleBn": "দড়ি দিয়ে লাফানো শিশুরা পছন্দ করে।"
+    },
+    {
+      "id": "sports-kite",
+      "en": "Kite",
+      "bn": "ঘুড়ি",
+      "emoji": "🪁",
+      "exampleEn": "The boys went up to the roof and flew kites.",
+      "exampleBn": "ছেলেরা ছাদে উঠে ঘুড়ি ওড়াচ্ছিল।"
+    },
+    {
+      "id": "sports-marble",
+      "en": "Marble",
+      "bn": "মার্বেল",
+      "exampleEn": "The boys were playing marbles in the field.",
+      "exampleBn": "ছেলেরা মাঠে মার্বেল খেলছিল।"
+    },
+    {
+      "id": "sports-puzzle",
+      "en": "Puzzle",
+      "bn": "ধাঁধা",
+      "emoji": "🧩",
+      "exampleEn": "She loves solving puzzles in her free time.",
+      "exampleBn": "সে অবসর সময়ে ধাঁধা সমাধান করতে ভালোবাসে।"
+    },
+    {
+      "id": "sports-race",
+      "en": "Race",
+      "bn": "দৌড় প্রতিযোগিতা",
+      "emoji": "🏁",
+      "exampleEn": "A race was held at school today.",
+      "exampleBn": "স্কুলে আজ একটি দৌড় প্রতিযোগিতা হলো।"
+    },
+    {
+      "id": "sports-robot",
+      "en": "Robot",
+      "bn": "রোবট",
+      "exampleEn": "The boy is playing with a toy robot.",
+      "exampleBn": "ছেলেটি একটি খেলনা রোবট নিয়ে খেলছে।"
+    },
+    {
+      "id": "sports-running",
+      "en": "Running",
+      "bn": "দৌড়ানো",
+      "exampleEn": "Running in the field in the morning is good exercise.",
+      "exampleBn": "সকালে মাঠে দৌড়ানো ভালো ব্যায়াম।"
+    },
+    {
+      "id": "sports-score",
+      "en": "Score",
+      "bn": "স্কোর",
+      "exampleEn": "The score at the end of the game was two-one.",
+      "exampleBn": "খেলা শেষে স্কোর দুই-এক ছিল।"
+    },
+    {
+      "id": "sports-slide",
+      "en": "Slide",
+      "bn": "স্লাইড",
+      "emoji": "🛝",
+      "exampleEn": "The child came down the slide.",
+      "exampleBn": "শিশুটি স্লাইড থেকে নিচে নেমে এলো।"
+    },
+    {
+      "id": "sports-soccer",
+      "en": "Soccer",
+      "bn": "ফুটবল",
+      "emoji": "⚽",
+      "exampleEn": "The boys are playing soccer in the field.",
+      "exampleBn": "ছেলেরা মাঠে ফুটবল খেলছে।"
+    },
+    {
+      "id": "sports-swimming",
+      "en": "Swimming",
+      "bn": "সাঁতার",
+      "emoji": "🏊",
+      "exampleEn": "She swims every day in summer.",
+      "exampleBn": "গরমকালে সে প্রতিদিন সাঁতার কাটে।"
+    },
+    {
+      "id": "sports-swing",
+      "en": "Swing",
+      "bn": "দোলনা",
+      "emoji": "🎠",
+      "exampleEn": "The children are swinging on the swing in the park.",
+      "exampleBn": "বাচ্চারা পার্কে দোলনায় দোল খাচ্ছে।"
+    },
+    {
+      "id": "sports-tag",
+      "en": "Tag",
+      "bn": "ধরাধরি খেলা",
+      "exampleEn": "Playing tag with friends is great fun.",
+      "exampleBn": "বন্ধুদের সঙ্গে ধরাধরি খেলা খুব মজার।"
+    },
+    {
+      "id": "sports-team",
+      "en": "Team",
+      "bn": "দল",
+      "exampleEn": "Their team won the competition.",
+      "exampleBn": "তাদের দল প্রতিযোগিতায় জয়ী হলো।"
+    },
+    {
+      "id": "sports-teddy-bear",
+      "en": "Teddy bear",
+      "bn": "টেডি বিয়ার",
+      "emoji": "🧸",
+      "exampleEn": "The girl sleeps with her teddy bear.",
+      "exampleBn": "মেয়েটি তার টেডি বিয়ার নিয়ে ঘুমায়।"
+    },
+    {
+      "id": "sports-tennis",
+      "en": "Tennis",
+      "bn": "টেনিস",
+      "emoji": "🎾",
+      "exampleEn": "They go to play tennis in the morning.",
+      "exampleBn": "তারা সকালে টেনিস খেলতে যায়।"
+    },
+    {
+      "id": "sports-winner",
+      "en": "Winner",
+      "bn": "বিজয়ী",
+      "exampleEn": "The winner of the race was given a prize.",
+      "exampleBn": "দৌড় প্রতিযোগিতার বিজয়ীকে পুরস্কার দেওয়া হলো।"
+    }
+  ]
+}

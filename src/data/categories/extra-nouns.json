@@ -1,0 +1,251 @@
+{
+  "categoryId": "extra-nouns",
+  "words": [
+    {
+      "id": "extra-nouns-bottom",
+      "en": "Bottom",
+      "bn": "নিচের অংশ",
+      "exampleEn": "There were some papers at the bottom of the box.",
+      "exampleBn": "বাক্সের নিচের অংশে কিছু কাগজ ছিল।"
+    },
+    {
+      "id": "extra-nouns-center",
+      "en": "Center",
+      "bn": "কেন্দ্র",
+      "exampleEn": "The table is placed at the center of the room.",
+      "exampleBn": "টেবিলটি ঘরের কেন্দ্রে রাখা আছে।"
+    },
+    {
+      "id": "extra-nouns-color",
+      "en": "Color",
+      "bn": "রং",
+      "emoji": "🎨",
+      "exampleEn": "Her favorite color is blue.",
+      "exampleBn": "তার প্রিয় রং হলো নীল।"
+    },
+    {
+      "id": "extra-nouns-corner",
+      "en": "Corner",
+      "bn": "কোণ",
+      "emoji": "📐",
+      "exampleEn": "She placed the chair in the corner of the room.",
+      "exampleBn": "সে ঘরের কোণে চেয়ারটি রাখল।"
+    },
+    {
+      "id": "extra-nouns-doorway",
+      "en": "Doorway",
+      "bn": "প্রবেশপথ",
+      "exampleEn": "She stood in the doorway and smiled.",
+      "exampleBn": "সে দরজার প্রবেশপথে দাঁড়িয়ে হাসল।"
+    },
+    {
+      "id": "extra-nouns-dot",
+      "en": "Dot",
+      "bn": "বিন্দু",
+      "exampleEn": "She drew a small dot on the paper.",
+      "exampleBn": "সে কাগজে একটি ছোট বিন্দু আঁকল।"
+    },
+    {
+      "id": "extra-nouns-elevator",
+      "en": "Elevator",
+      "bn": "লিফট",
+      "emoji": "🛗",
+      "exampleEn": "They went up to the tenth floor by elevator.",
+      "exampleBn": "তারা লিফট দিয়ে দশ তলায় উঠল।"
+    },
+    {
+      "id": "extra-nouns-end",
+      "en": "End",
+      "bn": "শেষ",
+      "exampleEn": "They stayed until the end of the movie.",
+      "exampleBn": "তারা সিনেমার শেষ পর্যন্ত বসে থাকল।"
+    },
+    {
+      "id": "extra-nouns-fence",
+      "en": "Fence",
+      "bn": "বেড়া",
+      "emoji": "🚧",
+      "exampleEn": "There is a wooden fence around the house.",
+      "exampleBn": "বাড়ির চারপাশে একটি কাঠের বেড়া আছে।"
+    },
+    {
+      "id": "extra-nouns-gate",
+      "en": "Gate",
+      "bn": "ফটক",
+      "emoji": "🚪",
+      "exampleEn": "The garden gate is opened in the morning.",
+      "exampleBn": "বাগানের ফটক সকালে খোলা হয়।"
+    },
+    {
+      "id": "extra-nouns-idea",
+      "en": "Idea",
+      "bn": "ধারণা",
+      "exampleEn": "A new idea came to his mind.",
+      "exampleBn": "তার একটি নতুন ধারণা মাথায় এলো।"
+    },
+    {
+      "id": "extra-nouns-letterbox",
+      "en": "Letterbox",
+      "bn": "চিঠির বাক্স",
+      "exampleEn": "There is a red letterbox in front of the house.",
+      "exampleBn": "বাড়ির সামনে একটি লাল চিঠির বাক্স আছে।"
+    },
+    {
+      "id": "extra-nouns-middle",
+      "en": "Middle",
+      "bn": "মাঝখান",
+      "emoji": "🎯",
+      "exampleEn": "He was standing in the middle of the room.",
+      "exampleBn": "সে ঘরের মাঝখানে দাঁড়িয়ে ছিল।"
+    },
+    {
+      "id": "extra-nouns-noise",
+      "en": "Noise",
+      "bn": "কোলাহল",
+      "exampleEn": "Outside noise disturbs studying.",
+      "exampleBn": "বাইরের কোলাহল পড়াশোনায় বাধা দেয়।"
+    },
+    {
+      "id": "extra-nouns-part",
+      "en": "Part",
+      "bn": "অংশ",
+      "exampleEn": "This part of the story is the funniest.",
+      "exampleBn": "গল্পের এই অংশটি সবচেয়ে মজার।"
+    },
+    {
+      "id": "extra-nouns-path",
+      "en": "Path",
+      "bn": "পথরেখা",
+      "emoji": "🛤️",
+      "exampleEn": "The path is clearly visible on the map.",
+      "exampleBn": "মানচিত্রে পথরেখা স্পষ্ট দেখা যায়।"
+    },
+    {
+      "id": "extra-nouns-place",
+      "en": "Place",
+      "bn": "জায়গা",
+      "exampleEn": "This place seems very quiet.",
+      "exampleBn": "এই জায়গাটি খুব শান্ত মনে হচ্ছে।"
+    },
+    {
+      "id": "extra-nouns-plan",
+      "en": "Plan",
+      "bn": "পরিকল্পনা",
+      "emoji": "📋",
+      "exampleEn": "They made a plan for the trip.",
+      "exampleBn": "তারা ভ্রমণের জন্য একটি পরিকল্পনা করল।"
+    },
+    {
+      "id": "extra-nouns-point",
+      "en": "Point",
+      "bn": "পয়েন্ট",
+      "emoji": "👉",
+      "exampleEn": "Their team scored ten points in the game.",
+      "exampleBn": "তাদের দল খেলায় দশ পয়েন্ট পেল।"
+    },
+    {
+      "id": "extra-nouns-problem",
+      "en": "Problem",
+      "bn": "সমস্যা",
+      "emoji": "🧮",
+      "exampleEn": "She solved a difficult math problem.",
+      "exampleBn": "সে গণিতের একটি কঠিন সমস্যা সমাধান করল।"
+    },
+    {
+      "id": "extra-nouns-side",
+      "en": "Side",
+      "bn": "পাশ",
+      "emoji": "📐",
+      "exampleEn": "She was walking along the side of the road.",
+      "exampleBn": "সে রাস্তার পাশ দিয়ে হাঁটছিল।"
+    },
+    {
+      "id": "extra-nouns-size",
+      "en": "Size",
+      "bn": "আকার",
+      "emoji": "📐",
+      "exampleEn": "The size of the shoe wasn't right for him.",
+      "exampleBn": "জুতাটির আকার তার জন্য ঠিক ছিল না।"
+    },
+    {
+      "id": "extra-nouns-smell",
+      "en": "Smell",
+      "bn": "গন্ধ",
+      "emoji": "👃",
+      "exampleEn": "A delicious smell was coming from the kitchen.",
+      "exampleBn": "রান্নাঘর থেকে সুস্বাদু গন্ধ ভেসে আসছিল।"
+    },
+    {
+      "id": "extra-nouns-sound",
+      "en": "Sound",
+      "bn": "শব্দ",
+      "exampleEn": "A strange sound was heard from a distance.",
+      "exampleBn": "দূর থেকে একটি অদ্ভুত শব্দ শোনা গেল।"
+    },
+    {
+      "id": "extra-nouns-stair",
+      "en": "Stair",
+      "bn": "সিঁড়ি",
+      "exampleEn": "The child climbed up the stairs.",
+      "exampleBn": "শিশুটি সিঁড়ি বেয়ে উপরে উঠল।"
+    },
+    {
+      "id": "extra-nouns-step",
+      "en": "Step",
+      "bn": "ধাপ",
+      "exampleEn": "She climbed each step of the stairs carefully.",
+      "exampleBn": "সিঁড়ির প্রতিটি ধাপ সে সাবধানে উঠল।"
+    },
+    {
+      "id": "extra-nouns-taste",
+      "en": "Taste",
+      "bn": "স্বাদ",
+      "emoji": "👅",
+      "exampleEn": "The curry had a very good taste.",
+      "exampleBn": "তরকারিটির স্বাদ খুব ভালো ছিল।"
+    },
+    {
+      "id": "extra-nouns-thing",
+      "en": "Thing",
+      "bn": "জিনিস",
+      "exampleEn": "She saw a strange thing on the table.",
+      "exampleBn": "সে টেবিলে একটি অদ্ভুত জিনিস দেখল।"
+    },
+    {
+      "id": "extra-nouns-time",
+      "en": "Time",
+      "bn": "সময়",
+      "exampleEn": "He doesn't have much time.",
+      "exampleBn": "তার হাতে বেশি সময় নেই।"
+    },
+    {
+      "id": "extra-nouns-top",
+      "en": "Top",
+      "bn": "উপরের অংশ",
+      "exampleEn": "The book is placed on the top of the shelf.",
+      "exampleBn": "বইটি তাকের উপরের অংশে রাখা আছে।"
+    },
+    {
+      "id": "extra-nouns-touch",
+      "en": "Touch",
+      "bn": "স্পর্শ",
+      "emoji": "👆",
+      "exampleEn": "The child calmed down at the mother's touch.",
+      "exampleBn": "মায়ের স্পর্শে শিশুটি শান্ত হলো।"
+    },
+    {
+      "id": "extra-nouns-way",
+      "en": "Way",
+      "bn": "পথ",
+      "exampleEn": "He couldn't find the right way.",
+      "exampleBn": "সে সঠিক পথ খুঁজে পেল না।"
+    },
+    {
+      "id": "extra-nouns-work",
+      "en": "Work",
+      "bn": "কাজ",
+      "exampleEn": "He finished his work at the office.",
+      "exampleBn": "সে অফিসে তার কাজ শেষ করল।"
+    }
+  ]
+}

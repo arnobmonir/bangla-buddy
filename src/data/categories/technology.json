@@ -1,0 +1,219 @@
+{
+  "categoryId": "technology",
+  "words": [
+    {
+      "id": "technology-air-conditioner",
+      "en": "Air conditioner",
+      "bn": "এয়ার কন্ডিশনার",
+      "emoji": "❄️",
+      "exampleEn": "The air conditioner was turned on in the room because of the heat.",
+      "exampleBn": "গরমে ঘরে এয়ার কন্ডিশনার চালানো হলো।"
+    },
+    {
+      "id": "technology-bin",
+      "en": "Bin",
+      "bn": "ঝুড়ি",
+      "emoji": "🗑️",
+      "exampleEn": "She threw the paper into the bin.",
+      "exampleBn": "কাগজটি সে ঝুড়িতে ফেলে দিল।"
+    },
+    {
+      "id": "technology-broom",
+      "en": "Broom",
+      "bn": "ঝাড়ু",
+      "emoji": "🧹",
+      "exampleEn": "She swept the yard with a broom.",
+      "exampleBn": "সে ঝাড়ু দিয়ে উঠান পরিষ্কার করল।"
+    },
+    {
+      "id": "technology-calendar",
+      "en": "Calendar",
+      "bn": "ক্যালেন্ডার",
+      "emoji": "📅",
+      "exampleEn": "She checked the date on the wall calendar.",
+      "exampleBn": "সে দেয়ালের ক্যালেন্ডারে তারিখটি দেখল।"
+    },
+    {
+      "id": "technology-call",
+      "en": "Call",
+      "bn": "কল",
+      "emoji": "📞",
+      "exampleEn": "She made a call to her mother.",
+      "exampleBn": "সে মাকে একটি কল করল।"
+    },
+    {
+      "id": "technology-camera",
+      "en": "Camera",
+      "bn": "ক্যামেরা",
+      "emoji": "📷",
+      "exampleEn": "He took a camera on the trip.",
+      "exampleBn": "সে ভ্রমণে একটি ক্যামেরা নিয়ে গেল।"
+    },
+    {
+      "id": "technology-dryer",
+      "en": "Dryer",
+      "bn": "ড্রায়ার",
+      "emoji": "👕",
+      "exampleEn": "The wet clothes were dried in the dryer.",
+      "exampleBn": "ভেজা কাপড়গুলো ড্রায়ারে শুকানো হলো।"
+    },
+    {
+      "id": "technology-email",
+      "en": "Email",
+      "bn": "ইমেইল",
+      "emoji": "📧",
+      "exampleEn": "She sent an urgent email to her boss.",
+      "exampleBn": "সে বসকে একটি জরুরি ইমেইল পাঠাল।"
+    },
+    {
+      "id": "technology-envelope",
+      "en": "Envelope",
+      "bn": "খাম",
+      "emoji": "✉️",
+      "exampleEn": "She put the letter into an envelope.",
+      "exampleBn": "সে চিঠিটি একটি খামে ভরল।"
+    },
+    {
+      "id": "technology-fan",
+      "en": "Fan",
+      "bn": "পাখা",
+      "emoji": "🌀",
+      "exampleEn": "The fan runs all day on hot days.",
+      "exampleBn": "গরমের দিনে পাখাটি সারাদিন চলে।"
+    },
+    {
+      "id": "technology-heater",
+      "en": "Heater",
+      "bn": "হিটার",
+      "emoji": "🔥",
+      "exampleEn": "The heater was turned on in the room on a cold night.",
+      "exampleBn": "শীতের রাতে ঘরে হিটার চালানো হলো।"
+    },
+    {
+      "id": "technology-internet",
+      "en": "Internet",
+      "bn": "ইন্টারনেট",
+      "emoji": "🌐",
+      "exampleEn": "The internet went down because of the storm.",
+      "exampleBn": "ঝড়ের কারণে ইন্টারনেট বন্ধ হয়ে গেল।"
+    },
+    {
+      "id": "technology-keyboard",
+      "en": "Keyboard",
+      "bn": "কিবোর্ড",
+      "emoji": "⌨️",
+      "exampleEn": "One key on the keyboard is not working.",
+      "exampleBn": "কিবোর্ডের একটি বোতাম কাজ করছে না।"
+    },
+    {
+      "id": "technology-laundry",
+      "en": "Laundry",
+      "bn": "কাপড় ধোয়া",
+      "exampleEn": "She does the laundry on the weekend.",
+      "exampleBn": "সে সপ্তাহান্তে কাপড় ধোয়ার কাজ করে।"
+    },
+    {
+      "id": "technology-message",
+      "en": "Message",
+      "bn": "বার্তা",
+      "exampleEn": "She sent a message to her friend.",
+      "exampleBn": "সে বন্ধুকে একটি বার্তা পাঠাল।"
+    },
+    {
+      "id": "technology-mop",
+      "en": "Mop",
+      "bn": "মপ",
+      "emoji": "🧹",
+      "exampleEn": "She cleaned the floor with a mop.",
+      "exampleBn": "সে মপ দিয়ে মেঝে পরিষ্কার করল।"
+    },
+    {
+      "id": "technology-napkin",
+      "en": "Napkin",
+      "bn": "ন্যাপকিন",
+      "exampleEn": "She wiped her mouth with a napkin after eating.",
+      "exampleBn": "খাওয়ার পর সে ন্যাপকিন দিয়ে মুখ মুছল।"
+    },
+    {
+      "id": "technology-password",
+      "en": "Password",
+      "bn": "পাসওয়ার্ড",
+      "exampleEn": "She has forgotten her email password.",
+      "exampleBn": "সে তার ইমেইলের পাসওয়ার্ড ভুলে গেছে।"
+    },
+    {
+      "id": "technology-photo",
+      "en": "Photo",
+      "bn": "ছবি",
+      "exampleEn": "They took some photos at the beach.",
+      "exampleBn": "তারা সমুদ্র সৈকতে কিছু ছবি তুলল।"
+    },
+    {
+      "id": "technology-printer",
+      "en": "Printer",
+      "bn": "প্রিন্টার",
+      "emoji": "🖨️",
+      "exampleEn": "He printed the paper using the printer at the office.",
+      "exampleBn": "সে অফিসে প্রিন্টার দিয়ে কাগজ প্রিন্ট করল।"
+    },
+    {
+      "id": "technology-screen",
+      "en": "Screen",
+      "bn": "পর্দা",
+      "exampleEn": "There is a white screen in front of the window.",
+      "exampleBn": "জানালার সামনে একটি সাদা পর্দা আছে।"
+    },
+    {
+      "id": "technology-stamp",
+      "en": "Stamp",
+      "bn": "ডাকটিকিট",
+      "emoji": "📮",
+      "exampleEn": "A stamp was placed on the envelope.",
+      "exampleBn": "খামের উপর একটি ডাকটিকিট লাগানো হলো।"
+    },
+    {
+      "id": "technology-switch",
+      "en": "Switch",
+      "bn": "সুইচ",
+      "emoji": "💡",
+      "exampleEn": "She turned on the light switch as she entered the room.",
+      "exampleBn": "সে ঘরে ঢুকে বাতির সুইচ অন করল।"
+    },
+    {
+      "id": "technology-tissue",
+      "en": "Tissue",
+      "bn": "টিস্যু",
+      "exampleEn": "He took a tissue to wipe his nose.",
+      "exampleBn": "সে নাক মুছতে একটি টিস্যু নিল।"
+    },
+    {
+      "id": "technology-trash",
+      "en": "Trash",
+      "bn": "আবর্জনা",
+      "exampleEn": "He threw the trash outside.",
+      "exampleBn": "সে আবর্জনা বাইরে ফেলে দিল।"
+    },
+    {
+      "id": "technology-vacuum",
+      "en": "Vacuum",
+      "bn": "ভ্যাকুয়াম",
+      "exampleEn": "She vacuums the room once a week.",
+      "exampleBn": "সে সপ্তাহে একবার ঘর ভ্যাকুয়াম করে।"
+    },
+    {
+      "id": "technology-video",
+      "en": "Video",
+      "bn": "ভিডিও",
+      "exampleEn": "She watched a funny video on her phone.",
+      "exampleBn": "সে ফোনে একটি মজার ভিডিও দেখল।"
+    },
+    {
+      "id": "technology-washing-machine",
+      "en": "Washing machine",
+      "bn": "ওয়াশিং মেশিন",
+      "emoji": "🧺",
+      "exampleEn": "Mother put the clothes in the washing machine.",
+      "exampleBn": "মা ওয়াশিং মেশিনে কাপড় দিলেন।"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "categoryId": "school",
+  "words": [
+    {
+      "id": "school-answer",
+      "en": "Answer",
+      "bn": "উত্তর",
+      "emoji": "💬",
+      "exampleEn": "He gave the correct answer to the question.",
+      "exampleBn": "সে প্রশ্নের সঠিক উত্তর দিল।"
+    },
+    {
+      "id": "school-art",
+      "en": "Art",
+      "bn": "ছবি",
+      "exampleEn": "She drew a picture in art class.",
+      "exampleBn": "শিল্পকলা ক্লাসে সে একটি ছবি আঁকল।"
+    },
+    {
+      "id": "school-backpack",
+      "en": "Backpack",
+      "bn": "ব্যাকপ্যাক",
+      "emoji": "🎒",
+      "exampleEn": "She packed her backpack before going to school.",
+      "exampleBn": "সে স্কুলে যাওয়ার আগে ব্যাকপ্যাক গুছিয়ে নিল।"
+    },
+    {
+      "id": "school-bell",
+      "en": "Bell",
+      "bn": "ঘণ্টা",
+      "exampleEn": "As soon as the school bell rang, everyone entered the class.",
+      "exampleBn": "স্কুলের ঘণ্টা বাজতেই সবাই ক্লাসে ঢুকল।"
+    },
+    {
+      "id": "school-board",
+      "en": "Board",
+      "bn": "বোর্ড",
+      "emoji": "📋",
+      "exampleEn": "The teacher wrote the math problem on the board.",
+      "exampleBn": "শিক্ষক বোর্ডে অঙ্কটি লিখলেন।"
+    },
+    {
+      "id": "school-book",
+      "en": "Book",
+      "bn": "বই",
+      "emoji": "📖",
+      "exampleEn": "She placed her book on the table.",
+      "exampleBn": "সে টেবিলে তার বই রেখে দিল।"
+    },
+    {
+      "id": "school-chalk",
+      "en": "Chalk",
+      "bn": "চক",
+      "emoji": "✏️",
+      "exampleEn": "The teacher wrote on the board with chalk.",
+      "exampleBn": "শিক্ষক চক দিয়ে বোর্ডে লিখলেন।"
+    },
+    {
+      "id": "school-circle",
+      "en": "Circle",
+      "bn": "বৃত্ত",
+      "emoji": "⭕",
+      "exampleEn": "The teacher drew a circle on the board.",
+      "exampleBn": "শিক্ষক বোর্ডে একটি বৃত্ত আঁকলেন।"
+    },
+    {
+      "id": "school-class",
+      "en": "Class",
+      "bn": "ক্লাসে",
+      "emoji": "🏫",
+      "exampleEn": "Many students were present in class today.",
+      "exampleBn": "আজ ক্লাসে অনেক ছাত্রছাত্রী উপস্থিত ছিল।"
+    },
+    {
+      "id": "school-classroom",
+      "en": "Classroom",
+      "bn": "শ্রেণিকক্ষ",
+      "exampleEn": "The teacher is teaching a lesson in the classroom.",
+      "exampleBn": "শিক্ষক শ্রেণিকক্ষে পাঠ দিচ্ছেন।"
+    },
+    {
+      "id": "school-crayon",
+      "en": "Crayon",
+      "bn": "ক্রেয়ন",
+      "emoji": "🖍️",
+      "exampleEn": "The child drew a colorful picture with crayons.",
+      "exampleBn": "শিশুটি ক্রেয়ন দিয়ে রঙিন ছবি আঁকল।"
+    },
+    {
+      "id": "school-eraser",
+      "en": "Eraser",
+      "bn": "রাবার",
+      "emoji": "🧽",
+      "exampleEn": "The wrong writing was erased with an eraser.",
+      "exampleBn": "ভুল লেখাটি রাবার দিয়ে মুছে ফেলা হলো।"
+    },
+    {
+      "id": "school-glue",
+      "en": "Glue",
+      "bn": "আঠা",
+      "emoji": "🧴",
+      "exampleEn": "She used glue to stick the papers together.",
+      "exampleBn": "সে কাগজ জোড়া লাগাতে আঠা ব্যবহার করল।"
+    },
+    {
+      "id": "school-grade",
+      "en": "Grade",
+      "bn": "গ্রেড",
+      "exampleEn": "She got a good grade in this exam.",
+      "exampleBn": "সে এই পরীক্ষায় ভালো গ্রেড পেয়েছে।"
+    },
+    {
+      "id": "school-homework",
+      "en": "Homework",
+      "bn": "বাড়ির কাজ",
+      "emoji": "📝",
+      "exampleEn": "She finished her homework sitting at night.",
+      "exampleBn": "সে রাতে বসে বাড়ির কাজ শেষ করল।"
+    },
+    {
+      "id": "school-lesson",
+      "en": "Lesson",
+      "bn": "পাঠ",
+      "exampleEn": "Today's lesson was very interesting.",
+      "exampleBn": "আজকের পাঠটি খুব আকর্ষণীয় ছিল।"
+    },
+    {
+      "id": "school-letter",
+      "en": "Letter",
+      "bn": "চিঠি",
+      "exampleEn": "She wrote a letter to her grandfather.",
+      "exampleBn": "সে দাদার কাছে একটি চিঠি লিখল।"
+    },
+    {
+      "id": "school-library",
+      "en": "Library",
+      "bn": "গ্রন্থাগার",
+      "emoji": "📚",
+      "exampleEn": "He goes to the library to read books every Friday.",
+      "exampleBn": "সে প্রতি শুক্রবার গ্রন্থাগারে বই পড়তে যায়।"
+    },
+    {
+      "id": "school-line",
+      "en": "Line",
+      "bn": "রেখা",
+      "emoji": "➖",
+      "exampleEn": "She drew a straight line in the notebook.",
+      "exampleBn": "সে খাতায় একটি সোজা রেখা টানল।"
+    },
+    {
+      "id": "school-lunchbox",
+      "en": "Lunchbox",
+      "bn": "টিফিন বক্স",
+      "exampleEn": "Mother put food in his lunchbox.",
+      "exampleBn": "মা তার টিফিন বক্সে খাবার দিলেন।"
+    },
+    {
+      "id": "school-map",
+      "en": "Map",
+      "bn": "মানচিত্র",
+      "emoji": "🗺️",
+      "exampleEn": "The teacher showed a world map in class.",
+      "exampleBn": "শিক্ষক ক্লাসে বিশ্বের মানচিত্র দেখালেন।"
+    },
+    {
+      "id": "school-marker",
+      "en": "Marker",
+      "bn": "মার্কার",
+      "emoji": "🖊️",
+      "exampleEn": "He wrote on the board with a marker.",
+      "exampleBn": "সে বোর্ডে মার্কার দিয়ে লিখল।"
+    },
+    {
+      "id": "school-math",
+      "en": "Math",
+      "bn": "গণিত",
+      "exampleEn": "She really likes the subject of math.",
+      "exampleBn": "তার গণিত বিষয়টি খুব পছন্দ।"
+    },
+    {
+      "id": "school-music",
+      "en": "Music",
+      "bn": "গান",
+      "emoji": "🎵",
+      "exampleEn": "She is learning to sing in music class.",
+      "exampleBn": "সে সঙ্গীত ক্লাসে গান শিখছে।"
+    },
+    {
+      "id": "school-notebook",
+      "en": "Notebook",
+      "bn": "খাতা",
+      "emoji": "📓",
+      "exampleEn": "He wrote notes in his notebook.",
+      "exampleBn": "সে খাতায় নোট লিখে রাখল।"
+    },
+    {
+      "id": "school-number",
+      "en": "Number",
+      "bn": "সংখ্যা",
+      "emoji": "#️⃣",
+      "exampleEn": "The little child is now learning to recognize numbers.",
+      "exampleBn": "ছোট বাচ্চাটি এখন সংখ্যা চিনতে শিখছে।"
+    },
+    {
+      "id": "school-page",
+      "en": "Page",
+      "bn": "পাতা",
+      "exampleEn": "This page of the book is torn.",
+      "exampleBn": "বইয়ের এই পাতাটি ছিঁড়ে গেছে।"
+    },
+    {
+      "id": "school-paper",
+      "en": "Paper",
+      "bn": "কাগজ",
+      "emoji": "📄",
+      "exampleEn": "She drew a picture on a white paper.",
+      "exampleBn": "সে একটি সাদা কাগজে ছবি আঁকল।"
+    },
+    {
+      "id": "school-pen",
+      "en": "Pen",
+      "bn": "কলম",
+      "emoji": "🖊️",
+      "exampleEn": "His pen suddenly ran out of ink.",
+      "exampleBn": "তার কলমটি হঠাৎ কালি শেষ হয়ে গেল।"
+    },
+    {
+      "id": "school-pencil",
+      "en": "Pencil",
+      "bn": "পেনসিল",
+      "emoji": "✏️",
+      "exampleEn": "She is drawing a picture with a pencil.",
+      "exampleBn": "সে পেনসিল দিয়ে ছবি আঁকছে।"
+    },
+    {
+      "id": "school-picture",
+      "en": "Picture",
+      "bn": "ছবি",
+      "exampleEn": "She hung a beautiful picture on the wall.",
+      "exampleBn": "সে দেয়ালে একটি সুন্দর ছবি টাঙাল।"
+    },
+    {
+      "id": "school-playground",
+      "en": "Playground",
+      "bn": "খেলার মাঠ",
+      "emoji": "🏃",
+      "exampleEn": "Children go to the playground during break.",
+      "exampleBn": "বিরতির সময় বাচ্চারা খেলার মাঠে যায়।"
+    },
+    {
+      "id": "school-question",
+      "en": "Question",
+      "bn": "প্রশ্ন",
+      "emoji": "❓",
+      "exampleEn": "The teacher asked the students a difficult question.",
+      "exampleBn": "শিক্ষক ছাত্রদের একটি কঠিন প্রশ্ন করলেন।"
+    },
+    {
+      "id": "school-recess",
+      "en": "Recess",
+      "bn": "বিরতি",
+      "exampleEn": "Children play in the field during recess.",
+      "exampleBn": "বিরতির সময় বাচ্চারা মাঠে খেলে।"
+    },
+    {
+      "id": "school-rectangle",
+      "en": "Rectangle",
+      "bn": "আয়তক্ষেত্র",
+      "emoji": "▭",
+      "exampleEn": "She drew a rectangle on the board.",
+      "exampleBn": "সে বোর্ডে একটি আয়তক্ষেত্র আঁকল।"
+    },
+    {
+      "id": "school-rule",
+      "en": "Rule",
+      "bn": "নিয়ম",
+      "exampleEn": "Everyone has to follow the school rules.",
+      "exampleBn": "স্কুলের নিয়ম সবাইকে মানতে হয়।"
+    },
+    {
+      "id": "school-ruler",
+      "en": "Ruler",
+      "bn": "স্কেল",
+      "emoji": "📏",
+      "exampleEn": "He drew a straight line with a ruler.",
+      "exampleBn": "সে স্কেল দিয়ে সরল রেখা টানল।"
+    },
+    {
+      "id": "school-school",
+      "en": "School",
+      "bn": "বিদ্যালয়",
+      "emoji": "🏫",
+      "exampleEn": "She goes to school every morning.",
+      "exampleBn": "সে প্রতিদিন সকালে বিদ্যালয়ে যায়।"
+    },
+    {
+      "id": "school-science",
+      "en": "Science",
+      "bn": "বিজ্ঞান",
+      "exampleEn": "They did an experiment in science class.",
+      "exampleBn": "বিজ্ঞান ক্লাসে তারা একটি পরীক্ষা করল।"
+    },
+    {
+      "id": "school-scissors",
+      "en": "Scissors",
+      "bn": "কাঁচি",
+      "emoji": "✂️",
+      "exampleEn": "He cut the paper with scissors.",
+      "exampleBn": "সে কাঁচি দিয়ে কাগজ কাটল।"
+    },
+    {
+      "id": "school-sentence",
+      "en": "Sentence",
+      "bn": "বাক্য",
+      "exampleEn": "The teacher asked to write a simple sentence.",
+      "exampleBn": "শিক্ষক একটি সহজ বাক্য লিখতে বললেন।"
+    },
+    {
+      "id": "school-shape",
+      "en": "Shape",
+      "bn": "আকৃতি",
+      "exampleEn": "The teacher taught different shapes.",
+      "exampleBn": "শিক্ষক বিভিন্ন আকৃতি চেনালেন।"
+    },
+    {
+      "id": "school-square",
+      "en": "Square",
+      "bn": "বর্গক্ষেত্র",
+      "emoji": "⬜",
+      "exampleEn": "He drew a square on the paper.",
+      "exampleBn": "সে কাগজে একটি বর্গক্ষেত্র আঁকল।"
+    },
+    {
+      "id": "school-star",
+      "en": "Star",
+      "bn": "তারা",
+      "emoji": "⭐",
+      "exampleEn": "The child drew a star in the notebook.",
+      "exampleBn": "শিশুটি খাতায় একটি তারা আঁকল।"
+    },
+    {
+      "id": "school-story",
+      "en": "Story",
+      "bn": "গল্প",
+      "exampleEn": "Grandmother tells a story every night.",
+      "exampleBn": "দাদি প্রতি রাতে একটি গল্প শোনান।"
+    },
+    {
+      "id": "school-test",
+      "en": "Test",
+      "bn": "পরীক্ষা",
+      "emoji": "📝",
+      "exampleEn": "They have a math test tomorrow.",
+      "exampleBn": "আগামীকাল তাদের গণিত পরীক্ষা আছে।"
+    },
+    {
+      "id": "school-triangle",
+      "en": "Triangle",
+      "bn": "ত্রিভুজ",
+      "emoji": "🔺",
+      "exampleEn": "The teacher explained the angles of a triangle.",
+      "exampleBn": "শিক্ষক ত্রিভুজের কোণ ব্যাখ্যা করলেন।"
+    },
+    {
+      "id": "school-uniform",
+      "en": "Uniform",
+      "bn": "ইউনিফর্ম",
+      "emoji": "👔",
+      "exampleEn": "All students come to school wearing the same uniform.",
+      "exampleBn": "সব ছাত্রছাত্রী একই ইউনিফর্ম পরে স্কুলে আসে।"
+    },
+    {
+      "id": "school-word",
+      "en": "Word",
+      "bn": "শব্দ",
+      "exampleEn": "He learned a new word.",
+      "exampleBn": "সে নতুন একটি শব্দ শিখল।"
+    }
+  ]
+}

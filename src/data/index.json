@@ -1,12 +1,30 @@
 [
   {
+    "id": "actions",
+    "nameEn": "Actions",
+    "nameBn": "ক্রিয়া",
+    "color": "#118ab2",
+    "icon": "🏃",
+    "wordCount": 72,
+    "file": "actions.json"
+  },
+  {
     "id": "animals",
     "nameEn": "Animals",
     "nameBn": "প্রাণী",
     "color": "#3db88a",
     "icon": "🐾",
-    "wordCount": 249,
+    "wordCount": 60,
     "file": "animals.json"
+  },
+  {
+    "id": "food",
+    "nameEn": "Food and Drink",
+    "nameBn": "খাবার",
+    "color": "#e07a2f",
+    "icon": "🍎",
+    "wordCount": 71,
+    "file": "food.json"
   },
   {
     "id": "colors",
@@ -14,62 +32,35 @@
     "nameBn": "রং",
     "color": "#e85d4c",
     "icon": "🎨",
-    "wordCount": 64,
+    "wordCount": 15,
     "file": "colors.json"
   },
   {
     "id": "family",
-    "nameEn": "Family",
+    "nameEn": "Family and People",
     "nameBn": "পরিবার",
     "color": "#f0a202",
     "icon": "👨‍👩‍👧",
-    "wordCount": 140,
+    "wordCount": 40,
     "file": "family.json"
   },
   {
-    "id": "food",
-    "nameEn": "Food",
-    "nameBn": "খাবার",
-    "color": "#e07a2f",
-    "icon": "🍎",
-    "wordCount": 157,
-    "file": "food.json"
-  },
-  {
-    "id": "body",
-    "nameEn": "Body",
-    "nameBn": "শরীর",
-    "color": "#5b8def",
-    "icon": "🧍",
-    "wordCount": 141,
-    "file": "body.json"
-  },
-  {
-    "id": "mathematics",
-    "nameEn": "Mathematics",
-    "nameBn": "গণিত",
-    "color": "#7c6cf0",
-    "icon": "🧮",
-    "wordCount": 283,
-    "file": "mathematics.json"
+    "id": "feelings",
+    "nameEn": "Feelings and Manners",
+    "nameBn": "অনুভূতি",
+    "color": "#e63946",
+    "icon": "😊",
+    "wordCount": 25,
+    "file": "feelings.json"
   },
   {
     "id": "nature",
-    "nameEn": "Nature",
+    "nameEn": "Nature and Weather",
     "nameBn": "প্রকৃতি",
     "color": "#2f9e6b",
     "icon": "🌿",
-    "wordCount": 222,
+    "wordCount": 55,
     "file": "nature.json"
-  },
-  {
-    "id": "home",
-    "nameEn": "Home",
-    "nameBn": "বাড়ি",
-    "color": "#d46b9c",
-    "icon": "🏠",
-    "wordCount": 219,
-    "file": "home.json"
   },
   {
     "id": "clothes",
@@ -77,8 +68,26 @@
     "nameBn": "পোশাক",
     "color": "#2a9d8f",
     "icon": "👕",
-    "wordCount": 173,
+    "wordCount": 30,
     "file": "clothes.json"
+  },
+  {
+    "id": "home",
+    "nameEn": "Home",
+    "nameBn": "বাড়ি",
+    "color": "#d46b9c",
+    "icon": "🏠",
+    "wordCount": 61,
+    "file": "home.json"
+  },
+  {
+    "id": "body",
+    "nameEn": "Body",
+    "nameBn": "শরীর",
+    "color": "#5b8def",
+    "icon": "🧍",
+    "wordCount": 40,
+    "file": "body.json"
   },
   {
     "id": "transport",
@@ -86,25 +95,142 @@
     "nameBn": "যানবাহন",
     "color": "#457b9d",
     "icon": "🚗",
-    "wordCount": 182,
+    "wordCount": 30,
     "file": "transport.json"
   },
   {
-    "id": "feelings",
-    "nameEn": "Feelings",
-    "nameBn": "অনুভূতি",
-    "color": "#e63946",
-    "icon": "😊",
-    "wordCount": 158,
-    "file": "feelings.json"
+    "id": "numbers",
+    "nameEn": "Numbers",
+    "nameBn": "সংখ্যা",
+    "color": "#7c6cf0",
+    "icon": "🔢",
+    "wordCount": 33,
+    "file": "numbers.json"
   },
   {
-    "id": "actions",
-    "nameEn": "Actions",
-    "nameBn": "ক্রিয়া",
-    "color": "#118ab2",
-    "icon": "🏃",
-    "wordCount": 245,
-    "file": "actions.json"
+    "id": "school",
+    "nameEn": "School",
+    "nameBn": "স্কুল",
+    "color": "#264653",
+    "icon": "📚",
+    "wordCount": 49,
+    "file": "school.json"
+  },
+  {
+    "id": "places",
+    "nameEn": "Places",
+    "nameBn": "স্থান",
+    "color": "#6a994e",
+    "icon": "📍",
+    "wordCount": 30,
+    "file": "places.json"
+  },
+  {
+    "id": "sports",
+    "nameEn": "Sports and Play",
+    "nameBn": "খেলা",
+    "color": "#f77f00",
+    "icon": "⚽",
+    "wordCount": 25,
+    "file": "sports.json"
+  },
+  {
+    "id": "health",
+    "nameEn": "Health and Safety",
+    "nameBn": "স্বাস্থ্য",
+    "color": "#e76f51",
+    "icon": "🩺",
+    "wordCount": 17,
+    "file": "health.json"
+  },
+  {
+    "id": "technology",
+    "nameEn": "Technology",
+    "nameBn": "প্রযুক্তি",
+    "color": "#4a5568",
+    "icon": "📱",
+    "wordCount": 28,
+    "file": "technology.json"
+  },
+  {
+    "id": "arts",
+    "nameEn": "Music and Art",
+    "nameBn": "শিল্প",
+    "color": "#9b5de5",
+    "icon": "🎨",
+    "wordCount": 19,
+    "file": "arts.json"
+  },
+  {
+    "id": "calendar",
+    "nameEn": "Month and Day",
+    "nameBn": "দিন মাস",
+    "color": "#00bbf9",
+    "icon": "📅",
+    "wordCount": 22,
+    "file": "calendar.json"
+  },
+  {
+    "id": "grammar",
+    "nameEn": "Grammar",
+    "nameBn": "ব্যাকরণ",
+    "color": "#8338ec",
+    "icon": "🔤",
+    "wordCount": 26,
+    "file": "grammar.json"
+  },
+  {
+    "id": "adjectives",
+    "nameEn": "Adjectives",
+    "nameBn": "বিশেষণ",
+    "color": "#fb5607",
+    "icon": "✨",
+    "wordCount": 47,
+    "file": "adjectives.json"
+  },
+  {
+    "id": "positions",
+    "nameEn": "Positions",
+    "nameBn": "অবস্থান",
+    "color": "#3a86ff",
+    "icon": "🧭",
+    "wordCount": 29,
+    "file": "positions.json"
+  },
+  {
+    "id": "community",
+    "nameEn": "Community",
+    "nameBn": "সমাজ",
+    "color": "#2ec4b6",
+    "icon": "🌍",
+    "wordCount": 18,
+    "file": "community.json"
+  },
+  {
+    "id": "common",
+    "nameEn": "Common Words",
+    "nameBn": "সাধারণ শব্দ",
+    "color": "#8d99ae",
+    "icon": "💬",
+    "wordCount": 30,
+    "file": "common.json"
+  },
+  {
+    "id": "practical",
+    "nameEn": "Practical Words",
+    "nameBn": "প্রায়োগিক শব্দ",
+    "color": "#6d597a",
+    "icon": "🧰",
+    "wordCount": 95,
+    "file": "practical.json"
+  },
+  {
+    "id": "extra-nouns",
+    "nameEn": "Extra Nouns",
+    "nameBn": "অতিরিক্ত বিশেষ্য",
+    "color": "#b56576",
+    "icon": "📦",
+    "wordCount": 33,
+    "file": "extra-nouns.json"
   }
 ]

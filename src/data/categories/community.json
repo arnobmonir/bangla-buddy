@@ -1,0 +1,141 @@
+{
+  "categoryId": "community",
+  "words": [
+    {
+      "id": "community-age",
+      "en": "Age",
+      "bn": "বয়স",
+      "emoji": "🎂",
+      "exampleEn": "Her age was written on the form.",
+      "exampleBn": "ফর্মে তার বয়স লেখা হলো।"
+    },
+    {
+      "id": "community-bangla",
+      "en": "Bangla",
+      "bn": "বাংলা",
+      "emoji": "🇧🇩",
+      "exampleEn": "Bangla is her mother tongue.",
+      "exampleBn": "বাংলা তার মাতৃভাষা।"
+    },
+    {
+      "id": "community-bangladesh",
+      "en": "Bangladesh",
+      "bn": "বাংলাদেশ",
+      "emoji": "🇧🇩",
+      "exampleEn": "She visits her grandmother in Bangladesh every year.",
+      "exampleBn": "সে প্রতি বছর বাংলাদেশে দাদির সাথে দেখা করতে যায়।"
+    },
+    {
+      "id": "community-canada",
+      "en": "Canada",
+      "bn": "কানাডা",
+      "emoji": "🇨🇦",
+      "exampleEn": "Her uncle lives in Canada.",
+      "exampleBn": "তার চাচা কানাডায় থাকেন।"
+    },
+    {
+      "id": "community-coin",
+      "en": "Coin",
+      "bn": "মুদ্রা",
+      "emoji": "🪙",
+      "exampleEn": "The child found a coin on the ground.",
+      "exampleBn": "শিশুটি একটি মুদ্রা কুড়িয়ে পেল।"
+    },
+    {
+      "id": "community-dollar",
+      "en": "Dollar",
+      "bn": "ডলার",
+      "emoji": "💵",
+      "exampleEn": "He brought some dollars from abroad.",
+      "exampleBn": "সে বিদেশ থেকে কিছু ডলার নিয়ে এলো।"
+    },
+    {
+      "id": "community-eid",
+      "en": "Eid",
+      "bn": "ঈদ",
+      "emoji": "🌙",
+      "exampleEn": "The family eats together on the day of Eid.",
+      "exampleBn": "ঈদের দিনে পরিবার একসাথে খাবার খায়।"
+    },
+    {
+      "id": "community-english",
+      "en": "English",
+      "bn": "ইংরেজি",
+      "emoji": "🔤",
+      "exampleEn": "She tries to read an English book every day.",
+      "exampleBn": "সে প্রতিদিন ইংরেজি বই পড়ার চেষ্টা করে।"
+    },
+    {
+      "id": "community-festival",
+      "en": "Festival",
+      "bn": "উৎসব",
+      "exampleEn": "A big festival is held every year in the village.",
+      "exampleBn": "গ্রামে প্রতি বছর একটি বড় উৎসব হয়।"
+    },
+    {
+      "id": "community-flag",
+      "en": "Flag",
+      "bn": "পতাকা",
+      "exampleEn": "The national flag was raised in the school field.",
+      "exampleBn": "স্কুলের মাঠে জাতীয় পতাকা উত্তোলন করা হলো।"
+    },
+    {
+      "id": "community-gift",
+      "en": "Gift",
+      "bn": "উপহার",
+      "emoji": "🎁",
+      "exampleEn": "She gave him a beautiful gift on his birthday.",
+      "exampleBn": "সে জন্মদিনে তাকে একটি সুন্দর উপহার দিল।"
+    },
+    {
+      "id": "community-india",
+      "en": "India",
+      "bn": "ভারত",
+      "exampleEn": "They traveled to India by train.",
+      "exampleBn": "তারা ট্রেনে করে ভারত ভ্রমণে গিয়েছিল।"
+    },
+    {
+      "id": "community-language",
+      "en": "Language",
+      "bn": "ভাষা",
+      "exampleEn": "She is learning a new language at school.",
+      "exampleBn": "সে স্কুলে একটি নতুন ভাষা শিখছে।"
+    },
+    {
+      "id": "community-money",
+      "en": "Money",
+      "bn": "টাকা",
+      "exampleEn": "He took money to buy things at the shop.",
+      "exampleBn": "সে দোকানে জিনিস কেনার জন্য টাকা নিল।"
+    },
+    {
+      "id": "community-name",
+      "en": "Name",
+      "bn": "নাম",
+      "exampleEn": "The teacher called out each student's name.",
+      "exampleBn": "শিক্ষক প্রতিটি ছাত্রের নাম ডাকলেন।"
+    },
+    {
+      "id": "community-new-year",
+      "en": "New year",
+      "bn": "নববর্ষ",
+      "exampleEn": "They wear new clothes on New Year.",
+      "exampleBn": "তারা নববর্ষে নতুন জামা পরে।"
+    },
+    {
+      "id": "community-party",
+      "en": "Party",
+      "bn": "অনুষ্ঠান",
+      "emoji": "🎉",
+      "exampleEn": "They arranged a small party on Friday.",
+      "exampleBn": "তারা শুক্রবার একটি ছোট অনুষ্ঠানের আয়োজন করল।"
+    },
+    {
+      "id": "community-world",
+      "en": "World",
+      "bn": "পৃথিবী",
+      "exampleEn": "She wants to travel the whole world when she grows up.",
+      "exampleBn": "সে বড় হয়ে পুরো পৃথিবী ঘুরে দেখতে চায়।"
+    }
+  ]
+}

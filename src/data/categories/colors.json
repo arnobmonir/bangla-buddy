@@ -2,516 +2,123 @@
   "categoryId": "colors",
   "words": [
     {
-      "id": "colors-red",
-      "en": "red",
-      "bn": "লাল",
-      "emoji": "🔴",
-      "exampleEn": "The apple is red.",
-      "exampleBn": "আপেলটা লাল।"
+      "id": "colors-black",
+      "en": "Black",
+      "bn": "কালো",
+      "emoji": "⚫",
+      "exampleEn": "Her father has bought a black car.",
+      "exampleBn": "তার বাবা একটি কালো গাড়ি কিনেছেন।"
     },
     {
       "id": "colors-blue",
-      "en": "blue",
+      "en": "Blue",
       "bn": "নীল",
       "emoji": "🔵",
-      "exampleEn": "The sky is blue.",
-      "exampleBn": "আকাশটা নীল।"
-    },
-    {
-      "id": "colors-green",
-      "en": "green",
-      "bn": "সবুজ",
-      "emoji": "🟢",
-      "exampleEn": "My toy is green.",
-      "exampleBn": "আমার খেলনা সবুজ।"
-    },
-    {
-      "id": "colors-yellow",
-      "en": "yellow",
-      "bn": "হলুদ",
-      "emoji": "🟡",
-      "exampleEn": "The ball is yellow.",
-      "exampleBn": "বলটা হলুদ।"
-    },
-    {
-      "id": "colors-orange",
-      "en": "orange",
-      "bn": "কমলা",
-      "emoji": "🟠",
-      "exampleEn": "This color is orange.",
-      "exampleBn": "এই রংটা কমলা।"
-    },
-    {
-      "id": "colors-purple",
-      "en": "purple",
-      "bn": "বেগুনি",
-      "emoji": "🟣",
-      "exampleEn": "I like purple.",
-      "exampleBn": "আমার বেগুনি রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-pink",
-      "en": "pink",
-      "bn": "গোলাপি",
-      "emoji": "🩷",
-      "exampleEn": "My toy is pink.",
-      "exampleBn": "আমার খেলনা গোলাপি।"
-    },
-    {
-      "id": "colors-white",
-      "en": "white",
-      "bn": "সাদা",
-      "emoji": "⚪",
-      "exampleEn": "The ball is white.",
-      "exampleBn": "বলটা সাদা।"
-    },
-    {
-      "id": "colors-black",
-      "en": "black",
-      "bn": "কালো",
-      "emoji": "⚫",
-      "exampleEn": "This color is black.",
-      "exampleBn": "এই রংটা কালো।"
+      "exampleEn": "Today's sky looks beautifully blue.",
+      "exampleBn": "আজকের আকাশ খুব সুন্দর নীল দেখাচ্ছে।"
     },
     {
       "id": "colors-brown",
-      "en": "brown",
+      "en": "Brown",
       "bn": "বাদামি",
       "emoji": "🟤",
-      "exampleEn": "I like brown.",
-      "exampleBn": "আমার বাদামি রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-gray",
-      "en": "gray",
-      "bn": "ধূসর",
-      "emoji": "🩶",
-      "exampleEn": "My toy is gray.",
-      "exampleBn": "আমার খেলনা ধূসর।"
-    },
-    {
-      "id": "colors-gold",
-      "en": "gold",
-      "bn": "সোনা",
-      "emoji": "🥇",
-      "exampleEn": "The ball is gold.",
-      "exampleBn": "বলটা সোনা।"
-    },
-    {
-      "id": "colors-silver",
-      "en": "silver",
-      "bn": "রূপা",
-      "emoji": "🥈",
-      "exampleEn": "This color is silver.",
-      "exampleBn": "এই রংটা রূপা।"
-    },
-    {
-      "id": "colors-sky-blue",
-      "en": "sky blue",
-      "bn": "আকাশি",
-      "emoji": "🩵",
-      "exampleEn": "I like sky blue.",
-      "exampleBn": "আমার আকাশি রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-light-green",
-      "en": "light green",
-      "bn": "হালকা সবুজ",
-      "emoji": "🟩",
-      "exampleEn": "My toy is light green.",
-      "exampleBn": "আমার খেলনা হালকা সবুজ।"
-    },
-    {
-      "id": "colors-dark-blue",
-      "en": "dark blue",
-      "bn": "গাঢ় নীল",
-      "emoji": "🔵",
-      "exampleEn": "The ball is dark blue.",
-      "exampleBn": "বলটা গাঢ় নীল।"
-    },
-    {
-      "id": "colors-maroon",
-      "en": "maroon",
-      "bn": "মেরুন",
-      "emoji": "🟥",
-      "exampleEn": "This color is maroon.",
-      "exampleBn": "এই রংটা মেরুন।"
-    },
-    {
-      "id": "colors-cream",
-      "en": "cream",
-      "bn": "ক্রিম",
-      "emoji": "🍦",
-      "exampleEn": "I like cream.",
-      "exampleBn": "আমার ক্রিম রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-beige",
-      "en": "beige",
-      "bn": "বেইজ",
-      "emoji": "🟤",
-      "exampleEn": "My toy is beige.",
-      "exampleBn": "আমার খেলনা বেইজ।"
-    },
-    {
-      "id": "colors-multicolor",
-      "en": "multicolor",
-      "bn": "রঙিন",
-      "emoji": "🌈",
-      "exampleEn": "The ball is multicolor.",
-      "exampleBn": "বলটা রঙিন।"
-    },
-    {
-      "id": "colors-color",
-      "en": "color",
-      "bn": "রং",
-      "emoji": "🎨",
-      "exampleEn": "This color is color.",
-      "exampleBn": "এই রংটা রং।"
-    },
-    {
-      "id": "colors-bright",
-      "en": "bright",
-      "bn": "উজ্জ্বল",
-      "emoji": "✨",
-      "exampleEn": "I like bright.",
-      "exampleBn": "আমার উজ্জ্বল রং ভালো লাগে।"
+      "exampleEn": "Her hair is a dark brown color.",
+      "exampleBn": "তার চুলের রং গাঢ় বাদামি।"
     },
     {
       "id": "colors-dark",
-      "en": "dark",
+      "en": "Dark",
       "bn": "অন্ধকার",
       "emoji": "🌑",
-      "exampleEn": "My toy is dark.",
-      "exampleBn": "আমার খেলনা অন্ধকার।"
+      "exampleEn": "Darkness fell outside as evening came.",
+      "exampleBn": "সন্ধ্যা হতেই বাইরে অন্ধকার নেমে এলো।"
+    },
+    {
+      "id": "colors-golden",
+      "en": "Golden",
+      "bn": "সোনালি",
+      "exampleEn": "The sunset light shimmered golden on the river water.",
+      "exampleBn": "সূর্যাস্তের আলো নদীর পানিতে সোনালি হয়ে ঝিলমিল করছিল।"
+    },
+    {
+      "id": "colors-gray",
+      "en": "Gray",
+      "bn": "ধূসর",
+      "emoji": "🩶",
+      "exampleEn": "The sky is covered with gray clouds today.",
+      "exampleBn": "আজ আকাশ ধূসর মেঘে ঢাকা।"
+    },
+    {
+      "id": "colors-green",
+      "en": "Green",
+      "bn": "সবুজ",
+      "emoji": "🟢",
+      "exampleEn": "The grass in the field looks very green now.",
+      "exampleBn": "মাঠের ঘাস এখন খুব সবুজ দেখাচ্ছে।"
     },
     {
       "id": "colors-light",
-      "en": "light",
+      "en": "Light",
       "bn": "আলো",
       "emoji": "💡",
-      "exampleEn": "The ball is light.",
-      "exampleBn": "বলটা আলো।"
+      "exampleEn": "The room became bright with light coming through the window.",
+      "exampleBn": "ঘরটি জানালা দিয়ে আসা আলোয় উজ্জ্বল হয়ে উঠল।"
     },
     {
-      "id": "colors-violet",
-      "en": "violet",
-      "bn": "বেগুনি",
-      "emoji": "🟣",
-      "exampleEn": "This color is violet.",
-      "exampleBn": "এই রংটা বেগুনি।"
-    },
-    {
-      "id": "colors-indigo",
-      "en": "indigo",
-      "bn": "নীল",
-      "emoji": "🔵",
-      "exampleEn": "I like indigo.",
-      "exampleBn": "আমার নীল রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-turquoise",
-      "en": "turquoise",
-      "bn": "ফিরোজা",
-      "emoji": "🩵",
-      "exampleEn": "My toy is turquoise.",
-      "exampleBn": "আমার খেলনা ফিরোজা।"
-    },
-    {
-      "id": "colors-teal",
-      "en": "teal",
-      "bn": "সবুজাভ নীল",
-      "emoji": "🩵",
-      "exampleEn": "The ball is teal.",
-      "exampleBn": "বলটা সবুজাভ নীল।"
-    },
-    {
-      "id": "colors-lime",
-      "en": "lime",
-      "bn": "লেবু সবুজ",
-      "emoji": "🟢",
-      "exampleEn": "This color is lime.",
-      "exampleBn": "এই রংটা লেবু সবুজ।"
-    },
-    {
-      "id": "colors-olive",
-      "en": "olive",
-      "bn": "জলপাই",
-      "emoji": "🫒",
-      "exampleEn": "I like olive.",
-      "exampleBn": "আমার জলপাই রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-navy",
-      "en": "navy",
-      "bn": "গাঢ় নীল",
-      "emoji": "🔵",
-      "exampleEn": "My toy is navy.",
-      "exampleBn": "আমার খেলনা গাঢ় নীল।"
-    },
-    {
-      "id": "colors-crimson",
-      "en": "crimson",
-      "bn": "লালচে",
-      "emoji": "🔴",
-      "exampleEn": "The ball is crimson.",
-      "exampleBn": "বলটা লালচে।"
-    },
-    {
-      "id": "colors-azure",
-      "en": "azure",
-      "bn": "আকাশি",
-      "emoji": "🩵",
-      "exampleEn": "This color is azure.",
-      "exampleBn": "এই রংটা আকাশি।"
-    },
-    {
-      "id": "colors-amber",
-      "en": "amber",
-      "bn": "অ্যাম্বার",
+      "id": "colors-orange",
+      "en": "Orange",
+      "bn": "কমলা",
       "emoji": "🟠",
-      "exampleEn": "I like amber.",
-      "exampleBn": "আমার অ্যাম্বার রং ভালো লাগে।"
+      "exampleEn": "The sky turned orange at sunset.",
+      "exampleBn": "সূর্যাস্তের সময় আকাশ কমলা রঙে ভরে গেল।"
     },
     {
-      "id": "colors-peach",
-      "en": "peach",
-      "bn": "পীচ",
-      "emoji": "🍑",
-      "exampleEn": "My toy is peach.",
-      "exampleBn": "আমার খেলনা পীচ।"
-    },
-    {
-      "id": "colors-mint-green",
-      "en": "mint green",
-      "bn": "পুদিন সবুজ",
-      "emoji": "🟢",
-      "exampleEn": "The ball is mint green.",
-      "exampleBn": "বলটা পুদিন সবুজ।"
-    },
-    {
-      "id": "colors-charcoal",
-      "en": "charcoal",
-      "bn": "কোযল",
-      "emoji": "⚫",
-      "exampleEn": "This color is charcoal.",
-      "exampleBn": "এই রংটা কোযল।"
-    },
-    {
-      "id": "colors-silver-gray",
-      "en": "silver gray",
-      "bn": "রূপালি",
-      "emoji": "🩶",
-      "exampleEn": "I like silver gray.",
-      "exampleBn": "আমার রূপালি রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-golden-yellow",
-      "en": "golden yellow",
-      "bn": "সোনালি",
-      "emoji": "🟡",
-      "exampleEn": "My toy is golden yellow.",
-      "exampleBn": "আমার খেলনা সোনালি।"
-    },
-    {
-      "id": "colors-transparent",
-      "en": "transparent",
-      "bn": "স্বচ্ছ",
-      "emoji": "⬜",
-      "exampleEn": "The ball is transparent.",
-      "exampleBn": "বলটা স্বচ্ছ।"
-    },
-    {
-      "id": "colors-shiny",
-      "en": "shiny",
-      "bn": "চকচকে",
-      "emoji": "✨",
-      "exampleEn": "This color is shiny.",
-      "exampleBn": "এই রংটা চকচকে।"
-    },
-    {
-      "id": "colors-warm-color",
-      "en": "warm color",
-      "bn": "উষ্ণ রং",
-      "emoji": "🟠",
-      "exampleEn": "I like warm color.",
-      "exampleBn": "আমার উষ্ণ রং রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-cool-color",
-      "en": "cool color",
-      "bn": "শীতল রং",
-      "emoji": "🔵",
-      "exampleEn": "My toy is cool color.",
-      "exampleBn": "আমার খেলনা শীতল রং।"
-    },
-    {
-      "id": "colors-primary-color",
-      "en": "primary color",
-      "bn": "মূল রং",
-      "emoji": "🎨",
-      "exampleEn": "The ball is primary color.",
-      "exampleBn": "বলটা মূল রং।"
-    },
-    {
-      "id": "colors-pastel",
-      "en": "pastel",
-      "bn": "প্যাস্টেল",
-      "emoji": "🎨",
-      "exampleEn": "This color is pastel.",
-      "exampleBn": "এই রংটা প্যাস্টেল।"
-    },
-    {
-      "id": "colors-earthy",
-      "en": "earthy",
-      "bn": "মাটির",
-      "emoji": "🟤",
-      "exampleEn": "I like earthy.",
-      "exampleBn": "আমার মাটির রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-sky-color",
-      "en": "sky color",
-      "bn": "আকাশের রং",
-      "emoji": "🩵",
-      "exampleEn": "My toy is sky color.",
-      "exampleBn": "আমার খেলনা আকাশের রং।"
-    },
-    {
-      "id": "colors-leaf-green",
-      "en": "leaf green",
-      "bn": "পাতার সবুজ",
-      "emoji": "🍃",
-      "exampleEn": "The ball is leaf green.",
-      "exampleBn": "বলটা পাতার সবুজ।"
-    },
-    {
-      "id": "colors-sunset-orange",
-      "en": "sunset orange",
-      "bn": "সূর্যাস্ত কমলা",
-      "emoji": "🌅",
-      "exampleEn": "This color is sunset orange.",
-      "exampleBn": "এই রংটা সূর্যাস্ত কমলা।"
-    },
-    {
-      "id": "colors-midnight-blue",
-      "en": "midnight blue",
-      "bn": "মধ্যরাত নীল",
-      "emoji": "🌌",
-      "exampleEn": "I like midnight blue.",
-      "exampleBn": "আমার মধ্যরাত নীল রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-snow-white",
-      "en": "snow white",
-      "bn": "তুষার সাদা",
-      "emoji": "❄️",
-      "exampleEn": "My toy is snow white.",
-      "exampleBn": "আমার খেলনা তুষার সাদা।"
-    },
-    {
-      "id": "colors-ink-black",
-      "en": "ink black",
-      "bn": "কালি কালো",
-      "emoji": "🖤",
-      "exampleEn": "The ball is ink black.",
-      "exampleBn": "বলটা কালি কালো।"
-    },
-    {
-      "id": "colors-rust",
-      "en": "rust",
-      "bn": "মরিচা",
-      "emoji": "🟤",
-      "exampleEn": "This color is rust.",
-      "exampleBn": "এই রংটা মরিচা।"
-    },
-    {
-      "id": "colors-copper",
-      "en": "copper",
-      "bn": "তামা",
-      "emoji": "🟠",
-      "exampleEn": "I like copper.",
-      "exampleBn": "আমার তামা রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-rainbow-color",
-      "en": "rainbow color",
-      "bn": "রামধনু রং",
-      "emoji": "🌈",
-      "exampleEn": "My toy is rainbow color.",
-      "exampleBn": "আমার খেলনা রামধনু রং।"
-    },
-    {
-      "id": "colors-neon",
-      "en": "neon",
-      "bn": "নেোন",
-      "emoji": "💡",
-      "exampleEn": "The ball is neon.",
-      "exampleBn": "বলটা নেোন।"
-    },
-    {
-      "id": "colors-metallic",
-      "en": "metallic",
-      "bn": "ধাতব",
-      "emoji": "🔩",
-      "exampleEn": "This color is metallic.",
-      "exampleBn": "এই রংটা ধাতব।"
-    },
-    {
-      "id": "colors-floral-pink",
-      "en": "floral pink",
-      "bn": "ফুলের গোলাপি",
-      "emoji": "🌸",
-      "exampleEn": "I like floral pink.",
-      "exampleBn": "আমার ফুলের গোলাপি রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-dull-color",
-      "en": "dull color",
-      "bn": "নিস্তেজ",
-      "emoji": "🩶",
-      "exampleEn": "My toy is dull color.",
-      "exampleBn": "আমার খেলনা নিস্তেজ।"
-    },
-    {
-      "id": "colors-secondary-color",
-      "en": "secondary color",
-      "bn": "গৌণ রং",
-      "emoji": "🎨",
-      "exampleEn": "The ball is secondary color.",
-      "exampleBn": "বলটা গৌণ রং।"
-    },
-    {
-      "id": "colors-opaque",
-      "en": "opaque",
-      "bn": "অস্বচ্ছ",
-      "emoji": "⬛",
-      "exampleEn": "This color is opaque.",
-      "exampleBn": "এই রংটা অস্বচ্ছ।"
-    },
-    {
-      "id": "colors-scarlet",
-      "en": "scarlet",
-      "bn": "লাল",
-      "emoji": "🔴",
-      "exampleEn": "I like scarlet.",
-      "exampleBn": "আমার লাল রং ভালো লাগে।"
-    },
-    {
-      "id": "colors-tan",
-      "en": "tan",
-      "bn": "ট্যান",
-      "emoji": "🟤",
-      "exampleEn": "My toy is tan.",
-      "exampleBn": "আমার খেলনা ট্যান।"
-    },
-    {
-      "id": "colors-rose-color",
-      "en": "rose color",
+      "id": "colors-pink",
+      "en": "Pink",
       "bn": "গোলাপি",
       "emoji": "🩷",
-      "exampleEn": "The ball is rose color.",
-      "exampleBn": "বলটা গোলাপি।"
+      "exampleEn": "The girl bought a pink bag.",
+      "exampleBn": "মেয়েটি একটি গোলাপি ব্যাগ কিনল।"
+    },
+    {
+      "id": "colors-purple",
+      "en": "Purple",
+      "bn": "বেগুনি",
+      "emoji": "🟣",
+      "exampleEn": "A purple flower has bloomed in the garden.",
+      "exampleBn": "বাগানে একটি বেগুনি ফুল ফুটেছে।"
+    },
+    {
+      "id": "colors-red",
+      "en": "Red",
+      "bn": "লাল",
+      "emoji": "🔴",
+      "exampleEn": "Her favorite dress is red.",
+      "exampleBn": "তার প্রিয় জামাটি লাল রঙের।"
+    },
+    {
+      "id": "colors-silver",
+      "en": "Silver",
+      "bn": "রুপালি",
+      "emoji": "🥈",
+      "exampleEn": "She had a beautiful silver ring on her hand.",
+      "exampleBn": "তার হাতে একটি সুন্দর রুপালি আংটি ছিল।"
+    },
+    {
+      "id": "colors-white",
+      "en": "White",
+      "bn": "সাদা",
+      "emoji": "⚪",
+      "exampleEn": "She wears a white shirt to school.",
+      "exampleBn": "সে স্কুলে সাদা জামা পরে যায়।"
+    },
+    {
+      "id": "colors-yellow",
+      "en": "Yellow",
+      "bn": "হলুদ",
+      "emoji": "🟡",
+      "exampleEn": "She saw a yellow flower blooming.",
+      "exampleBn": "সে একটি হলুদ ফুল ফুটতে দেখল।"
     }
   ]
 }

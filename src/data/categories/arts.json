@@ -1,0 +1,154 @@
+{
+  "categoryId": "arts",
+  "words": [
+    {
+      "id": "arts-bead",
+      "en": "Bead",
+      "bn": "পুঁতি",
+      "emoji": "📿",
+      "exampleEn": "The girl made a necklace with beads.",
+      "exampleBn": "মেয়েটি পুঁতি দিয়ে একটি মালা বানাল।"
+    },
+    {
+      "id": "arts-clay",
+      "en": "Clay",
+      "bn": "কাদামাটি",
+      "emoji": "🏺",
+      "exampleEn": "The child made a doll with clay.",
+      "exampleBn": "শিশুটি কাদামাটি দিয়ে একটি পুতুল বানাল।"
+    },
+    {
+      "id": "arts-coloring",
+      "en": "Coloring",
+      "bn": "রং করা",
+      "emoji": "🖍️",
+      "exampleEn": "Coloring pictures is the child's favorite activity.",
+      "exampleBn": "ছবিতে রং করা শিশুটির প্রিয় কাজ।"
+    },
+    {
+      "id": "arts-craft",
+      "en": "Craft",
+      "bn": "হস্তশিল্প",
+      "emoji": "🎨",
+      "exampleEn": "There was a craft class at school today.",
+      "exampleBn": "স্কুলে আজ একটি হস্তশিল্প ক্লাস হলো।"
+    },
+    {
+      "id": "arts-drawing",
+      "en": "Drawing",
+      "bn": "অঙ্কন",
+      "emoji": "✏️",
+      "exampleEn": "The child made a beautiful drawing.",
+      "exampleBn": "শিশুটি একটি সুন্দর অঙ্কন করল।"
+    },
+    {
+      "id": "arts-drum",
+      "en": "Drum",
+      "bn": "ঢোল",
+      "emoji": "🥁",
+      "exampleEn": "A man was playing the drum at the event.",
+      "exampleBn": "অনুষ্ঠানে একজন লোক ঢোল বাজাচ্ছিল।"
+    },
+    {
+      "id": "arts-flute",
+      "en": "Flute",
+      "bn": "বাঁশি",
+      "emoji": "🪈",
+      "exampleEn": "The shepherd boy was playing the flute in the field.",
+      "exampleBn": "রাখাল ছেলেটি মাঠে বসে বাঁশি বাজাচ্ছিল।"
+    },
+    {
+      "id": "arts-glue-stick",
+      "en": "Glue stick",
+      "bn": "গ্লু স্টিক",
+      "emoji": "🧴",
+      "exampleEn": "She stuck the papers together with a glue stick.",
+      "exampleBn": "সে গ্লু স্টিক দিয়ে কাগজ জোড়া লাগাল।"
+    },
+    {
+      "id": "arts-guitar",
+      "en": "Guitar",
+      "bn": "গিটার",
+      "emoji": "🎸",
+      "exampleEn": "He learns to play the guitar in his free time.",
+      "exampleBn": "সে অবসর সময়ে গিটার বাজাতে শেখে।"
+    },
+    {
+      "id": "arts-masking-tape",
+      "en": "Masking tape",
+      "bn": "মাস্কিং টেপ",
+      "exampleEn": "She applied masking tape before painting the wall.",
+      "exampleBn": "সে দেয়াল রং করার আগে মাস্কিং টেপ লাগাল।"
+    },
+    {
+      "id": "arts-paint",
+      "en": "Paint",
+      "bn": "রং",
+      "emoji": "🎨",
+      "exampleEn": "He is painting the wall with new paint.",
+      "exampleBn": "সে দেয়ালে নতুন রং করছে।"
+    },
+    {
+      "id": "arts-paintbrush",
+      "en": "Paintbrush",
+      "bn": "তুলি",
+      "emoji": "🖌️",
+      "exampleEn": "She painted a picture with a paintbrush.",
+      "exampleBn": "সে তুলি দিয়ে একটি ছবি আঁকল।"
+    },
+    {
+      "id": "arts-paper-clip",
+      "en": "Paper clip",
+      "bn": "পেপার ক্লিপ",
+      "emoji": "📎",
+      "exampleEn": "She fastened the papers together with a paper clip.",
+      "exampleBn": "সে কাগজগুলো পেপার ক্লিপ দিয়ে আটকে রাখল।"
+    },
+    {
+      "id": "arts-piano",
+      "en": "Piano",
+      "bn": "পিয়ানো",
+      "emoji": "🎹",
+      "exampleEn": "The girl practices piano every afternoon.",
+      "exampleBn": "মেয়েটি প্রতিদিন বিকেলে পিয়ানো অনুশীলন করে।"
+    },
+    {
+      "id": "arts-ribbon",
+      "en": "Ribbon",
+      "bn": "ফিতা",
+      "emoji": "🎀",
+      "exampleEn": "A red ribbon was tied around the gift box.",
+      "exampleBn": "উপহারের বাক্সে একটি লাল ফিতা বাঁধা ছিল।"
+    },
+    {
+      "id": "arts-song",
+      "en": "Song",
+      "bn": "গান",
+      "emoji": "🎶",
+      "exampleEn": "She listened to her favorite song on the radio.",
+      "exampleBn": "সে রেডিওতে একটি প্রিয় গান শুনল।"
+    },
+    {
+      "id": "arts-sticker",
+      "en": "Sticker",
+      "bn": "স্টিকার",
+      "exampleEn": "The girl put a sticker on her notebook.",
+      "exampleBn": "মেয়েটি তার খাতায় স্টিকার লাগাল।"
+    },
+    {
+      "id": "arts-tape",
+      "en": "Tape",
+      "bn": "টেপ",
+      "emoji": "📼",
+      "exampleEn": "She sealed the box with tape.",
+      "exampleBn": "সে বাক্সটি টেপ দিয়ে বন্ধ করে দিল।"
+    },
+    {
+      "id": "arts-violin",
+      "en": "Violin",
+      "bn": "বেহালা",
+      "exampleEn": "She played the violin at the music concert.",
+      "exampleBn": "সে সঙ্গীত অনুষ্ঠানে বেহালা বাজাল।"
+    }
+  ]
+}

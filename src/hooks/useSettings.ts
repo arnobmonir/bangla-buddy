@@ -47,7 +47,8 @@ function sanitize(raw: unknown): AppSettings {
         : DEFAULT_SETTINGS.banglaVoice,
     banglaEngine: engine === 'device' || engine === 'neural' ? engine : DEFAULT_SETTINGS.banglaEngine,
     autoAdvance: Boolean(input.autoAdvance ?? DEFAULT_SETTINGS.autoAdvance),
-    banglaRepeat: repeat === 2 ? 2 : 1,
+    banglaRepeat:
+      repeat === 1 || repeat === 2 ? repeat : DEFAULT_SETTINGS.banglaRepeat,
     shuffle: Boolean(input.shuffle ?? DEFAULT_SETTINGS.shuffle),
     parentGate:
       gate === 'hold' || gate === 'pin' || gate === 'off' ? gate : DEFAULT_SETTINGS.parentGate,

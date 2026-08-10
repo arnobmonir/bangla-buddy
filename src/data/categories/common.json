@@ -1,0 +1,221 @@
+{
+  "categoryId": "common",
+  "words": [
+    {
+      "id": "common-about",
+      "en": "About",
+      "bn": "সম্পর্কে",
+      "exampleEn": "The teacher talked about history.",
+      "exampleBn": "শিক্ষক ইতিহাস সম্পর্কে গল্প বললেন।"
+    },
+    {
+      "id": "common-alone",
+      "en": "Alone",
+      "bn": "একা",
+      "exampleEn": "She went for a walk alone in the park in the evening.",
+      "exampleBn": "সে সন্ধ্যায় একা পার্কে হাঁটতে গেল।"
+    },
+    {
+      "id": "common-always",
+      "en": "Always",
+      "bn": "সবসময়",
+      "exampleEn": "She always comes to school on time.",
+      "exampleBn": "সে সবসময় সময়মতো স্কুলে আসে।"
+    },
+    {
+      "id": "common-another",
+      "en": "Another",
+      "bn": "আরেকটি",
+      "exampleEn": "He took another plate of food.",
+      "exampleBn": "সে আরেকটি প্লেট খাবার নিল।"
+    },
+    {
+      "id": "common-around",
+      "en": "Around",
+      "bn": "চারপাশে",
+      "exampleEn": "She walked around the garden.",
+      "exampleBn": "সে বাগানের চারপাশে হাঁটল।"
+    },
+    {
+      "id": "common-beside",
+      "en": "Beside",
+      "bn": "পাশে",
+      "emoji": "↔️",
+      "exampleEn": "She sat beside her friend.",
+      "exampleBn": "সে তার বন্ধুর পাশে বসল।"
+    },
+    {
+      "id": "common-between",
+      "en": "Between",
+      "bn": "মাঝে",
+      "emoji": "↔️",
+      "exampleEn": "The book was placed between the two friends.",
+      "exampleBn": "বইটি দুই বন্ধুর মাঝে রাখা ছিল।"
+    },
+    {
+      "id": "common-carefully",
+      "en": "Carefully",
+      "bn": "সাবধানে",
+      "exampleEn": "She crossed the road carefully.",
+      "exampleBn": "সে সাবধানে রাস্তা পার হলো।"
+    },
+    {
+      "id": "common-each",
+      "en": "Each",
+      "bn": "প্রত্যেক",
+      "exampleEn": "Each child got a toy.",
+      "exampleBn": "প্রত্যেক শিশু একটি করে খেলনা পেল।"
+    },
+    {
+      "id": "common-every",
+      "en": "Every",
+      "bn": "প্রতিটি",
+      "exampleEn": "She gave a book to every student.",
+      "exampleBn": "সে প্রতিটি ছাত্রকে একটি বই দিলেন।"
+    },
+    {
+      "id": "common-for",
+      "en": "For",
+      "bn": "জন্য",
+      "exampleEn": "Mother made food for her child.",
+      "exampleBn": "মা তার সন্তানের জন্য খাবার তৈরি করলেন।"
+    },
+    {
+      "id": "common-from",
+      "en": "From",
+      "bn": "থেকে",
+      "exampleEn": "She walked home from school.",
+      "exampleBn": "সে স্কুল থেকে হেঁটে বাড়ি ফিরল।"
+    },
+    {
+      "id": "common-inside",
+      "en": "Inside",
+      "bn": "ভিতরে",
+      "emoji": "📦",
+      "exampleEn": "The children are playing inside the house.",
+      "exampleBn": "বাচ্চারা ঘরের ভিতরে খেলছে।"
+    },
+    {
+      "id": "common-maybe",
+      "en": "Maybe",
+      "bn": "হয়তো",
+      "exampleEn": "Maybe it will rain tomorrow.",
+      "exampleBn": "হয়তো আগামীকাল বৃষ্টি হবে।"
+    },
+    {
+      "id": "common-never",
+      "en": "Never",
+      "bn": "কখনো না",
+      "exampleEn": "Try once before saying never.",
+      "exampleBn": "কখনো না বলার আগে একবার চেষ্টা করো।"
+    },
+    {
+      "id": "common-nicely",
+      "en": "Nicely",
+      "bn": "সুন্দরভাবে",
+      "exampleEn": "She decorated the room nicely.",
+      "exampleBn": "সে ঘরটি সুন্দরভাবে সাজিয়ে রাখল।"
+    },
+    {
+      "id": "common-other",
+      "en": "Other",
+      "bn": "অন্য",
+      "exampleEn": "She returned home by another road.",
+      "exampleBn": "সে অন্য একটি রাস্তা দিয়ে বাড়ি ফিরল।"
+    },
+    {
+      "id": "common-outside",
+      "en": "Outside",
+      "bn": "বাইরে",
+      "emoji": "📦",
+      "exampleEn": "He went outside to play.",
+      "exampleBn": "সে খেলতে বাইরে চলে গেল।"
+    },
+    {
+      "id": "common-over",
+      "en": "Over",
+      "bn": "উপর দিয়ে",
+      "emoji": "⬆️",
+      "exampleEn": "The bird flew over the river.",
+      "exampleBn": "পাখিটি নদীর উপর দিয়ে উড়ে গেল।"
+    },
+    {
+      "id": "common-quickly",
+      "en": "Quickly",
+      "bn": "দ্রুত",
+      "exampleEn": "She finished her work quickly.",
+      "exampleBn": "সে দ্রুত তার কাজ শেষ করল।"
+    },
+    {
+      "id": "common-really",
+      "en": "Really",
+      "bn": "সত্যিই",
+      "exampleEn": "He is really a very hardworking student.",
+      "exampleBn": "সে সত্যিই খুব পরিশ্রমী একজন ছাত্র।"
+    },
+    {
+      "id": "common-slowly",
+      "en": "Slowly",
+      "bn": "ধীরে ধীরে",
+      "exampleEn": "He climbed the stairs slowly.",
+      "exampleBn": "সে ধীরে ধীরে সিঁড়ি বেয়ে উঠল।"
+    },
+    {
+      "id": "common-sometimes",
+      "en": "Sometimes",
+      "bn": "মাঝে মাঝে",
+      "exampleEn": "She sometimes goes to the market with her father.",
+      "exampleBn": "সে মাঝে মাঝে বাবার সাথে বাজারে যায়।"
+    },
+    {
+      "id": "common-through",
+      "en": "Through",
+      "bn": "মধ্য দিয়ে",
+      "exampleEn": "Sunlight came into the room through the window.",
+      "exampleBn": "সূর্যের আলো জানালার মধ্য দিয়ে ঘরে ঢুকল।"
+    },
+    {
+      "id": "common-to",
+      "en": "To",
+      "bn": "দিকে",
+      "exampleEn": "Everyone is walking to the field.",
+      "exampleBn": "সবাই মাঠের দিকে হাঁটছে।"
+    },
+    {
+      "id": "common-together",
+      "en": "Together",
+      "bn": "একসাথে",
+      "exampleEn": "They sat together and had dinner.",
+      "exampleBn": "তারা একসাথে বসে রাতের খাবার খেল।"
+    },
+    {
+      "id": "common-under",
+      "en": "Under",
+      "bn": "নিচে",
+      "emoji": "⬇️",
+      "exampleEn": "The cat was hiding under the table.",
+      "exampleBn": "বিড়ালটি টেবিলের নিচে লুকিয়ে ছিল।"
+    },
+    {
+      "id": "common-very",
+      "en": "Very",
+      "bn": "খুব",
+      "exampleEn": "Today's weather is very nice.",
+      "exampleBn": "আজকের আবহাওয়া খুব সুন্দর।"
+    },
+    {
+      "id": "common-with",
+      "en": "With",
+      "bn": "সাথে",
+      "exampleEn": "She went to school with her friend.",
+      "exampleBn": "সে বন্ধুর সাথে স্কুলে গেল।"
+    },
+    {
+      "id": "common-without",
+      "en": "Without",
+      "bn": "ছাড়া",
+      "exampleEn": "He went out in the rain without an umbrella.",
+      "exampleBn": "সে ছাতা ছাড়া বৃষ্টিতে বের হলো।"
+    }
+  ]
+}

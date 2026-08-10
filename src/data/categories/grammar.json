@@ -1,0 +1,204 @@
+{
+  "categoryId": "grammar",
+  "words": [
+    {
+      "id": "grammar-am",
+      "en": "Am",
+      "bn": "হই",
+      "emoji": "🔤",
+      "exampleEn": "I am becoming more confident every day.",
+      "exampleBn": "আমি প্রতিদিন আরও আত্মবিশ্বাসী হই।"
+    },
+    {
+      "id": "grammar-and",
+      "en": "And",
+      "bn": "এবং",
+      "emoji": "➕",
+      "exampleEn": "She ate rice and curry.",
+      "exampleBn": "সে ভাত এবং তরকারি খেল।"
+    },
+    {
+      "id": "grammar-are",
+      "en": "Are",
+      "bn": "হয়",
+      "emoji": "🔤",
+      "exampleEn": "How are these made?",
+      "exampleBn": "এগুলো কীভাবে তৈরি হয়?"
+    },
+    {
+      "id": "grammar-because",
+      "en": "Because",
+      "bn": "কারণ",
+      "emoji": "💭",
+      "exampleEn": "He was late because there was traffic on the road.",
+      "exampleBn": "সে দেরি করল কারণ রাস্তায় যানজট ছিল।"
+    },
+    {
+      "id": "grammar-but",
+      "en": "But",
+      "bn": "কিন্তু",
+      "emoji": "➖",
+      "exampleEn": "He wanted to come but didn't have time.",
+      "exampleBn": "সে আসতে চেয়েছিল কিন্তু সময় পায়নি।"
+    },
+    {
+      "id": "grammar-can",
+      "en": "Can",
+      "bn": "পারা",
+      "emoji": "💪",
+      "exampleEn": "You can do difficult work if you try.",
+      "exampleBn": "চেষ্টা করলে কঠিন কাজও পারা যায়।"
+    },
+    {
+      "id": "grammar-do",
+      "en": "Do",
+      "bn": "করা",
+      "emoji": "✅",
+      "exampleEn": "You should do your own work.",
+      "exampleBn": "নিজের কাজ নিজে করা উচিত।"
+    },
+    {
+      "id": "grammar-have",
+      "en": "Have",
+      "bn": "আছে",
+      "emoji": "🙌",
+      "exampleEn": "He has a new phone.",
+      "exampleBn": "তার কাছে একটি নতুন ফোন আছে।"
+    },
+    {
+      "id": "grammar-he",
+      "en": "He",
+      "bn": "সে",
+      "emoji": "👨",
+      "exampleEn": "He rides a bicycle to the office every day.",
+      "exampleBn": "সে প্রতিদিন সাইকেল চালিয়ে অফিসে যায়।"
+    },
+    {
+      "id": "grammar-her",
+      "en": "Her",
+      "bn": "তার",
+      "exampleEn": "Her hair is very long.",
+      "exampleBn": "তার চুল খুব লম্বা।"
+    },
+    {
+      "id": "grammar-his",
+      "en": "His",
+      "bn": "তার",
+      "exampleEn": "His father is a doctor.",
+      "exampleBn": "তার বাবা একজন ডাক্তার।"
+    },
+    {
+      "id": "grammar-i",
+      "en": "I",
+      "bn": "আমি",
+      "emoji": "👤",
+      "exampleEn": "I go for a walk every morning.",
+      "exampleBn": "আমি প্রতিদিন সকালে হাঁটতে যাই।"
+    },
+    {
+      "id": "grammar-is",
+      "en": "Is",
+      "bn": "হয়",
+      "emoji": "🔤",
+      "exampleEn": "How is this done?",
+      "exampleBn": "এটি কীভাবে হয়?"
+    },
+    {
+      "id": "grammar-it",
+      "en": "It",
+      "bn": "এটি",
+      "emoji": "📦",
+      "exampleEn": "It is his favorite toy.",
+      "exampleBn": "এটি তার প্রিয় খেলনা।"
+    },
+    {
+      "id": "grammar-me",
+      "en": "Me",
+      "bn": "আমাকে",
+      "emoji": "🙋",
+      "exampleEn": "She gave me a book.",
+      "exampleBn": "সে আমাকে একটি বই দিয়েছে।"
+    },
+    {
+      "id": "grammar-my",
+      "en": "My",
+      "bn": "আমার",
+      "exampleEn": "My house is near the school.",
+      "exampleBn": "আমার বাড়ি স্কুলের কাছে।"
+    },
+    {
+      "id": "grammar-not",
+      "en": "Not",
+      "bn": "না",
+      "exampleEn": "Why not go to school today?",
+      "exampleBn": "আজ স্কুলে না যাওয়ার কারণ কী?"
+    },
+    {
+      "id": "grammar-or",
+      "en": "Or",
+      "bn": "অথবা",
+      "exampleEn": "You can have tea or coffee.",
+      "exampleBn": "তুমি চা অথবা কফি নিতে পারো।"
+    },
+    {
+      "id": "grammar-our",
+      "en": "Our",
+      "bn": "আমাদের",
+      "exampleEn": "Our house is beside the river.",
+      "exampleBn": "আমাদের বাড়ি নদীর পাশে।"
+    },
+    {
+      "id": "grammar-she",
+      "en": "She",
+      "bn": "সে",
+      "emoji": "👩",
+      "exampleEn": "She loves to sing songs.",
+      "exampleBn": "সে গান গাইতে খুব ভালোবাসে।"
+    },
+    {
+      "id": "grammar-their",
+      "en": "Their",
+      "bn": "তাদের",
+      "exampleEn": "Their car was newly bought.",
+      "exampleBn": "তাদের গাড়িটি নতুন কেনা হয়েছে।"
+    },
+    {
+      "id": "grammar-they",
+      "en": "They",
+      "bn": "তারা",
+      "emoji": "👥",
+      "exampleEn": "They are playing football in the field.",
+      "exampleBn": "তারা মাঠে ফুটবল খেলছে।"
+    },
+    {
+      "id": "grammar-we",
+      "en": "We",
+      "bn": "আমরা",
+      "emoji": "👨‍👩‍👧",
+      "exampleEn": "We will go to the market tomorrow.",
+      "exampleBn": "আমরা আগামীকাল বাজারে যাব।"
+    },
+    {
+      "id": "grammar-will",
+      "en": "Will",
+      "bn": "হবে",
+      "exampleEn": "It seems it will rain tomorrow.",
+      "exampleBn": "আগামীকাল বৃষ্টি হবে বলে মনে হচ্ছে।"
+    },
+    {
+      "id": "grammar-you",
+      "en": "You",
+      "bn": "তুমি",
+      "emoji": "👉",
+      "exampleEn": "Are you going to school today?",
+      "exampleBn": "তুমি কি আজ স্কুলে যাবে?"
+    },
+    {
+      "id": "grammar-your",
+      "en": "Your",
+      "bn": "তোমার",
+      "exampleEn": "Where did you keep your bag?",
+      "exampleBn": "তোমার ব্যাগটা কোথায় রেখেছ?"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "categoryId": "places",
+  "words": [
+    {
+      "id": "places-bakery",
+      "en": "Bakery",
+      "bn": "বেকারি",
+      "emoji": "🥐",
+      "exampleEn": "She bought fresh bread from the bakery in the morning.",
+      "exampleBn": "সে সকালে বেকারি থেকে তাজা রুটি কিনল।"
+    },
+    {
+      "id": "places-bank",
+      "en": "Bank",
+      "bn": "ব্যাংক",
+      "emoji": "🏦",
+      "exampleEn": "He went to the bank to withdraw money.",
+      "exampleBn": "তিনি টাকা তুলতে ব্যাংকে গেলেন।"
+    },
+    {
+      "id": "places-beach",
+      "en": "Beach",
+      "bn": "সমুদ্র সৈকত",
+      "emoji": "🏖️",
+      "exampleEn": "They went to the beach for a holiday.",
+      "exampleBn": "ছুটিতে তারা সমুদ্র সৈকতে বেড়াতে গেল।"
+    },
+    {
+      "id": "places-bedroom",
+      "en": "Bedroom",
+      "bn": "শোবার ঘর",
+      "emoji": "🛌",
+      "exampleEn": "She was reading a book in her bedroom.",
+      "exampleBn": "সে তার শোবার ঘরে বই পড়ছিল।"
+    },
+    {
+      "id": "places-bus-stop",
+      "en": "Bus stop",
+      "bn": "বাস স্টপ",
+      "emoji": "🚏",
+      "exampleEn": "She waits at the bus stop every morning.",
+      "exampleBn": "সে প্রতিদিন সকালে বাস স্টপে অপেক্ষা করে।"
+    },
+    {
+      "id": "places-church",
+      "en": "Church",
+      "bn": "গির্জা",
+      "emoji": "⛪",
+      "exampleEn": "Many people go to church to pray on Sundays.",
+      "exampleBn": "রবিবারে অনেকে গির্জায় প্রার্থনা করতে যান।"
+    },
+    {
+      "id": "places-city",
+      "en": "City",
+      "bn": "শহর",
+      "emoji": "🏙️",
+      "exampleEn": "He moved to the city for his studies.",
+      "exampleBn": "সে পড়াশোনার জন্য শহরে চলে এলো।"
+    },
+    {
+      "id": "places-clinic",
+      "en": "Clinic",
+      "bn": "ক্লিনিক",
+      "emoji": "🏥",
+      "exampleEn": "The doctor sees patients at the clinic every afternoon.",
+      "exampleBn": "ডাক্তার প্রতিদিন বিকেলে ক্লিনিকে রোগী দেখেন।"
+    },
+    {
+      "id": "places-country",
+      "en": "Country",
+      "bn": "দেশ",
+      "exampleEn": "He returned to his own country after many years.",
+      "exampleBn": "তিনি অনেক বছর পর নিজের দেশে ফিরলেন।"
+    },
+    {
+      "id": "places-dining-room",
+      "en": "Dining room",
+      "bn": "খাবার ঘর",
+      "exampleEn": "They all sat in the dining room and had dinner.",
+      "exampleBn": "তারা সবাই খাবার ঘরে বসে রাতের খাবার খেল।"
+    },
+    {
+      "id": "places-farm",
+      "en": "Farm",
+      "bn": "খামার",
+      "exampleEn": "The farmer raises cows on his farm.",
+      "exampleBn": "কৃষক তার খামারে গরু পালন করেন।"
+    },
+    {
+      "id": "places-hospital",
+      "en": "Hospital",
+      "bn": "হাসপাতাল",
+      "emoji": "🏥",
+      "exampleEn": "The patient was quickly taken to the hospital.",
+      "exampleBn": "রোগীকে দ্রুত হাসপাতালে নেওয়া হলো।"
+    },
+    {
+      "id": "places-living-room",
+      "en": "Living room",
+      "bn": "বসার ঘর",
+      "emoji": "🛋️",
+      "exampleEn": "The family sits together in the living room in the evening.",
+      "exampleBn": "পরিবারটি সন্ধ্যায় বসার ঘরে একসাথে বসে।"
+    },
+    {
+      "id": "places-market",
+      "en": "Market",
+      "bn": "বাজার",
+      "emoji": "🛒",
+      "exampleEn": "Mother goes to the market every morning.",
+      "exampleBn": "মা প্রতিদিন সকালে বাজারে যান।"
+    },
+    {
+      "id": "places-mosque",
+      "en": "Mosque",
+      "bn": "মসজিদ",
+      "emoji": "🕌",
+      "exampleEn": "He goes to the mosque to pray every day.",
+      "exampleBn": "তিনি প্রতিদিন মসজিদে নামাজ পড়তে যান।"
+    },
+    {
+      "id": "places-museum",
+      "en": "Museum",
+      "bn": "জাদুঘর",
+      "exampleEn": "The students went to the museum on the trip.",
+      "exampleBn": "শিক্ষার্থীরা ভ্রমণে জাদুঘরে গেল।"
+    },
+    {
+      "id": "places-office",
+      "en": "Office",
+      "bn": "কার্যালয়",
+      "exampleEn": "My father's office is in the city.",
+      "exampleBn": "আমার বাবার কার্যালয় শহরে।"
+    },
+    {
+      "id": "places-park",
+      "en": "Park",
+      "bn": "পার্ক",
+      "emoji": "🏞️",
+      "exampleEn": "Children go to the park to play in the afternoon.",
+      "exampleBn": "বিকেলে বাচ্চারা পার্কে খেলতে যায়।"
+    },
+    {
+      "id": "places-pharmacy",
+      "en": "Pharmacy",
+      "bn": "ফার্মেসি",
+      "exampleEn": "Father bought medicine from the pharmacy.",
+      "exampleBn": "বাবা ফার্মেসি থেকে ওষুধ কিনে আনলেন।"
+    },
+    {
+      "id": "places-playroom",
+      "en": "Playroom",
+      "bn": "খেলার ঘর",
+      "exampleEn": "The children are playing with toys in the playroom.",
+      "exampleBn": "বাচ্চারা খেলার ঘরে খেলনা নিয়ে খেলছে।"
+    },
+    {
+      "id": "places-pool",
+      "en": "Pool",
+      "bn": "সুইমিং পুল",
+      "exampleEn": "They swim in the pool during summer.",
+      "exampleBn": "গরমকালে তারা সুইমিং পুলে সাঁতার কাটে।"
+    },
+    {
+      "id": "places-post-office",
+      "en": "Post office",
+      "bn": "ডাকঘর",
+      "exampleEn": "She went to the post office to send the letter.",
+      "exampleBn": "সে চিঠিটি পাঠাতে ডাকঘরে গেল।"
+    },
+    {
+      "id": "places-restaurant",
+      "en": "Restaurant",
+      "bn": "রেস্তোরাঁ",
+      "exampleEn": "They went to eat at a restaurant for the birthday.",
+      "exampleBn": "তারা জন্মদিনে একটি রেস্তোরাঁয় খেতে গেল।"
+    },
+    {
+      "id": "places-schoolyard",
+      "en": "Schoolyard",
+      "bn": "স্কুলের মাঠ",
+      "exampleEn": "Students play in the schoolyard during break.",
+      "exampleBn": "বিরতির সময় ছাত্ররা স্কুলের মাঠে খেলে।"
+    },
+    {
+      "id": "places-shop",
+      "en": "Shop",
+      "bn": "দোকান",
+      "emoji": "🏪",
+      "exampleEn": "She bought some rice from the shop.",
+      "exampleBn": "সে দোকান থেকে কিছু চাল কিনল।"
+    },
+    {
+      "id": "places-store",
+      "en": "Store",
+      "bn": "দোকান",
+      "exampleEn": "They went to a big store to buy clothes.",
+      "exampleBn": "তারা কাপড় কিনতে একটি বড় দোকানে গেল।"
+    },
+    {
+      "id": "places-temple",
+      "en": "Temple",
+      "bn": "মন্দির",
+      "emoji": "🛕",
+      "exampleEn": "They went to the temple to worship on the festival day.",
+      "exampleBn": "তারা উৎসবের দিনে মন্দিরে পূজা দিতে গেল।"
+    },
+    {
+      "id": "places-village",
+      "en": "Village",
+      "bn": "গ্রাম",
+      "emoji": "🏡",
+      "exampleEn": "His grandfather's house is located in a small village.",
+      "exampleBn": "তার দাদার বাড়ি একটি ছোট গ্রামে অবস্থিত।"
+    },
+    {
+      "id": "places-yard",
+      "en": "Yard",
+      "bn": "উঠান",
+      "emoji": "🏡",
+      "exampleEn": "The children are running and playing in the yard.",
+      "exampleBn": "বাচ্চারা উঠানে দৌড়ে খেলছে।"
+    },
+    {
+      "id": "places-zoo",
+      "en": "Zoo",
+      "bn": "চিড়িয়াখানা",
+      "exampleEn": "The family went to see the zoo on the holiday.",
+      "exampleBn": "ছুটির দিনে পরিবারটি চিড়িয়াখানা দেখতে গেল।"
+    }
+  ]
+}

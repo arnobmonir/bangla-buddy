@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "import-words": "node scripts/csv-to-json.mjs",
+    "import-xlsx": "node scripts/xlsx-to-json.mjs",
     "expand-words": "node scripts/expand-to-2k.mjs",
     "generate-audio": "node scripts/generate-bangla-audio.mjs"
   },

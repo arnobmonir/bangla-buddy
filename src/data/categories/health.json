@@ -1,0 +1,131 @@
+{
+  "categoryId": "health",
+  "words": [
+    {
+      "id": "health-address",
+      "en": "Address",
+      "bn": "ঠিকানা",
+      "exampleEn": "She wrote her address on the envelope.",
+      "exampleBn": "সে খামের উপর তার ঠিকানা লিখল।"
+    },
+    {
+      "id": "health-bandage",
+      "en": "Bandage",
+      "bn": "ব্যান্ডেজ",
+      "emoji": "🩹",
+      "exampleEn": "The nurse tied a bandage on his hand.",
+      "exampleBn": "নার্স তার হাতে একটি ব্যান্ডেজ বেঁধে দিলেন।"
+    },
+    {
+      "id": "health-burn",
+      "en": "Burn",
+      "bn": "পোড়া",
+      "emoji": "🔥",
+      "exampleEn": "His hand suffered a burn from hot water.",
+      "exampleBn": "গরম পানিতে তার হাতে পোড়া লেগেছে।"
+    },
+    {
+      "id": "health-care",
+      "en": "Care",
+      "bn": "যত্ন",
+      "exampleEn": "Mother always takes care of her children.",
+      "exampleBn": "মা সবসময় তার সন্তানদের যত্ন নেন।"
+    },
+    {
+      "id": "health-cold-illness",
+      "en": "Cold illness",
+      "bn": "সর্দি",
+      "exampleEn": "He often catches a cold in winter.",
+      "exampleBn": "শীতকালে তার প্রায়ই সর্দি লাগে।"
+    },
+    {
+      "id": "health-cough",
+      "en": "Cough",
+      "bn": "কাশি",
+      "emoji": "😷",
+      "exampleEn": "She has started coughing because of a cold.",
+      "exampleBn": "ঠান্ডার কারণে তার কাশি শুরু হয়েছে।"
+    },
+    {
+      "id": "health-crosswalk",
+      "en": "Crosswalk",
+      "bn": "জেব্রা ক্রসিং",
+      "emoji": "🚸",
+      "exampleEn": "She crossed the road using the crosswalk.",
+      "exampleBn": "সে জেব্রা ক্রসিং দিয়ে রাস্তা পার হলো।"
+    },
+    {
+      "id": "health-cut-injury",
+      "en": "Cut injury",
+      "bn": "কাটা ক্ষত",
+      "exampleEn": "He has a small cut injury on his hand.",
+      "exampleBn": "তার হাতে একটি ছোট কাটা ক্ষত আছে।"
+    },
+    {
+      "id": "health-danger",
+      "en": "Danger",
+      "bn": "বিপদ",
+      "exampleEn": "Going into the sea during a storm is dangerous.",
+      "exampleBn": "ঝড়ের সময় সমুদ্রে যাওয়া বিপদজনক।"
+    },
+    {
+      "id": "health-doctor-visit",
+      "en": "Doctor visit",
+      "bn": "ডাক্তার দেখানো",
+      "exampleEn": "A doctor visit is important when you are ill.",
+      "exampleBn": "অসুস্থ হলে ডাক্তার দেখানো জরুরি।"
+    },
+    {
+      "id": "health-emergency",
+      "en": "Emergency",
+      "bn": "জরুরি অবস্থা",
+      "exampleEn": "They called the emergency number after the accident.",
+      "exampleBn": "দুর্ঘটনার পর তারা জরুরি অবস্থার নম্বরে ফোন করল।"
+    },
+    {
+      "id": "health-medicine",
+      "en": "Medicine",
+      "bn": "ওষুধ",
+      "emoji": "💊",
+      "exampleEn": "The doctor told him to take medicine twice a day.",
+      "exampleBn": "ডাক্তার তাকে দিনে দুইবার ওষুধ খেতে বললেন।"
+    },
+    {
+      "id": "health-safety",
+      "en": "Safety",
+      "bn": "নিরাপত্তা",
+      "exampleEn": "Ensuring the workers' safety in the factory is important.",
+      "exampleBn": "কারখানায় শ্রমিকদের নিরাপত্তা নিশ্চিত করা জরুরি।"
+    },
+    {
+      "id": "health-scratch",
+      "en": "Scratch",
+      "bn": "আঁচড়",
+      "exampleEn": "The cat scratched his hand while playing.",
+      "exampleBn": "বিড়ালটি খেলার সময় তার হাতে আঁচড় দিল।"
+    },
+    {
+      "id": "health-seatbelt",
+      "en": "Seatbelt",
+      "bn": "সিটবেল্ট",
+      "exampleEn": "Everyone fastened their seatbelt after getting in the car.",
+      "exampleBn": "গাড়িতে ওঠার পর সবাই সিটবেল্ট বাঁধল।"
+    },
+    {
+      "id": "health-sneeze",
+      "en": "Sneeze",
+      "bn": "হাঁচি",
+      "emoji": "🤧",
+      "exampleEn": "He was sneezing repeatedly from the dust.",
+      "exampleBn": "ধুলা লেগে সে বারবার হাঁচি দিচ্ছিল।"
+    },
+    {
+      "id": "health-thermometer",
+      "en": "Thermometer",
+      "bn": "থার্মোমিটার",
+      "emoji": "🌡️",
+      "exampleEn": "Mother checked his fever with a thermometer.",
+      "exampleBn": "মা থার্মোমিটার দিয়ে তার জ্বর মাপলেন।"
+    }
+  ]
+}

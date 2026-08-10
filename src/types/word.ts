@@ -59,10 +59,10 @@ export const DEFAULT_SETTINGS: AppSettings = {
   enBnGapMs: 280,
   muted: false,
   speechMode: 'en-bn',
-  banglaVoice: 'bn-IN-TanishaaNeural',
+  banglaVoice: 'bn-BD-PradeepNeural',
   banglaEngine: 'neural',
   autoAdvance: true,
-  banglaRepeat: 1,
+  banglaRepeat: 2,
   shuffle: false,
   parentGate: 'hold',
   parentPin: '1234',
@@ -88,7 +88,7 @@ export const SETTINGS_PRESETS: {
   {
     id: 'normal',
     label: 'Normal',
-    patch: { rate: 0.85, advanceDelayMs: 900, enBnGapMs: 280, banglaRepeat: 1 },
+    patch: { rate: 0.85, advanceDelayMs: 900, enBnGapMs: 280, banglaRepeat: 2 },
   },
   {
     id: 'fast',

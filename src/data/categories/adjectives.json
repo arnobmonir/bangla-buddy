@@ -1,0 +1,373 @@
+{
+  "categoryId": "adjectives",
+  "words": [
+    {
+      "id": "adjectives-angry",
+      "en": "Angry",
+      "bn": "রাগান্বিত",
+      "emoji": "😠",
+      "exampleEn": "The teacher got a bit angry because of the delay.",
+      "exampleBn": "দেরি হওয়ায় শিক্ষক একটু রাগান্বিত হলেন।"
+    },
+    {
+      "id": "adjectives-bad",
+      "en": "Bad",
+      "bn": "খারাপ",
+      "emoji": "👎",
+      "exampleEn": "She is in a bit of a bad mood today.",
+      "exampleBn": "আজ তার মেজাজ একটু খারাপ।"
+    },
+    {
+      "id": "adjectives-beautiful",
+      "en": "Beautiful",
+      "bn": "সুন্দর",
+      "emoji": "🌸",
+      "exampleEn": "The flowers in the garden look very beautiful.",
+      "exampleBn": "বাগানের ফুলগুলো দেখতে খুব সুন্দর।"
+    },
+    {
+      "id": "adjectives-big",
+      "en": "Big",
+      "bn": "বড়",
+      "emoji": "🐘",
+      "exampleEn": "There is a big tree in front of their house.",
+      "exampleBn": "তাদের বাড়ির সামনে একটি বড় গাছ আছে।"
+    },
+    {
+      "id": "adjectives-brave",
+      "en": "Brave",
+      "bn": "সাহসী",
+      "emoji": "💪",
+      "exampleEn": "The boy did a very brave thing.",
+      "exampleBn": "ছেলেটি খুব সাহসী কাজ করেছে।"
+    },
+    {
+      "id": "adjectives-bright",
+      "en": "Bright",
+      "bn": "উজ্জ্বল",
+      "emoji": "✨",
+      "exampleEn": "A bright star was seen in the sky.",
+      "exampleBn": "আকাশে একটি উজ্জ্বল তারা দেখা গেল।"
+    },
+    {
+      "id": "adjectives-careful",
+      "en": "Careful",
+      "bn": "সতর্ক",
+      "emoji": "⚠️",
+      "exampleEn": "He is always careful while driving.",
+      "exampleBn": "গাড়ি চালানোর সময় সে সবসময় সতর্ক থাকে।"
+    },
+    {
+      "id": "adjectives-cold",
+      "en": "Cold",
+      "bn": "ঠান্ডা",
+      "emoji": "🥶",
+      "exampleEn": "The wind outside feels quite cold.",
+      "exampleBn": "বাইরে বাতাস বেশ ঠান্ডা লাগছে।"
+    },
+    {
+      "id": "adjectives-cool",
+      "en": "Cool",
+      "bn": "শীতল",
+      "exampleEn": "The air became cool in the evening.",
+      "exampleBn": "সন্ধ্যায় বাতাস শীতল হয়ে এলো।"
+    },
+    {
+      "id": "adjectives-dangerous",
+      "en": "Dangerous",
+      "bn": "বিপজ্জনক",
+      "exampleEn": "Crossing the road here is quite dangerous.",
+      "exampleBn": "রাস্তা পার হওয়া এখানে বেশ বিপজ্জনক।"
+    },
+    {
+      "id": "adjectives-different",
+      "en": "Different",
+      "bn": "ভিন্ন",
+      "emoji": "≠",
+      "exampleEn": "Their opinions are completely different.",
+      "exampleBn": "তাদের দুজনের মতামত একেবারে ভিন্ন।"
+    },
+    {
+      "id": "adjectives-difficult",
+      "en": "Difficult",
+      "bn": "কঠিন",
+      "exampleEn": "The math problem seemed quite difficult to him.",
+      "exampleBn": "অঙ্কটি তার কাছে বেশ কঠিন লাগল।"
+    },
+    {
+      "id": "adjectives-dirty",
+      "en": "Dirty",
+      "bn": "নোংরা",
+      "emoji": "🦠",
+      "exampleEn": "The road has become very dirty after the rain.",
+      "exampleBn": "বৃষ্টির পর রাস্তাটা খুব নোংরা হয়ে গেছে।"
+    },
+    {
+      "id": "adjectives-dry",
+      "en": "Dry",
+      "bn": "শুকনো",
+      "emoji": "☀️",
+      "exampleEn": "The clothes have become dry in the sun.",
+      "exampleBn": "রোদে কাপড়গুলো শুকনো হয়ে গেছে।"
+    },
+    {
+      "id": "adjectives-easy",
+      "en": "Easy",
+      "bn": "সহজ",
+      "emoji": "👌",
+      "exampleEn": "The exam questions were quite easy.",
+      "exampleBn": "পরীক্ষার প্রশ্নগুলো বেশ সহজ ছিল।"
+    },
+    {
+      "id": "adjectives-empty",
+      "en": "Empty",
+      "bn": "খালি",
+      "emoji": "⬜",
+      "exampleEn": "The room was completely empty.",
+      "exampleBn": "ঘরটি সম্পূর্ণ খালি ছিল।"
+    },
+    {
+      "id": "adjectives-fast",
+      "en": "Fast",
+      "bn": "দ্রুত",
+      "emoji": "⚡",
+      "exampleEn": "The car was moving very fast on the road.",
+      "exampleBn": "গাড়িটি রাস্তায় খুব দ্রুত চলছিল।"
+    },
+    {
+      "id": "adjectives-full",
+      "en": "Full",
+      "bn": "পূর্ণ",
+      "emoji": "🥣",
+      "exampleEn": "His stomach became full of food.",
+      "exampleBn": "তার পেট খাবারে পূর্ণ হয়ে গেল।"
+    },
+    {
+      "id": "adjectives-funny",
+      "en": "Funny",
+      "bn": "মজার",
+      "emoji": "😂",
+      "exampleEn": "The story was very funny.",
+      "exampleBn": "গল্পটি খুবই মজার ছিল।"
+    },
+    {
+      "id": "adjectives-good",
+      "en": "Good",
+      "bn": "ভালো",
+      "emoji": "👍",
+      "exampleEn": "She did very well in the exam.",
+      "exampleBn": "সে পরীক্ষায় খুব ভালো ফল করেছে।"
+    },
+    {
+      "id": "adjectives-happy",
+      "en": "Happy",
+      "bn": "সুখী",
+      "emoji": "😊",
+      "exampleEn": "The child is very happy after receiving the prize.",
+      "exampleBn": "পুরস্কার পেয়ে শিশুটি খুব সুখী।"
+    },
+    {
+      "id": "adjectives-hard",
+      "en": "Hard",
+      "bn": "শক্ত",
+      "emoji": "🪨",
+      "exampleEn": "The stone was very hard.",
+      "exampleBn": "পাথরটি খুব শক্ত ছিল।"
+    },
+    {
+      "id": "adjectives-heavy",
+      "en": "Heavy",
+      "bn": "ভারী",
+      "emoji": "🏋️",
+      "exampleEn": "The bag felt quite heavy to carry.",
+      "exampleBn": "ব্যাগটি বহন করতে বেশ ভারী লাগল।"
+    },
+    {
+      "id": "adjectives-hot",
+      "en": "Hot",
+      "bn": "গরম",
+      "emoji": "🥵",
+      "exampleEn": "Today's weather is very hot.",
+      "exampleBn": "আজকের আবহাওয়া খুব গরম।"
+    },
+    {
+      "id": "adjectives-kind",
+      "en": "Kind",
+      "bn": "দয়ালু",
+      "emoji": "🤗",
+      "exampleEn": "The neighbor woman is very kind.",
+      "exampleBn": "প্রতিবেশী মহিলাটি খুব দয়ালু।"
+    },
+    {
+      "id": "adjectives-long",
+      "en": "Long",
+      "bn": "দীর্ঘ",
+      "emoji": "📏",
+      "exampleEn": "She wrote a long letter.",
+      "exampleBn": "সে একটি দীর্ঘ চিঠি লিখল।"
+    },
+    {
+      "id": "adjectives-loud",
+      "en": "Loud",
+      "bn": "উচ্চস্বর",
+      "emoji": "🔊",
+      "exampleEn": "A loud noise of cars could be heard on the road.",
+      "exampleBn": "রাস্তায় গাড়ির উচ্চস্বর শোনা যাচ্ছিল।"
+    },
+    {
+      "id": "adjectives-new",
+      "en": "New",
+      "bn": "নতুন",
+      "emoji": "🆕",
+      "exampleEn": "She bought a new dress yesterday.",
+      "exampleBn": "সে গতকাল একটি নতুন জামা কিনল।"
+    },
+    {
+      "id": "adjectives-old",
+      "en": "Old",
+      "bn": "পুরনো",
+      "emoji": "🧓",
+      "exampleEn": "This house is very old.",
+      "exampleBn": "এই বাড়িটি অনেক পুরনো।"
+    },
+    {
+      "id": "adjectives-quiet",
+      "en": "Quiet",
+      "bn": "শান্ত",
+      "emoji": "🤫",
+      "exampleEn": "The whole area becomes quiet at night.",
+      "exampleBn": "রাতে পুরো এলাকা শান্ত হয়ে যায়।"
+    },
+    {
+      "id": "adjectives-right",
+      "en": "Right",
+      "bn": "সঠিক",
+      "emoji": "➡️",
+      "exampleEn": "She gave the right answer to all the questions in the exam.",
+      "exampleBn": "সে পরীক্ষায় সব প্রশ্নের সঠিক উত্তর দিল।"
+    },
+    {
+      "id": "adjectives-round",
+      "en": "Round",
+      "bn": "গোলাকার",
+      "exampleEn": "The ball is completely round.",
+      "exampleBn": "বলটি সম্পূর্ণ গোলাকার।"
+    },
+    {
+      "id": "adjectives-sad",
+      "en": "Sad",
+      "bn": "দুঃখিত",
+      "emoji": "😢",
+      "exampleEn": "She felt sad when her friend left.",
+      "exampleBn": "বন্ধু চলে যাওয়ায় সে দুঃখিত হলো।"
+    },
+    {
+      "id": "adjectives-safe",
+      "en": "Safe",
+      "bn": "নিরাপদ",
+      "exampleEn": "This area is quite safe at night.",
+      "exampleBn": "এই এলাকা রাতে বেশ নিরাপদ।"
+    },
+    {
+      "id": "adjectives-same",
+      "en": "Same",
+      "bn": "একই",
+      "emoji": "🟰",
+      "exampleEn": "Both of their shirts are the same color.",
+      "exampleBn": "তাদের দুজনের জামা একই রঙের।"
+    },
+    {
+      "id": "adjectives-short",
+      "en": "Short",
+      "bn": "খাটো",
+      "emoji": "📌",
+      "exampleEn": "The boy is short for his age.",
+      "exampleBn": "ছেলেটি তার বয়সের তুলনায় খাটো।"
+    },
+    {
+      "id": "adjectives-slow",
+      "en": "Slow",
+      "bn": "ধীর",
+      "emoji": "🐢",
+      "exampleEn": "The turtle was walking at a slow pace.",
+      "exampleBn": "কচ্ছপটি ধীর গতিতে হাঁটছিল।"
+    },
+    {
+      "id": "adjectives-small",
+      "en": "Small",
+      "bn": "ছোট",
+      "emoji": "🐜",
+      "exampleEn": "She has a small little sister.",
+      "exampleBn": "তার একটি ছোট বোন আছে।"
+    },
+    {
+      "id": "adjectives-soft",
+      "en": "Soft",
+      "bn": "নরম",
+      "emoji": "🧸",
+      "exampleEn": "The pillow felt very soft.",
+      "exampleBn": "বালিশটি খুব নরম লাগছিল।"
+    },
+    {
+      "id": "adjectives-sour",
+      "en": "Sour",
+      "bn": "টক",
+      "exampleEn": "The lemon tasted very sour.",
+      "exampleBn": "লেবুটি খেতে খুব টক লাগল।"
+    },
+    {
+      "id": "adjectives-sweet",
+      "en": "Sweet",
+      "bn": "মিষ্টি",
+      "emoji": "🍬",
+      "exampleEn": "The mango tasted very sweet.",
+      "exampleBn": "আমটি খেতে খুব মিষ্টি লাগল।"
+    },
+    {
+      "id": "adjectives-tall",
+      "en": "Tall",
+      "bn": "লম্বা",
+      "emoji": "🦒",
+      "exampleEn": "Her father is quite a tall man.",
+      "exampleBn": "তার বাবা বেশ লম্বা মানুষ।"
+    },
+    {
+      "id": "adjectives-ugly",
+      "en": "Ugly",
+      "bn": "কুৎসিত",
+      "exampleEn": "The old house looked quite ugly.",
+      "exampleBn": "পুরনো বাড়িটি দেখতে বেশ কুৎসিত লাগছিল।"
+    },
+    {
+      "id": "adjectives-warm",
+      "en": "Warm",
+      "bn": "উষ্ণ",
+      "emoji": "☀️",
+      "exampleEn": "The blanket kept her warm.",
+      "exampleBn": "কম্বলটা তাকে উষ্ণ রাখল।"
+    },
+    {
+      "id": "adjectives-wet",
+      "en": "Wet",
+      "bn": "ভেজা",
+      "emoji": "💧",
+      "exampleEn": "His shirt became wet in the rain.",
+      "exampleBn": "বৃষ্টিতে তার জামা ভেজা হয়ে গেছে।"
+    },
+    {
+      "id": "adjectives-wrong",
+      "en": "Wrong",
+      "bn": "ভুল",
+      "exampleEn": "He made a wrong calculation.",
+      "exampleBn": "সে হিসাবে একটি ভুল করে ফেলেছিল।"
+    },
+    {
+      "id": "adjectives-young",
+      "en": "Young",
+      "bn": "তরুণ",
+      "emoji": "👶",
+      "exampleEn": "He is still quite a young man.",
+      "exampleBn": "সে এখনো বেশ তরুণ একজন মানুষ।"
+    }
+  ]
+}

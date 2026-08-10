@@ -1,0 +1,228 @@
+{
+  "categoryId": "positions",
+  "words": [
+    {
+      "id": "positions-after",
+      "en": "After",
+      "bn": "পরে",
+      "emoji": "➡️",
+      "exampleEn": "He went for a short walk after eating.",
+      "exampleBn": "খাওয়ার পরে সে একটু হাঁটতে গেল।"
+    },
+    {
+      "id": "positions-again",
+      "en": "Again",
+      "bn": "আবার",
+      "emoji": "🔁",
+      "exampleEn": "She tried again after making a mistake.",
+      "exampleBn": "সে ভুল করার পর আবার চেষ্টা করল।"
+    },
+    {
+      "id": "positions-all",
+      "en": "All",
+      "bn": "সব",
+      "emoji": "♾️",
+      "exampleEn": "She put away all her toys.",
+      "exampleBn": "সে তার সব খেলনা গুছিয়ে রাখল।"
+    },
+    {
+      "id": "positions-before",
+      "en": "Before",
+      "bn": "আগে",
+      "emoji": "⬅️",
+      "exampleEn": "She brushes her teeth before going to sleep.",
+      "exampleBn": "ঘুমানোর আগে সে দাঁত মাজে।"
+    },
+    {
+      "id": "positions-down",
+      "en": "Down",
+      "bn": "নিচে",
+      "emoji": "⬇️",
+      "exampleEn": "The ball rolled down the stairs.",
+      "exampleBn": "বলটি সিঁড়ি থেকে নিচে গড়িয়ে পড়ল।"
+    },
+    {
+      "id": "positions-far",
+      "en": "Far",
+      "bn": "দূরে",
+      "emoji": "📍",
+      "exampleEn": "His office is quite far from home.",
+      "exampleBn": "তার অফিস বাড়ি থেকে অনেক দূরে।"
+    },
+    {
+      "id": "positions-few",
+      "en": "Few",
+      "bn": "কয়েকটি",
+      "emoji": "🤏",
+      "exampleEn": "She had only a few books in her hand.",
+      "exampleBn": "তার হাতে মাত্র কয়েকটি বই ছিল।"
+    },
+    {
+      "id": "positions-front",
+      "en": "Front",
+      "bn": "সামনে",
+      "emoji": "➡️",
+      "exampleEn": "She stood in front of the class and spoke.",
+      "exampleBn": "সে ক্লাসের সামনে দাঁড়িয়ে কথা বলল।"
+    },
+    {
+      "id": "positions-here",
+      "en": "Here",
+      "bn": "এখানে",
+      "exampleEn": "You can sit here and wait.",
+      "exampleBn": "তুমি এখানে বসে অপেক্ষা করতে পারো।"
+    },
+    {
+      "id": "positions-how",
+      "en": "How",
+      "bn": "কীভাবে",
+      "emoji": "❔",
+      "exampleEn": "She wanted to learn how to make bread.",
+      "exampleBn": "সে শিখতে চাইল কীভাবে রুটি বানাতে হয়।"
+    },
+    {
+      "id": "positions-in",
+      "en": "In",
+      "bn": "ভিতরে",
+      "exampleEn": "The book is kept inside the bag.",
+      "exampleBn": "বইটি ব্যাগের ভিতরে রাখা আছে।"
+    },
+    {
+      "id": "positions-left",
+      "en": "Left",
+      "bn": "বাম",
+      "emoji": "⬅️",
+      "exampleEn": "You will turn left at the next corner.",
+      "exampleBn": "পরের মোড়ে তুমি বামে ঘুরে যাবে।"
+    },
+    {
+      "id": "positions-less",
+      "en": "Less",
+      "bn": "কম",
+      "emoji": "📉",
+      "exampleEn": "It has rained less this month than before.",
+      "exampleBn": "এই মাসে বৃষ্টি গতবারের চেয়ে কম হয়েছে।"
+    },
+    {
+      "id": "positions-many",
+      "en": "Many",
+      "bn": "অনেক",
+      "emoji": "➕",
+      "exampleEn": "Many people had gathered at the fair.",
+      "exampleBn": "মেলায় অনেক মানুষ জড়ো হয়েছিল।"
+    },
+    {
+      "id": "positions-more",
+      "en": "More",
+      "bn": "আরও",
+      "emoji": "📈",
+      "exampleEn": "The child asked for some more food.",
+      "exampleBn": "শিশুটি আরও কিছু খাবার চাইল।"
+    },
+    {
+      "id": "positions-near",
+      "en": "Near",
+      "bn": "কাছে",
+      "emoji": "📍",
+      "exampleEn": "Their house is located near the school.",
+      "exampleBn": "তাদের বাড়ি স্কুলের কাছে অবস্থিত।"
+    },
+    {
+      "id": "positions-out",
+      "en": "Out",
+      "bn": "বাইরে",
+      "exampleEn": "He went out to play.",
+      "exampleBn": "সে খেলতে বাইরে চলে গেল।"
+    },
+    {
+      "id": "positions-some",
+      "en": "Some",
+      "bn": "কিছু",
+      "exampleEn": "He lent his friend some money.",
+      "exampleBn": "সে বন্ধুকে কিছু টাকা ধার দিল।"
+    },
+    {
+      "id": "positions-that",
+      "en": "That",
+      "bn": "ওই",
+      "exampleEn": "That house belongs to my uncle.",
+      "exampleBn": "ওই বাড়িটি আমার চাচার।"
+    },
+    {
+      "id": "positions-there",
+      "en": "There",
+      "bn": "সেখানে",
+      "exampleEn": "He was standing there waiting for us.",
+      "exampleBn": "সে সেখানে দাঁড়িয়ে আমাদের জন্য অপেক্ষা করছিল।"
+    },
+    {
+      "id": "positions-these",
+      "en": "These",
+      "bn": "এইগুলো",
+      "exampleEn": "These are pictures she drew herself.",
+      "exampleBn": "এইগুলো তার নিজের হাতে আঁকা ছবি।"
+    },
+    {
+      "id": "positions-this",
+      "en": "This",
+      "bn": "এই",
+      "exampleEn": "This book is her favorite.",
+      "exampleBn": "এই বইটি তার সবচেয়ে প্রিয়।"
+    },
+    {
+      "id": "positions-those",
+      "en": "Those",
+      "bn": "ওইগুলো",
+      "exampleEn": "Those are my childhood toys.",
+      "exampleBn": "ওইগুলো আমার ছোটবেলার খেলনা।"
+    },
+    {
+      "id": "positions-up",
+      "en": "Up",
+      "bn": "উপরে",
+      "emoji": "⬆️",
+      "exampleEn": "The bird flew up into the tree.",
+      "exampleBn": "পাখিটি গাছের উপরে উড়ে গেল।"
+    },
+    {
+      "id": "positions-what",
+      "en": "What",
+      "bn": "কী",
+      "emoji": "❓",
+      "exampleEn": "She wanted to know what he was doing now.",
+      "exampleBn": "তুমি এখন কী করছ জানতে চাইল সে।"
+    },
+    {
+      "id": "positions-when",
+      "en": "When",
+      "bn": "কখন",
+      "emoji": "⏰",
+      "exampleEn": "Mother asked when he would return home.",
+      "exampleBn": "তুমি কখন বাড়ি ফিরবে জিজ্ঞাসা করল মা।"
+    },
+    {
+      "id": "positions-where",
+      "en": "Where",
+      "bn": "কোথায়",
+      "emoji": "📍",
+      "exampleEn": "He was asked where he was going.",
+      "exampleBn": "তুমি কোথায় যাচ্ছ জিজ্ঞাসা করা হলো।"
+    },
+    {
+      "id": "positions-who",
+      "en": "Who",
+      "bn": "কে",
+      "emoji": "👤",
+      "exampleEn": "She asked who was standing outside the door.",
+      "exampleBn": "দরজার বাইরে কে দাঁড়িয়ে আছে জিজ্ঞাসা করল সে।"
+    },
+    {
+      "id": "positions-why",
+      "en": "Why",
+      "bn": "কেন",
+      "emoji": "🤔",
+      "exampleEn": "He wanted to know why the bus was late.",
+      "exampleBn": "সে জানতে চাইল বাসটি কেন দেরি করছে।"
+    }
+  ]
+}

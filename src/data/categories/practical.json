@@ -1,0 +1,705 @@
+{
+  "categoryId": "practical",
+  "words": [
+    {
+      "id": "practical-allowance",
+      "en": "Allowance",
+      "bn": "ভাতা",
+      "exampleEn": "She saves her monthly allowance.",
+      "exampleBn": "সে তার মাসিক ভাতা জমিয়ে রাখে।"
+    },
+    {
+      "id": "practical-answer-key",
+      "en": "Answer key",
+      "bn": "উত্তরপত্র",
+      "exampleEn": "The teacher checked the papers against the answer key.",
+      "exampleBn": "শিক্ষক উত্তরপত্র মিলিয়ে খাতা দেখলেন।"
+    },
+    {
+      "id": "practical-back-seat",
+      "en": "Back seat",
+      "bn": "পিছনের সিট",
+      "exampleEn": "The children sat in the back seat of the car.",
+      "exampleBn": "বাচ্চারা গাড়ির পিছনের সিটে বসল।"
+    },
+    {
+      "id": "practical-balcony",
+      "en": "Balcony",
+      "bn": "বারান্দা",
+      "emoji": "🏠",
+      "exampleEn": "She was sitting on the balcony drinking tea.",
+      "exampleBn": "সে বারান্দায় বসে চা খাচ্ছিল।"
+    },
+    {
+      "id": "practical-basement",
+      "en": "Basement",
+      "bn": "বেসমেন্ট",
+      "emoji": "🏠",
+      "exampleEn": "They keep old items in the basement.",
+      "exampleBn": "তারা বেসমেন্টে পুরনো জিনিস রাখে।"
+    },
+    {
+      "id": "practical-basketball-court",
+      "en": "Basketball court",
+      "bn": "বাস্কেটবল মাঠ",
+      "exampleEn": "The boys are practicing on the basketball court.",
+      "exampleBn": "ছেলেরা বাস্কেটবল মাঠে অনুশীলন করছে।"
+    },
+    {
+      "id": "practical-bus-driver",
+      "en": "Bus driver",
+      "bn": "বাসচালক",
+      "exampleEn": "The bus driver was driving the bus carefully.",
+      "exampleBn": "বাসচালক সাবধানে বাসটি চালাচ্ছিলেন।"
+    },
+    {
+      "id": "practical-capital-letter",
+      "en": "Capital letter",
+      "bn": "বড় হাতের অক্ষর",
+      "exampleEn": "The first letter of a name should be written in a capital letter.",
+      "exampleBn": "নামের প্রথম অক্ষর বড় হাতের অক্ষরে লিখতে হয়।"
+    },
+    {
+      "id": "practical-carpet",
+      "en": "Carpet",
+      "bn": "কার্পেট",
+      "exampleEn": "A red carpet was laid on the room's floor.",
+      "exampleBn": "ঘরের মেঝেতে একটি লাল কার্পেট বিছানো ছিল।"
+    },
+    {
+      "id": "practical-cash",
+      "en": "Cash",
+      "bn": "নগদ টাকা",
+      "exampleEn": "He took cash to buy the items.",
+      "exampleBn": "সে জিনিস কেনার জন্য নগদ টাকা নিয়ে গেল।"
+    },
+    {
+      "id": "practical-cave",
+      "en": "Cave",
+      "bn": "গুহা",
+      "emoji": "🕳️",
+      "exampleEn": "They found a cave inside the mountain.",
+      "exampleBn": "তারা পাহাড়ের ভিতরে একটি গুহা খুঁজে পেল।"
+    },
+    {
+      "id": "practical-change-money",
+      "en": "Change money",
+      "bn": "ভাংতি টাকা",
+      "exampleEn": "The shopkeeper returned his change money.",
+      "exampleBn": "দোকানদার তাকে ভাংতি টাকা ফেরত দিলেন।"
+    },
+    {
+      "id": "practical-choice",
+      "en": "Choice",
+      "bn": "পছন্দ",
+      "exampleEn": "He had two good choices in front of him.",
+      "exampleBn": "তার সামনে দুটি ভালো পছন্দ ছিল।"
+    },
+    {
+      "id": "practical-clothesline",
+      "en": "Clothesline",
+      "bn": "কাপড় শুকানোর দড়ি",
+      "emoji": "👕",
+      "exampleEn": "The clothes were hung on the clothesline.",
+      "exampleBn": "কাপড়গুলো কাপড় শুকানোর দড়িতে ঝুলিয়ে দেওয়া হলো।"
+    },
+    {
+      "id": "practical-collar",
+      "en": "Collar",
+      "bn": "কলার",
+      "exampleEn": "The shirt's collar was a bit crooked.",
+      "exampleBn": "শার্টের কলারটা একটু বাঁকা ছিল।"
+    },
+    {
+      "id": "practical-comics",
+      "en": "Comics",
+      "bn": "কমিকস",
+      "exampleEn": "The boy loves reading comics in his free time.",
+      "exampleBn": "ছেলেটি অবসর সময়ে কমিকস পড়তে ভালোবাসে।"
+    },
+    {
+      "id": "practical-comma",
+      "en": "Comma",
+      "bn": "কমা",
+      "exampleEn": "She added a comma to the sentence.",
+      "exampleBn": "সে বাক্যে একটি কমা যোগ করল।"
+    },
+    {
+      "id": "practical-compass",
+      "en": "Compass",
+      "bn": "কম্পাস",
+      "emoji": "🧭",
+      "exampleEn": "They used a compass to find the way in the forest.",
+      "exampleBn": "তারা জঙ্গলে পথ খুঁজতে একটি কম্পাস ব্যবহার করল।"
+    },
+    {
+      "id": "practical-curtain",
+      "en": "Curtain",
+      "bn": "পর্দা",
+      "emoji": "🪟",
+      "exampleEn": "She drew the window curtain.",
+      "exampleBn": "সে জানালার পর্দা টেনে দিল।"
+    },
+    {
+      "id": "practical-desert",
+      "en": "Desert",
+      "bn": "মরুভূমি",
+      "emoji": "🏜️",
+      "exampleEn": "It gets extremely hot in the desert during the day.",
+      "exampleBn": "মরুভূমিতে দিনে প্রচণ্ড গরম পড়ে।"
+    },
+    {
+      "id": "practical-doormat",
+      "en": "Doormat",
+      "bn": "দরজার মাদুর",
+      "emoji": "🟫",
+      "exampleEn": "She wiped her feet on the doormat.",
+      "exampleBn": "সে দরজার মাদুরে পা মুছল।"
+    },
+    {
+      "id": "practical-drain",
+      "en": "Drain",
+      "bn": "নর্দমা",
+      "exampleEn": "The rainwater drained out through the drain.",
+      "exampleBn": "বৃষ্টির পানি নর্দমা দিয়ে বের হয়ে গেল।"
+    },
+    {
+      "id": "practical-drawer-handle",
+      "en": "Drawer handle",
+      "bn": "ড্রয়ারের হাতল",
+      "exampleEn": "The drawer handle has broken.",
+      "exampleBn": "ড্রয়ারের হাতলটি ভেঙে গেছে।"
+    },
+    {
+      "id": "practical-driveway",
+      "en": "Driveway",
+      "bn": "গাড়ি রাখার পথ",
+      "exampleEn": "The driveway should be kept clear.",
+      "exampleBn": "গাড়ি রাখার পথ পরিষ্কার রাখা উচিত।"
+    },
+    {
+      "id": "practical-east",
+      "en": "East",
+      "bn": "পূর্ব",
+      "exampleEn": "The sun rises from the east.",
+      "exampleBn": "সূর্য পূর্ব দিক থেকে ওঠে।"
+    },
+    {
+      "id": "practical-fan-switch",
+      "en": "Fan switch",
+      "bn": "পাখার সুইচ",
+      "exampleEn": "She turned on the fan switch on the wall.",
+      "exampleBn": "সে দেয়ালে পাখার সুইচ অন করল।"
+    },
+    {
+      "id": "practical-file",
+      "en": "File",
+      "bn": "নথিপত্র",
+      "exampleEn": "The important file is kept in this cupboard.",
+      "exampleBn": "গুরুত্বপূর্ণ নথিপত্র এই আলমারিতে রাখা আছে।"
+    },
+    {
+      "id": "practical-folder",
+      "en": "Folder",
+      "bn": "ফোল্ডার",
+      "exampleEn": "She organized the documents in a folder.",
+      "exampleBn": "সে কাগজপত্র একটি ফোল্ডারে গুছিয়ে রাখল।"
+    },
+    {
+      "id": "practical-front-seat",
+      "en": "Front seat",
+      "bn": "সামনের সিট",
+      "exampleEn": "She sat in the front seat of the car.",
+      "exampleBn": "সে গাড়ির সামনের সিটে বসল।"
+    },
+    {
+      "id": "practical-garbage-bag",
+      "en": "Garbage bag",
+      "bn": "আবর্জনার ব্যাগ",
+      "exampleEn": "She put the garbage bag outside.",
+      "exampleBn": "সে আবর্জনার ব্যাগটি বাইরে রেখে এলো।"
+    },
+    {
+      "id": "practical-hallway",
+      "en": "Hallway",
+      "bn": "করিডোর",
+      "exampleEn": "He walked through the hallway to class.",
+      "exampleBn": "সে করিডোর দিয়ে হেঁটে ক্লাসে গেল।"
+    },
+    {
+      "id": "practical-hanger",
+      "en": "Hanger",
+      "bn": "হ্যাঙ্গার",
+      "emoji": "🪝",
+      "exampleEn": "She hung the dress on a hanger.",
+      "exampleBn": "সে জামাটি হ্যাঙ্গারে ঝুলিয়ে রাখল।"
+    },
+    {
+      "id": "practical-headlight",
+      "en": "Headlight",
+      "bn": "সামনের বাতি",
+      "emoji": "💡",
+      "exampleEn": "The headlight of the car was turned on at night.",
+      "exampleBn": "রাতে গাড়ির সামনের বাতি জ্বালানো হলো।"
+    },
+    {
+      "id": "practical-island",
+      "en": "Island",
+      "bn": "দ্বীপ",
+      "emoji": "🏝️",
+      "exampleEn": "They went to a small island by boat.",
+      "exampleBn": "তারা নৌকায় করে একটি ছোট দ্বীপে গেল।"
+    },
+    {
+      "id": "practical-laundry-basket",
+      "en": "Laundry basket",
+      "bn": "কাপড়ের ঝুড়ি",
+      "exampleEn": "Using a laundry basket keeps the room tidy.",
+      "exampleBn": "কাপড়ের ঝুড়ি ব্যবহার করলে ঘর গোছানো থাকে।"
+    },
+    {
+      "id": "practical-library-card",
+      "en": "Library card",
+      "bn": "গ্রন্থাগার কার্ড",
+      "exampleEn": "She needs a library card to borrow books.",
+      "exampleBn": "বই ধার নিতে তার একটি গ্রন্থাগার কার্ড লাগে।"
+    },
+    {
+      "id": "practical-magazine",
+      "en": "Magazine",
+      "bn": "পত্রিকা",
+      "exampleEn": "She read a magazine while waiting.",
+      "exampleBn": "সে অপেক্ষার সময় একটি পত্রিকা পড়ল।"
+    },
+    {
+      "id": "practical-mailbox",
+      "en": "Mailbox",
+      "bn": "ডাকবাক্স",
+      "emoji": "📬",
+      "exampleEn": "She took the letter out of the mailbox.",
+      "exampleBn": "সে ডাকবাক্স থেকে চিঠি বের করল।"
+    },
+    {
+      "id": "practical-medicine-box",
+      "en": "Medicine box",
+      "bn": "ওষুধের বাক্স",
+      "exampleEn": "The medicine box is kept in the cupboard.",
+      "exampleBn": "ওষুধের বাক্সটি আলমারিতে রাখা আছে।"
+    },
+    {
+      "id": "practical-memory",
+      "en": "Memory",
+      "bn": "স্মৃতি",
+      "emoji": "🧠",
+      "exampleEn": "That trip is her favorite memory.",
+      "exampleBn": "সেই ভ্রমণটি তার প্রিয় স্মৃতি।"
+    },
+    {
+      "id": "practical-menu",
+      "en": "Menu",
+      "bn": "মেনু",
+      "exampleEn": "She chose the food by looking at the menu at the restaurant.",
+      "exampleBn": "সে রেস্তোরাঁয় মেনু দেখে খাবার বেছে নিল।"
+    },
+    {
+      "id": "practical-mistake",
+      "en": "Mistake",
+      "bn": "ভুল",
+      "exampleEn": "He made a small mistake in the math problem.",
+      "exampleBn": "সে অঙ্কে একটি ছোট ভুল করেছিল।"
+    },
+    {
+      "id": "practical-newspaper",
+      "en": "Newspaper",
+      "bn": "সংবাদপত্র",
+      "exampleEn": "Father reads the newspaper every morning.",
+      "exampleBn": "বাবা প্রতিদিন সকালে সংবাদপত্র পড়েন।"
+    },
+    {
+      "id": "practical-north",
+      "en": "North",
+      "bn": "উত্তর",
+      "exampleEn": "The birds fly toward the north in winter.",
+      "exampleBn": "পাখিগুলো শীতে উত্তর দিকে উড়ে যায়।"
+    },
+    {
+      "id": "practical-order",
+      "en": "Order",
+      "bn": "অর্ডার",
+      "exampleEn": "She gave her order to the waiter.",
+      "exampleBn": "সে ওয়েটারকে তার অর্ডার দিল।"
+    },
+    {
+      "id": "practical-page-number",
+      "en": "Page number",
+      "bn": "পাতা নম্বর",
+      "exampleEn": "The page number is written at the bottom of the book.",
+      "exampleBn": "বইয়ের নিচে পাতা নম্বর লেখা থাকে।"
+    },
+    {
+      "id": "practical-period",
+      "en": "Period",
+      "bn": "দাঁড়ি",
+      "exampleEn": "A period must be placed at the end of every sentence.",
+      "exampleBn": "প্রতিটি বাক্যের শেষে একটি দাঁড়ি বসাতে হয়।"
+    },
+    {
+      "id": "practical-platform",
+      "en": "Platform",
+      "bn": "প্ল্যাটফর্ম",
+      "emoji": "🚉",
+      "exampleEn": "She was standing on the platform waiting for the train.",
+      "exampleBn": "সে প্ল্যাটফর্মে দাঁড়িয়ে ট্রেনের অপেক্ষা করছিল।"
+    },
+    {
+      "id": "practical-pocket-money",
+      "en": "Pocket money",
+      "bn": "হাতখরচ",
+      "exampleEn": "Father gives him pocket money every week.",
+      "exampleBn": "বাবা প্রতি সপ্তাহে তাকে হাতখরচ দেন।"
+    },
+    {
+      "id": "practical-pond",
+      "en": "Pond",
+      "bn": "পুকুর",
+      "emoji": "💧",
+      "exampleEn": "There is a small pond beside the house.",
+      "exampleBn": "বাড়ির পাশে একটি ছোট পুকুর আছে।"
+    },
+    {
+      "id": "practical-porch",
+      "en": "Porch",
+      "bn": "সামনের বারান্দা",
+      "emoji": "🏠",
+      "exampleEn": "They sit on the porch and chat in the evening.",
+      "exampleBn": "তারা সন্ধ্যায় সামনের বারান্দায় বসে গল্প করে।"
+    },
+    {
+      "id": "practical-practice",
+      "en": "Practice",
+      "bn": "অনুশীলন",
+      "emoji": "🏋️",
+      "exampleEn": "She practices the piano every day.",
+      "exampleBn": "সে প্রতিদিন পিয়ানো অনুশীলন করে।"
+    },
+    {
+      "id": "practical-purse",
+      "en": "Purse",
+      "bn": "পার্স",
+      "exampleEn": "There was some money in her purse.",
+      "exampleBn": "তার পার্সে কিছু টাকা ছিল।"
+    },
+    {
+      "id": "practical-question-mark",
+      "en": "Question mark",
+      "bn": "প্রশ্নবোধক চিহ্ন",
+      "exampleEn": "A question mark was placed at the end of the sentence.",
+      "exampleBn": "বাক্যের শেষে একটি প্রশ্নবোধক চিহ্ন বসানো হলো।"
+    },
+    {
+      "id": "practical-raincoat-hood",
+      "en": "Raincoat hood",
+      "bn": "রেইনকোটের হুড",
+      "exampleEn": "The raincoat hood keeps the head dry in the rain.",
+      "exampleBn": "বৃষ্টিতে রেইনকোটের হুড মাথা শুকনো রাখে।"
+    },
+    {
+      "id": "practical-reason",
+      "en": "Reason",
+      "bn": "কারণ",
+      "exampleEn": "She explained the reason for being late.",
+      "exampleBn": "সে দেরি করার কারণ ব্যাখ্যা করল।"
+    },
+    {
+      "id": "practical-receipt",
+      "en": "Receipt",
+      "bn": "রসিদ",
+      "exampleEn": "The shopkeeper gave him a receipt.",
+      "exampleBn": "দোকানদার তাকে একটি রসিদ দিলেন।"
+    },
+    {
+      "id": "practical-recipe",
+      "en": "Recipe",
+      "bn": "রেসিপি",
+      "exampleEn": "Mother cooked following a new recipe.",
+      "exampleBn": "মা নতুন একটি রেসিপি অনুযায়ী রান্না করলেন।"
+    },
+    {
+      "id": "practical-recycle-bin",
+      "en": "Recycle bin",
+      "bn": "পুনর্ব্যবহারের ঝুড়ি",
+      "emoji": "♻️",
+      "exampleEn": "The papers were thrown into the recycle bin.",
+      "exampleBn": "কাগজগুলো পুনর্ব্যবহারের ঝুড়িতে ফেলা হলো।"
+    },
+    {
+      "id": "practical-reflection",
+      "en": "Reflection",
+      "bn": "প্রতিফলন",
+      "exampleEn": "The moon's reflection was seen on the water.",
+      "exampleBn": "পানির উপর চাঁদের প্রতিফলন দেখা গেল।"
+    },
+    {
+      "id": "practical-review",
+      "en": "Review",
+      "bn": "পর্যালোচনা",
+      "exampleEn": "The teacher reviewed the lesson before the exam.",
+      "exampleBn": "শিক্ষক পরীক্ষার আগে পাঠ পর্যালোচনা করলেন।"
+    },
+    {
+      "id": "practical-rug",
+      "en": "Rug",
+      "bn": "কার্পেট",
+      "emoji": "🟫",
+      "exampleEn": "There is a soft rug on the floor.",
+      "exampleBn": "মেঝেতে একটি নরম কার্পেট আছে।"
+    },
+    {
+      "id": "practical-shadow",
+      "en": "Shadow",
+      "bn": "ছায়া",
+      "emoji": "🌑",
+      "exampleEn": "A long shadow fell under the tree.",
+      "exampleBn": "গাছের নিচে একটি লম্বা ছায়া পড়েছিল।"
+    },
+    {
+      "id": "practical-shoe-lace",
+      "en": "Shoe lace",
+      "bn": "জুতার ফিতা",
+      "exampleEn": "She tied her shoe lace because it had come undone.",
+      "exampleBn": "জুতার ফিতা খুলে গেছে বলে সে বাঁধল।"
+    },
+    {
+      "id": "practical-shopping-cart",
+      "en": "Shopping cart",
+      "bn": "কেনাকাটার ঠেলাগাড়ি",
+      "emoji": "🛒",
+      "exampleEn": "She placed the items in the shopping cart.",
+      "exampleBn": "সে কেনাকাটার ঠেলাগাড়িতে জিনিসপত্র রাখল।"
+    },
+    {
+      "id": "practical-sidewalk",
+      "en": "Sidewalk",
+      "bn": "ফুটপাত",
+      "emoji": "🚶",
+      "exampleEn": "People were walking along the sidewalk.",
+      "exampleBn": "মানুষ ফুটপাত দিয়ে হাঁটছিল।"
+    },
+    {
+      "id": "practical-sleeve",
+      "en": "Sleeve",
+      "bn": "হাতা",
+      "exampleEn": "He rolled up his shirt sleeve.",
+      "exampleBn": "সে শার্টের হাতা গুটিয়ে নিল।"
+    },
+    {
+      "id": "practical-small-letter",
+      "en": "Small letter",
+      "bn": "ছোট হাতের অক্ষর",
+      "exampleEn": "The rest of the letters were written in small letters.",
+      "exampleBn": "বাকি অক্ষরগুলো ছোট হাতের অক্ষরে লেখা হলো।"
+    },
+    {
+      "id": "practical-snowflake",
+      "en": "Snowflake",
+      "bn": "তুষারকণা",
+      "exampleEn": "Tiny snowflakes were falling from the sky.",
+      "exampleBn": "আকাশ থেকে ছোট ছোট তুষারকণা পড়ছিল।"
+    },
+    {
+      "id": "practical-snowman",
+      "en": "Snowman",
+      "bn": "তুষারমানব",
+      "exampleEn": "The children made a snowman out of snow.",
+      "exampleBn": "বাচ্চারা বরফ দিয়ে একটি তুষারমানব বানাল।"
+    },
+    {
+      "id": "practical-soap-bottle",
+      "en": "Soap bottle",
+      "bn": "সাবানের বোতল",
+      "exampleEn": "A soap bottle is kept in the bathroom.",
+      "exampleBn": "বাথরুমে একটি সাবানের বোতল রাখা আছে।"
+    },
+    {
+      "id": "practical-soap-dish",
+      "en": "Soap dish",
+      "bn": "সাবানদানি",
+      "exampleEn": "The soap is kept in the soap dish.",
+      "exampleBn": "সাবানটি সাবানদানিতে রাখা আছে।"
+    },
+    {
+      "id": "practical-soccer-field",
+      "en": "Soccer field",
+      "bn": "ফুটবল মাঠ",
+      "exampleEn": "They play on the soccer field every afternoon.",
+      "exampleBn": "তারা প্রতি বিকেলে ফুটবল মাঠে খেলে।"
+    },
+    {
+      "id": "practical-sock",
+      "en": "Sock",
+      "bn": "মোজা",
+      "emoji": "🧦",
+      "exampleEn": "One of his socks is missing.",
+      "exampleBn": "তার একটি মোজা হারিয়ে গেছে।"
+    },
+    {
+      "id": "practical-south",
+      "en": "South",
+      "bn": "দক্ষিণ",
+      "exampleEn": "They felt the wind coming from the south.",
+      "exampleBn": "তারা দক্ষিণ দিক থেকে বাতাস অনুভব করল।"
+    },
+    {
+      "id": "practical-store-clerk",
+      "en": "Store clerk",
+      "bn": "দোকান কর্মচারী",
+      "exampleEn": "The store clerk helped him find the item.",
+      "exampleBn": "দোকান কর্মচারী তাকে জিনিস খুঁজতে সাহায্য করল।"
+    },
+    {
+      "id": "practical-storybook",
+      "en": "Storybook",
+      "bn": "গল্পের বই",
+      "exampleEn": "Grandmother gave her a storybook.",
+      "exampleBn": "দাদি তাকে একটি গল্পের বই দিলেন।"
+    },
+    {
+      "id": "practical-stream",
+      "en": "Stream",
+      "bn": "ঝর্ণা",
+      "emoji": "💧",
+      "exampleEn": "A beautiful stream flows beside the hill.",
+      "exampleBn": "পাহাড়ের পাশ দিয়ে একটি সুন্দর ঝর্ণা বয়ে যায়।"
+    },
+    {
+      "id": "practical-sunrise",
+      "en": "Sunrise",
+      "bn": "সূর্যোদয়",
+      "emoji": "🌅",
+      "exampleEn": "They watched the sunrise sitting on the mountain.",
+      "exampleBn": "তারা পাহাড়ে বসে সূর্যোদয় দেখল।"
+    },
+    {
+      "id": "practical-sunset",
+      "en": "Sunset",
+      "bn": "সূর্যাস্ত",
+      "emoji": "🌇",
+      "exampleEn": "They watched the sunset sitting on the beach.",
+      "exampleBn": "সৈকতে বসে তারা সূর্যাস্ত দেখল।"
+    },
+    {
+      "id": "practical-taillight",
+      "en": "Taillight",
+      "bn": "পিছনের বাতি",
+      "emoji": "🔴",
+      "exampleEn": "The car's taillight suddenly stopped working.",
+      "exampleBn": "গাড়ির পিছনের বাতি হঠাৎ নষ্ট হয়ে গেল।"
+    },
+    {
+      "id": "practical-towel-rack",
+      "en": "Towel rack",
+      "bn": "তোয়ালে রাখার তাক",
+      "exampleEn": "There is a towel rack in the bathroom.",
+      "exampleBn": "বাথরুমে একটি তোয়ালে রাখার তাক আছে।"
+    },
+    {
+      "id": "practical-train-track",
+      "en": "Train track",
+      "bn": "রেললাইন",
+      "emoji": "🛤️",
+      "exampleEn": "There is a village beside the train track.",
+      "exampleBn": "রেললাইনের পাশে একটি গ্রাম আছে।"
+    },
+    {
+      "id": "practical-trunk",
+      "en": "Trunk",
+      "bn": "গাড়ির পিছনের বাক্স",
+      "exampleEn": "The bags were put in the trunk of the car.",
+      "exampleBn": "ব্যাগগুলো গাড়ির পিছনের বাক্সে রাখা হলো।"
+    },
+    {
+      "id": "practical-valley",
+      "en": "Valley",
+      "bn": "উপত্যকা",
+      "emoji": "🏞️",
+      "exampleEn": "There is a beautiful valley between the mountains.",
+      "exampleBn": "পাহাড়ের মাঝে সুন্দর একটি উপত্যকা আছে।"
+    },
+    {
+      "id": "practical-volcano",
+      "en": "Volcano",
+      "bn": "আগ্নেয়গিরি",
+      "emoji": "🌋",
+      "exampleEn": "This volcano erupted many years ago.",
+      "exampleBn": "বহু বছর আগে এই আগ্নেয়গিরিটি জেগে উঠেছিল।"
+    },
+    {
+      "id": "practical-wallet",
+      "en": "Wallet",
+      "bn": "ওয়ালেট",
+      "emoji": "👛",
+      "exampleEn": "He put his wallet in his pocket.",
+      "exampleBn": "সে তার ওয়ালেট পকেটে রাখল।"
+    },
+    {
+      "id": "practical-washcloth",
+      "en": "Washcloth",
+      "bn": "গা মোছার কাপড়",
+      "exampleEn": "She uses a washcloth while bathing.",
+      "exampleBn": "সে গোসলের সময় একটি গা মোছার কাপড় ব্যবহার করে।"
+    },
+    {
+      "id": "practical-washroom",
+      "en": "Washroom",
+      "bn": "বাথরুম",
+      "exampleEn": "He went to the washroom to wash his hands.",
+      "exampleBn": "সে হাত ধুতে বাথরুমে গেল।"
+    },
+    {
+      "id": "practical-water-tap",
+      "en": "Water tap",
+      "bn": "পানির কল",
+      "exampleEn": "She forgot to turn off the water tap.",
+      "exampleBn": "পানির কলটি বন্ধ করতে ভুলে গেছে সে।"
+    },
+    {
+      "id": "practical-waterfall",
+      "en": "Waterfall",
+      "bn": "জলপ্রপাত",
+      "emoji": "💦",
+      "exampleEn": "They saw a beautiful waterfall in the mountains.",
+      "exampleBn": "তারা পাহাড়ে একটি সুন্দর জলপ্রপাত দেখল।"
+    },
+    {
+      "id": "practical-west",
+      "en": "West",
+      "bn": "পশ্চিম",
+      "exampleEn": "The sun sets in the west.",
+      "exampleBn": "সূর্য পশ্চিম দিকে অস্ত যায়।"
+    },
+    {
+      "id": "practical-windshield",
+      "en": "Windshield",
+      "bn": "সামনের কাচ",
+      "emoji": "🚗",
+      "exampleEn": "The car's windshield got wet in the rain.",
+      "exampleBn": "বৃষ্টিতে গাড়ির সামনের কাচ ভিজে গেল।"
+    },
+    {
+      "id": "practical-wiper",
+      "en": "Wiper",
+      "bn": "ওয়াইপার",
+      "emoji": "🌧️",
+      "exampleEn": "She turned on the wiper in the rain.",
+      "exampleBn": "সে বৃষ্টির মধ্যে ওয়াইপার চালু করল।"
+    },
+    {
+      "id": "practical-zipper",
+      "en": "Zipper",
+      "bn": "জিপার",
+      "emoji": "🤐",
+      "exampleEn": "The zipper of his jacket got stuck.",
+      "exampleBn": "তার জ্যাকেটের জিপার আটকে গেছে।"
+    }
+  ]
+}

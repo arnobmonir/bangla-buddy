@@ -2,1124 +2,317 @@
   "categoryId": "family",
   "words": [
     {
-      "id": "family-mother",
-      "en": "mother",
-      "bn": "মা",
-      "emoji": "👩",
-      "exampleEn": "I love my mother.",
-      "exampleBn": "আমি আমার মাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-father",
-      "en": "father",
-      "bn": "বাবা",
-      "emoji": "👨",
-      "exampleEn": "I love my father.",
-      "exampleBn": "আমি আমার বাবাকে ভালোবাসি।"
+      "id": "family-aunt",
+      "en": "Aunt",
+      "bn": "খালা/ফুপু",
+      "emoji": "👩‍🦱",
+      "exampleEn": "My aunt has come to visit our house.",
+      "exampleBn": "খালা আমাদের বাসায় বেড়াতে এসেছেন।"
     },
     {
       "id": "family-baby",
-      "en": "baby",
-      "bn": "বাচ্চা",
+      "en": "Baby",
+      "bn": "শিশু",
       "emoji": "👶",
-      "exampleEn": "Where is my baby?",
-      "exampleBn": "আমার বাচ্চা কোথায়?"
-    },
-    {
-      "id": "family-brother",
-      "en": "brother",
-      "bn": "ভাই",
-      "emoji": "👦",
-      "exampleEn": "My brother is kind.",
-      "exampleBn": "আমার ভাই খুব ভালো।"
-    },
-    {
-      "id": "family-sister",
-      "en": "sister",
-      "bn": "বোন",
-      "emoji": "👧",
-      "exampleEn": "I love my sister.",
-      "exampleBn": "আমি আমার বোনকে ভালোবাসি।"
-    },
-    {
-      "id": "family-grandma",
-      "en": "grandmother",
-      "bn": "দাদী",
-      "emoji": "👵",
-      "exampleEn": "This is my grandmother.",
-      "exampleBn": "এটা আমার দাদী।"
-    },
-    {
-      "id": "family-grandpa",
-      "en": "grandfather",
-      "bn": "দাদা",
-      "emoji": "👴",
-      "exampleEn": "Where is my grandfather?",
-      "exampleBn": "আমার দাদা কোথায়?"
-    },
-    {
-      "id": "family-nani",
-      "en": "maternal grandma",
-      "bn": "নানী",
-      "emoji": "👵",
-      "exampleEn": "My maternal grandma is kind.",
-      "exampleBn": "আমার নানী খুব ভালো।"
-    },
-    {
-      "id": "family-nana",
-      "en": "maternal grandpa",
-      "bn": "নানা",
-      "emoji": "👴",
-      "exampleEn": "I love my maternal grandpa.",
-      "exampleBn": "আমি আমার নানাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-uncle",
-      "en": "uncle",
-      "bn": "কাকা",
-      "emoji": "👨‍🦱",
-      "exampleEn": "This is my uncle.",
-      "exampleBn": "এটা আমার কাকা।"
-    },
-    {
-      "id": "family-aunt",
-      "en": "aunt",
-      "bn": "কাকি",
-      "emoji": "👩‍🦱",
-      "exampleEn": "Where is my aunt?",
-      "exampleBn": "আমার কাকি কোথায়?"
-    },
-    {
-      "id": "family-mama",
-      "en": "maternal uncle",
-      "bn": "মামা",
-      "emoji": "👨",
-      "exampleEn": "My maternal uncle is kind.",
-      "exampleBn": "আমার মামা খুব ভালো।"
-    },
-    {
-      "id": "family-mami",
-      "en": "maternal aunt",
-      "bn": "মামি",
-      "emoji": "👩",
-      "exampleEn": "I love my maternal aunt.",
-      "exampleBn": "আমি আমার মামিকে ভালোবাসি।"
-    },
-    {
-      "id": "family-chacha",
-      "en": "paternal uncle",
-      "bn": "চাচা",
-      "emoji": "👨",
-      "exampleEn": "This is my paternal uncle.",
-      "exampleBn": "এটা আমার চাচা।"
-    },
-    {
-      "id": "family-fupu",
-      "en": "paternal aunt",
-      "bn": "চাচি",
-      "emoji": "👩",
-      "exampleEn": "Where is my paternal aunt?",
-      "exampleBn": "আমার চাচি কোথায়?"
-    },
-    {
-      "id": "family-cousin",
-      "en": "cousin",
-      "bn": "কাজিন",
-      "emoji": "🧒",
-      "exampleEn": "My cousin is kind.",
-      "exampleBn": "আমার কাজিন খুব ভালো।"
-    },
-    {
-      "id": "family-friend",
-      "en": "friend",
-      "bn": "বন্ধু",
-      "emoji": "🤝",
-      "exampleEn": "I love my friend.",
-      "exampleBn": "আমি আমার বন্ধুকে ভালোবাসি।"
-    },
-    {
-      "id": "family-neighbor",
-      "en": "neighbor",
-      "bn": "প্রতিবেশী",
-      "emoji": "🏠",
-      "exampleEn": "This is my neighbor.",
-      "exampleBn": "এটা আমার প্রতিবেশী।"
+      "exampleEn": "The baby is sleeping.",
+      "exampleBn": "শিশুটি ঘুমিয়ে আছে।"
     },
     {
       "id": "family-boy",
-      "en": "boy",
+      "en": "Boy",
       "bn": "ছেলে",
       "emoji": "🧒",
-      "exampleEn": "Where is my boy?",
-      "exampleBn": "আমার ছেলে কোথায়?"
+      "exampleEn": "The boy is playing football in the field.",
+      "exampleBn": "ছেলেটি মাঠে ফুটবল খেলছে।"
     },
     {
-      "id": "family-girl",
-      "en": "girl",
-      "bn": "মেয়ে",
-      "emoji": "👧",
-      "exampleEn": "My girl is kind.",
-      "exampleBn": "আমার মেয়ে খুব ভালো।"
-    },
-    {
-      "id": "family-man",
-      "en": "man",
-      "bn": "পুরুষ",
-      "emoji": "👨",
-      "exampleEn": "I love my man.",
-      "exampleBn": "আমি আমার পুরুষকে ভালোবাসি।"
-    },
-    {
-      "id": "family-woman",
-      "en": "woman",
-      "bn": "নারী",
-      "emoji": "👩",
-      "exampleEn": "This is my woman.",
-      "exampleBn": "এটা আমার নারী।"
-    },
-    {
-      "id": "family-family",
-      "en": "family",
-      "bn": "পরিবার",
-      "emoji": "👨‍👩‍👧",
-      "exampleEn": "Where is my family?",
-      "exampleBn": "আমার পরিবার কোথায়?"
+      "id": "family-brother",
+      "en": "Brother",
+      "bn": "ভাই",
+      "emoji": "👦",
+      "exampleEn": "My brother studies in school.",
+      "exampleBn": "আমার ভাই স্কুলে পড়ে।"
     },
     {
       "id": "family-child",
-      "en": "child",
-      "bn": "শিশু",
+      "en": "Child",
+      "bn": "সন্তান",
       "emoji": "🧒",
-      "exampleEn": "My child is kind.",
-      "exampleBn": "আমার শিশু খুব ভালো।"
+      "exampleEn": "They have one child.",
+      "exampleBn": "তাদের একটি সন্তান আছে।"
     },
     {
-      "id": "family-teacher",
-      "en": "teacher",
-      "bn": "শিক্ষক",
-      "emoji": "👩‍🏫",
-      "exampleEn": "I love my teacher.",
-      "exampleBn": "আমি আমার শিক্ষককে ভালোবাসি।"
-    },
-    {
-      "id": "family-doctor",
-      "en": "doctor",
-      "bn": "ডাক্তার",
-      "emoji": "👨‍⚕️",
-      "exampleEn": "This is my doctor.",
-      "exampleBn": "এটা আমার ডাক্তার।"
-    },
-    {
-      "id": "family-nurse",
-      "en": "nurse",
-      "bn": "নার্স",
-      "emoji": "👩‍⚕️",
-      "exampleEn": "Where is my nurse?",
-      "exampleBn": "আমার নার্স কোথায়?"
-    },
-    {
-      "id": "family-driver",
-      "en": "driver",
-      "bn": "চালক",
-      "emoji": "🚗",
-      "exampleEn": "My driver is kind.",
-      "exampleBn": "আমার চালক খুব ভালো।"
-    },
-    {
-      "id": "family-farmer",
-      "en": "farmer",
-      "bn": "কৃষক",
-      "emoji": "👨‍🌾",
-      "exampleEn": "I love my farmer.",
-      "exampleBn": "আমি আমার কৃষককে ভালোবাসি।"
-    },
-    {
-      "id": "family-police",
-      "en": "police",
-      "bn": "পুলিশ",
-      "emoji": "👮",
-      "exampleEn": "This is my police.",
-      "exampleBn": "এটা আমার পুলিশ।"
-    },
-    {
-      "id": "family-guest",
-      "en": "guest",
-      "bn": "অতিথি",
-      "emoji": "🛎️",
-      "exampleEn": "Where is my guest?",
-      "exampleBn": "আমার অতিথি কোথায়?"
-    },
-    {
-      "id": "family-people",
-      "en": "people",
-      "bn": "মানুষ",
-      "emoji": "👥",
-      "exampleEn": "My people is kind.",
-      "exampleBn": "আমার মানুষ খুব ভালো।"
-    },
-    {
-      "id": "family-me",
-      "en": "me",
-      "bn": "আমাকে",
-      "emoji": "🙋",
-      "exampleEn": "I love my me.",
-      "exampleBn": "আমি আমার আমাকেকে ভালোবাসি।"
-    },
-    {
-      "id": "family-you",
-      "en": "you",
-      "bn": "তুমি",
-      "emoji": "👉",
-      "exampleEn": "This is my you.",
-      "exampleBn": "এটা আমার তুমি।"
-    },
-    {
-      "id": "family-we",
-      "en": "we",
-      "bn": "আমরা",
-      "emoji": "👨‍👩‍👧",
-      "exampleEn": "Where is my we?",
-      "exampleBn": "আমার আমরা কোথায়?"
-    },
-    {
-      "id": "family-grandson",
-      "en": "grandson",
-      "bn": "নতি",
-      "emoji": "👦",
-      "exampleEn": "My grandson is kind.",
-      "exampleBn": "আমার নতি খুব ভালো।"
-    },
-    {
-      "id": "family-granddaughter",
-      "en": "granddaughter",
-      "bn": "নতি",
-      "emoji": "👧",
-      "exampleEn": "I love my granddaughter.",
-      "exampleBn": "আমি আমার নতিকে ভালোবাসি।"
-    },
-    {
-      "id": "family-son",
-      "en": "son",
-      "bn": "ছেলে",
-      "emoji": "👦",
-      "exampleEn": "This is my son.",
-      "exampleBn": "এটা আমার ছেলে।"
-    },
-    {
-      "id": "family-daughter",
-      "en": "daughter",
-      "bn": "মেয়ে",
-      "emoji": "👧",
-      "exampleEn": "Where is my daughter?",
-      "exampleBn": "আমার মেয়ে কোথায়?"
-    },
-    {
-      "id": "family-husband",
-      "en": "husband",
-      "bn": "স্বামী",
-      "emoji": "👨",
-      "exampleEn": "My husband is kind.",
-      "exampleBn": "আমার স্বামী খুব ভালো।"
-    },
-    {
-      "id": "family-wife",
-      "en": "wife",
-      "bn": "স্ত্রী",
-      "emoji": "👩",
-      "exampleEn": "I love my wife.",
-      "exampleBn": "আমি আমার স্ত্রীকে ভালোবাসি।"
-    },
-    {
-      "id": "family-parents",
-      "en": "parents",
-      "bn": "বাবা মা",
-      "emoji": "👨‍👩‍👧",
-      "exampleEn": "This is my parents.",
-      "exampleBn": "এটা আমার বাবা মা।"
-    },
-    {
-      "id": "family-relatives",
-      "en": "relatives",
-      "bn": "আত্মীয়",
-      "emoji": "👨‍👩‍👧",
-      "exampleEn": "Where is my relatives?",
-      "exampleBn": "আমার আত্মীয় কোথায়?"
-    },
-    {
-      "id": "family-elder-brother",
-      "en": "elder brother",
-      "bn": "দাদা",
-      "emoji": "👨",
-      "exampleEn": "My elder brother is kind.",
-      "exampleBn": "আমার দাদা খুব ভালো।"
-    },
-    {
-      "id": "family-elder-sister",
-      "en": "elder sister",
-      "bn": "দিদি",
-      "emoji": "👩",
-      "exampleEn": "I love my elder sister.",
-      "exampleBn": "আমি আমার দিদিকে ভালোবাসি।"
-    },
-    {
-      "id": "family-younger-brother",
-      "en": "younger brother",
-      "bn": "ছোট ভাই",
-      "emoji": "👦",
-      "exampleEn": "This is my younger brother.",
-      "exampleBn": "এটা আমার ছোট ভাই।"
-    },
-    {
-      "id": "family-younger-sister",
-      "en": "younger sister",
-      "bn": "ছোট বোন",
-      "emoji": "👧",
-      "exampleEn": "Where is my younger sister?",
-      "exampleBn": "আমার ছোট বোন কোথায়?"
-    },
-    {
-      "id": "family-bride",
-      "en": "bride",
-      "bn": "কন্না",
-      "emoji": "👰",
-      "exampleEn": "My bride is kind.",
-      "exampleBn": "আমার কন্না খুব ভালো।"
-    },
-    {
-      "id": "family-groom",
-      "en": "groom",
-      "bn": "দুলহা",
-      "emoji": "🤵",
-      "exampleEn": "I love my groom.",
-      "exampleBn": "আমি আমার দুলহাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-wedding",
-      "en": "wedding",
-      "bn": "বিয়ে",
-      "emoji": "💒",
-      "exampleEn": "This is my wedding.",
-      "exampleBn": "এটা আমার বিয়ে।"
-    },
-    {
-      "id": "family-twins",
-      "en": "twins",
-      "bn": "যমজ",
-      "emoji": "👯",
-      "exampleEn": "Where is my twins?",
-      "exampleBn": "আমার যমজ কোথায়?"
-    },
-    {
-      "id": "family-babysitter",
-      "en": "babysitter",
-      "bn": "বাচ্চা দেখাশোনাকারী",
-      "emoji": "👩",
-      "exampleEn": "My babysitter is kind.",
-      "exampleBn": "আমার বাচ্চা দেখাশোনাকারী খুব ভালো।"
-    },
-    {
-      "id": "family-shopkeeper",
-      "en": "shopkeeper",
-      "bn": "দোকানদার",
-      "emoji": "🏪",
-      "exampleEn": "I love my shopkeeper.",
-      "exampleBn": "আমি আমার দোকানদারকে ভালোবাসি।"
-    },
-    {
-      "id": "family-rickshaw-puller",
-      "en": "rickshaw puller",
-      "bn": "রিকশাচালক",
-      "emoji": "🛺",
-      "exampleEn": "This is my rickshaw puller.",
-      "exampleBn": "এটা আমার রিকশাচালক।"
-    },
-    {
-      "id": "family-engineer",
-      "en": "engineer",
-      "bn": "প্রকৌশলী",
-      "emoji": "👷",
-      "exampleEn": "Where is my engineer?",
-      "exampleBn": "আমার প্রকৌশলী কোথায়?"
-    },
-    {
-      "id": "family-pilot",
-      "en": "pilot",
-      "bn": "পাইলট",
-      "emoji": "✈️",
-      "exampleEn": "My pilot is kind.",
-      "exampleBn": "আমার পাইলট খুব ভালো।"
-    },
-    {
-      "id": "family-artist",
-      "en": "artist",
-      "bn": "শিল্পী",
-      "emoji": "🎨",
-      "exampleEn": "I love my artist.",
-      "exampleBn": "আমি আমার শিল্পীকে ভালোবাসি।"
-    },
-    {
-      "id": "family-singer",
-      "en": "singer",
-      "bn": "গায়ক",
-      "emoji": "🎤",
-      "exampleEn": "This is my singer.",
-      "exampleBn": "এটা আমার গায়ক।"
-    },
-    {
-      "id": "family-student",
-      "en": "student",
-      "bn": "ছাত্র",
-      "emoji": "🎓",
-      "exampleEn": "Where is my student?",
-      "exampleBn": "আমার ছাত্র কোথায়?"
-    },
-    {
-      "id": "family-classmate",
-      "en": "classmate",
-      "bn": "সহপাঠী",
-      "emoji": "🧑‍🎓",
-      "exampleEn": "My classmate is kind.",
-      "exampleBn": "আমার সহপাঠী খুব ভালো।"
-    },
-    {
-      "id": "family-principal",
-      "en": "principal",
-      "bn": "অধ্যক্ষ",
-      "emoji": "🏫",
-      "exampleEn": "I love my principal.",
-      "exampleBn": "আমি আমার অধ্যক্ষকে ভালোবাসি।"
-    },
-    {
-      "id": "family-chef",
-      "en": "chef",
+      "id": "family-cook",
+      "en": "Cook",
       "bn": "রাঁধুনি",
       "emoji": "👨‍🍳",
-      "exampleEn": "This is my chef.",
-      "exampleBn": "এটা আমার রাঁধুনি।"
+      "exampleEn": "The cook prepares delicious food.",
+      "exampleBn": "রাঁধুনি সুস্বাদু খাবার রান্না করেন।"
     },
     {
-      "id": "family-barber",
-      "en": "barber",
-      "bn": "নাপিত",
-      "emoji": "💇",
-      "exampleEn": "Where is my barber?",
-      "exampleBn": "আমার নাপিত কোথায়?"
-    },
-    {
-      "id": "family-tailor",
-      "en": "tailor",
-      "bn": "দর্জি",
-      "emoji": "🧵",
-      "exampleEn": "My tailor is kind.",
-      "exampleBn": "আমার দর্জি খুব ভালো।"
-    },
-    {
-      "id": "family-mechanic",
-      "en": "mechanic",
-      "bn": "মেকানিক",
-      "emoji": "🔧",
-      "exampleEn": "I love my mechanic.",
-      "exampleBn": "আমি আমার মেকানিককে ভালোবাসি।"
-    },
-    {
-      "id": "family-electrician",
-      "en": "electrician",
-      "bn": "ইলেকট্রিশিয়ান",
-      "emoji": "💡",
-      "exampleEn": "This is my electrician.",
-      "exampleBn": "এটা আমার ইলেকট্রিশিয়ান।"
-    },
-    {
-      "id": "family-plumber",
-      "en": "plumber",
-      "bn": "প্লাম্বার",
-      "emoji": "🔧",
-      "exampleEn": "Where is my plumber?",
-      "exampleBn": "আমার প্লাম্বার কোথায়?"
-    },
-    {
-      "id": "family-carpenter",
-      "en": "carpenter",
-      "bn": "থেকু",
-      "emoji": "🪚",
-      "exampleEn": "My carpenter is kind.",
-      "exampleBn": "আমার থেকু খুব ভালো।"
-    },
-    {
-      "id": "family-gardener",
-      "en": "gardener",
-      "bn": "মালী",
-      "emoji": "🌻",
-      "exampleEn": "I love my gardener.",
-      "exampleBn": "আমি আমার মালীকে ভালোবাসি।"
-    },
-    {
-      "id": "family-fisherman",
-      "en": "fisherman",
-      "bn": "জেলে",
-      "emoji": "🎣",
-      "exampleEn": "This is my fisherman.",
-      "exampleBn": "এটা আমার জেলে।"
-    },
-    {
-      "id": "family-milkman",
-      "en": "milkman",
-      "bn": "দুধওয়ালা",
-      "emoji": "🥛",
-      "exampleEn": "Where is my milkman?",
-      "exampleBn": "আমার দুধওয়ালা কোথায়?"
-    },
-    {
-      "id": "family-teenager",
-      "en": "teenager",
-      "bn": "কিশোর",
-      "emoji": "🧑",
-      "exampleEn": "My teenager is kind.",
-      "exampleBn": "আমার কিশোর খুব ভালো।"
-    },
-    {
-      "id": "family-adult",
-      "en": "adult",
-      "bn": "প্রাপ্তবয়স্ক",
-      "emoji": "🧑",
-      "exampleEn": "I love my adult.",
-      "exampleBn": "আমি আমার প্রাপ্তবয়স্ককে ভালোবাসি।"
-    },
-    {
-      "id": "family-elder",
-      "en": "elder",
-      "bn": "বৃদ্ধ",
-      "emoji": "👴",
-      "exampleEn": "This is my elder.",
-      "exampleBn": "এটা আমার বৃদ্ধ।"
-    },
-    {
-      "id": "family-newborn",
-      "en": "newborn",
-      "bn": "নবজাতক",
-      "emoji": "👶",
-      "exampleEn": "Where is my newborn?",
-      "exampleBn": "আমার নবজাতক কোথায়?"
-    },
-    {
-      "id": "family-orphan",
-      "en": "orphan",
-      "bn": "অনাথ",
+      "id": "family-cousin",
+      "en": "Cousin",
+      "bn": "চাচাতো/মামাতো ভাইবোন",
       "emoji": "🧒",
-      "exampleEn": "My orphan is kind.",
-      "exampleBn": "আমার অনাথ খুব ভালো।"
-    },
-    {
-      "id": "family-guardian",
-      "en": "guardian",
-      "bn": "অভিভাবক",
-      "emoji": "🧑",
-      "exampleEn": "I love my guardian.",
-      "exampleBn": "আমি আমার অভিভাবককে ভালোবাসি।"
-    },
-    {
-      "id": "family-postman",
-      "en": "postman",
-      "bn": "ডাকপিয়ন",
-      "emoji": "📮",
-      "exampleEn": "This is my postman.",
-      "exampleBn": "এটা আমার ডাকপিয়ন।"
-    },
-    {
-      "id": "family-porter",
-      "en": "porter",
-      "bn": "হমাল",
-      "emoji": "🧳",
-      "exampleEn": "Where is my porter?",
-      "exampleBn": "আমার হমাল কোথায়?"
-    },
-    {
-      "id": "family-guard",
-      "en": "guard",
-      "bn": "পহর",
-      "emoji": "🛡️",
-      "exampleEn": "My guard is kind.",
-      "exampleBn": "আমার পহর খুব ভালো।"
-    },
-    {
-      "id": "family-builder",
-      "en": "builder",
-      "bn": "নির্মাতা",
-      "emoji": "👷",
-      "exampleEn": "I love my builder.",
-      "exampleBn": "আমি আমার নির্মাতাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-sailor",
-      "en": "sailor",
-      "bn": "নাবিক",
-      "emoji": "⚓",
-      "exampleEn": "This is my sailor.",
-      "exampleBn": "এটা আমার নাবিক।"
+      "exampleEn": "My cousin plays with me.",
+      "exampleBn": "আমার চাচাতো বোন আমার সাথে খেলে।"
     },
     {
       "id": "family-dancer",
-      "en": "dancer",
-      "bn": "নর্তক",
+      "en": "Dancer",
+      "bn": "নৃত্যশিল্পী",
       "emoji": "💃",
-      "exampleEn": "Where is my dancer?",
-      "exampleBn": "আমার নর্তক কোথায়?"
+      "exampleEn": "The dancer performed a dance at the event.",
+      "exampleBn": "নৃত্যশিল্পী অনুষ্ঠানে নাচ পরিবেশন করলেন।"
     },
     {
-      "id": "family-writer",
-      "en": "writer",
-      "bn": "লেখক",
-      "emoji": "✍️",
-      "exampleEn": "My writer is kind.",
-      "exampleBn": "আমার লেখক খুব ভালো।"
+      "id": "family-dentist",
+      "en": "Dentist",
+      "bn": "দন্ত চিকিৎসক",
+      "exampleEn": "The dentist treats teeth problems.",
+      "exampleBn": "দন্ত চিকিৎসক দাঁতের চিকিৎসা করেন।"
     },
     {
-      "id": "family-scientist",
-      "en": "scientist",
-      "bn": "বিজ্ঞানী",
-      "emoji": "🔬",
-      "exampleEn": "I love my scientist.",
-      "exampleBn": "আমি আমার বিজ্ঞানীকে ভালোবাসি।"
+      "id": "family-doctor",
+      "en": "Doctor",
+      "bn": "ডাক্তার",
+      "emoji": "👨‍⚕️",
+      "exampleEn": "The doctor treats patients.",
+      "exampleBn": "ডাক্তার রোগীদের চিকিৎসা করেন।"
     },
     {
-      "id": "family-librarian",
-      "en": "librarian",
-      "bn": "গ্রন্থাগারিক",
-      "emoji": "📚",
-      "exampleEn": "This is my librarian.",
-      "exampleBn": "এটা আমার গ্রন্থাগারিক।"
+      "id": "family-driver",
+      "en": "Driver",
+      "bn": "চালক",
+      "emoji": "🚗",
+      "exampleEn": "The driver is driving carefully.",
+      "exampleBn": "চালক সাবধানে গাড়ি চালাচ্ছেন।"
     },
     {
-      "id": "family-coach",
-      "en": "coach",
-      "bn": "প্রশিক্ষক",
-      "emoji": "🏃",
-      "exampleEn": "Where is my coach?",
-      "exampleBn": "আমার প্রশিক্ষক কোথায়?"
+      "id": "family-family",
+      "en": "Family",
+      "bn": "পরিবার",
+      "emoji": "👨‍👩‍👧",
+      "exampleEn": "My family lives together.",
+      "exampleBn": "আমার পরিবার একসাথে থাকে।"
     },
     {
-      "id": "family-judge",
-      "en": "judge",
-      "bn": "বিচারক",
-      "emoji": "⚖️",
-      "exampleEn": "My judge is kind.",
-      "exampleBn": "আমার বিচারক খুব ভালো।"
+      "id": "family-farmer",
+      "en": "Farmer",
+      "bn": "কৃষক",
+      "emoji": "👨‍🌾",
+      "exampleEn": "The farmer grows rice in the field.",
+      "exampleBn": "কৃষক ক্ষেতে ধান চাষ করেন।"
     },
     {
-      "id": "family-lawyer",
-      "en": "lawyer",
-      "bn": "উকিল",
-      "emoji": "⚖️",
-      "exampleEn": "I love my lawyer.",
-      "exampleBn": "আমি আমার উকিলকে ভালোবাসি।"
-    },
-    {
-      "id": "family-banker",
-      "en": "banker",
-      "bn": "ব্যাংকার",
-      "emoji": "🏦",
-      "exampleEn": "This is my banker.",
-      "exampleBn": "এটা আমার ব্যাংকার।"
-    },
-    {
-      "id": "family-waiter",
-      "en": "waiter",
-      "bn": "ওয়েটার",
-      "emoji": "🍽️",
-      "exampleEn": "Where is my waiter?",
-      "exampleBn": "আমার ওয়েটার কোথায়?"
-    },
-    {
-      "id": "family-baker",
-      "en": "baker",
-      "bn": "বেকার",
-      "emoji": "🥖",
-      "exampleEn": "My baker is kind.",
-      "exampleBn": "আমার বেকার খুব ভালো।"
-    },
-    {
-      "id": "family-cobbler",
-      "en": "cobbler",
-      "bn": "মোচি",
-      "emoji": "👞",
-      "exampleEn": "I love my cobbler.",
-      "exampleBn": "আমি আমার মোচিকে ভালোবাসি।"
-    },
-    {
-      "id": "family-mason",
-      "en": "mason",
-      "bn": "রাজমিস্ত্রি",
-      "emoji": "🧱",
-      "exampleEn": "This is my mason.",
-      "exampleBn": "এটা আমার রাজমিস্ত্রি।"
-    },
-    {
-      "id": "family-shepherd",
-      "en": "shepherd",
-      "bn": "গোপল",
-      "emoji": "🐑",
-      "exampleEn": "Where is my shepherd?",
-      "exampleBn": "আমার গোপল কোথায়?"
-    },
-    {
-      "id": "family-stepmother",
-      "en": "stepmother",
-      "bn": "সৎ মা",
-      "emoji": "👩",
-      "exampleEn": "My stepmother is kind.",
-      "exampleBn": "আমার সৎ মা খুব ভালো।"
-    },
-    {
-      "id": "family-stepfather",
-      "en": "stepfather",
-      "bn": "সৎ বাবা",
+      "id": "family-father",
+      "en": "Father",
+      "bn": "বাবা",
       "emoji": "👨",
-      "exampleEn": "I love my stepfather.",
-      "exampleBn": "আমি আমার সৎ বাবাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-father-in-law",
-      "en": "father in law",
-      "bn": "শ্বশুর",
-      "emoji": "👨",
-      "exampleEn": "This is my father in law.",
-      "exampleBn": "এটা আমার শ্বশুর।"
-    },
-    {
-      "id": "family-mother-in-law",
-      "en": "mother in law",
-      "bn": "শাশুড়ি",
-      "emoji": "👩",
-      "exampleEn": "Where is my mother in law?",
-      "exampleBn": "আমার শাশুড়ি কোথায়?"
-    },
-    {
-      "id": "family-brother-in-law",
-      "en": "brother in law",
-      "bn": "শালা",
-      "emoji": "👨",
-      "exampleEn": "My brother in law is kind.",
-      "exampleBn": "আমার শালা খুব ভালো।"
-    },
-    {
-      "id": "family-sister-in-law",
-      "en": "sister in law",
-      "bn": "ননদ",
-      "emoji": "👩",
-      "exampleEn": "I love my sister in law.",
-      "exampleBn": "আমি আমার ননদকে ভালোবাসি।"
-    },
-    {
-      "id": "family-grandchild",
-      "en": "grandchild",
-      "bn": "নতি",
-      "emoji": "👶",
-      "exampleEn": "This is my grandchild.",
-      "exampleBn": "এটা আমার নতি।"
-    },
-    {
-      "id": "family-ancestor",
-      "en": "ancestor",
-      "bn": "পূর্বপুরুষ",
-      "emoji": "👴",
-      "exampleEn": "Where is my ancestor?",
-      "exampleBn": "আমার পূর্বপুরুষ কোথায়?"
-    },
-    {
-      "id": "family-midwife",
-      "en": "midwife",
-      "bn": "ধাইমা",
-      "emoji": "👩",
-      "exampleEn": "My midwife is kind.",
-      "exampleBn": "আমার ধাইমা খুব ভালো।"
-    },
-    {
-      "id": "family-fish-seller",
-      "en": "fish seller",
-      "bn": "মাছ বিক্রেতা",
-      "emoji": "🐟",
-      "exampleEn": "I love my fish seller.",
-      "exampleBn": "আমি আমার মাছ বিক্রেতাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-vegetable-seller",
-      "en": "vegetable seller",
-      "bn": "সবজি বিক্রেতা",
-      "emoji": "🥬",
-      "exampleEn": "This is my vegetable seller.",
-      "exampleBn": "এটা আমার সবজি বিক্রেতা।"
-    },
-    {
-      "id": "family-sweeper",
-      "en": "sweeper",
-      "bn": "পরিচ্ছন্নকর্মী",
-      "emoji": "🧹",
-      "exampleEn": "Where is my sweeper?",
-      "exampleBn": "আমার পরিচ্ছন্নকর্মী কোথায়?"
-    },
-    {
-      "id": "family-cashier",
-      "en": "cashier",
-      "bn": "ক্যাশিয়ার",
-      "emoji": "💵",
-      "exampleEn": "My cashier is kind.",
-      "exampleBn": "আমার ক্যাশিয়ার খুব ভালো।"
-    },
-    {
-      "id": "family-actor",
-      "en": "actor",
-      "bn": "অভিনেতা",
-      "emoji": "🎭",
-      "exampleEn": "I love my actor.",
-      "exampleBn": "আমি আমার অভিনেতাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-headmaster",
-      "en": "headmaster",
-      "bn": "প্রধান শিক্ষক",
-      "emoji": "🏫",
-      "exampleEn": "This is my headmaster.",
-      "exampleBn": "এটা আমার প্রধান শিক্ষক।"
-    },
-    {
-      "id": "family-cowherd",
-      "en": "cowherd",
-      "bn": "গোপল",
-      "emoji": "🐄",
-      "exampleEn": "Where is my cowherd?",
-      "exampleBn": "আমার গোপল কোথায়?"
-    },
-    {
-      "id": "family-hunter",
-      "en": "hunter",
-      "bn": "শিকারি",
-      "emoji": "🏹",
-      "exampleEn": "My hunter is kind.",
-      "exampleBn": "আমার শিকারি খুব ভালো।"
-    },
-    {
-      "id": "family-triplets",
-      "en": "triplets",
-      "bn": "তিন যমজ",
-      "emoji": "👶",
-      "exampleEn": "I love my triplets.",
-      "exampleBn": "আমি আমার তিন যমজকে ভালোবাসি।"
-    },
-    {
-      "id": "family-stepbrother",
-      "en": "stepbrother",
-      "bn": "সৎ ভাই",
-      "emoji": "👦",
-      "exampleEn": "This is my stepbrother.",
-      "exampleBn": "এটা আমার সৎ ভাই।"
-    },
-    {
-      "id": "family-stepsister",
-      "en": "stepsister",
-      "bn": "সৎ বোন",
-      "emoji": "👧",
-      "exampleEn": "Where is my stepsister?",
-      "exampleBn": "আমার সৎ বোন কোথায়?"
-    },
-    {
-      "id": "family-godfather",
-      "en": "godfather",
-      "bn": "গডফাদার",
-      "emoji": "👨",
-      "exampleEn": "My godfather is kind.",
-      "exampleBn": "আমার গডফাদার খুব ভালো।"
-    },
-    {
-      "id": "family-godmother",
-      "en": "godmother",
-      "bn": "গডমাদার",
-      "emoji": "👩",
-      "exampleEn": "I love my godmother.",
-      "exampleBn": "আমি আমার গডমাদারকে ভালোবাসি।"
-    },
-    {
-      "id": "family-neighbor-boy",
-      "en": "neighbor boy",
-      "bn": "পাশের ছেলে",
-      "emoji": "👦",
-      "exampleEn": "This is my neighbor boy.",
-      "exampleBn": "এটা আমার পাশের ছেলে।"
-    },
-    {
-      "id": "family-neighbor-girl",
-      "en": "neighbor girl",
-      "bn": "পাশের মেয়ে",
-      "emoji": "👧",
-      "exampleEn": "Where is my neighbor girl?",
-      "exampleBn": "আমার পাশের মেয়ে কোথায়?"
-    },
-    {
-      "id": "family-best-friend",
-      "en": "best friend",
-      "bn": "ঘনিষ্ঠ বন্ধু",
-      "emoji": "🤝",
-      "exampleEn": "My best friend is kind.",
-      "exampleBn": "আমার ঘনিষ্ঠ বন্ধু খুব ভালো।"
-    },
-    {
-      "id": "family-pen-pal",
-      "en": "pen pal",
-      "bn": "পেন পাল",
-      "emoji": "✉️",
-      "exampleEn": "I love my pen pal.",
-      "exampleBn": "আমি আমার পেন পালকে ভালোবাসি।"
-    },
-    {
-      "id": "family-teammate",
-      "en": "teammate",
-      "bn": "দলের সঙ্গী",
-      "emoji": "🤝",
-      "exampleEn": "This is my teammate.",
-      "exampleBn": "এটা আমার দলের সঙ্গী।"
-    },
-    {
-      "id": "family-leader",
-      "en": "leader",
-      "bn": "নেতা",
-      "emoji": "👑",
-      "exampleEn": "Where is my leader?",
-      "exampleBn": "আমার নেতা কোথায়?"
-    },
-    {
-      "id": "family-follower",
-      "en": "follower",
-      "bn": "অনুসারী",
-      "emoji": "👥",
-      "exampleEn": "My follower is kind.",
-      "exampleBn": "আমার অনুসারী খুব ভালো।"
-    },
-    {
-      "id": "family-hero",
-      "en": "hero",
-      "bn": "নায়ক",
-      "emoji": "🦸",
-      "exampleEn": "I love my hero.",
-      "exampleBn": "আমি আমার নায়ককে ভালোবাসি।"
-    },
-    {
-      "id": "family-villain",
-      "en": "villain",
-      "bn": "খলনায়ক",
-      "emoji": "🦹",
-      "exampleEn": "This is my villain.",
-      "exampleBn": "এটা আমার খলনায়ক।"
-    },
-    {
-      "id": "family-king",
-      "en": "king",
-      "bn": "রাজা",
-      "emoji": "👑",
-      "exampleEn": "Where is my king?",
-      "exampleBn": "আমার রাজা কোথায়?"
-    },
-    {
-      "id": "family-queen",
-      "en": "queen",
-      "bn": "রানী",
-      "emoji": "👑",
-      "exampleEn": "My queen is kind.",
-      "exampleBn": "আমার রানী খুব ভালো।"
-    },
-    {
-      "id": "family-prince",
-      "en": "prince",
-      "bn": "রাজপুত্র",
-      "emoji": "🤴",
-      "exampleEn": "I love my prince.",
-      "exampleBn": "আমি আমার রাজপুত্রকে ভালোবাসি।"
-    },
-    {
-      "id": "family-princess",
-      "en": "princess",
-      "bn": "রাজকন্যা",
-      "emoji": "👸",
-      "exampleEn": "This is my princess.",
-      "exampleBn": "এটা আমার রাজকন্যা।"
-    },
-    {
-      "id": "family-soldier",
-      "en": "soldier",
-      "bn": "সৈনিক",
-      "emoji": "💂",
-      "exampleEn": "Where is my soldier?",
-      "exampleBn": "আমার সৈনিক কোথায়?"
-    },
-    {
-      "id": "family-captain",
-      "en": "captain",
-      "bn": "ক্যাপ্টেন",
-      "emoji": "🎖️",
-      "exampleEn": "My captain is kind.",
-      "exampleBn": "আমার ক্যাপ্টেন খুব ভালো।"
-    },
-    {
-      "id": "family-heroine",
-      "en": "heroine",
-      "bn": "নায়িকা",
-      "emoji": "👩",
-      "exampleEn": "I love my heroine.",
-      "exampleBn": "আমি আমার নায়িকাকে ভালোবাসি।"
-    },
-    {
-      "id": "family-musician",
-      "en": "musician",
-      "bn": "সঙ্গীতজ্ঞ",
-      "emoji": "🎵",
-      "exampleEn": "This is my musician.",
-      "exampleBn": "এটা আমার সঙ্গীতজ্ঞ।"
-    },
-    {
-      "id": "family-photographer",
-      "en": "photographer",
-      "bn": "ফোতোগ",
-      "emoji": "📷",
-      "exampleEn": "Where is my photographer?",
-      "exampleBn": "আমার ফোতোগ কোথায়?"
-    },
-    {
-      "id": "family-journalist",
-      "en": "journalist",
-      "bn": "জৌরনলিসত",
-      "emoji": "📰",
-      "exampleEn": "My journalist is kind.",
-      "exampleBn": "আমার জৌরনলিসত খুব ভালো।"
-    },
-    {
-      "id": "family-astronaut",
-      "en": "astronaut",
-      "bn": "মহাকাশচারী",
-      "emoji": "👨‍🚀",
-      "exampleEn": "I love my astronaut.",
-      "exampleBn": "আমি আমার মহাকাশচারীকে ভালোবাসি।"
+      "exampleEn": "Father is always there for the family.",
+      "exampleBn": "বাবা পরিবারের জন্য সবসময় পাশে থাকেন।"
     },
     {
       "id": "family-firefighter",
-      "en": "firefighter",
-      "bn": "অগ্নিনির্বাপক",
+      "en": "Firefighter",
+      "bn": "দমকলকর্মী",
       "emoji": "🚒",
-      "exampleEn": "This is my firefighter.",
-      "exampleBn": "এটা আমার অগ্নিনির্বাপক।"
+      "exampleEn": "Firefighters put out fires.",
+      "exampleBn": "দমকলকর্মীরা আগুন নেভান।"
     },
     {
-      "id": "family-lifeguard",
-      "en": "lifeguard",
-      "bn": "জীবরক্ষক",
-      "emoji": "🛟",
-      "exampleEn": "Where is my lifeguard?",
-      "exampleBn": "আমার জীবরক্ষক কোথায়?"
-    },
-    {
-      "id": "family-volunteer",
-      "en": "volunteer",
-      "bn": "স্বেচ্ছাসেবক",
+      "id": "family-friend",
+      "en": "Friend",
+      "bn": "বন্ধু",
       "emoji": "🤝",
-      "exampleEn": "My volunteer is kind.",
-      "exampleBn": "আমার স্বেচ্ছাসেবক খুব ভালো।"
+      "exampleEn": "My friend helps me.",
+      "exampleBn": "আমার বন্ধু আমাকে সাহায্য করে।"
+    },
+    {
+      "id": "family-girl",
+      "en": "Girl",
+      "bn": "মেয়ে",
+      "emoji": "👧",
+      "exampleEn": "The girl loves reading books.",
+      "exampleBn": "মেয়েটি বই পড়তে ভালোবাসে।"
+    },
+    {
+      "id": "family-grandfather",
+      "en": "Grandfather",
+      "bn": "দাদা/নানা",
+      "emoji": "👴",
+      "exampleEn": "Grandfather plants trees in the garden.",
+      "exampleBn": "নানা বাগানে গাছ লাগান।"
+    },
+    {
+      "id": "family-grandmother",
+      "en": "Grandmother",
+      "bn": "দাদি/নানি",
+      "emoji": "👵",
+      "exampleEn": "Grandmother tells us stories.",
+      "exampleBn": "দাদি আমাদের গল্প শোনান।"
+    },
+    {
+      "id": "family-guest",
+      "en": "Guest",
+      "bn": "অতিথি",
+      "emoji": "🛎️",
+      "exampleEn": "A guest will come to our house today.",
+      "exampleBn": "আজ আমাদের বাসায় অতিথি আসবে।"
+    },
+    {
+      "id": "family-helper",
+      "en": "Helper",
+      "bn": "সহকারী",
+      "exampleEn": "The helper does the household chores.",
+      "exampleBn": "সহকারী ঘরের কাজ করে দেয়।"
+    },
+    {
+      "id": "family-man",
+      "en": "Man",
+      "bn": "লোক",
+      "emoji": "👨",
+      "exampleEn": "The man is buying things at the market.",
+      "exampleBn": "লোকটি বাজারে জিনিস কিনছেন।"
+    },
+    {
+      "id": "family-mother",
+      "en": "Mother",
+      "bn": "মা",
+      "emoji": "👩",
+      "exampleEn": "Mother loves her children the most.",
+      "exampleBn": "মা তার সন্তানদের সবচেয়ে বেশি ভালোবাসেন।"
+    },
+    {
+      "id": "family-neighbor",
+      "en": "Neighbor",
+      "bn": "প্রতিবেশী",
+      "emoji": "🏠",
+      "exampleEn": "My neighbor is very friendly.",
+      "exampleBn": "আমার প্রতিবেশী খুব বন্ধুত্বপূর্ণ।"
+    },
+    {
+      "id": "family-nurse",
+      "en": "Nurse",
+      "bn": "নার্স",
+      "emoji": "👩‍⚕️",
+      "exampleEn": "The nurse takes care of patients at the hospital.",
+      "exampleBn": "নার্স হাসপাতালে রোগীদের যত্ন নেন।"
+    },
+    {
+      "id": "family-painter",
+      "en": "Painter",
+      "bn": "চিত্রশিল্পী",
+      "exampleEn": "The painter drew a beautiful picture.",
+      "exampleBn": "চিত্রশিল্পী সুন্দর একটি ছবি আঁকলেন।"
+    },
+    {
+      "id": "family-parent",
+      "en": "Parent",
+      "bn": "অভিভাবক",
+      "exampleEn": "Parents take care of their children.",
+      "exampleBn": "অভিভাবকেরা সন্তানের যত্ন নেন।"
+    },
+    {
+      "id": "family-people",
+      "en": "People",
+      "bn": "মানুষ",
+      "emoji": "👥",
+      "exampleEn": "Many people are walking on the road.",
+      "exampleBn": "রাস্তায় অনেক মানুষ হাঁটছে।"
+    },
+    {
+      "id": "family-player",
+      "en": "Player",
+      "bn": "খেলোয়াড়",
+      "exampleEn": "The player played well on the field.",
+      "exampleBn": "খেলোয়াড়টি মাঠে ভালো খেলল।"
+    },
+    {
+      "id": "family-police",
+      "en": "Police",
+      "bn": "পুলিশ",
+      "emoji": "👮",
+      "exampleEn": "The police provide security in the city.",
+      "exampleBn": "পুলিশ শহরে নিরাপত্তা দেয়।"
+    },
+    {
+      "id": "family-reader",
+      "en": "Reader",
+      "bn": "পাঠক",
+      "exampleEn": "The reader is reading the book attentively.",
+      "exampleBn": "পাঠক মনোযোগ দিয়ে বই পড়ছে।"
+    },
+    {
+      "id": "family-shopkeeper",
+      "en": "Shopkeeper",
+      "bn": "দোকানদার",
+      "emoji": "🏪",
+      "exampleEn": "The shopkeeper opens the shop in the morning.",
+      "exampleBn": "দোকানদার সকালে দোকান খোলেন।"
+    },
+    {
+      "id": "family-singer",
+      "en": "Singer",
+      "bn": "গায়ক",
+      "emoji": "🎤",
+      "exampleEn": "The singer sang beautifully on stage.",
+      "exampleBn": "গায়ক মঞ্চে সুন্দর গান গাইলেন।"
+    },
+    {
+      "id": "family-sister",
+      "en": "Sister",
+      "bn": "বোন",
+      "emoji": "👧",
+      "exampleEn": "My sister loves to sing.",
+      "exampleBn": "আমার বোন গান গাইতে ভালোবাসে।"
+    },
+    {
+      "id": "family-student",
+      "en": "Student",
+      "bn": "ছাত্র",
+      "emoji": "🎓",
+      "exampleEn": "The student is studying for the exam.",
+      "exampleBn": "ছাত্রটি পরীক্ষার জন্য পড়ছে।"
+    },
+    {
+      "id": "family-teacher",
+      "en": "Teacher",
+      "bn": "শিক্ষক",
+      "emoji": "👩‍🏫",
+      "exampleEn": "The teacher teaches us.",
+      "exampleBn": "শিক্ষক আমাদের পড়ান।"
+    },
+    {
+      "id": "family-uncle",
+      "en": "Uncle",
+      "bn": "চাচা/মামা",
+      "emoji": "👨‍🦱",
+      "exampleEn": "My uncle runs a business in the city.",
+      "exampleBn": "চাচা শহরে ব্যবসা করেন।"
+    },
+    {
+      "id": "family-woman",
+      "en": "Woman",
+      "bn": "নারী",
+      "emoji": "👩",
+      "exampleEn": "The woman works at the office.",
+      "exampleBn": "নারীটি অফিসে কাজ করেন।"
+    },
+    {
+      "id": "family-worker",
+      "en": "Worker",
+      "bn": "শ্রমিক",
+      "exampleEn": "Workers work in the factory.",
+      "exampleBn": "শ্রমিকেরা কারখানায় কাজ করেন।"
+    },
+    {
+      "id": "family-writer",
+      "en": "Writer",
+      "bn": "লেখক",
+      "emoji": "✍️",
+      "exampleEn": "The writer has written a new book.",
+      "exampleBn": "লেখক একটি নতুন বই লিখেছেন।"
     }
   ]
 }
