@@ -366,18 +366,27 @@ export function Quiz({
       </div>
 
       <p className={styles.hint} aria-live="polite">
-        {introPlaying
-          ? 'Listen to each Bangla option…'
-          : 'Tap the matching Bangla word'}
+        {locked && selectedBn != null
+          ? current.choices.some((c) => c.correct && c.bn === selectedBn)
+            ? 'Correct! ✓'
+            : 'Oops — the green one is right'
+          : introPlaying
+            ? 'Listen to each Bangla option…'
+            : 'Tap the matching Bangla word'}
       </p>
 
       <div className={styles.choices} role="group" aria-label="Bangla answers">
         {current.choices.map((choice, choiceIndex) => {
           const classes = [styles.choiceWrap]
+          let mark: 'correct' | 'wrong' | null = null
           if (locked && selectedBn != null) {
-            if (choice.correct) classes.push(styles.correct)
-            else if (choice.bn === selectedBn) classes.push(styles.wrong)
-            else classes.push(styles.dimmed)
+            if (choice.correct) {
+              classes.push(styles.correct)
+              mark = 'correct'
+            } else if (choice.bn === selectedBn) {
+              classes.push(styles.wrong)
+              mark = 'wrong'
+            }
           } else if (focusedIdx === choiceIndex) {
             classes.push(styles.focused)
           }
@@ -389,10 +398,27 @@ export function Quiz({
               style={{ '--cat-color': category.color } as CSSProperties}
               disabled={locked}
               aria-current={focusedIdx === choiceIndex ? 'true' : undefined}
+              aria-label={
+                mark === 'correct'
+                  ? `${choice.bn}, correct`
+                  : mark === 'wrong'
+                    ? `${choice.bn}, incorrect`
+                    : choice.bn
+              }
               onClick={() =>
                 onSelectChoice(choiceIndex, choice.bn, choice.correct, choice.wordId)
               }
             >
+              {mark ? (
+                <span
+                  className={
+                    mark === 'correct' ? styles.markCorrect : styles.markWrong
+                  }
+                  aria-hidden
+                >
+                  {mark === 'correct' ? '✓' : '✕'}
+                </span>
+              ) : null}
               <span className={styles.choiceBn}>{choice.bn}</span>
             </button>
           )
