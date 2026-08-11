@@ -114,7 +114,7 @@ function parseTtsParams(query) {
   const rate = Number(query.rate ?? '0.85')
 
   if (!text) return { ok: false, status: 400, error: 'Missing text' }
-  if (text.length > 200) return { ok: false, status: 400, error: 'Text too long' }
+  if (text.length > 500) return { ok: false, status: 400, error: 'Text too long' }
 
   if (engine === 'gemini') {
     if (!ALLOWED_GEMINI_VOICES.has(voice)) {

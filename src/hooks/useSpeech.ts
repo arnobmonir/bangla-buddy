@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import {
+  stopSharedAudio,
+  unlockAudioPlayback,
+} from '../lib/audioPlayer'
 import { fetchBanglaAudio } from '../lib/banglaTts'
+import { playBanglaCloud } from '../lib/playBanglaCloud'
 import type {
   BanglaEngine,
   BanglaVoiceId,
@@ -42,18 +47,11 @@ function pickVoice(
   return null
 }
 
-function cloudVoice(options: SpeakOptions): BanglaVoiceId | GeminiVoiceId {
-  return options.banglaEngine === 'gemini' ? options.geminiVoice : options.banglaVoice
-}
-
 export function useSpeech() {
   const [voicesReady, setVoicesReady] = useState(false)
   const voicesRef = useRef<SpeechSynthesisVoice[]>([])
   /** Bumps on every cancel / new speakWord — stale async work must exit. */
   const generationRef = useRef(0)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
-  const audioWaitRef = useRef<(() => void) | null>(null)
-  const objectUrlRef = useRef<string | null>(null)
   const gapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const clearGapTimer = () => {
@@ -61,22 +59,6 @@ export function useSpeech() {
       clearTimeout(gapTimerRef.current)
       gapTimerRef.current = null
     }
-  }
-
-  const stopAudio = () => {
-    if (audioRef.current) {
-      audioRef.current.onended = null
-      audioRef.current.onerror = null
-      audioRef.current.pause()
-      audioRef.current.src = ''
-      audioRef.current = null
-    }
-    if (objectUrlRef.current) {
-      URL.revokeObjectURL(objectUrlRef.current)
-      objectUrlRef.current = null
-    }
-    audioWaitRef.current?.()
-    audioWaitRef.current = null
   }
 
   useEffect(() => {
@@ -93,7 +75,7 @@ export function useSpeech() {
       window.speechSynthesis.removeEventListener('voiceschanged', load)
       window.speechSynthesis.cancel()
       clearGapTimer()
-      stopAudio()
+      stopSharedAudio()
     }
   }, [])
 
@@ -103,7 +85,7 @@ export function useSpeech() {
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
     }
-    stopAudio()
+    stopSharedAudio()
   }, [])
 
   const waitGap = useCallback((ms: number, generation: number) => {
@@ -147,50 +129,6 @@ export function useSpeech() {
     [],
   )
 
-  const playBlob = useCallback((blob: Blob, rate: number, volume: number, generation: number) => {
-    return new Promise<void>((resolve, reject) => {
-      if (generation !== generationRef.current) {
-        resolve()
-        return
-      }
-
-      const finish = () => {
-        if (audioWaitRef.current === finish) audioWaitRef.current = null
-        if (objectUrlRef.current) {
-          URL.revokeObjectURL(objectUrlRef.current)
-          objectUrlRef.current = null
-        }
-        resolve()
-      }
-      audioWaitRef.current = finish
-
-      const url = URL.createObjectURL(blob)
-      objectUrlRef.current = url
-      const audio = new Audio(url)
-      audio.playbackRate = Math.min(1.15, Math.max(0.85, rate > 1 ? 1 + (rate - 1) * 0.35 : rate))
-      audio.volume = volume
-      audioRef.current = audio
-
-      audio.onended = () => {
-        if (audioRef.current === audio) audioRef.current = null
-        finish()
-      }
-      audio.onerror = () => {
-        if (audioRef.current === audio) audioRef.current = null
-        if (audioWaitRef.current === finish) audioWaitRef.current = null
-        if (objectUrlRef.current) {
-          URL.revokeObjectURL(objectUrlRef.current)
-          objectUrlRef.current = null
-        }
-        reject(new Error('Audio playback failed'))
-      }
-      void audio.play().catch((err) => {
-        if (audioWaitRef.current === finish) audioWaitRef.current = null
-        reject(err)
-      })
-    })
-  }, [])
-
   const speakBanglaText = useCallback(
     async (text: string, options: SpeakOptions, generation: number) => {
       if (generation !== generationRef.current) return
@@ -200,22 +138,18 @@ export function useSpeech() {
         return
       }
 
-      const engine = options.banglaEngine === 'gemini' ? 'gemini' : 'neural'
-      try {
-        const blob = await fetchBanglaAudio(
-          text,
-          cloudVoice(options),
-          options.rate,
-          engine,
-        )
-        if (generation !== generationRef.current) return
-        await playBlob(blob, options.rate, options.volume, generation)
-      } catch {
-        if (generation !== generationRef.current) return
-        await speakBrowser(text, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume, generation)
-      }
+      await playBanglaCloud({
+        text,
+        engine: options.banglaEngine === 'gemini' ? 'gemini' : 'neural',
+        geminiVoice: options.geminiVoice,
+        banglaVoice: options.banglaVoice,
+        rate: options.rate,
+        volume: options.volume,
+        shouldAbort: () => generation !== generationRef.current,
+        logSource: 'speech',
+      })
     },
-    [playBlob, speakBrowser],
+    [speakBrowser],
   )
 
   const speakPair = useCallback(
@@ -247,13 +181,16 @@ export function useSpeech() {
     async (word: SpeakWordInput, options: SpeakOptions) => {
       const generation = ++generationRef.current
       clearGapTimer()
-      stopAudio()
+      stopSharedAudio()
       if (typeof window !== 'undefined' && window.speechSynthesis) {
         window.speechSynthesis.cancel()
       }
 
       if (options.muted) return
       if (generation !== generationRef.current) return
+
+      // Keep mobile media unlocked across English speechSynthesis → Bangla audio.
+      void unlockAudioPlayback()
 
       if (window.speechSynthesis) {
         window.speechSynthesis.resume()
@@ -292,5 +229,11 @@ export function useSpeech() {
     [],
   )
 
-  return { speakWord, cancel, voicesReady, prefetchBangla }
+  return {
+    speakWord,
+    cancel,
+    voicesReady,
+    prefetchBangla,
+    unlockAudio: unlockAudioPlayback,
+  }
 }

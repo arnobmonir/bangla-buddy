@@ -23,7 +23,7 @@ function buildPlaylist(words: Word[], shuffle: boolean) {
 }
 
 export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
-  const { speakWord, cancel, prefetchBangla } = useSpeech()
+  const { speakWord, cancel, prefetchBangla, unlockAudio } = useSpeech()
   const [playlist, setPlaylist] = useState<Word[]>(() =>
     buildPlaylist(words, settings.shuffle),
   )
@@ -162,6 +162,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
   }, [])
 
   const start = useCallback((fromWordId?: string | null) => {
+    void unlockAudio()
     reshuffleIfNeeded()
     cancel()
     let startIndex = 0
@@ -171,7 +172,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
     }
     setIndex(startIndex)
     void playFrom(startIndex)
-  }, [cancel, playFrom, reshuffleIfNeeded])
+  }, [cancel, playFrom, reshuffleIfNeeded, unlockAudio])
 
   const pause = useCallback(() => {
     runIdRef.current += 1
@@ -181,6 +182,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
   }, [cancel])
 
   const resume = useCallback(() => {
+    void unlockAudio()
     const s = settingsRef.current
     if (!s.autoAdvance) {
       const nextIndex = Math.min(indexRef.current + 1, playlistRef.current.length - 1)
@@ -193,9 +195,10 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
       return
     }
     void playFrom(indexRef.current)
-  }, [playFrom])
+  }, [playFrom, unlockAudio])
 
   const next = useCallback(() => {
+    void unlockAudio()
     const nextIndex = Math.min(indexRef.current + 1, playlistRef.current.length - 1)
     if (nextIndex === indexRef.current) {
       runIdRef.current += 1
@@ -209,9 +212,10 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
     if (phaseRef.current === 'playing' || phaseRef.current === 'paused') {
       void playFrom(nextIndex)
     }
-  }, [cancel, playFrom])
+  }, [cancel, playFrom, unlockAudio])
 
   const prev = useCallback(() => {
+    void unlockAudio()
     const prevIndex = Math.max(indexRef.current - 1, 0)
     runIdRef.current += 1
     cancel()
@@ -219,20 +223,37 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
     if (phaseRef.current === 'playing' || phaseRef.current === 'paused') {
       void playFrom(prevIndex)
     }
-  }, [cancel, playFrom])
+  }, [cancel, playFrom, unlockAudio])
 
   const replay = useCallback(() => {
+    void unlockAudio()
     runIdRef.current += 1
     cancel()
     void playFrom(indexRef.current)
-  }, [cancel, playFrom])
+  }, [cancel, playFrom, unlockAudio])
 
   const restart = useCallback(() => {
+    void unlockAudio()
     reshuffleIfNeeded()
     cancel()
     setIndex(0)
     void playFrom(0)
-  }, [cancel, playFrom, reshuffleIfNeeded])
+  }, [cancel, playFrom, reshuffleIfNeeded, unlockAudio])
+
+  useEffect(() => {
+    const pauseIfHidden = () => {
+      if (typeof document !== 'undefined' && document.hidden && phaseRef.current === 'playing') {
+        pause()
+      }
+    }
+
+    document.addEventListener('visibilitychange', pauseIfHidden)
+    window.addEventListener('pagehide', pauseIfHidden)
+    return () => {
+      document.removeEventListener('visibilitychange', pauseIfHidden)
+      window.removeEventListener('pagehide', pauseIfHidden)
+    }
+  }, [pause])
 
   useEffect(
     () => () => {

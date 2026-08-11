@@ -1,13 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { fetchBanglaAudio } from '../lib/banglaTts'
+import { stopSharedAudio, unlockAudioPlayback } from '../lib/audioPlayer'
 import { pushDebug } from '../lib/debugLog'
+import { playBanglaCloud } from '../lib/playBanglaCloud'
 import { translateEnglishToBangla } from '../lib/translate'
-import type {
-  AppSettings,
-  BanglaEngine,
-  BanglaVoiceId,
-  GeminiVoiceId,
-} from '../types/word'
+import type { AppSettings } from '../types/word'
 import styles from './SpeakTranslate.module.css'
 
 type SpeakSettings = Pick<
@@ -59,29 +55,6 @@ function getSpeechRecognitionCtor(): SpeechRecognitionCtor | null {
   return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null
 }
 
-function cloudVoice(
-  engine: BanglaEngine,
-  banglaVoice: BanglaVoiceId,
-  geminiVoice: GeminiVoiceId,
-): BanglaVoiceId | GeminiVoiceId {
-  return engine === 'gemini' ? geminiVoice : banglaVoice
-}
-
-function pickBrowserVoice(
-  voices: SpeechSynthesisVoice[],
-  langs: string[],
-): SpeechSynthesisVoice | null {
-  for (const lang of langs) {
-    const exact = voices.find((v) => v.lang.toLowerCase() === lang.toLowerCase())
-    if (exact) return exact
-    const prefix = voices.find((v) =>
-      v.lang.toLowerCase().startsWith(lang.split('-')[0].toLowerCase()),
-    )
-    if (prefix) return prefix
-  }
-  return null
-}
-
 export function SpeakTranslate({ settings }: Props) {
   const supported = getSpeechRecognitionCtor() != null
   const [phase, setPhase] = useState<Phase>(supported ? 'idle' : 'unsupported')
@@ -96,22 +69,10 @@ export function SpeakTranslate({ settings }: Props) {
   const holdingRef = useRef(false)
   const generationRef = useRef(0)
   const abortRef = useRef<AbortController | null>(null)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
-  const objectUrlRef = useRef<string | null>(null)
   const pointerIdRef = useRef<number | null>(null)
 
   const stopAudio = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.onended = null
-      audioRef.current.onerror = null
-      audioRef.current.pause()
-      audioRef.current.src = ''
-      audioRef.current = null
-    }
-    if (objectUrlRef.current) {
-      URL.revokeObjectURL(objectUrlRef.current)
-      objectUrlRef.current = null
-    }
+    stopSharedAudio()
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
     }
@@ -153,58 +114,7 @@ export function SpeakTranslate({ settings }: Props) {
       }
 
       if (settings.banglaEngine === 'device') {
-        await new Promise<void>((resolve) => {
-          if (generation !== generationRef.current || !window.speechSynthesis) {
-            resolve()
-            return
-          }
-          const utterance = new SpeechSynthesisUtterance(bn)
-          utterance.rate = settings.rate
-          utterance.volume = settings.volume
-          utterance.lang = 'bn-BD'
-          const voice = pickBrowserVoice(window.speechSynthesis.getVoices(), [
-            'bn-BD',
-            'bn-IN',
-            'bn',
-          ])
-          if (voice) utterance.voice = voice
-          utterance.onend = () => resolve()
-          utterance.onerror = () => resolve()
-          window.speechSynthesis.speak(utterance)
-        })
-        finish()
-        return
-      }
-
-      try {
-        const engine = settings.banglaEngine === 'gemini' ? 'gemini' : 'neural'
-        const blob = await fetchBanglaAudio(
-          bn,
-          cloudVoice(
-            settings.banglaEngine,
-            settings.banglaVoice,
-            settings.geminiVoice,
-          ),
-          settings.rate,
-          engine,
-        )
-        if (generation !== generationRef.current) return
-
-        await new Promise<void>((resolve, reject) => {
-          const url = URL.createObjectURL(blob)
-          objectUrlRef.current = url
-          const audio = new Audio(url)
-          audio.playbackRate = 1
-          audio.volume = settings.volume
-          audioRef.current = audio
-          audio.onended = () => resolve()
-          audio.onerror = () => reject(new Error('Audio playback failed'))
-          void audio.play().catch(reject)
-        })
-      } catch {
-        if (generation !== generationRef.current) return
-        // Soft fallback to device voice
-        if (window.speechSynthesis) {
+        if (window.speechSynthesis && generation === generationRef.current) {
           await new Promise<void>((resolve) => {
             const utterance = new SpeechSynthesisUtterance(bn)
             utterance.rate = settings.rate
@@ -215,7 +125,20 @@ export function SpeakTranslate({ settings }: Props) {
             window.speechSynthesis.speak(utterance)
           })
         }
+        finish()
+        return
       }
+
+      await playBanglaCloud({
+        text: bn,
+        engine: settings.banglaEngine === 'neural' ? 'neural' : 'gemini',
+        geminiVoice: settings.geminiVoice,
+        banglaVoice: settings.banglaVoice,
+        rate: settings.rate,
+        volume: settings.volume,
+        shouldAbort: () => generation !== generationRef.current,
+        logSource: 'speak',
+      })
 
       finish()
     },
@@ -277,6 +200,8 @@ export function SpeakTranslate({ settings }: Props) {
     if (phase === 'translating' || phase === 'speaking') {
       cancelInFlight()
     }
+
+    void unlockAudioPlayback()
 
     const Ctor = getSpeechRecognitionCtor()
     if (!Ctor) {
