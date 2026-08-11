@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { Category } from './types/word'
 import { getCategories, prefetchCategories } from './data/loader'
 import { useSettings } from './hooks/useSettings'
 import { useProgress } from './hooks/useProgress'
+import { DebugPanel } from './components/DebugPanel'
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
 import { Settings } from './pages/Settings'
@@ -22,6 +23,8 @@ type Screen =
 
 const PARENTS_PATH = '/parents'
 const SETTINGS_PATH = '/settings'
+/** Reuse one Parents tab instead of opening a new one each unlock. */
+const PARENTS_WINDOW_NAME = 'bangla-buddy-parents'
 
 function normalizePath(pathname: string) {
   if (pathname.length > 1 && pathname.endsWith('/')) return pathname.slice(0, -1)
@@ -81,6 +84,7 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>(() =>
     typeof window === 'undefined' ? { name: 'home' } : screenFromPath(window.location.pathname),
   )
+  const [debugOpen, setDebugOpen] = useState(false)
 
   const goTo = useCallback((next: Screen, mode: 'push' | 'replace' = 'push') => {
     setScreen(next)
@@ -104,6 +108,17 @@ export default function App() {
   }, [])
 
   useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (!(event.ctrlKey || event.metaKey) || !event.shiftKey) return
+      if (event.key.toLowerCase() !== 'd') return
+      event.preventDefault()
+      setDebugOpen((open) => !open)
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [])
+
+  useEffect(() => {
     const handle = window.setTimeout(() => {
       prefetchCategories(categories)
     }, 500)
@@ -116,15 +131,25 @@ export default function App() {
 
   const openDashboardInNewTab = useCallback(() => {
     const url = new URL(PARENTS_PATH, window.location.origin)
-    const opened = window.open(url.href, '_blank', 'noopener,noreferrer')
-    if (!opened) {
-      // Popup blocked — fall back to same-tab navigation.
-      goTo({ name: 'dashboard' })
+    // Named target reuses the same Parents tab (no duplicate tabs).
+    // Avoid noopener so the browser can focus/reuse that named window.
+    const opened = window.open(url.href, PARENTS_WINDOW_NAME)
+    if (opened) {
+      try {
+        opened.focus()
+      } catch {
+        /* ignore cross-window focus errors */
+      }
+      return
     }
+    // Popup blocked — fall back to same-tab navigation.
+    goTo({ name: 'dashboard' })
   }, [goTo])
 
+  let content: ReactNode = null
+
   if (screen.name === 'settings') {
-    return (
+    content = (
       <Settings
         settings={settings}
         saveFlash={saveFlash}
@@ -144,13 +169,12 @@ export default function App() {
         onParentPin={setParentPin}
         onApplyPreset={applyPreset}
         onReset={resetSettings}
+        onOpenDebug={() => setDebugOpen(true)}
         onBack={() => goTo({ name: 'dashboard' })}
       />
     )
-  }
-
-  if (screen.name === 'dashboard') {
-    return (
+  } else if (screen.name === 'dashboard') {
+    content = (
       <ParentDashboard
         categories={categories}
         settings={settings}
@@ -163,20 +187,16 @@ export default function App() {
         onClearProgress={clearProgress}
       />
     )
-  }
-
-  if (screen.name === 'quiz-pick') {
-    return (
+  } else if (screen.name === 'quiz-pick') {
+    content = (
       <QuizPick
         categories={categories}
         onSelect={(category) => setScreen({ name: 'quiz', category })}
         onBack={() => goTo({ name: 'home' })}
       />
     )
-  }
-
-  if (screen.name === 'quiz') {
-    return (
+  } else if (screen.name === 'quiz') {
+    content = (
       <Quiz
         category={screen.category}
         settings={settings}
@@ -185,11 +205,9 @@ export default function App() {
         onQuizComplete={trackQuizResult}
       />
     )
-  }
-
-  if (screen.name === 'player') {
+  } else if (screen.name === 'player') {
     const catProgress = progress.categories[screen.category.id]
-    return (
+    content = (
       <Player
         category={screen.category}
         settings={settings}
@@ -202,16 +220,36 @@ export default function App() {
         onClearResume={clearResume}
       />
     )
+  } else {
+    content = (
+      <Home
+        categories={categories}
+        parentGate={settings.parentGate}
+        parentPin={settings.parentPin}
+        speechSettings={{
+          rate: settings.rate,
+          volume: settings.volume,
+          muted: settings.muted,
+          banglaVoice: settings.banglaVoice,
+          geminiVoice: settings.geminiVoice,
+          banglaEngine: settings.banglaEngine,
+        }}
+        onSelect={(category) => setScreen({ name: 'player', category })}
+        onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
+        onOpenDashboard={openDashboardInNewTab}
+      />
+    )
   }
 
   return (
-    <Home
-      categories={categories}
-      parentGate={settings.parentGate}
-      parentPin={settings.parentPin}
-      onSelect={(category) => setScreen({ name: 'player', category })}
-      onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
-      onOpenDashboard={openDashboardInNewTab}
-    />
+    <>
+      {content}
+      <DebugPanel
+        open={debugOpen}
+        onClose={() => setDebugOpen(false)}
+        settings={settings}
+        screenName={screen.name}
+      />
+    </>
   )
 }

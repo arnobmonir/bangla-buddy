@@ -15,6 +15,11 @@ import {
   getAudioCacheStats,
 } from '../lib/audioCache'
 import { useSpeech } from '../hooks/useSpeech'
+import {
+  clearStoredGeminiApiKey,
+  getStoredGeminiApiKey,
+  setStoredGeminiApiKey,
+} from '../lib/geminiKey'
 import styles from './Settings.module.css'
 
 type Props = {
@@ -36,6 +41,7 @@ type Props = {
   onParentPin: (value: string) => void
   onApplyPreset: (patch: Partial<AppSettings>) => void
   onReset: () => void
+  onOpenDebug: () => void
   onBack: () => void
 }
 
@@ -144,6 +150,7 @@ export function Settings({
   onParentPin,
   onApplyPreset,
   onReset,
+  onOpenDebug,
   onBack,
 }: Props) {
   const { speakWord, cancel } = useSpeech()
@@ -152,10 +159,34 @@ export function Settings({
   const [testing, setTesting] = useState(false)
   const [pinDraft, setPinDraft] = useState(settings.parentPin)
   const [pinSavedFlash, setPinSavedFlash] = useState(false)
+  const [serverHasGeminiKey, setServerHasGeminiKey] = useState<boolean | null>(null)
+  const [geminiKeyDraft, setGeminiKeyDraft] = useState(() => getStoredGeminiApiKey())
+  const [geminiKeySaved, setGeminiKeySaved] = useState(false)
+  const [hasLocalGeminiKey, setHasLocalGeminiKey] = useState(
+    () => Boolean(getStoredGeminiApiKey()),
+  )
 
   useEffect(() => {
     setPinDraft(settings.parentPin)
   }, [settings.parentPin])
+
+  useEffect(() => {
+    let cancelled = false
+    void fetch('/api/ping')
+      .then(async (res) => {
+        if (!res.ok) return { hasGeminiKey: false }
+        return (await res.json()) as { hasGeminiKey?: boolean }
+      })
+      .then((body) => {
+        if (!cancelled) setServerHasGeminiKey(Boolean(body.hasGeminiKey))
+      })
+      .catch(() => {
+        if (!cancelled) setServerHasGeminiKey(false)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   useEffect(() => {
     if (!pinSavedFlash) return
@@ -163,12 +194,33 @@ export function Settings({
     return () => window.clearTimeout(t)
   }, [pinSavedFlash])
 
+  useEffect(() => {
+    if (!geminiKeySaved) return
+    const t = window.setTimeout(() => setGeminiKeySaved(false), 1500)
+    return () => window.clearTimeout(t)
+  }, [geminiKeySaved])
+
   const savePin = () => {
     const next = pinDraft.replace(/\D/g, '').slice(0, 4)
     if (next.length !== 4) return
     onParentPin(next)
     setPinDraft(next)
     setPinSavedFlash(true)
+  }
+
+  const saveGeminiKey = () => {
+    const next = geminiKeyDraft.trim()
+    setStoredGeminiApiKey(next)
+    setGeminiKeyDraft(next)
+    setHasLocalGeminiKey(Boolean(next))
+    setGeminiKeySaved(true)
+  }
+
+  const clearGeminiKey = () => {
+    clearStoredGeminiApiKey()
+    setGeminiKeyDraft('')
+    setHasLocalGeminiKey(false)
+    setGeminiKeySaved(true)
   }
 
   const refreshCache = async () => {
@@ -402,6 +454,59 @@ export function Settings({
           ]}
         />
 
+        {serverHasGeminiKey === true ? (
+          <p className={styles.geminiStatus} data-ok="true">
+            Server Gemini API key is configured
+          </p>
+        ) : null}
+
+        {serverHasGeminiKey === false ? (
+          <div className={styles.geminiKeyBox}>
+            <div className={styles.geminiKeyHead}>
+              <p className={styles.cacheTitle}>Gemini API key</p>
+              <p className={styles.cacheMeta}>
+                {hasLocalGeminiKey
+                  ? 'Saved on this device — used for Gemini voice and hold-to-speak translate'
+                  : 'No server key found. Paste a key from Google AI Studio to enable Gemini.'}
+              </p>
+            </div>
+            <div className={styles.geminiKeyControls}>
+              <input
+                className={styles.geminiKeyInput}
+                type="password"
+                autoComplete="off"
+                spellCheck={false}
+                placeholder="AIza…"
+                value={geminiKeyDraft}
+                onChange={(e) => setGeminiKeyDraft(e.target.value)}
+                aria-label="Gemini API key"
+              />
+              <button
+                type="button"
+                className={styles.pinSaveBtn}
+                disabled={!geminiKeyDraft.trim()}
+                onClick={saveGeminiKey}
+              >
+                Save
+              </button>
+            </div>
+            <div className={styles.geminiKeyActions}>
+              {hasLocalGeminiKey ? (
+                <button
+                  type="button"
+                  className={styles.clearBtn}
+                  onClick={clearGeminiKey}
+                >
+                  Remove key
+                </button>
+              ) : null}
+              <span className={styles.geminiKeyFlash} data-saved={geminiKeySaved ? 'true' : 'false'}>
+                {geminiKeySaved ? '✓ Saved' : ''}
+              </span>
+            </div>
+          </div>
+        ) : null}
+
         <div
           className={styles.voiceGrid}
           data-disabled={settings.banglaEngine !== 'neural' ? 'true' : 'false'}
@@ -546,6 +651,26 @@ export function Settings({
       </section>
 
       <section className={styles.card} style={{ '--i': 5 } as CSSProperties}>
+        <div className={styles.cardHead}>
+          <span className={styles.cardIcon} aria-hidden>
+            🧰
+          </span>
+          <div>
+            <h2 className={styles.sectionTitle}>Debug</h2>
+            <p className={styles.sectionHint}>
+              API status, Gemini key, TTS/translate tests, and event log
+            </p>
+          </div>
+        </div>
+        <button type="button" className={styles.testBtn} onClick={onOpenDebug}>
+          Open debug panel
+        </button>
+        <p className={styles.sectionHint}>
+          Or press Ctrl+Shift+D (⌘+Shift+D on Mac) from any screen.
+        </p>
+      </section>
+
+      <section className={styles.card} style={{ '--i': 6 } as CSSProperties}>
         <div className={styles.cardHead}>
           <span className={styles.cardIcon} aria-hidden>
             💾

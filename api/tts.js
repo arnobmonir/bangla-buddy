@@ -245,15 +245,27 @@ function synthesizeBangla(text, voice, rate) {
   })
 }
 
-async function synthesizeGeminiBangla(text, voice) {
-  const apiKey = process.env.GEMINI_API_KEY?.trim()
-  if (!apiKey) {
-    const err = new Error(
-      'GEMINI_API_KEY is not configured. In Vercel → Project Settings → Environment Variables, add GEMINI_API_KEY, enable Preview (and Production), then Redeploy.',
-    )
-    err.status = 503
-    throw err
-  }
+function resolveGeminiApiKey(clientKey) {
+  const fromEnv = process.env.GEMINI_API_KEY?.trim()
+  if (fromEnv) return fromEnv
+  const fromClient = typeof clientKey === 'string' ? clientKey.trim() : ''
+  if (fromClient) return fromClient
+  const err = new Error(
+    'GEMINI_API_KEY is not configured. Add it in Settings, or set GEMINI_API_KEY on the server (.env.local / Vercel).',
+  )
+  err.status = 503
+  throw err
+}
+
+function readGeminiApiKeyHeader(req) {
+  const raw = req.headers?.['x-gemini-api-key']
+  if (typeof raw === 'string') return raw.trim() || undefined
+  if (Array.isArray(raw) && typeof raw[0] === 'string') return raw[0].trim() || undefined
+  return undefined
+}
+
+async function synthesizeGeminiBangla(text, voice, clientApiKey) {
+  const apiKey = resolveGeminiApiKey(clientApiKey)
 
   const prompt =
     `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
@@ -321,6 +333,7 @@ module.exports = async function handler(req, res) {
   try {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, x-gemini-api-key')
 
     if (req.method === 'OPTIONS') {
       res.statusCode = 204
@@ -352,7 +365,11 @@ module.exports = async function handler(req, res) {
     let audio
     let contentType
     if (parsed.value.engine === 'gemini') {
-      audio = await synthesizeGeminiBangla(parsed.value.text, parsed.value.voice)
+      audio = await synthesizeGeminiBangla(
+        parsed.value.text,
+        parsed.value.voice,
+        readGeminiApiKeyHeader(req),
+      )
       contentType = 'audio/wav'
     } else {
       audio = await synthesizeBangla(

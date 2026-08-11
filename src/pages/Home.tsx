@@ -1,13 +1,18 @@
 import type { CSSProperties } from 'react'
-import type { Category, ParentGate } from '../types/word'
+import type { AppSettings, Category, ParentGate } from '../types/word'
 import { CategoryTile } from '../components/CategoryTile'
 import { ParentGateButton } from '../components/ParentGateButton'
+import { SpeakTranslate } from '../components/SpeakTranslate'
 import styles from './Home.module.css'
 
 type Props = {
   categories: Category[]
   parentGate: ParentGate
   parentPin: string
+  speechSettings: Pick<
+    AppSettings,
+    'rate' | 'volume' | 'muted' | 'banglaVoice' | 'geminiVoice' | 'banglaEngine'
+  >
   onSelect: (category: Category) => void
   onOpenQuiz: () => void
   onOpenDashboard: () => void
@@ -19,6 +24,7 @@ export function Home({
   categories,
   parentGate,
   parentPin,
+  speechSettings,
   onSelect,
   onOpenQuiz,
   onOpenDashboard,
@@ -78,6 +84,8 @@ export function Home({
           </div>
         </div>
       </section>
+
+      <SpeakTranslate settings={speechSettings} />
 
       <section className={styles.categories} aria-label="Word categories">
         <div className={styles.sectionHead}>

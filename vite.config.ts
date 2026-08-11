@@ -2,10 +2,11 @@ import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 import { banglaTtsApiPlugin } from './plugins/banglaTtsApi.ts'
+import { translateApiPlugin } from './plugins/translateApi.ts'
 
 export default defineConfig(({ mode }) => {
   // Vite only auto-exposes VITE_* to the client. Load all env so the /api/tts
-  // middleware can read GEMINI_API_KEY from .env.local.
+  // and /api/translate middleware can read GEMINI_API_KEY from .env.local.
   const env = loadEnv(mode, process.cwd(), '')
   if (env.GEMINI_API_KEY && !process.env.GEMINI_API_KEY) {
     process.env.GEMINI_API_KEY = env.GEMINI_API_KEY
@@ -15,6 +16,7 @@ export default defineConfig(({ mode }) => {
   plugins: [
     react(),
     banglaTtsApiPlugin(),
+    translateApiPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: [
@@ -69,6 +71,13 @@ export default defineConfig(({ mode }) => {
             handler: 'NetworkOnly',
             options: {
               cacheName: 'bangla-tts-network',
+            },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/translate'),
+            handler: 'NetworkOnly',
+            options: {
+              cacheName: 'translate-network',
             },
           },
           {

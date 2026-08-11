@@ -1,4 +1,6 @@
+import { geminiApiKeyHeaders } from './geminiKey'
 import { getCachedAudio, putCachedAudio } from './audioCache'
+import { pushDebug } from './debugLog'
 import type { BanglaEngine, BanglaVoiceId, GeminiVoiceId } from '../types/word'
 
 const inflight = new Map<string, Promise<Blob>>()
@@ -18,7 +20,7 @@ export async function fetchBanglaAudio(
   text: string,
   voice: BanglaVoiceId | GeminiVoiceId,
   rate: number,
-  engine: CloudBanglaEngine = 'neural',
+  engine: CloudBanglaEngine = 'gemini',
 ): Promise<Blob> {
   const cached = await getCachedAudio(`${engine}:${voice}`, text, rate)
   if (cached) return cached
@@ -34,12 +36,17 @@ export async function fetchBanglaAudio(
       rate: String(rate),
       engine,
     })
-    const res = await fetch(`/api/tts?${params.toString()}`)
+    const res = await fetch(`/api/tts?${params.toString()}`, {
+      headers: geminiApiKeyHeaders(),
+    })
     if (!res.ok) {
       const body = await res.text()
-      throw new Error(body || `TTS HTTP ${res.status}`)
+      const message = body || `TTS HTTP ${res.status}`
+      pushDebug('tts', `${engine}/${voice}: ${message}`, 'error')
+      throw new Error(message)
     }
     const blob = await res.blob()
+    pushDebug('tts', `${engine} ok · ${text.slice(0, 40)}`, 'ok')
     await putCachedAudio(`${engine}:${voice}`, text, rate, blob).catch(() => undefined)
     return blob
   })()

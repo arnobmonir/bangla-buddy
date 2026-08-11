@@ -1,6 +1,7 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Connect, Plugin } from 'vite'
 import { parseTtsParams, synthesizeTts } from '../server/banglaTts.ts'
+import { readGeminiApiKeyHeader } from '../server/geminiKey.ts'
 
 function sendJson(res: ServerResponse, status: number, body: unknown) {
   res.statusCode = status
@@ -25,6 +26,7 @@ async function handleTts(
       res.statusCode = 204
       res.setHeader('Access-Control-Allow-Origin', '*')
       res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type, x-gemini-api-key')
       res.end()
       return
     }
@@ -40,7 +42,10 @@ async function handleTts(
       return
     }
 
-    const result = await synthesizeTts(parsed.value)
+    const result = await synthesizeTts({
+      ...parsed.value,
+      clientApiKey: readGeminiApiKeyHeader(req.headers),
+    })
     res.statusCode = 200
     res.setHeader('Content-Type', result.contentType)
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
@@ -61,6 +66,17 @@ export function banglaTtsApiPlugin(): Plugin {
     name: 'bangla-tts-api',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
+        if (req.url?.startsWith('/api/ping')) {
+          res.statusCode = 200
+          res.setHeader('Content-Type', 'application/json; charset=utf-8')
+          res.end(
+            JSON.stringify({
+              ok: true,
+              hasGeminiKey: Boolean(process.env.GEMINI_API_KEY?.trim()),
+            }),
+          )
+          return
+        }
         if (req.url?.startsWith('/api/tts')) {
           void handleTts(req, res, next)
           return
@@ -70,6 +86,17 @@ export function banglaTtsApiPlugin(): Plugin {
     },
     configurePreviewServer(server) {
       server.middlewares.use((req, res, next) => {
+        if (req.url?.startsWith('/api/ping')) {
+          res.statusCode = 200
+          res.setHeader('Content-Type', 'application/json; charset=utf-8')
+          res.end(
+            JSON.stringify({
+              ok: true,
+              hasGeminiKey: Boolean(process.env.GEMINI_API_KEY?.trim()),
+            }),
+          )
+          return
+        }
         if (req.url?.startsWith('/api/tts')) {
           void handleTts(req, res, next)
           return

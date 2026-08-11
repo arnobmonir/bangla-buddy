@@ -1,5 +1,6 @@
 import { createHash, randomBytes } from 'node:crypto'
 import WebSocket from 'ws'
+import { resolveGeminiApiKey } from './geminiKey.ts'
 
 export const ALLOWED_EDGE_VOICES = new Set([
   'bn-IN-TanishaaNeural',
@@ -256,17 +257,9 @@ function extractGeminiAudioBase64(payload: unknown): string | null {
 export async function synthesizeGeminiBangla(
   text: string,
   voice: string,
+  clientApiKey?: string | null,
 ): Promise<Buffer> {
-  const apiKey = process.env.GEMINI_API_KEY?.trim()
-  if (!apiKey) {
-    const err = new Error(
-      'GEMINI_API_KEY is not configured. In Vercel → Project Settings → Environment Variables, add GEMINI_API_KEY, enable Preview (and Production), then Redeploy.',
-    ) as Error & {
-      status?: number
-    }
-    err.status = 503
-    throw err
-  }
+  const apiKey = resolveGeminiApiKey(clientApiKey)
 
   const prompt =
     `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
@@ -338,6 +331,7 @@ export type TtsRequestParams = {
   voice: string
   rate: number
   engine: TtsEngine
+  clientApiKey?: string | null
 }
 
 export type TtsResult = {
@@ -380,7 +374,11 @@ export function parseTtsParams(searchParams: URLSearchParams):
 
 export async function synthesizeTts(params: TtsRequestParams): Promise<TtsResult> {
   if (params.engine === 'gemini') {
-    const audio = await synthesizeGeminiBangla(params.text, params.voice)
+    const audio = await synthesizeGeminiBangla(
+      params.text,
+      params.voice,
+      params.clientApiKey,
+    )
     return { audio, contentType: 'audio/wav' }
   }
   const audio = await synthesizeBangla(params.text, params.voice, params.rate)
