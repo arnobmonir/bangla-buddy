@@ -31,6 +31,7 @@ export function unlockAudioPlayback(): Promise<void> {
 
   unlockPromise = (async () => {
     const audio = ensureAudio()
+    const previousVolume = audio.volume
     try {
       audio.src = SILENT_WAV
       audio.volume = 0.01
@@ -40,7 +41,7 @@ export function unlockAudioPlayback(): Promise<void> {
     } catch {
       // Still keep the element; a later play may succeed after gesture.
     } finally {
-      audio.volume = 1
+      audio.volume = previousVolume
     }
   })()
 
@@ -80,16 +81,23 @@ export function playAudioBlob(
       settled = true
       audio.onended = null
       audio.onerror = null
+      audio.onloadedmetadata = null
       URL.revokeObjectURL(url)
       if (err) reject(err)
       else resolve()
     }
 
+    const applyPlayback = () => {
+      audio.playbackRate = playbackRate
+      audio.volume = Math.min(1, Math.max(0, volume))
+    }
+
     audio.onended = () => finish()
     audio.onerror = () => finish(new Error('Audio playback failed'))
+    // Browsers may reset playbackRate when src changes; re-apply after metadata.
+    audio.onloadedmetadata = () => applyPlayback()
     audio.src = url
-    audio.playbackRate = playbackRate
-    audio.volume = Math.min(1, Math.max(0, volume))
+    applyPlayback()
 
     const tryPlay = async () => {
       try {
@@ -99,6 +107,7 @@ export function playAudioBlob(
         await new Promise((r) => window.setTimeout(r, 120))
         try {
           await unlockAudioPlayback()
+          applyPlayback()
           await audio.play()
         } catch (second) {
           const message =

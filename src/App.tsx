@@ -7,7 +7,6 @@ import { DebugPanel } from './components/DebugPanel'
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
 import { Settings } from './pages/Settings'
-import { ParentDashboard } from './pages/ParentDashboard'
 import { QuizPick } from './pages/QuizPick'
 import { Quiz } from './pages/Quiz'
 import './styles/tokens.css'
@@ -17,14 +16,11 @@ type Screen =
   | { name: 'home' }
   | { name: 'player'; category: Category }
   | { name: 'settings' }
-  | { name: 'dashboard' }
   | { name: 'quiz-pick' }
   | { name: 'quiz'; category: Category }
 
 const PARENTS_PATH = '/parents'
 const SETTINGS_PATH = '/settings'
-/** Reuse one Parents tab instead of opening a new one each unlock. */
-const PARENTS_WINDOW_NAME = 'bangla-buddy-parents'
 
 function normalizePath(pathname: string) {
   if (pathname.length > 1 && pathname.endsWith('/')) return pathname.slice(0, -1)
@@ -33,13 +29,13 @@ function normalizePath(pathname: string) {
 
 function screenFromPath(pathname: string): Screen {
   const path = normalizePath(pathname)
-  if (path === PARENTS_PATH) return { name: 'dashboard' }
+  // Parent dashboard hidden for now — /parents falls back to home.
+  if (path === PARENTS_PATH) return { name: 'home' }
   if (path === SETTINGS_PATH) return { name: 'settings' }
   return { name: 'home' }
 }
 
 function pathForScreen(screen: Screen): string | null {
-  if (screen.name === 'dashboard') return PARENTS_PATH
   if (screen.name === 'settings') return SETTINGS_PATH
   if (screen.name === 'home') return '/'
   return null
@@ -47,10 +43,6 @@ function pathForScreen(screen: Screen): string | null {
 
 export default function App() {
   const categories = useMemo(() => getCategories(), [])
-  const totalWordCatalog = useMemo(
-    () => categories.reduce((sum, c) => sum + c.wordCount, 0),
-    [categories],
-  )
   const {
     settings,
     saveFlash,
@@ -78,8 +70,6 @@ export default function App() {
     trackCategoryComplete,
     trackQuizResult,
     clearResume,
-    clearProgress,
-    refresh,
   } = useProgress()
   const [screen, setScreen] = useState<Screen>(() =>
     typeof window === 'undefined' ? { name: 'home' } : screenFromPath(window.location.pathname),
@@ -125,27 +115,6 @@ export default function App() {
     return () => window.clearTimeout(handle)
   }, [categories])
 
-  useEffect(() => {
-    if (screen.name === 'dashboard') refresh()
-  }, [screen.name, refresh])
-
-  const openDashboardInNewTab = useCallback(() => {
-    const url = new URL(PARENTS_PATH, window.location.origin)
-    // Named target reuses the same Parents tab (no duplicate tabs).
-    // Avoid noopener so the browser can focus/reuse that named window.
-    const opened = window.open(url.href, PARENTS_WINDOW_NAME)
-    if (opened) {
-      try {
-        opened.focus()
-      } catch {
-        /* ignore cross-window focus errors */
-      }
-      return
-    }
-    // Popup blocked — fall back to same-tab navigation.
-    goTo({ name: 'dashboard' })
-  }, [goTo])
-
   let content: ReactNode = null
 
   if (screen.name === 'settings') {
@@ -170,21 +139,7 @@ export default function App() {
         onApplyPreset={applyPreset}
         onReset={resetSettings}
         onOpenDebug={() => setDebugOpen(true)}
-        onBack={() => goTo({ name: 'dashboard' })}
-      />
-    )
-  } else if (screen.name === 'dashboard') {
-    content = (
-      <ParentDashboard
-        categories={categories}
-        settings={settings}
-        progress={progress}
-        totalWordCatalog={totalWordCatalog}
         onBack={() => goTo({ name: 'home' })}
-        onOpenSettings={() => goTo({ name: 'settings' })}
-        onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
-        onPlayCategory={(category) => setScreen({ name: 'player', category })}
-        onClearProgress={clearProgress}
       />
     )
   } else if (screen.name === 'quiz-pick') {
@@ -224,19 +179,8 @@ export default function App() {
     content = (
       <Home
         categories={categories}
-        parentGate={settings.parentGate}
-        parentPin={settings.parentPin}
-        speechSettings={{
-          rate: settings.rate,
-          volume: settings.volume,
-          muted: settings.muted,
-          banglaVoice: settings.banglaVoice,
-          geminiVoice: settings.geminiVoice,
-          banglaEngine: settings.banglaEngine,
-        }}
         onSelect={(category) => setScreen({ name: 'player', category })}
         onOpenQuiz={() => setScreen({ name: 'quiz-pick' })}
-        onOpenDashboard={openDashboardInNewTab}
       />
     )
   }

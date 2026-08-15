@@ -10,8 +10,6 @@ type Props = {
 }
 
 export function WordCard({ word, categoryIcon, color, animateKey }: Props) {
-  const hasExample = Boolean(word.exampleEn?.trim() && word.exampleBn?.trim())
-
   return (
     <article
       key={animateKey}
@@ -24,12 +22,6 @@ export function WordCard({ word, categoryIcon, color, animateKey }: Props) {
       </div>
       <h1 className={styles.en}>{word.en}</h1>
       <p className={styles.bn}>{word.bn}</p>
-      {hasExample ? (
-        <div className={styles.example}>
-          <p className={styles.exampleEn}>{word.exampleEn}</p>
-          <p className={styles.exampleBn}>{word.exampleBn}</p>
-        </div>
-      ) : null}
     </article>
   )
 }

@@ -93,7 +93,10 @@ export async function playBanglaCloud(args: PlayArgs): Promise<void> {
         if (aborted()) return
         const blob = await fetchBanglaAudio(text, voice, rate, useEngine)
         if (aborted()) return
-        await playAudioBlob(blob, rate, volume)
+        // Neural already bakes rate into SSML; applying playbackRate again makes
+        // the first play sound too slow. Gemini has no server rate — client only.
+        const playRate = useEngine === 'neural' ? 1 : rate
+        await playAudioBlob(blob, playRate, volume)
         return
       } catch (err) {
         lastError = err

@@ -70,7 +70,7 @@ export const DEFAULT_SETTINGS: AppSettings = {
   speechMode: 'en-bn',
   banglaVoice: 'bn-BD-PradeepNeural',
   geminiVoice: 'Leda',
-  banglaEngine: 'gemini',
+  banglaEngine: 'neural',
   autoAdvance: true,
   banglaRepeat: 2,
   shuffle: false,

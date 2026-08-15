@@ -1,34 +1,17 @@
 import type { CSSProperties } from 'react'
-import type { AppSettings, Category, ParentGate } from '../types/word'
+import type { Category } from '../types/word'
 import { CategoryTile } from '../components/CategoryTile'
-import { ParentGateButton } from '../components/ParentGateButton'
-import { SpeakTranslate } from '../components/SpeakTranslate'
 import styles from './Home.module.css'
 
 type Props = {
   categories: Category[]
-  parentGate: ParentGate
-  parentPin: string
-  speechSettings: Pick<
-    AppSettings,
-    'rate' | 'volume' | 'muted' | 'banglaVoice' | 'geminiVoice' | 'banglaEngine'
-  >
   onSelect: (category: Category) => void
   onOpenQuiz: () => void
-  onOpenDashboard: () => void
 }
 
 const FLOATERS = ['🐱', '🍎', '🌟', '🏠', '🎨', '🚌', '🌿', '👟']
 
-export function Home({
-  categories,
-  parentGate,
-  parentPin,
-  speechSettings,
-  onSelect,
-  onOpenQuiz,
-  onOpenDashboard,
-}: Props) {
+export function Home({ categories, onSelect, onOpenQuiz }: Props) {
   return (
     <div className={styles.page}>
       <section className={styles.hero} aria-label="Welcome">
@@ -42,17 +25,6 @@ export function Home({
             <span aria-hidden>🎯</span>
             Quiz
           </button>
-        </div>
-
-        <div className={styles.topActions}>
-          <ParentGateButton
-            className={styles.dashboardBtn}
-            label="Parents"
-            ariaLabel="Open parent dashboard"
-            mode={parentGate}
-            pin={parentPin}
-            onUnlock={onOpenDashboard}
-          />
         </div>
 
         <div className={styles.heroGlow} aria-hidden />
@@ -84,8 +56,6 @@ export function Home({
           </div>
         </div>
       </section>
-
-      <SpeakTranslate settings={speechSettings} />
 
       <section className={styles.categories} aria-label="Word categories">
         <div className={styles.sectionHead}>

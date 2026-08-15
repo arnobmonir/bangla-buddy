@@ -190,26 +190,16 @@ export function useSpeech() {
       if (generation !== generationRef.current) return
 
       // Keep mobile media unlocked across English speechSynthesis → Bangla audio.
-      void unlockAudioPlayback()
+      await unlockAudioPlayback()
 
       if (window.speechSynthesis) {
         window.speechSynthesis.resume()
       }
 
+      // Example EN/BN sentences hidden for now — headword only.
       await speakPair(word.en, word.bn, options, generation)
-      if (generation !== generationRef.current) return
-
-      const exampleEn = word.exampleEn?.trim()
-      const exampleBn = word.exampleBn?.trim()
-      if (!exampleEn || !exampleBn) return
-
-      await waitGap(Math.max(280, options.enBnGapMs), generation)
-      if (generation !== generationRef.current) return
-
-      // Sentences play once; banglaRepeat only applies to the headword.
-      await speakPair(exampleEn, exampleBn, { ...options, banglaRepeat: 1 }, generation)
     },
-    [speakPair, waitGap],
+    [speakPair],
   )
 
   const prefetchBangla = useCallback(
@@ -221,10 +211,6 @@ export function useSpeech() {
     ) => {
       if (engine !== 'neural' && engine !== 'gemini') return
       void fetchBanglaAudio(word.bn, voice, rate, engine).catch(() => undefined)
-      const exampleBn = word.exampleBn?.trim()
-      if (exampleBn) {
-        void fetchBanglaAudio(exampleBn, voice, rate, engine).catch(() => undefined)
-      }
     },
     [],
   )

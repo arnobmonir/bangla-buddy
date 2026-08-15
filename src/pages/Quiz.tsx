@@ -231,13 +231,13 @@ export function Quiz({
     const ticket = ++answerTicketRef.current
 
     void (async () => {
-      await speakBangla(wordId, bn)
-      if (ticket !== answerTicketRef.current) return
-      if (!correct && correctBn !== bn) {
+      if (correct) {
+        await speakBangla(wordId, bn)
+      } else {
         setFocusedIdx(correctIdx >= 0 ? correctIdx : null)
         await speakBangla(correctId, correctBn)
-        if (ticket !== answerTicketRef.current) return
       }
+      if (ticket !== answerTicketRef.current) return
       await new Promise<void>((resolve) => {
         advanceTimerRef.current = setTimeout(() => {
           advanceTimerRef.current = null
