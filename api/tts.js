@@ -106,8 +106,8 @@ function extractGeminiAudioBase64(payload) {
 
 function parseTtsParams(query) {
   const text = String(query.text ?? '').trim()
-  const engineRaw = String(query.engine ?? 'neural').toLowerCase()
-  const engine = engineRaw === 'gemini' ? 'gemini' : 'neural'
+  const engineRaw = String(query.engine ?? 'gemini').toLowerCase()
+  const engine = engineRaw === 'neural' ? 'neural' : 'gemini'
   const voice = String(
     query.voice ?? (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural'),
   )

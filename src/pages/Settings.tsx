@@ -438,7 +438,7 @@ export function Settings({
           <div>
             <h2 className={styles.sectionTitle}>Bangla voice</h2>
             <p className={styles.sectionHint}>
-              Neural (Edge), Gemini (API key), or device — cached on this device
+              Gemini (default), Neural (Edge), or device — cached on this device
             </p>
           </div>
         </div>
@@ -448,8 +448,8 @@ export function Settings({
           value={settings.banglaEngine}
           onChange={onBanglaEngine}
           options={[
+            { id: 'gemini', label: 'Gemini', hint: 'Default' },
             { id: 'neural', label: 'Neural', hint: 'Edge TTS' },
-            { id: 'gemini', label: 'Gemini', hint: 'Needs API key' },
             { id: 'device', label: 'Device', hint: 'Offline' },
           ]}
         />

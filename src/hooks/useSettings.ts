@@ -11,6 +11,7 @@ import type {
 import { BANGLA_VOICES, DEFAULT_SETTINGS, GEMINI_VOICES } from '../types/word'
 
 export const SETTINGS_STORAGE_KEY = 'baby-bangla-settings'
+const GEMINI_TTS_DEFAULT_MIGRATED_KEY = 'baby-bangla-gemini-tts-default-v1'
 
 const VOICE_IDS = new Set(BANGLA_VOICES.map((v) => v.id))
 const GEMINI_VOICE_IDS = new Set(GEMINI_VOICES.map((v) => v.id))
@@ -66,22 +67,36 @@ function sanitize(raw: unknown): AppSettings {
   }
 }
 
-export function loadSettings(): AppSettings {
-  try {
-    if (typeof localStorage === 'undefined') return DEFAULT_SETTINGS
-    const raw = localStorage.getItem(SETTINGS_STORAGE_KEY)
-    if (!raw) return DEFAULT_SETTINGS
-    return sanitize(JSON.parse(raw))
-  } catch {
-    return DEFAULT_SETTINGS
-  }
-}
-
 function persist(settings: AppSettings) {
   try {
     localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(settings))
   } catch {
     // quota / private mode — keep in-memory only
+  }
+}
+
+function migrateToGeminiDefault(settings: AppSettings): AppSettings {
+  try {
+    if (typeof localStorage === 'undefined') return settings
+    if (localStorage.getItem(GEMINI_TTS_DEFAULT_MIGRATED_KEY)) return settings
+    localStorage.setItem(GEMINI_TTS_DEFAULT_MIGRATED_KEY, '1')
+    if (settings.banglaEngine !== 'neural') return settings
+    const next: AppSettings = { ...settings, banglaEngine: 'gemini' }
+    persist(next)
+    return next
+  } catch {
+    return settings
+  }
+}
+
+export function loadSettings(): AppSettings {
+  try {
+    if (typeof localStorage === 'undefined') return DEFAULT_SETTINGS
+    const raw = localStorage.getItem(SETTINGS_STORAGE_KEY)
+    if (!raw) return DEFAULT_SETTINGS
+    return migrateToGeminiDefault(sanitize(JSON.parse(raw)))
+  } catch {
+    return DEFAULT_SETTINGS
   }
 }
 

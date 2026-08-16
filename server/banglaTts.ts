@@ -343,8 +343,8 @@ export function parseTtsParams(searchParams: URLSearchParams):
   | { ok: true; value: TtsRequestParams }
   | { ok: false; status: number; error: string } {
   const text = (searchParams.get('text') ?? '').trim()
-  const engineRaw = (searchParams.get('engine') ?? 'neural').toLowerCase()
-  const engine: TtsEngine = engineRaw === 'gemini' ? 'gemini' : 'neural'
+  const engineRaw = (searchParams.get('engine') ?? 'gemini').toLowerCase()
+  const engine: TtsEngine = engineRaw === 'neural' ? 'neural' : 'gemini'
   const voice =
     searchParams.get('voice') ??
     (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural')
