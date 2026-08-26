@@ -22,11 +22,15 @@ export const ALLOWED_GEMINI_VOICES = new Set([
 ])
 
 export type TtsEngine = 'neural' | 'gemini'
+export type TtsLang = 'en' | 'bn'
 
 const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4'
 const CHROMIUM_FULL_VERSION = '143.0.3650.75'
 const WINDOWS_FILE_TIME_EPOCH = 11644473600n
-const GEMINI_TTS_MODEL = 'gemini-3.1-flash-tts-preview'
+const GEMINI_TTS_MODELS = [
+  'gemini-3.1-flash-tts-preview',
+  'gemini-2.5-flash-preview-tts',
+] as const
 const GEMINI_PCM_RATE = 24000
 const GEMINI_PCM_CHANNELS = 1
 const GEMINI_PCM_SAMPLE_WIDTH = 2
@@ -104,8 +108,13 @@ export async function synthesizeBangla(
   text: string,
   voice: string,
   rate: number,
+  spokenLang: TtsLang = 'bn',
 ): Promise<Buffer> {
-  const lang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
+  const xmlLang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
+  const spoken =
+    spokenLang === 'en'
+      ? `<lang xml:lang="en-US">${escapeXml(text)}</lang>`
+      : escapeXml(text)
   const edgeRate = rateToEdge(rate)
   const chromeMajor = CHROMIUM_FULL_VERSION.split('.')[0]
   const wsUrl =
@@ -169,10 +178,10 @@ export async function synthesizeBangla(
       const requestId = randomBytes(16).toString('hex')
       ws.send(
         `X-RequestId:${requestId}\r\nContent-Type:application/ssml+xml\r\nPath:ssml\r\n\r\n` +
-          `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="${lang}">` +
+          `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="${xmlLang}">` +
           `<voice name="${voice}">` +
           `<prosody rate="${edgeRate}" pitch="default" volume="default">` +
-          `${escapeXml(text)}` +
+          `${spoken}` +
           `</prosody></voice></speak>`,
       )
     })
@@ -250,27 +259,39 @@ function extractGeminiAudioBase64(payload: unknown): string | null {
   return null
 }
 
-/**
- * Synthesize Bangla speech via Gemini TTS (generateContent).
- * Returns WAV bytes (PCM wrapped) for browser playback.
- */
-export async function synthesizeGeminiBangla(
+function geminiPrompt(text: string, lang: TtsLang): string {
+  if (lang === 'en') {
+    return `Speak clearly in English for a young child learning words. Read exactly: «${text}»`
+  }
+  return `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
+}
+
+function geminiLanguageCode(lang: TtsLang): string | undefined {
+  return lang === 'en' ? 'en-US' : undefined
+}
+
+function isQuotaMessage(message: string, httpStatus: number) {
+  return (
+    httpStatus === 429 ||
+    /quota exceeded|resource exhausted|rate.?limit/i.test(message)
+  )
+}
+
+async function synthesizeGeminiWithModel(
+  model: string,
   text: string,
   voice: string,
-  clientApiKey?: string | null,
+  apiKey: string,
+  lang: TtsLang,
 ): Promise<Buffer> {
-  const apiKey = resolveGeminiApiKey(clientApiKey)
-
-  const prompt =
-    `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
-
+  const prompt = geminiPrompt(text, lang)
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), 25000)
 
   try {
     const url =
       `https://generativelanguage.googleapis.com/v1beta/models/` +
-      `${GEMINI_TTS_MODEL}:generateContent`
+      `${model}:generateContent`
 
     const res = await fetch(url, {
       method: 'POST',
@@ -284,6 +305,7 @@ export async function synthesizeGeminiBangla(
         generationConfig: {
           responseModalities: ['AUDIO'],
           speechConfig: {
+            languageCode: geminiLanguageCode(lang),
             voiceConfig: {
               prebuiltVoiceConfig: {
                 voiceName: voice,
@@ -305,7 +327,9 @@ export async function synthesizeGeminiBangla(
       } catch {
         if (bodyText.trim()) message = bodyText.slice(0, 200)
       }
-      throw new Error(message)
+      const err = new Error(message) as Error & { status?: number }
+      err.status = isQuotaMessage(message, res.status) ? 429 : res.status
+      throw err
     }
 
     let payload: unknown
@@ -326,11 +350,44 @@ export async function synthesizeGeminiBangla(
   }
 }
 
+/**
+ * Synthesize speech via Gemini TTS (generateContent).
+ * Same prebuilt voice for English and Bangla. Returns WAV bytes.
+ * Tries 3.1 first, then 2.5 if that model is rate-limited.
+ */
+export async function synthesizeGeminiBangla(
+  text: string,
+  voice: string,
+  clientApiKey?: string | null,
+  lang: TtsLang = 'bn',
+): Promise<Buffer> {
+  const apiKey = resolveGeminiApiKey(clientApiKey)
+  let lastError: Error | null = null
+
+  for (const model of GEMINI_TTS_MODELS) {
+    try {
+      return await synthesizeGeminiWithModel(model, text, voice, apiKey, lang)
+    } catch (err) {
+      lastError = err instanceof Error ? err : new Error(String(err))
+      const status =
+        err && typeof err === 'object' && 'status' in err
+          ? Number((err as { status?: number }).status)
+          : 0
+      if (!isQuotaMessage(lastError.message, status)) throw lastError
+    }
+  }
+
+  const fail = lastError ?? new Error('Gemini TTS failed')
+  ;(fail as Error & { status?: number }).status = 429
+  throw fail
+}
+
 export type TtsRequestParams = {
   text: string
   voice: string
   rate: number
   engine: TtsEngine
+  lang: TtsLang
   clientApiKey?: string | null
 }
 
@@ -345,6 +402,8 @@ export function parseTtsParams(searchParams: URLSearchParams):
   const text = (searchParams.get('text') ?? '').trim()
   const engineRaw = (searchParams.get('engine') ?? 'gemini').toLowerCase()
   const engine: TtsEngine = engineRaw === 'neural' ? 'neural' : 'gemini'
+  const langRaw = (searchParams.get('lang') ?? 'bn').toLowerCase()
+  const lang: TtsLang = langRaw === 'en' ? 'en' : 'bn'
   const voice =
     searchParams.get('voice') ??
     (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural')
@@ -368,6 +427,7 @@ export function parseTtsParams(searchParams: URLSearchParams):
       voice,
       rate: Number.isFinite(rate) ? rate : 0.85,
       engine,
+      lang,
     },
   }
 }
@@ -378,9 +438,15 @@ export async function synthesizeTts(params: TtsRequestParams): Promise<TtsResult
       params.text,
       params.voice,
       params.clientApiKey,
+      params.lang,
     )
     return { audio, contentType: 'audio/wav' }
   }
-  const audio = await synthesizeBangla(params.text, params.voice, params.rate)
+  const audio = await synthesizeBangla(
+    params.text,
+    params.voice,
+    params.rate,
+    params.lang,
+  )
   return { audio, contentType: 'audio/mpeg' }
 }

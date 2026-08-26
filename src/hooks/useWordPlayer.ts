@@ -22,8 +22,11 @@ function buildPlaylist(words: Word[], shuffle: boolean) {
   return shuffle ? shuffleList(words) : words
 }
 
+/** Current word is spoken on demand; only the next word is prefetched. */
+const PREFETCH_AHEAD = 1
+
 export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
-  const { speakWord, cancel, prefetchBangla, unlockAudio } = useSpeech()
+  const { speakWord, cancel, prefetchWordAudio, unlockAudio } = useSpeech()
   const [playlist, setPlaylist] = useState<Word[]>(() =>
     buildPlaylist(words, settings.shuffle),
   )
@@ -59,6 +62,32 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
     setPhase('idle')
   }, [words, settings.shuffle, cancel])
 
+  const prefetchWindow = useCallback(
+    (fromIndex: number) => {
+      const s = settingsRef.current
+      if (s.muted || s.banglaEngine === 'device') return
+      const list = playlistRef.current
+      const last = Math.min(list.length, fromIndex + PREFETCH_AHEAD)
+      for (let i = Math.max(0, fromIndex); i < last; i++) {
+        const word = list[i]
+        prefetchWordAudio(
+          {
+            id: word.id,
+            en: word.en,
+            bn: word.bn,
+            exampleEn: word.exampleEn,
+            exampleBn: word.exampleBn,
+          },
+          s.geminiVoice,
+          s.rate,
+          s.banglaEngine,
+          s.speechMode,
+        )
+      }
+    },
+    [prefetchWordAudio],
+  )
+
   const playFrom = useCallback(
     async (startIndex: number) => {
       const runId = ++runIdRef.current
@@ -68,6 +97,8 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
       const isStopped = () =>
         runId !== runIdRef.current || phaseRef.current === 'paused'
 
+      prefetchWindow(startIndex + 1)
+
       for (let i = startIndex; i < playlistRef.current.length; i++) {
         if (isStopped()) return
         setIndex(i)
@@ -75,49 +106,39 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
         const word = playlistRef.current[i]
         const s = settingsRef.current
 
-        const nextWord = playlistRef.current[i + 1]
-        if (
-          nextWord &&
-          (s.banglaEngine === 'neural' || s.banglaEngine === 'gemini') &&
-          s.speechMode !== 'en-only'
-        ) {
-          prefetchBangla(
-            {
-              id: nextWord.id,
-              en: nextWord.en,
-              bn: nextWord.bn,
-              exampleEn: nextWord.exampleEn,
-              exampleBn: nextWord.exampleBn,
-            },
-            s.banglaEngine === 'gemini' ? s.geminiVoice : s.banglaVoice,
-            s.rate,
-            s.banglaEngine,
-          )
-        }
+        prefetchWindow(i + 1)
 
-        try {
-          await speakWord(
-            {
-              id: word.id,
-              en: word.en,
-              bn: word.bn,
-              exampleEn: word.exampleEn,
-              exampleBn: word.exampleBn,
-            },
-            {
-              rate: s.rate,
-              volume: s.volume,
-              muted: s.muted,
-              mode: s.speechMode,
-              banglaVoice: s.banglaVoice,
-              geminiVoice: s.geminiVoice,
-              banglaEngine: s.banglaEngine,
-              enBnGapMs: s.enBnGapMs,
-              banglaRepeat: s.banglaRepeat,
-            },
-          )
-        } catch {
-          // continue even if speech fails
+        let heard = false
+        while (!heard) {
+          if (isStopped()) return
+          try {
+            await speakWord(
+              {
+                id: word.id,
+                en: word.en,
+                bn: word.bn,
+                exampleEn: word.exampleEn,
+                exampleBn: word.exampleBn,
+              },
+              {
+                rate: s.rate,
+                volume: s.volume,
+                muted: s.muted,
+                mode: s.speechMode,
+                banglaVoice: s.banglaVoice,
+                geminiVoice: s.geminiVoice,
+                banglaEngine: s.banglaEngine,
+                enBnGapMs: s.enBnGapMs,
+                banglaRepeat: s.banglaRepeat,
+              },
+            )
+            heard = true
+          } catch {
+            if (isStopped()) return
+            await new Promise<void>((resolve) => {
+              window.setTimeout(resolve, 600)
+            })
+          }
         }
 
         if (isStopped()) return
@@ -151,7 +172,7 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
         phaseRef.current = 'done'
       }
     },
-    [speakWord, prefetchBangla],
+    [speakWord, prefetchWindow],
   )
 
   const reshuffleIfNeeded = useCallback(() => {
@@ -171,8 +192,9 @@ export function useWordPlayer({ words, settings }: UseWordPlayerArgs) {
       if (found >= 0) startIndex = found
     }
     setIndex(startIndex)
+    prefetchWindow(startIndex + 1)
     void playFrom(startIndex)
-  }, [cancel, playFrom, reshuffleIfNeeded, unlockAudio])
+  }, [cancel, playFrom, prefetchWindow, reshuffleIfNeeded, unlockAudio])
 
   const pause = useCallback(() => {
     runIdRef.current += 1

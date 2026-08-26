@@ -382,7 +382,7 @@ export function ParentDashboard({
             <dd>{modeLabel}</dd>
           </div>
           <div>
-            <dt>Bangla voice</dt>
+            <dt>Voice</dt>
             <dd>{banglaVoiceSummary}</dd>
           </div>
           <div>

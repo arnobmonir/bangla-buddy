@@ -8,8 +8,8 @@ export default defineConfig(({ mode }) => {
   // Vite only auto-exposes VITE_* to the client. Load all env so the /api/tts
   // and /api/translate middleware can read GEMINI_API_KEY from .env.local.
   const env = loadEnv(mode, process.cwd(), '')
-  if (env.GEMINI_API_KEY && !process.env.GEMINI_API_KEY) {
-    process.env.GEMINI_API_KEY = env.GEMINI_API_KEY
+  if (env.GEMINI_API_KEY?.trim()) {
+    process.env.GEMINI_API_KEY = env.GEMINI_API_KEY.trim()
   }
 
   return {

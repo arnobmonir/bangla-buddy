@@ -33,7 +33,7 @@ export function Quiz({
   onHome,
   onQuizComplete,
 }: Props) {
-  const { speakWord, cancel } = useSpeech()
+  const { speakWord, cancel, prefetchWordAudio } = useSpeech()
   const [phase, setPhase] = useState<Phase>('loading')
   const [error, setError] = useState<string | null>(null)
   const [questions, setQuestions] = useState<QuizQuestion[]>([])
@@ -139,12 +139,49 @@ export function Quiz({
     [speakWord, settings.muted, speakOpts],
   )
 
+  useEffect(() => {
+    if (!current) return
+    if (settings.banglaEngine === 'device' || settings.muted) return
+    const voice = settings.geminiVoice
+    const rate = settings.rate
+    const engine = settings.banglaEngine
+
+    const prefetchQuestion = (question: QuizQuestion) => {
+      prefetchWordAudio(
+        { id: question.word.id, en: question.word.en, bn: question.word.bn },
+        voice,
+        rate,
+        engine,
+        'en-bn',
+      )
+      for (const choice of question.choices) {
+        prefetchWordAudio(
+          { id: choice.wordId, en: '', bn: choice.bn },
+          voice,
+          rate,
+          engine,
+          'bn-only',
+        )
+      }
+    }
+
+    prefetchQuestion(current)
+  }, [current, settings, prefetchWordAudio])
+
   const playQuestionIntro = useCallback(
     async (question: QuizQuestion, ticket: number) => {
       setIntroPlaying(true)
       setFocusedIdx(null)
 
-      await speakEnglish(question.word)
+      for (;;) {
+        if (ticket !== introTicketRef.current) return
+        try {
+          await speakEnglish(question.word)
+          break
+        } catch {
+          await wait(600)
+        }
+      }
       if (ticket !== introTicketRef.current) return
 
       await wait(Math.max(220, settings.enBnGapMs))
@@ -155,10 +192,17 @@ export function Quiz({
         const choice = question.choices[i]
         setFocusedIdx(i)
         if (settings.muted) {
-          // Still walk focus visually when audio is off
           await wait(900)
         } else {
-          await speakBangla(choice.wordId, choice.bn)
+          for (;;) {
+            if (ticket !== introTicketRef.current) return
+            try {
+              await speakBangla(choice.wordId, choice.bn)
+              break
+            } catch {
+              await wait(600)
+            }
+          }
         }
         if (ticket !== introTicketRef.current) return
         if (i < question.choices.length - 1) {
@@ -231,11 +275,19 @@ export function Quiz({
     const ticket = ++answerTicketRef.current
 
     void (async () => {
-      if (correct) {
-        await speakBangla(wordId, bn)
-      } else {
-        setFocusedIdx(correctIdx >= 0 ? correctIdx : null)
-        await speakBangla(correctId, correctBn)
+      for (;;) {
+        if (ticket !== answerTicketRef.current) return
+        try {
+          if (correct) {
+            await speakBangla(wordId, bn)
+          } else {
+            setFocusedIdx(correctIdx >= 0 ? correctIdx : null)
+            await speakBangla(correctId, correctBn)
+          }
+          break
+        } catch {
+          await wait(600)
+        }
       }
       if (ticket !== answerTicketRef.current) return
       await new Promise<void>((resolve) => {

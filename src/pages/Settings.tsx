@@ -436,9 +436,9 @@ export function Settings({
             🗣️
           </span>
           <div>
-            <h2 className={styles.sectionTitle}>Bangla voice</h2>
+            <h2 className={styles.sectionTitle}>Voice</h2>
             <p className={styles.sectionHint}>
-              Gemini (default), Neural (Edge), or device — cached on this device
+              Gemini (default) uses the same voice for English and Bangla — words, categories, and quiz
             </p>
           </div>
         </div>
@@ -466,7 +466,7 @@ export function Settings({
               <p className={styles.cacheTitle}>Gemini API key</p>
               <p className={styles.cacheMeta}>
                 {hasLocalGeminiKey
-                  ? 'Saved on this device — used for Gemini voice and hold-to-speak translate'
+                  ? 'Saved on this device — used for Gemini English + Bangla voice and hold-to-speak translate'
                   : 'No server key found. Paste a key from Google AI Studio to enable Gemini.'}
               </p>
             </div>
@@ -557,7 +557,7 @@ export function Settings({
 
         <div className={styles.cacheBox}>
           <div>
-            <p className={styles.cacheTitle}>Cached Bangla audio</p>
+            <p className={styles.cacheTitle}>Cached voice audio</p>
             <p className={styles.cacheMeta}>{cacheLabel}</p>
           </div>
           <button

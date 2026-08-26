@@ -24,7 +24,10 @@ const ALLOWED_GEMINI_VOICES = new Set([
 const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4'
 const CHROMIUM_FULL_VERSION = '143.0.3650.75'
 const WINDOWS_FILE_TIME_EPOCH = 11644473600n
-const GEMINI_TTS_MODEL = 'gemini-3.1-flash-tts-preview'
+const GEMINI_TTS_MODELS = [
+  'gemini-3.1-flash-tts-preview',
+  'gemini-2.5-flash-preview-tts',
+]
 const GEMINI_PCM_RATE = 24000
 
 function generateSecMsGecToken() {
@@ -108,6 +111,8 @@ function parseTtsParams(query) {
   const text = String(query.text ?? '').trim()
   const engineRaw = String(query.engine ?? 'gemini').toLowerCase()
   const engine = engineRaw === 'neural' ? 'neural' : 'gemini'
+  const langRaw = String(query.lang ?? 'bn').toLowerCase()
+  const lang = langRaw === 'en' ? 'en' : 'bn'
   const voice = String(
     query.voice ?? (engine === 'gemini' ? 'Leda' : 'bn-IN-TanishaaNeural'),
   )
@@ -131,14 +136,19 @@ function parseTtsParams(query) {
       voice,
       rate: Number.isFinite(rate) ? rate : 0.85,
       engine,
+      lang,
     },
   }
 }
 
-function synthesizeBangla(text, voice, rate) {
+function synthesizeBangla(text, voice, rate, spokenLang = 'bn') {
   // Lazy-load so Gemini requests don't need ws if Edge path isn't used.
   const WebSocket = require('ws')
-  const lang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
+  const xmlLang = voice.startsWith('bn-BD') ? 'bn-BD' : 'bn-IN'
+  const spoken =
+    spokenLang === 'en'
+      ? `<lang xml:lang="en-US">${escapeXml(text)}</lang>`
+      : escapeXml(text)
   const edgeRate = rateToEdge(rate)
   const chromeMajor = CHROMIUM_FULL_VERSION.split('.')[0]
   const wsUrl =
@@ -202,10 +212,10 @@ function synthesizeBangla(text, voice, rate) {
       const requestId = randomBytes(16).toString('hex')
       ws.send(
         `X-RequestId:${requestId}\r\nContent-Type:application/ssml+xml\r\nPath:ssml\r\n\r\n` +
-          `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="${lang}">` +
+          `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="${xmlLang}">` +
           `<voice name="${voice}">` +
           `<prosody rate="${edgeRate}" pitch="default" volume="default">` +
-          `${escapeXml(text)}` +
+          `${spoken}` +
           `</prosody></voice></speak>`,
       )
     })
@@ -264,18 +274,32 @@ function readGeminiApiKeyHeader(req) {
   return undefined
 }
 
-async function synthesizeGeminiBangla(text, voice, clientApiKey) {
-  const apiKey = resolveGeminiApiKey(clientApiKey)
+function geminiPrompt(text, lang) {
+  if (lang === 'en') {
+    return `Speak clearly in English for a young child learning words. Read exactly: «${text}»`
+  }
+  return `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
+}
 
-  const prompt =
-    `Speak clearly in Bangla for a young child learning words. Read exactly: «${text}»`
+function geminiLanguageCode(lang) {
+  return lang === 'en' ? 'en-US' : undefined
+}
 
+function isQuotaMessage(message, httpStatus) {
+  return (
+    httpStatus === 429 ||
+    /quota exceeded|resource exhausted|rate.?limit/i.test(message)
+  )
+}
+
+async function synthesizeGeminiWithModel(model, text, voice, apiKey, lang) {
+  const prompt = geminiPrompt(text, lang)
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), 25000)
 
   try {
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_TTS_MODEL}:generateContent`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
       {
         method: 'POST',
         signal: controller.signal,
@@ -288,6 +312,7 @@ async function synthesizeGeminiBangla(text, voice, clientApiKey) {
           generationConfig: {
             responseModalities: ['AUDIO'],
             speechConfig: {
+              languageCode: geminiLanguageCode(lang),
               voiceConfig: {
                 prebuiltVoiceConfig: {
                   voiceName: voice,
@@ -308,7 +333,9 @@ async function synthesizeGeminiBangla(text, voice, clientApiKey) {
       } catch {
         if (bodyText.trim()) message = bodyText.slice(0, 200)
       }
-      throw new Error(message)
+      const err = new Error(message)
+      err.status = isQuotaMessage(message, res.status) ? 429 : res.status
+      throw err
     }
 
     let payload
@@ -327,6 +354,25 @@ async function synthesizeGeminiBangla(text, voice, clientApiKey) {
   } finally {
     clearTimeout(timeout)
   }
+}
+
+async function synthesizeGeminiBangla(text, voice, clientApiKey, lang = 'bn') {
+  const apiKey = resolveGeminiApiKey(clientApiKey)
+  let lastError = null
+
+  for (const model of GEMINI_TTS_MODELS) {
+    try {
+      return await synthesizeGeminiWithModel(model, text, voice, apiKey, lang)
+    } catch (err) {
+      lastError = err instanceof Error ? err : new Error(String(err))
+      const status = typeof err?.status === 'number' ? err.status : 0
+      if (!isQuotaMessage(lastError.message, status)) throw lastError
+    }
+  }
+
+  const fail = lastError ?? new Error('Gemini TTS failed')
+  fail.status = 429
+  throw fail
 }
 
 module.exports = async function handler(req, res) {
@@ -369,6 +415,7 @@ module.exports = async function handler(req, res) {
         parsed.value.text,
         parsed.value.voice,
         readGeminiApiKeyHeader(req),
+        parsed.value.lang,
       )
       contentType = 'audio/wav'
     } else {
@@ -376,6 +423,7 @@ module.exports = async function handler(req, res) {
         parsed.value.text,
         parsed.value.voice,
         parsed.value.rate,
+        parsed.value.lang,
       )
       contentType = 'audio/mpeg'
     }

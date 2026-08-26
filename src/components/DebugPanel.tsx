@@ -299,6 +299,7 @@ export function DebugPanel({ open, onClose, settings, screenName }: Props) {
                     voice,
                     settings.rate,
                     engine,
+                    'bn',
                   )
                   const url = URL.createObjectURL(blob)
                   const audio = new Audio(url)
@@ -308,6 +309,34 @@ export function DebugPanel({ open, onClose, settings, screenName }: Props) {
               }
             >
               {busy === 'tts' ? '…' : 'Speak বিড়াল'}
+            </button>
+            <button
+              type="button"
+              className={styles.action}
+              disabled={busy != null || settings.banglaEngine === 'device'}
+              onClick={() =>
+                void runTest('tts-en', async () => {
+                  const engine =
+                    settings.banglaEngine === 'gemini' ? 'gemini' : 'neural'
+                  const voice =
+                    engine === 'gemini'
+                      ? settings.geminiVoice
+                      : settings.banglaVoice
+                  const blob = await fetchBanglaAudio(
+                    'cat',
+                    voice,
+                    settings.rate,
+                    engine,
+                    'en',
+                  )
+                  const url = URL.createObjectURL(blob)
+                  const audio = new Audio(url)
+                  await audio.play()
+                  audio.onended = () => URL.revokeObjectURL(url)
+                })
+              }
+            >
+              {busy === 'tts-en' ? '…' : 'Speak cat'}
             </button>
             <button
               type="button"

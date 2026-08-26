@@ -2,8 +2,10 @@
  * Prefer server env GEMINI_API_KEY; fall back to a client-provided key
  * (Settings → localStorage) when the env key is missing.
  */
+import { ensureGeminiApiKeyFromFiles } from './loadGeminiEnv.ts'
+
 export function resolveGeminiApiKey(clientKey?: string | null): string {
-  const fromEnv = process.env.GEMINI_API_KEY?.trim()
+  const fromEnv = ensureGeminiApiKeyFromFiles()
   if (fromEnv) return fromEnv
 
   const fromClient = typeof clientKey === 'string' ? clientKey.trim() : ''

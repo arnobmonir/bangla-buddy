@@ -2,6 +2,7 @@
 
 let sharedAudio: HTMLAudioElement | null = null
 let unlockPromise: Promise<void> | null = null
+let activeFinish: ((interrupted?: boolean, err?: Error) => void) | null = null
 
 const SILENT_WAV =
   'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQAAAAA='
@@ -49,15 +50,20 @@ export function unlockAudioPlayback(): Promise<void> {
 }
 
 export function stopSharedAudio(): void {
-  if (!sharedAudio) return
-  sharedAudio.onended = null
-  sharedAudio.onerror = null
-  sharedAudio.pause()
-  try {
-    sharedAudio.currentTime = 0
-  } catch {
-    /* ignore */
+  const finish = activeFinish
+  activeFinish = null
+  if (sharedAudio) {
+    sharedAudio.onended = null
+    sharedAudio.onerror = null
+    sharedAudio.onloadedmetadata = null
+    sharedAudio.pause()
+    try {
+      sharedAudio.currentTime = 0
+    } catch {
+      /* ignore */
+    }
   }
+  finish?.(true)
 }
 
 export function playAudioBlob(
@@ -76,26 +82,43 @@ export function playAudioBlob(
 
   return new Promise((resolve, reject) => {
     let settled = false
-    const finish = (err?: Error) => {
+    const finish = (interrupted?: boolean, err?: Error) => {
       if (settled) return
       settled = true
+      if (activeFinish === finish) activeFinish = null
       audio.onended = null
       audio.onerror = null
       audio.onloadedmetadata = null
       URL.revokeObjectURL(url)
-      if (err) reject(err)
+      if (interrupted) resolve()
+      else if (err) reject(err)
       else resolve()
     }
+
+    activeFinish = finish
 
     const applyPlayback = () => {
       audio.playbackRate = playbackRate
       audio.volume = Math.min(1, Math.max(0, volume))
     }
 
-    audio.onended = () => finish()
-    audio.onerror = () => finish(new Error('Audio playback failed'))
-    // Browsers may reset playbackRate when src changes; re-apply after metadata.
-    audio.onloadedmetadata = () => applyPlayback()
+    audio.onended = () => {
+      const duration = audio.duration
+      const played = Number.isFinite(duration) ? duration : audio.currentTime
+      if (played > 0 && played < 0.08) {
+        finish(false, new Error('Audio clip ended before it could be heard'))
+        return
+      }
+      finish()
+    }
+    audio.onerror = () => finish(false, new Error('Audio playback failed'))
+    audio.onloadedmetadata = () => {
+      applyPlayback()
+      const duration = audio.duration
+      if (Number.isFinite(duration) && duration > 0 && duration < 0.08) {
+        finish(false, new Error('Audio clip too short'))
+      }
+    }
     audio.src = url
     applyPlayback()
 
@@ -103,10 +126,12 @@ export function playAudioBlob(
       try {
         await audio.play()
       } catch (first) {
-        // Mobile often needs a short retry after speechSynthesis / network await.
+        if (settled) return
         await new Promise((r) => window.setTimeout(r, 120))
+        if (settled) return
         try {
           await unlockAudioPlayback()
+          if (settled) return
           applyPlayback()
           await audio.play()
         } catch (second) {
@@ -116,7 +141,7 @@ export function playAudioBlob(
               : first instanceof Error
                 ? first.message
                 : 'Audio play blocked'
-          finish(new Error(message))
+          finish(false, new Error(message))
         }
       }
     }

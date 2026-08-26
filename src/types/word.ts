@@ -79,10 +79,10 @@ export const DEFAULT_SETTINGS: AppSettings = {
 }
 
 export const BANGLA_VOICES: { id: BanglaVoiceId; label: string }[] = [
+  { id: 'bn-BD-PradeepNeural', label: 'Pradeep (Bangladesh)' },
+  { id: 'bn-BD-NabanitaNeural', label: 'Nabanita (Bangladesh)' },
   { id: 'bn-IN-TanishaaNeural', label: 'Tanishaa (soft, India)' },
   { id: 'bn-IN-BashkarNeural', label: 'Bashkar (clear, India)' },
-  { id: 'bn-BD-NabanitaNeural', label: 'Nabanita (Bangladesh)' },
-  { id: 'bn-BD-PradeepNeural', label: 'Pradeep (Bangladesh)' },
 ]
 
 export const GEMINI_VOICES: { id: GeminiVoiceId; label: string }[] = [

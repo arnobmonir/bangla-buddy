@@ -131,7 +131,7 @@ export function SpeakTranslate({ settings }: Props) {
 
       await playBanglaCloud({
         text: bn,
-        engine: settings.banglaEngine === 'neural' ? 'neural' : 'gemini',
+        engine: 'gemini',
         geminiVoice: settings.geminiVoice,
         banglaVoice: settings.banglaVoice,
         rate: settings.rate,

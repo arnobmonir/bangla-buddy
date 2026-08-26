@@ -2,6 +2,7 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Connect, Plugin } from 'vite'
 import { parseTtsParams, synthesizeTts } from '../server/banglaTts.ts'
 import { readGeminiApiKeyHeader } from '../server/geminiKey.ts'
+import { ensureGeminiApiKeyFromFiles } from '../server/loadGeminiEnv.ts'
 
 function sendJson(res: ServerResponse, status: number, body: unknown) {
   res.statusCode = status
@@ -56,7 +57,9 @@ async function handleTts(
     const status =
       err && typeof err === 'object' && 'status' in err && typeof (err as { status: unknown }).status === 'number'
         ? (err as { status: number }).status
-        : 502
+        : /quota exceeded|resource exhausted|rate.?limit/i.test(message)
+          ? 429
+          : 502
     sendJson(res, status, { error: message })
   }
 }
@@ -72,7 +75,7 @@ export function banglaTtsApiPlugin(): Plugin {
           res.end(
             JSON.stringify({
               ok: true,
-              hasGeminiKey: Boolean(process.env.GEMINI_API_KEY?.trim()),
+              hasGeminiKey: Boolean(ensureGeminiApiKeyFromFiles()),
             }),
           )
           return
@@ -92,7 +95,7 @@ export function banglaTtsApiPlugin(): Plugin {
           res.end(
             JSON.stringify({
               ok: true,
-              hasGeminiKey: Boolean(process.env.GEMINI_API_KEY?.trim()),
+              hasGeminiKey: Boolean(ensureGeminiApiKeyFromFiles()),
             }),
           )
           return

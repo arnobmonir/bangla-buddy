@@ -3,8 +3,9 @@ import {
   stopSharedAudio,
   unlockAudioPlayback,
 } from '../lib/audioPlayer'
-import { fetchBanglaAudio } from '../lib/banglaTts'
+import { fetchBanglaAudio, isTtsQuotaCooling } from '../lib/banglaTts'
 import { playBanglaCloud } from '../lib/playBanglaCloud'
+import { isOffline } from '../lib/network'
 import type {
   BanglaEngine,
   BanglaVoiceId,
@@ -129,18 +130,30 @@ export function useSpeech() {
     [],
   )
 
-  const speakBanglaText = useCallback(
-    async (text: string, options: SpeakOptions, generation: number) => {
+  const speakCloudText = useCallback(
+    async (
+      text: string,
+      lang: 'en' | 'bn',
+      options: SpeakOptions,
+      generation: number,
+    ) => {
       if (generation !== generationRef.current) return
 
       if (options.banglaEngine === 'device') {
-        await speakBrowser(text, ['bn-BD', 'bn-IN', 'bn'], options.rate, options.volume, generation)
+        await speakBrowser(
+          text,
+          lang === 'en' ? ['en-US', 'en-GB', 'en'] : ['bn-BD', 'bn-IN', 'bn'],
+          options.rate,
+          options.volume,
+          generation,
+        )
         return
       }
 
       await playBanglaCloud({
         text,
-        engine: options.banglaEngine === 'gemini' ? 'gemini' : 'neural',
+        lang,
+        engine: 'gemini',
         geminiVoice: options.geminiVoice,
         banglaVoice: options.banglaVoice,
         rate: options.rate,
@@ -152,12 +165,19 @@ export function useSpeech() {
     [speakBrowser],
   )
 
+  const speakBanglaText = useCallback(
+    async (text: string, options: SpeakOptions, generation: number) => {
+      await speakCloudText(text, 'bn', options, generation)
+    },
+    [speakCloudText],
+  )
+
   const speakPair = useCallback(
     async (en: string, bn: string, options: SpeakOptions, generation: number) => {
       if (generation !== generationRef.current) return
 
       if (options.mode === 'en-bn' || options.mode === 'en-only') {
-        await speakBrowser(en, ['en-US', 'en-GB', 'en'], options.rate, options.volume, generation)
+        await speakCloudText(en, 'en', options, generation)
         if (generation !== generationRef.current) return
         if (options.mode === 'en-only') return
         await waitGap(options.enBnGapMs, generation)
@@ -174,7 +194,7 @@ export function useSpeech() {
         }
       }
     },
-    [speakBanglaText, speakBrowser, waitGap],
+    [speakBanglaText, speakCloudText, waitGap],
   )
 
   const speakWord = useCallback(
@@ -189,7 +209,7 @@ export function useSpeech() {
       if (options.muted) return
       if (generation !== generationRef.current) return
 
-      // Keep mobile media unlocked across English speechSynthesis → Bangla audio.
+      // Keep mobile media unlocked across Gemini clips / speechSynthesis gaps.
       await unlockAudioPlayback()
 
       if (window.speechSynthesis) {
@@ -202,15 +222,25 @@ export function useSpeech() {
     [speakPair],
   )
 
-  const prefetchBangla = useCallback(
+  const prefetchWordAudio = useCallback(
     (
       word: SpeakWordInput,
       voice: BanglaVoiceId | GeminiVoiceId,
       rate: number,
       engine: BanglaEngine,
+      mode: SpeechMode = 'en-bn',
     ) => {
-      if (engine !== 'neural' && engine !== 'gemini') return
-      void fetchBanglaAudio(word.bn, voice, rate, engine).catch(() => undefined)
+      if (engine === 'device' || isOffline() || isTtsQuotaCooling()) return
+      if (mode !== 'bn-only' && word.en.trim()) {
+        void fetchBanglaAudio(word.en, voice, rate, 'gemini', 'en', {
+          priority: 'prefetch',
+        }).catch(() => undefined)
+      }
+      if (mode !== 'en-only' && word.bn.trim()) {
+        void fetchBanglaAudio(word.bn, voice, rate, 'gemini', 'bn', {
+          priority: 'prefetch',
+        }).catch(() => undefined)
+      }
     },
     [],
   )
@@ -219,7 +249,8 @@ export function useSpeech() {
     speakWord,
     cancel,
     voicesReady,
-    prefetchBangla,
+    prefetchWordAudio,
+    prefetchBangla: prefetchWordAudio,
     unlockAudio: unlockAudioPlayback,
   }
 }
